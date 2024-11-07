@@ -27,7 +27,7 @@ console.log("oneData", oneData);
       </div>
       <div>
         <div class="mb-2 font-medium">{{ t("brief_description_site") }}</div>
-        <div v-html="t(oneData.description)" class="mb-6"></div>
+        <div v-html="t(oneData.description)" class="mb-6 text-justify"></div>
         <div class="overflow-hidden">
           <img
             :src="oneData.seo.image"
