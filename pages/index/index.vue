@@ -1,5 +1,5 @@
 <script setup>
-import useRank from "../rank/useRank";
+import useRank from "../../data/headquarters";
 import Seo from "../../components/Seo/MainPageSeo.vue";
 
 const { t } = useI18n();
@@ -19,7 +19,7 @@ console.log("data", data);
         </div>
         <div class="grid grid-cols-4 gap-4">
           <nuxt-link
-            :to="`rank/${item.slug}`"
+            :to="`government/${item.slug}`"
             class="link-block"
             v-for="(item, index) in data"
             :key="index"

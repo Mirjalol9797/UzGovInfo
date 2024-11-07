@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from "vue";
 import { useRoute } from "vue-router";
-import useRank from "./useRank";
+import useRank from "../../data/headquarters";
 import Seo from "../../components/Seo/RankPageSeo.vue";
 
 const { t } = useI18n();
