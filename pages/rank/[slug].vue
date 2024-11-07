@@ -21,11 +21,12 @@ console.log("oneData", oneData);
         {{ t(oneData.title) }}
       </h1>
       <div class="mb-6">
-        <span class="font-medium">Cсылка на официальный сайт</span>:
+        <span class="font-medium">{{ t("link_to_official_website") }}</span
+        >:
         <a :href="t(oneData.link)">{{ t(oneData.link) }}</a>
       </div>
       <div>
-        <div class="mb-2 font-medium">Краткая описания сайта</div>
+        <div class="mb-2 font-medium">{{ t("brief_description_site") }}</div>
         <div v-html="t(oneData.description)" class="mb-6"></div>
         <div>
           <img

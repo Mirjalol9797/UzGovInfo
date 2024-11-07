@@ -3,6 +3,7 @@
   "all_rights_reserved": "Barcha huquqlar himoyalangan.",
 
   "B": "B",
+  "brief_description_site": "Saytning qisqacha tavsifi",
 
   "C": "C",
 
@@ -26,12 +27,53 @@
         "description": "Oʻzbekiston Prezidenti rasmiy sayti orqali prezident idorasining yangiliklari, siyosati va dolzarb yangiliklarini kuzatib boring. Mamlakatning asosiy maqsadlari va tashabbuslari haqida ma'lumot oling.",
         "keywords": "Oʻzbekiston Prezidenti, rasmiy sayt, prezident yangiliklari, yangiliklar va maʼlumotlar, hukumat siyosati, prezident maqsadlari"
       }
+    },
+    "two": {
+      "title": "O‘zbekiston Respublikasi Oliy Majlisining Qonunchilik palatasi",
+      "description": "O‘zbekiston Oliy Majlisi rasmiy veb-sayti qonun chiqaruvchi jarayon, parlament tuzilmasi va uning asosiy funktsiyalari haqida batafsil ma'lumot beradi. Saytda Qonunchilik palatasi va Senat bo'limlari, sessiyalar, qonunlar va parlament tashabbuslari haqidagi yangiliklar mavjud. Shuningdek, parlament a'zolarining roli, huquqiy islohotlar va yangiliklar haqida ma'lumotlar mavjud. Fuqarolar uchun onlayn murojaat qabul qilish bo‘limi ham mavjud.",
+      "link": "https://parliament.gov.uz/uz",
+      "seo": {
+        "title": "Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi – tuzilma, vazifalar va faoliyat",
+        "description": "Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi mamlakatning qonun chiqaruvchi organi boʻlib, ijtimoiy, siyosiy va iqtisodiy tizimni shakllantirishda katta ahamiyat kasb etadi. Qonunchilik palatasi qonunlarni ishlab chiqish va tasdiqlash bilan shugʻullanib, aholining manfaatlarini himoya qilish va qonuniy jarayonlarni shaffof va samarali amalga oshirishga qaratilgan faoliyat olib boradi. Deputatlar qonun loyihalarini ishlab chiqish, davlat dasturlarini tasdiqlash va xalq farovonligini oshirish maqsadida ish olib boradilar. Shuningdek, Qonunchilik palatasi xalqaro hamkorlikni rivojlantirish va mamlakatda huquqiy tizimni mustahkamlashga intiladi.",
+        "keywords": "Oʻzbekiston Qonunchilik palatasi, Oliy Majlis Oʻzbekiston, parlament Oʻzbekiston, qonun chiqaruvchi palata, qonun chiqarish faoliyati, deputatlar faoliyati, davlat dasturlari, parlament vazifalari, xalqaro hamkorlik, qonunchilik nazorati, siyosiy jarayonlar, qonun loyihalari, ijtimoiy dasturlar, iqtisodiy dasturlar"
+      }
+    },
+    "three": {
+      "title": "O‘zbekiston Respublikasi Oliy Majlisining Senati",
+      "description": "O'zbekiston Oliy Majlisi Senati Qonunchilik jarayonida hal qiluvchi rol o'ynaydi. U mintaqaviy hukumatlar manfaatlarini himoya qiladi va Qonunchilik palatasi tomonidan qabul qilingan qonunlar ustidan nazoratni ta'minlaydi. Senat Konstitutsiyaga kiritilgan o'zgartirishlarni ko'rib chiqadi, xalqaro shartnomalarni ratifikatsiya qiladi va asosiy davlat lavozimlariga tayinlashni tasdiqlaydi. Senat a'zolari mintaqaviy kengashlardan saylanadi, bu Qonunchilik balansi va mintaqaviy vakillikka yordam beradi.",
+      "link": "https://senat.uz/ru",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "four": {
+      "title": "O‘zbekiston Respublikasining Hukumati",
+      "description": "O'zbekiston rasmiy hukumat portali gov.uz davlat tuzilmalari, siyosati va xizmatlari haqida batafsil ma'lumot beruvchi keng qamrovli onlayn manba bo'lib xizmat qiladi. Bu litsenziyalar, ruxsatnomalar va korxonalarni ro'yxatdan o'tkazish uchun onlayn arizalarni o'z ichiga olgan bir qator elektron xizmatlarga ommaviy kirishni osonlashtiradi. Portal hukumat yangiliklari, strategik rivojlanish rejalari va ta'lim, sog'liqni saqlash va iqtisodiyot kabi sohalardagi asosiy islohotlar to'g'risida yangilanishlarni taqdim etadi. Shuningdek, u fuqarolarning so'rov va fikr-mulohazalarini taqdim etish uchun hamkorlik platformalarini joylashtiradi, bu esa oshkoralik va boshqaruvda jamoatchilik ishtirokini rag'batlantiradi.",
+      "link": "https://gov.uz/uz",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "five": {
+      "title": "O‘zbekiston Respublikasining Konstitutsiyaviy sudi",
+      "description": "O‘zbekiston Konstitutsiyaviy sudining konstsud.uz veb-saytida sudning vazifalari, tuzilmasi, huquqiy asoslari, qarorlari haqida to‘liq ma’lumotlar berilgan. U Konstitutsiya, sud qoidalari va konstitutsiyaviy huquq bilan bog'liq hujjatlar bilan tanishish bo'yicha manbalarni o'z ichiga oladi. Shuningdek, saytda fuqarolarning so‘rovlari, sud faoliyatiga oid yangiliklar, jumladan, xalqaro tashkilotlar bilan uchrashuvlar bo‘limi ham mavjud. Bundan tashqari, sayt media galereyasi, nashrlar va sudga onlayn murojaat qilish imkoniyatini taqdim etadi.",
+      "link": "https://www.konstsud.uz/uz",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
     }
   },
   "I": "I",
   "K": "K",
 
   "L": "L",
+  "link_to_official_website": "Rasmiy veb-saytga havola",
 
   "M": "M",
 

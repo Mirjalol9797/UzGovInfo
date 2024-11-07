@@ -1,2 +1,13 @@
 User-agent: *
 Allow: /
+
+    "three": {
+      "title": "",
+      "description": "",
+      "link": "",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    }

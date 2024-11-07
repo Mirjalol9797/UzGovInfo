@@ -3,6 +3,7 @@
   "all_rights_reserved": "All rights reserved.",
 
   "B": "B",
+  "brief_description_site": "Brief description of the site",
 
   "C": "C",
 
@@ -26,12 +27,53 @@
         "description": "Access the official website of the President of Uzbekistan for the latest news, policies, and updates directly from the presidential office. Stay informed about national priorities and initiatives.",
         "keywords": "President of Uzbekistan, official website, presidential news, Uzbekistan government, presidential updates, national policies Uzbekistan, presidential office"
       }
+    },
+    "two": {
+      "title": "Legislative Chamber of the Oliy Majlis of the Republic of Uzbekistan",
+      "description": "The official website of the Oliy Majlis (Parliament) of Uzbekistan provides detailed information about the legislative process, the structure of the parliament, and its key functions. It features content on both the Legislative Chamber and Senate, along with updates on current and past sessions, laws, and parliamentary initiatives. The site also offers insights into the roles of members, legal reforms, and news releases. Additionally, there is a section for public engagement and queries.",
+      "link": "https://parliament.gov.uz/en",
+      "seo": {
+        "title": "Legislative Chamber of the Oliy Majlis of the Republic of Uzbekistan – Structure, Functions, and Activities",
+        "description": "The Legislative Chamber of the Oliy Majlis of Uzbekistan serves as the lower house of parliament, playing a key role in shaping the country’s political, social, and economic frameworks. Its primary responsibility is to draft and approve legislation that reflects citizens' interests and ensures transparency and efficiency in legislative processes. Members of the chamber develop and review laws, endorse state programs for improving public welfare, and promote Uzbekistan’s international relations. Additionally, the Legislative Chamber monitors law enforcement and regulatory compliance across the republic, striving to strengthen democracy and uphold the rule of law within Uzbekistan.",
+        "keywords": "Legislative Chamber, Oliy Majlis of Uzbekistan, Uzbekistan parliament, lawmaking process, lower house of parliament, legislative functions, parliamentary activities, Uzbekistan laws, economic policy Uzbekistan, social policy Uzbekistan, parliamentary structure, state programs Uzbekistan, Uzbekistan deputies, international relations Uzbekistan, legislative oversight, political processes, legislative chamber functions"
+      }
+    },
+    "three": {
+      "title": "Senate of the Oliy Majlis of the Republic of Uzbekistan",
+      "description": "The Senate of the Oliy Majlis of Uzbekistan plays a crucial role in the legislative process. It represents the interests of regional governments and ensures the oversight of laws passed by the Legislative Chamber. The Senate examines constitutional amendments, ratifies international treaties, and approves appointments to key state positions. Members of the Senate are elected from regional councils, contributing to the legislative balance and regional representation.",
+      "link": "https://senat.uz/",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "four": {
+      "title": "Government of the Republic of Uzbekistan",
+      "description": "The official government portal of Uzbekistan, gov.uz, serves as a comprehensive online resource offering detailed information on government structures, policies, and services. It facilitates public access to a range of electronic services, including online applications for licenses, permits, and business registrations. The portal provides updates on government news, strategic development plans, and key reforms in areas like education, healthcare, and the economy. It also hosts citizen engagement platforms for submitting inquiries and feedback, fostering transparency and public participation in governance.",
+      "link": "https://gov.uz/en",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "five": {
+      "title": "Constitutional Court of the Republic of Uzbekistan",
+      "description": "The website of the Constitutional Court of Uzbekistan, konstsud.uz, provides comprehensive information about the court's functions, its structure, legal basis, and decisions. It includes resources on the Constitution, the court's rules, and access to documents related to constitutional law. The site also features a section for citizen inquiries, as well as updates on the court's activities, including meetings with international organizations. Additionally, the site offers a media gallery, publications, and the option to contact the court online.",
+      "link": "https://www.konstsud.uz/en",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
     }
   },
   "I": "I",
   "K": "K",
 
   "L": "L",
+  "link_to_official_website": "Link to official website",
 
   "M": "M",
 
