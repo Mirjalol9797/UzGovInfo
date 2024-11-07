@@ -18,7 +18,14 @@
   "Headquarters": {
     "headtitle": "Markaziy muassasalar",
     "one": {
-      "title": "O‘zbekiston Respublikasi Prezidentining rasmiy veb-sayti"
+      "title": "O‘zbekiston Respublikasi Prezidentining rasmiy veb-sayti",
+      "description": "The official website of the President of Uzbekistan, Shavkat Mirziyoyev, provides news, official documents, speeches, and information on both domestic and international events involving the presidency. It includes sections for recent events, presidential decrees, and key strategic initiatives, along with a virtual reception for citizens' inquiries. The site also offers multimedia content, including photos and videos, and covers the President's visits abroad and meetings with international leaders.",
+      "link": "https://www.president.uz/uz",
+      "seo": {
+        "title": "Oʻzbekiston Prezidenti rasmiy sayti – yangiliklar va ma'lumotlar",
+        "description": "Oʻzbekiston Prezidenti rasmiy sayti orqali prezident idorasining yangiliklari, siyosati va dolzarb yangiliklarini kuzatib boring. Mamlakatning asosiy maqsadlari va tashabbuslari haqida ma'lumot oling.",
+        "keywords": "Oʻzbekiston Prezidenti, rasmiy sayt, prezident yangiliklari, yangiliklar va maʼlumotlar, hukumat siyosati, prezident maqsadlari"
+      }
     }
   },
   "I": "I",

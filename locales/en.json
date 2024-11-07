@@ -18,7 +18,14 @@
   "Headquarters": {
     "headtitle": "Headquarters",
     "one": {
-      "title": "Official web-site of the President of Uzbekistan"
+      "title": "Official web-site of the President of Uzbekistan",
+      "description": "The official website of the President of Uzbekistan, Shavkat Mirziyoyev, provides news, official documents, speeches, and information on both domestic and international events involving the presidency. It includes sections for recent events, presidential decrees, and key strategic initiatives, along with a virtual reception for citizens' inquiries. The site also offers multimedia content, including photos and videos, and covers the President's visits abroad and meetings with international leaders.",
+      "link": "https://www.president.uz/en",
+      "seo": {
+        "title": "Official Website of the President of Uzbekistan – Presidential News and Updates",
+        "description": "Access the official website of the President of Uzbekistan for the latest news, policies, and updates directly from the presidential office. Stay informed about national priorities and initiatives.",
+        "keywords": "President of Uzbekistan, official website, presidential news, Uzbekistan government, presidential updates, national policies Uzbekistan, presidential office"
+      }
     }
   },
   "I": "I",
