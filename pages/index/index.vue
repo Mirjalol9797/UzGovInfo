@@ -1,10 +1,9 @@
 <script setup>
-import useRank from "../../data/headquarters";
+import useHeadquarters from "../../data/headquarters";
 import Seo from "../../components/Seo/MainPageSeo.vue";
 
 const { t } = useI18n();
-const data = useRank();
-console.log("data", data);
+const headquarters = useHeadquarters();
 </script>
 
 <template>
@@ -21,7 +20,7 @@ console.log("data", data);
           <nuxt-link
             :to="`government/${item.slug}`"
             class="link-block"
-            v-for="(item, index) in data"
+            v-for="(item, index) in headquarters"
             :key="index"
           >
             <div class="min-w-[64px] h-[64px]">

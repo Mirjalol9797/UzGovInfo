@@ -1,15 +1,15 @@
 <script setup>
 import { computed } from "vue";
 import { useRoute } from "vue-router";
-import useRank from "../../data/headquarters";
+import useHeadquarters from "../../data/headquarters";
 import Seo from "../../components/Seo/RankPageSeo.vue";
 
 const { t } = useI18n();
-const data = useRank(t);
+const headquarters = useHeadquarters(t);
 const route = useRoute();
 
 const oneData = computed(() => {
-  return data.find((item) => item.slug == route.params.slug);
+  return headquarters.find((item) => item.slug == route.params.slug);
 });
 console.log("oneData", oneData);
 </script>
