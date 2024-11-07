@@ -87,6 +87,36 @@
         "description": "",
         "keywords": ""
       }
+    },
+    "eight": {
+      "title": "Central Election Commission",
+      "description": "The website saylov.uz is managed by the Central Election Commission of Uzbekistan and provides information about the electoral process, election laws, voting rights, and updates on upcoming elections. It includes resources on candidate registration, polling stations, and procedures for elections and referendums. The site also offers the latest news related to elections, voter education, and services for ensuring transparency in the electoral process.",
+      "link": "https://www.saylov.uz/en",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "nine": {
+      "title": "Central Bank of the Republic of Uzbekistan",
+      "description": "The official website of the Central Bank of the Republic of Uzbekistan (CBU) provides detailed information on monetary policy, banking systems, and financial stability in Uzbekistan. It offers resources on currency exchange rates, banking regulations, financial services, and national economic statistics. The site also includes news, press releases, reports, and updates on fiscal policies, payment systems, and the financial sector. Additionally, it features services such as online applications, licensing, and contact details for the public. The website aims to ensure transparency and access to information for citizens and financial institutions.",
+      "link": "https://cbu.uz/en/",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "ten": {
+      "title": "Accounts Chamber of the Republic of Uzbekistan",
+      "description": "The website of the Accounting Chamber of the Republic of Uzbekistan (ach.gov.uz) provides detailed information about the functions and activities of the Chamber, which is responsible for overseeing the state budget and ensuring financial accountability. It offers access to reports, legislative documents, and updates on the chamber's activities, including efforts to improve financial control and public sector auditing. Additionally, the site features tools for submitting public inquiries and accessing news related to financial reforms and initiatives in Uzbekistan.",
+      "link": "https://ach.gov.uz/uz",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
     }
   },
   "I": "I",

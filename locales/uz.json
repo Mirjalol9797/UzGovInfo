@@ -87,6 +87,36 @@
         "description": "",
         "keywords": ""
       }
+    },
+    "eight": {
+      "title": "O‘zbekiston Respublikasi Markaziy saylov komissiyasi",
+      "description": "Saylov.uz sayti O‘zbekiston Respublikasi Markaziy saylov komissiyasi tomonidan boshqariladi va saylov jarayoni, saylov qonunchiligi, saylov huquqlari, bo‘lajak saylovlarga oid yangiliklar haqida ma’lumot beradi. U nomzodlarni ro‘yxatga olish, saylov uchastkalari, saylov va referendum o‘tkazish tartib-qoidalariga oid resurslarni o‘z ichiga oladi. Saytda shuningdek, saylovga oid soʻnggi yangiliklar, saylovchilarni oʻqitish, saylov jarayonining shaffofligini taʼminlash boʻyicha xizmatlar taqdim etiladi.",
+      "link": "https://www.saylov.uz/oz",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "nine": {
+      "title": "O‘zbekiston Respublikasi Markaziy banki",
+      "description": "O‘zbekiston Respublikasi Markaziy bankining rasmiy veb-saytida O‘zbekistondagi pul-kredit siyosati, bank tizimlari, moliyaviy barqarorlik haqida batafsil ma’lumotlar joylashtirilgan. U valyuta kurslari, bank qoidalari, moliyaviy xizmatlar va milliy iqtisodiy statistika bo'yicha resurslarni taklif qiladi. Sayt shuningdek, yangiliklar, press-relizlar, hisobotlar va fiskal siyosat, to'lov tizimlari va moliya sektoriga oid yangilanishlarni o'z ichiga oladi. Bundan tashqari, u onlayn ilovalar, litsenziyalash va jamoatchilik uchun aloqa ma'lumotlari kabi xizmatlarga ega. Veb-sayt fuqarolar va moliya institutlari uchun shaffoflik va ma'lumotlardan foydalanish imkoniyatini ta'minlashga qaratilgan.",
+      "link": "https://cbu.uz/uz/",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "ten": {
+      "title": "O‘zbekiston Respublikasi Hisob palatasi",
+      "description": "O‘zbekiston Respublikasi Hisob palatasining veb-saytida (ach.gov.uz) Davlat byudjeti ijrosini nazorat qilish va moliyaviy hisobotni ta’minlash uchun mas’ul bo‘lgan Palataning funksiyalari va faoliyati to‘g‘risida batafsil ma’lumotlar joylashtirilgan. U hisobotlar, qonun hujjatlari va palata faoliyatiga oid yangilanishlar, jumladan, moliyaviy nazorat va davlat sektori auditini takomillashtirish bo‘yicha sa’y-harakatlar bilan tanishish imkonini beradi. Bundan tashqari, saytda O‘zbekistondagi moliyaviy islohotlar va tashabbuslar bilan bog‘liq ijtimoiy so‘rovlar va yangiliklardan foydalanish vositalari mavjud.",
+      "link": "https://ach.gov.uz/uz",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
     }
   },
   "I": "I",

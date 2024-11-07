@@ -98,5 +98,47 @@ export default function data() {
         image: "/images/Headquarters/www.prokuratura.uz.png",
       },
     },
+    {
+      id: 8,
+      slug: "central-election-commission",
+      title: "Headquarters.eight.title",
+      description: "Headquarters.eight.description",
+      img: "/images/gerb.png",
+      link: "Headquarters.eight.link",
+      seo: {
+        title: "Headquarters.eight.seo.title",
+        description: "Headquarters.eight.seo.description",
+        keywords: "Headquarters.eight.seo.keywords",
+        image: "/images/Headquarters/www.saylov.uz.png",
+      },
+    },
+    {
+      id: 9,
+      slug: "central-bank-of-the-republic-of-uzbekistan",
+      title: "Headquarters.nine.title",
+      description: "Headquarters.nine.description",
+      img: "/images/gerb.png",
+      link: "Headquarters.nine.link",
+      seo: {
+        title: "Headquarters.nine.seo.title",
+        description: "Headquarters.nine.seo.description",
+        keywords: "Headquarters.nine.seo.keywords",
+        image: "/images/Headquarters/cbu.uz.png",
+      },
+    },
+    {
+      id: 10,
+      slug: "accounts-chamber-of-the-republic-of-uzbekistan",
+      title: "Headquarters.ten.title",
+      description: "Headquarters.ten.description",
+      img: "/images/gerb.png",
+      link: "Headquarters.ten.link",
+      seo: {
+        title: "Headquarters.ten.seo.title",
+        description: "Headquarters.ten.seo.description",
+        keywords: "Headquarters.ten.seo.keywords",
+        image: "/images/Headquarters/ach.gov.uz.png",
+      },
+    },
   ];
 }
