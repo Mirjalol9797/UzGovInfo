@@ -67,6 +67,26 @@
         "description": "",
         "keywords": ""
       }
+    },
+    "six": {
+      "title": "Supreme Court of the Republic of Uzbekistan",
+      "description": "The sud.uz website is dedicated to the judicial system of Uzbekistan, offering detailed information about the structure, leadership, and activities of courts in the country. It provides access to legal documents, judicial decisions, and guidelines for electronic services. Additionally, users can find interactive services, reports on judicial statistics, and corruption prevention measures. The site also facilitates online submission of legal complaints and features a section for citizen inquiries and court schedules. You can explore more through its interactive platforms and access official announcements and services.",
+      "link": "https://sud.uz/",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "seven": {
+      "title": "General Prosecutor's Office of the Republic of Uzbekistan",
+      "description": "The website of the Prosecutor General's Office of Uzbekistan, prokuratura.uz, provides information about the country’s prosecutorial system, its functions, and services. It includes sections on legal reforms, public services, news, and official statements. The site also offers tools for submitting complaints, monitoring legal processes, and accessing legal documents. Additionally, users can find updates on criminal justice initiatives, anti-corruption efforts, and reforms within the prosecution office.",
+      "link": "https://www.prokuratura.uz/",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
     }
   },
   "I": "I",

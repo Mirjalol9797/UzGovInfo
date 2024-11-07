@@ -70,5 +70,33 @@ export default function data() {
         image: "/images/Headquarters/www.konstsud.uz.png",
       },
     },
+    {
+      id: 6,
+      slug: "supreme-court-of-the-republic-of-uzbekistan",
+      title: "Headquarters.six.title",
+      description: "Headquarters.six.description",
+      img: "/images/gerb.png",
+      link: "Headquarters.six.link",
+      seo: {
+        title: "Headquarters.six.seo.title",
+        description: "Headquarters.six.seo.description",
+        keywords: "Headquarters.six.seo.keywords",
+        image: "/images/Headquarters/sud.uz.png",
+      },
+    },
+    {
+      id: 7,
+      slug: "general-prosecutors-office-of-the-republic-of-uzbekistan",
+      title: "Headquarters.seven.title",
+      description: "Headquarters.seven.description",
+      img: "/images/gerb.png",
+      link: "Headquarters.seven.link",
+      seo: {
+        title: "Headquarters.seven.seo.title",
+        description: "Headquarters.seven.seo.description",
+        keywords: "Headquarters.seven.seo.keywords",
+        image: "/images/Headquarters/www.prokuratura.uz.png",
+      },
+    },
   ];
 }

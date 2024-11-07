@@ -67,6 +67,26 @@
         "description": "",
         "keywords": ""
       }
+    },
+    "six": {
+      "title": "O‘zbekiston Respublikasi Oliy sudi",
+      "description": "sud.uz sayti O‘zbekiston sud tizimiga bag‘ishlangan bo‘lib, unda mamlakatdagi sudlarning tuzilishi, rahbariyati va faoliyati haqida batafsil ma’lumotlar taqdim etiladi. U huquqiy hujjatlar, sud qarorlari va elektron xizmatlar bo‘yicha yo‘riqnomalar bilan tanishish imkonini beradi. Bundan tashqari, foydalanuvchilar interaktiv xizmatlar, sud statistikasi bo‘yicha hisobotlar va korrupsiyaning oldini olish choralarini ko‘rishlari mumkin. Sayt shuningdek, huquqiy shikoyatlarni onlayn tarzda yuborishni osonlashtiradi va fuqarolarning so'rovlari va sudlar jadvali bo'limiga ega. Siz uning interaktiv platformalari orqali ko'proq ma'lumot olishingiz va rasmiy e'lonlar va xizmatlarga kirishingiz mumkin.",
+      "link": "https://sud.uz/la/asosiy/",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "seven": {
+      "title": "O‘zbekiston Respublikasi Bosh prokuraturasi",
+      "description": "O‘zbekiston Bosh prokuraturasining prokuratura.uz sayti mamlakat prokuratura tizimi, uning vazifalari va xizmatlari haqida ma’lumot beradi. Unda huquqiy islohotlar, davlat xizmatlari, yangiliklar va rasmiy bayonotlar bo‘limlari mavjud. Sayt shuningdek, shikoyatlar yuborish, huquqiy jarayonlarni kuzatish va qonuniy hujjatlarga kirish uchun vositalarni taklif etadi. Bundan tashqari, foydalanuvchilar jinoiy adliya tashabbuslari, korruptsiyaga qarshi kurash va prokuratura tizimidagi islohotlarga oid yangiliklarni topishlari mumkin.",
+      "link": "https://www.prokuratura.uz/",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
     }
   },
   "I": "I",
