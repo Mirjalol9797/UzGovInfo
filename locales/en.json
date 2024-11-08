@@ -257,6 +257,86 @@
         "description": "",
         "keywords": ""
       }
+    },
+    "fourteen": {
+      "title": "Ministry of Transport of the Republic of Uzbekistan",
+      "description": "The website for Uzbekistan’s Ministry of Transport (mintrans.uz) serves as the official portal for transport-related policies, regulations, news, and resources. It provides information on Uzbekistan’s road, air, and rail networks, including services for permits, safety standards, and logistics. The site features updates on infrastructure projects, development goals, and various transit initiatives aimed at enhancing connectivity within Uzbekistan and with neighboring countries.",
+      "link": "https://www.mintrans.uz/en/",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "fifteen": {
+      "title": "Ministry of Culture of the Republic of Uzbekistan",
+      "description": "The Ministry of Culture page on Uzbekistan’s government website outlines national programs to support cultural preservation, arts education, and the protection of historical and architectural heritage. It provides resources for public events, exhibitions, and collaborations that foster Uzbekistan’s artistic landscape and promote cultural heritage on both local and international levels. The page also includes updates on museum activities, arts funding, and partnerships aimed at making culture accessible, vibrant, and integral to national identity, as well as supporting traditional and contemporary cultural expressions.",
+      "link": "https://gov.uz/en/madaniyat",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "sixteen": {
+      "title": "Ministry of Defense of the Republic of Uzbekistan",
+      "description": "The page dedicated to the Ministry of Defense of Uzbekistan covers the country’s defense policies, military modernization, and national security initiatives. It provides insights into programs focused on strengthening defense capabilities, supporting military personnel, and enhancing technological advancements in the defense sector. The page also highlights partnerships with international defense organizations, updates on military exercises, and initiatives to promote patriotism and public engagement with national security issues. Through educational and outreach programs, it aims to foster a strong, resilient defense framework for Uzbekistan.",
+      "link": "https://gov.uz/en/mudofaa",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "seventeen": {
+      "title": "Ministry of Energy of the Republic of Uzbekistan",
+      "description": "The website for Uzbekistan’s Ministry of Energy provides comprehensive information on national energy policy, infrastructure projects, and sustainable energy initiatives. It covers areas such as renewable energy development, energy efficiency programs, and modernization efforts in oil, gas, and electricity sectors. The site also offers updates on international partnerships, investments in energy technology, and regulatory frameworks designed to ensure reliable and environmentally responsible energy production. Additionally, it includes resources for businesses, public announcements, and details about the ministry’s strategic vision for energy independence and sustainability in Uzbekistan.",
+      "link": "https://minenergy.uz/en",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "eighteen": {
+      "title": "Ministry of Health of the Republic of Uzbekistan",
+      "description": "The page for Uzbekistan’s Ministry of Health offers information on public health policies, medical services, and healthcare initiatives. It highlights programs focused on improving healthcare infrastructure, promoting disease prevention, and enhancing medical services across the country. Visitors can access updates on public health campaigns, government efforts to combat communicable diseases, and collaborations with international health organizations. The site also provides resources for healthcare professionals, including training opportunities and regulatory guidelines, all aimed at building a robust, accessible health system in Uzbekistan.",
+      "link": "https://gov.uz/en/ssv",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "nineteen": {
+      "title": "Ministry of Foreign Affairs Republic of Uzbekistan",
+      "description": "The website for Uzbekistan’s Ministry of Foreign Affairs provides information on the country’s diplomatic policies, international relations, and global partnerships. It highlights Uzbekistan’s foreign policy priorities, including economic diplomacy, regional cooperation, and initiatives for peace and security. The site also features updates on official visits, agreements, consular services for citizens, and visa information for foreign nationals. Additionally, it offers news about cultural diplomacy efforts, international projects, and the ministry's commitment to fostering Uzbekistan’s global engagement and strengthening international ties.",
+      "link": "https://mfa.uz/en",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "twenty": {
+      "title": "Ministry of Internal Affairs of the Republic of Uzbekistan",
+      "description": "The page for Uzbekistan’s Ministry of Internal Affairs provides resources on public safety, crime prevention, and law enforcement activities across the country. It covers information on policing efforts, emergency services, and initiatives aimed at improving public order and security. The site includes updates on reforms within law enforcement, details about citizen services, and government programs to combat organized crime, drug trafficking, and cybercrime. Additionally, it offers tools for public interaction, complaint submissions, and access to regulatory information to promote transparency and community safety.",
+      "link": "https://gov.uz/en/iiv",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "twentyone": {
+      "title": "FVV of the Republic of Uzbekistan",
+      "description": "The website of Uzbekistan’s Ministry of Emergency Situations offers information on disaster preparedness, response strategies, and public safety initiatives. It covers programs aimed at reducing risks from natural disasters, emergency response planning, and training resources for both officials and the public. The site provides real-time updates on emergencies, weather warnings, and safety tips to protect citizens. It also includes sections on international cooperation, public education efforts, and methods for community engagement in emergency preparedness.",
+      "link": "https://fvv.uz/",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
     }
   },
 
