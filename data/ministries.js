@@ -30,6 +30,20 @@ export default function ministries() {
           image: "/images/Ministries/www.imv.uz.png",
         },
       },
+      {
+        id: 3,
+        slug: "ministry-of-mining-industry-and-geology-of-the-republic-of-uzbekistan",
+        title: "Ministries.three.title",
+        description: "Ministries.three.description",
+        img: "/images/gerb.png",
+        link: "Ministries.three.link",
+        seo: {
+          title: "Ministries.three.seo.title",
+          description: "Ministries.three.seo.description",
+          keywords: "Ministries.three.seo.keywords",
+          image: "/images/Ministries/gov.mingeo.uz.png",
+        },
+      },
     ],
   };
 }
