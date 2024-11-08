@@ -113,9 +113,9 @@
       "description": "O‘zbekiston Respublikasi Hisob palatasining veb-saytida (ach.gov.uz) Davlat byudjeti ijrosini nazorat qilish va moliyaviy hisobotni ta’minlash uchun mas’ul bo‘lgan Palataning funksiyalari va faoliyati to‘g‘risida batafsil ma’lumotlar joylashtirilgan. U hisobotlar, qonun hujjatlari va palata faoliyatiga oid yangilanishlar, jumladan, moliyaviy nazorat va davlat sektori auditini takomillashtirish bo‘yicha sa’y-harakatlar bilan tanishish imkonini beradi. Bundan tashqari, saytda O‘zbekistondagi moliyaviy islohotlar va tashabbuslar bilan bog‘liq ijtimoiy so‘rovlar va yangiliklardan foydalanish vositalari mavjud.",
       "link": "https://ach.gov.uz/uz",
       "seo": {
-        "title": "",
-        "description": "",
-        "keywords": ""
+        "title": "Oʻzbekiston Respublikasi Hisob palatasi – Rasmiy sayt ach.gov.uz",
+        "description": "Oʻzbekiston Respublikasi Hisob palatasining rasmiy sayti – ach.gov.uz. Hisob palatasi davlat moliyalarini nazorat qilish, byudjet xarajatlarini auditdan oʻtkazish va moliyaviy boshqaruvda shaffoflikni taʼminlash uchun masʼuldir. Saytda palataning vazifalari, maqsadlari va erishilgan natijalar haqidagi maʼlumotlar, shuningdek, davlat tashkilotlarining auditorlik hisobotlari, byudjet mablagʻlarining monitoringi va davlat resurslaridan samarali foydalanishni oshirish boʻyicha tavsiyalar keltirilgan. Hisob palatasi Oʻzbekistonning barqaror iqtisodiy rivojlanishi uchun moliyaviy hisobotlar standartlariga rioya etilishini taʼminlashda faol ishtirok etadi.",
+        "keywords": "Oʻzbekiston Hisob palatasi, ach.gov.uz, davlat moliyalar auditi, byudjet auditi, moliyaviy nazorat, davlat mablagʻlari boshqaruvi, auditorlik hisobotlari, moliyaviy shaffoflik, moliyaviy hisobot, davlat xarajatlari auditi, byudjet monitoringi, Oʻzbekiston davlat xarajatlari, davlat resurslari samaradorligi, moliyaviy audit, iqtisodiy rivojlanish, byudjet monitoringi, Hisob palatasi tavsiyalari, moliyaviy nazorat, byudjet samaradorligi, moliyaviy hisobot Oʻzbekiston, Oʻzbekistonda auditorlik faoliyati, davlat auditi, hisobot standartlari, davlat resurslari nazorati, xarajatlar nazorati, davlat boshqaruvi"
       }
     }
   },
@@ -126,6 +126,29 @@
   "link_to_official_website": "Rasmiy veb-saytga havola",
 
   "M": "M",
+  "Ministries": {
+    "headtitle": "Vazirliklar",
+    "one": {
+      "title": "O‘zbekiston Respublikasi Investitsiyalar, sanoat va savdo vazirligi;",
+      "description": "O‘zbekiston Respublikasi Investitsiyalar, sanoat va savdo vazirligining (Investitsiyalar, sanoat va savdo vazirligi) veb-saytida vazirlikning investitsiyalar, sanoatni rivojlantirish va xalqaro savdoni rivojlantirishdagi o‘rni haqida to‘liq ma’lumot berilgan. Unda O‘zbekistonning iqtisodiy o‘sishini rag‘batlantirishga qaratilgan hukumat tashabbuslari, sohadagi islohotlar va savdo siyosati haqidagi yangiliklar o‘rin olgan. Saytda biznesni qoʻllab-quvvatlash, litsenziyalash va turli investitsiya loyihalari, shuningdek, tadbirkorlar uchun xizmatlar va xalqaro hamkorlik boʻyicha manbalar ham oʻrin olgan.",
+      "link": "https://gov.uz/oz/miit",
+      "seo": {
+        "title": "Oʻzbekiston Respublikasi Investitsiyalar, sanoat va savdo vazirligi – Rasmiy sayt",
+        "description": "Oʻzbekiston Respublikasi Investitsiyalar, sanoat va savdo vazirligining rasmiy sayti – gov.uz. Vazirlik milliy iqtisodiyotning rivojlanishi uchun xorijiy va mahalliy investitsiyalarni jalb qilish, sanoatni qoʻllab-quvvatlash va xalqaro savdoni ragʻbatlantirishga masʼuldir. Saytda yangi investitsiya loyihalari, sanoat tashabbuslari, eksport imkoniyatlari va biznesni qoʻllab-quvvatlash dasturlari haqida dolzarb maʼlumotlar taqdim etilgan. Bu yerda vazirlikning strategiyalari, huquqiy islohotlar va Oʻzbekiston iqtisodiyotini mustahkamlashga yoʻnaltirilgan xalqaro hamkorliklar haqida bilib olish mumkin.",
+        "keywords": "Oʻzbekiston Investitsiyalar vazirligi, sanoat Oʻzbekiston, xalqaro savdo Oʻzbekiston, investitsiya loyihalari, sanoat rivoji, eksport imkoniyatlari, biznes tashabbuslari, investitsiyalar jalb qilish, iqtisodiy rivojlanish, savdo hamkorliklari, xorijiy investitsiyalar, sanoat dasturlari, Oʻzbekiston biznes muhiti, eksport imkoniyatlari, biznesni qoʻllab-quvvatlash, huquqiy islohotlar, strategik hamkorlik, iqtisodiy barqarorlik, davlat dasturlari, investitsiya strategiyalari"
+      }
+    },
+    "two": {
+      "title": "O‘zbekiston Respublikasi Iqtisodiyot va moliya vazirligi",
+      "description": "O‘zbekiston Iqtisodiyot va moliya vazirligining imv.uz rasmiy sayti milliy taraqqiyot va iqtisodiy barqarorlikni ta’minlashga qaratilgan iqtisodiy va moliyaviy siyosat, islohotlar, tashabbuslar haqida keng qamrovli ma’lumotlarni taqdim etadi. U yangiliklar, statistik ma'lumotlar, nashrlar va rasmiy e'lonlarni o'z ichiga oladi. Shuningdek, saytda interaktiv xizmatlar, investorlar va biznes uchun resurslar, davlat-xususiy sheriklik loyihalari haqida ma’lumotlar mavjud. Foydalanuvchilar shaffoflik va jamoatchilik ishtirokini qo'llab-quvvatlash uchun aloqa ma'lumotlari, so'nggi hisobotlar va statistikaga kirishlari mumkin.",
+      "link": "https://www.imv.uz/",
+      "seo": {
+        "title": "Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligi – Rasmiy sayt www.imv.uz",
+        "description": "Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligining rasmiy sayti – imv.uz. Vazirlik iqtisodiy va moliyaviy siyosatni ishlab chiqish va amalga oshirish bilan shugʻullanib, barqaror rivojlanishni, moliyaviy barqarorlikni va iqtisodiyotni modernizatsiya qilishni maqsad qilgan. Saytda strategiyalar, milliy dasturlar, byudjet loyihalari, soliq siyosati va biznesni qoʻllab-quvvatlash choralari haqida maʼlumotlar taqdim etilgan. Shuningdek, makroiqtisodiy hisobotlar, oʻsish prognozlari va moliyaviy tizimni mustahkamlashga yoʻnaltirilgan islohotlar haqida maʼlumot beriladi.",
+        "keywords": "Oʻzbekiston Iqtisodiyot va moliya vazirligi, imv.uz, iqtisodiy siyosat, moliyaviy barqarorlik, makroiqtisod, byudjet loyihalari, soliq siyosati, biznesni qoʻllab-quvvatlash, investitsiya muhiti, iqtisodiy rivojlanish Oʻzbekiston, moliyaviy tizim, makroiqtisodiy hisobotlar, iqtisodiy islohotlar, moliyaviy strategiyalar, davlat boshqaruvi, barqaror rivojlanish, soliq islohoti, milliy dasturlar, iqtisodiy modernizatsiya, moliyaviy rejalashtirish, huquqiy islohotlar, iqtisod Oʻzbekiston, davlat dasturlari"
+      }
+    }
+  },
 
   "N": "N",
 

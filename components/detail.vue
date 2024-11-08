@@ -1,19 +1,12 @@
 <script setup>
-import { computed } from "vue";
-import { useRoute } from "vue-router";
-import useHeadquarters from "../../data/headquarters";
-import Seo from "../../components/Seo/RankPageSeo.vue";
-
 const { t } = useI18n();
-const headquarters = useHeadquarters(t);
-const route = useRoute();
-
-const oneData = computed(() => {
-  return headquarters.find((item) => item.slug == route.params.slug);
+const props = defineProps({
+  oneData: {
+    type: Object,
+    default: {},
+  },
 });
-console.log("oneData", oneData);
 </script>
-
 <template>
   <div class="rank-detail">
     <div class="site-container">
@@ -39,9 +32,5 @@ console.log("oneData", oneData);
       </div>
     </div>
   </div>
-
-  <!-- seo -->
-  <Seo :oneData="oneData"></Seo>
 </template>
-
 <style lang="scss"></style>

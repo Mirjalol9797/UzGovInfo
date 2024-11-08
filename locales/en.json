@@ -113,9 +113,9 @@
       "description": "The website of the Accounting Chamber of the Republic of Uzbekistan (ach.gov.uz) provides detailed information about the functions and activities of the Chamber, which is responsible for overseeing the state budget and ensuring financial accountability. It offers access to reports, legislative documents, and updates on the chamber's activities, including efforts to improve financial control and public sector auditing. Additionally, the site features tools for submitting public inquiries and accessing news related to financial reforms and initiatives in Uzbekistan.",
       "link": "https://ach.gov.uz/uz",
       "seo": {
-        "title": "",
-        "description": "",
-        "keywords": ""
+        "title": "Accounts Chamber of the Republic of Uzbekistan – Official Website ach.gov.uz",
+        "description": "Official website of the Accounts Chamber of the Republic of Uzbekistan – ach.gov.uz. The Accounts Chamber is responsible for auditing public finances, monitoring budget expenditures, and ensuring transparency in financial management. The website provides information on the Chamber's mission, tasks, and achievements, as well as news updates, audit reports of government agencies, budget oversight, and recommendations for improving the efficiency of public resources. The Accounts Chamber actively promotes transparency and compliance with financial reporting standards to support sustainable economic development in Uzbekistan.",
+        "keywords": "Accounts Chamber Uzbekistan, ach.gov.uz, public finance audit, budget audit, financial control, public funds management, audit reports, financial transparency, financial reporting, public spending audit, budget monitoring, Uzbekistan government spending, public resources efficiency, financial audit, economic development, budget oversight, Accounts Chamber recommendations, financial oversight, budget efficiency, Uzbekistan financial reporting, auditing activities Uzbekistan, public audit, reporting standards, public resources control, spending control, government management, budget transparency, fiscal responsibility, state budget audit, fiscal policy Uzbekistan"
       }
     }
   },
@@ -126,6 +126,29 @@
   "link_to_official_website": "Link to official website",
 
   "M": "M",
+  "Ministries": {
+    "headtitle": "Ministries",
+    "one": {
+      "title": "Ministry of Investment, Industry and Trade",
+      "description": "The website of the Ministry of Investments, Industry, and Trade of the Republic of Uzbekistan (MIIT) provides comprehensive information on the ministry's role in promoting investments, industrial development, and international trade. It features updates on government initiatives, industry reforms, and trade policies aimed at boosting Uzbekistan’s economic growth. The site also includes resources on business support, licensing, and various investment projects, as well as services for entrepreneurs and international cooperation.",
+      "link": "https://gov.uz/en/miit",
+      "seo": {
+        "title": "Ministry of Investments, Industry, and Trade of the Republic of Uzbekistan – Official Website",
+        "description": "Official website of the Ministry of Investments, Industry, and Trade of the Republic of Uzbekistan – gov.uz. The Ministry focuses on national economic development through attracting foreign and domestic investments, supporting industry, and promoting international trade. The site provides current information on new investment projects, industrial initiatives, export opportunities, and business support programs. Learn about the ministry's strategies, legislative reforms, and international partnerships aimed at improving the business climate and strengthening Uzbekistan’s economy.",
+        "keywords": "Ministry of Investments Uzbekistan, industry Uzbekistan, international trade Uzbekistan, investment projects, industrial development, Uzbekistan exports, business initiatives, attracting investments, economic development, trade cooperation, foreign investments, industrial programs, Uzbekistan business climate, export opportunities, business support, legal reforms, strategic partnerships, economic stability, government programs, investment strategies, trade policy Uzbekistan, foreign direct investment, business innovation, market expansion, trade initiatives"
+      }
+    },
+    "two": {
+      "title": "Ministry of Economy and Finance",
+      "description": "The official website of the Ministry of Economy and Finance of Uzbekistan, imv.uz, provides comprehensive information on economic and financial policies, reforms, and initiatives aimed at promoting national development and economic stability. It includes news, statistical data, publications, and official announcements. The site also features interactive services, resources for investors and businesses, and information on public-private partnership projects. Users can access contact details, recent reports, and statistics to support transparency and public engagement.",
+      "link": "https://www.imv.uz/en",
+      "seo": {
+        "title": "Ministry of Economy and Finance of the Republic of Uzbekistan – Official Website www.imv.uz",
+        "description": "Official website of the Ministry of Economy and Finance of the Republic of Uzbekistan – imv.uz. The Ministry focuses on formulating and implementing economic and financial policies aimed at sustainable development, financial stability, and economic modernization. The website provides information on strategies, national programs, budget projects, tax policies, and business support initiatives. It also includes macroeconomic reports, growth forecasts, and ongoing reforms to enhance the investment climate and strengthen Uzbekistan’s financial system.",
+        "keywords": "Ministry of Economy and Finance Uzbekistan, imv.uz, economic policy, financial stability, macroeconomics, budget projects, tax policy, business support, investment climate, Uzbekistan economic development, financial system, macroeconomic reports, economic reforms, financial strategies, government management, sustainable development, tax reform, national programs, economic modernization, financial planning, regulatory reforms, economy of Uzbekistan, fiscal policies, economic growth Uzbekistan"
+      }
+    }
+  },
 
   "N": "N",
 
