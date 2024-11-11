@@ -6,7 +6,7 @@ import Seo from "../../components/Seo/RankPageSeo.vue";
 import Detail from "../../components/detail.vue";
 
 const { t } = useI18n();
-const ministries = useMinistries(t);
+const state = useState(t);
 const route = useRoute();
 
 const oneData = computed(() => {

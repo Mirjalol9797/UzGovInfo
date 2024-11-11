@@ -356,6 +356,39 @@
     "keywords": "O‘zbekiston davlat organlari, vazirliklar ro‘yxati, rasmiy saytlar, davlat idoralari, O‘zbekiston vazirliklari, davlat tashkilotlari, hukumat saytlar"
   },
   "see_all": "Barchasini ko'rish",
+  "State": {
+    "headtitle": "Davlat qo‘mitalari",
+    "one": {
+      "title": "O‘zbekiston Respublikasi prezidenti huzuridagi Statistika agentligi",
+      "description": "O‘zbekiston Davlat statistika qo‘mitasining veb-saytida mamlakat iqtisodiyoti, demografiyasi, qishloq xo‘jaligi, sanoat va ijtimoiy farovonlikka oid to‘liq ma’lumotlar va statistik hisobotlar taqdim etilgan. U batafsil statistik ma'lumotlarga, jumladan milliy hisobotlar, so'rovlar va tahliliy resurslarga kirish uchun vositalarni taqdim etadi. Saytda, shuningdek, hukumat va biznes sektorlarida dalillarga asoslangan qarorlar qabul qilishni qo'llab-quvvatlash uchun davom etayotgan ma'lumotlarni to'plash loyihalari va nashrlar bo'yicha yangilanishlar mavjud. U oshkoralikni ta'minlash va mamlakatning turli sohalarida iqtisodiy va ijtimoiy rejalashtirishda yordam berishga qaratilgan.",
+      "link": "https://stat.uz/uz/",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "two": {
+      "title": "O‘zbekiston Respublikasi Davlat soliq qo‘mitasi",
+      "description": "O‘zbekiston Davlat soliq qo‘mitasining veb-saytida mamlakatimizda soliqqa tortish qoidalari, tartiblari va xizmatlari haqida to‘liq ma’lumotlar joylashtirilgan. U soliq to'lovchilar uchun resurslarni taklif etadi, jumladan soliq to'lovlari, to'lovlar va soliq qonunchiligidagi o'zgarishlar haqidagi yangilanishlar. Saytda, shuningdek, onlayn xizmatlar, biznesni qo'llab-quvvatlash va soliq talablariga rioya qilishni ta'minlash vositalari mavjud. Bundan tashqari, u shaffoflikni rag'batlantiradi, soliqqa oid ma'lumotlarga jamoatchilik kirishini osonlashtiradi va milliy soliq tizimini tushunish uchun o'quv materiallarini taqdim etadi.",
+      "link": "https://www.soliq.uz/",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "three": {
+      "title": "O‘zbekiston Respublikasi Davlat bojxona qo‘mitasi",
+      "description": "O‘zbekiston Davlat bojxona qo‘mitasi veb-saytida bojxona qoidalari, tartiblari va xizmatlariga oid asosiy ma’lumotlar joylashtirilgan. U korxonalar va jismoniy shaxslar uchun import va eksport tartib-qoidalari, tariflar va savdo qoidalari bo'yicha ko'rsatmalar beradi. Saytda bojxona deklaratsiyasi, amal qilish va bojxona qonunchiligidagi o‘zgarishlarga oid yangilanishlar uchun vositalar mavjud. Shuningdek, u tovarlarni rasmiylashtirish, yuklarni kuzatish va bojxona operatsiyalariga ta'sir qiluvchi milliy va xalqaro savdo shartnomalarini tushunish uchun resurslarni o'z ichiga oladi. Platforma savdo jarayonlarini soddalashtirish va bojxona faoliyatida shaffoflikni ta’minlashga qaratilgan.",
+      "link": "https://www.customs.uz/oz",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    }
+  },
 
   "T": "T",
   "V": "V",

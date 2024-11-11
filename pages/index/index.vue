@@ -81,13 +81,13 @@ const state = useState();
       <section class="mb-14">
         <div class="border-b border-[#eee] pb-2 flex-center-between mb-6">
           <h2 class="font-medium text-xl">
-            {{ t("Ministries.headtitle") }}
+            {{ t("State.headtitle") }}
           </h2>
           <nuxt-link to="/" class="text-xs">{{ t("see_all") }}</nuxt-link>
         </div>
         <div class="grid grid-cols-4 gap-4">
           <nuxt-link
-            :to="`ministries/${item.slug}`"
+            :to="`state/${item.slug}`"
             class="link-block"
             v-for="(item, index) in state.data"
             :key="index"

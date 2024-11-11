@@ -356,6 +356,39 @@
     "keywords": "Uzbekistan government agencies, official sites Uzbekistan, ministries Uzbekistan, government websites list, public institutions, Uzbekistan departments, government resources"
   },
   "see_all": "See all",
+  "State": {
+    "headtitle": "State",
+    "one": {
+      "title": "Statistics agency under the president of the Republic of Uzbekistan",
+      "description": "The website of Uzbekistan’s State Committee on Statistics offers comprehensive data and statistical reports related to the country’s economy, demographics, agriculture, industry, and social welfare. It provides tools for accessing detailed statistical information, including national reports, surveys, and analytical resources. The site also features updates on ongoing data collection projects and publications to support evidence-based decision-making in both government and business sectors. It aims to promote transparency and assist in economic and social planning across various sectors of the nation.",
+      "link": "https://stat.uz/en/",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "two": {
+      "title": "State Tax Committee of the Republic of Uzbekistan",
+      "description": "The website of Uzbekistan’s State Tax Committee provides comprehensive information on tax regulations, procedures, and services in the country. It offers resources for taxpayers, including tax filing, payments, and updates on changes in tax laws. The site also features online services, support for businesses, and tools to ensure compliance with tax requirements. Additionally, it promotes transparency, facilitates public access to tax-related data, and provides educational materials for understanding the national tax system.",
+      "link": "https://www.soliq.uz/",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "three": {
+      "title": "Customs Committee under the Ministry of Economy and Finance of the Republic of Uzbekistan",
+      "description": "The website of Uzbekistan’s State Customs Committee provides key information regarding customs regulations, procedures, and services. It offers guidance for businesses and individuals on import and export procedures, tariffs, and trade regulations. The site includes tools for customs declarations, compliance, and updates on changes in customs law. It also features resources for clearing goods, tracking shipments, and understanding the national and international trade agreements that affect customs operations. The platform aims to streamline trade processes and promote transparency in customs activities.",
+      "link": "https://www.customs.uz/en",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    }
+  },
 
   "T": "T",
   "V": "V",
