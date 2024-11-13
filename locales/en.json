@@ -387,6 +387,56 @@
         "description": "",
         "keywords": ""
       }
+    },
+    "four": {
+      "title": "Ministry of Ecology, Environmental Protection and Climate Change of the Republic of Uzbekistan",
+      "description": "The website is dedicated to the Ministry of Ecology, Environmental Protection, and Climate Change of the Republic of Uzbekistan. It provides comprehensive information about the ministry's roles and functions, including environmental protection, climate change policies, and biodiversity conservation. Users can access various services such as environmental monitoring, waste management, and green initiatives. It also features important legal documents, international cooperation details, and public resources like a news section and upcoming events. Key resources like eco-calculators and public data portals are available for individuals and organizations engaged in environmental protection.",
+      "link": "https://www.uznature.uz/en",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "five": {
+      "title": "Official website of the Forestry Agency under the Ministry of Ecology, Environmental Protection and Climate Change",
+      "description": "The website is dedicated to the Forest Economy Agency under the Ministry of Ecology, Environmental Protection, and Climate Change of Uzbekistan. It provides information about the country's forest management, including its activities, organizational structure, and ecological tourism initiatives. The site features various services for the public, such as portals for forest land leasing and permits. It also includes documents related to laws and regulations, government decisions, and anti-corruption efforts. The website highlights news, events, and provides access to various interactive services for citizens.",
+      "link": "https://urmon.gov.uz/?lang=en",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "six": {
+      "title": "Ministry of Mining Industry and Geology of the Republic of Uzbekistan",
+      "description": "The website for the Ministry of Mining and Geology of Uzbekistan provides detailed information about the country’s mining industry, geological research, and resource management. It features updates on geological exploration, mining policies, investment opportunities, and sustainable development initiatives. The site offers services related to mining permits, land usage, and regulatory compliance. Additionally, it includes news on mining projects, environmental protection measures, and government actions to modernize the mining and geological sectors.",
+      "link": "https://gov.uz/en/mingeo",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "seven": {
+      "title": "State Committee of the Republic of Uzbekistan on Land Resources, Geodesy, Cartography and State Cadastre",
+      "description": "The website of the State Cadastre Agency of Uzbekistan (kadastr.uz) provides essential services related to land management, property registration, and cadastre. It includes features such as property valuation, registration of property rights, and land control measures. The portal also offers a variety of online tools and resources, including interactive services for landowners, legal information, and cadastral data. Additionally, the site provides public access to key regulations, documents, and statistics. It serves as a hub for transparency in land management and cadastral operations in Uzbekistan.",
+      "link": "https://kadastr.uz/en",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "eight": {
+      "title": "State Veterinary Committee of the Republic of Uzbekistan",
+      "description": "The website vetgov.uz is dedicated to the activities of the State Committee for Veterinary and Animal Husbandry Development in Uzbekistan. It offers information on the country's veterinary services, animal health, and livestock management. The site provides access to laws, regulations, and services related to veterinary activities. Additionally, it hosts resources such as tender announcements, interactive services for citizens, and relevant news updates. Users can find information on veterinary licenses, veterinary medicine, and animal husbandry support, as well as contact details for further inquiries.",
+      "link": "https://www.vetgov.uz/uz/",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
     }
   },
 
