@@ -16,7 +16,7 @@ const route = useRoute();
       property="og:description"
       :content="t('seo.description')"
     />
-    <Meta property="og:image" content="https://govinfo.uz/logo.jpg" />
+    <Meta property="og:image" content="https://govinfo.uz/logo.pgn" />
     <Meta property="og:url" :content="`https://govinfo.uz${route.fullPath}`" />
     <Meta property="twitter:title" :content="t('seo.title')" />
     <Meta property="twitter:description" :content="t('seo.description')" />
