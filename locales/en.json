@@ -437,6 +437,26 @@
         "description": "",
         "keywords": ""
       }
+    },
+    "nine": {
+      "title": "State Committee of the Republic of Uzbekistan for Automobile Roads",
+      "description": "The website uzavtoyul.uz is dedicated to the Uzbekistan Automobile Road and Transport Agency. It provides information on road infrastructure, transportation policies, and projects related to the development and maintenance of road networks in Uzbekistan. The site features resources for both government initiatives and public services, including road construction, repair updates, and traffic safety measures. It also includes announcements on tenders, regulations, and news related to transportation systems, promoting the modernization of the national road network and improving connectivity.",
+      "link": "https://uzavtoyul.uz/en",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "ten": {
+      "title": "State Committee of the Republic of Uzbekistan for Tourism Development",
+      "description": "The website of Uzbekistan's National Tourism Agency offers information on the country's tourism opportunities, including cultural heritage, historic sites, and natural landscapes. It provides resources for tourists, tour operators, and businesses, promoting Uzbekistan as a travel destination. The site features details on major tourist attractions, events, and travel services, including visa information, accommodations, and transportation. Additionally, it showcases initiatives to develop tourism infrastructure and partnerships aimed at expanding the sector, improving visitor experiences, and supporting local communities.",
+      "link": "https://uzbektourism.uz/en",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
     }
   },
 

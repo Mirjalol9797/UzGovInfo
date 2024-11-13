@@ -114,6 +114,34 @@ export default function state() {
           image: "/images/State/www.vetgov.uz.png",
         },
       },
+      {
+        id: 9,
+        slug: "state-committee-of-the-republic-of-uzbekistan-for-automobile-roads",
+        title: "State.nine.title",
+        description: "State.nine.description",
+        img: "/images/gerb.png",
+        link: "State.nine.link",
+        seo: {
+          title: "State.nine.seo.title",
+          description: "State.nine.seo.description",
+          keywords: "State.nine.seo.keywords",
+          image: "/images/State/uzavtoyul.uz.png",
+        },
+      },
+      {
+        id: 10,
+        slug: "state-committee-of-the-republic-of-uzbekistan-for-tourism-development",
+        title: "State.ten.title",
+        description: "State.ten.description",
+        img: "/images/gerb.png",
+        link: "State.ten.link",
+        seo: {
+          title: "State.ten.seo.title",
+          description: "State.ten.seo.description",
+          keywords: "State.ten.seo.keywords",
+          image: "/images/State/uzbektourism.uz.png",
+        },
+      },
     ],
   };
 }
