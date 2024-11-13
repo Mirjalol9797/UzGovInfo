@@ -121,7 +121,27 @@
   },
   "I": "I",
   "Inspections": {
-    "headtitle": "Inspections"
+    "headtitle": "Inspections",
+    "one": {
+      "title": "State Inspectorate for Control over Use of Drinking Water under the Cabinet of Ministers of the Republic of Uzbekistan",
+      "description": "The State Inspectorate for Control over Use of Drinking Water under the Cabinet of Ministers of the Republic of Uzbekistan was established on the basis of the Decree of the President No. UP-5018. The Inspectorate is responsible for monitoring compliance with legislation in the field of water supply and sanitation, rational use of water resources and prevention of emergency situations in the water supply system. It monitors the technical conditions for connection to water supply and sanitation systems, as well as the prevention of unauthorized connections. The Inspectorate conducts technical audits of water supply organizations aimed at improving technological processes and energy saving. Its functions also include monitoring the state of water supply, preventing damage to the water supply and sewerage system, as well as supervising the operation of underground water intakes.",
+      "link": "http://atlas.cawater-info.net/base/marker/65",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "two": {
+      "title": "",
+      "description": "",
+      "link": "",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    }
   },
   "K": "K",
 

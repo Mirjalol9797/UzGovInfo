@@ -121,7 +121,27 @@
   },
   "I": "I",
   "Inspections": {
-    "headtitle": "Inspektsiyalar"
+    "headtitle": "Inspektsiyalar",
+    "one": {
+      "title": "O‘zbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Ichimlik suvidan foydalanishni nazorat qilish davlat inspeksiyasi",
+      "description": "O‘zbekiston Respublikasi Vazirlar Mahkamasi huzurida Ichimlik suvidan foydalanishni nazorat qilish davlat inspeksiyasi Prezidentning PF-5018-son qarori asosida tashkil etildi. Inspeksiya suv ta’minoti va kanalizatsiya sohasidagi qonun hujjatlariga rioya etilishini nazorat qilish, suv resurslaridan oqilona foydalanish va suv ta’minoti tizimida favqulodda vaziyatlarning oldini olish uchun javobgardir. U suv ta'minoti va kanalizatsiya tizimlariga ulanishning texnik shartlarini nazorat qiladi, shuningdek, ruxsatsiz ulanishlarning oldini oladi. Inspeksiya suv ta’minoti tashkilotlarida texnologik jarayonlarni takomillashtirish va energiyani tejashga qaratilgan texnik tekshiruvlar o‘tkazadi. Uning vazifalariga, shuningdek, suv ta'minoti holatini kuzatish, suv ta'minoti va kanalizatsiya tizimlarining shikastlanishining oldini olish, shuningdek, er osti suv olish inshootlarining ishlashini nazorat qilish kiradi.",
+      "link": "http://atlas.cawater-info.net/base/marker/65",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    },
+    "two": {
+      "title": "",
+      "description": "",
+      "link": "",
+      "seo": {
+        "title": "",
+        "description": "",
+        "keywords": ""
+      }
+    }
   },
   "K": "K",
 

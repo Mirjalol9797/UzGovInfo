@@ -121,7 +121,7 @@ const inspections = useInspections();
         </div>
         <div class="grid grid-cols-4 gap-4">
           <nuxt-link
-            :to="`state/${item.slug}`"
+            :to="`inspections/${item.slug}`"
             class="link-block"
             v-for="(item, index) in inspections.data"
             :key="index"
