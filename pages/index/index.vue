@@ -17,13 +17,17 @@ const inspections = useInspections();
     <div class="site-container">
       <!-- headquarters -->
       <section class="mb-14">
-        <div class="border-b border-[#eee] pb-2 flex-center-between mb-6">
-          <h2 class="font-medium text-xl">
+        <div
+          class="border-b border-[#eee] pb-2 flex-center-between mb-4 md:mb-6"
+        >
+          <h2 class="font-medium text-base md:text-xl">
             {{ t("Headquarters.headtitle") }}
           </h2>
           <nuxt-link to="/" class="text-xs">{{ t("see_all") }}</nuxt-link>
         </div>
-        <div class="grid grid-cols-4 gap-4">
+        <div
+          class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 md:gap-4 lg:grid-cols-4"
+        >
           <nuxt-link
             :to="`headquarters/${item.slug}`"
             class="link-block"
@@ -49,13 +53,17 @@ const inspections = useInspections();
 
       <!-- ministries -->
       <section class="mb-14">
-        <div class="border-b border-[#eee] pb-2 flex-center-between mb-6">
-          <h2 class="font-medium text-xl">
+        <div
+          class="border-b border-[#eee] pb-2 flex-center-between mb-4 md:mb-6"
+        >
+          <h2 class="font-medium text-base md:text-xl">
             {{ t("Ministries.headtitle") }}
           </h2>
           <nuxt-link to="/" class="text-xs">{{ t("see_all") }}</nuxt-link>
         </div>
-        <div class="grid grid-cols-4 gap-4">
+        <div
+          class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 md:gap-4 lg:grid-cols-4"
+        >
           <nuxt-link
             :to="`ministries/${item.slug}`"
             class="link-block"
@@ -81,13 +89,17 @@ const inspections = useInspections();
 
       <!-- state -->
       <section class="mb-14">
-        <div class="border-b border-[#eee] pb-2 flex-center-between mb-6">
-          <h2 class="font-medium text-xl">
+        <div
+          class="border-b border-[#eee] pb-2 flex-center-between mb-4 md:mb-6"
+        >
+          <h2 class="font-medium text-base md:text-xl">
             {{ t("State.headtitle") }}
           </h2>
           <nuxt-link to="/" class="text-xs">{{ t("see_all") }}</nuxt-link>
         </div>
-        <div class="grid grid-cols-4 gap-4">
+        <div
+          class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 md:gap-4 lg:grid-cols-4"
+        >
           <nuxt-link
             :to="`state/${item.slug}`"
             class="link-block"
@@ -113,13 +125,17 @@ const inspections = useInspections();
 
       <!-- inspections -->
       <section class="mb-14">
-        <div class="border-b border-[#eee] pb-2 flex-center-between mb-6">
-          <h2 class="font-medium text-xl">
+        <div
+          class="border-b border-[#eee] pb-2 flex-center-between mb-4 md:mb-6"
+        >
+          <h2 class="font-medium text-base md:text-xl">
             {{ t("Inspections.headtitle") }}
           </h2>
           <nuxt-link to="/" class="text-xs">{{ t("see_all") }}</nuxt-link>
         </div>
-        <div class="grid grid-cols-4 gap-4">
+        <div
+          class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 md:gap-4 lg:grid-cols-4"
+        >
           <nuxt-link
             :to="`inspections/${item.slug}`"
             class="link-block"

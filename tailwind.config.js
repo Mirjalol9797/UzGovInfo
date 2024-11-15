@@ -8,12 +8,13 @@ export default {
       },
     },
     screens: {
-      420: { max: "420px" },
-      480: { max: "480px" },
-      640: { max: "640px" },
-      768: { max: "768px" },
-      960: { max: "960px" },
-      1024: { max: "1024px" },
+      sm: "640px",
+      // => @media (min-width: 640px) { ... }
+
+      md: "768px",
+      // => @media (min-width: 768px) { ... }
+
+      lg: "1024px",
     },
   },
   plugins: [],
