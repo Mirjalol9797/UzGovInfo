@@ -6,21 +6,21 @@ import { useRoute } from "vue-router";
 const route = useRoute();
 const settingsStore = useSettingsStore();
 
-// if (process.client) {
-//   // Асинхронная загрузка gtag.js
-//   const script = document.createElement("script");
-//   script.src = "https://www.googletagmanager.com/gtag/js?id=G-EG248XZFC7";
-//   script.async = true;
-//   document.head.appendChild(script);
+if (process.client) {
+  // Асинхронная загрузка gtag.js
+  const script = document.createElement("script");
+  script.src = "https://www.googletagmanager.com/gtag/js?id=G-0K2W3VD5PG";
+  script.async = true;
+  document.head.appendChild(script);
 
-//   window.dataLayer = window.dataLayer || [];
-//   function gtag() {
-//     dataLayer.push(arguments);
-//   }
-//   gtag("js", new Date());
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
 
-//   gtag("config", "G-EG248XZFC7");
-// }
+  gtag("config", "G-0K2W3VD5PG");
+}
 
 function siteScrollTop() {
   window.scrollTo({ top: 0, behavior: "smooth" });
