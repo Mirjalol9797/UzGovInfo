@@ -21,7 +21,7 @@ export default function data() {
         slug: "legislative-chamber-of-the-oliy-majlis-of-the-republic-of-uzbekistan",
         title: "Headquarters.two.title",
         description: "Headquarters.two.description",
-        img: "/images/gerb.png",
+        img: "https://parliament.gov.uz/_nuxt/img/logo.413bf6a.png",
         link: "Headquarters.two.link",
         seo: {
           title: "Headquarters.two.seo.title",

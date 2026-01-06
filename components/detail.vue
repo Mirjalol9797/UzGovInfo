@@ -16,7 +16,9 @@ const props = defineProps({
       <div class="mb-6">
         <span class="font-medium">{{ t("link_to_official_website") }}</span
         >:
-        <a :href="t(oneData.link)">{{ t(oneData.link) }}</a>
+        <a :href="t(oneData.link)" target="_blank" class="!text-[#315efb]">{{
+          t(oneData.link)
+        }}</a>
       </div>
       <div>
         <div class="mb-2 font-medium">{{ t("brief_description_site") }}</div>
