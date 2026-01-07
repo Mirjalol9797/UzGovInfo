@@ -20,6 +20,11 @@
 
     <Link rel="icon" type="image/x-icon" href="favicon.ico" />
     <Link rel="preload" href="https://fonts.gstatic.com" />
+    <Script
+      async
+      custom-element="amp-auto-ads"
+      src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"
+    />
   </Head>
   <NuxtLayout></NuxtLayout>
 </template>

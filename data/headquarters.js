@@ -63,7 +63,7 @@ export default function data() {
         slug: "constitutional-court-of-the-republic-of-uzbekistan",
         title: "Headquarters.five.title",
         description: "Headquarters.five.description",
-        img: "/images/gerb.png",
+        img: "https://www.konstsud.uz/img/logo.png",
         link: "Headquarters.five.link",
         seo: {
           title: "Headquarters.five.seo.title",
@@ -77,7 +77,7 @@ export default function data() {
         slug: "supreme-court-of-the-republic-of-uzbekistan",
         title: "Headquarters.six.title",
         description: "Headquarters.six.description",
-        img: "/images/gerb.png",
+        img: "https://sud.uz/wp-content/uploads/2024/03/head-logo.png",
         link: "Headquarters.six.link",
         seo: {
           title: "Headquarters.six.seo.title",
