@@ -17,7 +17,44 @@
 
   "footer": {
     "about": "Sayt haqida",
-    "contacts": "Kontaktlar"
+    "contacts": "Kontaktlar",
+    "privacy": "Maxfiylik siyosati"
+  },
+  "Privacy": {
+    "title": "Maxfiylik siyosati",
+    "lead": "Ushbu sahifada sayt foydalanilganda qaysi ma’lumotlar qayta ishlanishi mumkinligi va ularga qanday munosabatda bo‘lishimiz bayon qilinadi.",
+    "sections": {
+      "one": {
+        "title": "1. Umumiy qoidalar",
+        "text": "Sayt rasmiy veb-resurslarga havolalar katalogidir. Ro‘yxatdan o‘tish talab qilinmaydi va sahifalarni ko‘rish uchun shaxsiy ma’lumot kiritish shart emas."
+      },
+      "two": {
+        "title": "2. Qaysi ma’lumotlar qayta ishlanishi mumkin",
+        "items": {
+          "one": "Texnik ma’lumotlar: IP-manzil, qurilma/brauzer turi, til, tashrif sanasi va vaqti.",
+          "two": "Foydalanish statistikasi: ko‘rilgan sahifalar va harakatlar (umumlashtirilgan ko‘rinishda).",
+          "three": "Cookie fayllari: sayt ishlashi va tahlil uchun (tegishli servislar yoqilgan bo‘lsa)."
+        }
+      },
+      "three": {
+        "title": "3. Uchinchi tomon servislar va havolalar",
+        "text": "Saytda tashqi resurslarga havolalar mavjud. Ularning mazmuni va maxfiylik qoidalarini biz nazorat qilmaymiz. O‘tgan saytingiz siyosatini alohida ko‘rib chiqing."
+      },
+      "four": {
+        "title": "4. Siyosat yangilanishi",
+        "text": "Loyiha rivojlanishi bilan ushbu siyosat yangilanib borishi mumkin. Amaldagi versiya doimo shu sahifada bo‘ladi."
+      }
+    },
+    "contact": {
+      "title": "Savollar va murojaatlar",
+      "text": "Maxfiylik bo‘yicha savollaringiz bo‘lsa yoki muammo haqida xabar bermoqchi bo‘lsangiz,",
+      "linkText": "Kontaktlar sahifasi"
+    },
+    "seo": {
+      "title": "UzGovInfo maxfiylik siyosati",
+      "description": "UzGovInfo maxfiylik siyosati: sayt foydalanilganda qaysi ma’lumotlar qayta ishlanishi mumkin va qanday bog‘lanish.",
+      "keywords": "maxfiylik siyosati, shaxsiy ma'lumotlar, cookie, tahlil, UzGovInfo"
+    }
   },
   "Contacts": {
     "title": "Kontaktlar",

@@ -17,7 +17,44 @@
 
   "footer": {
     "about": "About",
-    "contacts": "Contacts"
+    "contacts": "Contacts",
+    "privacy": "Privacy Policy"
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lead": "This page explains what data may be processed when you use the website and how we treat it.",
+    "sections": {
+      "one": {
+        "title": "1. General",
+        "text": "The website is a directory of links to official web resources. We do not require registration and do not ask users to provide personal data to browse pages."
+      },
+      "two": {
+        "title": "2. What data may be processed",
+        "items": {
+          "one": "Technical data: IP address, device/browser type, language, date and time of visit.",
+          "two": "Usage data: pages viewed and actions (in aggregated form).",
+          "three": "Cookies: for website functionality and analytics (if relevant services are enabled)."
+        }
+      },
+      "three": {
+        "title": "3. Third‑party services and links",
+        "text": "The website contains links to external resources. We do not control their content or privacy practices. Please review the policies of the websites you visit."
+      },
+      "four": {
+        "title": "4. Policy updates",
+        "text": "We may update this policy as the project evolves. The current version is always available on this page."
+      }
+    },
+    "contact": {
+      "title": "Questions and feedback",
+      "text": "If you have privacy questions or want to report an issue, please contact us via the",
+      "linkText": "Contacts page"
+    },
+    "seo": {
+      "title": "UzGovInfo Privacy Policy",
+      "description": "UzGovInfo privacy policy: what data may be processed when using the site and how to contact us.",
+      "keywords": "privacy policy, personal data, cookies, analytics, UzGovInfo"
+    }
   },
   "Contacts": {
     "title": "Contacts",

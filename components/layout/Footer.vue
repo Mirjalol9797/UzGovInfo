@@ -20,6 +20,12 @@
           >
             {{ $t("footer.contacts") }}
           </nuxt-link>
+          <nuxt-link
+            :to="localePath('/privacy')"
+            class="text-[#1C335F] hover:text-[#315EFB]"
+          >
+            {{ $t("footer.privacy") }}
+          </nuxt-link>
         </div>
       </div>
     </div>
