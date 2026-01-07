@@ -15,6 +15,69 @@
 
   "G": "G",
 
+  "footer": {
+    "about": "Sayt haqida",
+    "contacts": "Kontaktlar"
+  },
+  "Contacts": {
+    "title": "Kontaktlar",
+    "lead": "Takliflaringiz bo‘lsa, fikr-mulohaza bermoqchi bo‘lsangiz yoki katalogda xatolik topsangiz — quyidagi usullardan biri orqali biz bilan bog‘laning.",
+    "cards": {
+      "phone": {
+        "title": "Telefon",
+        "hint": "Qo‘ng‘iroq qilish uchun bosing"
+      },
+      "telegram": {
+        "title": "Telegram",
+        "hint": "Telegram’da chatni ochish"
+      },
+      "email": {
+        "title": "Email",
+        "hint": "Xat yozish uchun bosing"
+      }
+    },
+    "note": {
+      "title": "Eslatma",
+      "text": "Havolalar va tavsiflarni imkon qadar dolzarb saqlaymiz, ammo ayrim resurslar manzillarini o‘zgartirishi mumkin. Xabaringiz katalogni yanada aniqroq qiladi."
+    },
+    "seo": {
+      "title": "UzGovInfo kontaktlari — aloqa va fikr-mulohaza",
+      "description": "UzGovInfo kontaktlari: telefon, Telegram va email — katalogni yaxshilash bo‘yicha takliflar va aloqa uchun.",
+      "keywords": "kontaktlar, aloqa, fikr-mulohaza, UzGovInfo, telegram, email, telefon"
+    }
+  },
+  "About": {
+    "title": "Sayt haqida",
+    "lead": "UzGovInfo — O‘zbekiston davlat organlarining rasmiy saytlariga havolalar jamlangan qulay katalog. Kerakli idora va muassasa saytini tez topishingiz uchun asosiy manbalar bir joyga to‘plangan.",
+    "cards": {
+      "one": {
+        "title": "Loyiha maqsadi",
+        "text": "Rasmiy havolalarni bir joyga jamlab, davlat veb-resurslarida yo‘l topishni osonlashtirish."
+      },
+      "two": {
+        "title": "Nimalarni topasiz",
+        "text": "Bo‘limlar bo‘yicha saralangan ro‘yxatlar (vazirliklar, idoralar, muassasalar) va qisqa tavsiflar — kerakli saytni tez tanlash uchun."
+      },
+      "three": {
+        "title": "Yangilanishlar",
+        "text": "Katalogni imkon qadar dolzarb ushlab turamiz. Xatolik ko‘rsangiz, keyinroq qo‘shiladigan “Kontaktlar” sahifasi orqali xabar bering."
+      }
+    },
+    "howItWorks": {
+      "title": "Qanday foydalaniladi",
+      "items": {
+        "one": "Bosh sahifadan kerakli bo‘limni tanlang.",
+        "two": "Tashkilot kartasini ochib, rasmiy havola orqali o‘ting.",
+        "three": "Yuqoridagi til tanlash menyusidan foydalaning."
+      }
+    },
+    "seo": {
+      "title": "UzGovInfo haqida — O‘zbekiston davlat organlari rasmiy saytlar katalogi",
+      "description": "UzGovInfo “Sayt haqida” sahifasi: loyiha maqsadi, katalog tarkibi va undan foydalanish bo‘yicha qisqa yo‘riqnoma.",
+      "keywords": "sayt haqida, UzGovInfo, katalog, rasmiy saytlar, O‘zbekiston davlat organlari"
+    }
+  },
+
   "H": "H",
   "Headquarters": {
     "headtitle": "Markaziy muassasalar",

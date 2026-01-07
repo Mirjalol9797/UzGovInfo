@@ -15,6 +15,69 @@
 
   "G": "G",
 
+  "footer": {
+    "about": "About",
+    "contacts": "Contacts"
+  },
+  "Contacts": {
+    "title": "Contacts",
+    "lead": "Have suggestions, feedback, or found an issue in the directory? Reach out using any convenient method below.",
+    "cards": {
+      "phone": {
+        "title": "Phone",
+        "hint": "Tap to call"
+      },
+      "telegram": {
+        "title": "Telegram",
+        "hint": "Open chat in Telegram"
+      },
+      "email": {
+        "title": "Email",
+        "hint": "Tap to compose an email"
+      }
+    },
+    "note": {
+      "title": "Note",
+      "text": "We try to keep links and descriptions up to date, but some resources may change their URLs. Your messages help us improve the directory."
+    },
+    "seo": {
+      "title": "UzGovInfo Contacts — get in touch",
+      "description": "UzGovInfo contacts: phone, Telegram, and email for feedback and suggestions to improve the directory.",
+      "keywords": "contacts, feedback, UzGovInfo, telegram, email, phone"
+    }
+  },
+  "About": {
+    "title": "About",
+    "lead": "UzGovInfo is a handy directory of official websites of Uzbekistan’s government bodies. It brings key agencies and institutions together so you can quickly find the right resource.",
+    "cards": {
+      "one": {
+        "title": "Project goal",
+        "text": "Keep official links in one place and make it easier to navigate government web resources."
+      },
+      "two": {
+        "title": "What you’ll find",
+        "text": "Curated categories (ministries, agencies, institutions) and short descriptions to help you choose the right site faster."
+      },
+      "three": {
+        "title": "Updates",
+        "text": "We aim to keep the directory up to date. If you spot an issue, let us know via the future “Contacts” page."
+      }
+    },
+    "howItWorks": {
+      "title": "How to use",
+      "items": {
+        "one": "Pick a section on the home page.",
+        "two": "Open an organization card and follow the official link.",
+        "three": "Use the language switcher in the header."
+      }
+    },
+    "seo": {
+      "title": "About UzGovInfo — directory of official government websites of Uzbekistan",
+      "description": "About page of UzGovInfo: project purpose, what the directory contains, and how to use it.",
+      "keywords": "about, UzGovInfo, website directory, official websites, government bodies of Uzbekistan"
+    }
+  },
+
   "H": "H",
   "Headquarters": {
     "headtitle": "Headquarters",
