@@ -23,14 +23,14 @@ const emailHref = "mailto:miramirxomitov97@gmail.com";
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6 md:mt-8">
       <a
-        :href="phoneHref"
+        :href="''"
         class="bg-[#F3F4F9] rounded-xl p-4 hover:bg-[#E9EBF6] transition"
       >
         <div class="text-xs uppercase tracking-wide text-[#6B7280] mb-2">
           {{ t("Contacts.cards.phone.title") }}
         </div>
         <div class="text-lg font-semibold text-[#111827]">
-          {{ phoneDisplay }}
+          <!-- {{ phoneDisplay }} -->
         </div>
         <div class="text-sm text-[#4B5563] mt-2">
           {{ t("Contacts.cards.phone.hint") }}
@@ -38,7 +38,7 @@ const emailHref = "mailto:miramirxomitov97@gmail.com";
       </a>
 
       <a
-        :href="telegramHref"
+        :href="''"
         target="_blank"
         rel="noopener noreferrer"
         class="bg-[#F3F4F9] rounded-xl p-4 hover:bg-[#E9EBF6] transition"
@@ -47,7 +47,7 @@ const emailHref = "mailto:miramirxomitov97@gmail.com";
           {{ t("Contacts.cards.telegram.title") }}
         </div>
         <div class="text-lg font-semibold text-[#111827]">
-          @{{ telegramHandle }}
+          <!-- @{{ telegramHandle }} -->
         </div>
         <div class="text-sm text-[#4B5563] mt-2">
           {{ t("Contacts.cards.telegram.hint") }}
@@ -55,14 +55,14 @@ const emailHref = "mailto:miramirxomitov97@gmail.com";
       </a>
 
       <a
-        :href="emailHref"
+        :href="''"
         class="bg-[#F3F4F9] rounded-xl p-4 hover:bg-[#E9EBF6] transition"
       >
         <div class="text-xs uppercase tracking-wide text-[#6B7280] mb-2">
           {{ t("Contacts.cards.email.title") }}
         </div>
         <div class="text-lg font-semibold text-[#111827] break-all">
-          {{ email }}
+          <!-- {{ email }} -->
         </div>
         <div class="text-sm text-[#4B5563] mt-2">
           {{ t("Contacts.cards.email.hint") }}
