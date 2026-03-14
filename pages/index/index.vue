@@ -4,6 +4,9 @@ import useMinistries from "../../data/ministries";
 import useState from "../../data/state";
 import useInspections from "../../data/inspections";
 import Seo from "../../components/Seo/MainPageSeo.vue";
+import SiteDescription from "@/components/mainPage/SiteDescription.vue";
+import HowUseSite from "@/components/mainPage/HowUseSite.vue";
+import WhySiteCreated from "@/components/mainPage/WhySiteCreated.vue";
 
 const { t } = useI18n();
 const headquarters = useHeadquarters();
@@ -15,6 +18,12 @@ const inspections = useInspections();
 <template>
   <div class="main-page">
     <div class="site-container">
+      <!-- Описание сайта -->
+      <SiteDescription class="mb-14" />
+
+      <!-- Как пользоваться каталогом -->
+      <HowUseSite class="mb-14" />
+
       <!-- headquarters -->
       <section class="mb-14">
         <div
@@ -158,6 +167,9 @@ const inspections = useInspections();
           </nuxt-link>
         </div>
       </section>
+
+      <!-- Зачем создан UzGovInfo -->
+      <WhySiteCreated class="mb-14" />
     </div>
   </div>
 
