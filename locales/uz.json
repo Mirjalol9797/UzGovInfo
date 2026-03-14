@@ -18,7 +18,44 @@
   "footer": {
     "about": "Sayt haqida",
     "contacts": "Kontaktlar",
-    "privacy": "Maxfiylik siyosati"
+    "privacy": "Maxfiylik siyosati",
+    "terms": "Foydalanish shartlari"
+  },
+  "Terms": {
+    "title": "Foydalanish shartlari",
+    "lead": "Iltimos, UzGovInfo saytidan foydalanish shartlari bilan diqqat bilan tanishing.",
+    "sections": {
+      "one": {
+        "title": "Umumiy qoidalar",
+        "text": "UzGovInfo O‘zbekiston Respublikasi davlat organlarining rasmiy saytlariga havolalar jamlangan axborot katalogidir. Ushbu saytdan foydalanish orqali siz shu sahifada keltirilgan foydalanish shartlariga rozilik bildirasiz."
+      },
+      "two": {
+        "title": "Saytning axborot xususiyati",
+        "text": "UzGovInfo rasmiy davlat portali emas. U davlat tashkilotlarining rasmiy internet-resurslariga havolalar jamlangan mustaqil katalog hisoblanadi."
+      },
+      "three": {
+        "title": "Ma’lumotlar aniqligi",
+        "text": "Katalogni dolzarb saqlash uchun havolalar va tavsiflar muntazam yangilanadi. Biroq sayt ma’muriyati taqdim etilgan barcha ma’lumotlarning mutlaq aniqligi yoki doimiy dolzarbligini kafolatlamaydi."
+      },
+      "four": {
+        "title": "Tashqi havolalar",
+        "text": "Saytda tashqi internet-resurslarga havolalar mavjud. Ushbu saytlar mazmuni biz tomonidan nazorat qilinmaydi va uchinchi tomon resurslaridagi ma’lumotlar uchun javobgarlikni zimmasiga olmaymiz."
+      },
+      "five": {
+        "title": "Shartlarning o‘zgarishi",
+        "text": "Sayt ma’muriyati ushbu foydalanish shartlarini oldindan ogohlantirmasdan yangilashi yoki o‘zgartirishi mumkin. Amaldagi versiya doimo ushbu sahifada mavjud bo‘ladi."
+      },
+      "six": {
+        "title": "Bog‘lanish ma’lumotlari",
+        "text": "Agar sizda foydalanish shartlari bo‘yicha savollar bo‘lsa, biz bilan",
+        "linkText": "Kontaktlar sahifasi"
+      }
+    },
+    "seo": {
+      "title": "UzGovInfo foydalanish shartlari",
+      "description": "UzGovInfo foydalanish shartlari: sayt qoidalari, javobgarlik va bog‘lanish ma’lumotlari.",
+      "keywords": "foydalanish shartlari, sayt qoidalari, UzGovInfo, kontaktlar, katalog"
+    }
   },
   "Privacy": {
     "title": "Maxfiylik siyosati",

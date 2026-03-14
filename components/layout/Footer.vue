@@ -26,6 +26,12 @@
           >
             {{ $t("footer.privacy") }}
           </nuxt-link>
+          <nuxt-link
+            :to="localePath('/terms')"
+            class="text-[#1C335F] hover:text-[#315EFB]"
+          >
+            {{ $t("footer.terms") }}
+          </nuxt-link>
         </div>
       </div>
     </div>

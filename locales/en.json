@@ -18,7 +18,44 @@
   "footer": {
     "about": "About",
     "contacts": "Contacts",
-    "privacy": "Privacy Policy"
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  },
+  "Terms": {
+    "title": "Terms of Use",
+    "lead": "Please read the terms of use of the UzGovInfo website carefully.",
+    "sections": {
+      "one": {
+        "title": "General provisions",
+        "text": "UzGovInfo is an informational directory of links to official websites of government bodies of the Republic of Uzbekistan. By using this website, you agree to the terms of use set out on this page."
+      },
+      "two": {
+        "title": "Informational nature of the website",
+        "text": "UzGovInfo is not an official government portal. It is an independent directory of links to official online resources of government organizations."
+      },
+      "three": {
+        "title": "Accuracy of information",
+        "text": "We strive to keep the directory up to date and regularly review links and descriptions. However, the website administration does not guarantee absolute accuracy or timeliness of all published information."
+      },
+      "four": {
+        "title": "External links",
+        "text": "The website contains links to external online resources. We do not control the content of these websites and are not responsible for information published on third-party resources."
+      },
+      "five": {
+        "title": "Changes to the terms",
+        "text": "The website administration may update or change these terms of use without prior notice. The current version is always available on this page."
+      },
+      "six": {
+        "title": "Contact information",
+        "text": "If you have questions regarding these terms of use, you can contact us via the",
+        "linkText": "Contacts page"
+      }
+    },
+    "seo": {
+      "title": "UzGovInfo Terms of Use",
+      "description": "UzGovInfo terms of use: website rules, responsibility, and contact information.",
+      "keywords": "terms of use, website rules, UzGovInfo, contacts, directory"
+    }
   },
   "Privacy": {
     "title": "Privacy Policy",
