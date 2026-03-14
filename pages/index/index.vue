@@ -32,7 +32,9 @@ const inspections = useInspections();
           <h2 class="font-medium text-base md:text-xl">
             {{ t("Headquarters.headtitle") }}
           </h2>
-          <nuxt-link to="/" class="text-xs">{{ t("see_all") }}</nuxt-link>
+          <nuxt-link :to="localePath('/headquarters')" class="text-xs">{{
+            t("see_all")
+          }}</nuxt-link>
         </div>
         <div
           class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 md:gap-4 lg:grid-cols-4"
@@ -68,7 +70,9 @@ const inspections = useInspections();
           <h2 class="font-medium text-base md:text-xl">
             {{ t("Ministries.headtitle") }}
           </h2>
-          <nuxt-link to="/" class="text-xs">{{ t("see_all") }}</nuxt-link>
+          <nuxt-link :to="localePath('/ministries')" class="text-xs">{{
+            t("see_all")
+          }}</nuxt-link>
         </div>
         <div
           class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 md:gap-4 lg:grid-cols-4"
@@ -104,7 +108,9 @@ const inspections = useInspections();
           <h2 class="font-medium text-base md:text-xl">
             {{ t("State.headtitle") }}
           </h2>
-          <nuxt-link to="/" class="text-xs">{{ t("see_all") }}</nuxt-link>
+          <nuxt-link :to="localePath('/state')" class="text-xs">{{
+            t("see_all")
+          }}</nuxt-link>
         </div>
         <div
           class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 md:gap-4 lg:grid-cols-4"
@@ -140,7 +146,9 @@ const inspections = useInspections();
           <h2 class="font-medium text-base md:text-xl">
             {{ t("Inspections.headtitle") }}
           </h2>
-          <nuxt-link to="/" class="text-xs">{{ t("see_all") }}</nuxt-link>
+          <nuxt-link :to="localePath('/inspections')" class="text-xs">{{
+            t("see_all")
+          }}</nuxt-link>
         </div>
         <div
           class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 md:gap-4 lg:grid-cols-4"
