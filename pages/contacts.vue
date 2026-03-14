@@ -38,7 +38,7 @@ const emailHref = "mailto:miramirxomitov97@gmail.com";
       </a>
 
       <a
-        :href="''"
+        :href="'https://t.me/Mirjalol1210'"
         target="_blank"
         rel="noopener noreferrer"
         class="bg-[#F3F4F9] rounded-xl p-4 hover:bg-[#E9EBF6] transition"
@@ -46,9 +46,7 @@ const emailHref = "mailto:miramirxomitov97@gmail.com";
         <div class="text-xs uppercase tracking-wide text-[#6B7280] mb-2">
           {{ t("Contacts.cards.telegram.title") }}
         </div>
-        <div class="text-lg font-semibold text-[#111827]">
-          <!-- @{{ telegramHandle }} -->
-        </div>
+        <div class="text-lg font-semibold text-[#111827]">@Mirjalol1210</div>
         <div class="text-sm text-[#4B5563] mt-2">
           {{ t("Contacts.cards.telegram.hint") }}
         </div>

@@ -6,6 +6,7 @@ import { useRoute } from "vue-router";
 const route = useRoute();
 const settingsStore = useSettingsStore();
 
+import Faq from "@/components/layout/Faq.vue";
 if (process.client) {
   // Асинхронная загрузка gtag.js
   const script = document.createElement("script");
@@ -69,6 +70,7 @@ onMounted(() => {
   <LayoutHeader />
   <div class="content">
     <NuxtPage :key="route.fullPath" />
+    <Faq />
   </div>
   <LayoutFooter />
 
