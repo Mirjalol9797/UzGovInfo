@@ -70,7 +70,7 @@ onMounted(() => {
   <LayoutHeader />
   <div class="content">
     <NuxtPage :key="route.fullPath" />
-    <Faq />
+    <Faq class="mt-8" />
   </div>
   <LayoutFooter />
 

@@ -97,7 +97,7 @@
       },
       "three": {
         "title": "Updates",
-        "text": "We aim to keep the directory up to date. If you spot an issue, let us know via the future “Contacts” page."
+        "text": "We aim to keep the directory up to date. If you spot an issue, please contact us via the “Contacts” page."
       }
     },
     "howItWorks": {
@@ -107,6 +107,28 @@
         "two": "Open an organization card and follow the official link.",
         "three": "Use the language switcher in the header."
       }
+    },
+    "contains": {
+      "title": "What the directory contains",
+      "items": {
+        "one": "central government authorities",
+        "two": "ministries of the Republic of Uzbekistan",
+        "three": "state committees and agencies",
+        "four": "inspections and other public institutions"
+      }
+    },
+    "audience": {
+      "title": "Who this website is for",
+      "items": {
+        "one": "citizens looking for official government websites",
+        "two": "students and researchers",
+        "three": "journalists",
+        "four": "developers and analysts"
+      }
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "text": "UzGovInfo is not an official government portal. The website is an independent informational directory that contains links to official websites of government bodies of the Republic of Uzbekistan."
     },
     "seo": {
       "title": "About UzGovInfo — directory of official government websites of Uzbekistan",

@@ -48,6 +48,43 @@ const route = useRoute();
         <li>{{ t("About.howItWorks.items.three") }}</li>
       </ul>
     </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 md:mt-10">
+      <div class="bg-[#F3F4F9] rounded-xl p-4">
+        <h2 class="text-lg font-semibold mb-3">
+          {{ t("About.contains.title") }}
+        </h2>
+        <ul class="list-disc pl-5 text-[#4B5563] leading-7">
+          <li>{{ t("About.contains.items.one") }}</li>
+          <li>{{ t("About.contains.items.two") }}</li>
+          <li>{{ t("About.contains.items.three") }}</li>
+          <li>{{ t("About.contains.items.four") }}</li>
+        </ul>
+      </div>
+
+      <div class="bg-[#F3F4F9] rounded-xl p-4">
+        <h2 class="text-lg font-semibold mb-3">
+          {{ t("About.audience.title") }}
+        </h2>
+        <ul class="list-disc pl-5 text-[#4B5563] leading-7">
+          <li>{{ t("About.audience.items.one") }}</li>
+          <li>{{ t("About.audience.items.two") }}</li>
+          <li>{{ t("About.audience.items.three") }}</li>
+          <li>{{ t("About.audience.items.four") }}</li>
+        </ul>
+      </div>
+    </div>
+
+    <div
+      class="mt-6 md:mt-8 rounded-xl border border-[#D1D5DB] bg-white p-4 md:p-5"
+    >
+      <h2 class="text-base md:text-lg font-semibold mb-2">
+        {{ t("About.disclaimer.title") }}
+      </h2>
+      <p class="text-[#4B5563] leading-7">
+        {{ t("About.disclaimer.text") }}
+      </p>
+    </div>
   </div>
 
   <Head>

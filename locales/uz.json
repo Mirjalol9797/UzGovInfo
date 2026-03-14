@@ -97,7 +97,7 @@
       },
       "three": {
         "title": "Yangilanishlar",
-        "text": "Katalogni imkon qadar dolzarb ushlab turamiz. Xatolik ko‘rsangiz, keyinroq qo‘shiladigan “Kontaktlar” sahifasi orqali xabar bering."
+        "text": "Katalogni imkon qadar dolzarb ushlab turamiz. Xatolik ko‘rsangiz, “Kontaktlar” sahifasi orqali bizga xabar bering."
       }
     },
     "howItWorks": {
@@ -107,6 +107,28 @@
         "two": "Tashkilot kartasini ochib, rasmiy havola orqali o‘ting.",
         "three": "Yuqoridagi til tanlash menyusidan foydalaning."
       }
+    },
+    "contains": {
+      "title": "Katalog tarkibi",
+      "items": {
+        "one": "davlat hokimiyatining markaziy organlari",
+        "two": "O‘zbekiston Respublikasi vazirliklari",
+        "three": "davlat qo‘mitalari va agentliklari",
+        "four": "inspeksiyalar va boshqa davlat muassasalari"
+      }
+    },
+    "audience": {
+      "title": "Sayt kimlar uchun",
+      "items": {
+        "one": "rasmiy davlat saytlarini izlayotgan fuqarolar uchun",
+        "two": "talabalar va tadqiqotchilar uchun",
+        "three": "jurnalistlar uchun",
+        "four": "dasturchilar va tahlilchilar uchun"
+      }
+    },
+    "disclaimer": {
+      "title": "Muhim eslatma",
+      "text": "UzGovInfo rasmiy davlat portali emas. Ushbu sayt O‘zbekiston Respublikasi davlat organlarining rasmiy saytlariga havolalarni jamlagan mustaqil axborot katalogidir."
     },
     "seo": {
       "title": "UzGovInfo haqida — O‘zbekiston davlat organlari rasmiy saytlar katalogi",
