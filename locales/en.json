@@ -66,7 +66,7 @@
   },
   "Contacts": {
     "title": "Contacts",
-    "lead": "Have suggestions, feedback, or found an issue in the directory? Reach out using any convenient method below.",
+    "lead": "If you have suggestions, feedback, or notice an inaccuracy in the directory, please contact us using any convenient method. We strive to keep the government websites directory up to date and appreciate your feedback.",
     "cards": {
       "phone": {
         "title": "Phone",
@@ -83,7 +83,12 @@
     },
     "note": {
       "title": "Note",
-      "text": "We try to keep links and descriptions up to date, but some resources may change their URLs. Your messages help us improve the directory."
+      "text": "We try to keep links and descriptions up to date, but some resources may change their URLs. Your messages help us improve the directory.",
+      "responseTime": "Response time: usually within 24–48 hours."
+    },
+    "about": {
+      "title": "About the website",
+      "text": "UzGovInfo is an independent informational directory of official websites of government bodies of the Republic of Uzbekistan. If you notice a missing organization or an outdated link, please let us know."
     },
     "seo": {
       "title": "UzGovInfo Contacts — get in touch",

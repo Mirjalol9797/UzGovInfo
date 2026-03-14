@@ -6,10 +6,10 @@ const route = useRoute();
 
 const phoneDisplay = "+998 91 603 67 65";
 const phoneHref = "tel:+998916036765";
-const telegramHandle = "Mirjalol9797";
-const telegramHref = "https://t.me/Mirjalol9797";
-const email = "miramirxomitov97@gmail.com";
-const emailHref = "mailto:miramirxomitov97@gmail.com";
+const telegramHandle = "Mirjalol1210";
+const telegramHref = "https://t.me/Mirjalol1210";
+const email = "info@govinfo.uz";
+const emailHref = "mailto:info@govinfo.uz";
 </script>
 
 <template>
@@ -38,7 +38,7 @@ const emailHref = "mailto:miramirxomitov97@gmail.com";
       </a>
 
       <a
-        :href="'https://t.me/Mirjalol1210'"
+        :href="telegramHref"
         target="_blank"
         rel="noopener noreferrer"
         class="bg-[#F3F4F9] rounded-xl p-4 hover:bg-[#E9EBF6] transition"
@@ -46,21 +46,23 @@ const emailHref = "mailto:miramirxomitov97@gmail.com";
         <div class="text-xs uppercase tracking-wide text-[#6B7280] mb-2">
           {{ t("Contacts.cards.telegram.title") }}
         </div>
-        <div class="text-lg font-semibold text-[#111827]">@Mirjalol1210</div>
+        <div class="text-lg font-semibold text-[#111827]">
+          @{{ telegramHandle }}
+        </div>
         <div class="text-sm text-[#4B5563] mt-2">
           {{ t("Contacts.cards.telegram.hint") }}
         </div>
       </a>
 
       <a
-        :href="''"
+        :href="emailHref"
         class="bg-[#F3F4F9] rounded-xl p-4 hover:bg-[#E9EBF6] transition"
       >
         <div class="text-xs uppercase tracking-wide text-[#6B7280] mb-2">
           {{ t("Contacts.cards.email.title") }}
         </div>
         <div class="text-lg font-semibold text-[#111827] break-all">
-          <!-- {{ email }} -->
+          {{ email }}
         </div>
         <div class="text-sm text-[#4B5563] mt-2">
           {{ t("Contacts.cards.email.hint") }}
@@ -74,6 +76,20 @@ const emailHref = "mailto:miramirxomitov97@gmail.com";
       </h2>
       <p class="text-[#4B5563] leading-7">
         {{ t("Contacts.note.text") }}
+      </p>
+      <p class="text-[#4B5563] leading-7 mt-2">
+        {{ t("Contacts.note.responseTime") }}
+      </p>
+    </div>
+
+    <div
+      class="mt-6 md:mt-8 rounded-xl border border-[#D1D5DB] bg-white p-4 md:p-5"
+    >
+      <h2 class="text-lg md:text-xl font-semibold mb-2">
+        {{ t("Contacts.about.title") }}
+      </h2>
+      <p class="text-[#4B5563] leading-7">
+        {{ t("Contacts.about.text") }}
       </p>
     </div>
   </div>

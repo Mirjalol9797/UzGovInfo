@@ -66,7 +66,7 @@
   },
   "Contacts": {
     "title": "Kontaktlar",
-    "lead": "Takliflaringiz bo‘lsa, fikr-mulohaza bermoqchi bo‘lsangiz yoki katalogda xatolik topsangiz — quyidagi usullardan biri orqali biz bilan bog‘laning.",
+    "lead": "Agar sizda taklif yoki mulohazalar bo‘lsa, yoxud katalogda noaniqlik aniqlasangiz, iltimos, biz bilan qulay usulda bog‘laning. Davlat saytlar katalogini doimo dolzarb saqlashga harakat qilamiz va fikr-mulohazalaringiz uchun minnatdor bo‘lamiz.",
     "cards": {
       "phone": {
         "title": "Telefon",
@@ -83,7 +83,12 @@
     },
     "note": {
       "title": "Eslatma",
-      "text": "Havolalar va tavsiflarni imkon qadar dolzarb saqlaymiz, ammo ayrim resurslar manzillarini o‘zgartirishi mumkin. Xabaringiz katalogni yanada aniqroq qiladi."
+      "text": "Havolalar va tavsiflarni imkon qadar dolzarb saqlaymiz, ammo ayrim resurslar manzillarini o‘zgartirishi mumkin. Xabaringiz katalogni yanada aniqroq qiladi.",
+      "responseTime": "Javob berish vaqti: odatda 24–48 soat ichida."
+    },
+    "about": {
+      "title": "Sayt haqida",
+      "text": "UzGovInfo O‘zbekiston Respublikasi davlat organlarining rasmiy saytlariga havolalar jamlangan mustaqil axborot katalogidir. Agar katalogda yo‘q tashkilot yoki eskirgan havolani aniqlasangiz, iltimos, bizga xabar bering."
     },
     "seo": {
       "title": "UzGovInfo kontaktlari — aloqa va fikr-mulohaza",
