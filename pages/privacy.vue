@@ -53,6 +53,24 @@ const route = useRoute();
         </p>
       </section>
 
+      <section>
+        <h2 class="text-lg md:text-xl font-semibold mb-2">
+          {{ t("Privacy.sections.five.title") }}
+        </h2>
+        <p class="text-[#4B5563] leading-7">
+          {{ t("Privacy.sections.five.text") }}
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg md:text-xl font-semibold mb-2">
+          {{ t("Privacy.sections.six.title") }}
+        </h2>
+        <p class="text-[#4B5563] leading-7">
+          {{ t("Privacy.sections.six.text") }}
+        </p>
+      </section>
+
       <section class="bg-[#F3F4F9] rounded-xl p-4">
         <h2 class="text-base md:text-lg font-semibold mb-2">
           {{ t("Privacy.contact.title") }}
