@@ -6,6 +6,50 @@ const { t, locale } = useI18n();
 const localePath = useLocalePath();
 const headquarters = useHeadquarters();
 
+const schemaOrgData = computed(() => {
+  const ru = {
+    name: "Высшие государственные органы Республики Узбекистан",
+    description: "Список высших государственных органов Узбекистана и ссылки на их официальные сайты.",
+    url: "https://govinfo.uz/headquarters",
+    inLanguage: "ru",
+  };
+  const en = {
+    name: "Supreme Government Bodies of the Republic of Uzbekistan",
+    description: "List of supreme government bodies of Uzbekistan and links to their official websites.",
+    url: "https://govinfo.uz/en/headquarters",
+    inLanguage: "en",
+  };
+  const uz = {
+    name: "Oʻzbekiston Respublikasining oliy davlat organlari",
+    description: "Oʻzbekistonning oliy davlat organlari roʻyxati va ularning rasmiy saytlariga havolalar.",
+    url: "https://govinfo.uz/uz/headquarters",
+    inLanguage: "uz",
+  };
+  const data = { ru, en, uz }[locale.value] || ru;
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: data.name,
+    description: data.description,
+    url: data.url,
+    inLanguage: data.inLanguage,
+    publisher: {
+      "@type": "Organization",
+      name: "Govinfo",
+      url: "https://govinfo.uz",
+    },
+  };
+});
+
+useHead({
+  script: [
+    {
+      type: "application/ld+json",
+      innerHTML: computed(() => JSON.stringify(schemaOrgData.value)),
+    },
+  ],
+});
+
 const introText = computed(() => {
   const ru = [
     "Высшие государственные органы Узбекистана образуют основу системы государственного управления страны, определяют её политическую, правовую и административную структуру, отвечают за разработку и реализацию государственной политики, а также за контроль за соблюдением законов и конституционного порядка.",
