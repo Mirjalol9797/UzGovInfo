@@ -7,16 +7,22 @@ const ministries = useMinistries();
 
 const seoData = computed(() => {
   const ru = {
-    title: "Министерства Республики Узбекистан — список и официальные сайты | Govinfo",
-    description: "Полный список министерств Республики Узбекистан с ссылками на официальные сайты. Информация о структуре исполнительной власти и государственных министерствах.",
+    title:
+      "Министерства Республики Узбекистан — список и официальные сайты | Govinfo",
+    description:
+      "Полный список министерств Республики Узбекистан с ссылками на официальные сайты. Информация о структуре исполнительной власти и государственных министерствах.",
   };
   const en = {
-    title: "Ministries of the Republic of Uzbekistan — List and Official Websites | Govinfo",
-    description: "Complete list of ministries of the Republic of Uzbekistan with links to official websites. Information on the structure of the executive branch and government ministries.",
+    title:
+      "Ministries of the Republic of Uzbekistan — List and Official Websites | Govinfo",
+    description:
+      "Complete list of ministries of the Republic of Uzbekistan with links to official websites. Information on the structure of the executive branch and government ministries.",
   };
   const uz = {
-    title: "Oʻzbekiston Respublikasi vazirliklari — roʻyxat va rasmiy saytlar | Govinfo",
-    description: "Oʻzbekiston Respublikasi vazirliklari toʻliq roʻyxati va rasmiy saytlariga havolalar. Ijrochi hokimiyat tuzilishi va davlat vazirliklari haqida maʼlumot.",
+    title:
+      "Oʻzbekiston Respublikasi vazirliklari — roʻyxat va rasmiy saytlar | Govinfo",
+    description:
+      "Oʻzbekiston Respublikasi vazirliklari toʻliq roʻyxati va rasmiy saytlariga havolalar. Ijrochi hokimiyat tuzilishi va davlat vazirliklari haqida maʼlumot.",
   };
   return { ru, en, uz }[locale.value] || ru;
 });
@@ -24,19 +30,22 @@ const seoData = computed(() => {
 const schemaOrgData = computed(() => {
   const ru = {
     name: "Министерства Республики Узбекистан",
-    description: "Каталог министерств Республики Узбекистан с ссылками на официальные сайты государственных органов.",
+    description:
+      "Каталог министерств Республики Узбекистан с ссылками на официальные сайты государственных органов.",
     url: "https://govinfo.uz/ministries",
     inLanguage: "ru",
   };
   const en = {
     name: "Ministries of the Republic of Uzbekistan",
-    description: "Catalog of ministries of the Republic of Uzbekistan with links to official government websites.",
+    description:
+      "Catalog of ministries of the Republic of Uzbekistan with links to official government websites.",
     url: "https://govinfo.uz/en/ministries",
     inLanguage: "en",
   };
   const uz = {
     name: "Oʻzbekiston Respublikasi vazirliklari",
-    description: "Oʻzbekiston Respublikasi vazirliklari katalogi va davlat organlarining rasmiy saytlariga havolalar.",
+    description:
+      "Oʻzbekiston Respublikasi vazirliklari katalogi va davlat organlarining rasmiy saytlariga havolalar.",
     url: "https://govinfo.uz/uz/ministries",
     inLanguage: "uz",
   };
@@ -63,7 +72,13 @@ useHead({
     { property: "og:title", content: () => seoData.value.title },
     { property: "og:description", content: () => seoData.value.description },
     { property: "og:image", content: "https://govinfo.uz/images/gerb.png" },
-    { property: "og:url", content: () => `https://govinfo.uz${locale.value === "ru" ? "" : "/" + locale.value}/ministries` },
+    {
+      property: "og:url",
+      content: () =>
+        `https://govinfo.uz${
+          locale.value === "ru" ? "" : "/" + locale.value
+        }/ministries`,
+    },
   ],
   script: [
     {
@@ -172,10 +187,14 @@ const usefulInfoText = computed(() => {
 const otherGovBodiesText = computed(() => {
   const ru = {
     h2: "Другие государственные органы Узбекистана",
-    intro: "Помимо министерств, в системе государственного управления Республики Узбекистан функционируют и другие государственные органы, выполняющие важные административные и регулирующие функции.",
-    intro2: "К таким учреждениям относятся государственные агентства, комитеты, инспекции и другие специализированные органы власти. Они обеспечивают реализацию государственной политики в отдельных сферах, регулируют деятельность отраслей экономики и контролируют соблюдение законодательства.",
-    listIntro: "На портале Govinfo вы также можете ознакомиться со следующими разделами каталога государственных органов:",
-    outro: "Это позволяет получить более полное представление о структуре государственного управления Республики Узбекистан.",
+    intro:
+      "Помимо министерств, в системе государственного управления Республики Узбекистан функционируют и другие государственные органы, выполняющие важные административные и регулирующие функции.",
+    intro2:
+      "К таким учреждениям относятся государственные агентства, комитеты, инспекции и другие специализированные органы власти. Они обеспечивают реализацию государственной политики в отдельных сферах, регулируют деятельность отраслей экономики и контролируют соблюдение законодательства.",
+    listIntro:
+      "На портале Govinfo вы также можете ознакомиться со следующими разделами каталога государственных органов:",
+    outro:
+      "Это позволяет получить более полное представление о структуре государственного управления Республики Узбекистан.",
     links: [
       { href: "/headquarters", text: "Высшие государственные органы" },
       { href: "/state", text: "Государственные комитеты и агентства" },
@@ -184,10 +203,14 @@ const otherGovBodiesText = computed(() => {
   };
   const en = {
     h2: "Other Government Bodies of Uzbekistan",
-    intro: "In addition to ministries, other government bodies that perform important administrative and regulatory functions operate in the system of public administration of the Republic of Uzbekistan.",
-    intro2: "Such institutions include state agencies, committees, inspections and other specialized government bodies. They ensure the implementation of state policy in certain areas, regulate the activities of economic sectors and monitor compliance with legislation.",
-    listIntro: "On the Govinfo portal you can also familiarize yourself with the following sections of the catalog of state bodies:",
-    outro: "This allows you to get a more complete picture of the structure of public administration of the Republic of Uzbekistan.",
+    intro:
+      "In addition to ministries, other government bodies that perform important administrative and regulatory functions operate in the system of public administration of the Republic of Uzbekistan.",
+    intro2:
+      "Such institutions include state agencies, committees, inspections and other specialized government bodies. They ensure the implementation of state policy in certain areas, regulate the activities of economic sectors and monitor compliance with legislation.",
+    listIntro:
+      "On the Govinfo portal you can also familiarize yourself with the following sections of the catalog of state bodies:",
+    outro:
+      "This allows you to get a more complete picture of the structure of public administration of the Republic of Uzbekistan.",
     links: [
       { href: "/headquarters", text: "Supreme Government Bodies" },
       { href: "/state", text: "State Committees and Agencies" },
@@ -196,10 +219,14 @@ const otherGovBodiesText = computed(() => {
   };
   const uz = {
     h2: "Oʻzbekistonning boshqa davlat organlari",
-    intro: "Vazirliklar bilan bir qatorda, Oʻzbekiston Respublikasi davlat boshqaruvi tizimida muhim maʼmuriy va tartibga soluvchi funksiyalarni bajaradi.",
-    intro2: "Bunday muassasalar davlat agentliklari, qoʻmitalari, inspeksiyalari va boshqa ixtisoslashtirilgan davlat organlarini oʻz ichiga oladi. Ular davlat siyosatini alohida sohalarda amalga oshirishni taʼminlaydi, iqtisodiyot tarmoqlari faoliyatini tartibga soladi va qonunchilikka rioya qilishni nazorat qiladi.",
-    listIntro: "Govinfo portali orqali siz davlat organlari katalogining quyidagi boʻlimlari bilan ham tanishishingiz mumkin:",
-    outro: "Bu Oʻzbekiston Respublikasi davlat boshqaruvi tuzilishining toʻliqroq tasavvuriga ega boʻlish imkonini beradi.",
+    intro:
+      "Vazirliklar bilan bir qatorda, Oʻzbekiston Respublikasi davlat boshqaruvi tizimida muhim maʼmuriy va tartibga soluvchi funksiyalarni bajaradi.",
+    intro2:
+      "Bunday muassasalar davlat agentliklari, qoʻmitalari, inspeksiyalari va boshqa ixtisoslashtirilgan davlat organlarini oʻz ichiga oladi. Ular davlat siyosatini alohida sohalarda amalga oshirishni taʼminlaydi, iqtisodiyot tarmoqlari faoliyatini tartibga soladi va qonunchilikka rioya qilishni nazorat qiladi.",
+    listIntro:
+      "Govinfo portali orqali siz davlat organlari katalogining quyidagi boʻlimlari bilan ham tanishishingiz mumkin:",
+    outro:
+      "Bu Oʻzbekiston Respublikasi davlat boshqaruvi tuzilishining toʻliqroq tasavvuriga ega boʻlish imkonini beradi.",
     links: [
       { href: "/headquarters", text: "Oliy davlat organlari" },
       { href: "/state", text: "Davlat qoʻmitalari va agentliklari" },
@@ -293,7 +320,7 @@ const faqText = computed(() => {
 
 <template>
   <div>
-    <div class="site-container py-6 md:py-10">
+    <div class="site-container">
       <section>
         <div class="border-b border-[#eee] pb-2 mb-4 md:mb-6">
           <h1 class="font-medium text-xl md:text-2xl">
@@ -341,10 +368,7 @@ const faqText = computed(() => {
           <div
             class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm space-y-2"
           >
-            <p
-              v-for="(para, i) in roleBlockText.paragraphs"
-              :key="'role-' + i"
-            >
+            <p v-for="(para, i) in roleBlockText.paragraphs" :key="'role-' + i">
               {{ para }}
             </p>
           </div>

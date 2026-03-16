@@ -9,19 +9,22 @@ const headquarters = useHeadquarters();
 const schemaOrgData = computed(() => {
   const ru = {
     name: "Высшие государственные органы Республики Узбекистан",
-    description: "Список высших государственных органов Узбекистана и ссылки на их официальные сайты.",
+    description:
+      "Список высших государственных органов Узбекистана и ссылки на их официальные сайты.",
     url: "https://govinfo.uz/headquarters",
     inLanguage: "ru",
   };
   const en = {
     name: "Supreme Government Bodies of the Republic of Uzbekistan",
-    description: "List of supreme government bodies of Uzbekistan and links to their official websites.",
+    description:
+      "List of supreme government bodies of Uzbekistan and links to their official websites.",
     url: "https://govinfo.uz/en/headquarters",
     inLanguage: "en",
   };
   const uz = {
     name: "Oʻzbekiston Respublikasining oliy davlat organlari",
-    description: "Oʻzbekistonning oliy davlat organlari roʻyxati va ularning rasmiy saytlariga havolalar.",
+    description:
+      "Oʻzbekistonning oliy davlat organlari roʻyxati va ularning rasmiy saytlariga havolalar.",
     url: "https://govinfo.uz/uz/headquarters",
     inLanguage: "uz",
   };
@@ -509,7 +512,7 @@ const otherGovBodiesText = computed(() => {
       title-key="Headquarters.seo.title"
       description-key="Headquarters.seo.description"
     />
-    <div class="site-container py-6 md:py-10">
+    <div class="site-container">
       <section>
         <div class="border-b border-[#eee] pb-2 mb-4 md:mb-6">
           <h1 class="font-medium text-xl md:text-2xl">
