@@ -245,26 +245,23 @@ const hqTableText = computed(() => {
   const ru = {
     h2: "Список высших государственных органов Республики Узбекистан",
     colOrganization: "Государственный орган",
-    colType: "Тип власти",
-    colFunction: "Основная функция",
+    colType: "Ветвь власти",
+    colFunction: "Полномочия и функции",
     colSite: "Официальный сайт",
-    siteLinkText: "Официальный сайт",
   };
   const en = {
     h2: "List of Supreme State Bodies of the Republic of Uzbekistan",
     colOrganization: "State Body",
-    colType: "Type of Power",
-    colFunction: "Main Function",
+    colType: "Branch of Power",
+    colFunction: "Powers and Functions",
     colSite: "Official Website",
-    siteLinkText: "Official website",
   };
   const uz = {
     h2: "Oʻzbekiston Respublikasining oliy davlat organlari roʻyxati",
     colOrganization: "Davlat organi",
-    colType: "Hokimiyat turi",
-    colFunction: "Asosiy vazifa",
+    colType: "Hokimiyat tarmogʻi",
+    colFunction: "Vakolatlar va funktsiyalar",
     colSite: "Rasmiy sayt",
-    siteLinkText: "Rasmiy sayt",
   };
   const map = { ru, en, uz };
   return map[locale.value] || map.ru;
@@ -272,190 +269,40 @@ const hqTableText = computed(() => {
 
 const hqTableRows = computed(() => {
   const ru = [
-    {
-      org: "Президент Республики Узбекистан",
-      type: "Глава государства",
-      func: "Определяет основные направления внутренней и внешней политики",
-      linkKey: "Headquarters.one.link",
-    },
-    {
-      org: "Законодательная палата Олий Мажлиса",
-      type: "Законодательная власть",
-      func: "Принятие законов и парламентский контроль",
-      linkKey: "Headquarters.two.link",
-    },
-    {
-      org: "Сенат Олий Мажлиса",
-      type: "Законодательная власть",
-      func: "Утверждение законов и надзор за законодательством",
-      linkKey: "Headquarters.three.link",
-    },
-    {
-      org: "Кабинет Министров",
-      type: "Исполнительная власть",
-      func: "Реализация государственной политики",
-      linkKey: "Headquarters.four.link",
-    },
-    {
-      org: "Конституционный суд",
-      type: "Судебная власть",
-      func: "Контроль соответствия законов Конституции",
-      linkKey: "Headquarters.five.link",
-    },
-    {
-      org: "Верховный суд",
-      type: "Судебная власть",
-      func: "Высший судебный орган страны",
-      linkKey: "Headquarters.six.link",
-    },
-    {
-      org: "Генеральная прокуратура",
-      type: "Надзорный орган",
-      func: "Контроль за исполнением законов",
-      linkKey: "Headquarters.seven.link",
-    },
-    {
-      org: "Центральная избирательная комиссия",
-      type: "Независимый орган",
-      func: "Организация выборов",
-      linkKey: "Headquarters.eight.link",
-    },
-    {
-      org: "Центральный банк",
-      type: "Финансовый регулятор",
-      func: "Денежно-кредитная политика",
-      linkKey: "Headquarters.nine.link",
-    },
-    {
-      org: "Счётная палата",
-      type: "Контрольный орган",
-      func: "Финансовый аудит государственных средств",
-      linkKey: "Headquarters.ten.link",
-    },
+    { org: "Президент Республики Узбекистан", type: "Глава государства", func: "Гарант прав и свобод, определение курса внутренней и внешней политики", linkKey: "Headquarters.one.link", linkText: "president.uz" },
+    { org: "Законодательная палата Олий Мажлиса", type: "Законодательная", func: "Разработка, обсуждение и принятие государственных законов", linkKey: "Headquarters.two.link", linkText: "parliament.gov.uz" },
+    { org: "Сенат Олий Мажлиса", type: "Законодательная", func: "Территориальное представительство и одобрение принятых законов", linkKey: "Headquarters.three.link", linkText: "senat.uz" },
+    { org: "Кабинет Министров Республики Узбекистан", type: "Исполнительная", func: "Руководство экономикой, социальной и духовной сферами", linkKey: "Headquarters.four.link", linkText: "gov.uz" },
+    { org: "Конституционный суд", type: "Судебная", func: "Судебный надзор за соответствием актов Конституции РУз", linkKey: "Headquarters.five.link", linkText: "konstsud.uz" },
+    { org: "Верховный суд Республики Узбекистан", type: "Судебная", func: "Высший орган гражданского, уголовного и экономического правосудия", linkKey: "Headquarters.six.link", linkText: "sud.uz" },
+    { org: "Генеральная прокуратура", type: "Надзорная", func: "Надзор за точным и единообразным исполнением законов", linkKey: "Headquarters.seven.link", linkText: "prokuratura.uz" },
+    { org: "Центральная избирательная комиссия", type: "Независимая", func: "Подготовка и проведение выборов и референдумов", linkKey: "Headquarters.eight.link", linkText: "saylov.uz" },
+    { org: "Центральный банк", type: "Регулятор", func: "Эмиссия денег, стабильность валюты и банковский надзор", linkKey: "Headquarters.nine.link", linkText: "cbu.uz" },
+    { org: "Счётная палата РУз", type: "Контрольная", func: "Внешний аудит и контроль за исполнением бюджета", linkKey: "Headquarters.ten.link", linkText: "ach.gov.uz" },
   ];
   const en = [
-    {
-      org: "President of the Republic of Uzbekistan",
-      type: "Head of State",
-      func: "Defines the main directions of domestic and foreign policy",
-      linkKey: "Headquarters.one.link",
-    },
-    {
-      org: "Legislative Chamber of the Oliy Majlis",
-      type: "Legislative Power",
-      func: "Adoption of laws and parliamentary control",
-      linkKey: "Headquarters.two.link",
-    },
-    {
-      org: "Senate of the Oliy Majlis",
-      type: "Legislative Power",
-      func: "Approval of laws and oversight of legislation",
-      linkKey: "Headquarters.three.link",
-    },
-    {
-      org: "Cabinet of Ministers",
-      type: "Executive Power",
-      func: "Implementation of state policy",
-      linkKey: "Headquarters.four.link",
-    },
-    {
-      org: "Constitutional Court",
-      type: "Judicial Power",
-      func: "Control of compliance of laws with the Constitution",
-      linkKey: "Headquarters.five.link",
-    },
-    {
-      org: "Supreme Court",
-      type: "Judicial Power",
-      func: "Highest judicial body of the country",
-      linkKey: "Headquarters.six.link",
-    },
-    {
-      org: "General Prosecutor's Office",
-      type: "Supervisory Body",
-      func: "Control over the enforcement of laws",
-      linkKey: "Headquarters.seven.link",
-    },
-    {
-      org: "Central Election Commission",
-      type: "Independent Body",
-      func: "Organization of elections",
-      linkKey: "Headquarters.eight.link",
-    },
-    {
-      org: "Central Bank",
-      type: "Financial Regulator",
-      func: "Monetary policy",
-      linkKey: "Headquarters.nine.link",
-    },
-    {
-      org: "Accounts Chamber",
-      type: "Control Body",
-      func: "Financial audit of state funds",
-      linkKey: "Headquarters.ten.link",
-    },
+    { org: "President of the Republic of Uzbekistan", type: "Head of State", func: "Guarantor of rights and freedoms, determination of domestic and foreign policy", linkKey: "Headquarters.one.link", linkText: "president.uz" },
+    { org: "Legislative Chamber of the Oliy Majlis", type: "Legislative", func: "Drafting, discussion and adoption of state laws", linkKey: "Headquarters.two.link", linkText: "parliament.gov.uz" },
+    { org: "Senate of the Oliy Majlis", type: "Legislative", func: "Territorial representation and approval of adopted laws", linkKey: "Headquarters.three.link", linkText: "senat.uz" },
+    { org: "Cabinet of Ministers of the Republic of Uzbekistan", type: "Executive", func: "Management of economy, social and spiritual spheres", linkKey: "Headquarters.four.link", linkText: "gov.uz" },
+    { org: "Constitutional Court", type: "Judicial", func: "Judicial supervision over compliance of acts with the Constitution of Uzbekistan", linkKey: "Headquarters.five.link", linkText: "konstsud.uz" },
+    { org: "Supreme Court of the Republic of Uzbekistan", type: "Judicial", func: "Highest body of civil, criminal and economic justice", linkKey: "Headquarters.six.link", linkText: "sud.uz" },
+    { org: "General Prosecutor's Office", type: "Supervisory", func: "Supervision over precise and uniform enforcement of laws", linkKey: "Headquarters.seven.link", linkText: "prokuratura.uz" },
+    { org: "Central Election Commission", type: "Independent", func: "Preparation and conduct of elections and referendums", linkKey: "Headquarters.eight.link", linkText: "saylov.uz" },
+    { org: "Central Bank", type: "Regulator", func: "Money emission, currency stability and banking supervision", linkKey: "Headquarters.nine.link", linkText: "cbu.uz" },
+    { org: "Accounts Chamber of Uzbekistan", type: "Control", func: "External audit and control over budget execution", linkKey: "Headquarters.ten.link", linkText: "ach.gov.uz" },
   ];
   const uz = [
-    {
-      org: "Oʻzbekiston Respublikasi Prezidenti",
-      type: "Davlat rahbari",
-      func: "Ichki va tashqi siyosatning asosiy yoʻnalishlarini belgilaydi",
-      linkKey: "Headquarters.one.link",
-    },
-    {
-      org: "Oliy Majlis Qonunchilik palatasi",
-      type: "Qonun chiqaruvchi hokimiyat",
-      func: "Qonunlarni qabul qilish va parlament nazorati",
-      linkKey: "Headquarters.two.link",
-    },
-    {
-      org: "Oliy Majlis Senati",
-      type: "Qonun chiqaruvchi hokimiyat",
-      func: "Qonunlarni tasdiqlash va qonunchilik nazorati",
-      linkKey: "Headquarters.three.link",
-    },
-    {
-      org: "Vazirlar Mahkamasi",
-      type: "Ijrochi hokimiyat",
-      func: "Davlat siyosatini amalga oshirish",
-      linkKey: "Headquarters.four.link",
-    },
-    {
-      org: "Konstitutsiyaviy sud",
-      type: "Sud hokimiyati",
-      func: "Qonunlarning Konstitutsiyaga muvofiqligini nazorat qilish",
-      linkKey: "Headquarters.five.link",
-    },
-    {
-      org: "Oliy sud",
-      type: "Sud hokimiyati",
-      func: "Mamlakatning oliy sud organi",
-      linkKey: "Headquarters.six.link",
-    },
-    {
-      org: "Bosh prokuratura",
-      type: "Nazorat organi",
-      func: "Qonunlar bajarilishini nazorat qilish",
-      linkKey: "Headquarters.seven.link",
-    },
-    {
-      org: "Markaziy saylov komissiyasi",
-      type: "Mustaqil organ",
-      func: "Saylovlarni tashkil etish",
-      linkKey: "Headquarters.eight.link",
-    },
-    {
-      org: "Markaziy bank",
-      type: "Moliyaviy tartibga soluvchi",
-      func: "Pul-kredit siyosati",
-      linkKey: "Headquarters.nine.link",
-    },
-    {
-      org: "Hisob palatasi",
-      type: "Nazorat organi",
-      func: "Davlat mablagʻlarining moliyaviy auditi",
-      linkKey: "Headquarters.ten.link",
-    },
+    { org: "Oʻzbekiston Respublikasi Prezidenti", type: "Davlat rahbari", func: "Huquqlar va erkinliklar kafolati, ichki va tashqi siyosat yoʻnalishini belgilash", linkKey: "Headquarters.one.link", linkText: "president.uz" },
+    { org: "Oliy Majlis Qonunchilik palatasi", type: "Qonun chiqaruvchi", func: "Davlat qonunlarini ishlab chiqish, muhokama qilish va qabul qilish", linkKey: "Headquarters.two.link", linkText: "parliament.gov.uz" },
+    { org: "Oliy Majlis Senati", type: "Qonun chiqaruvchi", func: "Hududiy vakillik va qabul qilingan qonunlarni tasdiqlash", linkKey: "Headquarters.three.link", linkText: "senat.uz" },
+    { org: "Oʻzbekiston Respublikasi Vazirlar Mahkamasi", type: "Ijrochi", func: "Iqtisodiyot, ijtimoiy va maʼnaviy sohalarni boshqarish", linkKey: "Headquarters.four.link", linkText: "gov.uz" },
+    { org: "Konstitutsiyaviy sud", type: "Sud", func: "Oʻzbekiston Respublikasi Konstitutsiyasiga hujjatlar mosligini sud nazorati", linkKey: "Headquarters.five.link", linkText: "konstsud.uz" },
+    { org: "Oʻzbekiston Respublikasi Oliy sudi", type: "Sud", func: "Fuqarolik, jinoiy va iqtisodiy adolatning oliy organi", linkKey: "Headquarters.six.link", linkText: "sud.uz" },
+    { org: "Bosh prokuratura", type: "Nazorat", func: "Qonunlarning aniq va yagona bajarilishini nazorat qilish", linkKey: "Headquarters.seven.link", linkText: "prokuratura.uz" },
+    { org: "Markaziy saylov komissiyasi", type: "Mustaqil", func: "Saylovlar va referendumlarni tayyorlash va oʻtkazish", linkKey: "Headquarters.eight.link", linkText: "saylov.uz" },
+    { org: "Markaziy bank", type: "Tartibga soluvchi", func: "Pul emissiyasi, valyuta barqarorligi va bank nazorati", linkKey: "Headquarters.nine.link", linkText: "cbu.uz" },
+    { org: "Oʻzbekiston Respublikasi Hisob palatasi", type: "Nazorat", func: "Tashqi audit va byudjet bajarilishini nazorat qilish", linkKey: "Headquarters.ten.link", linkText: "ach.gov.uz" },
   ];
   const rows = { ru, en, uz }[locale.value] || ru;
   return rows.map((row) => ({
@@ -553,52 +400,50 @@ const otherGovBodiesText = computed(() => {
           </nuxt-link>
         </div>
 
-        <div class="mt-8 pt-6 border-t border-[#eee] overflow-x-auto">
+        <div class="overflow-x-auto my-6">
           <h2 class="font-semibold text-lg md:text-xl mb-4">
             {{ hqTableText.h2 }}
           </h2>
-          <table class="w-full text-sm border-collapse border border-[#eee]">
+          <table class="w-full text-sm border-collapse border border-[#e5e7eb]">
             <thead>
-              <tr class="bg-[#f9f9f9]">
-                <th
-                  class="border border-[#eee] px-3 py-2 text-left font-medium text-[#111]"
-                >
+              <tr class="bg-[#f8fafc]">
+                <th class="border border-[#e5e7eb] px-4 py-3 text-left font-bold text-[#1e293b]">
                   {{ hqTableText.colOrganization }}
                 </th>
-                <th
-                  class="border border-[#eee] px-3 py-2 text-left font-medium text-[#111]"
-                >
+                <th class="border border-[#e5e7eb] px-4 py-3 text-left font-bold text-[#1e293b]">
                   {{ hqTableText.colType }}
                 </th>
-                <th
-                  class="border border-[#eee] px-3 py-2 text-left font-medium text-[#111]"
-                >
+                <th class="border border-[#e5e7eb] px-4 py-3 text-left font-bold text-[#1e293b]">
                   {{ hqTableText.colFunction }}
                 </th>
-                <th
-                  class="border border-[#eee] px-3 py-2 text-left font-medium text-[#111]"
-                >
+                <th class="border border-[#e5e7eb] px-4 py-3 text-center font-bold text-[#1e293b]">
                   {{ hqTableText.colSite }}
                 </th>
               </tr>
             </thead>
-            <tbody>
+            <tbody class="divide-y divide-[#e5e7eb] text-[#4b5563]">
               <tr
                 v-for="(row, i) in hqTableRows"
                 :key="'table-' + i"
-                class="text-[#4B5563]"
+                class="hover:bg-slate-50 transition-colors"
               >
-                <td class="border border-[#eee] px-3 py-2">{{ row.org }}</td>
-                <td class="border border-[#eee] px-3 py-2">{{ row.type }}</td>
-                <td class="border border-[#eee] px-3 py-2">{{ row.func }}</td>
-                <td class="border border-[#eee] px-3 py-2">
+                <td class="border border-[#e5e7eb] px-4 py-3 font-semibold text-[#111]">
+                  {{ row.org }}
+                </td>
+                <td class="border border-[#e5e7eb] px-4 py-3">
+                  {{ row.type }}
+                </td>
+                <td class="border border-[#e5e7eb] px-4 py-3">
+                  {{ row.func }}
+                </td>
+                <td class="border border-[#e5e7eb] px-4 py-3 text-center">
                   <a
                     :href="row.link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="text-[#2563eb] hover:underline"
+                    class="text-blue-600 hover:underline"
                   >
-                    {{ hqTableText.siteLinkText }}
+                    {{ row.linkText }}
                   </a>
                 </td>
               </tr>
