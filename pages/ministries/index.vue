@@ -326,6 +326,77 @@ const faqText = computed(() => {
   const map = { ru, en, uz };
   return map[locale.value] || map.ru;
 });
+
+const ministriesTableText = computed(() => {
+  const ru = {
+    h2: "Список министерств Республики Узбекистан",
+    colOrganization: "Министерство",
+    colType: "Сфера",
+    colFunction: "Основная функция",
+    colSite: "Официальный сайт",
+    siteLinkText: "Официальный сайт",
+  };
+  const en = {
+    h2: "List of Ministries of the Republic of Uzbekistan",
+    colOrganization: "Ministry",
+    colType: "Sector",
+    colFunction: "Main Function",
+    colSite: "Official Website",
+    siteLinkText: "Official website",
+  };
+  const uz = {
+    h2: "Oʻzbekiston Respublikasi vazirliklari roʻyxati",
+    colOrganization: "Vazirlik",
+    colType: "Soha",
+    colFunction: "Asosiy vazifa",
+    colSite: "Rasmiy sayt",
+    siteLinkText: "Rasmiy sayt",
+  };
+  const map = { ru, en, uz };
+  return map[locale.value] || map.ru;
+});
+
+const ministriesTableRows = computed(() => {
+  const baseRows = ministries.data.map((item) => ({
+    titleKey: item.title,
+    linkKey: item.link,
+  }));
+  const funcByKey = {
+    "Ministries.one.title": { ru: "Инвестиции, промышленность и торговля", en: "Investment, industry and trade", uz: "Investitsiyalar, sanoat va savdo" },
+    "Ministries.two.title": { ru: "Экономика и финансы", en: "Economy and finance", uz: "Iqtisodiyot va moliya" },
+    "Ministries.three.title": { ru: "Горное дело и геология", en: "Mining and geology", uz: "Kon va geologiya" },
+    "Ministries.four.title": { ru: "Строительство и жилищно-коммунальное хозяйство", en: "Construction and housing", uz: "Qurilish va uy-joy kommunal xoʻjaligi" },
+    "Ministries.five.title": { ru: "Занятость и сокращение бедности", en: "Employment and poverty reduction", uz: "Bandlik va qashshoqlikni qisqartirish" },
+    "Ministries.six.title": { ru: "Аттестация и квалификация", en: "Attestation and qualification", uz: "Attestatsiya va malaka" },
+    "Ministries.seven.title": { ru: "Образование", en: "Education", uz: "Taʼlim" },
+    "Ministries.eight.title": { ru: "Экология и климат", en: "Ecology and climate", uz: "Ekologiya va iqlim" },
+    "Ministries.nine.title": { ru: "Спорт", en: "Sports", uz: "Sport" },
+    "Ministries.ten.title": { ru: "Сельское хозяйство", en: "Agriculture", uz: "Qishloq xoʻjaligi" },
+    "Ministries.eleven.title": { ru: "Водные ресурсы", en: "Water resources", uz: "Suv resurslari" },
+    "Ministries.twelve.title": { ru: "Цифровые технологии", en: "Digital technologies", uz: "Raqamli texnologiyalar" },
+    "Ministries.thirteen.title": { ru: "Юстиция", en: "Justice", uz: "Adliya" },
+    "Ministries.fourteen.title": { ru: "Транспорт", en: "Transport", uz: "Transport" },
+    "Ministries.fifteen.title": { ru: "Культура", en: "Culture", uz: "Madaniyat" },
+    "Ministries.sixteen.title": { ru: "Оборона", en: "Defense", uz: "Mudofaa" },
+    "Ministries.seventeen.title": { ru: "Энергетика", en: "Energy", uz: "Energetika" },
+    "Ministries.eighteen.title": { ru: "Здравоохранение", en: "Healthcare", uz: "Sogʻliqni saqlash" },
+    "Ministries.nineteen.title": { ru: "Иностранные дела", en: "Foreign affairs", uz: "Tashqi ishlar" },
+    "Ministries.twenty.title": { ru: "Внутренние дела", en: "Internal affairs", uz: "Ichki ishlar" },
+    "Ministries.twentyone.title": { ru: "Семья и гендерное равенство", en: "Family and gender equality", uz: "Oila va gender tengligi" },
+  };
+  const typeMap = { ru: "Министерство", en: "Ministry", uz: "Vazirlik" };
+  const type = typeMap[locale.value] || typeMap.ru;
+  return baseRows.map((row) => {
+    const funcData = funcByKey[row.titleKey];
+    const func = funcData ? funcData[locale.value] || funcData.ru : "";
+    return {
+      org: t(row.titleKey),
+      type,
+      func,
+      link: t(row.linkKey),
+    };
+  });
+});
 </script>
 
 <template>
@@ -368,6 +439,59 @@ const faqText = computed(() => {
             {{ $t(item.title) }}
           </h3>
         </nuxt-link>
+      </div>
+
+      <div class="mt-8 pt-6 border-t border-[#eee] overflow-x-auto">
+        <h2 class="font-semibold text-lg md:text-xl mb-4">
+          {{ ministriesTableText.h2 }}
+        </h2>
+        <table class="w-full text-sm border-collapse border border-[#eee]">
+          <thead>
+            <tr class="bg-[#f9f9f9]">
+              <th
+                class="border border-[#eee] px-3 py-2 text-left font-medium text-[#111]"
+              >
+                {{ ministriesTableText.colOrganization }}
+              </th>
+              <th
+                class="border border-[#eee] px-3 py-2 text-left font-medium text-[#111]"
+              >
+                {{ ministriesTableText.colType }}
+              </th>
+              <th
+                class="border border-[#eee] px-3 py-2 text-left font-medium text-[#111]"
+              >
+                {{ ministriesTableText.colFunction }}
+              </th>
+              <th
+                class="border border-[#eee] px-3 py-2 text-left font-medium text-[#111]"
+              >
+                {{ ministriesTableText.colSite }}
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              v-for="(row, i) in ministriesTableRows"
+              :key="'table-' + i"
+              class="text-[#4B5563]"
+            >
+              <td class="border border-[#eee] px-3 py-2">{{ row.org }}</td>
+              <td class="border border-[#eee] px-3 py-2">{{ row.type }}</td>
+              <td class="border border-[#eee] px-3 py-2">{{ row.func }}</td>
+              <td class="border border-[#eee] px-3 py-2">
+                <a
+                  :href="row.link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-[#2563eb] hover:underline"
+                >
+                  {{ ministriesTableText.siteLinkText }}
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
       <div class="mt-8 pt-6 border-t border-[#eee]">

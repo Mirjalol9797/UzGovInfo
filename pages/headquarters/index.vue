@@ -553,7 +553,7 @@ const otherGovBodiesText = computed(() => {
           </nuxt-link>
         </div>
 
-        <div class="mt-8 pt-6 border-t border-[#eee] overflow-x-auto !hidden">
+        <div class="mt-8 pt-6 border-t border-[#eee] overflow-x-auto">
           <h2 class="font-semibold text-lg md:text-xl mb-4">
             {{ hqTableText.h2 }}
           </h2>
