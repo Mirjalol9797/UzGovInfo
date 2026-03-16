@@ -100,6 +100,98 @@ const usefulInfoText = computed(() => {
   const map = { ru, en, uz };
   return map[locale.value] || map.ru;
 });
+
+const faqText = computed(() => {
+  const ru = {
+    h2: "Часто задаваемые вопросы",
+    items: [
+      {
+        q: "Какие органы относятся к высшим органам власти Узбекистана?",
+        a: "К высшим государственным органам Республики Узбекистан относятся Президент страны, парламент (Олий Мажлис), Кабинет Министров, Конституционный суд, Верховный суд, Генеральная прокуратура, Центральная избирательная комиссия, Центральный банк и Счётная палата.",
+      },
+      {
+        q: "Кто является главой государства в Узбекистане?",
+        a: "Главой государства является Президент Республики Узбекистан. Президент определяет основные направления государственной политики и представляет страну на международной арене.",
+      },
+      {
+        q: "Какую роль выполняет парламент Узбекистана?",
+        a: "Парламент Узбекистана — Олий Мажлис — является высшим законодательным органом страны. Он принимает законы, утверждает государственный бюджет и осуществляет парламентский контроль.",
+      },
+      {
+        q: "Где можно найти официальные сайты государственных органов Узбекистана?",
+        a: "Ссылки на официальные сайты государственных учреждений можно найти на портале Govinfo, где представлен каталог государственных органов Республики Узбекистан.",
+      },
+      {
+        q: "Какие функции выполняет Кабинет Министров?",
+        a: "Кабинет Министров является высшим органом исполнительной власти. Он реализует государственную политику, координирует деятельность министерств и обеспечивает социально-экономическое развитие страны.",
+      },
+      {
+        q: "Для чего нужны официальные сайты государственных органов?",
+        a: "Официальные сайты публикуют достоверную информацию о деятельности государственных учреждений, нормативные документы, новости и государственные услуги для граждан.",
+      },
+    ],
+  };
+  const en = {
+    h2: "Frequently Asked Questions",
+    items: [
+      {
+        q: "Which bodies are the supreme bodies of power in Uzbekistan?",
+        a: "The supreme state bodies of the Republic of Uzbekistan include the President of the country, the parliament (Oliy Majlis), the Cabinet of Ministers, the Constitutional Court, the Supreme Court, the Prosecutor General's Office, the Central Election Commission, the Central Bank and the Accounts Chamber.",
+      },
+      {
+        q: "Who is the head of state in Uzbekistan?",
+        a: "The head of state is the President of the Republic of Uzbekistan. The President defines the main directions of state policy and represents the country on the international arena.",
+      },
+      {
+        q: "What role does the parliament of Uzbekistan play?",
+        a: "The parliament of Uzbekistan — the Oliy Majlis — is the supreme legislative body of the country. It adopts laws, approves the state budget and exercises parliamentary control.",
+      },
+      {
+        q: "Where can I find the official websites of government agencies in Uzbekistan?",
+        a: "Links to the official websites of state institutions can be found on the Govinfo portal, which presents a catalog of state bodies of the Republic of Uzbekistan.",
+      },
+      {
+        q: "What functions does the Cabinet of Ministers perform?",
+        a: "The Cabinet of Ministers is the supreme body of executive power. It implements state policy, coordinates the activities of ministries and ensures the socio-economic development of the country.",
+      },
+      {
+        q: "What are official government websites for?",
+        a: "Official websites publish reliable information about the activities of state institutions, normative documents, news and public services for citizens.",
+      },
+    ],
+  };
+  const uz = {
+    h2: "Tez-tez beriladigan savollar",
+    items: [
+      {
+        q: "Oʻzbekistonda oliy davlat organlariga qaysi organlar kiradi?",
+        a: "Oʻzbekiston Respublikasining oliy davlat organlariga mamlakat Prezidenti, parlament (Oliy Majlis), Vazirlar Mahkamasi, Konstitutsiyaviy sud, Oliy sud, Bosh prokuratura, Markaziy saylov komissiyasi, Markaziy bank va Hisob palatasi kiradi.",
+      },
+      {
+        q: "Oʻzbekistonda davlat rahbari kim?",
+        a: "Davlat rahbari Oʻzbekiston Respublikasi Prezidentidir. Prezident davlat siyosatining asosiy yoʻnalishlarini belgilaydi va mamlakatni xalqaro maydonda vakillik qiladi.",
+      },
+      {
+        q: "Oʻzbekiston parlamenti qanday rol bajaradi?",
+        a: "Oʻzbekiston parlamenti — Oliy Majlis — mamlakatning oliy qonun chiqaruvchi organi hisoblanadi. U qonunlarni qabul qiladi, davlat byudjetini tasdiqlaydi va parlament nazoratini amalga oshiradi.",
+      },
+      {
+        q: "Oʻzbekiston davlat organlarining rasmiy saytlarini qayerda topish mumkin?",
+        a: "Davlat muassasalarining rasmiy saytlariga havolalarni Govinfo portali orqali topish mumkin, unda Oʻzbekiston Respublikasi davlat organlari katalogi taqdim etilgan.",
+      },
+      {
+        q: "Vazirlar Mahkamasi qanday funksiyalarni bajaradi?",
+        a: "Vazirlar Mahkamasi ijrochi hokimiyatning oliy organi hisoblanadi. U davlat siyosatini amalga oshiradi, vazirliklar faoliyatini muvofiqlashtiradi va mamlakatning ijtimoiy-iqtisodiy rivojlanishini taʼminlaydi.",
+      },
+      {
+        q: "Davlat organlarining rasmiy saytlari nima uchun kerak?",
+        a: "Rasmiy saytlar davlat muassasalari faoliyati haqida ishonchli maʼlumotlar, normativ hujjatlar, yangiliklar va fuqarolar uchun davlat xizmatlarini nashr etadi.",
+      },
+    ],
+  };
+  const map = { ru, en, uz };
+  return map[locale.value] || map.ru;
+});
 </script>
 
 <template>
@@ -178,6 +270,26 @@ const usefulInfoText = computed(() => {
             >
               {{ para }}
             </p>
+          </div>
+        </div>
+
+        <div class="mt-8 pt-6 border-t border-[#eee]">
+          <h2 class="font-semibold text-lg md:text-xl mb-4">
+            {{ faqText.h2 }}
+          </h2>
+          <div
+            class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm space-y-4"
+          >
+            <div
+              v-for="(item, i) in faqText.items"
+              :key="'faq-' + i"
+              class="space-y-1"
+            >
+              <h3 class="font-medium text-[#111] text-base 768:text-sm">
+                {{ item.q }}
+              </h3>
+              <p class="text-sm">{{ item.a }}</p>
+            </div>
           </div>
         </div>
       </section>
