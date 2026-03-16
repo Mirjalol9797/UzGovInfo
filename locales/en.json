@@ -192,7 +192,11 @@
     "headtitle": "All Government Organizations of Uzbekistan"
   },
   "Headquarters": {
-    "headtitle": "Headquarters",
+    "headtitle": "Supreme Government Bodies of the Republic of Uzbekistan",
+    "seo": {
+      "title": "Supreme Government Bodies of Uzbekistan — Official Website Directory | Govinfo",
+      "description": "List of supreme government bodies of the Republic of Uzbekistan: President, parliament, government, courts and other state institutions. Links to official government websites."
+    },
     "one": {
       "title": "Official web-site of the President of Uzbekistan",
       "description": "The official website of the President of Uzbekistan, Shavkat Mirziyoyev, provides news, official documents, speeches, and information on both domestic and international events involving the presidency. It includes sections for recent events, presidential decrees, and key strategic initiatives, along with a virtual reception for citizens' inquiries. The site also offers multimedia content, including photos and videos, and covers the President's visits abroad and meetings with international leaders.",

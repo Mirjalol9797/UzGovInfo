@@ -192,7 +192,11 @@
     "headtitle": "Oʻzbekistonning barcha davlat tashkilotlari"
   },
   "Headquarters": {
-    "headtitle": "Markaziy muassasalar",
+    "headtitle": "Oʻzbekiston Respublikasining oliy davlat organlari",
+    "seo": {
+      "title": "Oʻzbekistonning oliy davlat organlari — rasmiy saytlar katalogi | Govinfo",
+      "description": "Oʻzbekiston Respublikasining oliy davlat organlari roʻyxati: Prezident, parlament, hukumat, sudlar va boshqa davlat institutlari. Davlat organlarining rasmiy saytlariga havolalar."
+    },
     "one": {
       "title": "O‘zbekiston Respublikasi Prezidentining rasmiy veb-sayti",
       "description": "O‘zbekiston Prezidenti Shavkat Mirziyoyevning rasmiy veb-saytida Prezidentlik faoliyati bilan bog‘liq yangiliklar, rasmiy hujjatlar, ma’ruzalar, ichki va xalqaro voqealarga oid ma’lumotlar e’lon qilinadi. Unda so‘nggi voqealar, Prezident farmonlari va muhim strategik tashabbuslarga bag‘ishlangan bo‘limlar hamda fuqarolarning murojaatlari uchun virtual qabulxona tashkil etilgan. Saytda multimedia kontenti, jumladan, fotosuratlar va videolar ham taqdim etiladi va prezidentning xorijga tashriflari va xalqaro yetakchilar bilan uchrashuvlari yoritiladi.",
