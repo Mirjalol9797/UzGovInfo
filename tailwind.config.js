@@ -1,6 +1,31 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  content: [
+    "./components/**/*.{js,vue,ts}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
+    "./plugins/**/*.{js,ts}",
+    "./composables/**/*.{js,ts}",
+    "./app.vue",
+    "./error.vue",
+  ],
+
+  safelist: [
+    {
+      pattern: /(bg|text|border)-(23b250|2f80ed|ffda34|f0d043|008dd2|b6b7c3)/,
+      variants: ["hover"],
+    },
+    "text-[#23b250]",
+    "text-[#b6b7c3]",
+    "text-[#727272]",
+    "text-[#008dd2]",
+    "bg-[#23b250]",
+    "bg-[#f0d043]",
+    "bg-[#151415e0]",
+    "rotate-180",
+    "product-list__banner-full",
+  ],
+
   theme: {
     extend: {
       colors: {
