@@ -534,7 +534,7 @@ const otherGovBodiesText = computed(() => {
           <nuxt-link
             v-for="(item, index) in headquarters.data"
             :key="index"
-            :to="`/headquarters/${item.slug}`"
+            :to="localePath(`/headquarters/${item.slug}`)"
             class="link-block"
           >
             <div class="min-w-[64px] h-[64px]">

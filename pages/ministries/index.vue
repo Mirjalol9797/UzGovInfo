@@ -331,124 +331,122 @@ const faqText = computed(() => {
 <template>
   <div>
     <div class="site-container">
-      <section>
-        <div class="border-b border-[#eee] pb-2 mb-4 md:mb-6">
-          <h1 class="font-medium text-xl md:text-2xl">
-            {{ headTitle }}
-          </h1>
-        </div>
+      <div class="border-b border-[#eee] pb-2 mb-4 md:mb-6">
+        <h1 class="font-medium text-xl md:text-2xl">
+          {{ headTitle }}
+        </h1>
+      </div>
 
-        <div
-          class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm mb-6 space-y-2"
+      <div
+        class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm mb-6 space-y-2"
+      >
+        <p v-for="(para, i) in introText" :key="'intro-' + i">
+          {{ para }}
+        </p>
+      </div>
+
+      <div
+        class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
+      >
+        <nuxt-link
+          v-for="(item, index) in ministries.data"
+          :key="index"
+          :to="localePath(`/ministries/${item.slug}`)"
+          class="link-block"
         >
-          <p v-for="(para, i) in introText" :key="'intro-' + i">
+          <div class="min-w-[64px] h-[64px]">
+            <NuxtImg
+              :src="item.img"
+              :alt="t(item.title)"
+              :title="t(item.title)"
+              class="w-full h-full object-cover rounded-xl"
+              loading="lazy"
+              format="webp"
+            />
+          </div>
+          <h3 class="title">
+            {{ $t(item.title) }}
+          </h3>
+        </nuxt-link>
+      </div>
+
+      <div class="mt-8 pt-6 border-t border-[#eee]">
+        <h2 class="font-semibold text-lg md:text-xl mb-4">
+          {{ roleBlockText.h2 }}
+        </h2>
+        <div
+          class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm space-y-2"
+        >
+          <p v-for="(para, i) in roleBlockText.paragraphs" :key="'role-' + i">
             {{ para }}
           </p>
         </div>
+      </div>
 
+      <div class="mt-8 pt-6 border-t border-[#eee]">
+        <h2 class="font-semibold text-lg md:text-xl mb-4">
+          {{ usefulInfoText.h2 }}
+        </h2>
         <div
-          class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
+          class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm space-y-2"
         >
-          <nuxt-link
-            v-for="(item, index) in ministries.data"
-            :key="index"
-            :to="`/ministries/${item.slug}`"
-            class="link-block"
+          <p
+            v-for="(para, i) in usefulInfoText.paragraphs"
+            :key="'useful-' + i"
           >
-            <div class="min-w-[64px] h-[64px]">
-              <NuxtImg
-                :src="item.img"
-                :alt="t(item.title)"
-                :title="t(item.title)"
-                class="w-full h-full object-cover rounded-xl"
-                loading="lazy"
-                format="webp"
-              />
-            </div>
-            <h3 class="title">
-              {{ $t(item.title) }}
-            </h3>
-          </nuxt-link>
+            {{ para }}
+          </p>
         </div>
+      </div>
 
-        <div class="mt-8 pt-6 border-t border-[#eee]">
-          <h2 class="font-semibold text-lg md:text-xl mb-4">
-            {{ roleBlockText.h2 }}
-          </h2>
-          <div
-            class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm space-y-2"
-          >
-            <p v-for="(para, i) in roleBlockText.paragraphs" :key="'role-' + i">
-              {{ para }}
-            </p>
-          </div>
-        </div>
-
-        <div class="mt-8 pt-6 border-t border-[#eee]">
-          <h2 class="font-semibold text-lg md:text-xl mb-4">
-            {{ usefulInfoText.h2 }}
-          </h2>
-          <div
-            class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm space-y-2"
-          >
-            <p
-              v-for="(para, i) in usefulInfoText.paragraphs"
-              :key="'useful-' + i"
+      <div class="mt-8 pt-6 border-t border-[#eee]">
+        <h2 class="font-semibold text-lg md:text-xl mb-4">
+          {{ otherGovBodiesText.h2 }}
+        </h2>
+        <div
+          class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm space-y-2"
+        >
+          <p>{{ otherGovBodiesText.intro }}</p>
+          <p>{{ otherGovBodiesText.intro2 }}</p>
+          <p>{{ otherGovBodiesText.listIntro }}</p>
+          <ul class="list-disc list-inside mt-2 space-y-1">
+            <li
+              v-for="(link, i) in otherGovBodiesText.links"
+              :key="'other-' + i"
             >
-              {{ para }}
-            </p>
-          </div>
-        </div>
-
-        <div class="mt-8 pt-6 border-t border-[#eee]">
-          <h2 class="font-semibold text-lg md:text-xl mb-4">
-            {{ otherGovBodiesText.h2 }}
-          </h2>
-          <div
-            class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm space-y-2"
-          >
-            <p>{{ otherGovBodiesText.intro }}</p>
-            <p>{{ otherGovBodiesText.intro2 }}</p>
-            <p>{{ otherGovBodiesText.listIntro }}</p>
-            <ul class="list-disc list-inside mt-2 space-y-1">
-              <li
-                v-for="(link, i) in otherGovBodiesText.links"
-                :key="'other-' + i"
+              <NuxtLink
+                :to="localePath(link.href)"
+                class="text-[#2563eb] hover:underline"
               >
-                <NuxtLink
-                  :to="localePath(link.href)"
-                  class="text-[#2563eb] hover:underline"
-                >
-                  {{ link.text }}
-                </NuxtLink>
-              </li>
-            </ul>
-            <p>
-              {{ otherGovBodiesText.outro }}
-            </p>
-          </div>
+                {{ link.text }}
+              </NuxtLink>
+            </li>
+          </ul>
+          <p>
+            {{ otherGovBodiesText.outro }}
+          </p>
         </div>
+      </div>
 
-        <div class="mt-8 pt-6 border-t border-[#eee]">
-          <h2 class="font-semibold text-lg md:text-xl mb-4">
-            {{ faqText.h2 }}
-          </h2>
+      <div class="mt-8 pt-6 border-t border-[#eee]">
+        <h2 class="font-semibold text-lg md:text-xl mb-4">
+          {{ faqText.h2 }}
+        </h2>
+        <div
+          class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm space-y-4"
+        >
           <div
-            class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm space-y-4"
+            v-for="(item, i) in faqText.items"
+            :key="'faq-' + i"
+            class="space-y-1"
           >
-            <div
-              v-for="(item, i) in faqText.items"
-              :key="'faq-' + i"
-              class="space-y-1"
-            >
-              <h3 class="font-medium text-[#111] text-base 768:text-sm">
-                {{ item.q }}
-              </h3>
-              <p class="text-sm">{{ item.a }}</p>
-            </div>
+            <h3 class="font-medium text-[#111] text-base 768:text-sm">
+              {{ item.q }}
+            </h3>
+            <p class="text-sm">{{ item.a }}</p>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   </div>
 </template>
