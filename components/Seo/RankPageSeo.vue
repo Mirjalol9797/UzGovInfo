@@ -4,11 +4,18 @@ import { useRoute } from "vue-router";
 const props = defineProps({
   oneData: {
     type: Object,
-    default: {},
+    default: () => ({}),
   },
 });
 const { t } = useI18n();
 const route = useRoute();
+
+const BASE_URL = "https://govinfo.uz";
+const ogImageUrl = computed(() => {
+  const img = props.oneData?.seo?.image;
+  if (!img) return `${BASE_URL}/images/gerb.png`;
+  return img.startsWith("http") ? img : `${BASE_URL}${img.startsWith("/") ? "" : "/"}${img}`;
+});
 </script>
 <template>
   <Head>
@@ -26,14 +33,14 @@ const route = useRoute();
       property="og:description"
       :content="t(oneData?.seo?.description)"
     />
-    <Meta property="og:image" :content="t(oneData?.seo.image)" />
+    <Meta property="og:image" :content="ogImageUrl" />
     <Meta property="og:url" :content="`https://govinfo.uz${route.fullPath}`" />
     <Meta property="twitter:title" :content="t(oneData?.seo?.title)" />
     <Meta
       property="twitter:description"
       :content="t(oneData?.seo?.description)"
     />
-    <Meta property="twitter:image" :content="t(oneData?.seo.image)" />
+    <Meta property="twitter:image" :content="ogImageUrl" />
     <Meta
       property="twitter:url"
       :content="`https://govinfo.uz${route.fullPath}`"

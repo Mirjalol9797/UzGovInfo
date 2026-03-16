@@ -10,6 +10,9 @@
     />
     <Meta name="og:type" property="og:type" content="website" />
     <Meta name="og:site_name" property="og:site_name" content="govinfo" />
+    <Meta name="og:title" property="og:title" content="UzGovInfo — каталог официальных сайтов госорганов Узбекистана" />
+    <Meta name="og:description" property="og:description" content="Каталог официальных сайтов государственных организаций Республики Узбекистан: министерства, комитеты, инспекции." />
+    <Meta property="og:image" content="https://govinfo.uz/images/gerb.png" />
     <Meta property="twitter:card" content="summary_large_image" />
     <Meta name="copyright" content="copyright © 2024, govinfo.uz" />
     <Meta name="google-adsense-account" content="ca-pub-3990212606361557" />

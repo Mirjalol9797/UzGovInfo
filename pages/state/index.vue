@@ -1,12 +1,15 @@
 <script setup>
 import useState from "../../data/state";
+import CategorySeo from "../../components/Seo/CategorySeo.vue";
 
 const { t } = useI18n();
 const state = useState();
 </script>
 
 <template>
-  <div class="site-container py-6 md:py-10">
+  <div>
+    <CategorySeo title-key="State.headtitle" />
+    <div class="site-container py-6 md:py-10">
     <section>
       <div class="border-b border-[#eee] pb-2 mb-4 md:mb-6">
         <h1 class="font-medium text-xl md:text-2xl">
@@ -38,5 +41,6 @@ const state = useState();
         </nuxt-link>
       </div>
     </section>
+    </div>
   </div>
 </template>

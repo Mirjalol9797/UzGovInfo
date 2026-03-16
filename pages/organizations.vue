@@ -72,6 +72,18 @@ const content = computed(() => {
   const map = { ru, en, uz };
   return map[locale.value] || map.ru;
 });
+
+const route = useRoute();
+useHead(() => ({
+  title: content.value.h1,
+  meta: [
+    { name: "description", content: content.value.text1[0] },
+    { property: "og:title", content: content.value.h1 },
+    { property: "og:description", content: content.value.text1[0] },
+    { property: "og:image", content: "https://govinfo.uz/images/gerb.png" },
+    { property: "og:url", content: `https://govinfo.uz${route.fullPath}` },
+  ],
+}));
 </script>
 
 <template>

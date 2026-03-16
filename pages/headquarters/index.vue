@@ -1,12 +1,15 @@
 <script setup>
 import useHeadquarters from "../../data/headquarters";
+import CategorySeo from "../../components/Seo/CategorySeo.vue";
 
 const { t } = useI18n();
 const headquarters = useHeadquarters();
 </script>
 
 <template>
-  <div class="site-container py-6 md:py-10">
+  <div>
+    <CategorySeo title-key="Headquarters.headtitle" />
+    <div class="site-container py-6 md:py-10">
     <section>
       <div class="border-b border-[#eee] pb-2 mb-4 md:mb-6">
         <h1 class="font-medium text-xl md:text-2xl">
@@ -38,5 +41,6 @@ const headquarters = useHeadquarters();
         </nuxt-link>
       </div>
     </section>
+    </div>
   </div>
 </template>

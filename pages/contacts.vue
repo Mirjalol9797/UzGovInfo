@@ -109,7 +109,7 @@ const emailHref = "mailto:info@govinfo.uz";
       property="og:description"
       :content="t('Contacts.seo.description')"
     />
-    <Meta property="og:image" content="https://govinfo.uz/logo.pgn" />
+    <Meta property="og:image" content="https://govinfo.uz/images/gerb.png" />
     <Meta property="og:url" :content="`https://govinfo.uz${route.fullPath}`" />
     <Meta property="twitter:title" :content="t('Contacts.seo.title')" />
     <Meta
