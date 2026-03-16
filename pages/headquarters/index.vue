@@ -3,6 +3,7 @@ import useHeadquarters from "../../data/headquarters";
 import CategorySeo from "../../components/Seo/CategorySeo.vue";
 
 const { t, locale } = useI18n();
+const localePath = useLocalePath();
 const headquarters = useHeadquarters();
 
 const introText = computed(() => {
@@ -224,46 +225,237 @@ const hqTableText = computed(() => {
 
 const hqTableRows = computed(() => {
   const ru = [
-    { org: "Президент Республики Узбекистан", type: "Глава государства", func: "Определяет основные направления внутренней и внешней политики", linkKey: "Headquarters.one.link" },
-    { org: "Законодательная палата Олий Мажлиса", type: "Законодательная власть", func: "Принятие законов и парламентский контроль", linkKey: "Headquarters.two.link" },
-    { org: "Сенат Олий Мажлиса", type: "Законодательная власть", func: "Утверждение законов и надзор за законодательством", linkKey: "Headquarters.three.link" },
-    { org: "Кабинет Министров", type: "Исполнительная власть", func: "Реализация государственной политики", linkKey: "Headquarters.four.link" },
-    { org: "Конституционный суд", type: "Судебная власть", func: "Контроль соответствия законов Конституции", linkKey: "Headquarters.five.link" },
-    { org: "Верховный суд", type: "Судебная власть", func: "Высший судебный орган страны", linkKey: "Headquarters.six.link" },
-    { org: "Генеральная прокуратура", type: "Надзорный орган", func: "Контроль за исполнением законов", linkKey: "Headquarters.seven.link" },
-    { org: "Центральная избирательная комиссия", type: "Независимый орган", func: "Организация выборов", linkKey: "Headquarters.eight.link" },
-    { org: "Центральный банк", type: "Финансовый регулятор", func: "Денежно-кредитная политика", linkKey: "Headquarters.nine.link" },
-    { org: "Счётная палата", type: "Контрольный орган", func: "Финансовый аудит государственных средств", linkKey: "Headquarters.ten.link" },
+    {
+      org: "Президент Республики Узбекистан",
+      type: "Глава государства",
+      func: "Определяет основные направления внутренней и внешней политики",
+      linkKey: "Headquarters.one.link",
+    },
+    {
+      org: "Законодательная палата Олий Мажлиса",
+      type: "Законодательная власть",
+      func: "Принятие законов и парламентский контроль",
+      linkKey: "Headquarters.two.link",
+    },
+    {
+      org: "Сенат Олий Мажлиса",
+      type: "Законодательная власть",
+      func: "Утверждение законов и надзор за законодательством",
+      linkKey: "Headquarters.three.link",
+    },
+    {
+      org: "Кабинет Министров",
+      type: "Исполнительная власть",
+      func: "Реализация государственной политики",
+      linkKey: "Headquarters.four.link",
+    },
+    {
+      org: "Конституционный суд",
+      type: "Судебная власть",
+      func: "Контроль соответствия законов Конституции",
+      linkKey: "Headquarters.five.link",
+    },
+    {
+      org: "Верховный суд",
+      type: "Судебная власть",
+      func: "Высший судебный орган страны",
+      linkKey: "Headquarters.six.link",
+    },
+    {
+      org: "Генеральная прокуратура",
+      type: "Надзорный орган",
+      func: "Контроль за исполнением законов",
+      linkKey: "Headquarters.seven.link",
+    },
+    {
+      org: "Центральная избирательная комиссия",
+      type: "Независимый орган",
+      func: "Организация выборов",
+      linkKey: "Headquarters.eight.link",
+    },
+    {
+      org: "Центральный банк",
+      type: "Финансовый регулятор",
+      func: "Денежно-кредитная политика",
+      linkKey: "Headquarters.nine.link",
+    },
+    {
+      org: "Счётная палата",
+      type: "Контрольный орган",
+      func: "Финансовый аудит государственных средств",
+      linkKey: "Headquarters.ten.link",
+    },
   ];
   const en = [
-    { org: "President of the Republic of Uzbekistan", type: "Head of State", func: "Defines the main directions of domestic and foreign policy", linkKey: "Headquarters.one.link" },
-    { org: "Legislative Chamber of the Oliy Majlis", type: "Legislative Power", func: "Adoption of laws and parliamentary control", linkKey: "Headquarters.two.link" },
-    { org: "Senate of the Oliy Majlis", type: "Legislative Power", func: "Approval of laws and oversight of legislation", linkKey: "Headquarters.three.link" },
-    { org: "Cabinet of Ministers", type: "Executive Power", func: "Implementation of state policy", linkKey: "Headquarters.four.link" },
-    { org: "Constitutional Court", type: "Judicial Power", func: "Control of compliance of laws with the Constitution", linkKey: "Headquarters.five.link" },
-    { org: "Supreme Court", type: "Judicial Power", func: "Highest judicial body of the country", linkKey: "Headquarters.six.link" },
-    { org: "General Prosecutor's Office", type: "Supervisory Body", func: "Control over the enforcement of laws", linkKey: "Headquarters.seven.link" },
-    { org: "Central Election Commission", type: "Independent Body", func: "Organization of elections", linkKey: "Headquarters.eight.link" },
-    { org: "Central Bank", type: "Financial Regulator", func: "Monetary policy", linkKey: "Headquarters.nine.link" },
-    { org: "Accounts Chamber", type: "Control Body", func: "Financial audit of state funds", linkKey: "Headquarters.ten.link" },
+    {
+      org: "President of the Republic of Uzbekistan",
+      type: "Head of State",
+      func: "Defines the main directions of domestic and foreign policy",
+      linkKey: "Headquarters.one.link",
+    },
+    {
+      org: "Legislative Chamber of the Oliy Majlis",
+      type: "Legislative Power",
+      func: "Adoption of laws and parliamentary control",
+      linkKey: "Headquarters.two.link",
+    },
+    {
+      org: "Senate of the Oliy Majlis",
+      type: "Legislative Power",
+      func: "Approval of laws and oversight of legislation",
+      linkKey: "Headquarters.three.link",
+    },
+    {
+      org: "Cabinet of Ministers",
+      type: "Executive Power",
+      func: "Implementation of state policy",
+      linkKey: "Headquarters.four.link",
+    },
+    {
+      org: "Constitutional Court",
+      type: "Judicial Power",
+      func: "Control of compliance of laws with the Constitution",
+      linkKey: "Headquarters.five.link",
+    },
+    {
+      org: "Supreme Court",
+      type: "Judicial Power",
+      func: "Highest judicial body of the country",
+      linkKey: "Headquarters.six.link",
+    },
+    {
+      org: "General Prosecutor's Office",
+      type: "Supervisory Body",
+      func: "Control over the enforcement of laws",
+      linkKey: "Headquarters.seven.link",
+    },
+    {
+      org: "Central Election Commission",
+      type: "Independent Body",
+      func: "Organization of elections",
+      linkKey: "Headquarters.eight.link",
+    },
+    {
+      org: "Central Bank",
+      type: "Financial Regulator",
+      func: "Monetary policy",
+      linkKey: "Headquarters.nine.link",
+    },
+    {
+      org: "Accounts Chamber",
+      type: "Control Body",
+      func: "Financial audit of state funds",
+      linkKey: "Headquarters.ten.link",
+    },
   ];
   const uz = [
-    { org: "Oʻzbekiston Respublikasi Prezidenti", type: "Davlat rahbari", func: "Ichki va tashqi siyosatning asosiy yoʻnalishlarini belgilaydi", linkKey: "Headquarters.one.link" },
-    { org: "Oliy Majlis Qonunchilik palatasi", type: "Qonun chiqaruvchi hokimiyat", func: "Qonunlarni qabul qilish va parlament nazorati", linkKey: "Headquarters.two.link" },
-    { org: "Oliy Majlis Senati", type: "Qonun chiqaruvchi hokimiyat", func: "Qonunlarni tasdiqlash va qonunchilik nazorati", linkKey: "Headquarters.three.link" },
-    { org: "Vazirlar Mahkamasi", type: "Ijrochi hokimiyat", func: "Davlat siyosatini amalga oshirish", linkKey: "Headquarters.four.link" },
-    { org: "Konstitutsiyaviy sud", type: "Sud hokimiyati", func: "Qonunlarning Konstitutsiyaga muvofiqligini nazorat qilish", linkKey: "Headquarters.five.link" },
-    { org: "Oliy sud", type: "Sud hokimiyati", func: "Mamlakatning oliy sud organi", linkKey: "Headquarters.six.link" },
-    { org: "Bosh prokuratura", type: "Nazorat organi", func: "Qonunlar bajarilishini nazorat qilish", linkKey: "Headquarters.seven.link" },
-    { org: "Markaziy saylov komissiyasi", type: "Mustaqil organ", func: "Saylovlarni tashkil etish", linkKey: "Headquarters.eight.link" },
-    { org: "Markaziy bank", type: "Moliyaviy tartibga soluvchi", func: "Pul-kredit siyosati", linkKey: "Headquarters.nine.link" },
-    { org: "Hisob palatasi", type: "Nazorat organi", func: "Davlat mablagʻlarining moliyaviy auditi", linkKey: "Headquarters.ten.link" },
+    {
+      org: "Oʻzbekiston Respublikasi Prezidenti",
+      type: "Davlat rahbari",
+      func: "Ichki va tashqi siyosatning asosiy yoʻnalishlarini belgilaydi",
+      linkKey: "Headquarters.one.link",
+    },
+    {
+      org: "Oliy Majlis Qonunchilik palatasi",
+      type: "Qonun chiqaruvchi hokimiyat",
+      func: "Qonunlarni qabul qilish va parlament nazorati",
+      linkKey: "Headquarters.two.link",
+    },
+    {
+      org: "Oliy Majlis Senati",
+      type: "Qonun chiqaruvchi hokimiyat",
+      func: "Qonunlarni tasdiqlash va qonunchilik nazorati",
+      linkKey: "Headquarters.three.link",
+    },
+    {
+      org: "Vazirlar Mahkamasi",
+      type: "Ijrochi hokimiyat",
+      func: "Davlat siyosatini amalga oshirish",
+      linkKey: "Headquarters.four.link",
+    },
+    {
+      org: "Konstitutsiyaviy sud",
+      type: "Sud hokimiyati",
+      func: "Qonunlarning Konstitutsiyaga muvofiqligini nazorat qilish",
+      linkKey: "Headquarters.five.link",
+    },
+    {
+      org: "Oliy sud",
+      type: "Sud hokimiyati",
+      func: "Mamlakatning oliy sud organi",
+      linkKey: "Headquarters.six.link",
+    },
+    {
+      org: "Bosh prokuratura",
+      type: "Nazorat organi",
+      func: "Qonunlar bajarilishini nazorat qilish",
+      linkKey: "Headquarters.seven.link",
+    },
+    {
+      org: "Markaziy saylov komissiyasi",
+      type: "Mustaqil organ",
+      func: "Saylovlarni tashkil etish",
+      linkKey: "Headquarters.eight.link",
+    },
+    {
+      org: "Markaziy bank",
+      type: "Moliyaviy tartibga soluvchi",
+      func: "Pul-kredit siyosati",
+      linkKey: "Headquarters.nine.link",
+    },
+    {
+      org: "Hisob palatasi",
+      type: "Nazorat organi",
+      func: "Davlat mablagʻlarining moliyaviy auditi",
+      linkKey: "Headquarters.ten.link",
+    },
   ];
   const rows = { ru, en, uz }[locale.value] || ru;
   return rows.map((row) => ({
     ...row,
     link: t(row.linkKey),
   }));
+});
+
+const otherGovBodiesText = computed(() => {
+  const ru = {
+    h2: "Другие государственные органы Узбекистана",
+    intro:
+      "На портале Govinfo также представлены другие государственные учреждения Республики Узбекистан, включая министерства, государственные комитеты, агентства и инспекции.",
+    listIntro:
+      "Вы можете ознакомиться со следующими разделами каталога государственных органов:",
+    links: [
+      { href: "/ministries", text: "Министерства Республики Узбекистан" },
+      { href: "/state", text: "Государственные комитеты и агентства" },
+      { href: "/inspections", text: "Государственные инспекции" },
+    ],
+  };
+  const en = {
+    h2: "Other Government Bodies of Uzbekistan",
+    intro:
+      "The Govinfo portal also presents other state institutions of the Republic of Uzbekistan, including ministries, state committees, agencies and inspections.",
+    listIntro:
+      "You can familiarize yourself with the following sections of the catalog of state bodies:",
+    links: [
+      { href: "/ministries", text: "Ministries of the Republic of Uzbekistan" },
+      { href: "/state", text: "State Committees and Agencies" },
+      { href: "/inspections", text: "State Inspections" },
+    ],
+  };
+  const uz = {
+    h2: "Oʻzbekistonning boshqa davlat organlari",
+    intro:
+      "Govinfo portali Oʻzbekiston Respublikasining boshqa davlat muassasalarini ham taqdim etadi, jumladan vazirliklar, davlat qoʻmitalari, agentliklar va inspeksiyalar.",
+    listIntro:
+      "Davlat organlari katalogining quyidagi boʻlimlari bilan tanishishingiz mumkin:",
+    links: [
+      { href: "/ministries", text: "Oʻzbekiston Respublikasi vazirliklari" },
+      { href: "/state", text: "Davlat qoʻmitalari va agentliklari" },
+      { href: "/inspections", text: "Davlat inspeksiyalari" },
+    ],
+  };
+  const map = { ru, en, uz };
+  return map[locale.value] || map.ru;
 });
 </script>
 
@@ -314,23 +506,31 @@ const hqTableRows = computed(() => {
           </nuxt-link>
         </div>
 
-        <div class="mt-8 pt-6 border-t border-[#eee] overflow-x-auto">
+        <div class="mt-8 pt-6 border-t border-[#eee] overflow-x-auto !hidden">
           <h2 class="font-semibold text-lg md:text-xl mb-4">
             {{ hqTableText.h2 }}
           </h2>
           <table class="w-full text-sm border-collapse border border-[#eee]">
             <thead>
               <tr class="bg-[#f9f9f9]">
-                <th class="border border-[#eee] px-3 py-2 text-left font-medium text-[#111]">
+                <th
+                  class="border border-[#eee] px-3 py-2 text-left font-medium text-[#111]"
+                >
                   {{ hqTableText.colOrganization }}
                 </th>
-                <th class="border border-[#eee] px-3 py-2 text-left font-medium text-[#111]">
+                <th
+                  class="border border-[#eee] px-3 py-2 text-left font-medium text-[#111]"
+                >
                   {{ hqTableText.colType }}
                 </th>
-                <th class="border border-[#eee] px-3 py-2 text-left font-medium text-[#111]">
+                <th
+                  class="border border-[#eee] px-3 py-2 text-left font-medium text-[#111]"
+                >
                   {{ hqTableText.colFunction }}
                 </th>
-                <th class="border border-[#eee] px-3 py-2 text-left font-medium text-[#111]">
+                <th
+                  class="border border-[#eee] px-3 py-2 text-left font-medium text-[#111]"
+                >
                   {{ hqTableText.colSite }}
                 </th>
               </tr>
@@ -388,6 +588,31 @@ const hqTableRows = computed(() => {
             >
               {{ para }}
             </p>
+          </div>
+        </div>
+
+        <div class="mt-8 pt-6 border-t border-[#eee]">
+          <h2 class="font-semibold text-lg md:text-xl mb-4">
+            {{ otherGovBodiesText.h2 }}
+          </h2>
+          <div
+            class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm space-y-2"
+          >
+            <p>{{ otherGovBodiesText.intro }}</p>
+            <p>{{ otherGovBodiesText.listIntro }}</p>
+            <ul class="list-disc list-inside mt-2 space-y-1">
+              <li
+                v-for="(link, i) in otherGovBodiesText.links"
+                :key="'other-' + i"
+              >
+                <NuxtLink
+                  :to="localePath(link.href)"
+                  class="text-[#2563eb] hover:underline"
+                >
+                  {{ link.text }}
+                </NuxtLink>
+              </li>
+            </ul>
           </div>
         </div>
 
