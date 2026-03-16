@@ -14,14 +14,17 @@ const categories = [
   { key: "inspections", data: useInspections().data },
 ];
 
-const allOrganizations = computed(() =>
-  categories.flatMap((cat) =>
+const allOrganizations = computed(() => {
+  const list = categories.flatMap((cat) =>
     cat.data.map((item) => ({
       ...item,
       category: cat.key,
     }))
-  )
-);
+  );
+  return [...list].sort((a, b) =>
+    t(a.title).localeCompare(t(b.title), locale.value)
+  );
+});
 
 const content = computed(() => {
   const ru = {
