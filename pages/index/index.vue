@@ -19,13 +19,13 @@ const inspections = useInspections();
   <div class="main-page">
     <div class="site-container">
       <!-- Описание сайта -->
-      <SiteDescription class="mb-14" />
+      <SiteDescription class="mb-10 768:mb-6" />
 
       <!-- Как пользоваться каталогом -->
-      <HowUseSite class="mb-14" />
+      <HowUseSite class="mb-10 768:mb-6" />
 
       <!-- headquarters -->
-      <section class="mb-14">
+      <section class="mb-10 768:mb-6">
         <div
           class="border-b border-[#eee] pb-2 flex-center-between mb-4 md:mb-6"
         >
@@ -63,7 +63,7 @@ const inspections = useInspections();
       </section>
 
       <!-- ministries -->
-      <section class="mb-14">
+      <section class="mb-10 768:mb-6">
         <div
           class="border-b border-[#eee] pb-2 flex-center-between mb-4 md:mb-6"
         >
@@ -101,7 +101,7 @@ const inspections = useInspections();
       </section>
 
       <!-- state -->
-      <section class="mb-14">
+      <section class="mb-10 768:mb-6">
         <div
           class="border-b border-[#eee] pb-2 flex-center-between mb-4 md:mb-6"
         >
@@ -139,7 +139,7 @@ const inspections = useInspections();
       </section>
 
       <!-- inspections -->
-      <section class="mb-14">
+      <section class="mb-10 768:mb-6">
         <div
           class="border-b border-[#eee] pb-2 flex-center-between mb-4 md:mb-6"
         >
@@ -177,7 +177,7 @@ const inspections = useInspections();
       </section>
 
       <!-- Зачем создан UzGovInfo -->
-      <WhySiteCreated class="mb-14" />
+      <WhySiteCreated class="mb-10 768:mb-6" />
     </div>
   </div>
 

@@ -3,8 +3,8 @@
 <template>
   <footer class="bg-[#F3F4F9] mt-10 py-4">
     <div class="site-container">
-      <div class="flex-center-between">
-        <div class="text-sm text-[#111827]">
+      <div class="md:flex justify-between items-center">
+        <div class="text-sm text-[#111827] mb-2 md:mb-0">
           Gos sayts 2024. {{ $t("all_rights_reserved") }}
         </div>
         <div class="flex items-center gap-4 text-sm">

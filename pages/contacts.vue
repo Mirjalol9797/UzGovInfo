@@ -38,7 +38,7 @@ const emailHref = "mailto:info@govinfo.uz";
       </a>
 
       <a
-        :href="telegramHref"
+        :href="''"
         target="_blank"
         rel="noopener noreferrer"
         class="bg-[#F3F4F9] rounded-xl p-4 hover:bg-[#E9EBF6] transition"
@@ -47,7 +47,7 @@ const emailHref = "mailto:info@govinfo.uz";
           {{ t("Contacts.cards.telegram.title") }}
         </div>
         <div class="text-lg font-semibold text-[#111827]">
-          @{{ telegramHandle }}
+          <!-- @{{ telegramHandle }} -->
         </div>
         <div class="text-sm text-[#4B5563] mt-2">
           {{ t("Contacts.cards.telegram.hint") }}

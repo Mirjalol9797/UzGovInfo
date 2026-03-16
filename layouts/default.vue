@@ -68,6 +68,7 @@ onMounted(() => {
   ></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <LayoutHeader />
+  <Breadcrumbs />
   <div class="content">
     <NuxtPage :key="route.fullPath" />
     <Faq class="mt-8" />

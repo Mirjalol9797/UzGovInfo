@@ -17,7 +17,7 @@ onMounted(() => {});
 </script>
 
 <template>
-  <header class="bg-[#F3F4F9] mb-10 header 480:mb-5">
+  <header class="bg-[#F3F4F9] mb-10 header 768:mb-6">
     <div class="site-container">
       <div class="flex-center-between py-2">
         <nuxt-link

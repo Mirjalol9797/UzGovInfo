@@ -8,13 +8,15 @@ export default {
       },
     },
     screens: {
-      sm: "640px",
-      // => @media (min-width: 640px) { ... }
-
-      md: "768px",
-      // => @media (min-width: 768px) { ... }
-
-      lg: "1024px",
+      400: { max: "400px" },
+      420: { max: "420px" },
+      480: { max: "480px" },
+      640: { max: "640px" },
+      768: { max: "768px" },
+      960: { max: "960px" },
+      1024: { max: "1024px" },
+      1200: { max: "1200px" },
+      1400: { max: "1400px" },
     },
   },
   plugins: [],
