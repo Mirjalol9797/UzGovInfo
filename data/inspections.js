@@ -4,7 +4,7 @@ export default function inspections() {
     data: [
       {
         id: 1,
-        slug: "state-inspectorate-for-control-over-use-of-drinking-water",
+        slug: "inspections-drinking-water",
         title: "Inspections.one.title",
         description: "Inspections.one.description",
         img: "/images/gerb.png",
@@ -18,7 +18,7 @@ export default function inspections() {
       },
       {
         id: 2,
-        slug: "state-inspectorate-for-control-over-use-of-drinking-water",
+        slug: "inspections-water-control",
         title: "Inspections.two.title",
         description: "Inspections.two.description",
         img: "/images/gerb.png",

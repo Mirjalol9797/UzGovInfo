@@ -4,7 +4,7 @@ export default function ministries() {
     data: [
       {
         id: 1,
-        slug: "ministry-of-investment-industry-and-trade",
+        slug: "ministries-investment-trade",
         title: "Ministries.one.title",
         description: "Ministries.one.description",
         img: "/images/gerb.png",
@@ -18,7 +18,7 @@ export default function ministries() {
       },
       {
         id: 2,
-        slug: "ministry-of-economy-and-finance",
+        slug: "ministries-economy-finance",
         title: "Ministries.two.title",
         description: "Ministries.two.description",
         img: "/images/gerb.png",
@@ -32,7 +32,7 @@ export default function ministries() {
       },
       {
         id: 3,
-        slug: "ministry-of-mining-industry-and-geology-of-the-republic-of-uzbekistan",
+        slug: "ministries-mining-geology",
         title: "Ministries.three.title",
         description: "Ministries.three.description",
         img: "/images/gerb.png",
@@ -46,7 +46,7 @@ export default function ministries() {
       },
       {
         id: 4,
-        slug: "ministry-of-construction-and-housing-and-communal-services",
+        slug: "ministries-construction-housing",
         title: "Ministries.four.title",
         description: "Ministries.four.description",
         img: "/images/gerb.png",
@@ -60,7 +60,7 @@ export default function ministries() {
       },
       {
         id: 5,
-        slug: "ministry-of-employment-and-poverty-reduction",
+        slug: "ministries-employment-poverty",
         title: "Ministries.five.title",
         description: "Ministries.five.description",
         img: "/images/gerb.png",
@@ -74,7 +74,7 @@ export default function ministries() {
       },
       {
         id: 6,
-        slug: "supreme-attestation-commission-at-the-ministry-of-higher-education-science-and-innovations",
+        slug: "ministries-attestation-commission",
         title: "Ministries.six.title",
         description: "Ministries.six.description",
         img: "/images/gerb.png",
@@ -88,7 +88,7 @@ export default function ministries() {
       },
       {
         id: 7,
-        slug: "ministry-of-preschool-and-school-education",
+        slug: "ministries-education",
         title: "Ministries.seven.title",
         description: "Ministries.seven.description",
         img: "/images/gerb.png",
@@ -102,7 +102,7 @@ export default function ministries() {
       },
       {
         id: 8,
-        slug: "ministry-of-ecology-environmental-protection-and-climate-change",
+        slug: "ministries-ecology-climate",
         title: "Ministries.eight.title",
         description: "Ministries.eight.description",
         img: "/images/gerb.png",
@@ -116,7 +116,7 @@ export default function ministries() {
       },
       {
         id: 9,
-        slug: "ministry-of-sports-of-the-republic-of-uzbekistan",
+        slug: "ministries-sports",
         title: "Ministries.nine.title",
         description: "Ministries.nine.description",
         img: "/images/gerb.png",
@@ -130,7 +130,7 @@ export default function ministries() {
       },
       {
         id: 10,
-        slug: "ministry-of-agriculture-of-the-republic-of-uzbekistan",
+        slug: "ministries-agriculture",
         title: "Ministries.ten.title",
         description: "Ministries.ten.description",
         img: "/images/gerb.png",
@@ -144,7 +144,7 @@ export default function ministries() {
       },
       {
         id: 11,
-        slug: "ministry-of-water-resources-of-the-republic-of-uzbekistan",
+        slug: "ministries-water-resources",
         title: "Ministries.eleven.title",
         description: "Ministries.eleven.description",
         img: "/images/gerb.png",
@@ -158,7 +158,7 @@ export default function ministries() {
       },
       {
         id: 12,
-        slug: "ministry-of-digital-technologies",
+        slug: "ministries-digital-tech",
         title: "Ministries.twelve.title",
         description: "Ministries.twelve.description",
         img: "/images/gerb.png",
@@ -172,7 +172,7 @@ export default function ministries() {
       },
       {
         id: 13,
-        slug: "ministry-of-justice",
+        slug: "ministries-justice",
         title: "Ministries.thirteen.title",
         description: "Ministries.thirteen.description",
         img: "/images/gerb.png",
@@ -186,7 +186,7 @@ export default function ministries() {
       },
       {
         id: 14,
-        slug: "ministry-of-transport-of-the-republic-of-uzbekistan",
+        slug: "ministries-transport",
         title: "Ministries.fourteen.title",
         description: "Ministries.fourteen.description",
         img: "/images/gerb.png",
@@ -200,7 +200,7 @@ export default function ministries() {
       },
       {
         id: 15,
-        slug: "ministry-of-culture-of-the-republic-of-uzbekistan",
+        slug: "ministries-culture",
         title: "Ministries.fifteen.title",
         description: "Ministries.fifteen.description",
         img: "/images/gerb.png",
@@ -214,7 +214,7 @@ export default function ministries() {
       },
       {
         id: 16,
-        slug: "ministry-of-defense-of-the-republic-of-uzbekistan",
+        slug: "ministries-defense",
         title: "Ministries.sixteen.title",
         description: "Ministries.sixteen.description",
         img: "/images/gerb.png",
@@ -228,7 +228,7 @@ export default function ministries() {
       },
       {
         id: 17,
-        slug: "ministry-of-energy-of-the-republic-of-uzbekistan",
+        slug: "ministries-energy",
         title: "Ministries.seventeen.title",
         description: "Ministries.seventeen.description",
         img: "/images/gerb.png",
@@ -242,7 +242,7 @@ export default function ministries() {
       },
       {
         id: 18,
-        slug: "ministry-of-health-of-the-republic-of-uzbekistan",
+        slug: "ministries-health",
         title: "Ministries.eighteen.title",
         description: "Ministries.eighteen.description",
         img: "/images/gerb.png",
@@ -256,7 +256,7 @@ export default function ministries() {
       },
       {
         id: 19,
-        slug: "ministry-of-foreign-affairs-republic-of-uzbekistan",
+        slug: "ministries-foreign-affairs",
         title: "Ministries.nineteen.title",
         description: "Ministries.nineteen.description",
         img: "/images/gerb.png",
@@ -270,7 +270,7 @@ export default function ministries() {
       },
       {
         id: 20,
-        slug: "ministry-of-internal-affairs-of-the-republic-of-uzbekistan",
+        slug: "ministries-internal-affairs",
         title: "Ministries.twenty.title",
         description: "Ministries.twenty.description",
         img: "/images/gerb.png",
@@ -284,7 +284,7 @@ export default function ministries() {
       },
       {
         id: 21,
-        slug: "fvv-of-the-republic-of-uzbekistan",
+        slug: "ministries-fvv",
         title: "Ministries.twentyone.title",
         description: "Ministries.twentyone.description",
         img: "/images/gerb.png",

@@ -4,7 +4,7 @@ export default function state() {
     data: [
       {
         id: 1,
-        slug: "statistics-agency-under-the-president-of-the-republic-of-uzbekistan",
+        slug: "state-statistics-agency",
         title: "State.one.title",
         description: "State.one.description",
         img: "/images/gerb.png",
@@ -18,7 +18,7 @@ export default function state() {
       },
       {
         id: 2,
-        slug: "state-tax-committee-of-the-republic-of-uzbekistan",
+        slug: "state-tax-committee",
         title: "State.two.title",
         description: "State.two.description",
         img: "/images/gerb.png",
@@ -32,7 +32,7 @@ export default function state() {
       },
       {
         id: 3,
-        slug: "customs-committee-under-the-ministry-of-economy-and-finance-of-the-republic-of-uzbekistan",
+        slug: "state-customs-committee",
         title: "State.three.title",
         description: "State.three.description",
         img: "/images/gerb.png",
@@ -46,7 +46,7 @@ export default function state() {
       },
       {
         id: 4,
-        slug: "ministry-of-ecology-environmental-protection-and-climate-change-of-the-republic-of-uzbekistan",
+        slug: "state-ecology-climate",
         title: "State.four.title",
         description: "State.four.description",
         img: "/images/gerb.png",
@@ -60,7 +60,7 @@ export default function state() {
       },
       {
         id: 5,
-        slug: "official-website-of-the-forestry-agency-under-the-ministry-of-ecology-environmental-protection-and-climate-change",
+        slug: "state-forestry-agency",
         title: "State.five.title",
         description: "State.five.description",
         img: "/images/gerb.png",
@@ -74,7 +74,7 @@ export default function state() {
       },
       {
         id: 6,
-        slug: "ministry-of-mining-industry-and-geology-of-the-republic-of-uzbekistan",
+        slug: "state-mining-geology",
         title: "State.six.title",
         description: "State.six.description",
         img: "/images/gerb.png",
@@ -88,7 +88,7 @@ export default function state() {
       },
       {
         id: 7,
-        slug: "state-committee-of-the-republic-of-uzbekistan-on-land-resources-geodesy-cartography-and-state-cadastre",
+        slug: "state-land-cadastre",
         title: "State.seven.title",
         description: "State.seven.description",
         img: "/images/gerb.png",
@@ -102,7 +102,7 @@ export default function state() {
       },
       {
         id: 8,
-        slug: "state-veterinary-committee-of-the-republic-of-uzbekistan",
+        slug: "state-veterinary-committee",
         title: "State.eight.title",
         description: "State.eight.description",
         img: "/images/gerb.png",
@@ -116,7 +116,7 @@ export default function state() {
       },
       {
         id: 9,
-        slug: "state-committee-of-the-republic-of-uzbekistan-for-automobile-roads",
+        slug: "state-automobile-roads",
         title: "State.nine.title",
         description: "State.nine.description",
         img: "/images/gerb.png",
@@ -130,7 +130,7 @@ export default function state() {
       },
       {
         id: 10,
-        slug: "state-committee-of-the-republic-of-uzbekistan-for-tourism-development",
+        slug: "state-tourism",
         title: "State.ten.title",
         description: "State.ten.description",
         img: "/images/gerb.png",

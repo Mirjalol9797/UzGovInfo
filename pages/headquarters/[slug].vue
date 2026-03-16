@@ -12,7 +12,6 @@ const route = useRoute();
 const oneData = computed(() => {
   return headquarters.data.find((item) => item.slug == route.params.slug);
 });
-console.log("oneData", oneData);
 </script>
 
 <template>

@@ -4,7 +4,7 @@ export default function data() {
     data: [
       {
         id: 1,
-        slug: "official-web-site-of-the-president-of-uzbekistan",
+        slug: "headquarters-president",
         title: "Headquarters.one.title",
         description: "Headquarters.one.description",
         img: "/images/gerb.png",
@@ -18,7 +18,7 @@ export default function data() {
       },
       {
         id: 2,
-        slug: "legislative-chamber-of-the-oliy-majlis-of-the-republic-of-uzbekistan",
+        slug: "headquarters-parliament",
         title: "Headquarters.two.title",
         description: "Headquarters.two.description",
         img: "https://parliament.gov.uz/_nuxt/img/logo.413bf6a.png",
@@ -32,7 +32,7 @@ export default function data() {
       },
       {
         id: 3,
-        slug: "senate-of-the-oliy-majlis-of-the-republic-of-uzbekistan",
+        slug: "headquarters-senate",
         title: "Headquarters.three.title",
         description: "Headquarters.three.description",
         img: "/images/gerb.png",
@@ -46,7 +46,7 @@ export default function data() {
       },
       {
         id: 4,
-        slug: "government-of-the-republic-of-uzbekistan",
+        slug: "headquarters-government",
         title: "Headquarters.four.title",
         description: "Headquarters.four.description",
         img: "/images/gerb.png",
@@ -60,7 +60,7 @@ export default function data() {
       },
       {
         id: 5,
-        slug: "constitutional-court-of-the-republic-of-uzbekistan",
+        slug: "headquarters-constitutional-court",
         title: "Headquarters.five.title",
         description: "Headquarters.five.description",
         img: "https://www.konstsud.uz/img/logo.png",
@@ -74,7 +74,7 @@ export default function data() {
       },
       {
         id: 6,
-        slug: "supreme-court-of-the-republic-of-uzbekistan",
+        slug: "headquarters-supreme-court",
         title: "Headquarters.six.title",
         description: "Headquarters.six.description",
         img: "https://sud.uz/wp-content/uploads/2024/03/head-logo.png",
@@ -88,7 +88,7 @@ export default function data() {
       },
       {
         id: 7,
-        slug: "general-prosecutors-office-of-the-republic-of-uzbekistan",
+        slug: "headquarters-prosecutor",
         title: "Headquarters.seven.title",
         description: "Headquarters.seven.description",
         img: "/images/gerb.png",
@@ -102,7 +102,7 @@ export default function data() {
       },
       {
         id: 8,
-        slug: "central-election-commission",
+        slug: "headquarters-election-commission",
         title: "Headquarters.eight.title",
         description: "Headquarters.eight.description",
         img: "/images/gerb.png",
@@ -116,7 +116,7 @@ export default function data() {
       },
       {
         id: 9,
-        slug: "central-bank-of-the-republic-of-uzbekistan",
+        slug: "headquarters-central-bank",
         title: "Headquarters.nine.title",
         description: "Headquarters.nine.description",
         img: "/images/gerb.png",
@@ -130,7 +130,7 @@ export default function data() {
       },
       {
         id: 10,
-        slug: "accounts-chamber-of-the-republic-of-uzbekistan",
+        slug: "headquarters-accounts-chamber",
         title: "Headquarters.ten.title",
         description: "Headquarters.ten.description",
         img: "/images/gerb.png",
