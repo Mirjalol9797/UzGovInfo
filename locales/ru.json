@@ -16,6 +16,9 @@
   "G": "G",
 
   "H": "H",
+  "Organizations": {
+    "headtitle": "Все организации"
+  },
   "Headquarters": {
     "headtitle": "Центральные учреждения",
     "one": {

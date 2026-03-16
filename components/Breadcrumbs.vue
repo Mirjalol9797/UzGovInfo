@@ -33,6 +33,7 @@ const sectionTitleMap = computed(() => ({
   contacts: t("Contacts.title"),
   privacy: t("Privacy.title"),
   terms: t("Terms.title"),
+  organizations: t("Organizations.headtitle"),
   headquarters: t("Headquarters.headtitle"),
   ministries: t("Ministries.headtitle"),
   state: t("State.headtitle"),

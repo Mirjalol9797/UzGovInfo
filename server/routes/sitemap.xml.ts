@@ -11,7 +11,7 @@ const localePrefixMap: Record<(typeof SUPPORTED_LOCALES)[number], string> = {
   uz: "/uz",
 };
 
-const staticRoutes = ["/", "/about", "/contacts", "/privacy", "/terms"];
+const staticRoutes = ["/", "/about", "/contacts", "/privacy", "/terms", "/organizations"];
 
 function buildLocalizedPath(routePath: string, locale: (typeof SUPPORTED_LOCALES)[number]) {
   const prefix = localePrefixMap[locale];

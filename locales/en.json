@@ -188,6 +188,9 @@
   },
 
   "H": "H",
+  "Organizations": {
+    "headtitle": "All organizations"
+  },
   "Headquarters": {
     "headtitle": "Headquarters",
     "one": {
