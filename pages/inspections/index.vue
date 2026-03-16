@@ -14,7 +14,7 @@ const inspections = useInspections();
         </h1>
       </div>
       <div
-        class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 480:!grid-cols-1"
+        class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
       >
         <nuxt-link
           v-for="(item, index) in inspections.data"

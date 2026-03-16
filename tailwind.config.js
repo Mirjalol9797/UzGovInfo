@@ -11,6 +11,7 @@ export default {
       400: { max: "400px" },
       420: { max: "420px" },
       480: { max: "480px" },
+      576: { max: "576px" },
       640: { max: "640px" },
       768: { max: "768px" },
       960: { max: "960px" },

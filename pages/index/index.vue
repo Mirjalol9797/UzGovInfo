@@ -37,7 +37,7 @@ const inspections = useInspections();
           }}</nuxt-link>
         </div>
         <div
-          class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 480:!grid-cols-1"
+          class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
         >
           <nuxt-link
             :to="`headquarters/${item.slug}`"
@@ -75,7 +75,7 @@ const inspections = useInspections();
           }}</nuxt-link>
         </div>
         <div
-          class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 480:!grid-cols-1"
+          class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
         >
           <nuxt-link
             :to="`ministries/${item.slug}`"
@@ -113,7 +113,7 @@ const inspections = useInspections();
           }}</nuxt-link>
         </div>
         <div
-          class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 480:!grid-cols-1"
+          class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
         >
           <nuxt-link
             :to="`state/${item.slug}`"
@@ -151,7 +151,7 @@ const inspections = useInspections();
           }}</nuxt-link>
         </div>
         <div
-          class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 480:!grid-cols-1"
+          class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
         >
           <nuxt-link
             :to="`inspections/${item.slug}`"

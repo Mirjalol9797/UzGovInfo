@@ -80,7 +80,9 @@ const crumbs = computed(() => {
 <template>
   <nav v-if="!isHome" aria-label="breadcrumb" class="pb-4">
     <div class="site-container">
-      <ol class="flex gap-1 text-sm text-[#6B7280]">
+      <ul
+        class="flex gap-1 text-sm text-[#6B7280] overflow-x-auto scrollbar-hide"
+      >
         <li
           v-for="(crumb, index) in crumbs"
           :key="crumb.to + index"
@@ -112,7 +114,7 @@ const crumbs = computed(() => {
               <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
               <polyline points="9 22 9 12 15 12 15 22" />
             </svg>
-            <span>{{ crumb.label }}</span>
+            <span class="whitespace-nowrap">{{ crumb.label }}</span>
           </nuxt-link>
 
           <svg
@@ -131,7 +133,7 @@ const crumbs = computed(() => {
             <polyline points="9 18 15 12 9 6" />
           </svg>
         </li>
-      </ol>
+      </ul>
     </div>
   </nav>
 </template>
