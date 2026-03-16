@@ -35,19 +35,21 @@ const current = computed(() => content[locale.value] || content.ru);
 </script>
 
 <template>
-  <section class="why-site-created rounded-2xl p-6 md:p-8">
+  <section class="why-site-created rounded-2xl p-8 768:p-6">
     <div
       class="mb-4 inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold"
     >
       {{ current.badge }}
     </div>
 
-    <h2 class="mb-3 text-xl font-bold md:text-2xl">
+    <h2 class="mb-3 font-bold text-2xl 768:text-xl">
       {{ current.title }}
     </h2>
 
-    <div class="space-y-3 text-sm leading-7 text-[#2F3A4A] md:text-base">
-      <p class="font-medium text-[#111827]">
+    <div
+      class="space-y-3 text-sm leading-7 text-[#2F3A4A] text-base 768:text-sm"
+    >
+      <p class="font-medium text-[#111827] text-base 768:text-sm">
         {{ current.lead }}
       </p>
       <p>{{ current.p1 }}</p>

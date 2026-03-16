@@ -44,22 +44,24 @@ const current = computed(() => content[locale.value] || content.ru);
 </script>
 
 <template>
-  <section class="how-use-site rounded-2xl p-6 md:p-8">
+  <section class="how-use-site rounded-2xl p-8 768:p-6">
     <div
       class="mb-4 inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold"
     >
       {{ current.badge }}
     </div>
 
-    <h2 class="mb-3 text-xl font-bold md:text-2xl">
+    <h2 class="mb-3 font-bold text-2xl 768:text-xl">
       {{ current.title }}
     </h2>
 
-    <p class="mb-4 text-sm leading-7 text-[#1F2937] md:text-base">
+    <p class="mb-4 text-sm leading-7 text-[#1F2937] text-base 768:text-sm">
       {{ current.intro }}
     </p>
 
-    <ol class="mb-4 space-y-2 text-sm leading-7 text-[#2F3A4A] md:text-base">
+    <ol
+      class="mb-4 space-y-2 text-sm leading-7 text-[#2F3A4A] text-base 768:text-sm"
+    >
       <li
         v-for="(step, index) in current.steps"
         :key="index"
@@ -74,7 +76,9 @@ const current = computed(() => content[locale.value] || content.ru);
       </li>
     </ol>
 
-    <p class="text-sm font-medium leading-6 text-[#111827] md:text-base">
+    <p
+      class="text-sm font-medium leading-6 text-[#111827] text-base 768:text-sm"
+    >
       {{ current.note }}
     </p>
   </section>

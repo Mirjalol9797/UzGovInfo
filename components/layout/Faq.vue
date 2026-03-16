@@ -100,14 +100,14 @@ const current = computed(() => faqData[locale.value] || faqData.ru);
 <template>
   <section>
     <div class="site-container">
-      <div class="faq-block rounded-2xl p-6 md:p-8">
+      <div class="faq-block rounded-2xl p-8 768:p-6">
         <div
           class="mb-4 inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold"
         >
           {{ current.badge }}
         </div>
 
-        <h2 class="mb-5 text-xl font-bold md:text-2xl">
+        <h2 class="mb-5 font-bold text-2xl 768:text-xl">
           {{ current.title }}
         </h2>
 
@@ -118,11 +118,13 @@ const current = computed(() => faqData[locale.value] || faqData.ru);
             class="faq-item rounded-xl border border-[#dbe6ff] bg-white/80 p-4"
           >
             <summary
-              class="cursor-pointer list-none pr-6 text-sm font-semibold text-[#111827] md:text-base"
+              class="cursor-pointer list-none pr-6 text-sm font-semibold text-[#111827] text-base 768:text-sm"
             >
               {{ item.q }}
             </summary>
-            <p class="mt-2 text-sm leading-7 text-[#2F3A4A] md:text-base">
+            <p
+              class="mt-2 text-sm leading-7 text-[#2F3A4A] text-base 768:text-sm"
+            >
               {{ item.a }}
             </p>
           </details>
