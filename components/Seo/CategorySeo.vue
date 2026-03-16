@@ -21,5 +21,9 @@ const description = computed(() =>
     <Meta property="og:description" :content="description" />
     <Meta property="og:image" content="https://govinfo.uz/images/gerb.png" />
     <Meta property="og:url" :content="`https://govinfo.uz${route.fullPath}`" />
+    <Meta name="twitter:title" :content="title" />
+    <Meta name="twitter:description" :content="description" />
+    <Meta name="twitter:url" :content="`https://govinfo.uz${route.fullPath}`" />
+    <Meta name="twitter:image" content="https://govinfo.uz/images/gerb.png" />
   </Head>
 </template>

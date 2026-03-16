@@ -82,6 +82,10 @@ useHead(() => ({
     { property: "og:description", content: content.value.text1[0] },
     { property: "og:image", content: "https://govinfo.uz/images/gerb.png" },
     { property: "og:url", content: `https://govinfo.uz${route.fullPath}` },
+    { name: "twitter:title", content: content.value.h1 },
+    { name: "twitter:description", content: content.value.text1[0] },
+    { name: "twitter:url", content: `https://govinfo.uz${route.fullPath}` },
+    { name: "twitter:image", content: "https://govinfo.uz/images/gerb.png" },
   ],
 }));
 </script>

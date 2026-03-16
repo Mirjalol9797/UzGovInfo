@@ -79,6 +79,16 @@ useHead({
           locale.value === "ru" ? "" : "/" + locale.value
         }/ministries`,
     },
+    { name: "twitter:title", content: () => seoData.value.title },
+    { name: "twitter:description", content: () => seoData.value.description },
+    {
+      name: "twitter:url",
+      content: () =>
+        `https://govinfo.uz${
+          locale.value === "ru" ? "" : "/" + locale.value
+        }/ministries`,
+    },
+    { name: "twitter:image", content: "https://govinfo.uz/images/gerb.png" },
   ],
   script: [
     {
