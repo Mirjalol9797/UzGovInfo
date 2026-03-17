@@ -17,12 +17,13 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+
+  a {
+    transition: all 0.3s ease;
+    color: #315efb;
+  }
 }
 
-a {
-  transition: all 0.3s ease;
-  color: #315efb;
-}
 #__nuxt {
   display: flex;
   flex-direction: column;
