@@ -5,6 +5,7 @@ export default function data() {
       {
         id: 1,
         slug: "headquarters-president",
+        fullContent: true,
         title: "Headquarters.one.title",
         description: "Headquarters.one.description",
         img: "/images/gerb.png",

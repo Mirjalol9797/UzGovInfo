@@ -256,7 +256,7 @@ input[type="number"] {
   align-items: center;
   background-color: #fff;
   gap: 12px;
-  filter: grayscale(1);
+  // filter: grayscale(1);
   border: 1px solid #f3f4f9;
   transition: 0.3s;
 
@@ -274,8 +274,11 @@ input[type="number"] {
   }
 
   &:hover {
-    filter: grayscale(0);
+    // filter: grayscale(0);
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.07);
+
+    transform: translateY(-2px);
+    // box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 
     .title {
       opacity: 1;
