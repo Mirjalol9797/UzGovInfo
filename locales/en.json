@@ -199,8 +199,60 @@
     },
     "one": {
       "title": "Official web-site of the President of Uzbekistan",
+      "pageTitle": "Official Website of the President of the Republic of Uzbekistan",
       "description": "The official website of the President of Uzbekistan, Shavkat Mirziyoyev, provides news, official documents, speeches, and information on both domestic and international events involving the presidency. It includes sections for recent events, presidential decrees, and key strategic initiatives, along with a virtual reception for citizens' inquiries. The site also offers multimedia content, including photos and videos, and covers the President's visits abroad and meetings with international leaders.",
       "link": "https://www.president.uz/en",
+      "intro": [
+        "The official website of the President of the Republic of Uzbekistan is the main online resource publishing up-to-date information on the activities of the head of state, decisions made and government initiatives. This website serves as the official source of news, decrees, speeches and other materials related to the President's activities.",
+        "The site publishes official statements, press releases, information on international meetings and visits, as well as materials on the country's socio-economic development. The resource is intended for citizens, business representatives, journalists and anyone interested in obtaining reliable information on government policy.",
+        "Using the official website allows you to receive verified information directly from the primary source without distortion or intermediaries."
+      ],
+      "officialSite": {
+        "h2": "Official website",
+        "ctaText": "Go to the official website of the President →"
+      },
+      "whatFind": {
+        "h2": "What you can find on the official website",
+        "intro": "The official website of the President of the Republic of Uzbekistan presents a variety of information reflecting the activities of the head of state and key areas of government policy.",
+        "listLabel": "On the site you can find:",
+        "items": [
+          "news and official statements",
+          "presidential decrees and orders",
+          "information on meetings and international visits",
+          "speeches and addresses to the nation",
+          "information on government programs and reforms"
+        ],
+        "closing": "These materials allow users to stay informed about current events and decisions made at the government level."
+      },
+      "whyUse": {
+        "h2": "Why use the official website",
+        "intro": "The official website of the President is a reliable source of information, as all data is published directly by government bodies. This excludes the possibility of spreading unreliable or outdated information.",
+        "listLabel": "Using the official website is especially important for:",
+        "items": [
+          "obtaining up-to-date news",
+          "familiarization with official documents",
+          "analysis of government policy",
+          "work of journalists and researchers"
+        ]
+      },
+      "otherSites": {
+        "h2": "Other official websites of government bodies",
+        "links": [
+          { "href": "/headquarters", "text": "Supreme government bodies" },
+          { "href": "/ministries", "text": "Ministries" },
+          { "href": "/state", "text": "State bodies" }
+        ]
+      },
+      "faq": {
+        "h2": "Frequently asked questions",
+        "items": [
+          { "q": "Where is the official website of the President of Uzbekistan?", "a": "The official website is available via the link provided on this page." },
+          { "q": "What information is published on the President's website?", "a": "The site publishes news, decrees, statements and information on the activities of the head of state." },
+          { "q": "Is the website an official source of information?", "a": "Yes, the website is an official source and publishes reliable information." },
+          { "q": "Can I trust the information on the website?", "a": "Yes, all materials are published by government bodies and are official." },
+          { "q": "Who is the website intended for?", "a": "The website is intended for citizens, businesses, journalists and all interested users." }
+        ]
+      },
       "seo": {
         "title": "Official Website of the President of Uzbekistan – Presidential News and Updates",
         "description": "Access the official website of the President of Uzbekistan for the latest news, policies, and updates directly from the presidential office. Stay informed about national priorities and initiatives.",
@@ -326,6 +378,15 @@
 
   "L": "L",
   "link_to_official_website": "Link to official website",
+  "allCategories": {
+    "h2": "Catalog of government bodies"
+  },
+  "otherSites": {
+    "headquarters": "Supreme government bodies",
+    "ministries": "Ministries",
+    "state": "State bodies",
+    "inspections": "State inspections"
+  },
 
   "M": "M",
   "Ministries": {

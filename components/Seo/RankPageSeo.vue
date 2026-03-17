@@ -18,7 +18,7 @@ const ogImageUrl = computed(() => {
 });
 </script>
 <template>
-  <Head>
+  <Head v-if="oneData?.seo">
     <Title>{{ t(oneData.seo.title) }}</Title>
     <Meta name="title" :content="t(oneData?.seo?.title)" />
     <Meta name="description" :content="t(oneData?.seo?.description)" />
@@ -49,17 +49,17 @@ const ogImageUrl = computed(() => {
     <Link
       rel="alternate"
       hreflang="uz"
-      :href="`https://govinfo.uz/uz/rank/${route.params.slug}`"
+      :href="`https://govinfo.uz/uz${route.path.replace(/^\/(en|uz)/, '')}`"
     />
     <Link
       rel="alternate"
       hreflang="en"
-      :href="`https://govinfo.uz/en/rank/${route.params.slug}`"
+      :href="`https://govinfo.uz/en${route.path.replace(/^\/(en|uz)/, '')}`"
     />
     <Link
       rel="alternate"
       hreflang="x-default"
-      :href="`https://govinfo.uz/rank/${route.params.slug}`"
+      :href="`https://govinfo.uz${route.path.replace(/^\/(en|uz)/, '')}`"
     />
   </Head>
 </template>

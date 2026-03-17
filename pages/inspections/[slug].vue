@@ -12,13 +12,20 @@ const route = useRoute();
 const oneData = computed(() => {
   return inspections.data.find((item) => item.slug == route.params.slug);
 });
-console.log("oneData", oneData);
+
+const otherItems = computed(() => {
+  const slug = route.params.slug;
+  return inspections.data.filter((item) => item.slug !== slug);
+});
 </script>
 
 <template>
-  <Detail :oneData="oneData" />
-  <!-- seo -->
-  <Seo :oneData="oneData"></Seo>
+  <Detail
+    :one-data="oneData"
+    category="inspections"
+    :other-items="otherItems"
+  />
+  <Seo v-if="oneData" :one-data="oneData" />
 </template>
 
 <style lang="scss"></style>

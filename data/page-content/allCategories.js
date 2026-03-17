@@ -1,0 +1,12 @@
+/**
+ * Блок «Все категории» — ссылки на индексные страницы категорий.
+ * Отображается после блока «Другие официальные сайты государственных органов».
+ */
+export default {
+  links: [
+    { href: "/headquarters", textKey: "otherSites.headquarters" },
+    { href: "/ministries", textKey: "otherSites.ministries" },
+    { href: "/state", textKey: "otherSites.state" },
+    { href: "/inspections", textKey: "otherSites.inspections" },
+  ],
+};

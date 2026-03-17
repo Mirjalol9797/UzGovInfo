@@ -201,6 +201,58 @@
       "title": "O‘zbekiston Respublikasi Prezidentining rasmiy veb-sayti",
       "description": "O‘zbekiston Prezidenti Shavkat Mirziyoyevning rasmiy veb-saytida Prezidentlik faoliyati bilan bog‘liq yangiliklar, rasmiy hujjatlar, ma’ruzalar, ichki va xalqaro voqealarga oid ma’lumotlar e’lon qilinadi. Unda so‘nggi voqealar, Prezident farmonlari va muhim strategik tashabbuslarga bag‘ishlangan bo‘limlar hamda fuqarolarning murojaatlari uchun virtual qabulxona tashkil etilgan. Saytda multimedia kontenti, jumladan, fotosuratlar va videolar ham taqdim etiladi va prezidentning xorijga tashriflari va xalqaro yetakchilar bilan uchrashuvlari yoritiladi.",
       "link": "https://www.president.uz/uz",
+      "pageTitle": "Oʻzbekiston Respublikasi Prezidentining rasmiy sayti",
+      "intro": [
+        "Oʻzbekiston Respublikasi Prezidentining rasmiy sayti davlat rahbarining faoliyati, qabul qilingan qarorlar va davlat tashabbuslari haqida dolzarb maʼlumotlarni nashr etuvchi asosiy internet resursi hisoblanadi. Ushbu veb-sayt Prezident faoliyati bilan bogʻliq yangiliklar, farmonlar, maʼruzalar va boshqa materiallar uchun rasmiy manba vazifasini bajaradi.",
+        "Saytda rasmiy bayonotlar, matbuot relizlari, xalqaro uchrashuvlar va tashriflar haqida maʼlumotlar, shuningdek mamlakatning ijtimoiy-iqtisodiy rivojlanishiga oid materiallar joylashtirilgan. Internet resursi fuqarolar, biznes vakillari, jurnalistlar va davlat siyosati haqida ishonchli maʼlumot olishga qiziqqan barcha uchun moʻljallangan.",
+        "Rasmiy saytdan foydalanish birinchi manbadan toʻgʻridan-toʻgʻri tekshirilgan maʼlumot olish imkonini beradi, buzilishlar va vositachilarsiz."
+      ],
+      "officialSite": {
+        "h2": "Rasmiy sayt",
+        "ctaText": "Prezident rasmiy saytiga oʻtish →"
+      },
+      "whatFind": {
+        "h2": "Rasmiy saytda nimalarni topish mumkin",
+        "intro": "Oʻzbekiston Respublikasi Prezidentining rasmiy saytida davlat rahbari faoliyati va davlat siyosatining asosiy yoʻnalishlarini aks ettiruvchi xilma-xil maʼlumotlar taqdim etilgan.",
+        "listLabel": "Saytda topish mumkin:",
+        "items": [
+          "yangiliklar va rasmiy bayonotlar",
+          "Prezident farmonlari va buyruqlari",
+          "uchrashuvlar va xalqaro tashriflar haqida maʼlumot",
+          "maʼruzalar va xalqqa murojaatlar",
+          "davlat dasturlari va islohotlar haqida maʼlumotlar"
+        ],
+        "closing": "Ushbu materiallar foydalanuvchilarga joriy voqealar va davlat darajasida qabul qilinadigan qarorlar haqida xabardor boʻlish imkonini beradi."
+      },
+      "whyUse": {
+        "h2": "Nima uchun rasmiy saytdan foydalanish kerak",
+        "intro": "Prezident rasmiy sayti ishonchli axborot manbai hisoblanadi, chunki barcha maʼlumotlar toʻgʻridan-toʻgʻri davlat organlari tomonidan nashr etiladi. Bu ishonchsiz yoki eskirgan maʼlumotlarning tarqalishiga yoʻl qoʻymaydi.",
+        "listLabel": "Rasmiy saytdan foydalanish ayniqsa quyidagilar uchun muhim:",
+        "items": [
+          "dolzarb yangiliklarni olish",
+          "rasmiy hujjatlar bilan tanishish",
+          "davlat siyosatini tahlil qilish",
+          "jurnalistlar va tadqiqotchilar uchun ish"
+        ]
+      },
+      "otherSites": {
+        "h2": "Boshqa davlat organlarining rasmiy saytlari",
+        "links": [
+          { "href": "/headquarters", "text": "Oliy davlat organlari" },
+          { "href": "/ministries", "text": "Vazirliklar" },
+          { "href": "/state", "text": "Davlat organlari" }
+        ]
+      },
+      "faq": {
+        "h2": "Tez-tez beriladigan savollar",
+        "items": [
+          { "q": "Oʻzbekiston Prezidentining rasmiy sayti qayerda joylashgan?", "a": "Rasmiy sayt ushbu sahifada keltirilgan havola orqali mavjud." },
+          { "q": "Prezident saytida qanday maʼlumotlar nashr etiladi?", "a": "Saytda yangiliklar, farmonlar, bayonotlar va davlat rahbari faoliyati haqida maʼlumotlar joylashtirilgan." },
+          { "q": "Sayt rasmiy axborot manbai hisoblanadimi?", "a": "Ha, sayt rasmiy manba hisoblanadi va ishonchli maʼlumotlarni nashr etadi." },
+          { "q": "Saytdagi maʼlumotlarga ishonish mumkinmi?", "a": "Ha, barcha materiallar davlat organlari tomonidan nashr etiladi va rasmiy hisoblanadi." },
+          { "q": "Sayt kimlar uchun moʻljallangan?", "a": "Sayt fuqarolar, biznes, jurnalistlar va barcha qiziqqan foydalanuvchilar uchun moʻljallangan." }
+        ]
+      },
       "seo": {
         "title": "Oʻzbekiston Prezidenti rasmiy sayti – yangiliklar va ma'lumotlar",
         "description": "Oʻzbekiston Prezidenti rasmiy sayti orqali prezident idorasining yangiliklari, siyosati va dolzarb yangiliklarini kuzatib boring. Mamlakatning asosiy maqsadlari va tashabbuslari haqida ma'lumot oling.",
@@ -326,6 +378,15 @@
 
   "L": "L",
   "link_to_official_website": "Rasmiy veb-saytga havola",
+  "allCategories": {
+    "h2": "Davlat organlari katalogi"
+  },
+  "otherSites": {
+    "headquarters": "Oliy davlat organlari",
+    "ministries": "Vazirliklar",
+    "state": "Davlat organlari",
+    "inspections": "Davlat inspeksiyalari"
+  },
 
   "M": "M",
   "Ministries": {
