@@ -559,7 +559,11 @@
   },
   "see_all": "Barchasini ko'rish",
   "State": {
-    "headtitle": "Davlat qo‘mitalari",
+    "headtitle": "Oʻzbekiston Respublikasi davlat organlari",
+    "seo": {
+      "title": "Oʻzbekiston davlat organlari — qoʻmitalar, xizmatlar va agentliklar | Govinfo",
+      "description": "Oʻzbekiston Respublikasi davlat organlari roʻyxati: qoʻmitalar, xizmatlar va agentliklar. Rasmiy saytlar havolalari va davlat organlari funktsiyalari haqida maʼlumot."
+    },
     "one": {
       "title": "O‘zbekiston Respublikasi prezidenti huzuridagi Statistika agentligi",
       "description": "O‘zbekiston Davlat statistika qo‘mitasining veb-saytida mamlakat iqtisodiyoti, demografiyasi, qishloq xo‘jaligi, sanoat va ijtimoiy farovonlikka oid to‘liq ma’lumotlar va statistik hisobotlar taqdim etilgan. U batafsil statistik ma'lumotlarga, jumladan milliy hisobotlar, so'rovlar va tahliliy resurslarga kirish uchun vositalarni taqdim etadi. Saytda, shuningdek, hukumat va biznes sektorlarida dalillarga asoslangan qarorlar qabul qilishni qo'llab-quvvatlash uchun davom etayotgan ma'lumotlarni to'plash loyihalari va nashrlar bo'yicha yangilanishlar mavjud. U oshkoralikni ta'minlash va mamlakatning turli sohalarida iqtisodiy va ijtimoiy rejalashtirishda yordam berishga qaratilgan.",

@@ -559,7 +559,11 @@
   },
   "see_all": "See all",
   "State": {
-    "headtitle": "State",
+    "headtitle": "State Bodies of the Republic of Uzbekistan",
+    "seo": {
+      "title": "Government Bodies of Uzbekistan — Committees, Services and Agencies | Govinfo",
+      "description": "List of state bodies of the Republic of Uzbekistan: committees, services and agencies. Links to official websites and information on the functions of government bodies."
+    },
     "one": {
       "title": "Statistics agency under the president of the Republic of Uzbekistan",
       "description": "The website of Uzbekistan’s State Committee on Statistics offers comprehensive data and statistical reports related to the country’s economy, demographics, agriculture, industry, and social welfare. It provides tools for accessing detailed statistical information, including national reports, surveys, and analytical resources. The site also features updates on ongoing data collection projects and publications to support evidence-based decision-making in both government and business sectors. It aims to promote transparency and assist in economic and social planning across various sectors of the nation.",
