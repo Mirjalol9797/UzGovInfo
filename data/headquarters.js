@@ -80,6 +80,7 @@ export default function data() {
       {
         id: 6,
         slug: "headquarters-supreme-court",
+        fullContent: true,
         title: "Headquarters.six.title",
         description: "Headquarters.six.description",
         img: "https://sud.uz/wp-content/uploads/2024/03/head-logo.png",
@@ -94,6 +95,7 @@ export default function data() {
       {
         id: 7,
         slug: "headquarters-prosecutor",
+        fullContent: true,
         title: "Headquarters.seven.title",
         description: "Headquarters.seven.description",
         img: "/images/gerb.png",
@@ -108,6 +110,7 @@ export default function data() {
       {
         id: 8,
         slug: "headquarters-election-commission",
+        fullContent: true,
         title: "Headquarters.eight.title",
         description: "Headquarters.eight.description",
         img: "/images/gerb.png",
@@ -122,6 +125,7 @@ export default function data() {
       {
         id: 9,
         slug: "headquarters-central-bank",
+        fullContent: true,
         title: "Headquarters.nine.title",
         description: "Headquarters.nine.description",
         img: "/images/gerb.png",
@@ -136,6 +140,7 @@ export default function data() {
       {
         id: 10,
         slug: "headquarters-accounts-chamber",
+        fullContent: true,
         title: "Headquarters.ten.title",
         description: "Headquarters.ten.description",
         img: "/images/gerb.png",
