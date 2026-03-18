@@ -4,9 +4,12 @@
  */
 const headquartersPresident = () =>
   import("./headquarters/headquarters-president.js");
+const headquartersParliament = () =>
+  import("./headquarters/headquarters-parliament.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
+  "headquarters-parliament": headquartersParliament,
 };
 
 export async function getPageContent(slug) {

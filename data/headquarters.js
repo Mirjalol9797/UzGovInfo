@@ -20,6 +20,7 @@ export default function data() {
       {
         id: 2,
         slug: "headquarters-parliament",
+        fullContent: true,
         title: "Headquarters.two.title",
         description: "Headquarters.two.description",
         img: "https://parliament.gov.uz/_nuxt/img/logo.413bf6a.png",
