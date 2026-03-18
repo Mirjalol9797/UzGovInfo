@@ -35,6 +35,7 @@ export default function data() {
       {
         id: 3,
         slug: "headquarters-senate",
+        fullContent: true,
         title: "Headquarters.three.title",
         description: "Headquarters.three.description",
         img: "/images/gerb.png",
