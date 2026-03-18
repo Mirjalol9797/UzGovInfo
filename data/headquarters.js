@@ -50,6 +50,7 @@ export default function data() {
       {
         id: 4,
         slug: "headquarters-government",
+        fullContent: true,
         title: "Headquarters.four.title",
         description: "Headquarters.four.description",
         img: "/images/gerb.png",
@@ -64,6 +65,7 @@ export default function data() {
       {
         id: 5,
         slug: "headquarters-constitutional-court",
+        fullContent: true,
         title: "Headquarters.five.title",
         description: "Headquarters.five.description",
         img: "https://www.konstsud.uz/img/logo.png",
