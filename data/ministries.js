@@ -7,6 +7,8 @@ export default function ministries() {
         slug: "ministries-investment-trade",
         title: "Ministries.one.title",
         description: "Ministries.one.description",
+        shortDesc: "Ministries.one.shortDesc",
+        tag: "tags.economy",
         img: "/images/gerb.png",
         link: "Ministries.one.link",
         seo: {
@@ -21,6 +23,8 @@ export default function ministries() {
         slug: "ministries-economy-finance",
         title: "Ministries.two.title",
         description: "Ministries.two.description",
+        shortDesc: "Ministries.two.shortDesc",
+        tag: "tags.finance",
         img: "/images/gerb.png",
         link: "Ministries.two.link",
         seo: {
@@ -35,6 +39,8 @@ export default function ministries() {
         slug: "ministries-mining-geology",
         title: "Ministries.three.title",
         description: "Ministries.three.description",
+        shortDesc: "Ministries.three.shortDesc",
+        tag: "tags.mining",
         img: "/images/gerb.png",
         link: "Ministries.three.link",
         seo: {
@@ -49,6 +55,8 @@ export default function ministries() {
         slug: "ministries-construction-housing",
         title: "Ministries.four.title",
         description: "Ministries.four.description",
+        shortDesc: "Ministries.four.shortDesc",
+        tag: "tags.construction",
         img: "/images/gerb.png",
         link: "Ministries.four.link",
         seo: {
@@ -63,6 +71,8 @@ export default function ministries() {
         slug: "ministries-employment-poverty",
         title: "Ministries.five.title",
         description: "Ministries.five.description",
+        shortDesc: "Ministries.five.shortDesc",
+        tag: "tags.employment",
         img: "/images/gerb.png",
         link: "Ministries.five.link",
         seo: {
@@ -77,6 +87,8 @@ export default function ministries() {
         slug: "ministries-attestation-commission",
         title: "Ministries.six.title",
         description: "Ministries.six.description",
+        shortDesc: "Ministries.six.shortDesc",
+        tag: "tags.education",
         img: "/images/gerb.png",
         link: "Ministries.six.link",
         seo: {
@@ -91,6 +103,8 @@ export default function ministries() {
         slug: "ministries-education",
         title: "Ministries.seven.title",
         description: "Ministries.seven.description",
+        shortDesc: "Ministries.seven.shortDesc",
+        tag: "tags.education",
         img: "/images/gerb.png",
         link: "Ministries.seven.link",
         seo: {
@@ -105,6 +119,8 @@ export default function ministries() {
         slug: "ministries-ecology-climate",
         title: "Ministries.eight.title",
         description: "Ministries.eight.description",
+        shortDesc: "Ministries.eight.shortDesc",
+        tag: "tags.ecology",
         img: "/images/gerb.png",
         link: "Ministries.eight.link",
         seo: {
@@ -119,6 +135,8 @@ export default function ministries() {
         slug: "ministries-sports",
         title: "Ministries.nine.title",
         description: "Ministries.nine.description",
+        shortDesc: "Ministries.nine.shortDesc",
+        tag: "tags.sports",
         img: "/images/gerb.png",
         link: "Ministries.nine.link",
         seo: {
@@ -133,6 +151,8 @@ export default function ministries() {
         slug: "ministries-agriculture",
         title: "Ministries.ten.title",
         description: "Ministries.ten.description",
+        shortDesc: "Ministries.ten.shortDesc",
+        tag: "tags.agriculture",
         img: "/images/gerb.png",
         link: "Ministries.ten.link",
         seo: {
@@ -147,6 +167,8 @@ export default function ministries() {
         slug: "ministries-water-resources",
         title: "Ministries.eleven.title",
         description: "Ministries.eleven.description",
+        shortDesc: "Ministries.eleven.shortDesc",
+        tag: "tags.water",
         img: "/images/gerb.png",
         link: "Ministries.eleven.link",
         seo: {
@@ -161,6 +183,8 @@ export default function ministries() {
         slug: "ministries-digital-tech",
         title: "Ministries.twelve.title",
         description: "Ministries.twelve.description",
+        shortDesc: "Ministries.twelve.shortDesc",
+        tag: "tags.digital",
         img: "/images/gerb.png",
         link: "Ministries.twelve.link",
         seo: {
@@ -175,6 +199,8 @@ export default function ministries() {
         slug: "ministries-justice",
         title: "Ministries.thirteen.title",
         description: "Ministries.thirteen.description",
+        shortDesc: "Ministries.thirteen.shortDesc",
+        tag: "tags.law",
         img: "/images/gerb.png",
         link: "Ministries.thirteen.link",
         seo: {
@@ -189,6 +215,8 @@ export default function ministries() {
         slug: "ministries-transport",
         title: "Ministries.fourteen.title",
         description: "Ministries.fourteen.description",
+        shortDesc: "Ministries.fourteen.shortDesc",
+        tag: "tags.transport",
         img: "/images/gerb.png",
         link: "Ministries.fourteen.link",
         seo: {
@@ -203,6 +231,8 @@ export default function ministries() {
         slug: "ministries-culture",
         title: "Ministries.fifteen.title",
         description: "Ministries.fifteen.description",
+        shortDesc: "Ministries.fifteen.shortDesc",
+        tag: "tags.culture",
         img: "/images/gerb.png",
         link: "Ministries.fifteen.link",
         seo: {
@@ -217,6 +247,8 @@ export default function ministries() {
         slug: "ministries-defense",
         title: "Ministries.sixteen.title",
         description: "Ministries.sixteen.description",
+        shortDesc: "Ministries.sixteen.shortDesc",
+        tag: "tags.defense",
         img: "/images/gerb.png",
         link: "Ministries.sixteen.link",
         seo: {
@@ -231,6 +263,8 @@ export default function ministries() {
         slug: "ministries-energy",
         title: "Ministries.seventeen.title",
         description: "Ministries.seventeen.description",
+        shortDesc: "Ministries.seventeen.shortDesc",
+        tag: "tags.energy",
         img: "/images/gerb.png",
         link: "Ministries.seventeen.link",
         seo: {
@@ -245,6 +279,8 @@ export default function ministries() {
         slug: "ministries-health",
         title: "Ministries.eighteen.title",
         description: "Ministries.eighteen.description",
+        shortDesc: "Ministries.eighteen.shortDesc",
+        tag: "tags.health",
         img: "/images/gerb.png",
         link: "Ministries.eighteen.link",
         seo: {
@@ -259,6 +295,8 @@ export default function ministries() {
         slug: "ministries-foreign-affairs",
         title: "Ministries.nineteen.title",
         description: "Ministries.nineteen.description",
+        shortDesc: "Ministries.nineteen.shortDesc",
+        tag: "tags.diplomacy",
         img: "/images/gerb.png",
         link: "Ministries.nineteen.link",
         seo: {
@@ -273,6 +311,8 @@ export default function ministries() {
         slug: "ministries-internal-affairs",
         title: "Ministries.twenty.title",
         description: "Ministries.twenty.description",
+        shortDesc: "Ministries.twenty.shortDesc",
+        tag: "tags.security",
         img: "/images/gerb.png",
         link: "Ministries.twenty.link",
         seo: {
@@ -287,6 +327,8 @@ export default function ministries() {
         slug: "ministries-fvv",
         title: "Ministries.twentyone.title",
         description: "Ministries.twentyone.description",
+        shortDesc: "Ministries.twentyone.shortDesc",
+        tag: "tags.security",
         img: "/images/gerb.png",
         link: "Ministries.twentyone.link",
         seo: {

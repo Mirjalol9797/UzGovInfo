@@ -129,6 +129,8 @@ useHead(() => ({
           <h3 class="title">
             {{ t(item.title) }}
           </h3>
+          <p class="short-desc">{{ t(item.shortDesc) }}</p>
+          <span class="tag-badge">{{ t(item.tag) }}</span>
         </nuxt-link>
       </div>
 

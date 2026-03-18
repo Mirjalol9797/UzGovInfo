@@ -1,20 +1,13 @@
 {
   "A": "A",
   "all_rights_reserved": "Barcha huquqlar himoyalangan.",
-
   "B": "B",
   "brief_description_site": "Saytning qisqacha tavsifi",
-
   "C": "C",
-
   "D": "D",
-
   "E": "E",
-
   "F": "F",
-
   "G": "G",
-
   "footer": {
     "about": "Sayt haqida",
     "contacts": "Kontaktlar",
@@ -186,7 +179,6 @@
       "keywords": "sayt haqida, UzGovInfo, katalog, rasmiy saytlar, O‘zbekiston davlat organlari"
     }
   },
-
   "H": "H",
   "Organizations": {
     "headtitle": "Oʻzbekistonning barcha davlat tashkilotlari"
@@ -238,26 +230,51 @@
       "otherSites": {
         "h2": "Boshqa davlat organlarining rasmiy saytlari",
         "links": [
-          { "href": "/headquarters", "text": "Oliy davlat organlari" },
-          { "href": "/ministries", "text": "Vazirliklar" },
-          { "href": "/state", "text": "Davlat organlari" }
+          {
+            "href": "/headquarters",
+            "text": "Oliy davlat organlari"
+          },
+          {
+            "href": "/ministries",
+            "text": "Vazirliklar"
+          },
+          {
+            "href": "/state",
+            "text": "Davlat organlari"
+          }
         ]
       },
       "faq": {
         "h2": "Tez-tez beriladigan savollar",
         "items": [
-          { "q": "Oʻzbekiston Prezidentining rasmiy sayti qayerda joylashgan?", "a": "Rasmiy sayt ushbu sahifada keltirilgan havola orqali mavjud." },
-          { "q": "Prezident saytida qanday maʼlumotlar nashr etiladi?", "a": "Saytda yangiliklar, farmonlar, bayonotlar va davlat rahbari faoliyati haqida maʼlumotlar joylashtirilgan." },
-          { "q": "Sayt rasmiy axborot manbai hisoblanadimi?", "a": "Ha, sayt rasmiy manba hisoblanadi va ishonchli maʼlumotlarni nashr etadi." },
-          { "q": "Saytdagi maʼlumotlarga ishonish mumkinmi?", "a": "Ha, barcha materiallar davlat organlari tomonidan nashr etiladi va rasmiy hisoblanadi." },
-          { "q": "Sayt kimlar uchun moʻljallangan?", "a": "Sayt fuqarolar, biznes, jurnalistlar va barcha qiziqqan foydalanuvchilar uchun moʻljallangan." }
+          {
+            "q": "Oʻzbekiston Prezidentining rasmiy sayti qayerda joylashgan?",
+            "a": "Rasmiy sayt ushbu sahifada keltirilgan havola orqali mavjud."
+          },
+          {
+            "q": "Prezident saytida qanday maʼlumotlar nashr etiladi?",
+            "a": "Saytda yangiliklar, farmonlar, bayonotlar va davlat rahbari faoliyati haqida maʼlumotlar joylashtirilgan."
+          },
+          {
+            "q": "Sayt rasmiy axborot manbai hisoblanadimi?",
+            "a": "Ha, sayt rasmiy manba hisoblanadi va ishonchli maʼlumotlarni nashr etadi."
+          },
+          {
+            "q": "Saytdagi maʼlumotlarga ishonish mumkinmi?",
+            "a": "Ha, barcha materiallar davlat organlari tomonidan nashr etiladi va rasmiy hisoblanadi."
+          },
+          {
+            "q": "Sayt kimlar uchun moʻljallangan?",
+            "a": "Sayt fuqarolar, biznes, jurnalistlar va barcha qiziqqan foydalanuvchilar uchun moʻljallangan."
+          }
         ]
       },
       "seo": {
         "title": "Oʻzbekiston Prezidenti rasmiy sayti – yangiliklar va ma'lumotlar",
         "description": "Oʻzbekiston Prezidenti rasmiy sayti orqali prezident idorasining yangiliklari, siyosati va dolzarb yangiliklarini kuzatib boring. Mamlakatning asosiy maqsadlari va tashabbuslari haqida ma'lumot oling.",
         "keywords": "Oʻzbekiston Prezidenti, rasmiy sayt, prezident yangiliklari, yangiliklar va maʼlumotlar, hukumat siyosati, prezident maqsadlari"
-      }
+      },
+      "shortDesc": "Davlat rahbari va ijro hokimiyati"
     },
     "two": {
       "title": "O‘zbekiston Respublikasi Oliy Majlisining Qonunchilik palatasi",
@@ -267,7 +284,8 @@
         "title": "Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi – tuzilma, vazifalar va faoliyat",
         "description": "Oʻzbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi mamlakatning qonun chiqaruvchi organi boʻlib, ijtimoiy, siyosiy va iqtisodiy tizimni shakllantirishda katta ahamiyat kasb etadi. Qonunchilik palatasi qonunlarni ishlab chiqish va tasdiqlash bilan shugʻullanib, aholining manfaatlarini himoya qilish va qonuniy jarayonlarni shaffof va samarali amalga oshirishga qaratilgan faoliyat olib boradi. Deputatlar qonun loyihalarini ishlab chiqish, davlat dasturlarini tasdiqlash va xalq farovonligini oshirish maqsadida ish olib boradilar. Shuningdek, Qonunchilik palatasi xalqaro hamkorlikni rivojlantirish va mamlakatda huquqiy tizimni mustahkamlashga intiladi.",
         "keywords": "Oʻzbekiston Qonunchilik palatasi, Oliy Majlis Oʻzbekiston, parlament Oʻzbekiston, qonun chiqaruvchi palata, qonun chiqarish faoliyati, deputatlar faoliyati, davlat dasturlari, parlament vazifalari, xalqaro hamkorlik, qonunchilik nazorati, siyosiy jarayonlar, qonun loyihalari, ijtimoiy dasturlar, iqtisodiy dasturlar"
-      }
+      },
+      "shortDesc": "Mamlakatning qonunchilik faoliyati"
     },
     "three": {
       "title": "O‘zbekiston Respublikasi Oliy Majlisining Senati",
@@ -277,7 +295,8 @@
         "title": "Oʻzbekiston Respublikasi Oliy Majlisi Senati – parlamentning yuqori palatasi, vazifalari va faoliyati",
         "description": "Oʻzbekiston Respublikasi Oliy Majlisi Senati – bu parlamentning yuqori palatasi boʻlib, davlat qonunlarini koʻrib chiqish va tasdiqlash, barcha hududlarning manfaatlarini himoya qilish, davlat dasturlarining amalga oshirilishini nazorat qilish vazifalarini bajaradi. Senatorlar qonuniylik va barqarorlikni ta’minlash, xalqaro hamkorlikni rivojlantirish va aholi farovonligini yaxshilashga qaratilgan qarorlar qabul qilishda faol qatnashadilar. Senat ijtimoiy, iqtisodiy va siyosiy hayotning muhim masalalarini koʻrib chiqadi, qonun loyihalarini tahlil qiladi va hududlar oʻrtasida manfaatlar muvofiqligini ta’minlashda muhim rol oʻynaydi.",
         "keywords": "Oʻzbekiston Senati, Oliy Majlis, yuqori palata, qonun chiqarish, senatorlar, davlat dasturlari, huquqiy nazorat, xalqaro hamkorlik, hududiy manfaatlar, ijtimoiy dasturlar, iqtisodiy dasturlar, siyosiy barqarorlik, qonun loyihalari, parlamentdagi qoʻmitalar, barqarorlik"
-      }
+      },
+      "shortDesc": "Parlamentning yuqori palatasi"
     },
     "four": {
       "title": "O‘zbekiston Respublikasining Hukumati",
@@ -287,7 +306,8 @@
         "title": "Oʻzbekiston Respublikasi Hukumatining Rasmiy Portali – gov.uz",
         "description": "Oʻzbekiston Respublikasi Hukumatining rasmiy sayti gov.uz. Hukumat faoliyati, yangiliklar, qonun hujjatlari va davlat dasturlari haqida ma’lumot oling. O‘zbekiston fuqarolarining farovonligini oshirish va mamlakatni ijtimoiy-iqtisodiy rivojlantirishga qaratilgan dolzarb tashabbuslar bilan tanishing.",
         "keywords": "Oʻzbekiston hukumati, rasmiy sayt gov.uz, hukumat yangiliklari, davlat dasturlari, ijtimoiy tashabbuslar, iqtisodiy rivojlanish, hukumat loyihalari, qonun hujjatlari, Vazirlar Mahkamasi, davlat xizmatlari, Oliy Majlis"
-      }
+      },
+      "shortDesc": "Ijro hokimiyati va Vazirlar Mahkamasi"
     },
     "five": {
       "title": "O‘zbekiston Respublikasining Konstitutsiyaviy sudi",
@@ -297,7 +317,8 @@
         "title": "Oʻzbekiston Respublikasi Konstitutsiyaviy Sudi – Rasmiy veb-sayt konstsud.uz",
         "description": "Oʻzbekiston Respublikasi Konstitutsiyaviy Sudining rasmiy sayti – konstsud.uz. Konstitutsiyaviy sud mamlakat konstitutsiyasiga rioya qilinishini ta'minlaydi, fuqarolarning huquq va erkinliklarini himoya qiladi, konstitutsiyaga oid shikoyatlarni koʻrib chiqadi va qonunlar hamda normativ hujjatlarning Konstitutsiyaga muvofiqligini tekshiradi. Sud huquqiy davlatni mustahkamlash va konstitutsiyaviy tartibni ta'minlashda muhim rol oʻynaydi. Sayt sudning tuzilmasi, vazifalari, koʻrilgan ishlar, normativ-huquqiy baza, xalqaro faoliyati, yangiliklar va nashrlarga kirish imkoniyatini taqdim etadi. Konstitutsiyaviy sudning fuqarolarning konstitutsiyaviy huquqlarini himoya qilishga qaratilgan muhim qarorlar va amaliyoti haqida bilib oling.",
         "keywords": "Oʻzbekiston Konstitutsiyaviy Sudi, konstitutsiyaviy huquqlar himoyasi, konstitutsiyaga oid shikoyatlar, sud qarorlari, konstitutsiyaviy ishlar, normativ-huquqiy baza, konstitutsion tartib, huquqiy davlat, xalqaro hamkorlik, huquqiy nazorat, inson huquqlarini himoya qilish, qonunchilik Oʻzbekiston, rasmiy sayt konstsud.uz"
-      }
+      },
+      "shortDesc": "Konstitutsiyaviy nazorat va tekshiruv"
     },
     "six": {
       "title": "O‘zbekiston Respublikasi Oliy sudi",
@@ -307,7 +328,8 @@
         "title": "Oʻzbekiston Respublikasi Oliy sudi – Rasmiy sayt sud.uz",
         "description": "Oʻzbekiston Respublikasi Oliy sudining rasmiy sayti – sud.uz. Oliy sud Oʻzbekistondagi sud tizimiga oliy nazoratni amalga oshiradi, adolatni taʼminlaydi, fuqarolar huquqlari va erkinliklarini himoya qiladi hamda sud qarorlarining qonunchilikka muvofiqligini nazorat qiladi. Saytda sud tarkibi, vakolatlari, koʻrilgan ishlar, sud amaliyoti va normativ-huquqiy hujjatlar haqida maʼlumotlar keltirilgan. Oliy sud faoliyati, dolzarb sud jarayonlari va Oʻzbekistonda huquqiy himoya haqida koʻproq bilib oling.",
         "keywords": "Oʻzbekiston Oliy sudi, sud.uz, oliy sud organi, sud tizimi Oʻzbekiston, adolat, fuqarolar huquqlari, sud qarorlari, qonunchilik Oʻzbekiston, huquqiy himoya, huquqiy tizim, sud ishlari, normativ-huquqiy hujjatlar, qonuniy aktlar, sud jarayoni, sudyalar Oʻzbekiston, sud jarayonlari, sudlar nazorati, sud amaliyoti, huquqlar va erkinliklar, sud instansiyalari, sud hokimiyati, huquqiy nashrlar, qonun ustuvorligi, huquqiy yordam, davlat idoralari Oʻzbekiston, sud jarayonlari, huquqiy xavfsizlik, huquqni himoya qilish, huquqiy kafolatlar, sud tuzilmasi"
-      }
+      },
+      "shortDesc": "Mamlakatning oliy sud organi"
     },
     "seven": {
       "title": "O‘zbekiston Respublikasi Bosh prokuraturasi",
@@ -317,7 +339,8 @@
         "title": "Oʻzbekiston Respublikasi Bosh prokuraturasi – Rasmiy sayt prokuratura.uz",
         "description": "Oʻzbekiston Respublikasi Bosh prokuraturasining rasmiy sayti – prokuratura.uz. Bosh prokuratura qonuniylikni taʼminlash, qonunlarga rioya etilishi ustidan nazorat qilish, fuqarolar va davlat manfaatlarini himoya qilishni amalga oshiradi. Saytda soʻnggi yangiliklar, normativ-huquqiy hujjatlar, prokuratura tuzilmasi va vakolatlari, jinoyatchilik, korrupsiyaga qarshi kurash va huquqbuzarliklarga qarshi chora-tadbirlar haqida maʼlumotlar keltirilgan. Bosh prokuraturaning missiyasi, vazifalari va qonuniy manfaatlarni himoya qilishga qaratilgan tashabbuslari haqida koʻproq bilib oling.",
         "keywords": "Oʻzbekiston Bosh prokuraturasi, prokuratura.uz, qonuniylik nazorati, fuqarolar huquqlari, manfaatlarni himoya qilish, jinoyatchilikka qarshi kurash, korrupsiyaga qarshi chora-tadbirlar, Oʻzbekiston prokuraturasi, huquqiy xavfsizlik, prokuror nazorati, qonunchilik Oʻzbekiston, huquqni himoya qilish, davlat idoralari, qonunlarga rioya qilish, huquqiy tizim, jinoiy ishlar, huquqiy maslahatlar, huquqiy hujjatlar, huquqni muhofaza qilish, huquqiy nazorat, prokurorlar, jamoat xavfsizligi, jinoiy taʼqib, Oʻzbekiston korrupsiya, davlat nazorati, jinoyatchilikka qarshi kurash, huquqbuzarliklarga qarshi choralar, huquqiy himoya"
-      }
+      },
+      "shortDesc": "Qonunlarga rioya etilishini nazorat qilish"
     },
     "eight": {
       "title": "O‘zbekiston Respublikasi Markaziy saylov komissiyasi",
@@ -327,7 +350,8 @@
         "title": "Oʻzbekiston Respublikasi Markaziy saylov komissiyasi – Rasmiy sayt saylov.uz",
         "description": "Oʻzbekiston Respublikasi Markaziy saylov komissiyasining rasmiy sayti – saylov.uz. Markaziy saylov komissiyasi (MSK) Oʻzbekistonda saylovlarni tashkil etish va oʻtkazish, saylov jarayonining shaffofligini taʼminlash, saylovchilar huquqlarini himoya qilish va demokratik standartlarga rioya etilishini taʼminlash uchun javobgar. Saytda soʻnggi yangiliklar, saylovlar va referendumlar, saylov qonunchiligi, nomzodlar haqida maʼlumotlar hamda ovoz berish natijalari keltirilgan. MSKning demokratik jarayonlarni rivojlantirish va fuqarolik huquqlarini mustahkamlashga qaratilgan vazifalari va faoliyati haqida koʻproq bilib oling.",
         "keywords": "Oʻzbekiston Markaziy saylov komissiyasi, saylov.uz, MSK Oʻzbekiston, saylovlar Oʻzbekiston, saylov jarayoni, saylovchilar huquqlari, saylovlarning shaffofligi, demokratik standartlar, saylov qonunchiligi, nomzodlar, saylov natijalari, saylov organlari, saylov tizimi, Oʻzbekistonda ovoz berish, huquqiy hujjatlar, saylov huquqi, saylovlarda ishtirok, saylov komissiyasi, siyosiy partiyalar Oʻzbekiston, saylovchilar, saylov qonuni, saylovchilar huquqlarini himoya qilish, demokratik rivojlanish, fuqarolik huquqlari, ovoz berish ishtiroki, parlament saylovlari, prezident saylovlari, jamoatchilik ishtiroki"
-      }
+      },
+      "shortDesc": "Saylovlarni tashkil etish va oʻtkazish"
     },
     "nine": {
       "title": "O‘zbekiston Respublikasi Markaziy banki",
@@ -337,7 +361,8 @@
         "title": "Oʻzbekiston Respublikasi Markaziy banki – Rasmiy sayt cbu.uz",
         "description": "Oʻzbekiston Respublikasi Markaziy bankining rasmiy sayti – cbu.uz. Markaziy bank pul-kredit siyosatini boshqarish, valyuta kurslarini nazorat qilish, qayta moliyalash stavkalarini belgilash va bank tizimining barqarorligini taʼminlash uchun mas’ul. Saytda valyuta kurslari, moliyaviy yangiliklar, qonun hujjatlari va bank hisobotlari haqida dolzarb maʼlumotlar mavjud. Shuningdek, rezervlar, iqtisodiy tadqiqotlar va nashrlar, shuningdek raqamli moliyaviy texnologiyalardagi zamonaviy tashabbuslar haqida maʼlumot oling. Markaziy bank depozitlar huquqini himoya qilib, iqtisodiy barqarorlik va moliya bozori rivojlanishiga yordam beradi.",
         "keywords": "Oʻzbekiston Markaziy banki, cbu.uz, Oʻzbekiston valyuta kurslari, pul-kredit siyosati, qayta moliyalash stavkalari, bank tizimi Oʻzbekiston, moliyaviy barqarorlik, valyuta bozori, iqtisodiy tadqiqotlar, raqamli moliyaviy texnologiyalar, soʻm kursi, valyuta kurslari, iqtisodiy statistika, moliyaviy tahlil, bank tartibga solish, Oʻzbekiston depozitlari, kredit siyosati, omonatchilarni himoya qilish, MB hisobotlari, iqtisodiy prognozlar, bank litsenziyalari, Oʻzbekiston moliyaviy sektori, monetar siyosat, moliyaviy xavfsizlik, inflyatsiya, qimmatli qogʻozlar, pul emissiyasi, markaziy bank kurslari, valyuta bozori tartibga solish"
-      }
+      },
+      "shortDesc": "Pul-kredit siyosati"
     },
     "ten": {
       "title": "O‘zbekiston Respublikasi Hisob palatasi",
@@ -347,7 +372,8 @@
         "title": "Oʻzbekiston Respublikasi Hisob palatasi – Rasmiy sayt ach.gov.uz",
         "description": "Oʻzbekiston Respublikasi Hisob palatasining rasmiy sayti – ach.gov.uz. Hisob palatasi davlat moliyalarini nazorat qilish, byudjet xarajatlarini auditdan oʻtkazish va moliyaviy boshqaruvda shaffoflikni taʼminlash uchun masʼuldir. Saytda palataning vazifalari, maqsadlari va erishilgan natijalar haqidagi maʼlumotlar, shuningdek, davlat tashkilotlarining auditorlik hisobotlari, byudjet mablagʻlarining monitoringi va davlat resurslaridan samarali foydalanishni oshirish boʻyicha tavsiyalar keltirilgan. Hisob palatasi Oʻzbekistonning barqaror iqtisodiy rivojlanishi uchun moliyaviy hisobotlar standartlariga rioya etilishini taʼminlashda faol ishtirok etadi.",
         "keywords": "Oʻzbekiston Hisob palatasi, ach.gov.uz, davlat moliyalar auditi, byudjet auditi, moliyaviy nazorat, davlat mablagʻlari boshqaruvi, auditorlik hisobotlari, moliyaviy shaffoflik, moliyaviy hisobot, davlat xarajatlari auditi, byudjet monitoringi, Oʻzbekiston davlat xarajatlari, davlat resurslari samaradorligi, moliyaviy audit, iqtisodiy rivojlanish, byudjet monitoringi, Hisob palatasi tavsiyalari, moliyaviy nazorat, byudjet samaradorligi, moliyaviy hisobot Oʻzbekiston, Oʻzbekistonda auditorlik faoliyati, davlat auditi, hisobot standartlari, davlat resurslari nazorati, xarajatlar nazorati, davlat boshqaruvi"
-      }
+      },
+      "shortDesc": "Davlat moliyaviy auditi"
     }
   },
   "I": "I",
@@ -361,7 +387,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Ichimlik suvi nazorati"
     },
     "two": {
       "title": "",
@@ -371,11 +398,11 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Suv nazorati va resurslar"
     }
   },
   "K": "K",
-
   "L": "L",
   "link_to_official_website": "Rasmiy veb-saytga havola",
   "allCategories": {
@@ -387,7 +414,6 @@
     "state": "Davlat organlari",
     "inspections": "Davlat inspeksiyalari"
   },
-
   "M": "M",
   "Ministries": {
     "headtitle": "Vazirliklar",
@@ -399,7 +425,8 @@
         "title": "Oʻzbekiston Respublikasi Investitsiyalar, sanoat va savdo vazirligi – Rasmiy sayt",
         "description": "Oʻzbekiston Respublikasi Investitsiyalar, sanoat va savdo vazirligining rasmiy sayti – gov.uz. Vazirlik milliy iqtisodiyotning rivojlanishi uchun xorijiy va mahalliy investitsiyalarni jalb qilish, sanoatni qoʻllab-quvvatlash va xalqaro savdoni ragʻbatlantirishga masʼuldir. Saytda yangi investitsiya loyihalari, sanoat tashabbuslari, eksport imkoniyatlari va biznesni qoʻllab-quvvatlash dasturlari haqida dolzarb maʼlumotlar taqdim etilgan. Bu yerda vazirlikning strategiyalari, huquqiy islohotlar va Oʻzbekiston iqtisodiyotini mustahkamlashga yoʻnaltirilgan xalqaro hamkorliklar haqida bilib olish mumkin.",
         "keywords": "Oʻzbekiston Investitsiyalar vazirligi, sanoat Oʻzbekiston, xalqaro savdo Oʻzbekiston, investitsiya loyihalari, sanoat rivoji, eksport imkoniyatlari, biznes tashabbuslari, investitsiyalar jalb qilish, iqtisodiy rivojlanish, savdo hamkorliklari, xorijiy investitsiyalar, sanoat dasturlari, Oʻzbekiston biznes muhiti, eksport imkoniyatlari, biznesni qoʻllab-quvvatlash, huquqiy islohotlar, strategik hamkorlik, iqtisodiy barqarorlik, davlat dasturlari, investitsiya strategiyalari"
-      }
+      },
+      "shortDesc": "Investitsiyalar, sanoat va savdo"
     },
     "two": {
       "title": "O‘zbekiston Respublikasi Iqtisodiyot va moliya vazirligi",
@@ -409,7 +436,8 @@
         "title": "Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligi – Rasmiy sayt www.imv.uz",
         "description": "Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligining rasmiy sayti – imv.uz. Vazirlik iqtisodiy va moliyaviy siyosatni ishlab chiqish va amalga oshirish bilan shugʻullanib, barqaror rivojlanishni, moliyaviy barqarorlikni va iqtisodiyotni modernizatsiya qilishni maqsad qilgan. Saytda strategiyalar, milliy dasturlar, byudjet loyihalari, soliq siyosati va biznesni qoʻllab-quvvatlash choralari haqida maʼlumotlar taqdim etilgan. Shuningdek, makroiqtisodiy hisobotlar, oʻsish prognozlari va moliyaviy tizimni mustahkamlashga yoʻnaltirilgan islohotlar haqida maʼlumot beriladi.",
         "keywords": "Oʻzbekiston Iqtisodiyot va moliya vazirligi, imv.uz, iqtisodiy siyosat, moliyaviy barqarorlik, makroiqtisod, byudjet loyihalari, soliq siyosati, biznesni qoʻllab-quvvatlash, investitsiya muhiti, iqtisodiy rivojlanish Oʻzbekiston, moliyaviy tizim, makroiqtisodiy hisobotlar, iqtisodiy islohotlar, moliyaviy strategiyalar, davlat boshqaruvi, barqaror rivojlanish, soliq islohoti, milliy dasturlar, iqtisodiy modernizatsiya, moliyaviy rejalashtirish, huquqiy islohotlar, iqtisod Oʻzbekiston, davlat dasturlari"
-      }
+      },
+      "shortDesc": "Iqtisodiyot va moliyaviy boshqaruv"
     },
     "three": {
       "title": "O‘zbekiston Respublikasi Tog‘-kon sanoati va geologiya vazirligi",
@@ -419,7 +447,8 @@
         "title": "Oʻzbekiston Respublikasi Togʻ-kon sanoati va geologiya vazirligi – Rasmiy sayt",
         "description": "Oʻzbekiston Respublikasi Togʻ-kon sanoati va geologiya vazirligining rasmiy sayti – gov.uz. Vazirlik togʻ-kon sanoatini rivojlantirish va mamlakatning tabiiy resurslarini boshqarish, shu jumladan konlarni qidirish, foydali qazilmalarni qazib olish va geologik tadqiqotlar bilan shugʻullanadi. Saytda strategik loyihalar, huquqiy islohotlar, xalqaro hamkorlik va togʻ-kon sanoatiga investitsiya kiritish imkoniyatlari haqida maʼlumotlar mavjud. Bu yerda yangi konlar, qazish texnologiyalari, litsenziyalash va tabiiy resurslarni barqaror foydalanishga yoʻnaltirilgan ekologik tashabbuslar haqida bilib olish mumkin.",
         "keywords": "Oʻzbekiston Togʻ-kon sanoati vazirligi, geologiya Oʻzbekiston, foydali qazilmalarni qazish, konlarni qidirish, togʻ-kon sanoati, tabiiy resurslar Oʻzbekiston, ekologik tashabbuslar, litsenziyalash, xalqaro hamkorlik, togʻ-kon investitsiyalari, resurslardan oqilona foydalanish, geologik tadqiqotlar, barqaror rivojlanish, togʻ-kon texnologiyalari, strategik loyihalar, tabiatni muhofaza qilish dasturlari, Oʻzbekiston resurslari, mineral resurslar, huquqiy islohotlar"
-      }
+      },
+      "shortDesc": "Konchilik sanoati"
     },
     "four": {
       "title": "O'zbekiston Respublikasi Qurilish va uy-joy kommunal xo'jaligi vazirligi",
@@ -429,7 +458,8 @@
         "title": "Oʻzbekiston Respublikasi Qurilish va Uy-joy kommunal xizmatlar vazirligi – Rasmiy sayt",
         "description": "Oʻzbekiston Respublikasi Qurilish va Uy-joy kommunal xizmatlar vazirligining rasmiy sayti – mc.uz. Vazirlik qurilish sohasini rivojlantirish, uy-joy kommunal xizmatlarni boshqarish va infratuzilmani modernizatsiya qilishga yoʻnaltirilgan davlat dasturlarini amalga oshirish bilan shugʻullanadi. Saytda qurilish standartlari, shaharsozlik loyihalari, uy-joy dasturlari, zamonaviy qurilish texnologiyalari va kommunal xizmatlar islohoti haqida maʼlumotlar berilgan. Shu bilan birga, barqaror shahar rivojlanishi, hayot sifatini yaxshilash va arzon uy-joy masalalari boʻyicha asosiy tashabbuslar haqida maʼlumot olish mumkin.",
         "keywords": "Oʻzbekiston Qurilish vazirligi, uy-joy kommunal xizmatlar, mc.uz, qurilish va infratuzilma, shaharsozlik, davlat dasturlari, infratuzilma modernizatsiyasi, uy-joy yaxshilash, arzon uy-joy, qurilish texnologiyalari, kommunal xizmatlar islohoti, barqaror shahar rivojlanishi, qurilish standartlari, Oʻzbekiston infratuzilmasi, uy-joy dasturlari, shahar loyihalari, uy-joy siyosati, Oʻzbekistonda qurilish, infratuzilma islohotlari, sifatli uy-joy"
-      }
+      },
+      "shortDesc": "Qurilish va uy-joy xoʻjaligi"
     },
     "five": {
       "title": "O‘zbekiston Respublikasi Kambag‘allikni qisqartirish va bandlik vazirligi",
@@ -439,7 +469,8 @@
         "title": "Oʻzbekiston Respublikasi Bandlik va Qashshoqlikni qisqartirish vazirligi – Rasmiy sayt",
         "description": "Oʻzbekiston Respublikasi Bandlik va Qashshoqlikni qisqartirish vazirligining rasmiy sayti – mehnat.uz. Vazirlik bandlik masalalari, qashshoqlikni qisqartirish, ijtimoiy qoʻllab-quvvatlash va yangi ish oʻrinlari yaratish boʻyicha faoliyat yuritadi. Saytda bandlik dasturlari, ishsizlar uchun davlat yordam dasturlari, kasbiy tayyorgarlik, kam daromadli oilalarni qoʻllab-quvvatlash choralari haqida maʼlumot berilgan. Shuningdek, mehnat migratsiyasi, malaka oshirish, mehnat sharoitlarini yaxshilash va ishchilar huquqlarini himoya qilish loyihalari haqida bilib olish mumkin. Vazirlik iqtisodiy oʻsish va ijtimoiy integratsiya uchun qulay sharoitlar yaratishga yoʻnaltirilgan.",
         "keywords": "Bandlik vazirligi Oʻzbekiston, qashshoqlikni qisqartirish, mehnat bozori, mehnat migratsiyasi, kasbiy tayyorgarlik, ijtimoiy qoʻllab-quvvatlash, ishsizlik Oʻzbekiston, yangi ish oʻrinlari, kam daromadli oilalar, iqtisodiy oʻsish, mehnat sharoitlari, malaka oshirish, davlat dasturlari, ijtimoiy integratsiya, mehnat.uz, ishchilar huquqlari, mehnat loyihalari, bandlik dasturlari"
-      }
+      },
+      "shortDesc": "Bandlik va kambagʻallikni kamaytirish"
     },
     "six": {
       "title": "O‘zbekiston Respublikasi Oliy ta’lim, fan va innovatsiyalar vazirligi huzuridagi Oliy attestatsiya komissiyasi",
@@ -449,7 +480,8 @@
         "title": "Oʻzbekiston Respublikasi Oliy taʼlim, fan va innovatsiyalar vazirligi huzuridagi Oliy attestatsiya komissiyasi – Rasmiy sayt",
         "description": "Oʻzbekiston Respublikasi Oliy taʼlim, fan va innovatsiyalar vazirligi huzuridagi Oliy attestatsiya komissiyasining rasmiy sayti – oak.uz. Komissiya ilmiy va pedagogik kadrlarni attestasiyadan oʻtkazish, ilmiy darajalar berish va kadrlar malakasini oshirish bilan shugʻullanadi. Saytda dissertatsiyalar talablari, ilmiy maqolalarni nashr etish qoidalari, attestatsiya jarayonlari va ilmiy unvonlarni olishga oid maʼlumotlar berilgan. Foydalanuvchilar ilmiy ishlar roʻyxatga olish, dissertatsiya kengashlari akkreditatsiyasi va mutaxassislar sertifikatsiyasi haqida maʼlumot olishlari, ilm-fan va taʼlim yangiliklari bilan tanishishlari mumkin.",
         "keywords": "Oliy attestatsiya komissiyasi Oʻzbekiston, oak.uz, ilmiy darajalar berish, dissertatsiya talablari, ilmiy maqolalar, Oliy taʼlim vazirligi, ilmiy kengash akkreditatsiyasi, kadrlar malakasi, ilmiy unvonlar, ilmiy kadrlar attestasiyasi, ilm-fan va taʼlim, dissertatsiyalar, nashr etish qoidalari, ilmiy sertifikat, innovatsiyalar Oʻzbekiston, taʼlim va ilmiy islohotlar, pedagogik kadrlar, ilmiy maqola nashrlari"
-      }
+      },
+      "shortDesc": "Attestatsiya va sertifikatsiya"
     },
     "seven": {
       "title": "O‘zbekiston Respublikasi maktabgacha va maktab ta'limi vazirligi",
@@ -459,7 +491,8 @@
         "title": "Oʻzbekiston Respublikasi Maktabgacha va Maktab Taʼlimi Vazirligi – Rasmiy sayt",
         "description": "Oʻzbekiston Respublikasi Maktabgacha va Maktab Taʼlimi Vazirligining rasmiy sayti – uzedu.uz. Vazirlik maktabgacha va maktab taʼlim tizimini rivojlantirish, oʻquv dasturlari, bolalar bogʻchalari va maktablarning modernizatsiyasi boʻyicha faoliyat yuritadi. Saytda vazirlikning rejalari va tashabbuslari, davlat standartlari, taʼlim islohotlari, bolalarga taʼlim olish imkoniyatini taʼminlash, pedagoglar malakasini oshirish va innovatsion texnologiyalarni joriy etish haqida maʼlumotlar berilgan. Har bir oʻzbekistonlik bola uchun sifatli va arzon taʼlim tizimini rivojlantirishga qaratilgan loyihalar haqida bilib oling.",
         "keywords": "Maktabgacha taʼlim Oʻzbekiston, maktab taʼlimi, uzedu.uz, bolalar bogʻchalari, boshlangʻich taʼlim, taʼlim standartlari Oʻzbekiston, oʻqituvchilar malakasi, maktab islohotlari, innovatsion texnologiyalar, arzon taʼlim, taʼlim dasturi, taʼlim tizimi, pedagogik loyihalar, taʼlimni rivojlantirish, maktab modernizatsiyasi, taʼlim tashabbuslari Oʻzbekiston"
-      }
+      },
+      "shortDesc": "Maktabgacha va maktab taʼlimi"
     },
     "eight": {
       "title": "O‘zbekiston Respublikasi Ekologiya, atrof-muhitni muhofaza qilish va iqlim o‘zgarishi vazirligi",
@@ -469,7 +502,8 @@
         "title": "Oʻzbekiston Respublikasi Ekologiya, atrof-muhit muhofazasi va iqlim oʻzgarishi vazirligi – Rasmiy sayt",
         "description": "Oʻzbekiston Respublikasi Ekologiya, atrof-muhit muhofazasi va iqlim oʻzgarishi vazirligining rasmiy sayti – uznature.uz. Vazirlik ekologiyani himoya qilish, tabiiy resurslarni asrash va iqlim oʻzgarishiga qarshi kurash bilan shugʻullanadi. Saytda atrof-muhitni muhofaza qilish dasturlari, ifloslanishni kamaytirish choralari, barqaror rivojlanish tashabbuslari va iqlim moslashuvi haqida maʼlumot berilgan. Ekologiya sohasidagi qonunchilik, ekotizimlarni tiklash, chiqindilarni nazorat qilish va yashil texnologiyalarni joriy etish haqidagi maʼlumotlar mavjud. Kelgusi avlodlar uchun tabiatni asrash va ekotizimlarni saqlashga qaratilgan loyihalar haqida bilib oling.",
         "keywords": "Ekologiya vazirligi Oʻzbekiston, atrof-muhitni muhofaza qilish, iqlim oʻzgarishi, uznature.uz, tabiiy resurslar Oʻzbekiston, ekologik himoya, ifloslanishga qarshi kurash, barqaror rivojlanish, ekotizimlarni tiklash, ekologik tashabbuslar, yashil texnologiyalar, ekologik qonunchilik, tabiatni himoya qilish, chiqindilarni nazorat qilish, iqlim moslashuvi, atrof-muhitni asrash"
-      }
+      },
+      "shortDesc": "Ekologiya va atrof-muhitni muhofaza qilish"
     },
     "nine": {
       "title": "O‘zbekiston Respublikasi Sport vazirligi",
@@ -479,7 +513,8 @@
         "title": "Oʻzbekiston Respublikasi Sport Vazirligi – Rasmiy sayt",
         "description": "Oʻzbekiston Respublikasi Sport Vazirligining rasmiy sayti – gov.uz. Vazirlik sport va jismoniy tarbiya rivojlanishi uchun masʼuldir. Saytda davlat dasturlari, sport maktablari va klublarini qoʻllab-quvvatlash, musobaqalar oʻtkazish, ommaviy sportni rivojlantirish va professional sportchilarni tayyorlash haqidagi maʼlumotlar keltirilgan. Oʻzbekistondagi sport loyihalari, infratuzilma, milliy va xalqaro turnirlar hamda sogʻlom turmush tarzini qoʻllab-quvvatlash tashabbuslari haqida bilib oling.",
         "keywords": "Oʻzbekiston Sport Vazirligi, sport Oʻzbekiston, gov.uz sport, jismoniy tarbiya, sport rivoji, sport maktablari, ommaviy sport, sportchilarni qoʻllab-quvvatlash, sport dasturlari, milliy turnirlar, xalqaro musobaqalar, sport klublari, sport infratuzilmasi, sogʻlom turmush tarzi, jismoniy faollik, sport Oʻzbekiston, olimpiya sport turlari"
-      }
+      },
+      "shortDesc": "Jismoniy tarbiya va sport"
     },
     "ten": {
       "title": "O‘zbekiston Respublikasi Qishloq хo‘jаligi vаzirligi",
@@ -489,7 +524,8 @@
         "title": "Oʻzbekiston Respublikasi Qishloq xoʻjaligi vazirligi – Rasmiy sayt https://gov.uz/oz/agro",
         "description": "Oʻzbekiston Respublikasi Qishloq xoʻjaligi vazirligining rasmiy sayti – gov.uz. Vazirlik qishloq xoʻjaligi rivoji, oziq-ovqat xavfsizligi va qishloq iqtisodiyoti uchun masʼul. Saytda zamonaviy dehqonchilik, barqaror qishloq xoʻjaligi amaliyotlari, ekin yetishtirish, chorvachilik boshqaruvi, irrigatsiya tizimlari va fermerlarni qoʻllab-quvvatlash haqida maʼlumotlar berilgan. Mahsulot sifati, eksport imkoniyatlari, innovatsion texnologiyalar va Oʻzbekistonda qishloq xoʻjaligi barqarorligini taʼminlashga qaratilgan milliy dasturlar haqida bilib oling.",
         "keywords": "Oʻzbekiston Qishloq xoʻjaligi vazirligi, qishloq xoʻjaligi Oʻzbekiston, gov.uz qishloq xoʻjaligi, qishloq iqtisodiyoti, oziq-ovqat xavfsizligi, ekin yetishtirish, chorvachilik, barqaror dehqonchilik, irrigatsiya tizimlari, fermer texnologiyalari, qishloq xoʻjalik mahsulotlari eksporti, zamonaviy dehqonchilik, qishloq rivoji, milliy dasturlar, oziq-ovqat sifati, agrobarqarorlik, qishloq hududlari rivoji"
-      }
+      },
+      "shortDesc": "Qishloq xoʻjaligi va oziq-ovqat"
     },
     "eleven": {
       "title": "O‘zbekiston Respublikasi Suv хo‘jaligi vazirligi",
@@ -499,7 +535,8 @@
         "title": "Oʻzbekiston Respublikasi Suv Resurslari Vazirligi – Rasmiy sayt",
         "description": "Oʻzbekiston Respublikasi Suv Resurslari Vazirligining rasmiy sayti – gov.uz. Vazirlik suv resurslarini boshqarish, barqaror irrigatsiya va mamlakat boʻylab suv taʼminotini taʼminlash masalalariga masʼuldir. Saytda suvni saqlash, qishloq xoʻjaligi uchun sugʻorish, daryo havzalarini boshqarish va zamonaviy suv texnologiyalari boʻyicha dasturlar haqida bilib olishingiz mumkin. Suvdan foydalanishni optimallashtirish, fermerlarni qoʻllab-quvvatlash, suv taʼminoti va sanitariya infratuzilmasini rivojlantirish boʻyicha Oʻzbekistonning ekologik va qishloq xoʻjalik ehtiyojlariga mos keladigan dasturlar haqida bilib oling.",
         "keywords": "Oʻzbekiston Suv Resurslari Vazirligi, suv boshqaruvi, gov.uz suv resurslari, irrigatsiya Oʻzbekiston, suvni tejash, suv taʼminoti, daryo havzalarini boshqarish, suv infratuzilmasi, barqaror sugʻorish, suv texnologiyalari, fermerlarni qoʻllab-quvvatlash, sanitariya Oʻzbekiston, suv dasturlari, ekologik barqarorlik, qishloq xoʻjalik irrigatsiyasi, ekologiya va suv Oʻzbekiston"
-      }
+      },
+      "shortDesc": "Suv resurslari va irrigatsiya"
     },
     "twelve": {
       "title": "O‘zbekiston Respublikasi Raqamli texnologiyalar vazirligi",
@@ -509,7 +546,8 @@
         "title": "Oʻzbekiston Respublikasi Raqamli Texnologiyalar Vazirligi – Rasmiy sayt",
         "description": "Oʻzbekiston Respublikasi Raqamli Texnologiyalar Vazirligining rasmiy sayti. Vazirlik butun Oʻzbekiston boʻylab raqamli transformatsiyani rivojlantirish, texnologik innovatsiyalar, kiberxavfsizlik va raqamli savodxonlikni oshirish bilan shugʻullanadi. IT infratuzilmasi, dasturiy taʼminotni ishlab chiqish, onlayn xizmatlar, e-hukumat va texnologik startaplarni qoʻllab-quvvatlash boʻyicha tashabbuslar haqida maʼlumot oling. Raqamli koʻnikmalarni rivojlantirish, raqamli iqtisodiyotni qoʻllab-quvvatlash, xavfsiz va samarali texnologiya ishlatilishini rivojlantirishga qaratilgan dasturlar haqida bilib oling.",
         "keywords": "Oʻzbekiston Raqamli Texnologiyalar Vazirligi, raqamli transformatsiya, gov.uz raqamli texnologiyalar, IT infratuzilmasi, texnologik innovatsiyalar, kiberxavfsizlik, raqamli savodxonlik, e-hukumat, raqamli koʻnikmalar, startaplar qoʻllab-quvvatlash, dasturiy taʼminot, raqamli iqtisodiyot, onlayn xizmatlar, davlat va xususiy sektor hamkorligi, Oʻzbekiston texnologiyalari, raqamli kelajak, raqamli tashabbuslar Oʻzbekiston"
-      }
+      },
+      "shortDesc": "Raqamli texnologiyalar va aloqa"
     },
     "thirteen": {
       "title": "O‘zbekiston Respublikasi Adliya vazirligi",
@@ -519,7 +557,8 @@
         "title": "Oʻzbekiston Respublikasi Adliya Vazirligi – Rasmiy sayt adliya.uz",
         "description": "Oʻzbekiston Respublikasi Adliya Vazirligining rasmiy sayti – adliya.uz. Adliya vazirligi huquqiy tizimni boshqarish, qonunchilikni rivojlantirish, inson huquqlarini himoya qilish va Oʻzbekistonda qonun ustuvorligini taʼminlash uchun masʼuldir. Huquqiy islohotlar, adolatga kirish, yuridik taʼlim, sud tizimidagi ochiqlik va fuqarolik xizmatlari haqida bilib oling. Yuridik yordamni rivojlantirish, huquqiy mutaxassislarni qoʻllab-quvvatlash va adolatli sud jarayonlarini taʼminlash boʻyicha Oʻzbekistonning huquq va inson huquqlariga sodiqligini ifodalovchi tashabbuslar bilan tanishing.",
         "keywords": "Oʻzbekiston Adliya Vazirligi, huquqiy tizim, adliya.uz, huquqiy islohotlar, adolatga kirish, yuridik taʼlim, inson huquqlari himoyasi, qonun ustuvorligi, sud tizimi ochiqligi, jamoat xizmatlari, yuridik yordam, yuridik mutaxassislar, huquq va adolat, yuridik islohotlar, huquqlar himoyasi Oʻzbekiston"
-      }
+      },
+      "shortDesc": "Huquqiy tizim va adolat"
     },
     "fourteen": {
       "title": "O‘zbekiston Respublikasi Transport vazirligi",
@@ -529,7 +568,8 @@
         "title": "Oʻzbekiston Respublikasi Transport Vazirligi – Rasmiy sayt mintrans.uz",
         "description": "Oʻzbekiston Respublikasi Transport Vazirligining rasmiy sayti – mintrans.uz. Vazirlik Oʻzbekistonda avtomobil, temir yoʻl, havo va suv transporti kabi transport infratuzilmasini rivojlantirish va tartibga solish bilan shugʻullanadi. Transport siyosati, modernizatsiya loyihalari, jamoat transportini yaxshilash, yoʻl harakati xavfsizligi tashabbuslari va xalqaro transport kelishuvlari haqida maʼlumot oling. Oʻzbekistonda xavfsiz va samarali transportni taʼminlash uchun ekologik toza va barqaror infratuzilmani qoʻllab-quvvatlash dasturlari bilan tanishing.",
         "keywords": "Oʻzbekiston Transport Vazirligi, mintrans.uz, transport siyosati, transport infratuzilmasi, avtomobil transporti, temir yoʻl transporti, havo transporti, suv transporti, jamoat transporti, modernizatsiya loyihalari, yoʻl harakati xavfsizligi, barqaror transport, ekotransport, Oʻzbekiston logistikasi, xalqaro kelishuvlar, transport xavfsizligi, Oʻzbekiston transport tarmogʻi"
-      }
+      },
+      "shortDesc": "Transport va logistika"
     },
     "fifteen": {
       "title": "O‘zbekiston Respublikasi Madaniyat vazirligi",
@@ -539,7 +579,8 @@
         "title": "Oʻzbekiston Respublikasi Madaniyat Vazirligi – Rasmiy sayt",
         "description": "Oʻzbekiston Respublikasi Madaniyat Vazirligining rasmiy sayti. Madaniyat vazirligi Oʻzbekistonning boy madaniy merosi, sanʼat va anʼanalarini saqlash, rivojlantirish va targʻib qilishga xizmat qiladi. Madaniy tashabbuslar, meros yodgorliklari, milliy sanʼat dasturlari, madaniy festivallar, muzey loyihalari va ijodiy hamkorlik imkoniyatlari haqida bilib oling. Vazirlik ijodiy sohalarning rivojlanishini qoʻllab-quvvatlaydi, madaniy taʼlimni ragʻbatlantiradi va Oʻzbekistonning milliy qadriyatlari va xalqaro madaniy aloqalarini mustahkamlash maqsadida madaniy almashinuvga yordam beradi.",
         "keywords": "Oʻzbekiston Madaniyat Vazirligi, madaniy meros, sanʼat dasturlari, Oʻzbekiston anʼanalari, madaniy festival, merosni saqlash, muzey loyihalari, ijodiy hamkorlik, ijodiy sohalar, madaniy taʼlim, madaniy almashinuv, milliy qadriyatlar, xalqaro madaniyat, uzbek madaniyati, tarixiy yodgorliklar, xalq sanʼati"
-      }
+      },
+      "shortDesc": "Madaniyat va meros"
     },
     "sixteen": {
       "title": "O‘zbekiston Respublikasi Mudofaa vazirligi",
@@ -549,7 +590,8 @@
         "title": "Oʻzbekiston Respublikasi Mudofaa Vazirligi – Rasmiy sayt",
         "description": "Oʻzbekiston Respublikasi Mudofaa Vazirligining rasmiy sayti. Mudofaa vazirligi mamlakat himoyasi va xavfsizligini taʼminlaydi, qurolli kuchlar, harbiy tayyorgarlik, milliy mudofaa siyosati va xalqaro harbiy hamkorlikni muvofiqlashtiradi. Mudofaa strategiyalari, modernizatsiya saʼy-harakatlari, milliy xavfsizlik tashabbuslari, harbiy taʼlim va veteranlar uchun dasturlar haqida maʼlumot oling. Mudofaa vazirligi Oʻzbekistonning suverenitetini taʼminlash, harbiy sherikliklarni mustahkamlash va mintaqaviy barqarorlik va xavfsizlikni qoʻllab-quvvatlash uchun tinchlikparvar missiyalarni amalga oshiradi.",
         "keywords": "Oʻzbekiston Mudofaa Vazirligi, Oʻzbekiston armiyasi, milliy xavfsizlik, mudofaa siyosati, qurolli kuchlar, harbiy hamkorlik, mudofaa modernizatsiyasi, harbiy taʼlim, veteranlar dasturlari, Oʻzbekiston mudofaa strategiyasi, tinchlikparvar missiyalar, Oʻzbekiston suvereniteti, mintaqaviy barqarorlik, harbiy sheriklik, Oʻzbekiston xavfsizligi"
-      }
+      },
+      "shortDesc": "Milliy mudofaa"
     },
     "seventeen": {
       "title": "O‘zbekiston Respublikasi Energetika vazirligi",
@@ -559,7 +601,8 @@
         "title": "Oʻzbekiston Respublikasi Energetika Vazirligi – Rasmiy sayt minenergy.uz",
         "description": "Oʻzbekiston Respublikasi Energetika Vazirligining rasmiy sayti. Energetika vazirligi mamlakatning energiya xavfsizligi, barqaror rivojlanishi va energetika sektorining modernizatsiyasini taʼminlaydi. Energetika siyosati, qayta tiklanadigan energiya loyihalari, investitsiya imkoniyatlari va energiya samaradorligi strategiyalari haqida maʼlumot oling. Tabiiy gaz, elektr energiyasi, qayta tiklanadigan energiya va xalqaro hamkorlik tashabbuslari orqali Oʻzbekistonning ekologik va barqaror energetika kelajagi uchun amalga oshirilayotgan o‘zgarishlarni kashf eting.",
         "keywords": "Oʻzbekiston Energetika Vazirligi, Oʻzbekiston energetika sektori, energiya siyosati, qayta tiklanadigan energiya, energiya xavfsizligi, barqaror rivojlanish, energiya samaradorligi, tabiiy gaz, elektr energiyasi, energiya investitsiyalari, energetika transformatsiyasi, yashil energiya, quyosh energiyasi, shamol energiyasi, xalqaro hamkorlik, barqaror energetika"
-      }
+      },
+      "shortDesc": "Energetika va energiya taʼminoti"
     },
     "eighteen": {
       "title": "O‘zbеkistоn Rеspublikаsi Sоg‘liqni saqlash vаzirligi",
@@ -569,7 +612,8 @@
         "title": "Oʻzbekiston Respublikasi Sogʻliqni saqlash vazirligi – Rasmiy sayt",
         "description": "Oʻzbekiston Respublikasi Sogʻliqni saqlash vazirligining rasmiy sayti. Sogʻliqni saqlash vazirligi davlatning sogʻliqni saqlash siyosatini, tibbiy xizmatlarni va tibbiy islohotlarni boshqarib, fuqarolarga sifatli tibbiy xizmatlar taqdim etadi. Milliy sogʻliqni saqlash dasturlari, tibbiy tadqiqotlar, kasalliklarning oldini olish tashabbuslari va tibbiyot infratuzilmasini yaxshilash boʻyicha yangiliklar haqida bilib oling. Kasalliklarning oldini olish, ona va bola salomatligi, tibbiy taʼlim va xalqaro hamkorlik sohalaridagi vazirlik tashabbuslari bilan tanishing.",
         "keywords": "Oʻzbekiston Sogʻliqni saqlash vazirligi, sogʻliqni saqlash siyosati, tibbiy xizmatlar, sogʻliqni saqlash islohotlari, sogʻliq dasturlari, kasalliklarning oldini olish, ona va bola salomatligi, tibbiy tadqiqotlar, sogʻliq infratuzilmasi, sogʻliqni saqlash tashabbuslari, tibbiy taʼlim, xalqaro hamkorlik, sifatli tibbiyot xizmatlari, Oʻzbekiston sogʻliqni saqlash tizimi"
-      }
+      },
+      "shortDesc": "Sogʻliqni saqlash va tibbiyot"
     },
     "nineteen": {
       "title": "O'zbekiston Respublikasi Tashqi ishlar vazirligi",
@@ -579,7 +623,8 @@
         "title": "Oʻzbekiston Respublikasi Tashqi Ishlar Vazirligi – Rasmiy sayt mfa.uz",
         "description": "Oʻzbekiston Respublikasi Tashqi ishlar vazirligining rasmiy sayti. Tashqi ishlar vazirligi Oʻzbekistonning xalqaro munosabatlarda vakilligini amalga oshiradi, tashqi siyosatni targʻib qiladi va diplomatik missiyalarni boshqaradi. Oʻzbekistonning global hamkorliklari, xalqaro savdo siyosati, xorijiy investitsiyalar imkoniyatlari, konsullik xizmatlari va viza ma’lumotlari haqida bilib oling. Mintaqaviy barqarorlik, hamkorlik, madaniy almashinuv va koʻp tomonlama forumlarda Oʻzbekistonning dunyodagi nufuzini mustahkamlash boʻyicha vazirlikning faoliyati bilan tanishing.",
         "keywords": "Oʻzbekiston Tashqi Ishlar Vazirligi, Oʻzbekiston tashqi siyosati, diplomatik munosabatlar, Oʻzbekiston elchixonalari, xalqaro hamkorlik, tashqi savdo siyosati, konsullik xizmatlari, Oʻzbekiston vizasi, xorijiy investitsiyalar, mintaqaviy barqarorlik, madaniy almashinuv, global pozitsiyalar, koʻp tomonlama munosabatlar, xalqaro hamkorlik, Oʻzbekiston Tashqi Ishlar Vazirligi, diplomatik missiyalar"
-      }
+      },
+      "shortDesc": "Tashqi siyosat va diplomatiya"
     },
     "twenty": {
       "title": "O‘zbеkiston Rеspublikаsi Ichki ishlаr vаzirligi",
@@ -589,7 +634,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Ichki ishlar va xavfsizlik"
     },
     "twentyone": {
       "title": "O'zbekiston Respublikasi FVV",
@@ -599,19 +645,15 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Favqulodda vaziyatlar"
     }
   },
-
   "N": "N",
-
   "O": "O",
-
   "P": "P",
-
   "Q": "Q",
   "R": "R",
-
   "S": "S",
   "seo": {
     "title": "Oʻzbekiston davlat organlarining rasmiy saytlar – vazirlik va idoralar to‘liq ro‘yxati",
@@ -633,7 +675,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Statistika va maʼlumotlar tahlili"
     },
     "two": {
       "title": "O‘zbekiston Respublikasi Davlat soliq qo‘mitasi",
@@ -643,7 +686,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Soliq tizimi va yigʻimlar"
     },
     "three": {
       "title": "O‘zbekiston Respublikasi Davlat bojxona qo‘mitasi",
@@ -653,7 +697,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Bojxona nazorati va tartibga solish"
     },
     "four": {
       "title": "O‘zbekiston Respublikasi Ekologiya, atrof-muhitni muhofaza qilish va iqlim o‘zgarishi vazirligi",
@@ -663,7 +708,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Ekologiya va iqlim oʻzgarishi"
     },
     "five": {
       "title": "Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi huzuridagi O'rmon xo'jaligi agentligining rasmiy veb sayti",
@@ -673,7 +719,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Oʻrmon xoʻjaligi va bioresurslar"
     },
     "six": {
       "title": "O‘zbekiston Respublikasi Tog‘-kon sanoati va geologiya vazirligi",
@@ -683,7 +730,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Geologiya va mineral resurslar"
     },
     "seven": {
       "title": "O‘zbekiston Respublikasi Er resurslari, geodeziya, kartografiya va davlat kadastri davlat qo‘mitasi",
@@ -693,7 +741,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Kadastr va yer resurslari"
     },
     "eight": {
       "title": "O‘zbekiston Respublikasi Veterenariya va chorvachilikni rivojlantirish davlat qo‘mitasi.",
@@ -703,7 +752,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Veterinariya nazorati"
     },
     "nine": {
       "title": "O‘zbekiston Respublikasi Avtomobilь yo‘llari davlat qo‘mitasi",
@@ -713,7 +763,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Avtomobil yoʻllari va infratuzilma"
     },
     "ten": {
       "title": "O‘zbekiston Respublikasi Ekologiya, atrof-muhitni muhofaza qilish va iqlim o‘zgarishi vazirligi huzuridagi Turizm qo‘mitasi",
@@ -723,18 +774,50 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Turizm va mehmondoʻstlik"
     }
   },
-
   "T": "T",
   "V": "V",
-
   "U": "U",
-
   "W": "W",
-
   "X": "X",
   "Y": "Y",
-  "Z": "Z"
+  "Z": "Z",
+  "tags": {
+    "governance": "Boshqaruv",
+    "legislation": "Qonunchilik",
+    "justice": "Adolat",
+    "law": "Huquq",
+    "elections": "Saylov",
+    "finance": "Moliya",
+    "audit": "Nazorat",
+    "economy": "Iqtisodiyot",
+    "mining": "Konchilik",
+    "construction": "Qurilish",
+    "employment": "Bandlik",
+    "education": "Taʼlim",
+    "ecology": "Ekologiya",
+    "sports": "Sport",
+    "agriculture": "Qishloq xoʻjaligi",
+    "water": "Suv resurslari",
+    "digital": "IT va aloqa",
+    "transport": "Transport",
+    "culture": "Madaniyat",
+    "defense": "Mudofaa",
+    "energy": "Energetika",
+    "health": "Sogʻliqni saqlash",
+    "diplomacy": "Diplomatiya",
+    "security": "Xavfsizlik",
+    "statistics": "Statistika",
+    "tax": "Soliq",
+    "customs": "Bojxona",
+    "forestry": "Oʻrmonchilik",
+    "land": "Yer resurslari",
+    "veterinary": "Veterinariya",
+    "roads": "Yoʻl xoʻjaligi",
+    "tourism": "Turizm",
+    "waterSupply": "Suv taʼminoti"
+  }
 }

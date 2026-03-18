@@ -8,6 +8,8 @@ export default function data() {
         fullContent: true,
         title: "Headquarters.one.title",
         description: "Headquarters.one.description",
+        shortDesc: "Headquarters.one.shortDesc",
+        tag: "tags.governance",
         img: "/images/gerb.png",
         link: "Headquarters.one.link",
         seo: {
@@ -23,6 +25,8 @@ export default function data() {
         fullContent: true,
         title: "Headquarters.two.title",
         description: "Headquarters.two.description",
+        shortDesc: "Headquarters.two.shortDesc",
+        tag: "tags.legislation",
         img: "https://parliament.gov.uz/_nuxt/img/logo.413bf6a.png",
         link: "Headquarters.two.link",
         seo: {
@@ -38,6 +42,8 @@ export default function data() {
         fullContent: true,
         title: "Headquarters.three.title",
         description: "Headquarters.three.description",
+        shortDesc: "Headquarters.three.shortDesc",
+        tag: "tags.legislation",
         img: "/images/gerb.png",
         link: "Headquarters.three.link",
         seo: {
@@ -53,6 +59,8 @@ export default function data() {
         fullContent: true,
         title: "Headquarters.four.title",
         description: "Headquarters.four.description",
+        shortDesc: "Headquarters.four.shortDesc",
+        tag: "tags.governance",
         img: "/images/gerb.png",
         link: "Headquarters.four.link",
         seo: {
@@ -68,6 +76,8 @@ export default function data() {
         fullContent: true,
         title: "Headquarters.five.title",
         description: "Headquarters.five.description",
+        shortDesc: "Headquarters.five.shortDesc",
+        tag: "tags.justice",
         img: "https://www.konstsud.uz/img/logo.png",
         link: "Headquarters.five.link",
         seo: {
@@ -83,6 +93,8 @@ export default function data() {
         fullContent: true,
         title: "Headquarters.six.title",
         description: "Headquarters.six.description",
+        shortDesc: "Headquarters.six.shortDesc",
+        tag: "tags.justice",
         img: "https://sud.uz/wp-content/uploads/2024/03/head-logo.png",
         link: "Headquarters.six.link",
         seo: {
@@ -98,6 +110,8 @@ export default function data() {
         fullContent: true,
         title: "Headquarters.seven.title",
         description: "Headquarters.seven.description",
+        shortDesc: "Headquarters.seven.shortDesc",
+        tag: "tags.law",
         img: "/images/gerb.png",
         link: "Headquarters.seven.link",
         seo: {
@@ -113,6 +127,8 @@ export default function data() {
         fullContent: true,
         title: "Headquarters.eight.title",
         description: "Headquarters.eight.description",
+        shortDesc: "Headquarters.eight.shortDesc",
+        tag: "tags.elections",
         img: "/images/gerb.png",
         link: "Headquarters.eight.link",
         seo: {
@@ -128,6 +144,8 @@ export default function data() {
         fullContent: true,
         title: "Headquarters.nine.title",
         description: "Headquarters.nine.description",
+        shortDesc: "Headquarters.nine.shortDesc",
+        tag: "tags.finance",
         img: "/images/gerb.png",
         link: "Headquarters.nine.link",
         seo: {
@@ -143,6 +161,8 @@ export default function data() {
         fullContent: true,
         title: "Headquarters.ten.title",
         description: "Headquarters.ten.description",
+        shortDesc: "Headquarters.ten.shortDesc",
+        tag: "tags.audit",
         img: "/images/gerb.png",
         link: "Headquarters.ten.link",
         seo: {

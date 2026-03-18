@@ -258,7 +258,7 @@ input[type="number"] {
   align-items: center;
   text-align: center;
   background-color: #fff;
-  gap: 12px;
+  gap: 8px;
   // filter: grayscale(1);
   border: 1px solid #f3f4f9;
   transition: 0.3s;
@@ -276,12 +276,34 @@ input[type="number"] {
     font-weight: 500;
   }
 
+  .short-desc {
+    font-size: 12px;
+    line-height: 16px;
+    color: #6b7280;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .tag-badge {
+    display: inline-block;
+    margin-top: auto;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #315efb;
+    background-color: #eef2ff;
+    display: none;
+  }
+
   &:hover {
-    // filter: grayscale(0);
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.07);
 
     transform: translateY(-2px);
-    // box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 
     .title {
       opacity: 1;

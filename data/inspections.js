@@ -7,6 +7,8 @@ export default function inspections() {
         slug: "inspections-drinking-water",
         title: "Inspections.one.title",
         description: "Inspections.one.description",
+        shortDesc: "Inspections.one.shortDesc",
+        tag: "tags.waterSupply",
         img: "/images/gerb.png",
         link: "Inspections.one.link",
         seo: {
@@ -21,6 +23,8 @@ export default function inspections() {
         slug: "inspections-water-control",
         title: "Inspections.two.title",
         description: "Inspections.two.description",
+        shortDesc: "Inspections.two.shortDesc",
+        tag: "tags.waterSupply",
         img: "/images/gerb.png",
         link: "Inspections.two.link",
         seo: {

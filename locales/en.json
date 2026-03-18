@@ -1,20 +1,13 @@
 {
   "A": "A",
   "all_rights_reserved": "All rights reserved.",
-
   "B": "B",
   "brief_description_site": "Brief description of the site",
-
   "C": "C",
-
   "D": "D",
-
   "E": "E",
-
   "F": "F",
-
   "G": "G",
-
   "footer": {
     "about": "About",
     "contacts": "Contacts",
@@ -186,7 +179,6 @@
       "keywords": "about, UzGovInfo, website directory, official websites, government bodies of Uzbekistan"
     }
   },
-
   "H": "H",
   "Organizations": {
     "headtitle": "All Government Organizations of Uzbekistan"
@@ -238,26 +230,51 @@
       "otherSites": {
         "h2": "Other official websites of government bodies",
         "links": [
-          { "href": "/headquarters", "text": "Supreme government bodies" },
-          { "href": "/ministries", "text": "Ministries" },
-          { "href": "/state", "text": "State bodies" }
+          {
+            "href": "/headquarters",
+            "text": "Supreme government bodies"
+          },
+          {
+            "href": "/ministries",
+            "text": "Ministries"
+          },
+          {
+            "href": "/state",
+            "text": "State bodies"
+          }
         ]
       },
       "faq": {
         "h2": "Frequently asked questions",
         "items": [
-          { "q": "Where is the official website of the President of Uzbekistan?", "a": "The official website is available via the link provided on this page." },
-          { "q": "What information is published on the President's website?", "a": "The site publishes news, decrees, statements and information on the activities of the head of state." },
-          { "q": "Is the website an official source of information?", "a": "Yes, the website is an official source and publishes reliable information." },
-          { "q": "Can I trust the information on the website?", "a": "Yes, all materials are published by government bodies and are official." },
-          { "q": "Who is the website intended for?", "a": "The website is intended for citizens, businesses, journalists and all interested users." }
+          {
+            "q": "Where is the official website of the President of Uzbekistan?",
+            "a": "The official website is available via the link provided on this page."
+          },
+          {
+            "q": "What information is published on the President's website?",
+            "a": "The site publishes news, decrees, statements and information on the activities of the head of state."
+          },
+          {
+            "q": "Is the website an official source of information?",
+            "a": "Yes, the website is an official source and publishes reliable information."
+          },
+          {
+            "q": "Can I trust the information on the website?",
+            "a": "Yes, all materials are published by government bodies and are official."
+          },
+          {
+            "q": "Who is the website intended for?",
+            "a": "The website is intended for citizens, businesses, journalists and all interested users."
+          }
         ]
       },
       "seo": {
         "title": "Official Website of the President of Uzbekistan – Presidential News and Updates",
         "description": "Access the official website of the President of Uzbekistan for the latest news, policies, and updates directly from the presidential office. Stay informed about national priorities and initiatives.",
         "keywords": "President of Uzbekistan, official website, presidential news, Uzbekistan government, presidential updates, national policies Uzbekistan, presidential office"
-      }
+      },
+      "shortDesc": "Head of state and executive power"
     },
     "two": {
       "title": "Legislative Chamber of the Oliy Majlis of the Republic of Uzbekistan",
@@ -267,7 +284,8 @@
         "title": "Legislative Chamber of the Oliy Majlis of the Republic of Uzbekistan – Structure, Functions, and Activities",
         "description": "The Legislative Chamber of the Oliy Majlis of Uzbekistan serves as the lower house of parliament, playing a key role in shaping the country’s political, social, and economic frameworks. Its primary responsibility is to draft and approve legislation that reflects citizens' interests and ensures transparency and efficiency in legislative processes. Members of the chamber develop and review laws, endorse state programs for improving public welfare, and promote Uzbekistan’s international relations. Additionally, the Legislative Chamber monitors law enforcement and regulatory compliance across the republic, striving to strengthen democracy and uphold the rule of law within Uzbekistan.",
         "keywords": "Legislative Chamber, Oliy Majlis of Uzbekistan, Uzbekistan parliament, lawmaking process, lower house of parliament, legislative functions, parliamentary activities, Uzbekistan laws, economic policy Uzbekistan, social policy Uzbekistan, parliamentary structure, state programs Uzbekistan, Uzbekistan deputies, international relations Uzbekistan, legislative oversight, political processes, legislative chamber functions"
-      }
+      },
+      "shortDesc": "Legislative activity of the country"
     },
     "three": {
       "title": "Senate of the Oliy Majlis of the Republic of Uzbekistan",
@@ -277,7 +295,8 @@
         "title": "Senate of the Oliy Majlis of the Republic of Uzbekistan – Structure, Functions, and Responsibilities",
         "description": "The Senate of the Oliy Majlis of Uzbekistan serves as the upper house of parliament, overseeing legislation, ensuring regional representation, and upholding public order and lawfulness. Senators play a crucial role in reviewing state programs, fostering international cooperation, and supporting social and economic stability. The Senate addresses key issues in the social, economic, and political spheres, evaluates legislative initiatives, and works toward improving citizens' welfare. Additionally, senators help harmonize the political interests of different regions, contributing to Uzbekistan’s overall stability and development.",
         "keywords": "Senate of Uzbekistan, Oliy Majlis upper house, parliamentary functions Uzbekistan, legislation approval, senators Uzbekistan, state programs, public order, international cooperation, regional representation, social policy Uzbekistan, economic policy Uzbekistan, legislative oversight, political stability, parliament committees, regional interests"
-      }
+      },
+      "shortDesc": "Upper chamber of parliament"
     },
     "four": {
       "title": "Government of the Republic of Uzbekistan",
@@ -287,7 +306,8 @@
         "title": "Government of the Republic of Uzbekistan – Official Portal gov.uz",
         "description": "Official website of the Government of the Republic of Uzbekistan – gov.uz. Access the latest government news, legislative documents, state programs, and information about government activities. Learn about current initiatives and projects aimed at improving citizens' welfare and driving the country's socio-economic development.",
         "keywords": "Government of Uzbekistan, official site gov.uz, government news, state programs, social initiatives, economic development Uzbekistan, government projects, legislation Uzbekistan, Cabinet of Ministers, government services, Oliy Majlis"
-      }
+      },
+      "shortDesc": "Executive power and cabinet of ministers"
     },
     "five": {
       "title": "Constitutional Court of the Republic of Uzbekistan",
@@ -297,7 +317,8 @@
         "title": "Constitutional Court of the Republic of Uzbekistan – Official Website konstsud.uz",
         "description": "Official website of the Constitutional Court of the Republic of Uzbekistan – konstsud.uz. The Constitutional Court ensures adherence to the Constitution, protects citizens' rights and freedoms, reviews constitutional complaints, and verifies the compliance of laws and regulations with the nation's Constitution. It plays a key role in upholding the rule of law and constitutional order. The website offers access to information about the court's structure, its functions, case reviews, legal framework, international activities, news, and publications. Learn about the judicial practice and landmark",
         "keywords": "Constitutional Court of Uzbekistan, konstsud.uz, constitutional protection, constitutional rights, citizens' rights and freedoms, constitutional complaints, court decisions, constitutional cases, legal framework, rule of law, constitutional order, judicial practice, international cooperation, Uzbekistan justice, human rights protection, constitutionality review, Uzbekistan laws, court proceedings, constitutional justice, Uzbekistan judiciary, legal documents, legal acts, constitutional norms, judiciary Uzbekistan, legislative acts, law oversight, legal system Uzbekistan, rule of law, legal protection, legal consultation, government bodies Uzbekistan, legal guarantees, human rights, parliamentary laws, court cases, legal regulation"
-      }
+      },
+      "shortDesc": "Constitutional control and oversight"
     },
     "six": {
       "title": "Supreme Court of the Republic of Uzbekistan",
@@ -307,7 +328,8 @@
         "title": "Supreme Court of the Republic of Uzbekistan – Official Website sud.uz",
         "description": "Official website of the Supreme Court of the Republic of Uzbekistan – sud.uz. The Supreme Court of Uzbekistan provides the highest judicial oversight, ensures justice, protects citizens' rights and freedoms, and monitors compliance of judicial decisions with national legislation. The site offers information about the court's composition, powers, case reviews, judicial practices, and access to legal documents and rulings. Learn more about the Supreme Court's activities, ongoing legal cases, and legal protection in Uzbekistan.",
         "keywords": "Supreme Court of Uzbekistan, sud.uz, highest judicial body, judiciary of Uzbekistan, justice, citizens' rights, judicial decisions, Uzbekistan legislation, legal protection, legal system, court cases, legal documents, legal acts, court proceedings, Uzbekistan judges, legal processes, court oversight, judicial practices, rights and freedoms, judicial instances, judiciary power, legal publications, rule of law, legal aid, government bodies Uzbekistan, legal processes, legal security, human rights protection, legal guarantees, judicial structure Uzbekistan"
-      }
+      },
+      "shortDesc": "Supreme judicial body of the country"
     },
     "seven": {
       "title": "General Prosecutor's Office of the Republic of Uzbekistan",
@@ -317,7 +339,8 @@
         "title": "General Prosecutor's Office of the Republic of Uzbekistan – Official Website prokuratura.uz",
         "description": "Official website of the General Prosecutor's Office of the Republic of Uzbekistan – prokuratura.uz. The General Prosecutor's Office ensures the rule of law, supervises legal compliance, and protects the rights and interests of citizens and the state. The website provides the latest news, legal acts, structure and powers of the prosecutor's office, as well as information on activities to combat crime, corruption, and legal violations. Learn more about the mission, duties, and key initiatives of the General Prosecutor's Office aimed at strengthening law and order and safeguarding citizens' legal interests.",
         "keywords": "General Prosecutor's Office of Uzbekistan, prokuratura.uz, legal oversight, citizens' rights, interest protection, crime prevention, anti-corruption measures, prosecution Uzbekistan, rule of law, prosecutorial supervision, Uzbekistan legislation, legal security, law enforcement, compliance monitoring, legal acts, prosecution authority, criminal cases, legal protection, law enforcement bodies, legal system Uzbekistan, public safety, criminal prosecution, Uzbekistan corruption, state oversight, crime control, legal consultation, legal documents, law enforcement activities, judiciary Uzbekistan, justice safeguarding"
-      }
+      },
+      "shortDesc": "Supervision of compliance with laws"
     },
     "eight": {
       "title": "Central Election Commission",
@@ -327,7 +350,8 @@
         "title": "Central Election Commission of the Republic of Uzbekistan – Official Website saylov.uz",
         "description": "Official website of the Central Election Commission of the Republic of Uzbekistan – saylov.uz. The Central Election Commission (CEC) is responsible for organizing and conducting elections in Uzbekistan, ensuring transparency, upholding voters' rights, and maintaining democratic standards. The website provides the latest news, information on elections and referendums, electoral legislation, candidate details, and voting results. Learn more about the CEC’s mission, functions, and initiatives aimed at strengthening democratic processes and civil rights in Uzbekistan.",
         "keywords": "Central Election Commission of Uzbekistan, saylov.uz, CEC Uzbekistan, Uzbekistan elections, electoral process, voters' rights, election transparency, democratic standards, electoral legislation, candidates, election results, election bodies, voting system, Uzbekistan voting, legal acts, electoral law, election participation, election commission, political parties Uzbekistan, voters, election law, protecting voters' rights, democratic development, electoral process, civil rights, voting participation, parliamentary elections, presidential elections, public engagement"
-      }
+      },
+      "shortDesc": "Organization and conduct of elections"
     },
     "nine": {
       "title": "Central Bank of the Republic of Uzbekistan",
@@ -337,7 +361,8 @@
         "title": "Central Bank of the Republic of Uzbekistan – Official Website cbu.uz",
         "description": "Official website of the Central Bank of the Republic of Uzbekistan – cbu.uz. The Central Bank of Uzbekistan regulates monetary policy, exchange rates, refinancing rates, and ensures the stability of the country's banking system. The site offers up-to-date information on currency rates, financial news, legal regulations, and banking reports. Find data on reserves, economic research, publications, and initiatives in digital financial technologies. The Central Bank also promotes transparency and protects depositors' rights, contributing to economic stability and financial market development.",
         "keywords": "Central Bank of Uzbekistan, cbu.uz, Uzbekistan exchange rates, monetary policy, refinancing rates, banking system Uzbekistan, financial stability, currency market, economic research, digital financial technologies, sum rate, exchange rate, economic statistics, financial analysis, bank regulation, deposits Uzbekistan, credit policy, depositors' rights, central bank reports, economic forecasts, banking licenses, financial sector Uzbekistan, monetary policy, financial security, inflation, securities, money issuance, central bank exchange rates, currency market regulation"
-      }
+      },
+      "shortDesc": "Monetary and credit policy"
     },
     "ten": {
       "title": "Accounts Chamber of the Republic of Uzbekistan",
@@ -347,7 +372,8 @@
         "title": "Accounts Chamber of the Republic of Uzbekistan – Official Website ach.gov.uz",
         "description": "Official website of the Accounts Chamber of the Republic of Uzbekistan – ach.gov.uz. The Accounts Chamber is responsible for auditing public finances, monitoring budget expenditures, and ensuring transparency in financial management. The website provides information on the Chamber's mission, tasks, and achievements, as well as news updates, audit reports of government agencies, budget oversight, and recommendations for improving the efficiency of public resources. The Accounts Chamber actively promotes transparency and compliance with financial reporting standards to support sustainable economic development in Uzbekistan.",
         "keywords": "Accounts Chamber Uzbekistan, ach.gov.uz, public finance audit, budget audit, financial control, public funds management, audit reports, financial transparency, financial reporting, public spending audit, budget monitoring, Uzbekistan government spending, public resources efficiency, financial audit, economic development, budget oversight, Accounts Chamber recommendations, financial oversight, budget efficiency, Uzbekistan financial reporting, auditing activities Uzbekistan, public audit, reporting standards, public resources control, spending control, government management, budget transparency, fiscal responsibility, state budget audit, fiscal policy Uzbekistan"
-      }
+      },
+      "shortDesc": "State financial audit"
     }
   },
   "I": "I",
@@ -361,7 +387,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Drinking water control"
     },
     "two": {
       "title": "",
@@ -371,11 +398,11 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Water control and resources"
     }
   },
   "K": "K",
-
   "L": "L",
   "link_to_official_website": "Link to official website",
   "allCategories": {
@@ -387,7 +414,6 @@
     "state": "State bodies",
     "inspections": "State inspections"
   },
-
   "M": "M",
   "Ministries": {
     "headtitle": "Ministries",
@@ -399,7 +425,8 @@
         "title": "Ministry of Investments, Industry, and Trade of the Republic of Uzbekistan – Official Website",
         "description": "Official website of the Ministry of Investments, Industry, and Trade of the Republic of Uzbekistan – gov.uz. The Ministry focuses on national economic development through attracting foreign and domestic investments, supporting industry, and promoting international trade. The site provides current information on new investment projects, industrial initiatives, export opportunities, and business support programs. Learn about the ministry's strategies, legislative reforms, and international partnerships aimed at improving the business climate and strengthening Uzbekistan’s economy.",
         "keywords": "Ministry of Investments Uzbekistan, industry Uzbekistan, international trade Uzbekistan, investment projects, industrial development, Uzbekistan exports, business initiatives, attracting investments, economic development, trade cooperation, foreign investments, industrial programs, Uzbekistan business climate, export opportunities, business support, legal reforms, strategic partnerships, economic stability, government programs, investment strategies, trade policy Uzbekistan, foreign direct investment, business innovation, market expansion, trade initiatives"
-      }
+      },
+      "shortDesc": "Investment, industry and trade"
     },
     "two": {
       "title": "Ministry of Economy and Finance",
@@ -409,7 +436,8 @@
         "title": "Ministry of Economy and Finance of the Republic of Uzbekistan – Official Website www.imv.uz",
         "description": "Official website of the Ministry of Economy and Finance of the Republic of Uzbekistan – imv.uz. The Ministry focuses on formulating and implementing economic and financial policies aimed at sustainable development, financial stability, and economic modernization. The website provides information on strategies, national programs, budget projects, tax policies, and business support initiatives. It also includes macroeconomic reports, growth forecasts, and ongoing reforms to enhance the investment climate and strengthen Uzbekistan’s financial system.",
         "keywords": "Ministry of Economy and Finance Uzbekistan, imv.uz, economic policy, financial stability, macroeconomics, budget projects, tax policy, business support, investment climate, Uzbekistan economic development, financial system, macroeconomic reports, economic reforms, financial strategies, government management, sustainable development, tax reform, national programs, economic modernization, financial planning, regulatory reforms, economy of Uzbekistan, fiscal policies, economic growth Uzbekistan"
-      }
+      },
+      "shortDesc": "Economy and financial management"
     },
     "three": {
       "title": "Ministry of Mining Industry and Geology of the Republic of Uzbekistan",
@@ -419,7 +447,8 @@
         "title": "Ministry of Mining Industry and Geology of the Republic of Uzbekistan – Official Website",
         "description": "Official website of the Ministry of Mining Industry and Geology of the Republic of Uzbekistan – gov.uz. The Ministry is responsible for the development of Uzbekistan's mining sector and management of natural resources, including exploration, mineral extraction, and geological research. The site provides information on strategic projects, regulatory reforms, international cooperation, and investment opportunities in the mining industry. Here, users can learn about new mineral deposits, extraction technologies, licensing processes, and sustainable initiatives aimed at rational natural resource use and environmental protection in Uzbekistan.",
         "keywords": "Ministry of Mining Industry Uzbekistan, geology Uzbekistan, mineral extraction, resource exploration, mining sector, Uzbekistan natural resources, environmental initiatives, licensing, international cooperation, mining investments, sustainable resource management, geological research, strategic projects, mineral resources, mining technology, regulatory reforms, Uzbekistan resources, economic development, mining policies, environmental sustainability, mineral deposits Uzbekistan, energy and mining sector"
-      }
+      },
+      "shortDesc": "Mining industry"
     },
     "four": {
       "title": "Ministry of Construction and Housing and Communal Services Republic of Uzbekistan",
@@ -429,7 +458,8 @@
         "title": "Ministry of Construction and Housing and Communal Services of the Republic of Uzbekistan – Official Website",
         "description": "Official website of the Ministry of Construction and Housing and Communal Services of the Republic of Uzbekistan – mc.uz. The Ministry is responsible for advancing the construction sector, housing, and communal services, as well as implementing national programs for infrastructure improvement and modernization. The site provides details on construction standards, urban development projects, housing initiatives, and reforms in communal services. Visitors can learn about major initiatives for sustainable urban development, improving living standards, and increasing housing affordability.",
         "keywords": "Ministry of Construction Uzbekistan, housing and communal services, mc.uz, construction standards, infrastructure modernization, urban development Uzbekistan, housing initiatives, communal service reforms, affordable housing Uzbekistan, construction technology, sustainable urban development, national programs, quality of life improvement, Uzbekistan infrastructure, urban planning, building standards, housing policies, infrastructure projects, residential construction, real estate development Uzbekistan"
-      }
+      },
+      "shortDesc": "Construction and housing"
     },
     "five": {
       "title": "Ministry of Employment and Poverty Reduction of the Republic of Uzbekistan",
@@ -439,7 +469,8 @@
         "title": "Ministry of Employment and Poverty Reduction of the Republic of Uzbekistan – Official Website",
         "description": "Official website of the Ministry of Employment and Poverty Reduction of the Republic of Uzbekistan – mehnat.uz. The Ministry focuses on employment initiatives, poverty reduction, social support, and job creation across Uzbekistan. The site provides information on employment programs, government assistance for the unemployed, vocational training, and measures to support low-income families. It also covers projects on labor migration, skill development, improved working conditions, and workers' rights protection. The Ministry is committed to fostering economic growth and social inclusion by creating favorable conditions for employment.",
         "keywords": "Ministry of Employment Uzbekistan, poverty reduction, employment programs, mehnat.uz, social support Uzbekistan, job creation, vocational training, labor migration, workers' rights protection, low-income family support, economic growth Uzbekistan, job market, skill development, social inclusion, labor policies, working conditions Uzbekistan, government assistance, poverty alleviation, employment initiatives, worker protection, job opportunities Uzbekistan"
-      }
+      },
+      "shortDesc": "Employment and poverty reduction"
     },
     "six": {
       "title": "Supreme Attestation Commission at the Ministry of Higher Education, Science and Innovations of the Republic of Uzbekistan",
@@ -449,7 +480,8 @@
         "title": "Higher Attestation Commission under the Ministry of Higher Education, Science, and Innovation of the Republic of Uzbekistan – Official Website",
         "description": "Official website of the Higher Attestation Commission (HAC) under the Ministry of Higher Education, Science, and Innovation of Uzbekistan – oak.uz. The HAC is responsible for the certification of scientific and academic personnel, awarding academic degrees, and ensuring the qualifications of research staff. The site provides information on regulations, dissertation requirements, scientific publications, attestation processes, and academic titles. Visitors can access resources on scientific work registration, dissertation council accreditation, and specialist certification, along with updates on innovations and educational initiatives in Uzbekistan.",
         "keywords": "Higher Attestation Commission Uzbekistan, HAC Uzbekistan, oak.uz, scientific personnel certification, academic degrees, dissertation requirements, Ministry of Higher Education Uzbekistan, dissertation council accreditation, specialist certification, academic titles, research qualification, scientific publications, Uzbekistan education, innovation and science, academic standards, scientific research Uzbekistan, higher education reforms, certification of researchers, academic innovation Uzbekistan, scientific accreditation"
-      }
+      },
+      "shortDesc": "Attestation and certification"
     },
     "seven": {
       "title": "Ministry of Preschool and School Education of the Republic of Uzbekistan",
@@ -459,7 +491,8 @@
         "title": "Ministry of Preschool and School Education of the Republic of Uzbekistan – Official Website",
         "description": "Official website of the Ministry of Preschool and School Education of Uzbekistan – uzedu.uz. The Ministry is responsible for the development of the education system, curriculum standards, and the modernization of preschools and schools nationwide. The site provides information on the ministry's plans and initiatives, state education standards, access to preschool and school education, teacher training, and the implementation of innovative educational technologies. Discover projects aimed at creating high-quality, accessible education for every child in Uzbekistan.",
         "keywords": "Ministry of Education Uzbekistan, preschool education, school education, uzedu.uz, preschools Uzbekistan, primary education, educational standards Uzbekistan, teacher training, school reforms, educational innovation, accessible education, curriculum development, education system Uzbekistan, Ministry of Preschool Education, teaching projects, quality education improvement, school modernization, educational initiatives Uzbekistan"
-      }
+      },
+      "shortDesc": "Preschool and school education"
     },
     "eight": {
       "title": "Ministry of Ecology, Environmental Protection and Climate Change of the Republic of Uzbekistan",
@@ -469,7 +502,8 @@
         "title": "Ministry of Ecology, Environmental Protection, and Climate Change of Uzbekistan – Official Website",
         "description": "Official website of the Ministry of Ecology, Environmental Protection, and Climate Change of Uzbekistan – uznature.uz. The Ministry is dedicated to environmental protection, conservation of natural resources, and climate change mitigation. The site features programs for pollution reduction, sustainable development initiatives, and climate adaptation measures. Find information on environmental legislation, ecosystem restoration projects, emissions control, and the implementation of green technologies. Learn about ongoing projects aimed at preserving nature and protecting ecosystems for future generations.",
         "keywords": "Ministry of Ecology Uzbekistan, environmental protection, climate change, uznature.uz, natural resources Uzbekistan, ecology protection, pollution control, sustainable development, climate adaptation, ecosystem restoration, environmental initiatives, green technologies, environmental legislation, nature conservation, ecology projects Uzbekistan, emissions control, climate resilience, environmental sustainability"
-      }
+      },
+      "shortDesc": "Ecology and environmental protection"
     },
     "nine": {
       "title": "Ministry of Sports of the Republic of Uzbekistan",
@@ -479,7 +513,8 @@
         "title": "Ministry of Sports of the Republic of Uzbekistan – Official Website",
         "description": "Official website of the Ministry of Sports of Uzbekistan – gov.uz. The Ministry of Sports oversees the development of sports and physical education in Uzbekistan. The site provides information on government sports programs, support for sports schools and clubs, competitions, mass sports development, and professional athlete training. Learn about sports projects, infrastructure, national and international tournaments, and initiatives promoting a healthy lifestyle across Uzbekistan.",
         "keywords": "Ministry of Sports Uzbekistan, sports in Uzbekistan, gov.uz sports, physical education, sports development, sports schools Uzbekistan, mass sports, athlete support, sports programs, national tournaments, international competitions, sports clubs, sports infrastructure, healthy lifestyle, physical activity, sports projects, Olympic sports Uzbekistan"
-      }
+      },
+      "shortDesc": "Physical culture and sports"
     },
     "ten": {
       "title": "Ministry of Agriculture of the Republic of Uzbekistan",
@@ -489,7 +524,8 @@
         "title": "Ministry of Agriculture of the Republic of Uzbekistan – Official Website https://gov.uz/oz/agro",
         "description": "Official website of the Ministry of Agriculture of Uzbekistan – gov.uz. The Ministry of Agriculture oversees agricultural development, rural economy, and food security in Uzbekistan. Explore initiatives on modern farming, sustainable agricultural practices, crop production, livestock management, irrigation advancements, and support for farmers. Learn about national programs to enhance food quality, export opportunities, innovative farming technologies, and the government's goals for achieving agricultural sustainability in Uzbekistan.",
         "keywords": "Ministry of Agriculture Uzbekistan, agriculture in Uzbekistan, gov.uz agriculture, rural economy, food security, crop production, livestock management, sustainable farming, irrigation systems Uzbekistan, farming technologies, agricultural exports, modern agriculture, Uzbekistan farming, agricultural programs, farmer support, agro-development, food quality, agriculture sustainability, rural development Uzbekistan"
-      }
+      },
+      "shortDesc": "Agriculture and food supply"
     },
     "eleven": {
       "title": "Ministry of Water Resources of the Republic of Uzbekistan",
@@ -499,7 +535,8 @@
         "title": "Ministry of Water Resources of the Republic of Uzbekistan – Official Website",
         "description": "Official website of the Ministry of Water Resources of Uzbekistan – gov.uz. The Ministry is responsible for water resource management, sustainable irrigation practices, and ensuring water supply across Uzbekistan. Explore initiatives on water conservation, agricultural irrigation, river basin management, and modern water technologies. Discover programs aimed at optimizing water use, supporting farmers, and improving infrastructure for water delivery and sanitation to meet Uzbekistan's ecological and agricultural needs.",
         "keywords": "Ministry of Water Resources Uzbekistan, water management Uzbekistan, gov.uz water resources, irrigation in Uzbekistan, water conservation, water supply, river basin management, water infrastructure Uzbekistan, sustainable irrigation, water technologies, farmer support, water delivery, sanitation Uzbekistan, agriculture irrigation, water resource programs, water sustainability Uzbekistan, environmental protection, eco-friendly water solutions"
-      }
+      },
+      "shortDesc": "Water resources and irrigation"
     },
     "twelve": {
       "title": "Ministry of Digital Technologies of the Republic of Uzbekistan",
@@ -509,7 +546,8 @@
         "title": "Ministry of Digital Technologies of the Republic of Uzbekistan – Official Website",
         "description": "Official website of the Ministry of Digital Technologies of Uzbekistan. The Ministry is dedicated to advancing digital transformation, technology innovation, cybersecurity, and digital literacy across Uzbekistan. Explore initiatives in IT infrastructure, software development, online services, e-governance, and support for tech startups. Discover programs designed to enhance digital skills, boost the digital economy, promote safe and efficient use of technology, and foster collaboration between the public and private sectors for a connected, future-ready Uzbekistan.",
         "keywords": "Ministry of Digital Technologies Uzbekistan, digital transformation Uzbekistan, gov.uz digital, IT infrastructure Uzbekistan, technology innovation, cybersecurity, digital literacy, e-governance Uzbekistan, digital skills programs, tech startups support, software development, digital economy, online services, public-private collaboration, Uzbekistan technology, tech ecosystem, smart technologies Uzbekistan, digital future Uzbekistan, digital initiatives Uzbekistan"
-      }
+      },
+      "shortDesc": "Digital technologies and communications"
     },
     "thirteen": {
       "title": "Ministry of Justice of the Republic of Uzbekistan",
@@ -519,7 +557,8 @@
         "title": "Ministry of Justice of the Republic of Uzbekistan – Official Website adliya.uz",
         "description": "Official website of the Ministry of Justice of Uzbekistan – adliya.uz. The Ministry of Justice oversees the legal system, develops legislation, protects human rights, and upholds the rule of law across Uzbekistan. Learn about legal reforms, access to justice, legal education, judicial transparency, and public services. Discover initiatives aimed at improving legal aid, supporting legal professionals, and ensuring fair legal processes in line with Uzbekistan’s commitment to justice and human rights.",
         "keywords": "Ministry of Justice Uzbekistan, justice system Uzbekistan, adliya.uz, legal reforms Uzbekistan, access to justice, legal education, human rights protection Uzbekistan, rule of law, judicial transparency, public services justice, legal aid Uzbekistan, legal professionals support, law and order Uzbekistan, justice reforms, Uzbekistan human rights, Ministry of Justice initiatives"
-      }
+      },
+      "shortDesc": "Legal system and justice"
     },
     "fourteen": {
       "title": "Ministry of Transport of the Republic of Uzbekistan",
@@ -529,7 +568,8 @@
         "title": "Ministry of Transport of the Republic of Uzbekistan – Official Website mintrans.uz",
         "description": "Official website of the Ministry of Transport of Uzbekistan – mintrans.uz. The Ministry is responsible for developing and regulating the transport infrastructure in Uzbekistan, including road, rail, air, and water transport. Learn about national transportation policies, modernization projects, public transit improvements, road safety initiatives, and international transportation agreements. Discover programs aimed at enhancing connectivity, promoting eco-friendly transport solutions, and supporting sustainable infrastructure growth to facilitate efficient and safe movement across Uzbekistan.",
         "keywords": "Ministry of Transport Uzbekistan, mintrans.uz, transportation policies, transport infrastructure Uzbekistan, road transport, rail transport, air transport, water transport, public transit, modernization projects, road safety Uzbekistan, sustainable transport, eco-friendly transportation, Uzbekistan logistics, international agreements, connectivity Uzbekistan, transport safety, infrastructure development"
-      }
+      },
+      "shortDesc": "Transport and logistics"
     },
     "fifteen": {
       "title": "Ministry of Culture of the Republic of Uzbekistan",
@@ -539,7 +579,8 @@
         "title": "Ministry of Culture of the Republic of Uzbekistan – Official Website",
         "description": "Official website of the Ministry of Culture of Uzbekistan. The Ministry of Culture fosters the preservation, development, and promotion of Uzbekistan's rich cultural heritage, arts, and traditions. Learn about cultural initiatives, heritage sites, national arts programs, cultural festivals, museum projects, and opportunities for artistic collaborations. Discover how the Ministry supports the growth of creative industries, promotes cultural education, and encourages cultural exchange to enhance Uzbekistan’s national identity and global cultural connections.",
         "keywords": "Ministry of Culture Uzbekistan, cultural heritage Uzbekistan, arts programs, Uzbekistan traditions, cultural festivals, heritage preservation, museum projects, artistic collaboration, creative industries Uzbekistan, cultural education, cultural exchange Uzbekistan, national identity, global culture connections, Uzbek culture, historical monuments, folk arts Uzbekistan"
-      }
+      },
+      "shortDesc": "Culture and heritage"
     },
     "sixteen": {
       "title": "Ministry of Defense of the Republic of Uzbekistan",
@@ -549,7 +590,8 @@
         "title": "Ministry of Defense of the Republic of Uzbekistan – Official Website",
         "description": "Official website of the Ministry of Defense of Uzbekistan. The Ministry oversees the country's defense and security, coordinating the armed forces, military training, national defense policies, and international military cooperation. Explore information on defense strategies, modernization efforts, national security initiatives, military education, and programs for veterans. Discover how the Ministry of Defense ensures Uzbekistan's sovereignty, strengthens military partnerships, and supports peacekeeping missions to maintain stability and safety within the region and beyond.",
         "keywords": "Ministry of Defense Uzbekistan, Uzbekistan military, national security, defense policies, armed forces Uzbekistan, military cooperation, defense modernization, military education, veterans programs, Uzbekistan defense strategy, peacekeeping missions, sovereignty, regional stability, military partnerships, Uzbekistan army, defense initiatives, security Uzbekistan"
-      }
+      },
+      "shortDesc": "National defense"
     },
     "seventeen": {
       "title": "Ministry of Energy of the Republic of Uzbekistan",
@@ -559,7 +601,8 @@
         "title": "Ministry of Energy of the Republic of Uzbekistan – Official Website minenergy.uz",
         "description": "Official website of the Ministry of Energy of Uzbekistan. The Ministry of Energy is responsible for ensuring energy security, sustainable development, and modernization of Uzbekistan's energy sector. Discover updates on energy policies, renewable energy projects, investment opportunities, and strategies for energy efficiency. Learn about initiatives in natural gas, electricity, renewable energy, and international partnerships aimed at transforming Uzbekistan's energy landscape for a greener, sustainable future.",
         "keywords": "Ministry of Energy Uzbekistan, Uzbekistan energy sector, energy policies, renewable energy Uzbekistan, energy security, sustainable energy development, energy efficiency, natural gas Uzbekistan, electricity Uzbekistan, energy investment, Uzbekistan energy transformation, green energy Uzbekistan, solar energy, wind power Uzbekistan, international energy partnerships, Uzbekistan sustainable energy"
-      }
+      },
+      "shortDesc": "Energy and power supply"
     },
     "eighteen": {
       "title": "Ministry of Health of the Republic of Uzbekistan",
@@ -569,7 +612,8 @@
         "title": "Ministry of Health of the Republic of Uzbekistan – Official Website",
         "description": "Official website of the Ministry of Health of Uzbekistan. The Ministry of Health oversees public health policies, medical services, and healthcare reforms across the country, ensuring quality health services for citizens. Discover information on national health programs, medical research, preventive care initiatives, and ongoing efforts to improve healthcare facilities. Learn about the Ministry’s focus on disease prevention, maternal and child health, medical education, and international partnerships aimed at enhancing Uzbekistan's healthcare system for a healthier, resilient population.",
         "keywords": "Ministry of Health Uzbekistan, Uzbekistan healthcare, public health policies, medical services, healthcare reform, Uzbekistan health programs, disease prevention, maternal health, child health, medical research, healthcare facilities, healthcare initiatives, health partnerships, medical education Uzbekistan, Uzbekistan health system, quality healthcare, public health Uzbekistan"
-      }
+      },
+      "shortDesc": "Healthcare and medicine"
     },
     "nineteen": {
       "title": "Ministry of Foreign Affairs Republic of Uzbekistan",
@@ -579,7 +623,8 @@
         "title": "Ministry of Foreign Affairs of the Republic of Uzbekistan – Official Website mfa.uz",
         "description": "Official website of the Ministry of Foreign Affairs of Uzbekistan. The Ministry of Foreign Affairs represents Uzbekistan in international relations, promotes foreign policy, and oversees diplomatic missions. Explore information on Uzbekistan’s global partnerships, international trade policies, foreign investment opportunities, consular services, and visa information. Learn about the Ministry’s work in fostering regional stability, cooperation, cultural exchanges, and strengthening Uzbekistan's global presence through multilateral engagements and international forums.",
         "keywords": "Ministry of Foreign Affairs Uzbekistan, Uzbekistan foreign policy, diplomatic relations, Uzbekistan embassies, international partnerships, foreign trade Uzbekistan, consular services, Uzbekistan visa, foreign investment, regional stability, cultural exchanges, global presence, multilateral engagements, international cooperation Uzbekistan, Uzbekistan Ministry of Foreign Affairs, foreign affairs Uzbekistan, diplomatic missions"
-      }
+      },
+      "shortDesc": "Foreign policy and diplomacy"
     },
     "twenty": {
       "title": "Ministry of Internal Affairs of the Republic of Uzbekistan",
@@ -589,7 +634,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Internal affairs and security"
     },
     "twentyone": {
       "title": "FVV of the Republic of Uzbekistan",
@@ -599,19 +645,15 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Emergency situations"
     }
   },
-
   "N": "N",
-
   "O": "O",
-
   "P": "P",
-
   "Q": "Q",
   "R": "R",
-
   "S": "S",
   "seo": {
     "title": "Official Websites of Uzbekistan's Government Agencies – Comprehensive List of Ministries and Departments",
@@ -633,7 +675,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Statistics and data analysis"
     },
     "two": {
       "title": "State Tax Committee of the Republic of Uzbekistan",
@@ -643,7 +686,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Tax system and collections"
     },
     "three": {
       "title": "Customs Committee under the Ministry of Economy and Finance of the Republic of Uzbekistan",
@@ -653,7 +697,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Customs control and regulation"
     },
     "four": {
       "title": "Ministry of Ecology, Environmental Protection and Climate Change of the Republic of Uzbekistan",
@@ -663,7 +708,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Ecology and climate change"
     },
     "five": {
       "title": "Official website of the Forestry Agency under the Ministry of Ecology, Environmental Protection and Climate Change",
@@ -673,7 +719,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Forestry and bioresources"
     },
     "six": {
       "title": "Ministry of Mining Industry and Geology of the Republic of Uzbekistan",
@@ -683,7 +730,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Geology and mineral resources"
     },
     "seven": {
       "title": "State Committee of the Republic of Uzbekistan on Land Resources, Geodesy, Cartography and State Cadastre",
@@ -693,7 +741,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Cadastre and land resources"
     },
     "eight": {
       "title": "State Veterinary Committee of the Republic of Uzbekistan",
@@ -703,7 +752,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Veterinary control"
     },
     "nine": {
       "title": "State Committee of the Republic of Uzbekistan for Automobile Roads",
@@ -713,7 +763,8 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Highways and infrastructure"
     },
     "ten": {
       "title": "State Committee of the Republic of Uzbekistan for Tourism Development",
@@ -723,18 +774,50 @@
         "title": "",
         "description": "",
         "keywords": ""
-      }
+      },
+      "shortDesc": "Tourism and hospitality"
     }
   },
-
   "T": "T",
   "V": "V",
-
   "U": "U",
-
   "W": "W",
-
   "X": "X",
   "Y": "Y",
-  "Z": "Z"
+  "Z": "Z",
+  "tags": {
+    "governance": "Governance",
+    "legislation": "Legislation",
+    "justice": "Justice",
+    "law": "Law",
+    "elections": "Elections",
+    "finance": "Finance",
+    "audit": "Oversight",
+    "economy": "Economy",
+    "mining": "Mining",
+    "construction": "Construction",
+    "employment": "Employment",
+    "education": "Education",
+    "ecology": "Ecology",
+    "sports": "Sports",
+    "agriculture": "Agriculture",
+    "water": "Water Resources",
+    "digital": "IT & Telecom",
+    "transport": "Transport",
+    "culture": "Culture",
+    "defense": "Defense",
+    "energy": "Energy",
+    "health": "Healthcare",
+    "diplomacy": "Diplomacy",
+    "security": "Security",
+    "statistics": "Statistics",
+    "tax": "Taxation",
+    "customs": "Customs",
+    "forestry": "Forestry",
+    "land": "Land Resources",
+    "veterinary": "Veterinary",
+    "roads": "Road Infrastructure",
+    "tourism": "Tourism",
+    "waterSupply": "Water Supply"
+  }
 }

@@ -7,6 +7,8 @@ export default function state() {
         slug: "state-statistics-agency",
         title: "State.one.title",
         description: "State.one.description",
+        shortDesc: "State.one.shortDesc",
+        tag: "tags.statistics",
         img: "/images/gerb.png",
         link: "State.one.link",
         seo: {
@@ -21,6 +23,8 @@ export default function state() {
         slug: "state-tax-committee",
         title: "State.two.title",
         description: "State.two.description",
+        shortDesc: "State.two.shortDesc",
+        tag: "tags.tax",
         img: "/images/gerb.png",
         link: "State.two.link",
         seo: {
@@ -35,6 +39,8 @@ export default function state() {
         slug: "state-customs-committee",
         title: "State.three.title",
         description: "State.three.description",
+        shortDesc: "State.three.shortDesc",
+        tag: "tags.customs",
         img: "/images/gerb.png",
         link: "State.three.link",
         seo: {
@@ -49,6 +55,8 @@ export default function state() {
         slug: "state-ecology-climate",
         title: "State.four.title",
         description: "State.four.description",
+        shortDesc: "State.four.shortDesc",
+        tag: "tags.ecology",
         img: "/images/gerb.png",
         link: "State.four.link",
         seo: {
@@ -63,6 +71,8 @@ export default function state() {
         slug: "state-forestry-agency",
         title: "State.five.title",
         description: "State.five.description",
+        shortDesc: "State.five.shortDesc",
+        tag: "tags.forestry",
         img: "/images/gerb.png",
         link: "State.five.link",
         seo: {
@@ -77,6 +87,8 @@ export default function state() {
         slug: "state-mining-geology",
         title: "State.six.title",
         description: "State.six.description",
+        shortDesc: "State.six.shortDesc",
+        tag: "tags.mining",
         img: "/images/gerb.png",
         link: "State.six.link",
         seo: {
@@ -91,6 +103,8 @@ export default function state() {
         slug: "state-land-cadastre",
         title: "State.seven.title",
         description: "State.seven.description",
+        shortDesc: "State.seven.shortDesc",
+        tag: "tags.land",
         img: "/images/gerb.png",
         link: "State.seven.link",
         seo: {
@@ -105,6 +119,8 @@ export default function state() {
         slug: "state-veterinary-committee",
         title: "State.eight.title",
         description: "State.eight.description",
+        shortDesc: "State.eight.shortDesc",
+        tag: "tags.veterinary",
         img: "/images/gerb.png",
         link: "State.eight.link",
         seo: {
@@ -119,6 +135,8 @@ export default function state() {
         slug: "state-automobile-roads",
         title: "State.nine.title",
         description: "State.nine.description",
+        shortDesc: "State.nine.shortDesc",
+        tag: "tags.roads",
         img: "/images/gerb.png",
         link: "State.nine.link",
         seo: {
@@ -133,6 +151,8 @@ export default function state() {
         slug: "state-tourism",
         title: "State.ten.title",
         description: "State.ten.description",
+        shortDesc: "State.ten.shortDesc",
+        tag: "tags.tourism",
         img: "/images/gerb.png",
         link: "State.ten.link",
         seo: {
