@@ -92,9 +92,32 @@ const iconSvgs = {
   finance: `<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"/>`,
 };
 
+const iconColors = {
+  news: "#2563eb",
+  decree: "#7c3aed",
+  globe: "#0891b2",
+  speech: "#c026d3",
+  program: "#059669",
+  law: "#b45309",
+  session: "#dc2626",
+  people: "#0d9488",
+  building: "#6366f1",
+  chart: "#16a34a",
+  analytics: "#e11d48",
+  shield: "#15803d",
+  vote: "#9333ea",
+  finance: "#ca8a04",
+};
+
 function getIcon(name) {
   const inner = iconSvgs[name] || iconSvgs.news;
-  return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">${inner}</svg>`;
+  const color = iconColors[name] || "#6b7280";
+  return `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="${color}">${inner}</svg>`;
+}
+
+function getIconBg(name) {
+  const color = iconColors[name] || "#6b7280";
+  return color + "14";
 }
 
 const schemaOrgData = computed(() => {
@@ -180,12 +203,14 @@ useHead(() => ({
             <div
               v-for="(item, i) in whatFind.items"
               :key="'wf-' + i"
-              class="rounded-xl border border-[#e5e7eb] bg-[#fafafa] p-5"
+              class="rounded-xl border border-[#e5e7eb] bg-white p-5 transition hover:shadow-sm"
             >
               <div
-                class="mb-3 w-9 h-9 text-[#6b7280]"
-                v-html="getIcon(item.icon)"
-              ></div>
+                class="mb-3 w-10 h-10 rounded-lg flex items-center justify-center"
+                :style="{ backgroundColor: getIconBg(item.icon) }"
+              >
+                <div class="w-5 h-5" v-html="getIcon(item.icon)"></div>
+              </div>
               <div class="font-semibold text-[#1e293b] mb-1">{{ item.title }}</div>
               <div class="text-sm text-[#6b7280] leading-relaxed">{{ item.desc }}</div>
             </div>
