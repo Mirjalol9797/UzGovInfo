@@ -41,6 +41,26 @@ const hasFullContent = computed(() => !!content.value);
 const intro = computed(() => content.value?.intro || []);
 
 const officialSite = computed(() => content.value?.officialSite || null);
+const officialSiteUrl = computed(() =>
+  props.oneData?.link ? t(props.oneData.link) : "#"
+);
+const officialSiteHost = computed(() => {
+  const raw = officialSiteUrl.value || "";
+  if (!raw || raw === "#") return "";
+  try {
+    return new URL(raw).host.replace(/^www\./, "");
+  } catch {
+    return raw
+      .replace(/^https?:\/\//, "")
+      .replace(/^www\./, "")
+      .replace(/\/.*$/, "");
+  }
+});
+const verifiedLabel = computed(() => {
+  if (locale.value === "en") return "Verified";
+  if (locale.value === "uz") return "Tasdiqlangan";
+  return "Проверено";
+});
 
 const whatFind = computed(() => content.value?.whatFind || null);
 
@@ -177,19 +197,96 @@ useHead(() => ({
 
         <div
           v-if="officialSite"
-          class="mb-8 rounded-lg border border-[#e5e7eb] bg-[#f8fafc] p-6"
+          class="mb-8 rounded-2xl border border-[#e5e7eb] bg-white overflow-hidden"
         >
-          <h2 class="mb-4 font-semibold text-lg md:text-xl">
-            {{ officialSite.h2 }}
-          </h2>
-          <a
-            :href="oneData?.link ? t(oneData.link) : '#'"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="inline-flex items-center gap-2 rounded-lg bg-[#2563eb] px-5 py-3 font-medium text-white transition hover:bg-[#1d4ed8]"
-          >
-            {{ officialSite.ctaText }}
-          </a>
+          <div class="px-5 py-4 md:px-6 md:py-5">
+            <div class="flex items-start justify-between gap-4">
+              <div class="flex items-center gap-3 min-w-0">
+                <div
+                  class="w-12 h-12 rounded-xl bg-[#eef4ff] text-[#2563eb] flex items-center justify-center shrink-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="w-6 h-6"
+                  >
+                    <path d="m3 10 9-7 9 7" />
+                    <path d="M5 10v10h14V10" />
+                    <path d="M9 20v-6h6v6" />
+                  </svg>
+                </div>
+                <div class="min-w-0">
+                  <h2
+                    class="font-semibold text-xl md:text-2xl leading-tight text-[#111827]"
+                  >
+                    {{ officialSite.h2 }}
+                  </h2>
+                </div>
+              </div>
+
+              <div
+                class="inline-flex items-center gap-1.5 rounded-full border border-[#dcfce7] bg-[#f0fdf4] px-3 py-1.5 text-xs font-semibold text-[#15803d] shrink-0"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="w-3.5 h-3.5"
+                >
+                  <path d="m20 6-11 11-5-5" />
+                </svg>
+                <span>{{ verifiedLabel }}</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="px-5 py-4 md:px-6 md:py-4 border-t border-[#edf1f7]">
+            <div class="flex items-center gap-3 768:flex-col 768:items-stretch">
+              <a
+                :href="officialSiteUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex-1 h-12 rounded-xl border border-[#dbe3f1] bg-[#f8fafc] px-4 inline-flex items-center gap-2 text-[#315efb] font-semibold hover:bg-white transition min-w-0"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="w-5 h-5 shrink-0 text-[#94a3b8]"
+                >
+                  <path
+                    d="M10 13a5 5 0 0 0 7.07 0l2.83-2.83a5 5 0 0 0-7.07-7.07L10 5"
+                  />
+                  <path
+                    d="M14 11a5 5 0 0 0-7.07 0L4.1 13.83a5 5 0 1 0 7.07 7.07L14 19"
+                  />
+                </svg>
+                <span class="truncate">{{ officialSiteHost }}</span>
+              </a>
+
+              <a
+                :href="officialSiteUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="h-12 px-6 rounded-xl bg-[#2563eb] text-white font-semibold inline-flex items-center justify-center gap-2 transition hover:bg-[#1d4ed8] 768:w-full"
+              >
+                <span>{{ officialSite.ctaText }}</span>
+              </a>
+            </div>
+          </div>
         </div>
 
         <div v-if="whatFind" class="mb-8 pt-6 border-t border-[#eee]">
