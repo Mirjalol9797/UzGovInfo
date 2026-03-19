@@ -1,5 +1,5 @@
 <script setup>
-import allCategoriesConfig from "../data/page-content/allCategories.js";
+import AllCategoriesCards from "./AllCategoriesCards.vue";
 
 const { t } = useI18n();
 const localePath = useLocalePath();
@@ -61,17 +61,6 @@ const otherSites = computed(() => {
         href: `/${props.category}/${item.slug}`,
         text: t(item.title),
       })),
-  };
-});
-
-const allCategories = computed(() => {
-  if (!hasFullContent.value) return null;
-  return {
-    h2: t("allCategories.h2"),
-    links: allCategoriesConfig.links.map((l) => ({
-      href: l.href,
-      text: t(l.textKey),
-    })),
   };
 });
 
@@ -238,6 +227,24 @@ useHead(() => ({
           </p>
         </div>
 
+        <div v-if="otherSites" class="mb-8 pt-6 border-t border-[#eee]">
+          <h2 class="mb-4 font-semibold text-lg md:text-xl">
+            {{ otherSites.h2 }}
+          </h2>
+          <ul class="list-disc list-inside space-y-1">
+            <li v-for="(link, i) in otherSites.links" :key="'other-' + i">
+              <NuxtLink
+                :to="localePath(link.href)"
+                class="text-[#2563eb] hover:underline"
+              >
+                {{ link.text }}
+              </NuxtLink>
+            </li>
+          </ul>
+        </div>
+
+        <AllCategoriesCards section-class="mb-8 pt-6 border-t border-[#eee]" />
+
         <div v-if="whyUse" class="mb-8 pt-6 border-t border-[#eee]">
           <h2 class="mb-4 font-semibold text-lg md:text-xl">
             {{ whyUse.h2 }}
@@ -255,38 +262,6 @@ useHead(() => ({
               </li>
             </ul>
           </div>
-        </div>
-
-        <div v-if="otherSites" class="mb-8 pt-6 border-t border-[#eee]">
-          <h2 class="mb-4 font-semibold text-lg md:text-xl">
-            {{ otherSites.h2 }}
-          </h2>
-          <ul class="list-disc list-inside space-y-1">
-            <li v-for="(link, i) in otherSites.links" :key="'other-' + i">
-              <NuxtLink
-                :to="localePath(link.href)"
-                class="text-[#2563eb] hover:underline"
-              >
-                {{ link.text }}
-              </NuxtLink>
-            </li>
-          </ul>
-        </div>
-
-        <div v-if="allCategories" class="mb-8 pt-6 border-t border-[#eee]">
-          <h2 class="mb-4 font-semibold text-lg md:text-xl">
-            {{ allCategories.h2 }}
-          </h2>
-          <ul class="list-disc list-inside space-y-1">
-            <li v-for="(link, i) in allCategories.links" :key="'cat-' + i">
-              <NuxtLink
-                :to="localePath(link.href)"
-                class="text-[#2563eb] hover:underline"
-              >
-                {{ link.text }}
-              </NuxtLink>
-            </li>
-          </ul>
         </div>
 
         <div v-if="faq" class="mb-8 pt-6 border-t border-[#eee]">
