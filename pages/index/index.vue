@@ -63,9 +63,6 @@ const categoryCards = computed(() => [
       <!-- Описание сайта -->
       <SiteDescription class="mb-10 768:mb-6" />
 
-      <!-- Как пользоваться каталогом -->
-      <HowUseSite class="mb-10 768:mb-6" />
-
       <!-- Все категории -->
       <section class="mb-10 768:mb-6">
         <h2 class="font-medium text-base md:text-xl mb-4 md:mb-6">
@@ -84,8 +81,12 @@ const categoryCards = computed(() => [
             >
               <div class="w-5 h-5" v-html="categoryIcons[cat.key]"></div>
             </div>
-            <div class="font-semibold text-[#1e293b] text-sm mb-1">{{ cat.label }}</div>
-            <div class="text-lg font-bold" :style="{ color: cat.color }">{{ cat.count }}</div>
+            <div class="font-semibold text-[#1e293b] text-sm mb-1">
+              {{ cat.label }}
+            </div>
+            <div class="text-lg font-bold" :style="{ color: cat.color }">
+              {{ cat.count }}
+            </div>
           </nuxt-link>
         </div>
       </section>
@@ -326,12 +327,7 @@ const categoryCards = computed(() => [
                   stroke-width="1.6"
                   stroke-linecap="round"
                 />
-                <circle
-                  cx="12"
-                  cy="15"
-                  r="0.9"
-                  fill="currentColor"
-                />
+                <circle cx="12" cy="15" r="0.9" fill="currentColor" />
               </svg>
             </span>
             {{ t("Inspections.headtitle") }}
@@ -367,6 +363,9 @@ const categoryCards = computed(() => [
           </nuxt-link>
         </div>
       </section>
+
+      <!-- Как пользоваться каталогом -->
+      <HowUseSite class="mb-10 768:mb-6" />
 
       <!-- Зачем создан UzGovInfo -->
       <WhySiteCreated class="mb-10 768:mb-6" />
