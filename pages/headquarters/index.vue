@@ -555,7 +555,9 @@ const otherGovBodiesText = computed(() => {
           </p>
         </div>
 
-        <div class="">
+        <div
+          class="grid grid-cols-5 gap-3 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
+        >
           <nuxt-link
             v-for="(item, index) in headquarters.data"
             :key="index"

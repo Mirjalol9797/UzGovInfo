@@ -16,7 +16,9 @@ const inspections = useInspections();
             {{ t("Inspections.headtitle") }}
           </h1>
         </div>
-        <div class="">
+        <div
+          class="grid grid-cols-5 gap-3 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
+        >
           <nuxt-link
             v-for="(item, index) in inspections.data"
             :key="index"
