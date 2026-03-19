@@ -13,7 +13,7 @@ const emailHref = "mailto:info@govinfo.uz";
 </script>
 
 <template>
-  <div class="site-container py-6 md:py-10">
+  <div class="site-container">
     <h1 class="text-2xl md:text-3xl font-bold mb-3">
       {{ t("Contacts.title") }}
     </h1>

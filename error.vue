@@ -97,7 +97,7 @@ const categoryLinks = computed(() => [
   <div>
     <LayoutHeader />
     <div class="content">
-      <div class="site-container py-6 md:py-10">
+      <div class="site-container">
         <section v-if="is404">
           <div class="border-b border-[#eee] pb-2 mb-4 md:mb-6">
             <h1 class="font-medium text-xl md:text-2xl">
@@ -113,7 +113,9 @@ const categoryLinks = computed(() => [
           <h2 class="font-semibold text-lg mb-4">
             {{ content.popularTitle }}
           </h2>
-          <div class="mb-8">
+          <div
+            class="mb-8 grid grid-cols-5 gap-3 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
+          >
             <nuxt-link
               v-for="(item, index) in popularOrganizations"
               :key="`${item.category}-${item.slug}-${index}`"
@@ -145,7 +147,7 @@ const categoryLinks = computed(() => [
             </NuxtLink>
             <NuxtLink
               :to="localePath('/organizations')"
-              class="site-btn bg-[#F3F4F9] text-[#1C335F] hover:bg-[#e5e7eb]"
+              class="site-btn bg-[#F3F4F9] text-[#1C335F] hover:bg-[#e5e7eb] text-center"
             >
               {{ content.btnAll }}
             </NuxtLink>
@@ -160,7 +162,7 @@ const categoryLinks = computed(() => [
                 v-for="cat in categoryLinks"
                 :key="cat.path"
                 :to="localePath(cat.path)"
-                class="site-btn bg-[#F3F4F9] text-[#1C335F] hover:bg-[#e5e7eb]"
+                class="site-btn bg-[#F3F4F9] text-[#1C335F] hover:bg-[#e5e7eb] text-center"
               >
                 {{ t(cat.titleKey) }}
               </NuxtLink>

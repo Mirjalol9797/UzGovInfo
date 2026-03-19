@@ -518,7 +518,7 @@ const otherGovBodiesText = computed(() => {
       title-key="State.seo.title"
       description-key="State.seo.description"
     />
-    <div class="site-container py-6 md:py-10">
+    <div class="site-container">
       <section>
         <div class="border-b border-[#eee] pb-2 mb-4 md:mb-6">
           <h1 class="font-medium text-xl md:text-2xl">

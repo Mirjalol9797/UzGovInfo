@@ -167,7 +167,7 @@ useHead(() => ({
 
 <template>
   <div v-if="oneData" class="rank-detail">
-    <div class="site-container py-6 md:py-10">
+    <div class="site-container">
       <!-- Full content layout -->
       <template v-if="hasFullContent">
         <h1 class="mb-6 font-medium text-2xl 768:text-xl 480:!text-lg">

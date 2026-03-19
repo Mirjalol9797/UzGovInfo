@@ -6,7 +6,7 @@ const route = useRoute();
 </script>
 
 <template>
-  <div class="site-container py-6 md:py-10">
+  <div class="site-container">
     <h1 class="text-2xl md:text-3xl font-bold mb-3">
       {{ t("Terms.title") }}
     </h1>
@@ -92,12 +92,22 @@ const route = useRoute();
     <Meta property="og:image" content="https://govinfo.uz/images/gerb.png" />
     <Meta property="og:url" :content="`https://govinfo.uz${route.fullPath}`" />
     <Meta property="twitter:title" :content="t('Terms.seo.title')" />
-    <Meta property="twitter:description" :content="t('Terms.seo.description')" />
+    <Meta
+      property="twitter:description"
+      :content="t('Terms.seo.description')"
+    />
     <Meta property="twitter:image" content="https://govinfo.uz/logo.jpg" />
-    <Meta property="twitter:url" :content="`https://govinfo.uz${route.fullPath}`" />
+    <Meta
+      property="twitter:url"
+      :content="`https://govinfo.uz${route.fullPath}`"
+    />
     <Link rel="canonical" :href="`https://govinfo.uz${route.fullPath}`" />
     <Link rel="alternate" hreflang="uz" href="https://govinfo.uz/uz/terms" />
     <Link rel="alternate" hreflang="en" href="https://govinfo.uz/en/terms" />
-    <Link rel="alternate" hreflang="x-default" href="https://govinfo.uz/terms" />
+    <Link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://govinfo.uz/terms"
+    />
   </Head>
 </template>
