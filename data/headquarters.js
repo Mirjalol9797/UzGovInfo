@@ -112,7 +112,7 @@ export default function data() {
         description: "Headquarters.seven.description",
         shortDesc: "Headquarters.seven.shortDesc",
         tag: "tags.law",
-        img: "/images/gerb.png",
+        img: "https://www.prokuratura.uz/img/brand/main_logo.png",
         link: "Headquarters.seven.link",
         seo: {
           title: "Headquarters.seven.seo.title",
@@ -129,7 +129,7 @@ export default function data() {
         description: "Headquarters.eight.description",
         shortDesc: "Headquarters.eight.shortDesc",
         tag: "tags.elections",
-        img: "/images/gerb.png",
+        img: "https://saylov.uz/storage/settings/July2024/c7qDFCBeBgQ3xSeHTQ3P.png",
         link: "Headquarters.eight.link",
         seo: {
           title: "Headquarters.eight.seo.title",
@@ -146,7 +146,7 @@ export default function data() {
         description: "Headquarters.nine.description",
         shortDesc: "Headquarters.nine.shortDesc",
         tag: "tags.finance",
-        img: "/images/gerb.png",
+        img: "https://cbu.uz/bitrix/templates/main/img/logo-ru.svg",
         link: "Headquarters.nine.link",
         seo: {
           title: "Headquarters.nine.seo.title",
@@ -163,7 +163,7 @@ export default function data() {
         description: "Headquarters.ten.description",
         shortDesc: "Headquarters.ten.shortDesc",
         tag: "tags.audit",
-        img: "/images/gerb.png",
+        img: "https://ach.gov.uz/assets/images/Logo_blue_01.svg",
         link: "Headquarters.ten.link",
         seo: {
           title: "Headquarters.ten.seo.title",
