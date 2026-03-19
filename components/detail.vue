@@ -73,13 +73,25 @@ const otherSites = computed(() => {
     !props.otherItems?.length
   )
     return null;
+  const slugToIcon = (slug) => {
+    if (!slug) return "building";
+    const s = slug.toLowerCase();
+    if (s.includes("parliament") || s.includes("senate")) return "law";
+    if (s.includes("government") || s.includes("gov")) return "building";
+    if (s.includes("court") || s.includes("sud")) return "law";
+    if (s.includes("prosecutor") || s.includes("prokurat")) return "shield";
+    if (s.includes("election") || s.includes("saylov")) return "vote";
+    if (s.includes("bank") || s.includes("cbu")) return "finance";
+    if (s.includes("account") || s.includes("ach")) return "chart";
+    return "building";
+  };
   return {
     h2: content.value.otherSites.h2,
-    links: props.otherItems
+    items: props.otherItems
       .filter((item) => item?.title)
       .map((item) => ({
-        href: `/${props.category}/${item.slug}`,
         text: t(item.title),
+        icon: slugToIcon(item.slug),
       })),
   };
 });
@@ -328,16 +340,23 @@ useHead(() => ({
           <h2 class="mb-4 font-semibold text-lg md:text-xl">
             {{ otherSites.h2 }}
           </h2>
-          <ul class="list-disc list-inside space-y-1">
-            <li v-for="(link, i) in otherSites.links" :key="'other-' + i">
-              <NuxtLink
-                :to="localePath(link.href)"
-                class="text-[#2563eb] hover:underline"
+          <div class="grid grid-cols-4 768:grid-cols-2 576:!grid-cols-1 gap-4">
+            <div
+              v-for="(item, i) in otherSites.items"
+              :key="'other-' + i"
+              class="rounded-xl border border-[#e5e7eb] bg-white p-4 flex items-center gap-3"
+            >
+              <div
+                class="w-10 h-10 rounded-lg flex items-center justify-center shrink-0"
+                :style="{ backgroundColor: getIconBg(item.icon) }"
               >
-                {{ link.text }}
-              </NuxtLink>
-            </li>
-          </ul>
+                <div class="w-5 h-5" v-html="getIcon(item.icon)"></div>
+              </div>
+              <p class="font-medium text-[#111827] text-sm leading-snug">
+                {{ item.text }}
+              </p>
+            </div>
+          </div>
         </div>
 
         <AllCategoriesCards section-class="mb-8 pt-6 border-t border-[#eee]" />
