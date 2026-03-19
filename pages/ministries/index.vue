@@ -355,73 +355,451 @@ const ministriesTableText = computed(() => {
 
 const ministriesTableRows = computed(() => {
   const ru = [
-    { org: "Министерство инвестиций, промышленности и торговли", sector: "Торговля и инвестиции", func: "Привлечение инвестиций и поддержка экспорта", linkKey: "Ministries.one.link", linkText: "miit.uz" },
-    { org: "Министерство экономики и финансов", sector: "Финансы и налоги", func: "Управление бюджетом и экономическое планирование", linkKey: "Ministries.two.link", linkText: "imv.uz" },
-    { org: "Министерство горнодобывающей промышленности и геологии", sector: "Геология и ресурсы", func: "Разведка недр и добыча полезных ископаемых", linkKey: "Ministries.three.link", linkText: "mingeo.uz" },
-    { org: "Министерство строительства и ЖКХ РУз", sector: "Строительство", func: "Архитектурный надзор и коммунальное хозяйство", linkKey: "Ministries.four.link", linkText: "mc.uz" },
-    { org: "Министерство занятости и сокращения бедности", sector: "Труд и соцзащита", func: "Регулирование рынка труда и социальная поддержка", linkKey: "Ministries.five.link", linkText: "mehnat.uz" },
-    { org: "Высшая аттестационная комиссия", sector: "Наука и кадры", func: "Присвоение ученых степеней и званий", linkKey: "Ministries.six.link", linkText: "oak.uz" },
-    { org: "Министерство дошкольного и школьного образования", sector: "Образование", func: "Управление школами и детскими садами", linkKey: "Ministries.seven.link", linkText: "uzedu.uz" },
-    { org: "Министерство экологии, охраны среды и изменения климата", sector: "Экология", func: "Охрана природы и контроль за выбросами", linkKey: "Ministries.eight.link", linkText: "uznature.uz" },
-    { org: "Министерство спорта Республики Узбекистан", sector: "Спорт", func: "Развитие физической культуры и проф. спорта", linkKey: "Ministries.nine.link", linkText: "sport.uz" },
-    { org: "Министерство сельского хозяйства РУз", sector: "Агропром", func: "Развитие аграрного сектора и продовольствия", linkKey: "Ministries.ten.link", linkText: "agro.uz" },
-    { org: "Министерство водного хозяйства РУз", sector: "Водные ресурсы", func: "Ирригация и управление водными фондами", linkKey: "Ministries.eleven.link", linkText: "water.gov.uz" },
-    { org: "Министерство цифровых технологий РУз", sector: "IT и связь", func: "Цифровизация экономики и развитие IT-парков", linkKey: "Ministries.twelve.link", linkText: "digital.uz" },
-    { org: "Министерство юстиции Республики Узбекистан", sector: "Юстиция", func: "Защита прав граждан и регистрация ННО", linkKey: "Ministries.thirteen.link", linkText: "adliya.uz" },
-    { org: "Министерство транспорта РУз", sector: "Транспорт", func: "Регулирование авиа, ж/д и автоперевозок", linkKey: "Ministries.fourteen.link", linkText: "mintrans.uz" },
-    { org: "Министерство культуры Республики Узбекистан", sector: "Культура", func: "Охрана культурного наследия и развитие театров", linkKey: "Ministries.fifteen.link", linkText: "madaniyat.uz" },
-    { org: "Министерство обороны Республики Узбекистан", sector: "Оборона", func: "Обеспечение военной безопасности государства", linkKey: "Ministries.sixteen.link", linkText: "mudofaa.uz" },
-    { org: "Министерство энергетики Республики Узбекистан", sector: "Энергетика", func: "Энергоснабжение, газ и электроэнергия", linkKey: "Ministries.seventeen.link", linkText: "minenergy.uz" },
-    { org: "Министерство здравоохранения Республики Узбекистан", sector: "Медицина", func: "Организация медпомощи и санитарный надзор", linkKey: "Ministries.eighteen.link", linkText: "ssv.uz" },
-    { org: "Министерство иностранных дел РУз", sector: "Дипломатия", func: "Международные отношения и консульская помощь", linkKey: "Ministries.nineteen.link", linkText: "mfa.uz" },
-    { org: "Министерство внутренних дел Республики Узбекистан", sector: "Безопасность", func: "Охрана общественного порядка и борьба с преступностью", linkKey: "Ministries.twenty.link", linkText: "iiv.uz" },
-    { org: "МЧС Республики Узбекистан", sector: "ЧС и защита", func: "Предотвращение пожаров и стихийных бедствий", linkKey: "Ministries.twentyone.link", linkText: "fvv.uz" },
+    {
+      org: "Министерство инвестиций, промышленности и торговли",
+      sector: "Торговля и инвестиции",
+      func: "Привлечение инвестиций и поддержка экспорта",
+      linkKey: "Ministries.one.link",
+      linkText: "miit.uz",
+    },
+    {
+      org: "Министерство экономики и финансов",
+      sector: "Финансы и налоги",
+      func: "Управление бюджетом и экономическое планирование",
+      linkKey: "Ministries.two.link",
+      linkText: "imv.uz",
+    },
+    {
+      org: "Министерство горнодобывающей промышленности и геологии",
+      sector: "Геология и ресурсы",
+      func: "Разведка недр и добыча полезных ископаемых",
+      linkKey: "Ministries.three.link",
+      linkText: "mingeo.uz",
+    },
+    {
+      org: "Министерство строительства и ЖКХ РУз",
+      sector: "Строительство",
+      func: "Архитектурный надзор и коммунальное хозяйство",
+      linkKey: "Ministries.four.link",
+      linkText: "mc.uz",
+    },
+    {
+      org: "Министерство занятости и сокращения бедности",
+      sector: "Труд и соцзащита",
+      func: "Регулирование рынка труда и социальная поддержка",
+      linkKey: "Ministries.five.link",
+      linkText: "mehnat.uz",
+    },
+    {
+      org: "Высшая аттестационная комиссия",
+      sector: "Наука и кадры",
+      func: "Присвоение ученых степеней и званий",
+      linkKey: "Ministries.six.link",
+      linkText: "oak.uz",
+    },
+    {
+      org: "Министерство дошкольного и школьного образования",
+      sector: "Образование",
+      func: "Управление школами и детскими садами",
+      linkKey: "Ministries.seven.link",
+      linkText: "uzedu.uz",
+    },
+    {
+      org: "Министерство экологии, охраны среды и изменения климата",
+      sector: "Экология",
+      func: "Охрана природы и контроль за выбросами",
+      linkKey: "Ministries.eight.link",
+      linkText: "uznature.uz",
+    },
+    {
+      org: "Министерство спорта Республики Узбекистан",
+      sector: "Спорт",
+      func: "Развитие физической культуры и проф. спорта",
+      linkKey: "Ministries.nine.link",
+      linkText: "sport.uz",
+    },
+    {
+      org: "Министерство сельского хозяйства РУз",
+      sector: "Агропром",
+      func: "Развитие аграрного сектора и продовольствия",
+      linkKey: "Ministries.ten.link",
+      linkText: "agro.uz",
+    },
+    {
+      org: "Министерство водного хозяйства РУз",
+      sector: "Водные ресурсы",
+      func: "Ирригация и управление водными фондами",
+      linkKey: "Ministries.eleven.link",
+      linkText: "water.gov.uz",
+    },
+    {
+      org: "Министерство цифровых технологий РУз",
+      sector: "IT и связь",
+      func: "Цифровизация экономики и развитие IT-парков",
+      linkKey: "Ministries.twelve.link",
+      linkText: "digital.uz",
+    },
+    {
+      org: "Министерство юстиции Республики Узбекистан",
+      sector: "Юстиция",
+      func: "Защита прав граждан и регистрация ННО",
+      linkKey: "Ministries.thirteen.link",
+      linkText: "adliya.uz",
+    },
+    {
+      org: "Министерство транспорта РУз",
+      sector: "Транспорт",
+      func: "Регулирование авиа, ж/д и автоперевозок",
+      linkKey: "Ministries.fourteen.link",
+      linkText: "mintrans.uz",
+    },
+    {
+      org: "Министерство культуры Республики Узбекистан",
+      sector: "Культура",
+      func: "Охрана культурного наследия и развитие театров",
+      linkKey: "Ministries.fifteen.link",
+      linkText: "madaniyat.uz",
+    },
+    {
+      org: "Министерство обороны Республики Узбекистан",
+      sector: "Оборона",
+      func: "Обеспечение военной безопасности государства",
+      linkKey: "Ministries.sixteen.link",
+      linkText: "mudofaa.uz",
+    },
+    {
+      org: "Министерство энергетики Республики Узбекистан",
+      sector: "Энергетика",
+      func: "Энергоснабжение, газ и электроэнергия",
+      linkKey: "Ministries.seventeen.link",
+      linkText: "minenergy.uz",
+    },
+    {
+      org: "Министерство здравоохранения Республики Узбекистан",
+      sector: "Медицина",
+      func: "Организация медпомощи и санитарный надзор",
+      linkKey: "Ministries.eighteen.link",
+      linkText: "ssv.uz",
+    },
+    {
+      org: "Министерство иностранных дел РУз",
+      sector: "Дипломатия",
+      func: "Международные отношения и консульская помощь",
+      linkKey: "Ministries.nineteen.link",
+      linkText: "mfa.uz",
+    },
+    {
+      org: "Министерство внутренних дел Республики Узбекистан",
+      sector: "Безопасность",
+      func: "Охрана общественного порядка и борьба с преступностью",
+      linkKey: "Ministries.twenty.link",
+      linkText: "iiv.uz",
+    },
+    {
+      org: "МЧС Республики Узбекистан",
+      sector: "ЧС и защита",
+      func: "Предотвращение пожаров и стихийных бедствий",
+      linkKey: "Ministries.twentyone.link",
+      linkText: "fvv.uz",
+    },
   ];
   const en = [
-    { org: "Ministry of Investment, Industry and Trade", sector: "Trade and Investment", func: "Investment attraction and export support", linkKey: "Ministries.one.link", linkText: "miit.uz" },
-    { org: "Ministry of Economy and Finance", sector: "Finance and Taxes", func: "Budget management and economic planning", linkKey: "Ministries.two.link", linkText: "imv.uz" },
-    { org: "Ministry of Mining and Geology", sector: "Geology and Resources", func: "Subsoil exploration and mineral extraction", linkKey: "Ministries.three.link", linkText: "mingeo.uz" },
-    { org: "Ministry of Construction and Housing of Uzbekistan", sector: "Construction", func: "Architectural supervision and utilities", linkKey: "Ministries.four.link", linkText: "mc.uz" },
-    { org: "Ministry of Employment and Poverty Reduction", sector: "Labor and Social Protection", func: "Labor market regulation and social support", linkKey: "Ministries.five.link", linkText: "mehnat.uz" },
-    { org: "Higher Attestation Commission", sector: "Science and Personnel", func: "Awarding academic degrees and titles", linkKey: "Ministries.six.link", linkText: "oak.uz" },
-    { org: "Ministry of Preschool and School Education", sector: "Education", func: "Management of schools and kindergartens", linkKey: "Ministries.seven.link", linkText: "uzedu.uz" },
-    { org: "Ministry of Ecology, Environmental Protection and Climate Change", sector: "Ecology", func: "Nature protection and emissions control", linkKey: "Ministries.eight.link", linkText: "uznature.uz" },
-    { org: "Ministry of Sports of the Republic of Uzbekistan", sector: "Sports", func: "Development of physical culture and professional sports", linkKey: "Ministries.nine.link", linkText: "sport.uz" },
-    { org: "Ministry of Agriculture of Uzbekistan", sector: "Agribusiness", func: "Development of agricultural sector and food", linkKey: "Ministries.ten.link", linkText: "agro.uz" },
-    { org: "Ministry of Water Resources of Uzbekistan", sector: "Water Resources", func: "Irrigation and water fund management", linkKey: "Ministries.eleven.link", linkText: "water.gov.uz" },
-    { org: "Ministry of Digital Technologies of Uzbekistan", sector: "IT and Communications", func: "Digitalization of economy and IT parks development", linkKey: "Ministries.twelve.link", linkText: "digital.uz" },
-    { org: "Ministry of Justice of the Republic of Uzbekistan", sector: "Justice", func: "Protection of citizens' rights and NGO registration", linkKey: "Ministries.thirteen.link", linkText: "adliya.uz" },
-    { org: "Ministry of Transport of Uzbekistan", sector: "Transport", func: "Regulation of aviation, rail and road transport", linkKey: "Ministries.fourteen.link", linkText: "mintrans.uz" },
-    { org: "Ministry of Culture of the Republic of Uzbekistan", sector: "Culture", func: "Protection of cultural heritage and development of theaters", linkKey: "Ministries.fifteen.link", linkText: "madaniyat.uz" },
-    { org: "Ministry of Defense of the Republic of Uzbekistan", sector: "Defense", func: "Ensuring military security of the state", linkKey: "Ministries.sixteen.link", linkText: "mudofaa.uz" },
-    { org: "Ministry of Energy of the Republic of Uzbekistan", sector: "Energy", func: "Power supply, gas and electricity", linkKey: "Ministries.seventeen.link", linkText: "minenergy.uz" },
-    { org: "Ministry of Health of the Republic of Uzbekistan", sector: "Healthcare", func: "Organization of medical care and sanitary supervision", linkKey: "Ministries.eighteen.link", linkText: "ssv.uz" },
-    { org: "Ministry of Foreign Affairs of Uzbekistan", sector: "Diplomacy", func: "International relations and consular assistance", linkKey: "Ministries.nineteen.link", linkText: "mfa.uz" },
-    { org: "Ministry of Internal Affairs of the Republic of Uzbekistan", sector: "Security", func: "Public order protection and crime prevention", linkKey: "Ministries.twenty.link", linkText: "iiv.uz" },
-    { org: "Ministry of Emergency Situations of the Republic of Uzbekistan", sector: "Emergency and Protection", func: "Fire prevention and natural disaster response", linkKey: "Ministries.twentyone.link", linkText: "fvv.uz" },
+    {
+      org: "Ministry of Investment, Industry and Trade",
+      sector: "Trade and Investment",
+      func: "Investment attraction and export support",
+      linkKey: "Ministries.one.link",
+      linkText: "miit.uz",
+    },
+    {
+      org: "Ministry of Economy and Finance",
+      sector: "Finance and Taxes",
+      func: "Budget management and economic planning",
+      linkKey: "Ministries.two.link",
+      linkText: "imv.uz",
+    },
+    {
+      org: "Ministry of Mining and Geology",
+      sector: "Geology and Resources",
+      func: "Subsoil exploration and mineral extraction",
+      linkKey: "Ministries.three.link",
+      linkText: "mingeo.uz",
+    },
+    {
+      org: "Ministry of Construction and Housing of Uzbekistan",
+      sector: "Construction",
+      func: "Architectural supervision and utilities",
+      linkKey: "Ministries.four.link",
+      linkText: "mc.uz",
+    },
+    {
+      org: "Ministry of Employment and Poverty Reduction",
+      sector: "Labor and Social Protection",
+      func: "Labor market regulation and social support",
+      linkKey: "Ministries.five.link",
+      linkText: "mehnat.uz",
+    },
+    {
+      org: "Higher Attestation Commission",
+      sector: "Science and Personnel",
+      func: "Awarding academic degrees and titles",
+      linkKey: "Ministries.six.link",
+      linkText: "oak.uz",
+    },
+    {
+      org: "Ministry of Preschool and School Education",
+      sector: "Education",
+      func: "Management of schools and kindergartens",
+      linkKey: "Ministries.seven.link",
+      linkText: "uzedu.uz",
+    },
+    {
+      org: "Ministry of Ecology, Environmental Protection and Climate Change",
+      sector: "Ecology",
+      func: "Nature protection and emissions control",
+      linkKey: "Ministries.eight.link",
+      linkText: "uznature.uz",
+    },
+    {
+      org: "Ministry of Sports of the Republic of Uzbekistan",
+      sector: "Sports",
+      func: "Development of physical culture and professional sports",
+      linkKey: "Ministries.nine.link",
+      linkText: "sport.uz",
+    },
+    {
+      org: "Ministry of Agriculture of Uzbekistan",
+      sector: "Agribusiness",
+      func: "Development of agricultural sector and food",
+      linkKey: "Ministries.ten.link",
+      linkText: "agro.uz",
+    },
+    {
+      org: "Ministry of Water Resources of Uzbekistan",
+      sector: "Water Resources",
+      func: "Irrigation and water fund management",
+      linkKey: "Ministries.eleven.link",
+      linkText: "water.gov.uz",
+    },
+    {
+      org: "Ministry of Digital Technologies of Uzbekistan",
+      sector: "IT and Communications",
+      func: "Digitalization of economy and IT parks development",
+      linkKey: "Ministries.twelve.link",
+      linkText: "digital.uz",
+    },
+    {
+      org: "Ministry of Justice of the Republic of Uzbekistan",
+      sector: "Justice",
+      func: "Protection of citizens' rights and NGO registration",
+      linkKey: "Ministries.thirteen.link",
+      linkText: "adliya.uz",
+    },
+    {
+      org: "Ministry of Transport of Uzbekistan",
+      sector: "Transport",
+      func: "Regulation of aviation, rail and road transport",
+      linkKey: "Ministries.fourteen.link",
+      linkText: "mintrans.uz",
+    },
+    {
+      org: "Ministry of Culture of the Republic of Uzbekistan",
+      sector: "Culture",
+      func: "Protection of cultural heritage and development of theaters",
+      linkKey: "Ministries.fifteen.link",
+      linkText: "madaniyat.uz",
+    },
+    {
+      org: "Ministry of Defense of the Republic of Uzbekistan",
+      sector: "Defense",
+      func: "Ensuring military security of the state",
+      linkKey: "Ministries.sixteen.link",
+      linkText: "mudofaa.uz",
+    },
+    {
+      org: "Ministry of Energy of the Republic of Uzbekistan",
+      sector: "Energy",
+      func: "Power supply, gas and electricity",
+      linkKey: "Ministries.seventeen.link",
+      linkText: "minenergy.uz",
+    },
+    {
+      org: "Ministry of Health of the Republic of Uzbekistan",
+      sector: "Healthcare",
+      func: "Organization of medical care and sanitary supervision",
+      linkKey: "Ministries.eighteen.link",
+      linkText: "ssv.uz",
+    },
+    {
+      org: "Ministry of Foreign Affairs of Uzbekistan",
+      sector: "Diplomacy",
+      func: "International relations and consular assistance",
+      linkKey: "Ministries.nineteen.link",
+      linkText: "mfa.uz",
+    },
+    {
+      org: "Ministry of Internal Affairs of the Republic of Uzbekistan",
+      sector: "Security",
+      func: "Public order protection and crime prevention",
+      linkKey: "Ministries.twenty.link",
+      linkText: "iiv.uz",
+    },
+    {
+      org: "Ministry of Emergency Situations of the Republic of Uzbekistan",
+      sector: "Emergency and Protection",
+      func: "Fire prevention and natural disaster response",
+      linkKey: "Ministries.twentyone.link",
+      linkText: "fvv.uz",
+    },
   ];
   const uz = [
-    { org: "Investitsiyalar, sanoat va savdo vazirligi", sector: "Savdo va investitsiyalar", func: "Investitsiyalarni jalb qilish va eksportni qoʻllab-quvvatlash", linkKey: "Ministries.one.link", linkText: "miit.uz" },
-    { org: "Iqtisodiyot va moliya vazirligi", sector: "Moliya va soliqlar", func: "Byudjetni boshqarish va iqtisodiy rejalashtirish", linkKey: "Ministries.two.link", linkText: "imv.uz" },
-    { org: "Kon va geologiya vazirligi", sector: "Geologiya va resurslar", func: "Yer osti boyliklarini qidirish va foydali qazilmalarni qazib olish", linkKey: "Ministries.three.link", linkText: "mingeo.uz" },
-    { org: "Oʻzbekiston Respublikasi qurilish va uy-joy kommunal xoʻjaligi vazirligi", sector: "Qurilish", func: "Arxitektura nazorati va kommunal xoʻjalik", linkKey: "Ministries.four.link", linkText: "mc.uz" },
-    { org: "Bandlik va qashshoqlikni qisqartirish vazirligi", sector: "Mehnat va ijtimoiy himoya", func: "Mehnat bozorini tartibga solish va ijtimoiy qoʻllab-quvvatlash", linkKey: "Ministries.five.link", linkText: "mehnat.uz" },
-    { org: "Oliy attestatsiya komissiyasi", sector: "Fan va kadrlar", func: "Ilmiy daraja va unvonlar berish", linkKey: "Ministries.six.link", linkText: "oak.uz" },
-    { org: "Maktabgacha va maktab taʼlimi vazirligi", sector: "Taʼlim", func: "Maktablar va bolalar bogʻchalari boshqaruvi", linkKey: "Ministries.seven.link", linkText: "uzedu.uz" },
-    { org: "Ekologiya, atrof-muhitni muhofaza qilish va iqlim oʻzgarishi vazirligi", sector: "Ekologiya", func: "Tabiatni muhofaza qilish va chiqindilarni nazorat qilish", linkKey: "Ministries.eight.link", linkText: "uznature.uz" },
-    { org: "Oʻzbekiston Respublikasi sport vazirligi", sector: "Sport", func: "Jismoniy madaniyat va professional sportni rivojlantirish", linkKey: "Ministries.nine.link", linkText: "sport.uz" },
-    { org: "Oʻzbekiston Respublikasi qishloq xoʻjaligi vazirligi", sector: "Agrosanoat", func: "Agrar soha va oziq-ovqatni rivojlantirish", linkKey: "Ministries.ten.link", linkText: "agro.uz" },
-    { org: "Oʻzbekiston Respublikasi suv xoʻjaligi vazirligi", sector: "Suv resurslari", func: "Suv sugʻorish va suv fondlarini boshqarish", linkKey: "Ministries.eleven.link", linkText: "water.gov.uz" },
-    { org: "Oʻzbekiston Respublikasi raqamli texnologiyalar vazirligi", sector: "IT va aloqa", func: "Iqtisodiyotni raqamlashtirish va IT-parklarni rivojlantirish", linkKey: "Ministries.twelve.link", linkText: "digital.uz" },
-    { org: "Oʻzbekiston Respublikasi adliya vazirligi", sector: "Adliya", func: "Fuqarolar huquqlarini himoya qilish va NNT roʻyxatdan oʻtkazish", linkKey: "Ministries.thirteen.link", linkText: "adliya.uz" },
-    { org: "Oʻzbekiston Respublikasi transport vazirligi", sector: "Transport", func: "Aviatsiya, temir yoʻl va avtomobil tashishlarni tartibga solish", linkKey: "Ministries.fourteen.link", linkText: "mintrans.uz" },
-    { org: "Oʻzbekiston Respublikasi madaniyat vazirligi", sector: "Madaniyat", func: "Madaniy merosni muhofaza qilish va teatrlarni rivojlantirish", linkKey: "Ministries.fifteen.link", linkText: "madaniyat.uz" },
-    { org: "Oʻzbekiston Respublikasi mudofaa vazirligi", sector: "Mudofaa", func: "Davlat harbiy xavfsizligini taʼminlash", linkKey: "Ministries.sixteen.link", linkText: "mudofaa.uz" },
-    { org: "Oʻzbekiston Respublikasi energetika vazirligi", sector: "Energetika", func: "Elektr energiya, gaz va elektr taʼminot", linkKey: "Ministries.seventeen.link", linkText: "minenergy.uz" },
-    { org: "Oʻzbekiston Respublikasi sogʻliqni saqlash vazirligi", sector: "Tibbiyot", func: "Tibbiy yordam tashkil etish va sanitariya nazorati", linkKey: "Ministries.eighteen.link", linkText: "ssv.uz" },
-    { org: "Oʻzbekiston Respublikasi tashqi ishlar vazirligi", sector: "Diplomatiya", func: "Xalqaro munosabatlar va konsullik yordami", linkKey: "Ministries.nineteen.link", linkText: "mfa.uz" },
-    { org: "Oʻzbekiston Respublikasi ichki ishlar vazirligi", sector: "Xavfsizlik", func: "Jamoat tartibini himoya qilish va jinoyatchilikka qarshi kurash", linkKey: "Ministries.twenty.link", linkText: "iiv.uz" },
-    { org: "Oʻzbekiston Respublikasi favqulodda vaziyatlar vazirligi", sector: "Favqulodda vaziyatlar va himoya", func: "Yongʻinlarning oldini olish va tabiiy ofatlarga javob berish", linkKey: "Ministries.twentyone.link", linkText: "fvv.uz" },
+    {
+      org: "Investitsiyalar, sanoat va savdo vazirligi",
+      sector: "Savdo va investitsiyalar",
+      func: "Investitsiyalarni jalb qilish va eksportni qoʻllab-quvvatlash",
+      linkKey: "Ministries.one.link",
+      linkText: "miit.uz",
+    },
+    {
+      org: "Iqtisodiyot va moliya vazirligi",
+      sector: "Moliya va soliqlar",
+      func: "Byudjetni boshqarish va iqtisodiy rejalashtirish",
+      linkKey: "Ministries.two.link",
+      linkText: "imv.uz",
+    },
+    {
+      org: "Kon va geologiya vazirligi",
+      sector: "Geologiya va resurslar",
+      func: "Yer osti boyliklarini qidirish va foydali qazilmalarni qazib olish",
+      linkKey: "Ministries.three.link",
+      linkText: "mingeo.uz",
+    },
+    {
+      org: "Oʻzbekiston Respublikasi qurilish va uy-joy kommunal xoʻjaligi vazirligi",
+      sector: "Qurilish",
+      func: "Arxitektura nazorati va kommunal xoʻjalik",
+      linkKey: "Ministries.four.link",
+      linkText: "mc.uz",
+    },
+    {
+      org: "Bandlik va qashshoqlikni qisqartirish vazirligi",
+      sector: "Mehnat va ijtimoiy himoya",
+      func: "Mehnat bozorini tartibga solish va ijtimoiy qoʻllab-quvvatlash",
+      linkKey: "Ministries.five.link",
+      linkText: "mehnat.uz",
+    },
+    {
+      org: "Oliy attestatsiya komissiyasi",
+      sector: "Fan va kadrlar",
+      func: "Ilmiy daraja va unvonlar berish",
+      linkKey: "Ministries.six.link",
+      linkText: "oak.uz",
+    },
+    {
+      org: "Maktabgacha va maktab taʼlimi vazirligi",
+      sector: "Taʼlim",
+      func: "Maktablar va bolalar bogʻchalari boshqaruvi",
+      linkKey: "Ministries.seven.link",
+      linkText: "uzedu.uz",
+    },
+    {
+      org: "Ekologiya, atrof-muhitni muhofaza qilish va iqlim oʻzgarishi vazirligi",
+      sector: "Ekologiya",
+      func: "Tabiatni muhofaza qilish va chiqindilarni nazorat qilish",
+      linkKey: "Ministries.eight.link",
+      linkText: "uznature.uz",
+    },
+    {
+      org: "Oʻzbekiston Respublikasi sport vazirligi",
+      sector: "Sport",
+      func: "Jismoniy madaniyat va professional sportni rivojlantirish",
+      linkKey: "Ministries.nine.link",
+      linkText: "sport.uz",
+    },
+    {
+      org: "Oʻzbekiston Respublikasi qishloq xoʻjaligi vazirligi",
+      sector: "Agrosanoat",
+      func: "Agrar soha va oziq-ovqatni rivojlantirish",
+      linkKey: "Ministries.ten.link",
+      linkText: "agro.uz",
+    },
+    {
+      org: "Oʻzbekiston Respublikasi suv xoʻjaligi vazirligi",
+      sector: "Suv resurslari",
+      func: "Suv sugʻorish va suv fondlarini boshqarish",
+      linkKey: "Ministries.eleven.link",
+      linkText: "water.gov.uz",
+    },
+    {
+      org: "Oʻzbekiston Respublikasi raqamli texnologiyalar vazirligi",
+      sector: "IT va aloqa",
+      func: "Iqtisodiyotni raqamlashtirish va IT-parklarni rivojlantirish",
+      linkKey: "Ministries.twelve.link",
+      linkText: "digital.uz",
+    },
+    {
+      org: "Oʻzbekiston Respublikasi adliya vazirligi",
+      sector: "Adliya",
+      func: "Fuqarolar huquqlarini himoya qilish va NNT roʻyxatdan oʻtkazish",
+      linkKey: "Ministries.thirteen.link",
+      linkText: "adliya.uz",
+    },
+    {
+      org: "Oʻzbekiston Respublikasi transport vazirligi",
+      sector: "Transport",
+      func: "Aviatsiya, temir yoʻl va avtomobil tashishlarni tartibga solish",
+      linkKey: "Ministries.fourteen.link",
+      linkText: "mintrans.uz",
+    },
+    {
+      org: "Oʻzbekiston Respublikasi madaniyat vazirligi",
+      sector: "Madaniyat",
+      func: "Madaniy merosni muhofaza qilish va teatrlarni rivojlantirish",
+      linkKey: "Ministries.fifteen.link",
+      linkText: "madaniyat.uz",
+    },
+    {
+      org: "Oʻzbekiston Respublikasi mudofaa vazirligi",
+      sector: "Mudofaa",
+      func: "Davlat harbiy xavfsizligini taʼminlash",
+      linkKey: "Ministries.sixteen.link",
+      linkText: "mudofaa.uz",
+    },
+    {
+      org: "Oʻzbekiston Respublikasi energetika vazirligi",
+      sector: "Energetika",
+      func: "Elektr energiya, gaz va elektr taʼminot",
+      linkKey: "Ministries.seventeen.link",
+      linkText: "minenergy.uz",
+    },
+    {
+      org: "Oʻzbekiston Respublikasi sogʻliqni saqlash vazirligi",
+      sector: "Tibbiyot",
+      func: "Tibbiy yordam tashkil etish va sanitariya nazorati",
+      linkKey: "Ministries.eighteen.link",
+      linkText: "ssv.uz",
+    },
+    {
+      org: "Oʻzbekiston Respublikasi tashqi ishlar vazirligi",
+      sector: "Diplomatiya",
+      func: "Xalqaro munosabatlar va konsullik yordami",
+      linkKey: "Ministries.nineteen.link",
+      linkText: "mfa.uz",
+    },
+    {
+      org: "Oʻzbekiston Respublikasi ichki ishlar vazirligi",
+      sector: "Xavfsizlik",
+      func: "Jamoat tartibini himoya qilish va jinoyatchilikka qarshi kurash",
+      linkKey: "Ministries.twenty.link",
+      linkText: "iiv.uz",
+    },
+    {
+      org: "Oʻzbekiston Respublikasi favqulodda vaziyatlar vazirligi",
+      sector: "Favqulodda vaziyatlar va himoya",
+      func: "Yongʻinlarning oldini olish va tabiiy ofatlarga javob berish",
+      linkKey: "Ministries.twentyone.link",
+      linkText: "fvv.uz",
+    },
   ];
   const rows = { ru, en, uz }[locale.value] || ru;
   return rows.map((row) => ({
@@ -448,9 +826,7 @@ const ministriesTableRows = computed(() => {
         </p>
       </div>
 
-      <div
-        class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
-      >
+      <div class="">
         <nuxt-link
           v-for="(item, index) in ministries.data"
           :key="index"
@@ -482,16 +858,24 @@ const ministriesTableRows = computed(() => {
         <table class="w-full text-sm border-collapse border border-[#e5e7eb]">
           <thead>
             <tr class="bg-[#f8fafc]">
-              <th class="border border-[#e5e7eb] px-4 py-3 text-left font-bold text-[#1e293b]">
+              <th
+                class="border border-[#e5e7eb] px-4 py-3 text-left font-bold text-[#1e293b]"
+              >
                 {{ ministriesTableText.colOrganization }}
               </th>
-              <th class="border border-[#e5e7eb] px-4 py-3 text-left font-bold text-[#1e293b]">
+              <th
+                class="border border-[#e5e7eb] px-4 py-3 text-left font-bold text-[#1e293b]"
+              >
                 {{ ministriesTableText.colType }}
               </th>
-              <th class="border border-[#e5e7eb] px-4 py-3 text-left font-bold text-[#1e293b]">
+              <th
+                class="border border-[#e5e7eb] px-4 py-3 text-left font-bold text-[#1e293b]"
+              >
                 {{ ministriesTableText.colFunction }}
               </th>
-              <th class="border border-[#e5e7eb] px-4 py-3 text-center font-bold text-[#1e293b]">
+              <th
+                class="border border-[#e5e7eb] px-4 py-3 text-center font-bold text-[#1e293b]"
+              >
                 {{ ministriesTableText.colSite }}
               </th>
             </tr>
@@ -502,7 +886,9 @@ const ministriesTableRows = computed(() => {
               :key="'table-' + i"
               class="hover:bg-slate-50 transition-colors"
             >
-              <td class="border border-[#e5e7eb] px-4 py-3 font-medium text-[#111]">
+              <td
+                class="border border-[#e5e7eb] px-4 py-3 font-medium text-[#111]"
+              >
                 {{ row.org }}
               </td>
               <td class="border border-[#e5e7eb] px-4 py-3">

@@ -107,9 +107,7 @@ useHead(() => ({
         </p>
       </div>
 
-      <div
-        class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
-      >
+      <div class="">
         <nuxt-link
           v-for="(item, index) in allOrganizations"
           :key="`${item.category}-${item.slug}-${index}`"

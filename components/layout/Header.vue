@@ -82,6 +82,10 @@ onMounted(() => {});
     width: 45px;
     display: none;
 
+    @media (max-width: 768px) {
+      left: -26px;
+    }
+
     li {
       padding: 6px 10px;
       &:hover {

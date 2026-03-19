@@ -113,9 +113,7 @@ const categoryLinks = computed(() => [
           <h2 class="font-semibold text-lg mb-4">
             {{ content.popularTitle }}
           </h2>
-          <div
-            class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1 mb-8"
-          >
+          <div class="mb-8">
             <nuxt-link
               v-for="(item, index) in popularOrganizations"
               :key="`${item.category}-${item.slug}-${index}`"

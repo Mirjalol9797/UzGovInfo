@@ -9,19 +9,22 @@ const state = useState();
 const schemaOrgData = computed(() => {
   const ru = {
     name: "Государственные органы Республики Узбекистан",
-    description: "Каталог государственных органов Узбекистана с ссылками на официальные сайты.",
+    description:
+      "Каталог государственных органов Узбекистана с ссылками на официальные сайты.",
     url: "https://govinfo.uz/state",
     inLanguage: "ru",
   };
   const en = {
     name: "State Bodies of the Republic of Uzbekistan",
-    description: "Catalog of state bodies of Uzbekistan with links to official websites.",
+    description:
+      "Catalog of state bodies of Uzbekistan with links to official websites.",
     url: "https://govinfo.uz/en/state",
     inLanguage: "en",
   };
   const uz = {
     name: "Oʻzbekiston Respublikasi davlat organlari",
-    description: "Oʻzbekiston davlat organlari katalogi rasmiy saytlar havolalari bilan.",
+    description:
+      "Oʻzbekiston davlat organlari katalogi rasmiy saytlar havolalari bilan.",
     url: "https://govinfo.uz/uz/state",
     inLanguage: "uz",
   };
@@ -242,40 +245,220 @@ const stateTableText = computed(() => {
 
 const stateTableRows = computed(() => {
   const ru = [
-    { orgKey: "State.one.title", type: "Агентство", func: "Статистика, демография, экономические и социальные отчёты", linkKey: "State.one.link", linkText: "stat.uz" },
-    { orgKey: "State.two.title", type: "Комитет", func: "Налогообложение, налоговый контроль и услуги", linkKey: "State.two.link", linkText: "soliq.uz" },
-    { orgKey: "State.three.title", type: "Комитет", func: "Таможенное регулирование и контроль", linkKey: "State.three.link", linkText: "customs.uz" },
-    { orgKey: "State.four.title", type: "Министерство", func: "Экология, охрана окружающей среды и климат", linkKey: "State.four.link", linkText: "uznature.uz" },
-    { orgKey: "State.five.title", type: "Агентство", func: "Лесное хозяйство и экологический туризм", linkKey: "State.five.link", linkText: "urmon.gov.uz" },
-    { orgKey: "State.six.title", type: "Министерство", func: "Горнодобыча, геология и минеральные ресурсы", linkKey: "State.six.link", linkText: "gov.uz/mingeo" },
-    { orgKey: "State.seven.title", type: "Комитет", func: "Земельные ресурсы, геодезия, кадастр", linkKey: "State.seven.link", linkText: "kadastr.uz" },
-    { orgKey: "State.eight.title", type: "Комитет", func: "Ветеринария и животноводство", linkKey: "State.eight.link", linkText: "vetgov.uz" },
-    { orgKey: "State.nine.title", type: "Комитет", func: "Автомобильные дороги и транспорт", linkKey: "State.nine.link", linkText: "uzavtoyul.uz" },
-    { orgKey: "State.ten.title", type: "Комитет", func: "Развитие туризма", linkKey: "State.ten.link", linkText: "uzbektourism.uz" },
+    {
+      orgKey: "State.one.title",
+      type: "Агентство",
+      func: "Статистика, демография, экономические и социальные отчёты",
+      linkKey: "State.one.link",
+      linkText: "stat.uz",
+    },
+    {
+      orgKey: "State.two.title",
+      type: "Комитет",
+      func: "Налогообложение, налоговый контроль и услуги",
+      linkKey: "State.two.link",
+      linkText: "soliq.uz",
+    },
+    {
+      orgKey: "State.three.title",
+      type: "Комитет",
+      func: "Таможенное регулирование и контроль",
+      linkKey: "State.three.link",
+      linkText: "customs.uz",
+    },
+    {
+      orgKey: "State.four.title",
+      type: "Министерство",
+      func: "Экология, охрана окружающей среды и климат",
+      linkKey: "State.four.link",
+      linkText: "uznature.uz",
+    },
+    {
+      orgKey: "State.five.title",
+      type: "Агентство",
+      func: "Лесное хозяйство и экологический туризм",
+      linkKey: "State.five.link",
+      linkText: "urmon.gov.uz",
+    },
+    {
+      orgKey: "State.six.title",
+      type: "Министерство",
+      func: "Горнодобыча, геология и минеральные ресурсы",
+      linkKey: "State.six.link",
+      linkText: "gov.uz/mingeo",
+    },
+    {
+      orgKey: "State.seven.title",
+      type: "Комитет",
+      func: "Земельные ресурсы, геодезия, кадастр",
+      linkKey: "State.seven.link",
+      linkText: "kadastr.uz",
+    },
+    {
+      orgKey: "State.eight.title",
+      type: "Комитет",
+      func: "Ветеринария и животноводство",
+      linkKey: "State.eight.link",
+      linkText: "vetgov.uz",
+    },
+    {
+      orgKey: "State.nine.title",
+      type: "Комитет",
+      func: "Автомобильные дороги и транспорт",
+      linkKey: "State.nine.link",
+      linkText: "uzavtoyul.uz",
+    },
+    {
+      orgKey: "State.ten.title",
+      type: "Комитет",
+      func: "Развитие туризма",
+      linkKey: "State.ten.link",
+      linkText: "uzbektourism.uz",
+    },
   ];
   const en = [
-    { orgKey: "State.one.title", type: "Agency", func: "Statistics, demography, economic and social reports", linkKey: "State.one.link", linkText: "stat.uz" },
-    { orgKey: "State.two.title", type: "Committee", func: "Taxation, tax control and services", linkKey: "State.two.link", linkText: "soliq.uz" },
-    { orgKey: "State.three.title", type: "Committee", func: "Customs regulation and control", linkKey: "State.three.link", linkText: "customs.uz" },
-    { orgKey: "State.four.title", type: "Ministry", func: "Ecology, environmental protection and climate", linkKey: "State.four.link", linkText: "uznature.uz" },
-    { orgKey: "State.five.title", type: "Agency", func: "Forestry and ecotourism", linkKey: "State.five.link", linkText: "urmon.gov.uz" },
-    { orgKey: "State.six.title", type: "Ministry", func: "Mining, geology and mineral resources", linkKey: "State.six.link", linkText: "gov.uz/mingeo" },
-    { orgKey: "State.seven.title", type: "Committee", func: "Land resources, geodesy, cadastre", linkKey: "State.seven.link", linkText: "kadastr.uz" },
-    { orgKey: "State.eight.title", type: "Committee", func: "Veterinary and livestock", linkKey: "State.eight.link", linkText: "vetgov.uz" },
-    { orgKey: "State.nine.title", type: "Committee", func: "Roads and transport", linkKey: "State.nine.link", linkText: "uzavtoyul.uz" },
-    { orgKey: "State.ten.title", type: "Committee", func: "Tourism development", linkKey: "State.ten.link", linkText: "uzbektourism.uz" },
+    {
+      orgKey: "State.one.title",
+      type: "Agency",
+      func: "Statistics, demography, economic and social reports",
+      linkKey: "State.one.link",
+      linkText: "stat.uz",
+    },
+    {
+      orgKey: "State.two.title",
+      type: "Committee",
+      func: "Taxation, tax control and services",
+      linkKey: "State.two.link",
+      linkText: "soliq.uz",
+    },
+    {
+      orgKey: "State.three.title",
+      type: "Committee",
+      func: "Customs regulation and control",
+      linkKey: "State.three.link",
+      linkText: "customs.uz",
+    },
+    {
+      orgKey: "State.four.title",
+      type: "Ministry",
+      func: "Ecology, environmental protection and climate",
+      linkKey: "State.four.link",
+      linkText: "uznature.uz",
+    },
+    {
+      orgKey: "State.five.title",
+      type: "Agency",
+      func: "Forestry and ecotourism",
+      linkKey: "State.five.link",
+      linkText: "urmon.gov.uz",
+    },
+    {
+      orgKey: "State.six.title",
+      type: "Ministry",
+      func: "Mining, geology and mineral resources",
+      linkKey: "State.six.link",
+      linkText: "gov.uz/mingeo",
+    },
+    {
+      orgKey: "State.seven.title",
+      type: "Committee",
+      func: "Land resources, geodesy, cadastre",
+      linkKey: "State.seven.link",
+      linkText: "kadastr.uz",
+    },
+    {
+      orgKey: "State.eight.title",
+      type: "Committee",
+      func: "Veterinary and livestock",
+      linkKey: "State.eight.link",
+      linkText: "vetgov.uz",
+    },
+    {
+      orgKey: "State.nine.title",
+      type: "Committee",
+      func: "Roads and transport",
+      linkKey: "State.nine.link",
+      linkText: "uzavtoyul.uz",
+    },
+    {
+      orgKey: "State.ten.title",
+      type: "Committee",
+      func: "Tourism development",
+      linkKey: "State.ten.link",
+      linkText: "uzbektourism.uz",
+    },
   ];
   const uz = [
-    { orgKey: "State.one.title", type: "Agentlik", func: "Statistika, demografiya, iqtisodiy va ijtimoiy hisobotlar", linkKey: "State.one.link", linkText: "stat.uz" },
-    { orgKey: "State.two.title", type: "Qoʻmita", func: "Soliqqa tortish, soliq nazorati va xizmatlar", linkKey: "State.two.link", linkText: "soliq.uz" },
-    { orgKey: "State.three.title", type: "Qoʻmita", func: "Bojxona tartibga solishi va nazorati", linkKey: "State.three.link", linkText: "customs.uz" },
-    { orgKey: "State.four.title", type: "Vazirlik", func: "Ekologiya, atrof-muhitni muhofaza qilish va iqlim", linkKey: "State.four.link", linkText: "uznature.uz" },
-    { orgKey: "State.five.title", type: "Agentlik", func: "Oʻrmon xoʻjaligi va ekologik turizm", linkKey: "State.five.link", linkText: "urmon.gov.uz" },
-    { orgKey: "State.six.title", type: "Vazirlik", func: "Konchilik, geologiya va mineral resurslar", linkKey: "State.six.link", linkText: "gov.uz/mingeo" },
-    { orgKey: "State.seven.title", type: "Qoʻmita", func: "Yer resurslari, geodeziya, kadastr", linkKey: "State.seven.link", linkText: "kadastr.uz" },
-    { orgKey: "State.eight.title", type: "Qoʻmita", func: "Veterinariya va chorvachilik", linkKey: "State.eight.link", linkText: "vetgov.uz" },
-    { orgKey: "State.nine.title", type: "Qoʻmita", func: "Avtomobil yoʻllari va transport", linkKey: "State.nine.link", linkText: "uzavtoyul.uz" },
-    { orgKey: "State.ten.title", type: "Qoʻmita", func: "Turizmni rivojlantirish", linkKey: "State.ten.link", linkText: "uzbektourism.uz" },
+    {
+      orgKey: "State.one.title",
+      type: "Agentlik",
+      func: "Statistika, demografiya, iqtisodiy va ijtimoiy hisobotlar",
+      linkKey: "State.one.link",
+      linkText: "stat.uz",
+    },
+    {
+      orgKey: "State.two.title",
+      type: "Qoʻmita",
+      func: "Soliqqa tortish, soliq nazorati va xizmatlar",
+      linkKey: "State.two.link",
+      linkText: "soliq.uz",
+    },
+    {
+      orgKey: "State.three.title",
+      type: "Qoʻmita",
+      func: "Bojxona tartibga solishi va nazorati",
+      linkKey: "State.three.link",
+      linkText: "customs.uz",
+    },
+    {
+      orgKey: "State.four.title",
+      type: "Vazirlik",
+      func: "Ekologiya, atrof-muhitni muhofaza qilish va iqlim",
+      linkKey: "State.four.link",
+      linkText: "uznature.uz",
+    },
+    {
+      orgKey: "State.five.title",
+      type: "Agentlik",
+      func: "Oʻrmon xoʻjaligi va ekologik turizm",
+      linkKey: "State.five.link",
+      linkText: "urmon.gov.uz",
+    },
+    {
+      orgKey: "State.six.title",
+      type: "Vazirlik",
+      func: "Konchilik, geologiya va mineral resurslar",
+      linkKey: "State.six.link",
+      linkText: "gov.uz/mingeo",
+    },
+    {
+      orgKey: "State.seven.title",
+      type: "Qoʻmita",
+      func: "Yer resurslari, geodeziya, kadastr",
+      linkKey: "State.seven.link",
+      linkText: "kadastr.uz",
+    },
+    {
+      orgKey: "State.eight.title",
+      type: "Qoʻmita",
+      func: "Veterinariya va chorvachilik",
+      linkKey: "State.eight.link",
+      linkText: "vetgov.uz",
+    },
+    {
+      orgKey: "State.nine.title",
+      type: "Qoʻmita",
+      func: "Avtomobil yoʻllari va transport",
+      linkKey: "State.nine.link",
+      linkText: "uzavtoyul.uz",
+    },
+    {
+      orgKey: "State.ten.title",
+      type: "Qoʻmita",
+      func: "Turizmni rivojlantirish",
+      linkKey: "State.ten.link",
+      linkText: "uzbektourism.uz",
+    },
   ];
   const rows = { ru, en, uz }[locale.value] || ru;
   return rows.map((row) => ({
@@ -295,7 +478,8 @@ const otherGovBodiesText = computed(() => {
       { href: "/ministries", text: "Министерства" },
       { href: "/inspections", text: "Государственные инспекции" },
     ],
-    closing: "Эти разделы помогут получить комплексное представление о системе государственной власти страны.",
+    closing:
+      "Эти разделы помогут получить комплексное представление о системе государственной власти страны.",
   };
   const en = {
     h2: "Other State Bodies of Uzbekistan",
@@ -306,7 +490,8 @@ const otherGovBodiesText = computed(() => {
       { href: "/ministries", text: "Ministries" },
       { href: "/inspections", text: "State Inspections" },
     ],
-    closing: "These sections will help you get a comprehensive understanding of the country's system of state power.",
+    closing:
+      "These sections will help you get a comprehensive understanding of the country's system of state power.",
   };
   const uz = {
     h2: "Oʻzbekistonning boshqa davlat organlari",
@@ -317,7 +502,8 @@ const otherGovBodiesText = computed(() => {
       { href: "/ministries", text: "Vazirliklar" },
       { href: "/inspections", text: "Davlat inspeksiyalari" },
     ],
-    closing: "Ushbu boʻlimlar mamlakat davlat hokimiyati tizimi haqida kompleks tushuncha olishga yordam beradi.",
+    closing:
+      "Ushbu boʻlimlar mamlakat davlat hokimiyati tizimi haqida kompleks tushuncha olishga yordam beradi.",
   };
   const map = { ru, en, uz };
   return map[locale.value] || map.ru;
@@ -346,9 +532,7 @@ const otherGovBodiesText = computed(() => {
           </p>
         </div>
 
-        <div
-          class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
-        >
+        <div class="">
           <nuxt-link
             v-for="(item, index) in state.data"
             :key="index"
@@ -380,16 +564,24 @@ const otherGovBodiesText = computed(() => {
           <table class="w-full text-sm border-collapse border border-[#e5e7eb]">
             <thead>
               <tr class="bg-[#f8fafc]">
-                <th class="border border-[#e5e7eb] px-4 py-3 text-left font-bold text-[#1e293b]">
+                <th
+                  class="border border-[#e5e7eb] px-4 py-3 text-left font-bold text-[#1e293b]"
+                >
                   {{ stateTableText.colOrganization }}
                 </th>
-                <th class="border border-[#e5e7eb] px-4 py-3 text-left font-bold text-[#1e293b]">
+                <th
+                  class="border border-[#e5e7eb] px-4 py-3 text-left font-bold text-[#1e293b]"
+                >
                   {{ stateTableText.colType }}
                 </th>
-                <th class="border border-[#e5e7eb] px-4 py-3 text-left font-bold text-[#1e293b]">
+                <th
+                  class="border border-[#e5e7eb] px-4 py-3 text-left font-bold text-[#1e293b]"
+                >
                   {{ stateTableText.colFunction }}
                 </th>
-                <th class="border border-[#e5e7eb] px-4 py-3 text-center font-bold text-[#1e293b]">
+                <th
+                  class="border border-[#e5e7eb] px-4 py-3 text-center font-bold text-[#1e293b]"
+                >
                   {{ stateTableText.colSite }}
                 </th>
               </tr>
@@ -400,7 +592,9 @@ const otherGovBodiesText = computed(() => {
                 :key="'table-' + i"
                 class="hover:bg-slate-50 transition-colors"
               >
-                <td class="border border-[#e5e7eb] px-4 py-3 font-semibold text-[#111]">
+                <td
+                  class="border border-[#e5e7eb] px-4 py-3 font-semibold text-[#111]"
+                >
                   {{ row.org }}
                 </td>
                 <td class="border border-[#e5e7eb] px-4 py-3">

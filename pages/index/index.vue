@@ -7,6 +7,7 @@ import Seo from "../../components/Seo/MainPageSeo.vue";
 import SiteDescription from "@/components/mainPage/SiteDescription.vue";
 import HowUseSite from "@/components/mainPage/HowUseSite.vue";
 import WhySiteCreated from "@/components/mainPage/WhySiteCreated.vue";
+import HeroSearch from "@/components/HeroSearch.vue";
 
 const { t } = useI18n();
 const headquarters = useHeadquarters();
@@ -62,6 +63,9 @@ const categoryCards = computed(() => [
     <div class="site-container">
       <!-- Описание сайта -->
       <SiteDescription class="mb-10 768:mb-6" />
+
+        <!-- Поиск -->
+        <HeroSearch />
 
       <!-- Все категории -->
       <section class="mb-10 768:mb-6">

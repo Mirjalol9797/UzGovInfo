@@ -47,7 +47,11 @@ const whatFind = computed(() => content.value?.whatFind || null);
 const whyUse = computed(() => content.value?.whyUse || null);
 
 const otherSites = computed(() => {
-  if (!content.value?.otherSites?.h2 || !props.category || !props.otherItems?.length)
+  if (
+    !content.value?.otherSites?.h2 ||
+    !props.category ||
+    !props.otherItems?.length
+  )
     return null;
   return {
     h2: content.value.otherSites.h2,
@@ -129,7 +133,9 @@ const schemaOrgData = computed(() => {
   const path = route.fullPath;
   const url = `https://govinfo.uz${path}`;
   const name = pageTitle.value || t(title);
-  const description = schema?.description || t(props.oneData?.seo?.description || "brief_description_site");
+  const description =
+    schema?.description ||
+    t(props.oneData?.seo?.description || "brief_description_site");
   const orgName = schema?.orgName || t(title);
   const sameAs = schema?.sameAs || (link ? t(link) : "");
 
@@ -164,7 +170,7 @@ useHead(() => ({
     <div class="site-container py-6 md:py-10">
       <!-- Full content layout -->
       <template v-if="hasFullContent">
-        <h1 class="mb-6 font-medium text-xl md:text-2xl 480:!text-lg">
+        <h1 class="mb-6 font-medium text-2xl 768:text-xl 480:!text-lg">
           {{ pageTitle || (oneData?.title ? t(oneData.title) : "") }}
         </h1>
 
@@ -211,11 +217,18 @@ useHead(() => ({
               >
                 <div class="w-5 h-5" v-html="getIcon(item.icon)"></div>
               </div>
-              <div class="font-semibold text-[#1e293b] mb-1">{{ item.title }}</div>
-              <div class="text-sm text-[#6b7280] leading-relaxed">{{ item.desc }}</div>
+              <div class="font-semibold text-[#1e293b] mb-1">
+                {{ item.title }}
+              </div>
+              <div class="text-sm text-[#6b7280] leading-relaxed">
+                {{ item.desc }}
+              </div>
             </div>
           </div>
-          <p v-if="whatFind.closing" class="text-[#4B5563] leading-7 text-base 768:text-sm">
+          <p
+            v-if="whatFind.closing"
+            class="text-[#4B5563] leading-7 text-base 768:text-sm"
+          >
             {{ whatFind.closing }}
           </p>
         </div>
@@ -244,10 +257,7 @@ useHead(() => ({
             {{ otherSites.h2 }}
           </h2>
           <ul class="list-disc list-inside space-y-1">
-            <li
-              v-for="(link, i) in otherSites.links"
-              :key="'other-' + i"
-            >
+            <li v-for="(link, i) in otherSites.links" :key="'other-' + i">
               <NuxtLink
                 :to="localePath(link.href)"
                 class="text-[#2563eb] hover:underline"
@@ -263,10 +273,7 @@ useHead(() => ({
             {{ allCategories.h2 }}
           </h2>
           <ul class="list-disc list-inside space-y-1">
-            <li
-              v-for="(link, i) in allCategories.links"
-              :key="'cat-' + i"
-            >
+            <li v-for="(link, i) in allCategories.links" :key="'cat-' + i">
               <NuxtLink
                 :to="localePath(link.href)"
                 class="text-[#2563eb] hover:underline"
@@ -304,13 +311,19 @@ useHead(() => ({
         <div class="mb-6">
           <span class="font-medium">{{ t("link_to_official_website") }}</span
           >:
-          <a :href="oneData?.link ? t(oneData.link) : '#'" target="_blank" class="!text-[#315efb]">{{
-            oneData?.link ? t(oneData.link) : ""
-          }}</a>
+          <a
+            :href="oneData?.link ? t(oneData.link) : '#'"
+            target="_blank"
+            class="!text-[#315efb]"
+            >{{ oneData?.link ? t(oneData.link) : "" }}</a
+          >
         </div>
         <div>
           <div class="mb-2 font-medium">{{ t("brief_description_site") }}</div>
-          <div v-html="oneData?.description ? t(oneData.description) : ''" class="mb-6 text-justify"></div>
+          <div
+            v-html="oneData?.description ? t(oneData.description) : ''"
+            class="mb-6 text-justify"
+          ></div>
           <div class="overflow-hidden">
             <img
               :src="oneData?.seo?.image"

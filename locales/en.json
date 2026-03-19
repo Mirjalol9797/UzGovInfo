@@ -819,5 +819,23 @@
     "roads": "Road Infrastructure",
     "tourism": "Tourism",
     "waterSupply": "Water Supply"
+  },
+  "heroSearch": {
+    "heading": "Search official websites",
+    "subheading": "Quickly find a ministry, agency or organization.",
+    "placeholder": "Find a ministry, agency or website...",
+    "ariaLabel": "Search",
+    "searchButton": "Search",
+    "popularTitle": "Popular searches",
+    "resultsTitle": "Organizations",
+    "nothingFound": "Nothing found",
+    "popular": {
+      "president": "President",
+      "gosuslugi": "Gosuslugi",
+      "tax": "Tax office",
+      "mvd": "MVD",
+      "centralBank": "Central bank",
+      "education": "Education"
+    }
   }
 }

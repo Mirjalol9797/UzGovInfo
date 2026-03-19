@@ -819,5 +819,23 @@
     "roads": "Yoʻl xoʻjaligi",
     "tourism": "Turizm",
     "waterSupply": "Suv taʼminoti"
+  },
+  "heroSearch": {
+    "heading": "Rasmiy veb-saytlarni qidirish",
+    "subheading": "Vazirlik, idora yoki tashkilotni tez toping.",
+    "placeholder": "Vazirlik, idora yoki saytni toping...",
+    "ariaLabel": "Qidirish",
+    "searchButton": "Qidirish",
+    "popularTitle": "Ommabop so'rovlar",
+    "resultsTitle": "Tashkilotlar",
+    "nothingFound": "Hech narsa topilmadi",
+    "popular": {
+      "president": "Prezident",
+      "gosuslugi": "Davlat xizmatlari",
+      "tax": "Soliq",
+      "mvd": "Ichki ishlar vazirligi",
+      "centralBank": "Markaziy bank",
+      "education": "Taʼlim"
+    }
   }
 }
