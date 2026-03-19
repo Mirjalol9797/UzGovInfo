@@ -86,7 +86,7 @@ useHead(() => ({
 
     <div
       v-if="query.trim() && results.length"
-      class="grid grid-cols-5 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
+      class="grid grid-cols-5 gap-3 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
     >
       <nuxt-link
         v-for="org in results"
