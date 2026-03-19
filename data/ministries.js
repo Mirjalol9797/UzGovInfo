@@ -41,7 +41,7 @@ export default function ministries() {
         description: "Ministries.three.description",
         shortDesc: "Ministries.three.shortDesc",
         tag: "tags.mining",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/34/2025/04/17/4ebd20c1-df3c-4f70-1ce9-caf7ee2555ea_authority_34.jpg",
         link: "Ministries.three.link",
         seo: {
           title: "Ministries.three.seo.title",
@@ -57,7 +57,7 @@ export default function ministries() {
         description: "Ministries.four.description",
         shortDesc: "Ministries.four.shortDesc",
         tag: "tags.construction",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/14/2025/06/20/83b74441-314a-3438-885a-023959efb225_authority_14.png",
         link: "Ministries.four.link",
         seo: {
           title: "Ministries.four.seo.title",
@@ -121,7 +121,7 @@ export default function ministries() {
         description: "Ministries.eight.description",
         shortDesc: "Ministries.eight.shortDesc",
         tag: "tags.ecology",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/33/2025/06/20/4064b959-7f00-2480-ce97-3a0bf1f02553_authority_33.png",
         link: "Ministries.eight.link",
         seo: {
           title: "Ministries.eight.seo.title",
@@ -137,7 +137,7 @@ export default function ministries() {
         description: "Ministries.nine.description",
         shortDesc: "Ministries.nine.shortDesc",
         tag: "tags.sports",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/21/2025/06/20/c3656c22-e596-e339-615c-5c91b9f77c3a_authority_21.jpg",
         link: "Ministries.nine.link",
         seo: {
           title: "Ministries.nine.seo.title",
@@ -185,7 +185,7 @@ export default function ministries() {
         description: "Ministries.twelve.description",
         shortDesc: "Ministries.twelve.shortDesc",
         tag: "tags.digital",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/17/2025/06/20/3a596ff3-a1ab-526d-1f33-da8943ddfd03_authority_17.png",
         link: "Ministries.twelve.link",
         seo: {
           title: "Ministries.twelve.seo.title",
@@ -201,7 +201,7 @@ export default function ministries() {
         description: "Ministries.thirteen.description",
         shortDesc: "Ministries.thirteen.shortDesc",
         tag: "tags.law",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/18/2025/06/20/a4110d33-8362-8349-949f-fde230328570_authority_18.jpg",
         link: "Ministries.thirteen.link",
         seo: {
           title: "Ministries.thirteen.seo.title",
@@ -217,7 +217,7 @@ export default function ministries() {
         description: "Ministries.fourteen.description",
         shortDesc: "Ministries.fourteen.shortDesc",
         tag: "tags.transport",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/5/2025/06/20/e7000995-febd-2a20-119b-c17edfcc31ab_authority_5.png",
         link: "Ministries.fourteen.link",
         seo: {
           title: "Ministries.fourteen.seo.title",
@@ -233,7 +233,7 @@ export default function ministries() {
         description: "Ministries.fifteen.description",
         shortDesc: "Ministries.fifteen.shortDesc",
         tag: "tags.culture",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/19/2025/06/20/068812a9-b916-337f-c7f3-86fc511c9bcb_authority_19.png",
         link: "Ministries.fifteen.link",
         seo: {
           title: "Ministries.fifteen.seo.title",
@@ -249,7 +249,7 @@ export default function ministries() {
         description: "Ministries.sixteen.description",
         shortDesc: "Ministries.sixteen.shortDesc",
         tag: "tags.defense",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/12/2025/06/20/5257b256-944d-ed13-20d1-c79b659a0791_authority_12.png",
         link: "Ministries.sixteen.link",
         seo: {
           title: "Ministries.sixteen.seo.title",
@@ -313,7 +313,7 @@ export default function ministries() {
         description: "Ministries.twenty.description",
         shortDesc: "Ministries.twenty.shortDesc",
         tag: "tags.security",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/11/2025/06/20/bb2944ea-ddc9-d0db-1c81-7036951a758d_authority_11.png",
         link: "Ministries.twenty.link",
         seo: {
           title: "Ministries.twenty.seo.title",
@@ -329,7 +329,7 @@ export default function ministries() {
         description: "Ministries.twentyone.description",
         shortDesc: "Ministries.twentyone.shortDesc",
         tag: "tags.security",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/13/2025/06/20/b5e12669-34a9-75a0-d711-82a16ec6cd29_authority_13.png",
         link: "Ministries.twentyone.link",
         seo: {
           title: "Ministries.twentyone.seo.title",
