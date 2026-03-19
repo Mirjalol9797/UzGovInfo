@@ -11,19 +11,41 @@ const title = computed(() => t(props.titleKey));
 const description = computed(() =>
   props.descriptionKey ? t(props.descriptionKey) : t("brief_description_site")
 );
-</script>
 
-<template>
-  <Head>
-    <Title>{{ title }}</Title>
-    <Meta name="description" :content="description" />
-    <Meta property="og:title" :content="title" />
-    <Meta property="og:description" :content="description" />
-    <Meta property="og:image" content="https://govinfo.uz/images/gerb.png" />
-    <Meta property="og:url" :content="`https://govinfo.uz${route.fullPath}`" />
-    <Meta name="twitter:title" :content="title" />
-    <Meta name="twitter:description" :content="description" />
-    <Meta name="twitter:url" :content="`https://govinfo.uz${route.fullPath}`" />
-    <Meta name="twitter:image" content="https://govinfo.uz/images/gerb.png" />
-  </Head>
-</template>
+useHead(
+  computed(() => ({
+    title: title.value,
+    meta: [
+      { name: "title", content: title.value },
+      { name: "description", content: description.value },
+      {
+        property: "og:title",
+        content: title.value,
+        key: "og:title",
+      },
+      {
+        property: "og:description",
+        content: description.value,
+        key: "og:description",
+      },
+      { property: "og:image", content: "https://govinfo.uz/images/gerb.png" },
+      {
+        property: "og:url",
+        content: `https://govinfo.uz${route.fullPath}`,
+      },
+      { name: "twitter:title", content: title.value, key: "twitter:title" },
+      {
+        name: "twitter:description",
+        content: description.value,
+        key: "twitter:description",
+      },
+      {
+        name: "twitter:url",
+        content: `https://govinfo.uz${route.fullPath}`,
+      },
+      { name: "twitter:image", content: "https://govinfo.uz/images/gerb.png" },
+    ],
+    tagPriority: 100,
+  }))
+);
+</script>
