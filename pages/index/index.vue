@@ -15,7 +15,6 @@ const headquarters = useHeadquarters();
 const ministries = useMinistries();
 const state = useState();
 const inspections = useInspections();
-
 </script>
 
 <template>
@@ -71,7 +70,7 @@ const inspections = useInspections();
           class="grid grid-cols-5 gap-3 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
         >
           <nuxt-link
-            :to="`headquarters/${item.slug}`"
+            :to="localePath(`/headquarters/${item.slug}`)"
             class="link-block"
             v-for="(item, index) in headquarters.data"
             :key="index"
@@ -144,7 +143,7 @@ const inspections = useInspections();
           class="grid grid-cols-5 gap-3 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
         >
           <nuxt-link
-            :to="`ministries/${item.slug}`"
+            :to="localePath(`/ministries/${item.slug}`)"
             class="link-block"
             v-for="(item, index) in ministries.data"
             :key="index"
@@ -214,7 +213,7 @@ const inspections = useInspections();
           class="grid grid-cols-5 gap-3 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
         >
           <nuxt-link
-            :to="`state/${item.slug}`"
+            :to="localePath(`/state/${item.slug}`)"
             class="link-block"
             v-for="(item, index) in state.data"
             :key="index"
@@ -279,7 +278,7 @@ const inspections = useInspections();
           class="grid grid-cols-5 gap-3 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
         >
           <nuxt-link
-            :to="`inspections/${item.slug}`"
+            :to="localePath(`/inspections/${item.slug}`)"
             class="link-block"
             v-for="(item, index) in inspections.data"
             :key="index"

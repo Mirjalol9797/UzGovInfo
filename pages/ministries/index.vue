@@ -70,9 +70,18 @@ const schemaOrgData = computed(() => {
 useHead({
   title: () => seoData.value.title,
   meta: [
+    { name: "title", content: () => seoData.value.title },
     { name: "description", content: () => seoData.value.description },
-    { property: "og:title", content: () => seoData.value.title },
-    { property: "og:description", content: () => seoData.value.description },
+    {
+      property: "og:title",
+      content: () => seoData.value.title,
+      key: "og:title",
+    },
+    {
+      property: "og:description",
+      content: () => seoData.value.description,
+      key: "og:description",
+    },
     { property: "og:image", content: "https://govinfo.uz/images/gerb.png" },
     {
       property: "og:url",
@@ -81,8 +90,16 @@ useHead({
           locale.value === "ru" ? "" : "/" + locale.value
         }/ministries`,
     },
-    { name: "twitter:title", content: () => seoData.value.title },
-    { name: "twitter:description", content: () => seoData.value.description },
+    {
+      name: "twitter:title",
+      content: () => seoData.value.title,
+      key: "twitter:title",
+    },
+    {
+      name: "twitter:description",
+      content: () => seoData.value.description,
+      key: "twitter:description",
+    },
     {
       name: "twitter:url",
       content: () =>
@@ -92,6 +109,7 @@ useHead({
     },
     { name: "twitter:image", content: "https://govinfo.uz/images/gerb.png" },
   ],
+  tagPriority: 100,
   script: [
     {
       type: "application/ld+json",

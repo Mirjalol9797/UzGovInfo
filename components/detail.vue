@@ -92,6 +92,7 @@ const otherSites = computed(() => {
       .map((item) => ({
         text: t(item.title),
         icon: slugToIcon(item.slug),
+        href: `/${props.category}/${item.slug}`,
       })),
   };
 });
@@ -196,9 +197,22 @@ useHead(() => ({
     <div class="site-container">
       <!-- Full content layout -->
       <template v-if="hasFullContent">
-        <h1 class="mb-6 font-medium text-2xl 768:text-xl 480:!text-lg">
-          {{ pageTitle || (oneData?.title ? t(oneData.title) : "") }}
-        </h1>
+        <div
+          class="mb-6 font-medium text-2xl 768:text-xl 480:!text-lg flex items-center"
+        >
+          <template v-if="locale === 'uz'">
+            <h1 class="font-medium text-2xl 768:text-xl 480:!text-lg">
+              {{ pageTitle || (oneData?.title ? t(oneData.title) : "") }}
+            </h1>
+            <div>{{ t("go_to") }}</div>
+          </template>
+          <template v-else>
+            <div>{{ t("go_to") }}&nbsp;</div>
+            <h1 class="font-medium text-2xl 768:text-xl 480:!text-lg">
+              {{ pageTitle || (oneData?.title ? t(oneData.title) : "") }}
+            </h1>
+          </template>
+        </div>
 
         <div
           v-if="intro.length"
@@ -341,10 +355,11 @@ useHead(() => ({
             {{ otherSites.h2 }}
           </h2>
           <div class="grid grid-cols-4 768:grid-cols-2 576:!grid-cols-1 gap-4">
-            <div
+            <NuxtLink
               v-for="(item, i) in otherSites.items"
               :key="'other-' + i"
-              class="rounded-xl border border-[#e5e7eb] bg-white p-4 flex items-center gap-3"
+              :to="localePath(item.href)"
+              class="rounded-xl border border-[#e5e7eb] bg-white p-4 flex items-center gap-3 transition hover:border-[#2563eb]/40 hover:bg-[#f8fafc]"
             >
               <div
                 class="w-10 h-10 rounded-lg flex items-center justify-center shrink-0"
@@ -355,7 +370,7 @@ useHead(() => ({
               <p class="font-medium text-[#111827] text-sm leading-snug">
                 {{ item.text }}
               </p>
-            </div>
+            </NuxtLink>
           </div>
         </div>
 
