@@ -64,8 +64,8 @@ const categoryCards = computed(() => [
       <!-- Описание сайта -->
       <SiteDescription class="mb-10 768:mb-6" />
 
-        <!-- Поиск -->
-        <HeroSearch />
+      <!-- Поиск -->
+      <HeroSearch />
 
       <!-- Все категории -->
       <section class="mb-10 768:mb-6">
@@ -133,7 +133,7 @@ const categoryCards = computed(() => [
           }}</nuxt-link>
         </div>
         <div
-          class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
+          class="grid grid-cols-5 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
         >
           <nuxt-link
             :to="`headquarters/${item.slug}`"
@@ -206,7 +206,7 @@ const categoryCards = computed(() => [
           }}</nuxt-link>
         </div>
         <div
-          class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
+          class="grid grid-cols-5 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
         >
           <nuxt-link
             :to="`ministries/${item.slug}`"
@@ -276,7 +276,7 @@ const categoryCards = computed(() => [
           }}</nuxt-link>
         </div>
         <div
-          class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
+          class="grid grid-cols-5 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
         >
           <nuxt-link
             :to="`state/${item.slug}`"
@@ -341,7 +341,7 @@ const categoryCards = computed(() => [
           }}</nuxt-link>
         </div>
         <div
-          class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
+          class="grid grid-cols-5 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
         >
           <nuxt-link
             :to="`inspections/${item.slug}`"

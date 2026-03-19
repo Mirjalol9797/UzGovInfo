@@ -52,7 +52,9 @@ const results = computed(() => {
     const titleText = t(org.title).toLowerCase();
     const categoryText = t(`otherSites.${org.category}`).toLowerCase();
     const descText = org.shortDesc ? t(org.shortDesc).toLowerCase() : "";
-    return titleText.includes(q) || categoryText.includes(q) || descText.includes(q);
+    return (
+      titleText.includes(q) || categoryText.includes(q) || descText.includes(q)
+    );
   });
 });
 
@@ -77,15 +79,15 @@ useHead(() => ({
       <h1 class="font-medium text-xl md:text-2xl">
         {{ query.trim() ? "Результаты поиска" : "Поиск" }}
       </h1>
-      <div
-        v-if="query.trim()"
-        class="text-sm text-[#6B7280] mt-1"
-      >
+      <div v-if="query.trim()" class="text-sm text-[#6B7280] mt-1">
         Запрос: <span class="font-medium">{{ query }}</span>
       </div>
     </div>
 
-    <div v-if="query.trim() && results.length" class="grid grid-cols-4 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1">
+    <div
+      v-if="query.trim() && results.length"
+      class="grid grid-cols-5 gap-4 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
+    >
       <nuxt-link
         v-for="org in results"
         :key="org.category + '-' + org.slug"
@@ -114,8 +116,11 @@ useHead(() => ({
     </div>
 
     <div v-else class="text-sm text-[#6B7280]">
-      {{ query.trim() ? "Ничего не найдено" : "Введите запрос в поиске на главной странице." }}
+      {{
+        query.trim()
+          ? "Ничего не найдено"
+          : "Введите запрос в поиске на главной странице."
+      }}
     </div>
   </div>
 </template>
-
