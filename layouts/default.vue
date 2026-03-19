@@ -71,7 +71,6 @@ onMounted(() => {
   <Breadcrumbs />
   <div class="content">
     <NuxtPage :key="route.fullPath" />
-    <Faq class="mt-8" />
   </div>
   <LayoutFooter />
 

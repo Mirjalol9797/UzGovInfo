@@ -373,6 +373,8 @@ const categoryCards = computed(() => [
 
       <!-- Зачем создан UzGovInfo -->
       <WhySiteCreated class="mb-10 768:mb-6" />
+
+      <Faq class="mt-8" />
     </div>
   </div>
 
