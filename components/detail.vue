@@ -210,11 +210,11 @@ useHead(() => ({
           <p class="text-[#4B5563] leading-7 text-base 768:text-sm mb-5">
             {{ whatFind.intro }}
           </p>
-          <div class="grid grid-cols-2 768:grid-cols-1 gap-4 mb-4">
+          <div class="grid grid-cols-3 768:grid-cols-1 gap-3 mb-4">
             <div
               v-for="(item, i) in whatFind.items"
               :key="'wf-' + i"
-              class="rounded-xl border border-[#e5e7eb] bg-white p-5 transition hover:shadow-sm"
+              class="rounded-xl border border-[#e5e7eb] bg-white p-4 transition hover:shadow-sm"
             >
               <div
                 class="mb-3 w-10 h-10 rounded-lg flex items-center justify-center"
