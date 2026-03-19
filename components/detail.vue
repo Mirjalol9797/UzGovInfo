@@ -176,7 +176,7 @@ useHead(() => ({
 
         <div
           v-if="intro.length"
-          class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm mb-6 space-y-2"
+          class="text-[#4B5563] base-bg leading-6 text-sm 768:text-xs mb-6 space-y-1.5"
         >
           <p v-for="(para, i) in intro" :key="'intro-' + i">{{ para }}</p>
         </div>

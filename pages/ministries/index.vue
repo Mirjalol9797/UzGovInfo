@@ -1,5 +1,7 @@
 <script setup>
 import useMinistries from "../../data/ministries";
+import CategoryInfoTabs from "../../components/CategoryInfoTabs.vue";
+import FaqAccordion from "../../components/FaqAccordion.vue";
 
 const { t, locale } = useI18n();
 const localePath = useLocalePath();
@@ -819,7 +821,7 @@ const ministriesTableRows = computed(() => {
       </div>
 
       <div
-        class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm mb-6 space-y-2"
+        class="text-[#4B5563] base-bg leading-6 text-sm 768:text-xs mb-6 space-y-1.5"
       >
         <p v-for="(para, i) in introText" :key="'intro-' + i">
           {{ para }}
@@ -852,6 +854,45 @@ const ministriesTableRows = computed(() => {
           <span class="tag-badge">{{ $t(item.tag) }}</span>
         </nuxt-link>
       </div>
+
+      <CategoryInfoTabs
+        :labels="[roleBlockText.h2, usefulInfoText.h2, otherGovBodiesText.h2]"
+      >
+        <template #panel0>
+          <p v-for="(para, i) in roleBlockText.paragraphs" :key="'role-' + i">
+            {{ para }}
+          </p>
+        </template>
+        <template #panel1>
+          <p
+            v-for="(para, i) in usefulInfoText.paragraphs"
+            :key="'useful-' + i"
+          >
+            {{ para }}
+          </p>
+        </template>
+        <template #panel2>
+          <p>{{ otherGovBodiesText.intro }}</p>
+          <p>{{ otherGovBodiesText.intro2 }}</p>
+          <p>{{ otherGovBodiesText.listIntro }}</p>
+          <ul class="list-disc list-inside mt-2 space-y-1">
+            <li
+              v-for="(link, i) in otherGovBodiesText.links"
+              :key="'other-' + i"
+            >
+              <NuxtLink
+                :to="localePath(link.href)"
+                class="text-[#2563eb] hover:underline"
+              >
+                {{ link.text }}
+              </NuxtLink>
+            </li>
+          </ul>
+          <p>
+            {{ otherGovBodiesText.outro }}
+          </p>
+        </template>
+      </CategoryInfoTabs>
 
       <div class="overflow-x-auto my-6">
         <h2 class="font-semibold text-lg md:text-xl mb-4">
@@ -914,83 +955,7 @@ const ministriesTableRows = computed(() => {
         </table>
       </div>
 
-      <div class="mt-8 pt-6 border-t border-[#eee]">
-        <h2 class="font-semibold text-lg md:text-xl mb-4">
-          {{ roleBlockText.h2 }}
-        </h2>
-        <div
-          class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm space-y-2"
-        >
-          <p v-for="(para, i) in roleBlockText.paragraphs" :key="'role-' + i">
-            {{ para }}
-          </p>
-        </div>
-      </div>
-
-      <div class="mt-8 pt-6 border-t border-[#eee]">
-        <h2 class="font-semibold text-lg md:text-xl mb-4">
-          {{ usefulInfoText.h2 }}
-        </h2>
-        <div
-          class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm space-y-2"
-        >
-          <p
-            v-for="(para, i) in usefulInfoText.paragraphs"
-            :key="'useful-' + i"
-          >
-            {{ para }}
-          </p>
-        </div>
-      </div>
-
-      <div class="mt-8 pt-6 border-t border-[#eee]">
-        <h2 class="font-semibold text-lg md:text-xl mb-4">
-          {{ otherGovBodiesText.h2 }}
-        </h2>
-        <div
-          class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm space-y-2"
-        >
-          <p>{{ otherGovBodiesText.intro }}</p>
-          <p>{{ otherGovBodiesText.intro2 }}</p>
-          <p>{{ otherGovBodiesText.listIntro }}</p>
-          <ul class="list-disc list-inside mt-2 space-y-1">
-            <li
-              v-for="(link, i) in otherGovBodiesText.links"
-              :key="'other-' + i"
-            >
-              <NuxtLink
-                :to="localePath(link.href)"
-                class="text-[#2563eb] hover:underline"
-              >
-                {{ link.text }}
-              </NuxtLink>
-            </li>
-          </ul>
-          <p>
-            {{ otherGovBodiesText.outro }}
-          </p>
-        </div>
-      </div>
-
-      <div class="mt-8 pt-6 border-t border-[#eee]">
-        <h2 class="font-semibold text-lg md:text-xl mb-4">
-          {{ faqText.h2 }}
-        </h2>
-        <div
-          class="text-[#4B5563] base-bg leading-7 text-base 768:text-sm space-y-4"
-        >
-          <div
-            v-for="(item, i) in faqText.items"
-            :key="'faq-' + i"
-            class="space-y-1"
-          >
-            <h3 class="font-medium text-[#111] text-base 768:text-sm">
-              {{ item.q }}
-            </h3>
-            <p class="text-sm">{{ item.a }}</p>
-          </div>
-        </div>
-      </div>
+      <FaqAccordion :title="faqText.h2" :items="faqText.items" />
     </div>
   </div>
 </template>
