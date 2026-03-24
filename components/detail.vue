@@ -116,6 +116,9 @@ const otherSites = computed(() => {
     if (s.includes("agencies-sanitation")) return "program";
     if (s.includes("agencies-personalization")) return "decree";
     if (s.includes("agencies-suvobekt")) return "chart";
+    if (s.includes("agencies-esma")) return "analytics";
+    if (s.includes("agencies-adli")) return "program";
+    if (s.includes("agencies-kasbiytalim")) return "program";
     return "building";
   };
   return {

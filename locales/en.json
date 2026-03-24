@@ -668,6 +668,39 @@
         "description": "Official section of the Agency for operation of water management facilities under the Ministry of Water Resources on the gov.uz portal: SUV HISOBI AT, AGROSUBSIDIYA, reclamation monitoring, PPP tools, SUVKREDIT.UZ, drip irrigation calculator, documents and trust line +99871 202-48-00. Search: suvobekt, water Uzbekistan, gov.uz suvobekt.",
         "keywords": "suvobekt, water management Uzbekistan, Ministry of Water Resources, irrigation, reclamation, SUV HISOBI, gov.uz suvobekt"
       }
+    },
+    "twentyseven": {
+      "title": "National Agency for Energy Efficiency under the Cabinet of Ministers of the Republic of Uzbekistan",
+      "description": "The National Agency for Energy Efficiency under the Cabinet of Ministers of the Republic of Uzbekistan implements measures on energy saving, rational energy use and higher energy efficiency, develops e-government and open data on the energy service market and residential buildings, runs seminars, tenders and international cooperation, and engages regions and the public.",
+      "shortDesc": "Energy efficiency and saving",
+      "link": "https://gov.uz/en/esma",
+      "seo": {
+        "title": "National Agency for Energy Efficiency of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the National Agency for Energy Efficiency under the Cabinet of Ministers on gov.uz: population and agricultural census, surveys, open data on energy services and housing, regulations, hotline +998 55 514 40 00. Search: ESMA, energy efficiency Uzbekistan, gov.uz esma.",
+        "keywords": "esma, energy efficiency Uzbekistan, National Agency for Energy Efficiency, energy saving, Cabinet of Ministers, gov.uz esma"
+      }
+    },
+    "twentyeight": {
+      "title": "Agency for the Development of Light Industry under the Cabinet of Ministers of the Republic of Uzbekistan",
+      "description": "The Agency for the Development of Light Industry under the Cabinet of Ministers of the Republic of Uzbekistan implements state support and development of light industry, e-services for sector enterprises, international and local exhibitions, open data on the support fund and services to entrepreneurs, public and business engagement, youth and gender policy and anti-corruption work.",
+      "shortDesc": "Light industry and sector support",
+      "link": "https://gov.uz/en/adli",
+      "seo": {
+        "title": "Agency for development of light industry of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Agency for the Development of Light Industry under the Cabinet of Ministers on gov.uz: interactive services for light industry, exhibitions, presidential and cabinet acts, open data on the support fund and appeal analytics. Search: adli, light industry Uzbekistan, gov.uz adli.",
+        "keywords": "adli, light industry Uzbekistan, light industry agency, textiles, garment industry, Cabinet of Ministers, gov.uz adli"
+      }
+    },
+    "twentynine": {
+      "title": "Vocational Education Agency",
+      "description": "The Vocational Education Agency implements state policy on vocational education and workforce training within its mandate, develops e-government and budget-process transparency, international cooperation, youth and gender policy and anti-corruption work, publishes regulations and engages citizens and employers.",
+      "shortDesc": "Vocational education and training",
+      "link": "https://gov.uz/en/kasbiytalim",
+      "seo": {
+        "title": "Vocational Education Agency of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Vocational Education Agency on the gov.uz portal: structure, e-government, budget transparency, international cooperation, FAQ, contacts. Search: kasbiytalim, vocational education Uzbekistan, gov.uz kasbiytalim.",
+        "keywords": "kasbiytalim, vocational education Uzbekistan, Vocational Education Agency, TVET, skills training, gov.uz kasbiytalim"
+      }
     }
   },
   "Inspections": {

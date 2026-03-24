@@ -668,6 +668,39 @@
         "description": "Suv xoʻjaligi vazirligi huzuridagi agentlikning gov.uz portali boʻyicha rasmiy boʻlimi: SUV HISOBI AT, AGROSUBSIDIYA AT, sugʻoriladigan yerlarning meliorativ holatini monitoring qilish, davlat-xususiy sherikchilik, SUVKREDIT.UZ, tomchilatib sugʻorish kalkulyatori, hujjatlar va ishonch telefoni +99871 202-48-00. Qidiruv: suvobekt, suv xoʻjaligi Oʻzbekiston, gov.uz suvobekt.",
         "keywords": "suvobekt, suv xoʻjaligi Oʻzbekiston, Suv xoʻjaligi vazirligi, sugʻorish, melioratsiya, SUV HISOBI, gov.uz suvobekt"
       }
+    },
+    "twentyseven": {
+      "title": "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Energiya samaradorligi milliy agentligi",
+      "description": "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Energiya samaradorligi milliy agentligi energiyani tejash, undan oqilona foydalanish va energiya samaradorligini oshirish boʻyicha choralar, energiya xizmati bozori va turar-joy fondi mavzusidagi elektron hukumat va ochiq maʼlumotlarni rivojlantiradi, seminarlar, tenderlar va xalqaro hamkorlikni yuritadi, hududlar va jamoatchilik bilan hamkorlik qiladi.",
+      "shortDesc": "Energiya samaradorligi va tejash",
+      "link": "https://gov.uz/oz/esma",
+      "seo": {
+        "title": "Energiya samaradorligi milliy agentligi — rasmiy sayt | Govinfo",
+        "description": "Vazirlar Mahkamasi huzuridagi milliy agentlikning gov.uz portali boʻyicha rasmiy boʻlim: aholini va qishloq xoʻjaligini roʻyxatga olish, soʻrovnomalar, energiya xizmati va uylar boʻyicha ochiq maʼlumotlar, normativ hujjatlar, ishonch telefoni +998 55 514 40 00. Qidiruv: ESMA, energiya samaradorligi Oʻzbekiston, gov.uz esma.",
+        "keywords": "esma, energiya samaradorligi Oʻzbekiston, energiya samaradorligi milliy agentligi, energiya tejash, Vazirlar Mahkamasi, gov.uz esma"
+      }
+    },
+    "twentyeight": {
+      "title": "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Yengil sanoatni rivojlantirish agentligi",
+      "description": "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Yengil sanoatni rivojlantirish agentligi yengil sanoatni davlat qoʻllab-quvvatlash va rivojlantirish choralarini, soha korxonalari uchun elektron xizmatlar, xalqaro va mahalliy koʻrgazmalar, jamgʻarma faoliyati va tadbirkorlarga xizmatlar boʻyicha ochiq maʼlumotlar, fuqarolar va biznes bilan aloqani, yoshlar va gender siyosati hamda korrupsiyaga qarshi kurashni amalga oshiradi.",
+      "shortDesc": "Yengil sanoat va soha qoʻllab-quvvatlashi",
+      "link": "https://gov.uz/oz/adli",
+      "seo": {
+        "title": "Yengil sanoatni rivojlantirish agentligi — rasmiy sayt | Govinfo",
+        "description": "Vazirlar Mahkamasi huzuridagi agentlikning gov.uz portali boʻyicha rasmiy boʻlim: yengil sanoat korxonalari uchun interaktiv xizmatlar, koʻrgazmalar, Prezident va hukumat hujjatlari, qoʻllab-quvvatlash jamgʻarmasi va murojaatlar tahlili boʻyicha ochiq maʼlumotlar. Qidiruv: adli, yengil sanoat Oʻzbekiston, gov.uz adli.",
+        "keywords": "adli, yengil sanoat Oʻzbekiston, yengil sanoat agentligi, toʻqimachilik, tikuvchilik, Vazirlar Mahkamasi, gov.uz adli"
+      }
+    },
+    "twentynine": {
+      "title": "Kasbiy taʼlim agentligi",
+      "description": "Kasbiy taʼlim agentligi kasbiy taʼlim va kadrlar tayyorlash boʻyicha davlat siyosatini vakolat doirasida amalga oshiradi, raqamli hukumat va byudjet jarayonining shaffofligi, xalqaro hamkorlik, yoshlar va gender siyosati, korrupsiyaga qarshi kurashni rivojlantiradi, normativ hujjatlarni nashr etadi hamda fuqarolar va ish beruvchilar bilan aloqani taʼminlaydi.",
+      "shortDesc": "Kasbiy taʼlim va malaka",
+      "link": "https://gov.uz/oz/kasbiytalim",
+      "seo": {
+        "title": "Kasbiy taʼlim agentligi — rasmiy sayt | Govinfo",
+        "description": "Kasbiy taʼlim agentligining gov.uz portali boʻyicha rasmiy boʻlimi: tuzilma, raqamli hukumat, byudjet shaffofligi, xalqaro hamkorlik, savol-javoblar, kontaktlar. Qidiruv: kasbiytalim, kasbiy taʼlim Oʻzbekiston, gov.uz kasbiytalim.",
+        "keywords": "kasbiytalim, kasbiy taʼlim Oʻzbekiston, kasbiy taʼlim agentligi, kasb-hunar, gov.uz kasbiytalim"
+      }
     }
   },
   "Inspections": {
