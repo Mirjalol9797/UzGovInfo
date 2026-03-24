@@ -31,6 +31,12 @@ const agenciesPharmaceutical = () =>
   import("./agencies/agencies-pharmaceutical.js");
 const agenciesStateAssets = () =>
   import("./agencies/agencies-state-assets.js");
+const agenciesYouthAffairs = () =>
+  import("./agencies/agencies-youth-affairs.js");
+const agenciesUzbekcosmos = () =>
+  import("./agencies/agencies-uzbekcosmos.js");
+const agenciesAntidoping = () =>
+  import("./agencies/agencies-antidoping.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -47,6 +53,9 @@ export const pageContentMap = {
   "agencies-cinematography": agenciesCinematography,
   "agencies-pharmaceutical": agenciesPharmaceutical,
   "agencies-state-assets": agenciesStateAssets,
+  "agencies-youth-affairs": agenciesYouthAffairs,
+  "agencies-uzbekcosmos": agenciesUzbekcosmos,
+  "agencies-antidoping": agenciesAntidoping,
 };
 
 export async function getPageContent(slug) {

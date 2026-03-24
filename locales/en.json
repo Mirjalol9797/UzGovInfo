@@ -426,6 +426,39 @@
         "description": "Official website of the State Assets Management Agency of the Republic of Uzbekistan: accounting, privatization, sale and lease of state-owned assets, registers and coordination of state property management. Search and topic coverage: State Assets Management Agency Uzbekistan, state property management, privatization, davaktiv, Republic of Uzbekistan state assets.",
         "keywords": "State Assets Management Agency Uzbekistan, state property management, privatization, davaktiv, Republic of Uzbekistan state assets"
       }
+    },
+    "five": {
+      "title": "Youth Affairs Agency of the Republic of Uzbekistan",
+      "description": "The Youth Affairs Agency of the Republic of Uzbekistan implements state policy on youth: support for young people's initiatives, grants and subsidies, entrepreneurship development, international cooperation, social and legal protection, anti-corruption efforts and promotion of equal opportunities.",
+      "shortDesc": "State youth policy",
+      "link": "https://gov.uz/en/yoshlar",
+      "seo": {
+        "title": "Youth Affairs Agency of Uzbekistan — official website | Govinfo",
+        "description": "Official page of the Youth Affairs Agency of the Republic of Uzbekistan on gov.uz: youth support programmes, grants, competitions, news and regional office contacts. Search and topics: Uzbekistan youth policy, Youth Affairs Agency, yoshlar, молодёжная политика Узбекистан, youth grants Uzbekistan.",
+        "keywords": "Uzbekistan youth policy, Youth Affairs Agency, yoshlar, youth grants Uzbekistan, Republic of Uzbekistan youth"
+      }
+    },
+    "six": {
+      "title": "The Agency of \"Uzbekcosmos\"",
+      "description": "The Agency of \"Uzbekcosmos\" implements state policy in space activities: development of space technology, Earth remote sensing satellite systems, international space cooperation, training of specialists and use of space data for the economy and social sphere of Uzbekistan.",
+      "shortDesc": "Space activities and satellite technology",
+      "link": "https://gov.uz/en/uzspace",
+      "seo": {
+        "title": "Uzbekcosmos Agency — official website | Govinfo",
+        "description": "Official website of the Uzbekcosmos Agency: Uzbekistan space programmes, satellite data, Earth remote sensing, international cooperation and industry news. Search topics: Uzbekcosmos, Узбеккосмос, Uzbekistan space agency, space technology, satellite Earth observation.",
+        "keywords": "Uzbekcosmos, Uzbekistan space agency, space technology, satellite Earth observation, remote sensing, Узбеккосмос"
+      }
+    },
+    "seven": {
+      "title": "The National antidoping agency of the Republic of Uzbekistan",
+      "description": "The National Anti-Doping Agency of the Republic of Uzbekistan (UzNADA) implements national anti-doping policy in line with WADA standards: monitoring prohibited substances and methods in sport, athlete testing, education, case management and cooperation with international bodies.",
+      "shortDesc": "Anti-doping control and clean sport",
+      "link": "https://gov.uz/en/uznada",
+      "seo": {
+        "title": "National Anti-Doping Agency of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the National Anti-Doping Agency of the Republic of Uzbekistan (UzNADA) on the gov.uz portal: prohibited list, athlete testing, rules and sanctions, education and reporting doping concerns. Search topics: UzNADA, anti-doping Uzbekistan, national anti-doping agency, clean sport, WADA, gov.uz uznada.",
+        "keywords": "UzNADA, anti-doping Uzbekistan, national anti-doping agency, clean sport, WADA, prohibited substances, athlete testing, gov.uz uznada"
+      }
     }
   },
   "Inspections": {
@@ -875,6 +908,8 @@
     "veterinary": "Veterinary",
     "roads": "Road Infrastructure",
     "tourism": "Tourism",
+    "youth": "Youth policy",
+    "space": "Space",
     "waterSupply": "Water Supply",
     "archives": "Archives"
   },

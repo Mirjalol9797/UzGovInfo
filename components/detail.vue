@@ -92,6 +92,9 @@ const otherSites = computed(() => {
     )
       return "building";
     if (s.includes("state-assets") || s.includes("davaktiv")) return "finance";
+    if (s.includes("youth-affairs") || s.includes("yoshlar")) return "people";
+    if (s.includes("uzbekcosmos") || s.includes("cosmos")) return "globe";
+    if (s.includes("antidoping") || s.includes("uznada")) return "shield";
     return "building";
   };
   return {

@@ -426,6 +426,39 @@
         "description": "Oʻzbekiston Respublikasi Davlat aktivlarini boshqarish agentligining rasmiy sayti: davlat mulkining hisobi, xususiyalashtirish, davlat mulkida boʻlgan obyektlarni sotish va ijaraga berish, reestrlar va davlat mulkini boshqarishni muvofiqlashtirish. Qidiruv va mavzular: davlat aktivlari Oʻzbekiston, davlat mulkini boshqarish, xususiyalashtirish, davaktiv, Davlat aktivlarini boshqarish agentligi.",
         "keywords": "davlat aktivlari Oʻzbekiston, davlat mulkini boshqarish, xususiyalashtirish, davaktiv, Davlat aktivlarini boshqarish agentligi"
       }
+    },
+    "five": {
+      "title": "Oʻzbekiston Respublikasi Yoshlar ishlari agentligi",
+      "description": "Oʻzbekiston Respublikasi Yoshlar ishlari agentligi yoshlar siyosatini amalga oshiradi: yoshlarning tashabbuslarini qoʻllab-quvvatlash, grantlar va subsidiyalar, tadbirkorlikni rivojlantirish, xalqaro hamkorlik, ijtimoiy va huquqiy himoya, korrupsiyaga qarshi kurash va teng imkoniyatlarni ragʻbatlantirish.",
+      "shortDesc": "Davlat yoshlar siyosati",
+      "link": "https://gov.uz/oz/yoshlar",
+      "seo": {
+        "title": "Yoshlar ishlari agentligi — rasmiy sayt | Govinfo",
+        "description": "Oʻzbekiston Respublikasi Yoshlar ishlari agentligining gov.uz dagi rasmiy sahifasi: yoshlarni qoʻllab-quvvatlash dasturlari, grantlar, tanlovlar, yangiliklar va hududiy boʻlimlar kontaktlari. Qidiruv va mavzular: yoshlar siyosati Oʻzbekiston, Yoshlar ishlari agentligi, yoshlar, youth policy Uzbekistan, yoshlar grantlari.",
+        "keywords": "yoshlar siyosati Oʻzbekiston, Yoshlar ishlari agentligi, yoshlar, youth policy Uzbekistan, yoshlar grantlari"
+      }
+    },
+    "six": {
+      "title": "«Oʻzbekkosmos» agentligi",
+      "description": "«Oʻzbekkosmos» agentligi kosmos faoliyati sohasida davlat siyosatini amalga oshiradi: kosmos texnologiyalarini rivojlantirish, Yer distantsion zondlash sunʼiy yoʻldosh tizimlari, kosmosda xalqaro hamkorlik, kadrlar tayyorlash va kosmos maʼlumotlarini Oʻzbekiston iqtisodiyoti va ijtimoiy sohasiga joriy etish.",
+      "shortDesc": "Kosmos faoliyati va sunʼiy yoʻldosh texnologiyalari",
+      "link": "https://gov.uz/oz/uzspace",
+      "seo": {
+        "title": "«Oʻzbekkosmos» agentligi — rasmiy sayt | Govinfo",
+        "description": "«Oʻzbekkosmos» agentligining rasmiy sayti: Oʻzbekistonning kosmos dasturlari, sunʼiy yoʻldosh maʼlumotlari, Yer distantsion zondlash, xalqaro hamkorlik va tarmoq yangiliklari. Qidiruv va mavzular: Oʻzbekkosmos, Uzbekcosmos, kosmos Oʻzbekiston, kosmos faoliyati, sunʼiy yoʻldosh texnologiyalari.",
+        "keywords": "Oʻzbekkosmos, Uzbekcosmos, kosmos Oʻzbekiston, kosmos faoliyati, sunʼiy yoʻldosh texnologiyalari, distantsion zondlash"
+      }
+    },
+    "seven": {
+      "title": "O‘zbekiston Respublikasi Milliy antidoping agentligi",
+      "description": "Oʻzbekiston Respublikasi Milliy antidoping agentligi (UzNADA) WADA standartlariga muvofiq milliy antidoping siyosatini amalga oshiradi: sportda taqiqlangan moddalar va usullardan foydalanishni nazorat qilish, sportchilarni testlash, taʼlim dasturlari, buzilishlarni koʻrib chiqish va xalqaro tashkilotlar bilan hamkorlik.",
+      "shortDesc": "Antidoping nazorati va toza sport",
+      "link": "https://gov.uz/oz/uznada",
+      "seo": {
+        "title": "Oʻzbekiston Milliy antidoping agentligi — rasmiy sayt | Govinfo",
+        "description": "Oʻzbekiston Respublikasi Milliy antidoping agentligining (UzNADA) gov.uz portali boʻyicha rasmiy boʻlimi: taqiqlangan roʻyxat, sportchilarni testlash, qoidalar va sanktsiyalar, taʼlim va doping haqida xabar berish. Qidiruv va mavzular: UzNADA, antidoping Oʻzbekiston, milliy antidoping agentligi, toza sport, WADA, gov.uz uznada.",
+        "keywords": "UzNADA, antidoping Oʻzbekiston, milliy antidoping agentligi, toza sport, WADA, taqiqlangan moddalar, sportchilarni testlash, gov.uz uznada"
+      }
     }
   },
   "Inspections": {
@@ -875,6 +908,8 @@
     "veterinary": "Veterinariya",
     "roads": "Yoʻl xoʻjaligi",
     "tourism": "Turizm",
+    "youth": "Yoshlar siyosati",
+    "space": "Kosmos",
     "waterSupply": "Suv taʼminoti",
     "archives": "Arxivlar"
   },
