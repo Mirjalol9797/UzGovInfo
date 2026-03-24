@@ -109,6 +109,7 @@ const otherSites = computed(() => {
     if (s.includes("agencies-karantin")) return "shield";
     if (s.includes("hydromet")) return "chart";
     if (s.includes("uzcaa")) return "globe";
+    if (s.includes("investmiit")) return "finance";
     return "building";
   };
   return {

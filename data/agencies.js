@@ -319,6 +319,23 @@ export default function data() {
             "https://api-portal.gov.uz/uploads/157/2025/06/20/3c01b06b-cf19-c4a8-3354-8b281b5a2c23_authority_157.jpg",
         },
       },
+      {
+        id: 19,
+        slug: "agencies-investmiit",
+        fullContent: true,
+        title: "Agencies.nineteen.title",
+        description: "Agencies.nineteen.description",
+        shortDesc: "Agencies.nineteen.shortDesc",
+        tag: "tags.economy",
+        img: "/images/gerb.png",
+        link: "Agencies.nineteen.link",
+        seo: {
+          title: "Agencies.nineteen.seo.title",
+          description: "Agencies.nineteen.seo.description",
+          keywords: "Agencies.nineteen.seo.keywords",
+          image: "/images/gerb.png",
+        },
+      },
     ],
   };
 }

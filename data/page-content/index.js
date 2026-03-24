@@ -57,6 +57,8 @@ const agenciesKarantin = () =>
 const agenciesHydromet = () =>
   import("./agencies/agencies-hydromet.js");
 const agenciesUzcaa = () => import("./agencies/agencies-uzcaa.js");
+const agenciesInvestmiit = () =>
+  import("./agencies/agencies-investmiit.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -87,6 +89,7 @@ export const pageContentMap = {
   "agencies-karantin": agenciesKarantin,
   "agencies-hydromet": agenciesHydromet,
   "agencies-uzcaa": agenciesUzcaa,
+  "agencies-investmiit": agenciesInvestmiit,
 };
 
 export async function getPageContent(slug) {

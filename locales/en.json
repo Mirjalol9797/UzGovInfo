@@ -580,6 +580,17 @@
         "description": "Official section of the Civil Aviation Agency under the Ministry of Transport on the gov.uz portal: certificates and permits, UAVs, ICAO, documents, registers, open data and contacts. Search: uzcaa, civil aviation Uzbekistan, Uzbekistan CAA, gov.uz uzcaa.",
         "keywords": "uzcaa, civil aviation Uzbekistan, aviation certificates, UAV civil aviation, ICAO, Ministry of Transport, gov.uz uzcaa"
       }
+    },
+    "nineteen": {
+      "title": "Investment Promotion Agency under the Ministry of Investment, Industry, and Trade of the Republic of Uzbekistan",
+      "description": "The Investment Promotion Agency under the Ministry of Investment, Industry, and Trade of the Republic of Uzbekistan promotes foreign investment, supports investment and industrial policy, international economic cooperation, special economic zones and citizen enquiries, publishes regulations on foreign trade and investment, and provides digital transparency (roadmaps, plans, monitoring) and investor engagement.",
+      "shortDesc": "Foreign investment and industry",
+      "link": "https://gov.uz/en/investmiit",
+      "seo": {
+        "title": "Investment promotion agency of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Investment Promotion Agency under MIIT on the gov.uz portal: investment, industry, SEZs, force majeure, documents, roadmaps and contacts. Search: investmiit, foreign investment Uzbekistan, MIIT, gov.uz investmiit.",
+        "keywords": "investmiit, foreign investment Uzbekistan, investment promotion agency, MIIT, special economic zones, industry, gov.uz investmiit"
+      }
     }
   },
   "Inspections": {
