@@ -2,6 +2,7 @@
 import useHeadquarters from "../../data/headquarters";
 import useMinistries from "../../data/ministries";
 import useState from "../../data/state";
+import useAgencies from "../../data/agencies";
 import useInspections from "../../data/inspections";
 import Seo from "../../components/Seo/MainPageSeo.vue";
 import SiteDescription from "@/components/mainPage/SiteDescription.vue";
@@ -14,6 +15,7 @@ const { t } = useI18n();
 const headquarters = useHeadquarters();
 const ministries = useMinistries();
 const state = useState();
+const agencies = useAgencies();
 const inspections = useInspections();
 </script>
 
@@ -216,6 +218,76 @@ const inspections = useInspections();
             :to="localePath(`/state/${item.slug}`)"
             class="link-block"
             v-for="(item, index) in state.data"
+            :key="index"
+          >
+            <div class="min-w-[64px] h-[64px]">
+              <NuxtImg
+                :src="item.img"
+                :alt="t(item.title)"
+                :title="t(item.title)"
+                class="w-full h-full object-cover rounded-xl"
+                loading="lazy"
+                format="webp"
+              />
+            </div>
+            <h3 class="title">
+              {{ $t(item.title) }}
+            </h3>
+            <p class="short-desc">{{ $t(item.shortDesc) }}</p>
+            <span class="tag-badge">{{ $t(item.tag) }}</span>
+          </nuxt-link>
+        </div>
+      </section>
+
+      <!-- agencies -->
+      <section class="mb-10 768:mb-6">
+        <div
+          class="border-b border-[#eee] pb-2 flex-center-between mb-4 md:mb-6"
+        >
+          <h2 class="flex items-center gap-2 font-medium text-base md:text-xl">
+            <span
+              class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-[#fce7f3] text-[#be185d]"
+              aria-hidden="true"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                class="h-4 w-4"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5 6H19V9H5V6Z"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M5 11H19V14H5V11Z"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M5 16H13V19H5V16Z"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            {{ t("Agencies.headtitle") }}
+          </h2>
+          <nuxt-link :to="localePath('/agencies')" class="text-xs">{{
+            t("see_all")
+          }}</nuxt-link>
+        </div>
+        <div
+          class="grid grid-cols-5 gap-3 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
+        >
+          <nuxt-link
+            :to="localePath(`/agencies/${item.slug}`)"
+            class="link-block"
+            v-for="(item, index) in agencies.data"
             :key="index"
           >
             <div class="min-w-[64px] h-[64px]">
