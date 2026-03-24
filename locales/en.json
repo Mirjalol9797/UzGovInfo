@@ -591,6 +591,39 @@
         "description": "Official section of the Investment Promotion Agency under MIIT on the gov.uz portal: investment, industry, SEZs, force majeure, documents, roadmaps and contacts. Search: investmiit, foreign investment Uzbekistan, MIIT, gov.uz investmiit.",
         "keywords": "investmiit, foreign investment Uzbekistan, investment promotion agency, MIIT, special economic zones, industry, gov.uz investmiit"
       }
+    },
+    "twenty": {
+      "title": "Agency for Assessment of Knowledge and Qualifications under the Ministry of Higher Education, Science and Innovations of the Republic of Uzbekistan",
+      "description": "The Agency for Assessment of Knowledge and Qualifications under the Ministry of Higher Education, Science and Innovations of the Republic of Uzbekistan provides assessment of knowledge and qualifications in education, methodological and organizational support, e-government and the services register, state programmes and statistical analysis, international cooperation, youth and gender policy, open data and public engagement.",
+      "shortDesc": "Knowledge and qualifications assessment",
+      "link": "https://gov.uz/en/uzbmb",
+      "seo": {
+        "title": "Knowledge and qualifications assessment agency of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Agency for Assessment of Knowledge and Qualifications under the Ministry of Higher Education, Science and Innovations on the gov.uz portal: admission, public services, documents, open data, programmes and contacts. Search: uzbmb, knowledge assessment Uzbekistan, qualifications, gov.uz uzbmb.",
+        "keywords": "uzbmb, knowledge assessment Uzbekistan, qualifications, Ministry of Higher Education Science and Innovations, education services, gov.uz uzbmb"
+      }
+    },
+    "twentyone": {
+      "title": "Cadastre Agency",
+      "description": "The Cadastre Agency of the Republic of Uzbekistan maintains the state real estate cadastre, land accounting, geodesy and cartography, state land use control and cadastral supervision, interactive public services and open data, investment projects within its remit, international cooperation and public engagement.",
+      "shortDesc": "Cadastre, land and real estate",
+      "link": "https://gov.uz/en/kadastr",
+      "seo": {
+        "title": "Cadastre Agency of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Cadastre Agency on the gov.uz portal: public services, cadastre, land accounting, geodesy, documents, open data and contacts. Search: kadastr, cadastre Uzbekistan, land register, gov.uz kadastr.",
+        "keywords": "kadastr, cadastre Uzbekistan, land cadastre, real estate, geodesy, land accounting, gov.uz kadastr"
+      }
+    },
+    "twentytwo": {
+      "title": "Agency for the Development of the Agro-Industrial Complex under the Ministry of Agriculture",
+      "description": "The Agency for the Development of the Agro-Industrial Complex under the Ministry of Agriculture of the Republic of Uzbekistan implements measures to develop the agro-industrial sector, digital services and platforms for farmers, subsidies and projects within its remit, international cooperation, open data, tenders and engagement with citizens and businesses.",
+      "shortDesc": "Agro-industry and digital agriculture",
+      "link": "https://gov.uz/en/agrosanoat",
+      "seo": {
+        "title": "Agro-industrial development agency of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Agency for the Development of the Agro-Industrial Complex under the Ministry of Agriculture on the gov.uz portal: REAGRO, subsidies, geoinformation, public services, documents and contacts. Search: agrosanoat, agro-industry Uzbekistan, Ministry of Agriculture, gov.uz agrosanoat.",
+        "keywords": "agrosanoat, agro-industry Uzbekistan, agro-industrial complex, Ministry of Agriculture, agro subsidies, digital agriculture, gov.uz agrosanoat"
+      }
     }
   },
   "Inspections": {

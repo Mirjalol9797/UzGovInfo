@@ -59,6 +59,10 @@ const agenciesHydromet = () =>
 const agenciesUzcaa = () => import("./agencies/agencies-uzcaa.js");
 const agenciesInvestmiit = () =>
   import("./agencies/agencies-investmiit.js");
+const agenciesUzbmb = () => import("./agencies/agencies-uzbmb.js");
+const agenciesKadastr = () => import("./agencies/agencies-kadastr.js");
+const agenciesAgrosanoat = () =>
+  import("./agencies/agencies-agrosanoat.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -90,6 +94,9 @@ export const pageContentMap = {
   "agencies-hydromet": agenciesHydromet,
   "agencies-uzcaa": agenciesUzcaa,
   "agencies-investmiit": agenciesInvestmiit,
+  "agencies-uzbmb": agenciesUzbmb,
+  "agencies-kadastr": agenciesKadastr,
+  "agencies-agrosanoat": agenciesAgrosanoat,
 };
 
 export async function getPageContent(slug) {

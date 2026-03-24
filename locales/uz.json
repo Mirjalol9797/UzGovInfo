@@ -591,6 +591,39 @@
         "description": "Investitsiyalar, sanoat va savdo vazirligi huzuridagi Xorijiy investitsiyalarni jalb etish agentligining gov.uz portali boʻyicha rasmiy boʻlimi: investitsiyalar, sanoat, maxsus iqtisodiy zonalar, fors-major, hujjatlar, yoʻl xaritasi va kontaktlar. Qidiruv: investmiit, xorijiy investitsiyalar Oʻzbekiston, MIIT, gov.uz investmiit.",
         "keywords": "investmiit, xorijiy investitsiyalar Oʻzbekiston, investitsiyalarni jalb qilish agentligi, MIIT, maxsus iqtisodiy zonalar, sanoat, gov.uz investmiit"
       }
+    },
+    "twenty": {
+      "title": "Oʻzbekiston Respublikasi Oliy taʼlim, fan va innovatsiyalar vazirligi huzuridagi Bilim va malakalarni baholash agentligi",
+      "description": "Oʻzbekiston Respublikasi Oliy taʼlim, fan va innovatsiyalar vazirligi huzuridagi Bilim va malakalarni baholash agentligi taʼlim sohasida bilim va malakalarni baholashni, metodik va tashkiliy qoʻllab-quvvatlashni, elektron davlat xizmatlari va xizmatlar reestrini, davlat dasturlari va statistik tahlilni, xalqaro hamkorlikni, yoshlar va gender siyosatini, ochiq maʼlumotlar va fuqarolar bilan aloqani taʼminlaydi.",
+      "shortDesc": "Bilim va malakalarni baholash",
+      "link": "https://gov.uz/oz/uzbmb",
+      "seo": {
+        "title": "Bilim va malakalarni baholash agentligi — rasmiy sayt | Govinfo",
+        "description": "Oliy taʼlim, fan va innovatsiyalar vazirligi huzuridagi Bilim va malakalarni baholash agentligining gov.uz portali boʻyicha rasmiy boʻlimi: qabul, davlat xizmatlari, hujjatlar, ochiq maʼlumotlar, dasturlar va kontaktlar. Qidiruv: uzbmb, bilim baholash Oʻzbekiston, malaka, gov.uz uzbmb.",
+        "keywords": "uzbmb, bilim baholash Oʻzbekiston, malaka, Oliy taʼlim fan va innovatsiyalar vazirligi, taʼlim xizmatlari, gov.uz uzbmb"
+      }
+    },
+    "twentyone": {
+      "title": "Kadastr agentligi",
+      "description": "Oʻzbekiston Respublikasining Kadastr agentligi davlat koʻchmas mulk kadastri, yer hisobi, geodeziya va kartografiya, yer dan foydalanish boʻyicha davlat nazorati va kadastr nazoratini, interaktiv davlat xizmatlari va ochiq maʼlumotlarni, vakolatidagi investitsiya loyihalarini, xalqaro hamkorlik va fuqarolar bilan aloqani taʼminlaydi.",
+      "shortDesc": "Kadastr, yer va koʻchmas mulk",
+      "link": "https://gov.uz/oz/kadastr",
+      "seo": {
+        "title": "Kadastr agentligi — rasmiy sayt | Govinfo",
+        "description": "Kadastr agentligining gov.uz portali boʻyicha rasmiy boʻlimi: davlat xizmatlari, kadastr, yer hisobi, geodeziya, hujjatlar, ochiq maʼlumotlar va kontaktlar. Qidiruv: kadastr, kadastr Oʻzbekiston, yer kadastri, gov.uz kadastr.",
+        "keywords": "kadastr, kadastr Oʻzbekiston, yer kadastri, koʻchmas mulk, geodeziya, yer hisobi, gov.uz kadastr"
+      }
+    },
+    "twentytwo": {
+      "title": "Qishloq xoʻjaligi vazirligi huzuridagi Agrosanoatni rivojlantirish agentligi",
+      "description": "Qishloq xoʻjaligi vazirligi huzuridagi Agrosanoatni rivojlantirish agentligi agrosanoat majmuasini rivojlantirish, dehqonlar uchun raqamli xizmatlar va platformalar, subsidiyalar hamda vakolatidagi loyihalar, xalqaro hamkorlik, ochiq maʼlumotlar, tenderlar hamda fuqarolar va biznes bilan aloqani amalga oshiradi.",
+      "shortDesc": "Agrosanoat va raqamli qishloq xoʻjaligi",
+      "link": "https://gov.uz/oz/agrosanoat",
+      "seo": {
+        "title": "Agrosanoatni rivojlantirish agentligi — rasmiy sayt | Govinfo",
+        "description": "Qishloq xoʻjaligi vazirligi huzuridagi Agrosanoatni rivojlantirish agentligining gov.uz portali boʻyicha rasmiy boʻlimi: REAGRO, subsidiyalar, geoinformatsiya, davlat xizmatlari, hujjatlar va kontaktlar. Qidiruv: agrosanoat, agrosanoat Oʻzbekiston, qishloq xoʻjaligi vazirligi, gov.uz agrosanoat.",
+        "keywords": "agrosanoat, agrosanoat Oʻzbekiston, agrosanoat majmuasi, qishloq xoʻjaligi vazirligi, agrosubsidiyalar, raqamli qishloq xoʻjaligi, gov.uz agrosanoat"
+      }
     }
   },
   "Inspections": {
