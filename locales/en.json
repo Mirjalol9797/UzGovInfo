@@ -404,6 +404,17 @@
         "description": "Official website of the Cinematography Agency under the Ministry of Culture of Uzbekistan. Film art development, film production, film distribution.",
         "keywords": "Uzbekistan cinematography, Uzbek cinema, uzbkino, Ministry of Culture"
       }
+    },
+    "three": {
+      "title": "The Agency for the Development of the Pharmaceutical Industry under the Ministry of Health of the Republic of Uzbekistan",
+      "description": "The Agency for the Development of the Pharmaceutical Industry under the Ministry of Health of the Republic of Uzbekistan was established to improve conditions for the development of the pharmaceutical industry, increase access to quality medicines and medical devices for the population and healthcare institutions, and implement a unified system for coordinating the production, import and sale of pharmaceutical products.",
+      "shortDesc": "Development of the pharmaceutical industry",
+      "link": "https://gov.uz/en/uzpharmagency",
+      "seo": {
+        "title": "Pharmaceutical Industry Development Agency of Uzbekistan — official website | Govinfo",
+        "description": "Official website of the Agency for the Development of the Pharmaceutical Industry under the Ministry of Health of Uzbekistan. Pharmaceutical industry development, medicines, medical equipment.",
+        "keywords": "pharmaceutical Uzbekistan, medicines, Ministry of Health, uzpharmagency"
+      }
     }
   },
   "Inspections": {

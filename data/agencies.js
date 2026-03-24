@@ -37,6 +37,24 @@ export default function data() {
           image: "/images/gerb.png",
         },
       },
+      {
+        id: 3,
+        slug: "agencies-pharmaceutical",
+        fullContent: true,
+        title: "Agencies.three.title",
+        description: "Agencies.three.description",
+        shortDesc: "Agencies.three.shortDesc",
+        tag: "tags.health",
+        img: "https://api-portal.gov.uz/uploads/60/2025/06/18/b65e48a3-6ae4-c467-882a-2790701893b5_authority_60.jpg",
+        link: "Agencies.three.link",
+        seo: {
+          title: "Agencies.three.seo.title",
+          description: "Agencies.three.seo.description",
+          keywords: "Agencies.three.seo.keywords",
+          image:
+            "https://api-portal.gov.uz/uploads/60/2025/06/18/b65e48a3-6ae4-c467-882a-2790701893b5_authority_60.jpg",
+        },
+      },
     ],
   };
 }

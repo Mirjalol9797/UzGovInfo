@@ -85,6 +85,12 @@ const otherSites = computed(() => {
     if (s.includes("account") || s.includes("ach")) return "chart";
     if (s.includes("uzarxiv") || s.includes("archives")) return "decree";
     if (s.includes("cinematography") || s.includes("uzbkino")) return "program";
+    if (
+      s.includes("pharmaceutical") ||
+      s.includes("uzpharmagency") ||
+      s.includes("pharma")
+    )
+      return "building";
     return "building";
   };
   return {
@@ -199,18 +205,16 @@ useHead(() => ({
     <div class="site-container">
       <!-- Full content layout -->
       <template v-if="hasFullContent">
-        <div
-          class="mb-6 font-medium text-2xl 768:text-xl 480:!text-lg flex items-center"
-        >
+        <div class="mb-6 font-medium text-2xl 768:text-xl 480:!text-lg">
           <template v-if="locale === 'uz'">
-            <h1 class="font-medium text-2xl 768:text-xl 480:!text-lg">
+            <h1 class="font-medium text-2xl 768:text-xl 480:!text-lg inline">
               {{ pageTitle || (oneData?.title ? t(oneData.title) : "") }}
             </h1>
-            <div>{{ t("go_to") }}</div>
+            <span>{{ t("go_to") }}</span>
           </template>
           <template v-else>
-            <div>{{ t("go_to") }}&nbsp;</div>
-            <h1 class="font-medium text-2xl 768:text-xl 480:!text-lg">
+            <span>{{ t("go_to") }}&nbsp;</span>
+            <h1 class="font-medium text-2xl 768:text-xl 480:!text-lg inline">
               {{ pageTitle || (oneData?.title ? t(oneData.title) : "") }}
             </h1>
           </template>

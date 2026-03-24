@@ -404,6 +404,17 @@
         "description": "Oʻzbekiston Madaniyat vazirligi huzuridagi Kinematografiya agentligining rasmiy sayti. Kino sanʼatini rivojlantirish, kinofilmlar ishlab chiqarish va tarqatish.",
         "keywords": "Oʻzbekiston kinematografiyasi, oʻzbek kinosi, uzbkino, Madaniyat vazirligi"
       }
+    },
+    "three": {
+      "title": "Oʻzbekiston Respublikasi Sogʻliqni saqlash vazirligi huzuridagi Farmatsevtika tarmogʻini rivojlantirish agentligi",
+      "description": "Oʻzbekiston Respublikasi Sogʻliqni saqlash vazirligi huzuridagi Farmatsevtika tarmogʻini rivojlantirish agentligi farmatsevtika sanoatini rivojlantirish sharoitlarini yaxshilash, aholi va sogʻliqni saqlash muassasalariga sifatli dori-darmonlar va tibbiy buyumlarning qulayligini oshirish, farmatsevtika mahsulotlarini ishlab chiqarish, import qilish va sotishni muvofiqlashtirishning yagona tizimini joriy etish uchun tashkil etilgan.",
+      "shortDesc": "Farmatsevtika tarmogʻini rivojlantirish",
+      "link": "https://gov.uz/uz/uzpharmagency",
+      "seo": {
+        "title": "Oʻzbekiston Farmatsevtika agentligi — rasmiy sayt | Govinfo",
+        "description": "Oʻzbekiston Sogʻliqni saqlash vazirligi huzuridagi Farmatsevtika tarmogʻini rivojlantirish agentligining rasmiy sayti. Farmatsevtika sanoati, dori-darmonlar, tibbiy jihozlar.",
+        "keywords": "farmatsevtika Oʻzbekiston, dori-darmonlar, Sogʻliqni saqlash vazirligi, uzpharmagency"
+      }
     }
   },
   "Inspections": {
