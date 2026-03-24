@@ -55,6 +55,24 @@ export default function data() {
             "https://api-portal.gov.uz/uploads/60/2025/06/18/b65e48a3-6ae4-c467-882a-2790701893b5_authority_60.jpg",
         },
       },
+      {
+        id: 4,
+        slug: "agencies-state-assets",
+        fullContent: true,
+        title: "Agencies.four.title",
+        description: "Agencies.four.description",
+        shortDesc: "Agencies.four.shortDesc",
+        tag: "tags.economy",
+        img: "https://api-portal.gov.uz/uploads/62/2025/06/20/9c5e6f93-7c38-9181-a979-fbd3f5bfbff2_authority_62.png",
+        link: "Agencies.four.link",
+        seo: {
+          title: "Agencies.four.seo.title",
+          description: "Agencies.four.seo.description",
+          keywords: "Agencies.four.seo.keywords",
+          image:
+            "https://api-portal.gov.uz/uploads/62/2025/06/20/9c5e6f93-7c38-9181-a979-fbd3f5bfbff2_authority_62.png",
+        },
+      },
     ],
   };
 }

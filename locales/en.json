@@ -415,6 +415,17 @@
         "description": "Official website of the Agency for the Development of the Pharmaceutical Industry under the Ministry of Health of Uzbekistan. Pharmaceutical industry development, medicines, medical equipment.",
         "keywords": "pharmaceutical Uzbekistan, medicines, Ministry of Health, uzpharmagency"
       }
+    },
+    "four": {
+      "title": "The State Assets Management Agency of the Republic of Uzbekistan",
+      "description": "The State Assets Management Agency of the Republic of Uzbekistan ensures accounting, valuation, privatization and efficient use of state property, organizes the sale and lease of state assets, maintains registers and coordinates the management of assets in state ownership.",
+      "shortDesc": "Accounting and management of state property",
+      "link": "https://gov.uz/en/davaktiv",
+      "seo": {
+        "title": "State Assets Management Agency of Uzbekistan — official website | Govinfo",
+        "description": "Official website of the State Assets Management Agency of the Republic of Uzbekistan: accounting, privatization, sale and lease of state-owned assets, registers and coordination of state property management. Search and topic coverage: State Assets Management Agency Uzbekistan, state property management, privatization, davaktiv, Republic of Uzbekistan state assets.",
+        "keywords": "State Assets Management Agency Uzbekistan, state property management, privatization, davaktiv, Republic of Uzbekistan state assets"
+      }
     }
   },
   "Inspections": {

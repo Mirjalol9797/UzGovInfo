@@ -29,6 +29,8 @@ const agenciesCinematography = () =>
   import("./agencies/agencies-cinematography.js");
 const agenciesPharmaceutical = () =>
   import("./agencies/agencies-pharmaceutical.js");
+const agenciesStateAssets = () =>
+  import("./agencies/agencies-state-assets.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -44,6 +46,7 @@ export const pageContentMap = {
   "agencies-uzarxiv": agenciesUzarxiv,
   "agencies-cinematography": agenciesCinematography,
   "agencies-pharmaceutical": agenciesPharmaceutical,
+  "agencies-state-assets": agenciesStateAssets,
 };
 
 export async function getPageContent(slug) {

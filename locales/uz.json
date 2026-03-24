@@ -415,6 +415,17 @@
         "description": "Oʻzbekiston Sogʻliqni saqlash vazirligi huzuridagi Farmatsevtika tarmogʻini rivojlantirish agentligining rasmiy sayti. Farmatsevtika sanoati, dori-darmonlar, tibbiy jihozlar.",
         "keywords": "farmatsevtika Oʻzbekiston, dori-darmonlar, Sogʻliqni saqlash vazirligi, uzpharmagency"
       }
+    },
+    "four": {
+      "title": "Oʻzbekiston Respublikasi Davlat aktivlarini boshqarish agentligi",
+      "description": "Oʻzbekiston Respublikasi Davlat aktivlarini boshqarish agentligi davlat mulkining hisobini yuritish, baholash, xususiyalashtirish va samarali foydalanishini taʼminlaydi, davlat aktivlari obyektlarini sotish va ijaraga berishni tashkil etadi, reestrlarni yuritadi va davlat mulkida boʻlgan aktivlarni boshqarish faoliyatini muvofiqlashtiradi.",
+      "shortDesc": "Davlat mulkini hisobga olish va boshqarish",
+      "link": "https://gov.uz/oz/davaktiv",
+      "seo": {
+        "title": "Davlat aktivlarini boshqarish agentligi — rasmiy sayt | Govinfo",
+        "description": "Oʻzbekiston Respublikasi Davlat aktivlarini boshqarish agentligining rasmiy sayti: davlat mulkining hisobi, xususiyalashtirish, davlat mulkida boʻlgan obyektlarni sotish va ijaraga berish, reestrlar va davlat mulkini boshqarishni muvofiqlashtirish. Qidiruv va mavzular: davlat aktivlari Oʻzbekiston, davlat mulkini boshqarish, xususiyalashtirish, davaktiv, Davlat aktivlarini boshqarish agentligi.",
+        "keywords": "davlat aktivlari Oʻzbekiston, davlat mulkini boshqarish, xususiyalashtirish, davaktiv, Davlat aktivlarini boshqarish agentligi"
+      }
     }
   },
   "Inspections": {

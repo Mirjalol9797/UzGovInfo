@@ -91,6 +91,7 @@ const otherSites = computed(() => {
       s.includes("pharma")
     )
       return "building";
+    if (s.includes("state-assets") || s.includes("davaktiv")) return "finance";
     return "building";
   };
   return {
