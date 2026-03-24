@@ -84,6 +84,7 @@ const otherSites = computed(() => {
     if (s.includes("bank") || s.includes("cbu")) return "finance";
     if (s.includes("account") || s.includes("ach")) return "chart";
     if (s.includes("uzarxiv") || s.includes("archives")) return "decree";
+    if (s.includes("cinematography") || s.includes("uzbkino")) return "program";
     return "building";
   };
   return {

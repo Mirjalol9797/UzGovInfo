@@ -393,6 +393,17 @@
         "description": "Official website of the «Uzarxiv» Agency under the Ministry of Justice of Uzbekistan. Archival storage, accounting and access to documents. Uzarxiv, Uzbekistan archives, archival documents, Ministry of Justice",
         "keywords": "Uzarxiv, Uzbekistan archives, archival documents, Ministry of Justice"
       }
+    },
+    "two": {
+      "title": "Cinematography Agency of the Republic of Uzbekistan",
+      "description": "The Cinematography Agency of the Republic of Uzbekistan under the Ministry of Culture implements state policy in the field of cinema, develops domestic cinematography, supports film production, distribution and screening of films. The Agency coordinates the activities of film studios, promotes Uzbek films at international festivals and develops film education.",
+      "shortDesc": "Development of cinematography and film production",
+      "link": "https://gov.uz/en/uzbekkino",
+      "seo": {
+        "title": "Cinematography Agency of Uzbekistan — official website | Govinfo",
+        "description": "Official website of the Cinematography Agency under the Ministry of Culture of Uzbekistan. Film art development, film production, film distribution.",
+        "keywords": "Uzbekistan cinematography, Uzbek cinema, uzbkino, Ministry of Culture"
+      }
     }
   },
   "Inspections": {

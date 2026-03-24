@@ -393,6 +393,17 @@
         "description": "Oʻzbekiston Adliya vazirligi huzuridagi «Oʻzarxiv» agentligining rasmiy sayti. Arxiv saqlash, hisobga olish va hujjatlarga kirish. Oʻzarxiv, Oʻzbekiston arxivlari, arxiv hujjatlari, Adliya vazirligi",
         "keywords": "Oʻzarxiv, Oʻzbekiston arxivlari, arxiv hujjatlari, Adliya vazirligi"
       }
+    },
+    "two": {
+      "title": "Oʻzbekiston Respublikasi Kinematografiya agentligi",
+      "description": "Oʻzbekiston Respublikasi Madaniyat vazirligi huzuridagi Kinematografiya agentligi kino sanʼati sohasida davlat siyosatini amalga oshiradi, milliy kinematografiyani rivojlantiradi, kinofilmlar ishlab chiqarish, tarqatish va namoyishini qoʻllab-quvvatlaydi. Agentlik kinostudiyalar faoliyatini muvofiqlashtiradi, oʻzbek filmlarini xalqaro festivallarda targʻib qiladi va kino taʼlimini rivojlantirishda yordam beradi.",
+      "shortDesc": "Kinematografiya va kinofilmlar ishlab chiqarishni rivojlantirish",
+      "link": "https://gov.uz/oz/uzbekkino",
+      "seo": {
+        "title": "Oʻzbekiston Kinematografiya agentligi — rasmiy sayt | Govinfo",
+        "description": "Oʻzbekiston Madaniyat vazirligi huzuridagi Kinematografiya agentligining rasmiy sayti. Kino sanʼatini rivojlantirish, kinofilmlar ishlab chiqarish va tarqatish.",
+        "keywords": "Oʻzbekiston kinematografiyasi, oʻzbek kinosi, uzbkino, Madaniyat vazirligi"
+      }
     }
   },
   "Inspections": {

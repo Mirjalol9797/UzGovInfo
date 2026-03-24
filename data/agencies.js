@@ -20,6 +20,23 @@ export default function data() {
             "https://api-portal.gov.uz/uploads/57/2025/10/29/2d10e588-65a9-9b12-6a02-200af1c889ff_authority_57.png",
         },
       },
+      {
+        id: 2,
+        slug: "agencies-cinematography",
+        fullContent: true,
+        title: "Agencies.two.title",
+        description: "Agencies.two.description",
+        shortDesc: "Agencies.two.shortDesc",
+        tag: "tags.culture",
+        img: "/images/gerb.png",
+        link: "Agencies.two.link",
+        seo: {
+          title: "Agencies.two.seo.title",
+          description: "Agencies.two.seo.description",
+          keywords: "Agencies.two.seo.keywords",
+          image: "/images/gerb.png",
+        },
+      },
     ],
   };
 }
