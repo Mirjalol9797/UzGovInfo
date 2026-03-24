@@ -229,6 +229,24 @@ export default function data() {
             "https://api-portal.gov.uz/uploads/148/2025/12/18/9eaabe7a-bde9-7f6f-5dd5-485973e1aaec_authority_148.png",
         },
       },
+      {
+        id: 14,
+        slug: "agencies-defindustry",
+        fullContent: true,
+        title: "Agencies.fourteen.title",
+        description: "Agencies.fourteen.description",
+        shortDesc: "Agencies.fourteen.shortDesc",
+        tag: "tags.defense",
+        img: "https://api-portal.gov.uz/uploads/150/2025/06/20/5422654a-4c01-c902-78af-feae9ba7aaf2_authority_150.png",
+        link: "Agencies.fourteen.link",
+        seo: {
+          title: "Agencies.fourteen.seo.title",
+          description: "Agencies.fourteen.seo.description",
+          keywords: "Agencies.fourteen.seo.keywords",
+          image:
+            "https://api-portal.gov.uz/uploads/150/2025/06/20/5422654a-4c01-c902-78af-feae9ba7aaf2_authority_150.png",
+        },
+      },
     ],
   };
 }

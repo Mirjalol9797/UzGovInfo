@@ -103,6 +103,8 @@ const otherSites = computed(() => {
       return "decree";
     if (s.includes("migration")) return "globe";
     if (s.includes("urmon") || s.includes("desertification")) return "globe";
+    if (s.includes("defindustry") || s.includes("defense-industry"))
+      return "shield";
     return "building";
   };
   return {
