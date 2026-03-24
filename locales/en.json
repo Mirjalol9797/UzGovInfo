@@ -459,6 +459,17 @@
         "description": "Official section of the National Anti-Doping Agency of the Republic of Uzbekistan (UzNADA) on the gov.uz portal: prohibited list, athlete testing, rules and sanctions, education and reporting doping concerns. Search topics: UzNADA, anti-doping Uzbekistan, national anti-doping agency, clean sport, WADA, gov.uz uznada.",
         "keywords": "UzNADA, anti-doping Uzbekistan, national anti-doping agency, clean sport, WADA, prohibited substances, athlete testing, gov.uz uznada"
       }
+    },
+    "eight": {
+      "title": "Agency for Atomic Energy under the Cabinet of Ministers of the Republic of Uzbekistan",
+      "description": "The Agency for Atomic Energy under the Cabinet of Ministers of the Republic of Uzbekistan implements state policy on the use of nuclear energy: development of nuclear power and infrastructure, nuclear and radiation safety, regulation and oversight in its remit, international cooperation and public information, coordination of projects and liaison with sector organisations.",
+      "shortDesc": "Nuclear energy and nuclear safety",
+      "link": "https://gov.uz/en/uzatom",
+      "seo": {
+        "title": "Agency for Atomic Energy of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Agency for Atomic Energy under the Cabinet of Ministers of the Republic of Uzbekistan on the gov.uz portal: nuclear energy, nuclear and radiation safety, documents, news, public services and contacts. Search topics: uzatom, nuclear energy Uzbekistan, atomic energy agency, nuclear safety, gov.uz uzatom.",
+        "keywords": "uzatom, nuclear energy Uzbekistan, atomic energy agency, nuclear safety, nuclear power, Cabinet of Ministers, gov.uz uzatom"
+      }
     }
   },
   "Inspections": {

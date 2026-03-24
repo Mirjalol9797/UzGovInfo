@@ -125,6 +125,24 @@ export default function data() {
           image: "/images/gerb.png",
         },
       },
+      {
+        id: 8,
+        slug: "agencies-uzatom",
+        fullContent: true,
+        title: "Agencies.eight.title",
+        description: "Agencies.eight.description",
+        shortDesc: "Agencies.eight.shortDesc",
+        tag: "tags.energy",
+        img: "https://api-portal.gov.uz/uploads/73/2025/06/20/9332b322-75fb-f47e-dc36-b8ec53d6cf0e_authority_73.png",
+        link: "Agencies.eight.link",
+        seo: {
+          title: "Agencies.eight.seo.title",
+          description: "Agencies.eight.seo.description",
+          keywords: "Agencies.eight.seo.keywords",
+          image:
+            "https://api-portal.gov.uz/uploads/73/2025/06/20/9332b322-75fb-f47e-dc36-b8ec53d6cf0e_authority_73.png",
+        },
+      },
     ],
   };
 }
