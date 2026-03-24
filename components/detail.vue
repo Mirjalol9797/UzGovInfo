@@ -119,6 +119,7 @@ const otherSites = computed(() => {
     if (s.includes("agencies-esma")) return "analytics";
     if (s.includes("agencies-adli")) return "program";
     if (s.includes("agencies-kasbiytalim")) return "program";
+    if (s.includes("ministries-investment-trade")) return "finance";
     return "building";
   };
   return {

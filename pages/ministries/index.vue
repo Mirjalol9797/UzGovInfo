@@ -380,7 +380,7 @@ const ministriesTableRows = computed(() => {
       sector: "Торговля и инвестиции",
       func: "Привлечение инвестиций и поддержка экспорта",
       linkKey: "Ministries.one.link",
-      linkText: "miit.uz",
+      linkText: "gov.uz/miit",
     },
     {
       org: "Министерство экономики и финансов",
@@ -529,7 +529,7 @@ const ministriesTableRows = computed(() => {
       sector: "Trade and Investment",
       func: "Investment attraction and export support",
       linkKey: "Ministries.one.link",
-      linkText: "miit.uz",
+      linkText: "gov.uz/miit",
     },
     {
       org: "Ministry of Economy and Finance",
@@ -674,11 +674,11 @@ const ministriesTableRows = computed(() => {
   ];
   const uz = [
     {
-      org: "Investitsiyalar, sanoat va savdo vazirligi",
+      org: "Oʻzbekiston Respublikasi Investitsiyalar, sanoat va savdo vazirligi",
       sector: "Savdo va investitsiyalar",
       func: "Investitsiyalarni jalb qilish va eksportni qoʻllab-quvvatlash",
       linkKey: "Ministries.one.link",
-      linkText: "miit.uz",
+      linkText: "gov.uz/miit",
     },
     {
       org: "Iqtisodiyot va moliya vazirligi",
