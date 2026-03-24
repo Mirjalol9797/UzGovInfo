@@ -481,6 +481,28 @@
         "description": "Oʻzbekiston Respublikasi Madaniy meros agentligining gov.uz portali boʻyicha rasmiy boʻlimi: meros obyektlari, muhofaza va restavratsiya, hujjatlar, yangiliklar, davlat xizmatlari va kontaktlar. Qidiruv va mavzular: madaniymeros, madaniy meros Oʻzbekiston, Madaniy meros agentligi, yodgorliklarni muhofaza qilish, gov.uz madaniymeros.",
         "keywords": "madaniymeros, madaniy meros Oʻzbekiston, Madaniy meros agentligi, yodgorliklarni muhofaza qilish, restavratsiya, nomoddiy meros, gov.uz madaniymeros"
       }
+    },
+    "ten": {
+      "title": "Oʻzbekiston Respublikasi Energetika bozorini rivojlantirish va tartibga solish agentligi",
+      "description": "Oʻzbekiston Respublikasi Energetika bozorini rivojlantirish va tartibga solish agentligi raqobatbardosh energetika bozorini rivojlantirishni taʼminlaydi, belgilangan sohada litsenziyalash va nazoratni, energetika qonunchiligiga rioya etilish boʻyicha ijrochi nazoratni, bozor ishtirokchilariga uslubiy yordam va energetikani tartibga solish boʻyicha xalqaro hamkorlikni amalga oshiradi.",
+      "shortDesc": "Energetika bozorini rivojlantirish va tartibga solish",
+      "link": "https://gov.uz/oz/emdra",
+      "seo": {
+        "title": "Energetika bozorini rivojlantirish agentligi — rasmiy sayt | Govinfo",
+        "description": "Oʻzbekiston Respublikasi Energetika bozorini rivojlantirish va tartibga solish agentligining gov.uz portali boʻyicha rasmiy boʻlimi: litsenziyalash, nazorat, qonunchilik, yangiliklar, davlat xizmatlari va kontaktlar. Qidiruv va mavzular: EMDRA, energetika bozori Oʻzbekiston, energetikani tartibga solish, energetika litsenziyalari, gov.uz emdra.",
+        "keywords": "EMDRA, energetika bozori Oʻzbekiston, energetikani tartibga solish, energetika bozorini rivojlantirish, energetika litsenziyalari, energetika qonunchiligi, gov.uz emdra"
+      }
+    },
+    "eleven": {
+      "title": "Vazirlar Mahkamasi huzuridagi Oʻzbekiston texnik jihatdan tartibga solish agentligi",
+      "description": "Vazirlar Mahkamasi huzuridagi Oʻzbekiston texnik jihatdan tartibga solish agentligi texnik jihatdan tartibga solish, standartlashtirish, metrologiya, muvofiqlikni baholash va tasdiqlash, akkreditatsiya, belgilangan sohada davlat nazorati va sifat tizimlarini rivojlantirish hamda ushbu yoʻnalishlarda xalqaro hamkorlikni taʼminlaydi.",
+      "shortDesc": "Texnik tartibga solish, standartlar va metrologiya",
+      "link": "https://gov.uz/oz/standart",
+      "seo": {
+        "title": "Texnik tartibga solish agentligi — rasmiy sayt | Govinfo",
+        "description": "Vazirlar Mahkamasi huzuridagi Oʻzbekiston texnik jihatdan tartibga solish agentligining gov.uz portali boʻyicha rasmiy boʻlimi: texnik tartibga solish, standartlashtirish, metrologiya, muvofiqlikni tasdiqlash, akkreditatsiya, hujjatlar va davlat xizmatlari. Qidiruv va mavzular: Uzstandard, texnik tartibga solish Oʻzbekiston, standartlar, metrologiya, gov.uz standart.",
+        "keywords": "Uzstandard, texnik tartibga solish Oʻzbekiston, standartlashtirish, metrologiya, muvofiqlikni tasdiqlash, akkreditatsiya, gov.uz standart"
+      }
     }
   },
   "Inspections": {

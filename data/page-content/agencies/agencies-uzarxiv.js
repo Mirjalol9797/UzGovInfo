@@ -62,6 +62,14 @@ export default {
           q: "Как получить доступ к архивным документам?",
           a: "Порядок получения доступа к архивным документам описан на официальном сайте агентства.",
         },
+        {
+          q: "Доступны ли электронные услуги Узархив?",
+          a: "Перечень онлайн-сервисов и форм обращений размещён на официальном сайте uzarxiv.uz.",
+        },
+        {
+          q: "К какому ведомству относится агентство?",
+          a: "Агентство «Узархив» действует при Министерстве юстиции Республики Узбекистан; структура и контакты указаны на официальном сайте.",
+        },
       ],
     },
   },
@@ -124,6 +132,14 @@ export default {
           q: "How to get access to archival documents?",
           a: "The procedure for obtaining access to archival documents is described on the official website of the Agency.",
         },
+        {
+          q: "Does Uzarxiv offer online services?",
+          a: "The list of e-services and application forms is published on the official website uzarxiv.uz.",
+        },
+        {
+          q: "Which ministry oversees the Agency?",
+          a: "The Uzarxiv Agency operates under the Ministry of Justice of the Republic of Uzbekistan; structure and contacts are on the official website.",
+        },
       ],
     },
   },
@@ -185,6 +201,14 @@ export default {
         {
           q: "Arxiv hujjatlariga qanday kirish mumkin?",
           a: "Arxiv hujjatlariga kirish tartibi agentlik rasmiy saytida tavsiflangan.",
+        },
+        {
+          q: "Oʻzarxivda elektron xizmatlar bormi?",
+          a: "Onlayn xizmatlar va murojaat shakllari roʻyxati uzarxiv.uz rasmiy saytida joylashtirilgan.",
+        },
+        {
+          q: "Agentlik qaysi vazirlik tarkibida?",
+          a: "«Oʻzarxiv» agentligi Oʻzbekiston Respublikasi Adliya vazirligi huzurida faoliyat yuritadi; tuzilma va kontaktlar rasmiy saytda keltirilgan.",
         },
       ],
     },

@@ -62,6 +62,14 @@ export default {
           q: "Где узнать об актуальных торгах?",
           a: "Информация о торгах и объектах размещается на официальном сайте davaktiv.uz.",
         },
+        {
+          q: "Можно ли подать обращение или заявку онлайн?",
+          a: "Перечень электронных услуг и форм обращения указан на официальном сайте davaktiv.uz.",
+        },
+        {
+          q: "Где найти реестры государственного имущества?",
+          a: "Сведения о реестрах и отчётности по госимуществу публикуются в соответствующих разделах на davaktiv.uz.",
+        },
       ],
     },
   },
@@ -124,6 +132,14 @@ export default {
           q: "Where can I find information on current tenders?",
           a: "Information on tenders and objects is published on the official website davaktiv.uz.",
         },
+        {
+          q: "Can I submit an application or request online?",
+          a: "The list of e-services and application forms is available on the official website davaktiv.uz.",
+        },
+        {
+          q: "Where can I find state property registers?",
+          a: "Register information and reporting on state property are published in the relevant sections on davaktiv.uz.",
+        },
       ],
     },
   },
@@ -185,6 +201,14 @@ export default {
         {
           q: "Dolzarb savdolash haqida qayerdan bilish mumkin?",
           a: "Savdolash va obyektlar haqidagi maʼlumotlar davaktiv.uz rasmiy saytida joylashtiriladi.",
+        },
+        {
+          q: "Onlayn murojaat yoki ariza topshirish mumkinmi?",
+          a: "Elektron xizmatlar va ariza shakllari roʻyxati davaktiv.uz rasmiy saytida keltirilgan.",
+        },
+        {
+          q: "Davlat mulki reestrlarini qayerdan topish mumkin?",
+          a: "Reestrlar va davlat mulki boʻyicha hisobotlar davaktiv.uz dagi tegishli boʻlimlarda eʼlon qilinadi.",
         },
       ],
     },

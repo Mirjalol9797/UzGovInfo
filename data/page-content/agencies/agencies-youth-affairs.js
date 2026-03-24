@@ -62,6 +62,14 @@ export default {
           q: "Есть ли горячая линия?",
           a: "Контакты и телефон доверия указаны на официальной странице Агентства на gov.uz.",
         },
+        {
+          q: "Где узнать о грантах и конкурсах для молодёжи?",
+          a: "Программы, гранты и объявления о конкурсах публикуются в официальном разделе Агентства на gov.uz (yoshlar).",
+        },
+        {
+          q: "Есть ли региональные отделения Агентства?",
+          a: "Информация о структуре и контактах региональных подразделений размещена на официальной странице на портале gov.uz.",
+        },
       ],
     },
   },
@@ -124,6 +132,14 @@ export default {
           q: "Is there a helpline?",
           a: "Contacts and trust line numbers are listed on the Agency's official page on gov.uz.",
         },
+        {
+          q: "Where can I find youth grants and competitions?",
+          a: "Programmes, grants and competition announcements are published in the Agency’s official section on gov.uz (yoshlar).",
+        },
+        {
+          q: "Does the Agency have regional offices?",
+          a: "Information on structure and contacts of regional offices is available on the official page on the gov.uz portal.",
+        },
       ],
     },
   },
@@ -185,6 +201,14 @@ export default {
         {
           q: "Ishonch telefoni bormi?",
           a: "Kontaktlar va ishonch telefoni raqamlari gov.uz dagi agentlikning rasmiy sahifasida keltirilgan.",
+        },
+        {
+          q: "Yoshlar uchun grantlar va tanlovlar haqida qayerdan bilish mumkin?",
+          a: "Dasturlar, grantlar va tanlov eʼlonlari gov.uz dagi agentlikning rasmiy boʻlimida (yoshlar) nashr etiladi.",
+        },
+        {
+          q: "Agentlikning hududiy boʻlinmalari bormi?",
+          a: "Tuzilma va hududiy boʻlimlar kontaktlari haqidagi maʼlumotlar gov.uz portali boʻyicha rasmiy sahifada joylashtirilgan.",
         },
       ],
     },

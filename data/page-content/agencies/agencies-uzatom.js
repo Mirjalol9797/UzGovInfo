@@ -61,6 +61,14 @@ export default {
           q: "Как связаться с Агентством?",
           a: "Контакты, телефон доверия и формы обратной связи указаны в официальном разделе на gov.uz (uzatom).",
         },
+        {
+          q: "Где узнать о ядерной и радиационной безопасности?",
+          a: "Материалы по безопасности и деятельности в области мирного атома публикуются в официальном разделе Агентства на gov.uz (uzatom).",
+        },
+        {
+          q: "Публикуются ли новости о проектах Агентства?",
+          a: "Новости, календарь событий и документы доступны в соответствующих разделах официального раздела на портале gov.uz.",
+        },
       ],
     },
   },
@@ -123,6 +131,14 @@ export default {
           q: "How can I contact the Agency?",
           a: "Contacts, the trust line and feedback forms are listed in the official section on gov.uz (uzatom).",
         },
+        {
+          q: "Where can I find information on nuclear and radiation safety?",
+          a: "Safety materials and peaceful-use nuclear activities are published in the Agency’s official section on gov.uz (uzatom).",
+        },
+        {
+          q: "Are there news updates on the Agency’s projects?",
+          a: "News, event calendars and documents are available in the relevant sections of the official area on the gov.uz portal.",
+        },
       ],
     },
   },
@@ -184,6 +200,14 @@ export default {
         {
           q: "Agentlik bilan qanday bogʻlanish mumkin?",
           a: "Kontaktlar, ishonch telefoni va murojaat shakllari gov.uz dagi rasmiy boʻlimda (uzatom) keltirilgan.",
+        },
+        {
+          q: "Yadro va radiatsion xavfsizlik haqida qayerdan bilish mumkin?",
+          a: "Xavfsizlik materiallari va tinch atom boʻyicha faoliyat gov.uz dagi agentlikning rasmiy boʻlimida (uzatom) nashr etiladi.",
+        },
+        {
+          q: "Agentlik loyihalari haqida yangiliklar chiqadimi?",
+          a: "Yangiliklar, tadbirlar kalendari va hujjatlar gov.uz portali boʻyicha rasmiy boʻlimning tegishli boʻlimlarida mavjud.",
         },
       ],
     },

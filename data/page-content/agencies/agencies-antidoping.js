@@ -61,6 +61,14 @@ export default {
           q: "Где посмотреть актуальный запрещённый список?",
           a: "Актуальная информация и ссылки на международные стандарты размещаются в официальном разделе на gov.uz (ru/uznada).",
         },
+        {
+          q: "Как сообщить о возможном нарушении антидопинговых правил?",
+          a: "Каналы для сообщений и разделы для спортсменов описаны на официальном разделе UzNADA на gov.uz; уточните актуальные контакты на сайте.",
+        },
+        {
+          q: "Проводится ли образование по антидопингу для спортсменов?",
+          a: "Сведения об учебных материалах и программах просвещения публикуются в официальном разделе Агентства на портале gov.uz.",
+        },
       ],
     },
   },
@@ -123,6 +131,14 @@ export default {
           q: "Where can I find the current prohibited list?",
           a: "Up-to-date information and links to international standards are published in the official section on gov.uz (gov.uz/en/uznada).",
         },
+        {
+          q: "How can I report a suspected anti-doping rule violation?",
+          a: "Reporting channels and athlete sections are described in UzNADA’s official section on gov.uz; check the site for current contacts.",
+        },
+        {
+          q: "Is anti-doping education available for athletes?",
+          a: "Information on educational materials and awareness programmes is published in the Agency’s official section on the gov.uz portal.",
+        },
       ],
     },
   },
@@ -184,6 +200,14 @@ export default {
         {
           q: "Dolzarb taqiqlangan roʻyxatni qayerdan koʻrish mumkin?",
           a: "Dolzarb maʼlumotlar va xalqaro standartlarga havolalar gov.uz portali boʻyicha rasmiy boʻlimda (gov.uz/oz/uznada) joylashtiriladi.",
+        },
+        {
+          q: "Antidoping qoidalarining buzilishlari haqida qanday xabar berish mumkin?",
+          a: "Xabar berish kanallari va sportchilar boʻlimlari UzNADA ning gov.uz dagi rasmiy boʻlimida tavsiflangan; dolzarb kontaktlar saytda tekshiriladi.",
+        },
+        {
+          q: "Sportchilar uchun antidoping taʼlimi oʻtkaziladimi?",
+          a: "Oʻquv materiallari va targʻibot dasturlari haqidagi maʼlumotlar gov.uz portali boʻyicha agentlikning rasmiy boʻlimida nashr etiladi.",
         },
       ],
     },

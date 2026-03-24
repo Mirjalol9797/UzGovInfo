@@ -61,6 +61,14 @@ export default {
           q: "Как связаться с Агентством?",
           a: "Контакты, телефон доверия и формы обратной связи указаны в официальном разделе на gov.uz (madaniymeros).",
         },
+        {
+          q: "Где узнать о государственных услугах в сфере культурного наследия?",
+          a: "Перечень услуг и порядок обращения публикуются в официальном разделе Агентства на портале gov.uz (madaniymeros).",
+        },
+        {
+          q: "Есть ли информация для музеев и реставраторов?",
+          a: "Новости, документы и разделы деятельности, в том числе по охране объектов наследия, размещены на официальном разделе на gov.uz.",
+        },
       ],
     },
   },
@@ -123,6 +131,14 @@ export default {
           q: "How can I contact the Agency?",
           a: "Contacts, the trust line and feedback forms are listed in the official section on gov.uz (madaniymeros).",
         },
+        {
+          q: "Where can I find public services related to cultural heritage?",
+          a: "The service catalogue and application procedures are published in the Agency’s official section on the gov.uz portal (madaniymeros).",
+        },
+        {
+          q: "Is there information for museums and restorers?",
+          a: "News, documents and activity sections, including on protection of heritage sites, are available in the official section on gov.uz.",
+        },
       ],
     },
   },
@@ -184,6 +200,14 @@ export default {
         {
           q: "Agentlik bilan qanday bogʻlanish mumkin?",
           a: "Kontaktlar, ishonch telefoni va murojaat shakllari gov.uz dagi rasmiy boʻlimda (madaniymeros) keltirilgan.",
+        },
+        {
+          q: "Madaniy meros sohasidagi davlat xizmatlari haqida qayerdan bilish mumkin?",
+          a: "Xizmatlar roʻyxati va murojaat tartibi gov.uz portali boʻyicha agentlikning rasmiy boʻlimida (madaniymeros) eʼlon qilinadi.",
+        },
+        {
+          q: "Muzeylar va restavratorlar uchun maʼlumot bormi?",
+          a: "Yangiliklar, hujjatlar va meros obyektlarini muhofaza qilish boʻyicha faoliyat boʻlimlari gov.uz dagi rasmiy boʻlimda joylashtirilgan.",
         },
       ],
     },

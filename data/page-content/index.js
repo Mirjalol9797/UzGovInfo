@@ -41,6 +41,10 @@ const agenciesUzatom = () =>
   import("./agencies/agencies-uzatom.js");
 const agenciesMadaniymeros = () =>
   import("./agencies/agencies-madaniymeros.js");
+const agenciesEmdra = () =>
+  import("./agencies/agencies-emdra.js");
+const agenciesStandart = () =>
+  import("./agencies/agencies-standart.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -62,6 +66,8 @@ export const pageContentMap = {
   "agencies-antidoping": agenciesAntidoping,
   "agencies-uzatom": agenciesUzatom,
   "agencies-madaniymeros": agenciesMadaniymeros,
+  "agencies-emdra": agenciesEmdra,
+  "agencies-standart": agenciesStandart,
 };
 
 export async function getPageContent(slug) {

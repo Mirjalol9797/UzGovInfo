@@ -481,6 +481,28 @@
         "description": "Official section of the Cultural Heritage Agency of the Republic of Uzbekistan on the gov.uz portal: heritage sites, protection and restoration, documents, news, public services and contacts. Search topics: madaniymeros, cultural heritage Uzbekistan, Cultural Heritage Agency, monument protection, gov.uz madaniymeros.",
         "keywords": "madaniymeros, cultural heritage Uzbekistan, Cultural Heritage Agency, monument protection, restoration, intangible heritage, gov.uz madaniymeros"
       }
+    },
+    "ten": {
+      "title": "Energy market development and regulatory agency of the Republic of Uzbekistan",
+      "description": "The Energy market development and regulatory agency of the Republic of Uzbekistan promotes a competitive energy market, licensing and oversight in its remit, executive control over compliance with energy legislation, methodological support for market participants and international cooperation on energy regulation.",
+      "shortDesc": "Energy market development and regulation",
+      "link": "https://gov.uz/en/emdra",
+      "seo": {
+        "title": "Energy market regulatory agency of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Energy market development and regulatory agency of the Republic of Uzbekistan on the gov.uz portal: licensing, supervision, legislation, news, public services and contacts. Search topics: EMDRA, Uzbekistan energy market, energy regulation, energy licensing, gov.uz emdra.",
+        "keywords": "EMDRA, Uzbekistan energy market, energy regulation, energy market development, energy licensing, energy legislation, gov.uz emdra"
+      }
+    },
+    "eleven": {
+      "title": "Uzbek Agency for Technical Regulation under the Cabinet of Ministers",
+      "description": "The Uzbek Agency for Technical Regulation under the Cabinet of Ministers ensures technical regulation, standardization, metrology, conformity assessment and confirmation, accreditation, state control in its remit and development of quality systems, as well as international cooperation in these areas.",
+      "shortDesc": "Technical regulation, standards and metrology",
+      "link": "https://gov.uz/en/standart",
+      "seo": {
+        "title": "Uzbek Agency for Technical Regulation — official website | Govinfo",
+        "description": "Official section of the Uzbek Agency for Technical Regulation under the Cabinet of Ministers on the gov.uz portal: technical regulation, standardization, metrology, conformity assessment, accreditation, documents and public services. Search topics: Uzstandard, technical regulation Uzbekistan, standards, metrology, gov.uz standart.",
+        "keywords": "Uzstandard, technical regulation Uzbekistan, standardization, metrology, conformity assessment, accreditation, gov.uz standart"
+      }
     }
   },
   "Inspections": {

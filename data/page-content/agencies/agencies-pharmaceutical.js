@@ -62,6 +62,14 @@ export default {
           q: "Когда было создано Агентство?",
           a: "Агентство создано Указом Президента № ДП-5229 от 7 ноября 2017 года.",
         },
+        {
+          q: "Где узнать о тендерах и закупках в сфере фармацевтики?",
+          a: "Объявления о закупках и связанные материалы публикуются в официальном разделе Агентства на gov.uz (uzpharmagency).",
+        },
+        {
+          q: "При каком министерстве действует Агентство?",
+          a: "Агентство по развитию фармацевтической отрасли работает при Министерстве здравоохранения Республики Узбекистан.",
+        },
       ],
     },
   },
@@ -124,6 +132,14 @@ export default {
           q: "When was the Agency established?",
           a: "The Agency was established by Presidential Decree No. DP-5229 of November 7, 2017.",
         },
+        {
+          q: "Where can I find pharmaceutical tenders and procurement information?",
+          a: "Procurement announcements and related materials are published in the Agency’s official section on gov.uz (uzpharmagency).",
+        },
+        {
+          q: "Under which ministry does the Agency operate?",
+          a: "The Agency for the Development of the Pharmaceutical Industry operates under the Ministry of Health of the Republic of Uzbekistan.",
+        },
       ],
     },
   },
@@ -185,6 +201,14 @@ export default {
         {
           q: "Agentlik qachon tashkil etilgan?",
           a: "Agentlik 2017-yil 7-noyabrdagi PF-5229-sonli Prezident qarori asosida tashkil etilgan.",
+        },
+        {
+          q: "Farmatsevtika sohasidagi tenderlar va xaridlar haqida qayerdan bilish mumkin?",
+          a: "Xaridlar eʼlonlari va tegishli materiallar gov.uz dagi agentlikning rasmiy boʻlimida (uzpharmagency) nashr etiladi.",
+        },
+        {
+          q: "Agentlik qaysi vazirlik huzurida faoliyat yuritadi?",
+          a: "Farmatsevtika tarmogʻini rivojlantirish agentligi Oʻzbekiston Respublikasi Sogʻliqni saqlash vazirligi huzurida ishlaydi.",
         },
       ],
     },

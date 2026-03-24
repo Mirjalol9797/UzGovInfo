@@ -98,6 +98,9 @@ const otherSites = computed(() => {
     if (s.includes("uzatom")) return "analytics";
     if (s.includes("madaniymeros") || s.includes("cultural-heritage"))
       return "program";
+    if (s.includes("emdra")) return "finance";
+    if (s.includes("standart") || s.includes("technical-regulation"))
+      return "decree";
     return "building";
   };
   return {

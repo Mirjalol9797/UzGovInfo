@@ -62,6 +62,14 @@ export default {
           q: "Как связаться с Агентством кинематографии?",
           a: "Контактная информация размещена на официальном сайте uzbkino.uz.",
         },
+        {
+          q: "Где узнать о поддержке кинопроизводства и прокате?",
+          a: "Программы поддержки, конкурсы и сведения о прокате публикуются на официальном сайте uzbkino.uz.",
+        },
+        {
+          q: "При каком ведомстве действует Агентство?",
+          a: "Агентство кинематографии работает при Министерстве культуры Республики Узбекистан; подробности на официальном сайте.",
+        },
       ],
     },
   },
@@ -124,6 +132,14 @@ export default {
           q: "How to contact the Cinematography Agency?",
           a: "Contact information is available on the official website uzbkino.uz.",
         },
+        {
+          q: "Where can I find support for film production and distribution?",
+          a: "Support programmes, competitions and distribution information are published on the official website uzbkino.uz.",
+        },
+        {
+          q: "Under which ministry does the Agency operate?",
+          a: "The Cinematography Agency operates under the Ministry of Culture of the Republic of Uzbekistan; details are on the official website.",
+        },
       ],
     },
   },
@@ -185,6 +201,14 @@ export default {
         {
           q: "Kinematografiya agentligi bilan qanday bogʻlanish mumkin?",
           a: "Bogʻlanish maʼlumotlari uzbkino.uz rasmiy saytida joylashtirilgan.",
+        },
+        {
+          q: "Kinofilmlar ishlab chiqarish va tarqatishni qoʻllab-quvvatlash haqida qayerdan bilish mumkin?",
+          a: "Qoʻllab-quvvatlash dasturlari, tanlovlar va tarqatish haqidagi maʼlumotlar uzbkino.uz rasmiy saytida nashr etiladi.",
+        },
+        {
+          q: "Agentlik qaysi vazirlik huzurida faoliyat yuritadi?",
+          a: "Kinematografiya agentligi Oʻzbekiston Respublikasi Madaniyat vazirligi huzurida ishlaydi; batafsil maʼlumot rasmiy saytda.",
         },
       ],
     },
