@@ -394,14 +394,14 @@ const ministriesTableRows = computed(() => {
       sector: "Геология и ресурсы",
       func: "Разведка недр и добыча полезных ископаемых",
       linkKey: "Ministries.three.link",
-      linkText: "mingeo.uz",
+      linkText: "gov.uz/mingeo",
     },
     {
       org: "Министерство строительства и ЖКХ РУз",
       sector: "Строительство",
       func: "Архитектурный надзор и коммунальное хозяйство",
       linkKey: "Ministries.four.link",
-      linkText: "mc.uz",
+      linkText: "gov.uz/mc",
     },
     {
       org: "Министерство занятости и сокращения бедности",
@@ -543,7 +543,7 @@ const ministriesTableRows = computed(() => {
       sector: "Geology and Resources",
       func: "Subsoil exploration and mineral extraction",
       linkKey: "Ministries.three.link",
-      linkText: "mingeo.uz",
+      linkText: "gov.uz/mingeo",
     },
     {
       org: "Ministry of Construction and Housing of Uzbekistan",
@@ -692,14 +692,14 @@ const ministriesTableRows = computed(() => {
       sector: "Geologiya va resurslar",
       func: "Yer osti boyliklarini qidirish va foydali qazilmalarni qazib olish",
       linkKey: "Ministries.three.link",
-      linkText: "mingeo.uz",
+      linkText: "gov.uz/mingeo",
     },
     {
       org: "Oʻzbekiston Respublikasi qurilish va uy-joy kommunal xoʻjaligi vazirligi",
       sector: "Qurilish",
       func: "Arxitektura nazorati va kommunal xoʻjalik",
       linkKey: "Ministries.four.link",
-      linkText: "mc.uz",
+      linkText: "gov.uz/mc",
     },
     {
       org: "Bandlik va qashshoqlikni qisqartirish vazirligi",

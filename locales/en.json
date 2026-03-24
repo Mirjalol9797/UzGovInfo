@@ -773,7 +773,7 @@
     },
     "three": {
       "title": "Ministry of Mining Industry and Geology of the Republic of Uzbekistan",
-      "description": "The Ministry of Ecology, Environmental Protection, and Climate Change of Uzbekistan’s website provides detailed information on environmental policies, sustainable practices, and national programs aimed at preserving natural resources. It highlights initiatives on biodiversity conservation, climate action, and pollution control, offering citizens access to news, reports, and updates on ecological projects. The site also includes resources for public participation, environmental education, and details about ongoing government and community efforts to enhance sustainability and address climate challenges.",
+      "description": "The Ministry of Mining Industry and Geology of the Republic of Uzbekistan publishes its official section on the gov.uz portal (mingeo). It covers development of the mining sector, geological exploration, mineral reserve accounting and subsoil use, licensing and oversight. The site provides news, organizational structure, public services (including a service register and reporting illegal extraction), legal documents, open data, tenders, vacancies and press materials.",
       "link": "https://gov.uz/en/mingeo",
       "seo": {
         "title": "Ministry of Mining Industry and Geology of the Republic of Uzbekistan – Official Website",
@@ -783,12 +783,12 @@
       "shortDesc": "Mining industry"
     },
     "four": {
-      "title": "Ministry of Construction and Housing and Communal Services Republic of Uzbekistan",
-      "description": "The website of the Ministry of Construction and Housing-Communal Services of Uzbekistan provides information on urban planning, building standards, and public utilities management. It offers resources on state services, licensing in construction, electronic platforms for real estate, and anti-corruption efforts. Users can find updates on construction regulations, project guidelines, and interactive services related to housing, building approvals, and more. The ministry also promotes international collaboration, public oversight, and youth policy initiatives in construction.",
-      "link": "https://mc.uz/oz",
+      "title": "Ministry of Construction and Housing and Communal Services of the Republic of Uzbekistan",
+      "description": "The Ministry of Construction and Housing and Communal Services publishes its official section on the gov.uz portal (mc), with complementary resources on mc.uz. Information covers urban planning, building standards, housing and utilities management, public services, construction licensing, e-services, legal documents, open data, news, tenders, the hotline and citizen appeals, plus digitalization, supervision and international cooperation in the sector.",
+      "link": "https://gov.uz/en/mc",
       "seo": {
-        "title": "Ministry of Construction and Housing and Communal Services of the Republic of Uzbekistan – Official Website",
-        "description": "Official website of the Ministry of Construction and Housing and Communal Services of the Republic of Uzbekistan – mc.uz. The Ministry is responsible for advancing the construction sector, housing, and communal services, as well as implementing national programs for infrastructure improvement and modernization. The site provides details on construction standards, urban development projects, housing initiatives, and reforms in communal services. Visitors can learn about major initiatives for sustainable urban development, improving living standards, and increasing housing affordability.",
+        "title": "Ministry of Construction and Housing and Communal Services – Official section gov.uz/mc",
+        "description": "Official section of the Ministry of Construction and Housing and Communal Services of the Republic of Uzbekistan on gov.uz (mc). Construction, housing and communal services, standards, public services and licensing, open data and appeals. Additional services may be available on mc.uz.",
         "keywords": "Ministry of Construction Uzbekistan, housing and communal services, mc.uz, construction standards, infrastructure modernization, urban development Uzbekistan, housing initiatives, communal service reforms, affordable housing Uzbekistan, construction technology, sustainable urban development, national programs, quality of life improvement, Uzbekistan infrastructure, urban planning, building standards, housing policies, infrastructure projects, residential construction, real estate development Uzbekistan"
       },
       "shortDesc": "Construction and housing"
