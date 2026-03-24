@@ -63,6 +63,14 @@ const agenciesUzbmb = () => import("./agencies/agencies-uzbmb.js");
 const agenciesKadastr = () => import("./agencies/agencies-kadastr.js");
 const agenciesAgrosanoat = () =>
   import("./agencies/agencies-agrosanoat.js");
+const agenciesInnovation = () =>
+  import("./agencies/agencies-innovation.js");
+const agenciesSanitation = () =>
+  import("./agencies/agencies-sanitation.js");
+const agenciesPersonalization = () =>
+  import("./agencies/agencies-personalization.js");
+const agenciesSuvobekt = () =>
+  import("./agencies/agencies-suvobekt.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -97,6 +105,10 @@ export const pageContentMap = {
   "agencies-uzbmb": agenciesUzbmb,
   "agencies-kadastr": agenciesKadastr,
   "agencies-agrosanoat": agenciesAgrosanoat,
+  "agencies-innovation": agenciesInnovation,
+  "agencies-sanitation": agenciesSanitation,
+  "agencies-personalization": agenciesPersonalization,
+  "agencies-suvobekt": agenciesSuvobekt,
 };
 
 export async function getPageContent(slug) {

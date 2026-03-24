@@ -112,6 +112,10 @@ const otherSites = computed(() => {
     if (s.includes("investmiit")) return "finance";
     if (s.includes("uzbmb")) return "program";
     if (s.includes("agrosanoat")) return "program";
+    if (s.includes("agencies-innovation")) return "analytics";
+    if (s.includes("agencies-sanitation")) return "program";
+    if (s.includes("agencies-personalization")) return "decree";
+    if (s.includes("agencies-suvobekt")) return "chart";
     return "building";
   };
   return {

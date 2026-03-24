@@ -624,6 +624,50 @@
         "description": "Official section of the Agency for the Development of the Agro-Industrial Complex under the Ministry of Agriculture on the gov.uz portal: REAGRO, subsidies, geoinformation, public services, documents and contacts. Search: agrosanoat, agro-industry Uzbekistan, Ministry of Agriculture, gov.uz agrosanoat.",
         "keywords": "agrosanoat, agro-industry Uzbekistan, agro-industrial complex, Ministry of Agriculture, agro subsidies, digital agriculture, gov.uz agrosanoat"
       }
+    },
+    "twentythree": {
+      "title": "Agency for Innovative Development under the Ministry of Higher Education, Science and Innovation of the Republic of Uzbekistan",
+      "description": "The Agency for Innovative Development under the Ministry of Higher Education, Science and Innovation of the Republic of Uzbekistan implements state policy on innovation, science and technology development and digital services within its mandate, supports implementation of presidential and government acts, runs competitions and council work, publishes regulations and state programmes, and provides open data, financial reporting and public engagement.",
+      "shortDesc": "Innovation, science and digital services",
+      "link": "https://gov.uz/en/innovation",
+      "seo": {
+        "title": "Agency for innovative development of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Agency for Innovative Development under the Ministry of Higher Education, Science and Innovation on the gov.uz portal: state programmes, e-government services register, open data, documents and contacts. Search: innovation, Uzbekistan innovation, R&D, gov.uz innovation.",
+        "keywords": "innovation, Uzbekistan innovation, innovative development agency, higher education science, e-government, open data, gov.uz innovation"
+      }
+    },
+    "twentyfour": {
+      "title": "Waste management and circular economy development agency",
+      "description": "The Waste management and circular economy development agency implements measures on waste management, sorting and recycling, circular economy development and related e-services within its mandate, publishes regulations and activity information, pursues international cooperation and investment areas, and provides open data and public engagement with citizens and businesses.",
+      "shortDesc": "Waste, recycling and circular economy",
+      "link": "https://gov.uz/en/sanitation",
+      "seo": {
+        "title": "Waste management and circular economy agency of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Waste management and circular economy development agency on the gov.uz portal: solid waste collection payments e-system, documents, tenders, open data, contacts and call centre 1205. Search: sanitation, waste Uzbekistan, recycling, gov.uz sanitation.",
+        "keywords": "sanitation, waste Uzbekistan, circular economy, recycling, municipal waste, gov.uz sanitation, waste management agency"
+      }
+    },
+    "twentyfive": {
+      "title": "Personalization agency under the Ministry of Justice of the Republic of Uzbekistan",
+      "description": "The Personalization agency under the Ministry of Justice of the Republic of Uzbekistan implements state policy measures on personalization of public and related services within the Agency’s and Ministry’s remit, develops e-services on the official portal, supports accessible interfaces for different user groups, and engages citizens and organisations.",
+      "shortDesc": "Service personalization and e-services",
+      "link": "https://dpm.uz/",
+      "seo": {
+        "title": "Personalization agency under the Ministry of Justice of Uzbekistan — official website | Govinfo",
+        "description": "Official website of the Personalization agency under the Ministry of Justice of the Republic of Uzbekistan: dpm.uz — applications, services and accessibility options. Search: DPM, personalization, Ministry of Justice Uzbekistan.",
+        "keywords": "dpm.uz, personalization agency, Ministry of Justice Uzbekistan, public service personalization, DPM Uzbekistan"
+      }
+    },
+    "twentysix": {
+      "title": "Agency for operation of water management facilities under the Ministry of Water Resources of the Republic of Uzbekistan",
+      "description": "The Agency for operation of water management facilities under the Ministry of Water Resources of the Republic of Uzbekistan operates water management facilities within its mandate, develops e-services for water accounting, land reclamation monitoring, subsidies and sector lending, handles applications from individuals and legal entities, supports reform and international cooperation, and publishes open data and transparency documents.",
+      "shortDesc": "Water management, irrigation and digital services",
+      "link": "https://gov.uz/en/suvobekt",
+      "seo": {
+        "title": "Agency for operation of water facilities of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Agency for operation of water management facilities under the Ministry of Water Resources on the gov.uz portal: SUV HISOBI AT, AGROSUBSIDIYA, reclamation monitoring, PPP tools, SUVKREDIT.UZ, drip irrigation calculator, documents and trust line +99871 202-48-00. Search: suvobekt, water Uzbekistan, gov.uz suvobekt.",
+        "keywords": "suvobekt, water management Uzbekistan, Ministry of Water Resources, irrigation, reclamation, SUV HISOBI, gov.uz suvobekt"
+      }
     }
   },
   "Inspections": {
