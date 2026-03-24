@@ -503,6 +503,28 @@
         "description": "Official section of the Uzbek Agency for Technical Regulation under the Cabinet of Ministers on the gov.uz portal: technical regulation, standardization, metrology, conformity assessment, accreditation, documents and public services. Search topics: Uzstandard, technical regulation Uzbekistan, standards, metrology, gov.uz standart.",
         "keywords": "Uzstandard, technical regulation Uzbekistan, standardization, metrology, conformity assessment, accreditation, gov.uz standart"
       }
+    },
+    "twelve": {
+      "title": "Migration Agency under the Cabinet of Ministers of the Republic of Uzbekistan",
+      "description": "The Migration Agency under the Cabinet of Ministers of the Republic of Uzbekistan implements state migration policy: registration and accounting of migrants, legal labour migration, support for citizens abroad, e-services for travel and employment abroad, licensing of private employment agencies, international cooperation and public legal awareness.",
+      "shortDesc": "Migration, passports and employment abroad",
+      "link": "https://gov.uz/en/migration",
+      "seo": {
+        "title": "Migration Agency of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Migration Agency under the Cabinet of Ministers of the Republic of Uzbekistan on the gov.uz portal: passports, labour migration, e-platform for work abroad, unified register, documents and public services. Search topics: Uzbekistan migration, Migration Agency, employment abroad, gov.uz migration.",
+        "keywords": "Uzbekistan migration, Migration Agency, labour migration, passport, work abroad, gov.uz migration, legal migration"
+      }
+    },
+    "thirteen": {
+      "title": "Agency for Increasing Forests and Green Areas and Combating Desertification",
+      "description": "The Agency for Increasing Forests and Green Areas and Combating Desertification of the Republic of Uzbekistan implements state policy on forestry, greening and vegetation restoration, combating desertification and land degradation, developing forest plantations and green infrastructure, coordinating regional programmes and international cooperation in these areas.",
+      "shortDesc": "Forests, green areas and desertification control",
+      "link": "https://gov.uz/en/urmon",
+      "seo": {
+        "title": "Forests and desertification agency of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Agency for Increasing Forests and Green Areas and Combating Desertification on the gov.uz portal: forestry, greening, tenders, documents, open data and public services. Search topics: urmon, Uzbekistan forests, desertification, green areas, afforestation, gov.uz urmon.",
+        "keywords": "urmon, Uzbekistan forests, desertification, green areas, afforestation, forestry, gov.uz urmon"
+      }
     }
   },
   "Inspections": {

@@ -101,6 +101,8 @@ const otherSites = computed(() => {
     if (s.includes("emdra")) return "finance";
     if (s.includes("standart") || s.includes("technical-regulation"))
       return "decree";
+    if (s.includes("migration")) return "globe";
+    if (s.includes("urmon") || s.includes("desertification")) return "globe";
     return "building";
   };
   return {

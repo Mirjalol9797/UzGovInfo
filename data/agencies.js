@@ -194,6 +194,41 @@ export default function data() {
           image: "/images/gerb.png",
         },
       },
+      {
+        id: 12,
+        slug: "agencies-migration",
+        fullContent: true,
+        title: "Agencies.twelve.title",
+        description: "Agencies.twelve.description",
+        shortDesc: "Agencies.twelve.shortDesc",
+        tag: "tags.employment",
+        img: "/images/gerb.png",
+        link: "Agencies.twelve.link",
+        seo: {
+          title: "Agencies.twelve.seo.title",
+          description: "Agencies.twelve.seo.description",
+          keywords: "Agencies.twelve.seo.keywords",
+          image: "/images/gerb.png",
+        },
+      },
+      {
+        id: 13,
+        slug: "agencies-urmon",
+        fullContent: true,
+        title: "Agencies.thirteen.title",
+        description: "Agencies.thirteen.description",
+        shortDesc: "Agencies.thirteen.shortDesc",
+        tag: "tags.forestry",
+        img: "https://api-portal.gov.uz/uploads/148/2025/12/18/9eaabe7a-bde9-7f6f-5dd5-485973e1aaec_authority_148.png",
+        link: "Agencies.thirteen.link",
+        seo: {
+          title: "Agencies.thirteen.seo.title",
+          description: "Agencies.thirteen.seo.description",
+          keywords: "Agencies.thirteen.seo.keywords",
+          image:
+            "https://api-portal.gov.uz/uploads/148/2025/12/18/9eaabe7a-bde9-7f6f-5dd5-485973e1aaec_authority_148.png",
+        },
+      },
     ],
   };
 }

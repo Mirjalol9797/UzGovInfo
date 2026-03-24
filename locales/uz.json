@@ -503,6 +503,28 @@
         "description": "Vazirlar Mahkamasi huzuridagi Oʻzbekiston texnik jihatdan tartibga solish agentligining gov.uz portali boʻyicha rasmiy boʻlimi: texnik tartibga solish, standartlashtirish, metrologiya, muvofiqlikni tasdiqlash, akkreditatsiya, hujjatlar va davlat xizmatlari. Qidiruv va mavzular: Uzstandard, texnik tartibga solish Oʻzbekiston, standartlar, metrologiya, gov.uz standart.",
         "keywords": "Uzstandard, texnik tartibga solish Oʻzbekiston, standartlashtirish, metrologiya, muvofiqlikni tasdiqlash, akkreditatsiya, gov.uz standart"
       }
+    },
+    "twelve": {
+      "title": "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Migratsiya agentligi",
+      "description": "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Migratsiya agentligi migratsiya sohasida davlat siyosatini amalga oshiradi: muhojirlar hisobi va roʻyxatga olish, qonuniy mehnat migratsiyasi, xorijda fuqarolarga yordam, chiqish va xorijda ishga joylashish uchun elektron xizmatlar, xususiy bandlik agentliklarini litsenziyalash, xalqaro hamkorlik va aholi huquqiy savodxonligi.",
+      "shortDesc": "Migratsiya, pasportlar va xorijda ish",
+      "link": "https://gov.uz/oz/migration",
+      "seo": {
+        "title": "Migratsiya agentligi — rasmiy sayt | Govinfo",
+        "description": "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Migratsiya agentligining gov.uz portali boʻyicha rasmiy boʻlimi: xorijga chiqish pasportlari, mehnat migratsiyasi, xorijda ish uchun elektron platforma, yagona reestr, hujjatlar va davlat xizmatlari. Qidiruv va mavzular: migratsiya Oʻzbekiston, Migratsiya agentligi, xorijda ish, gov.uz migration.",
+        "keywords": "migratsiya Oʻzbekiston, Migratsiya agentligi, mehnat migratsiyasi, xorijga chiqish pasporti, xorijda ish, gov.uz migration, qonuniy migratsiya"
+      }
+    },
+    "thirteen": {
+      "title": "Oʻrmon va yashil hududlarni koʻpaytirish, choʻllanishga qarshi kurashish agentligi",
+      "description": "Oʻzbekiston Respublikasining Oʻrmon va yashil hududlarni koʻpaytirish, choʻllanishga qarshi kurashish agentligi oʻrmon xoʻjaligi, yashillash va oʻsimlik qoplamasini tiklash, choʻllanish va yer degradatsiyasiga qarshi kurash, oʻrmon plantatsiyalari va yashil infratuzilmani rivojlantirish, hududiy dasturlarni muvofiqlashtirish hamda ushbu yoʻnalishlarda xalqaro hamkorlikni amalga oshiradi.",
+      "shortDesc": "Oʻrmonlar, yashil hududlar va choʻllanishga qarshi kurash",
+      "link": "https://gov.uz/oz/urmon",
+      "seo": {
+        "title": "Oʻrmon va choʻllanishga qarshi kurashish agentligi — rasmiy sayt | Govinfo",
+        "description": "Oʻrmon va yashil hududlarni koʻpaytirish, choʻllanishga qarshi kurashish agentligining gov.uz portali boʻyicha rasmiy boʻlimi: oʻrmon xoʻjaligi, yashillash, tenderlar, hujjatlar, ochiq maʼlumotlar va davlat xizmatlari. Qidiruv va mavzular: urmon, Oʻzbekiston oʻrmonlari, choʻllanish, yashil hududlar, oʻrmon tiklash, gov.uz urmon.",
+        "keywords": "urmon, Oʻzbekiston oʻrmonlari, choʻllanish, yashil hududlar, oʻrmon tiklash, oʻrmon xoʻjaligi, gov.uz urmon"
+      }
     }
   },
   "Inspections": {

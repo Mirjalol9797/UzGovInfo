@@ -45,6 +45,10 @@ const agenciesEmdra = () =>
   import("./agencies/agencies-emdra.js");
 const agenciesStandart = () =>
   import("./agencies/agencies-standart.js");
+const agenciesMigration = () =>
+  import("./agencies/agencies-migration.js");
+const agenciesUrmon = () =>
+  import("./agencies/agencies-urmon.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -68,6 +72,8 @@ export const pageContentMap = {
   "agencies-madaniymeros": agenciesMadaniymeros,
   "agencies-emdra": agenciesEmdra,
   "agencies-standart": agenciesStandart,
+  "agencies-migration": agenciesMigration,
+  "agencies-urmon": agenciesUrmon,
 };
 
 export async function getPageContent(slug) {
