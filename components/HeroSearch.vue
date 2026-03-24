@@ -3,6 +3,7 @@ import useHeadquarters from "../data/headquarters";
 import useInspections from "../data/inspections";
 import useMinistries from "../data/ministries";
 import useState from "../data/state";
+import useAgencies from "../data/agencies";
 import { navigateTo } from "#app";
 
 const { t } = useI18n();
@@ -11,9 +12,10 @@ const localePath = useLocalePath();
 const headquarters = useHeadquarters();
 const ministries = useMinistries();
 const state = useState();
+const agencies = useAgencies();
 const inspections = useInspections();
 
-type OrganizationCategoryKey = "headquarters" | "ministries" | "state" | "inspections";
+type OrganizationCategoryKey = "headquarters" | "ministries" | "state" | "agencies" | "inspections";
 
 type Organization = {
   id: number;
@@ -33,6 +35,7 @@ const categories = computed(() => {
     { key: "headquarters", data: headquarters.data },
     { key: "ministries", data: ministries.data },
     { key: "state", data: state.data },
+    { key: "agencies", data: agencies.data },
     { key: "inspections", data: inspections.data },
   ];
   return cats;

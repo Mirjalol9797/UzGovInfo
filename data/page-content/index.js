@@ -23,6 +23,9 @@ const headquartersCentralBank = () =>
 const headquartersAccountsChamber = () =>
   import("./headquarters/headquarters-accounts-chamber.js");
 
+const agenciesUzarxiv = () =>
+  import("./agencies/agencies-uzarxiv.js");
+
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
   "headquarters-parliament": headquartersParliament,
@@ -34,6 +37,7 @@ export const pageContentMap = {
   "headquarters-election-commission": headquartersElectionCommission,
   "headquarters-central-bank": headquartersCentralBank,
   "headquarters-accounts-chamber": headquartersAccountsChamber,
+  "agencies-uzarxiv": agenciesUzarxiv,
 };
 
 export async function getPageContent(slug) {

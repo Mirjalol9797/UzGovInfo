@@ -377,6 +377,24 @@
     }
   },
   "I": "I",
+  "Agencies": {
+    "headtitle": "Oʻzbekiston Respublikasi agentliklari",
+    "seo": {
+      "title": "Oʻzbekiston Respublikasi agentliklari — rasmiy katalog | Govinfo",
+      "description": "Oʻzbekiston agentliklari roʻyxati, rasmiy saytlar va funksiyalar."
+    },
+    "one": {
+      "title": "Oʻzbekiston Respublikasi Adliya vazirligi huzuridagi «Oʻzarxiv» agentligi",
+      "description": "Oʻzbekiston Respublikasi Adliya vazirligi huzuridagi «Oʻzarxiv» agentligi davlat organlari va tashkilotlar arxiv hujjatlarini saqlash, hisobga olish va ulardan foydalanishni taʼminlaydi. Agentlik arxiv fondlarining saqlanishini taʼminlash, fuqarolarning arxiv maʼlumotlariga kirish huquqini amalga oshirish, ilmiy-nazorat apparatini tashkil etish va arxiv ishiga raqamli texnologiyalarni joriy etish boʻyicha ishlar olib boradi.",
+      "shortDesc": "Arxiv saqlash va hujjatlarni hisobga olish",
+      "link": "https://gov.uz/uz/archive",
+      "seo": {
+        "title": "«Oʻzarxiv» agentligi — rasmiy sayt | Govinfo",
+        "description": "Oʻzbekiston Adliya vazirligi huzuridagi «Oʻzarxiv» agentligining rasmiy sayti. Arxiv saqlash, hisobga olish va hujjatlarga kirish. Oʻzarxiv, Oʻzbekiston arxivlari, arxiv hujjatlari, Adliya vazirligi",
+        "keywords": "Oʻzarxiv, Oʻzbekiston arxivlari, arxiv hujjatlari, Adliya vazirligi"
+      }
+    }
+  },
   "Inspections": {
     "headtitle": "Oʻzbekiston Respublikasi inspeksiyalari — rasmiy saytlar",
     "seo": {
@@ -417,6 +435,7 @@
     "headquarters": "Oliy davlat organlari",
     "ministries": "Vazirliklar",
     "state": "Davlat organlari",
+    "agencies": "Agentliklar",
     "inspections": "Davlat inspeksiyalari"
   },
   "M": "M",
@@ -823,7 +842,8 @@
     "veterinary": "Veterinariya",
     "roads": "Yoʻl xoʻjaligi",
     "tourism": "Turizm",
-    "waterSupply": "Suv taʼminoti"
+    "waterSupply": "Suv taʼminoti",
+    "archives": "Arxivlar"
   },
   "heroSearch": {
     "heading": "Rasmiy veb-saytlarni qidirish",

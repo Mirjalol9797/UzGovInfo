@@ -3,6 +3,7 @@ import useHeadquarters from "../data/headquarters";
 import useInspections from "../data/inspections";
 import useMinistries from "../data/ministries";
 import useState from "../data/state";
+import useAgencies from "../data/agencies";
 
 const { t, locale } = useI18n();
 const localePath = useLocalePath();
@@ -11,6 +12,7 @@ const categories = [
   { key: "headquarters", data: useHeadquarters().data },
   { key: "ministries", data: useMinistries().data },
   { key: "state", data: useState().data },
+  { key: "agencies", data: useAgencies().data },
   { key: "inspections", data: useInspections().data },
 ];
 

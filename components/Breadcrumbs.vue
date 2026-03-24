@@ -5,6 +5,7 @@ import useHeadquarters from "../data/headquarters";
 import useInspections from "../data/inspections";
 import useMinistries from "../data/ministries";
 import useState from "../data/state";
+import useAgencies from "../data/agencies";
 
 const route = useRoute();
 const { t, locale } = useI18n();
@@ -18,6 +19,7 @@ const slugTitleMap = computed(() => {
     useHeadquarters().data,
     useMinistries().data,
     useState().data,
+    useAgencies().data,
     useInspections().data,
   ];
 
@@ -37,6 +39,7 @@ const sectionTitleMap = computed(() => ({
   headquarters: t("Headquarters.headtitle"),
   ministries: t("Ministries.headtitle"),
   state: t("State.headtitle"),
+  agencies: t("Agencies.headtitle"),
   inspections: t("Inspections.headtitle"),
 }));
 

@@ -377,6 +377,24 @@
     }
   },
   "I": "I",
+  "Agencies": {
+    "headtitle": "Agencies of the Republic of Uzbekistan",
+    "seo": {
+      "title": "Agencies of the Republic of Uzbekistan — official catalog | Govinfo",
+      "description": "Complete list of Uzbekistan agencies with official websites and functions."
+    },
+    "one": {
+      "title": "«Uzarxiv» Agency under the Ministry of Justice of the Republic of Uzbekistan",
+      "description": "The «Uzarxiv» Agency under the Ministry of Justice of the Republic of Uzbekistan ensures the storage, accounting and use of archival documents of state bodies and organizations. The Agency carries out work to ensure the safety of archival funds, implement citizens' right of access to archival information, organize reference systems and introduce digital technologies in archival affairs.",
+      "shortDesc": "Archival storage and document accounting",
+      "link": "https://gov.uz/uz/archive",
+      "seo": {
+        "title": "«Uzarxiv» Agency — official website | Govinfo",
+        "description": "Official website of the «Uzarxiv» Agency under the Ministry of Justice of Uzbekistan. Archival storage, accounting and access to documents. Uzarxiv, Uzbekistan archives, archival documents, Ministry of Justice",
+        "keywords": "Uzarxiv, Uzbekistan archives, archival documents, Ministry of Justice"
+      }
+    }
+  },
   "Inspections": {
     "headtitle": "Inspections of the Republic of Uzbekistan — official websites",
     "seo": {
@@ -417,6 +435,7 @@
     "headquarters": "Supreme government bodies",
     "ministries": "Ministries",
     "state": "State bodies",
+    "agencies": "Agencies",
     "inspections": "State inspections"
   },
   "M": "M",
@@ -823,7 +842,8 @@
     "veterinary": "Veterinary",
     "roads": "Road Infrastructure",
     "tourism": "Tourism",
-    "waterSupply": "Water Supply"
+    "waterSupply": "Water Supply",
+    "archives": "Archives"
   },
   "heroSearch": {
     "heading": "Search official websites",

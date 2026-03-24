@@ -83,6 +83,7 @@ const otherSites = computed(() => {
     if (s.includes("election") || s.includes("saylov")) return "vote";
     if (s.includes("bank") || s.includes("cbu")) return "finance";
     if (s.includes("account") || s.includes("ach")) return "chart";
+    if (s.includes("uzarxiv") || s.includes("archives")) return "decree";
     return "building";
   };
   return {
