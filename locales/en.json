@@ -795,11 +795,11 @@
     },
     "five": {
       "title": "Ministry of Employment and Poverty Reduction of the Republic of Uzbekistan",
-      "description": "The website of Uzbekistan’s Ministry of Employment and Poverty Relations, mehnat.uz, offers extensive resources on employment policies, worker rights, and social protection. It provides services for job seekers and employers, including job placements, vocational training, and labor market analysis. The site also highlights labor laws, regulations, and reforms designed to support fair work conditions and economic development. Additionally, interactive features allow users to engage with government programs and access legal support.",
-      "link": "https://mehnat.uz/en",
+      "description": "The Ministry of Employment and Poverty Reduction publishes its official section on the gov.uz portal (bv), with complementary resources on mehnat.uz. Topics include employment and labor-market policy, poverty reduction, social protection, occupational safety, vocational training, labor law, public and sectoral e-services, open data, news, reception schedules, State Labor Inspectorate contacts and the ministry hotline.",
+      "link": "https://gov.uz/en/bv",
       "seo": {
-        "title": "Ministry of Employment and Poverty Reduction of the Republic of Uzbekistan – Official Website",
-        "description": "Official website of the Ministry of Employment and Poverty Reduction of the Republic of Uzbekistan – mehnat.uz. The Ministry focuses on employment initiatives, poverty reduction, social support, and job creation across Uzbekistan. The site provides information on employment programs, government assistance for the unemployed, vocational training, and measures to support low-income families. It also covers projects on labor migration, skill development, improved working conditions, and workers' rights protection. The Ministry is committed to fostering economic growth and social inclusion by creating favorable conditions for employment.",
+        "title": "Ministry of Employment and Poverty Reduction – Official section gov.uz/bv",
+        "description": "Official section of the Ministry of Employment and Poverty Reduction of the Republic of Uzbekistan on gov.uz (bv). Employment, poverty reduction, social support, labor protection, training, public services and regulations. Additional services may be available on mehnat.uz.",
         "keywords": "Ministry of Employment Uzbekistan, poverty reduction, employment programs, mehnat.uz, social support Uzbekistan, job creation, vocational training, labor migration, workers' rights protection, low-income family support, economic growth Uzbekistan, job market, skill development, social inclusion, labor policies, working conditions Uzbekistan, government assistance, poverty alleviation, employment initiatives, worker protection, job opportunities Uzbekistan"
       },
       "shortDesc": "Employment and poverty reduction"
@@ -817,25 +817,25 @@
     },
     "seven": {
       "title": "Ministry of Preschool and School Education of the Republic of Uzbekistan",
-      "description": "The website of Uzbekistan’s Ministry of Preschool and School Education, uzedu.uz, provides information on educational policies, curriculum development, teacher training, and initiatives to improve educational standards across the country. It includes updates on reforms, school programs, and resources for students, parents, and educators. The site also highlights government projects to enhance digital learning, infrastructure, and inclusive education, offering interactive platforms for citizen engagement and feedback.",
-      "link": "https://uzedu.uz/",
+      "description": "The ministry’s official section on gov.uz (uzedu) covers preschool and general secondary education policy, structure, reports and statistics, e-government, public services (including information systems with SMS notifications), open data and education spending, mobile services, news and contacts (hotline +998 71 202-09-09). Additional resources may be available on uzedu.uz.",
+      "link": "https://gov.uz/en/uzedu",
       "seo": {
-        "title": "Ministry of Preschool and School Education of the Republic of Uzbekistan – Official Website",
-        "description": "Official website of the Ministry of Preschool and School Education of Uzbekistan – uzedu.uz. The Ministry is responsible for the development of the education system, curriculum standards, and the modernization of preschools and schools nationwide. The site provides information on the ministry's plans and initiatives, state education standards, access to preschool and school education, teacher training, and the implementation of innovative educational technologies. Discover projects aimed at creating high-quality, accessible education for every child in Uzbekistan.",
-        "keywords": "Ministry of Education Uzbekistan, preschool education, school education, uzedu.uz, preschools Uzbekistan, primary education, educational standards Uzbekistan, teacher training, school reforms, educational innovation, accessible education, curriculum development, education system Uzbekistan, Ministry of Preschool Education, teaching projects, quality education improvement, school modernization, educational initiatives Uzbekistan"
+        "title": "Ministry of Preschool and School Education – Official section gov.uz/uzedu",
+        "description": "Official section of the Ministry of Preschool and School Education of the Republic of Uzbekistan on gov.uz (uzedu): policy and reforms, standards, public and digital services, open data, press service and contacts. See also uzedu.uz.",
+        "keywords": "Ministry of Preschool and School Education Uzbekistan, gov.uz uzedu, preschool education, school education, uzedu.uz, education public services, open data education Uzbekistan, ministry of education hotline"
       },
       "shortDesc": "Preschool and school education"
     },
     "eight": {
-      "title": "Ministry of Ecology, Environmental Protection and Climate Change of the Republic of Uzbekistan",
-      "description": "The uznature.uz website, managed by the State Committee on Ecology and Environmental Protection of Uzbekistan, provides detailed information on environmental protection initiatives, policies, and conservation efforts across the country. It covers topics like waste management, pollution control, biodiversity conservation, and sustainable practices. The site includes news, reports, legal documents, and interactive services for citizen engagement. It also offers resources on Uzbekistan’s climate action and educational programs for ecological awareness.",
-      "link": "https://uznature.uz/en",
+      "title": "National Committee on Ecology and Climate Change of the Republic of Uzbekistan",
+      "description": "The committee’s official section on gov.uz (eco) covers mandates, structure, environmental control and monitoring, biodiversity, waste, environmental expertise, public services (including the eco-calculator, mobile services and SMS-enabled systems), open data, the register of state environmental expertise conclusions, legal documents, press service and contacts (hotlines 1157, +998 71 207-11-07). Some content may also appear on uznature.uz.",
+      "link": "https://gov.uz/en/eco",
       "seo": {
-        "title": "Ministry of Ecology, Environmental Protection, and Climate Change of Uzbekistan – Official Website",
-        "description": "Official website of the Ministry of Ecology, Environmental Protection, and Climate Change of Uzbekistan – uznature.uz. The Ministry is dedicated to environmental protection, conservation of natural resources, and climate change mitigation. The site features programs for pollution reduction, sustainable development initiatives, and climate adaptation measures. Find information on environmental legislation, ecosystem restoration projects, emissions control, and the implementation of green technologies. Learn about ongoing projects aimed at preserving nature and protecting ecosystems for future generations.",
-        "keywords": "Ministry of Ecology Uzbekistan, environmental protection, climate change, uznature.uz, natural resources Uzbekistan, ecology protection, pollution control, sustainable development, climate adaptation, ecosystem restoration, environmental initiatives, green technologies, environmental legislation, nature conservation, ecology projects Uzbekistan, emissions control, climate resilience, environmental sustainability"
+        "title": "National Committee on Ecology and Climate Change – Official section gov.uz/eco",
+        "description": "Official section of the National Committee on Ecology and Climate Change of the Republic of Uzbekistan on gov.uz (eco): environment, climate, monitoring, public services, open data, environmental expertise register, documents and contacts. See also uznature.uz.",
+        "keywords": "National Committee ecology Uzbekistan, gov.uz eco, climate change, environmental control, open environmental data, state environmental expertise, uznature.uz, hotline 1157"
       },
-      "shortDesc": "Ecology and environmental protection"
+      "shortDesc": "Ecology and climate change"
     },
     "nine": {
       "title": "Ministry of Sports of the Republic of Uzbekistan",

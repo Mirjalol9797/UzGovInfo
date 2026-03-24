@@ -122,6 +122,10 @@ const otherSites = computed(() => {
     if (s.includes("ministries-investment-trade")) return "finance";
     if (s.includes("ministries-economy-finance")) return "chart";
     if (s.includes("ministries-mining-geology")) return "globe";
+    if (s.includes("ministries-employment-poverty")) return "people";
+    if (s.includes("ministries-attestation-commission")) return "decree";
+    if (s.includes("ministries-education")) return "program";
+    if (s.includes("ministries-ecology-climate")) return "globe";
     return "building";
   };
   return {

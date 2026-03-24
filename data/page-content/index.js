@@ -84,6 +84,14 @@ const ministriesMiningGeology = () =>
   import("./ministries/ministries-mining-geology.js");
 const ministriesConstructionHousing = () =>
   import("./ministries/ministries-construction-housing.js");
+const ministriesEmploymentPoverty = () =>
+  import("./ministries/ministries-employment-poverty.js");
+const ministriesAttestationCommission = () =>
+  import("./ministries/ministries-attestation-commission.js");
+const ministriesEducation = () =>
+  import("./ministries/ministries-education.js");
+const ministriesEcologyClimate = () =>
+  import("./ministries/ministries-ecology-climate.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -129,6 +137,10 @@ export const pageContentMap = {
   "ministries-economy-finance": ministriesEconomyFinance,
   "ministries-mining-geology": ministriesMiningGeology,
   "ministries-construction-housing": ministriesConstructionHousing,
+  "ministries-employment-poverty": ministriesEmploymentPoverty,
+  "ministries-attestation-commission": ministriesAttestationCommission,
+  "ministries-education": ministriesEducation,
+  "ministries-ecology-climate": ministriesEcologyClimate,
 };
 
 export async function getPageContent(slug) {
