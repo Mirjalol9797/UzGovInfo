@@ -96,6 +96,8 @@ const otherSites = computed(() => {
     if (s.includes("uzbekcosmos") || s.includes("cosmos")) return "globe";
     if (s.includes("antidoping") || s.includes("uznada")) return "shield";
     if (s.includes("uzatom")) return "analytics";
+    if (s.includes("madaniymeros") || s.includes("cultural-heritage"))
+      return "program";
     return "building";
   };
   return {

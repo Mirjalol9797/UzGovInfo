@@ -143,6 +143,23 @@ export default function data() {
             "https://api-portal.gov.uz/uploads/73/2025/06/20/9332b322-75fb-f47e-dc36-b8ec53d6cf0e_authority_73.png",
         },
       },
+      {
+        id: 9,
+        slug: "agencies-madaniymeros",
+        fullContent: true,
+        title: "Agencies.nine.title",
+        description: "Agencies.nine.description",
+        shortDesc: "Agencies.nine.shortDesc",
+        tag: "tags.culture",
+        img: "/images/gerb.png",
+        link: "Agencies.nine.link",
+        seo: {
+          title: "Agencies.nine.seo.title",
+          description: "Agencies.nine.seo.description",
+          keywords: "Agencies.nine.seo.keywords",
+          image: "/images/gerb.png",
+        },
+      },
     ],
   };
 }

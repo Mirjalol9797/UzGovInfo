@@ -470,6 +470,17 @@
         "description": "Official section of the Agency for Atomic Energy under the Cabinet of Ministers of the Republic of Uzbekistan on the gov.uz portal: nuclear energy, nuclear and radiation safety, documents, news, public services and contacts. Search topics: uzatom, nuclear energy Uzbekistan, atomic energy agency, nuclear safety, gov.uz uzatom.",
         "keywords": "uzatom, nuclear energy Uzbekistan, atomic energy agency, nuclear safety, nuclear power, Cabinet of Ministers, gov.uz uzatom"
       }
+    },
+    "nine": {
+      "title": "Cultural Heritage Agency of the Republic of Uzbekistan",
+      "description": "The Cultural Heritage Agency of the Republic of Uzbekistan ensures preservation, recording, protection and sustainable use of cultural heritage sites, development of traditional crafts and intangible cultural heritage, coordination of restoration and museum activities, state oversight in its remit and international cooperation on heritage protection.",
+      "shortDesc": "Protection and development of cultural heritage",
+      "link": "https://gov.uz/en/madaniymeros",
+      "seo": {
+        "title": "Cultural Heritage Agency of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Cultural Heritage Agency of the Republic of Uzbekistan on the gov.uz portal: heritage sites, protection and restoration, documents, news, public services and contacts. Search topics: madaniymeros, cultural heritage Uzbekistan, Cultural Heritage Agency, monument protection, gov.uz madaniymeros.",
+        "keywords": "madaniymeros, cultural heritage Uzbekistan, Cultural Heritage Agency, monument protection, restoration, intangible heritage, gov.uz madaniymeros"
+      }
     }
   },
   "Inspections": {

@@ -470,6 +470,17 @@
         "description": "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Atom energiyasi agentligining gov.uz portali boʻyicha rasmiy boʻlimi: atom energetikasi, yadro va radiatsion xavfsizlik, hujjatlar, yangiliklar, davlat xizmatlari va kontaktlar. Qidiruv va mavzular: uzatom, atom energiyasi Oʻzbekiston, Atom energiyasi agentligi, yadro xavfsizligi, gov.uz uzatom.",
         "keywords": "uzatom, atom energiyasi Oʻzbekiston, Atom energiyasi agentligi, yadro xavfsizligi, atom energetikasi, Vazirlar Mahkamasi, gov.uz uzatom"
       }
+    },
+    "nine": {
+      "title": "Oʻzbekiston Respublikasi Madaniy meros agentligi",
+      "description": "Oʻzbekiston Respublikasi Madaniy meros agentligi madaniy meros obyektlarini saqlash, hisobga olish, muhofaza qilish va barqaror foydalanishini taʼminlaydi, anʼanaviy hunarmandchilik va nomoddiy madaniy merosni rivojlantiradi, restavratsiya va muzey yoʻnalishlarini muvofiqlashtiradi, belgilangan sohada davlat nazoratini va merosni muhofaza qilish boʻyicha xalqaro hamkorlikni amalga oshiradi.",
+      "shortDesc": "Madaniy merosni muhofaza qilish va rivojlantirish",
+      "link": "https://gov.uz/oz/madaniymeros",
+      "seo": {
+        "title": "Madaniy meros agentligi — rasmiy sayt | Govinfo",
+        "description": "Oʻzbekiston Respublikasi Madaniy meros agentligining gov.uz portali boʻyicha rasmiy boʻlimi: meros obyektlari, muhofaza va restavratsiya, hujjatlar, yangiliklar, davlat xizmatlari va kontaktlar. Qidiruv va mavzular: madaniymeros, madaniy meros Oʻzbekiston, Madaniy meros agentligi, yodgorliklarni muhofaza qilish, gov.uz madaniymeros.",
+        "keywords": "madaniymeros, madaniy meros Oʻzbekiston, Madaniy meros agentligi, yodgorliklarni muhofaza qilish, restavratsiya, nomoddiy meros, gov.uz madaniymeros"
+      }
     }
   },
   "Inspections": {
