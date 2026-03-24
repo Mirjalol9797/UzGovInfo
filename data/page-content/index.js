@@ -78,6 +78,8 @@ const agenciesKasbiytalim = () =>
 
 const ministriesInvestmentTrade = () =>
   import("./ministries/ministries-investment-trade.js");
+const ministriesEconomyFinance = () =>
+  import("./ministries/ministries-economy-finance.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -120,6 +122,7 @@ export const pageContentMap = {
   "agencies-adli": agenciesAdli,
   "agencies-kasbiytalim": agenciesKasbiytalim,
   "ministries-investment-trade": ministriesInvestmentTrade,
+  "ministries-economy-finance": ministriesEconomyFinance,
 };
 
 export async function getPageContent(slug) {

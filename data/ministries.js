@@ -25,13 +25,14 @@ export default function ministries() {
         description: "Ministries.two.description",
         shortDesc: "Ministries.two.shortDesc",
         tag: "tags.finance",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/3/2026/03/13/302cc13b-cbfc-4d21-f683-001f1b388f69_authority_3.png",
         link: "Ministries.two.link",
         seo: {
           title: "Ministries.two.seo.title",
           description: "Ministries.two.seo.description",
           keywords: "Ministries.two.seo.keywords",
-          image: "/images/Ministries/www.imv.uz.png",
+          image:
+            "https://api-portal.gov.uz/uploads/3/2026/03/13/302cc13b-cbfc-4d21-f683-001f1b388f69_authority_3.png",
         },
       },
       {

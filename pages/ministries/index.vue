@@ -387,7 +387,7 @@ const ministriesTableRows = computed(() => {
       sector: "Финансы и налоги",
       func: "Управление бюджетом и экономическое планирование",
       linkKey: "Ministries.two.link",
-      linkText: "imv.uz",
+      linkText: "gov.uz/imv",
     },
     {
       org: "Министерство горнодобывающей промышленности и геологии",
@@ -536,7 +536,7 @@ const ministriesTableRows = computed(() => {
       sector: "Finance and Taxes",
       func: "Budget management and economic planning",
       linkKey: "Ministries.two.link",
-      linkText: "imv.uz",
+      linkText: "gov.uz/imv",
     },
     {
       org: "Ministry of Mining and Geology",
@@ -685,7 +685,7 @@ const ministriesTableRows = computed(() => {
       sector: "Moliya va soliqlar",
       func: "Byudjetni boshqarish va iqtisodiy rejalashtirish",
       linkKey: "Ministries.two.link",
-      linkText: "imv.uz",
+      linkText: "gov.uz/imv",
     },
     {
       org: "Kon va geologiya vazirligi",
