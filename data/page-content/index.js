@@ -92,6 +92,14 @@ const ministriesEducation = () =>
   import("./ministries/ministries-education.js");
 const ministriesEcologyClimate = () =>
   import("./ministries/ministries-ecology-climate.js");
+const ministriesSports = () =>
+  import("./ministries/ministries-sports.js");
+const ministriesAgriculture = () =>
+  import("./ministries/ministries-agriculture.js");
+const ministriesWaterResources = () =>
+  import("./ministries/ministries-water-resources.js");
+const ministriesDigitalTech = () =>
+  import("./ministries/ministries-digital-tech.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -141,6 +149,10 @@ export const pageContentMap = {
   "ministries-attestation-commission": ministriesAttestationCommission,
   "ministries-education": ministriesEducation,
   "ministries-ecology-climate": ministriesEcologyClimate,
+  "ministries-sports": ministriesSports,
+  "ministries-agriculture": ministriesAgriculture,
+  "ministries-water-resources": ministriesWaterResources,
+  "ministries-digital-tech": ministriesDigitalTech,
 };
 
 export async function getPageContent(slug) {

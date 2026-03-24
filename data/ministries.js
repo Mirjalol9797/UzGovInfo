@@ -154,13 +154,14 @@ export default function ministries() {
         description: "Ministries.ten.description",
         shortDesc: "Ministries.ten.shortDesc",
         tag: "tags.agriculture",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/24/2025/06/20/90f963eb-3c49-555b-5f9f-0075650d67a6_authority_24.png",
         link: "Ministries.ten.link",
         seo: {
           title: "Ministries.ten.seo.title",
           description: "Ministries.ten.seo.description",
           keywords: "Ministries.ten.seo.keywords",
-          image: "/images/Ministries/gov.agro.uz.png",
+          image:
+            "/https://api-portal.gov.uz/uploads/24/2025/06/20/90f963eb-3c49-555b-5f9f-0075650d67a6_authority_24.png",
         },
       },
       {

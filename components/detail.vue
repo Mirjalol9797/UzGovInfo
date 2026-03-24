@@ -126,6 +126,10 @@ const otherSites = computed(() => {
     if (s.includes("ministries-attestation-commission")) return "decree";
     if (s.includes("ministries-education")) return "program";
     if (s.includes("ministries-ecology-climate")) return "globe";
+    if (s.includes("ministries-sports")) return "program";
+    if (s.includes("ministries-agriculture")) return "program";
+    if (s.includes("ministries-water-resources")) return "chart";
+    if (s.includes("ministries-digital-tech")) return "analytics";
     return "building";
   };
   return {
