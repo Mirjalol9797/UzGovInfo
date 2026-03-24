@@ -536,6 +536,50 @@
         "description": "Official section of the Defense Industry Agency under the Ministry of Defense on the gov.uz portal: enterprises, partners, product catalog, licensing, law on the state defense order, documents, vacancies and contacts. Search: defindustry, Uzbekistan defense industry, Ministry of Defense, gov.uz defindustry.",
         "keywords": "defindustry, Uzbekistan defense industry, Defense Industry Agency, state defense order, military products, licensing, Ministry of Defense, gov.uz defindustry"
       }
+    },
+    "fifteen": {
+      "title": "Agency of Specialized Educational Institutions under the Ministry of Preschool and School Education of the Republic of Uzbekistan",
+      "description": "The Agency of Specialized Educational Institutions under the Ministry of Preschool and School Education of the Republic of Uzbekistan develops and coordinates the network of specialized schools and institutions, admission and academic activities, research, digital and interactive public services within its mandate, regulatory support, international cooperation, youth and gender policy in its field, and transparency and public engagement.",
+      "shortDesc": "Specialized schools and institutions",
+      "link": "https://gov.uz/en/ima",
+      "seo": {
+        "title": "Agency of specialized educational institutions of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Agency of Specialized Educational Institutions under the Ministry of Preschool and School Education on the gov.uz portal: admission, structure, documents, public services, tenders, open data and contacts. Search: ima, specialized schools Uzbekistan, IMA agency, gov.uz ima.",
+        "keywords": "ima, specialized educational institutions Uzbekistan, IMA agency, preschool and school education, specialized schools, gov.uz ima"
+      }
+    },
+    "sixteen": {
+      "title": "Agency for Plant Quarantine and Protection under the Ministry of Agriculture of the Republic of Uzbekistan",
+      "description": "The Agency for Plant Quarantine and Protection under the Ministry of Agriculture of the Republic of Uzbekistan provides phytosanitary control, plant quarantine, protection against pests and diseases, support for import and export of regulated products, cooperation with businesses, e-services and the public services register, international cooperation and agreements, plus transparency, tenders and public engagement.",
+      "shortDesc": "Plant quarantine and protection",
+      "link": "https://gov.uz/en/karantin",
+      "seo": {
+        "title": "Plant quarantine and protection agency of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Agency for Plant Quarantine and Protection under the Ministry of Agriculture on the gov.uz portal: import and export, phytosanitary rules, plant clinics, documents, public services, tenders, open data and contacts. Search: karantin, plant quarantine Uzbekistan, phytosanitary control, gov.uz karantin.",
+        "keywords": "karantin, plant quarantine Uzbekistan, plant protection, phytosanitary control, Ministry of Agriculture, quarantine agency, gov.uz karantin"
+      }
+    },
+    "seventeen": {
+      "title": "Agency for Hydrometeorological Service under the National Committee on Ecology and Climate Change of the Republic of Uzbekistan",
+      "description": "The Agency for Hydrometeorological Service under the National Committee on Ecology and Climate Change of the Republic of Uzbekistan provides weather observation and forecasting, hydrological and meteorological monitoring, information for the public and the economy, open data and reporting, digital services and the public services register, international cooperation, and engagement with citizens and the media within its mandate.",
+      "shortDesc": "Hydrometeorology and weather forecasts",
+      "link": "https://gov.uz/en/hydromet",
+      "seo": {
+        "title": "Hydrometeorological service agency of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Agency for Hydrometeorological Service under the National Committee on Ecology and Climate Change on the gov.uz portal: weather, allergens, documents, public services, open data, projects and contacts. Search: hydromet, Uzbekistan hydromet, weather forecast, gov.uz hydromet.",
+        "keywords": "hydromet, Uzbekistan hydromet, weather forecast, meteorology, hydrology, ecology and climate, National Committee on Ecology, gov.uz hydromet"
+      }
+    },
+    "eighteen": {
+      "title": "Civil Aviation Agency under the Ministry of Transport of the Republic of Uzbekistan",
+      "description": "The Civil Aviation Agency under the Ministry of Transport of the Republic of Uzbekistan exercises state regulation and oversight in civil aviation, issues permits and certificates (airworthiness, aircraft registration, operator, maintenance, noise, radio equipment, non-scheduled flights, unmanned aircraft), cooperates with ICAO, develops e-government services, anti-corruption measures and international cooperation within its mandate.",
+      "shortDesc": "Civil aviation and flight safety",
+      "link": "https://gov.uz/en/uzcaa",
+      "seo": {
+        "title": "Civil Aviation Agency of Uzbekistan — official website | Govinfo",
+        "description": "Official section of the Civil Aviation Agency under the Ministry of Transport on the gov.uz portal: certificates and permits, UAVs, ICAO, documents, registers, open data and contacts. Search: uzcaa, civil aviation Uzbekistan, Uzbekistan CAA, gov.uz uzcaa.",
+        "keywords": "uzcaa, civil aviation Uzbekistan, aviation certificates, UAV civil aviation, ICAO, Ministry of Transport, gov.uz uzcaa"
+      }
     }
   },
   "Inspections": {

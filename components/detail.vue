@@ -105,6 +105,10 @@ const otherSites = computed(() => {
     if (s.includes("urmon") || s.includes("desertification")) return "globe";
     if (s.includes("defindustry") || s.includes("defense-industry"))
       return "shield";
+    if (s.includes("agencies-ima")) return "program";
+    if (s.includes("agencies-karantin")) return "shield";
+    if (s.includes("hydromet")) return "chart";
+    if (s.includes("uzcaa")) return "globe";
     return "building";
   };
   return {

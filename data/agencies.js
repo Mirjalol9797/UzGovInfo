@@ -247,6 +247,78 @@ export default function data() {
             "https://api-portal.gov.uz/uploads/150/2025/06/20/5422654a-4c01-c902-78af-feae9ba7aaf2_authority_150.png",
         },
       },
+      {
+        id: 15,
+        slug: "agencies-ima",
+        fullContent: true,
+        title: "Agencies.fifteen.title",
+        description: "Agencies.fifteen.description",
+        shortDesc: "Agencies.fifteen.shortDesc",
+        tag: "tags.education",
+        img: "https://api-portal.gov.uz/uploads/152/2025/06/20/d79edf12-24b7-f27a-4d03-b5790e274e30_authority_152.png",
+        link: "Agencies.fifteen.link",
+        seo: {
+          title: "Agencies.fifteen.seo.title",
+          description: "Agencies.fifteen.seo.description",
+          keywords: "Agencies.fifteen.seo.keywords",
+          image:
+            "https://api-portal.gov.uz/uploads/152/2025/06/20/d79edf12-24b7-f27a-4d03-b5790e274e30_authority_152.png",
+        },
+      },
+      {
+        id: 16,
+        slug: "agencies-karantin",
+        fullContent: true,
+        title: "Agencies.sixteen.title",
+        description: "Agencies.sixteen.description",
+        shortDesc: "Agencies.sixteen.shortDesc",
+        tag: "tags.agriculture",
+        img: "https://api-portal.gov.uz/uploads/153/2025/05/28/8586fc8b-46f5-1a71-6dd3-58793e499cf1_authority_153.png",
+        link: "Agencies.sixteen.link",
+        seo: {
+          title: "Agencies.sixteen.seo.title",
+          description: "Agencies.sixteen.seo.description",
+          keywords: "Agencies.sixteen.seo.keywords",
+          image:
+            "https://api-portal.gov.uz/uploads/153/2025/05/28/8586fc8b-46f5-1a71-6dd3-58793e499cf1_authority_153.png",
+        },
+      },
+      {
+        id: 17,
+        slug: "agencies-hydromet",
+        fullContent: true,
+        title: "Agencies.seventeen.title",
+        description: "Agencies.seventeen.description",
+        shortDesc: "Agencies.seventeen.shortDesc",
+        tag: "tags.ecology",
+        img: "https://api-portal.gov.uz/uploads/155/2025/05/02/e29b5451-61c8-26d7-d48a-3380cbf70e3a_authority_155.png",
+        link: "Agencies.seventeen.link",
+        seo: {
+          title: "Agencies.seventeen.seo.title",
+          description: "Agencies.seventeen.seo.description",
+          keywords: "Agencies.seventeen.seo.keywords",
+          image:
+            "https://api-portal.gov.uz/uploads/155/2025/05/02/e29b5451-61c8-26d7-d48a-3380cbf70e3a_authority_155.png",
+        },
+      },
+      {
+        id: 18,
+        slug: "agencies-uzcaa",
+        fullContent: true,
+        title: "Agencies.eighteen.title",
+        description: "Agencies.eighteen.description",
+        shortDesc: "Agencies.eighteen.shortDesc",
+        tag: "tags.transport",
+        img: "https://api-portal.gov.uz/uploads/157/2025/06/20/3c01b06b-cf19-c4a8-3354-8b281b5a2c23_authority_157.jpg",
+        link: "Agencies.eighteen.link",
+        seo: {
+          title: "Agencies.eighteen.seo.title",
+          description: "Agencies.eighteen.seo.description",
+          keywords: "Agencies.eighteen.seo.keywords",
+          image:
+            "https://api-portal.gov.uz/uploads/157/2025/06/20/3c01b06b-cf19-c4a8-3354-8b281b5a2c23_authority_157.jpg",
+        },
+      },
     ],
   };
 }
