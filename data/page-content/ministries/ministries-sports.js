@@ -84,8 +84,8 @@ export default {
           a: "На государственном портале gov.uz: для русской версии — gov.uz/ru/sport. Ссылка также указана на этой странице каталога.",
         },
         {
-          q: "Чем gov.uz/sport отличается от sport.uz?",
-          a: "Раздел sport на gov.uz — часть единого правительственного портала; сайт sport.uz может дополнять новости и сервисы. Для конкретной услуги ориентируйтесь на актуальные указания на официальных страницах.",
+          q: "Где смотреть новости и материалы пресс-службы?",
+          a: "В разделе министерства на gov.uz публикуются пресс-служба и официальные сообщения; актуальные подразделы и ленты см. в текущей версии портала.",
         },
         {
           q: "Где найти перечень государственных услуг?",
@@ -182,8 +182,8 @@ export default {
           a: "On the gov.uz portal at gov.uz/en/sport for English. This catalog page links to it as well.",
         },
         {
-          q: "How is gov.uz/sport related to sport.uz?",
-          a: "The sport section on gov.uz is part of the unified government portal; sport.uz may complement news and services. Follow the official pages for each procedure.",
+          q: "Where are news and press service materials?",
+          a: "The ministry’s gov.uz section includes the press service and official announcements; check the live portal menu for current subsections and feeds.",
         },
         {
           q: "Where is the list of public services?",
@@ -280,8 +280,8 @@ export default {
           a: "Davlat portali gov.uz da — oʻzbekcha uchun gov.uz/oz/sport. Havola ushbu katalog sahifasida ham berilgan.",
         },
         {
-          q: "gov.uz/sport va sport.uz qanday bogʻlangan?",
-          a: "gov.uz dagi sport yagona hukumat portali qismi; sport.uz yangiliklar va xizmatlarni toʻldirishi mumkin. Har bir tartib uchun rasmiy sahifadagi koʻrsatmalarga amal qiling.",
+          q: "Yangiliklar va matbuot xizmati materiallari qayerda?",
+          a: "gov.uz dagi vazirlik boʻlimida matbuot xizmati va rasmiy eʼlonlar joylashtiriladi; dolzarb boʻlimlar va lentani portaldagi joriy versiyadan tekshiring.",
         },
         {
           q: "Davlat xizmatlari roʻyxati qayerda?",

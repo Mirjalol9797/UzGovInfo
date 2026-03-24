@@ -86,8 +86,8 @@ export default {
           a: "На государственном портале gov.uz: для русской версии — gov.uz/ru/mc. Ссылка также указана на этой странице каталога.",
         },
         {
-          q: "Чем отличается раздел на gov.uz от сайта mc.uz?",
-          a: "Раздел mc на gov.uz — часть единого правительственного портала; mc.uz может дополнять сервисы ведомства. Для конкретной процедуры ориентируйтесь на актуальные указания на официальных страницах.",
+          q: "Где раздел о прозрачном строительстве и надзоре?",
+          a: "В блоках о деятельности министерства на gov.uz размещаются направления «прозрачное строительство», строительный надзор и смежные темы; актуальные ссылки — в текущей версии портала.",
         },
         {
           q: "Как получить лицензию в сфере строительства?",
@@ -187,10 +187,6 @@ export default {
           a: "On the gov.uz portal at gov.uz/en/mc for English. This catalog page links to it as well.",
         },
         {
-          q: "How is gov.uz/mc related to mc.uz?",
-          a: "The mc section on gov.uz is part of the unified government portal; mc.uz may offer additional ministry services. Follow the instructions on the official pages for each procedure.",
-        },
-        {
           q: "How do I get a construction-sector license?",
           a: "The public services area on the ministry’s gov.uz page describes construction licensing and related e-services; check the portal for the current procedure and document list.",
         },
@@ -287,8 +283,8 @@ export default {
           a: "Davlat portali gov.uz da — oʻzbekcha uchun gov.uz/oz/mc. Havola ushbu katalog sahifasida ham berilgan.",
         },
         {
-          q: "gov.uz/mc va mc.uz qanday bogʻlangan?",
-          a: "gov.uz dagi mc yagona hukumat portali qismi; mc.uz vazirlik xizmatlarini toʻldirishi mumkin. Har bir protsedura uchun rasmiy sahifadagi koʻrsatmalarga amal qiling.",
+          q: "Shaffof qurilish va qurilishda nazorat boʻyicha axborot qayerda?",
+          a: "gov.uz dagi vazirlik faoliyati boʻlimlarida shaffof qurilish, qurilishda nazorat va tegishli yoʻnalishlar yoritiladi; havolalar portaldagi joriy versiyada tekshiriladi.",
         },
         {
           q: "Qurilish sohasida litsenziya qanday olinadi?",

@@ -84,8 +84,8 @@ export default {
           a: "Официальный раздел размещён на портале gov.uz: для русской версии — gov.uz/ru/imv. Ссылка дублируется на этой странице каталога.",
         },
         {
-          q: "Чем gov.uz/imv отличается от imv.uz?",
-          a: "Оба ресурса связаны с ведомством: раздел imv на gov.uz — часть единого правительственного портала; imv.uz может дублировать или дополнять сервисы. Для актуальных процедур ориентируйтесь на указания на официальных страницах.",
+          q: "Где новости, открытые данные и статистика ведомства?",
+          a: "На странице министерства на gov.uz публикуются новости, открытые данные и статистические материалы; конкретные подразделы см. в актуальной структуре портала.",
         },
         {
           q: "Где найти госуслуги министерства?",
@@ -179,10 +179,6 @@ export default {
           a: "The official section is on the gov.uz portal at gov.uz/en/imv (English). This catalog page also links to it.",
         },
         {
-          q: "How is gov.uz/imv related to imv.uz?",
-          a: "Both relate to the ministry: the imv section on gov.uz is part of the unified government portal; imv.uz may complement or mirror services. Follow instructions on the official pages for each procedure.",
-        },
-        {
           q: "Where are the ministry’s public services?",
           a: "In the public services area on the ministry’s gov.uz page (service list, document status checks), e.g. gov.uz/en/imv.",
         },
@@ -274,8 +270,8 @@ export default {
           a: "Rasmiy boʻlim davlat portali gov.uz da — oʻzbekcha interfeys uchun gov.uz/oz/imv. Havola ushbu katalog sahifasida ham berilgan.",
         },
         {
-          q: "gov.uz/imv va imv.uz qanday bogʻlangan?",
-          a: "Ikkalasi ham vazirlik bilan bogʻliq: gov.uz dagi imv yagona hukumat portali qismi; imv.uz xizmatlarni toʻldirishi yoki takrorlashi mumkin. Har bir protsedura uchun rasmiy sahifadagi koʻrsatmalarga amal qiling.",
+          q: "Yangiliklar, ochiq maʼlumotlar va vazirlik statistikasi qayerda?",
+          a: "gov.uz dagi vazirlik sahifasida yangiliklar, ochiq maʼlumotlar va statistik materiallar joylashtiriladi; dolzarb boʻlimlar portaldagi joriy tuzilmasida koʻrsatiladi.",
         },
         {
           q: "Vazirlik davlat xizmatlari qayerda?",

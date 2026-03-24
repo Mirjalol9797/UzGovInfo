@@ -84,8 +84,8 @@ export default {
           a: "На государственном портале gov.uz: для русской версии — gov.uz/ru/agro. Ссылка также указана на этой странице каталога.",
         },
         {
-          q: "Чем gov.uz/agro отличается от agro.uz?",
-          a: "Раздел agro на gov.uz — часть единого правительственного портала; домен agro.uz может дополнять новости и сервисы. Для конкретной услуги ориентируйтесь на актуальные указания на официальных страницах.",
+          q: "Где объявления о тендерах и отборах?",
+          a: "На странице министерства на gov.uz в блоке о деятельности размещаются тендеры и отборы; состав разделов уточняйте в актуальной версии портала.",
         },
         {
           q: "Где найти электронные сервисы для аграриев?",
@@ -182,8 +182,8 @@ export default {
           a: "On the gov.uz portal at gov.uz/en/agro for English. This catalog page links to it as well.",
         },
         {
-          q: "How is gov.uz/agro related to agro.uz?",
-          a: "The agro section on gov.uz is part of the unified government portal; agro.uz may complement news and services. Follow the official pages for each procedure.",
+          q: "Where are tender and selection announcements?",
+          a: "The ministry’s gov.uz page publishes tenders and selections under activities; confirm the current menu on the live portal.",
         },
         {
           q: "Where are e-services for the agricultural sector?",
@@ -281,8 +281,8 @@ export default {
           a: "Davlat portali gov.uz da — oʻzbekcha uchun gov.uz/oz/agro. Havola ushbu katalog sahifasida ham berilgan.",
         },
         {
-          q: "gov.uz/agro va agro.uz qanday bogʻlangan?",
-          a: "gov.uz dagi agro yagona hukumat portali qismi; agro.uz yangiliklar va xizmatlarni toʻldirishi mumkin. Har bir tartib uchun rasmiy sahifadagi koʻrsatmalarga amal qiling.",
+          q: "Tender va tanlovlar eʼlonlari qayerda?",
+          a: "gov.uz dagi vazirlik sahifasining faoliyat boʻlimida tender va tanlovlar joylashtiriladi; boʻlimlar tarkibini portaldagi joriy versiyadan tekshiring.",
         },
         {
           q: "Agrar soha uchun elektron xizmatlar qayerda?",

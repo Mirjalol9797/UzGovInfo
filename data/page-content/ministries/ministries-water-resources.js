@@ -84,8 +84,8 @@ export default {
           a: "На государственном портале gov.uz: для русской версии — gov.uz/ru/suvchi. Ссылка также указана на этой странице каталога.",
         },
         {
-          q: "Чем gov.uz/suvchi отличается от water.gov.uz?",
-          a: "Раздел suvchi на gov.uz — часть единого правительственного портала; домен water.gov.uz может дополнять или дублировать контент. Для конкретной услуги ориентируйтесь на актуальные указания на официальных страницах.",
+          q: "Где статистика и сведения по водному хозяйству?",
+          a: "На странице министерства на gov.uz публикуются статистические и отраслевые материалы в рамках разделов о деятельности; перечень уточняйте в текущей версии портала.",
         },
         {
           q: "Как подать обращение или заказать услугу?",
@@ -182,10 +182,6 @@ export default {
           a: "On the gov.uz portal at gov.uz/en/suvchi for English. This catalog page links to it as well.",
         },
         {
-          q: "How is gov.uz/suvchi related to water.gov.uz?",
-          a: "The suvchi section on gov.uz is part of the unified government portal; water.gov.uz may host overlapping or complementary content. Follow the official pages for each procedure.",
-        },
-        {
           q: "How do I submit an appeal or request a service?",
           a: "Under public services you will find the work order, appeals for individuals and legal entities, and the list of services provided by the ministry; check the current portal version for forms and requirements.",
         },
@@ -280,8 +276,8 @@ export default {
           a: "Davlat portali gov.uz da — oʻzbekcha uchun gov.uz/oz/suvchi. Havola ushbu katalog sahifasida ham berilgan.",
         },
         {
-          q: "gov.uz/suvchi va water.gov.uz qanday bogʻlangan?",
-          a: "gov.uz dagi suvchi yagona hukumat portali qismi; water.gov.uz kontentni takrorlashi yoki toʻldirishi mumkin. Har bir tartib uchun rasmiy sahifadagi koʻrsatmalarga amal qiling.",
+          q: "Suv xoʻjaligi statistikasi va soha maʼlumotlari qayerda?",
+          a: "gov.uz dagi vazirlik sahifasida faoliyat boʻlimlarida statistik va tarmoq materiallari joylashtiriladi; roʻyxatni portaldagi joriy versiyadan tekshiring.",
         },
         {
           q: "Murojaat yoki xizmatni qanday topshiraman?",

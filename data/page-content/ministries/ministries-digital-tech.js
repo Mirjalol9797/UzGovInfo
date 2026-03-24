@@ -84,8 +84,8 @@ export default {
           a: "На государственном портале gov.uz: для русской версии — gov.uz/ru/digital. Ссылка также указана на этой странице каталога.",
         },
         {
-          q: "Чем gov.uz/digital отличается от digital.uz?",
-          a: "Раздел digital на gov.uz — часть единого правительственного портала; сайт digital.uz может дополнять новости и сервисы. Для конкретной услуги ориентируйтесь на актуальные указания на официальных страницах.",
+          q: "Где информация о поддержке IT-компаний и резидентов IT-Park?",
+          a: "В блоке «Цифровое правительство» и в разделах о деятельности на gov.uz публикуются программы поддержки IT-компаний, рейтинг ННО-резидентов IT-Park и смежные материалы; уточняйте актуальное меню на портале.",
         },
         {
           q: "Где найти реестры госуслуг и лицензирование в ИКТ?",
@@ -182,8 +182,8 @@ export default {
           a: "On the gov.uz portal at gov.uz/en/digital for English. This catalog page links to it as well.",
         },
         {
-          q: "How is gov.uz/digital related to digital.uz?",
-          a: "The digital section on gov.uz is part of the unified government portal; digital.uz may complement news and services. Follow the official pages for each procedure.",
+          q: "Where is information on support for IT companies and IT-Park residents?",
+          a: "Under digital government and activities on gov.uz you will find programs supporting IT companies, the NGO resident rating at IT-Park and related materials; check the live portal menu.",
         },
         {
           q: "Where are public service registries and ICT licensing?",
@@ -281,8 +281,8 @@ export default {
           a: "Davlat portali gov.uz da — oʻzbekcha uchun gov.uz/oz/digital. Havola ushbu katalog sahifasida ham berilgan.",
         },
         {
-          q: "gov.uz/digital va digital.uz qanday bogʻlangan?",
-          a: "gov.uz dagi digital yagona hukumat portali qismi; digital.uz yangiliklar va xizmatlarni toʻldirishi mumkin. Har bir tartib uchun rasmiy sahifadagi koʻrsatmalarga amal qiling.",
+          q: "IT kompaniyalar va IT-Park rezidentlarini qoʻllab-quvvatlash haqida axborot qayerda?",
+          a: "gov.uz dagi «Raqamli hukumat» va faoliyat boʻlimlarida IT korxonalarni qoʻllab-quvvatlash dasturlari, IT-Park rezidenti boʻlgan NNT reytingi va tegishli materiallar joylashtiriladi; menyu portaldagi joriy versiyada tekshiriladi.",
         },
         {
           q: "Davlat xizmatlari reestri va AKT litsenziyalari qayerda?",

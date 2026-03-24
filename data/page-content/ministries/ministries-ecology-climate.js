@@ -86,8 +86,8 @@ export default {
           a: "На государственном портале gov.uz: для русской версии — gov.uz/ru/eco. Ссылка также указана на этой странице каталога.",
         },
         {
-          q: "Чем gov.uz/eco отличается от uznature.uz?",
-          a: "Раздел eco на gov.uz — часть единого правительственного портала; сайт uznature.uz может сохранять или дублировать часть контента и сервисов. Для конкретной процедуры ориентируйтесь на актуальные указания на официальных страницах.",
+          q: "Куда направить обращение по вопросам экологии или загрязнения?",
+          a: "Используйте раздел «Контакт» на gov.uz: виртуальная приёмная, электронные обращения, call-центр и телефоны доверия. Формы и регламент уточняйте в актуальной версии портала.",
         },
         {
           q: "Какие электронные сервисы упоминаются на портале?",
@@ -187,8 +187,8 @@ export default {
           a: "On the gov.uz portal at gov.uz/en/eco for English. This catalog page links to it as well.",
         },
         {
-          q: "How is gov.uz/eco related to uznature.uz?",
-          a: "The eco section on gov.uz is part of the unified government portal; uznature.uz may host overlapping or complementary content. Follow the official pages for each procedure.",
+          q: "Where can I submit an appeal on pollution or environmental issues?",
+          a: "Use the Contact section on gov.uz: virtual reception, e-appeals, call center and trust numbers. Forms and rules are given in the current portal version.",
         },
         {
           q: "What e-services are listed on the portal?",
@@ -287,8 +287,8 @@ export default {
           a: "Davlat portali gov.uz da — oʻzbekcha uchun gov.uz/oz/eco. Havola ushbu katalog sahifasida ham berilgan.",
         },
         {
-          q: "gov.uz/eco va uznature.uz qanday bogʻlangan?",
-          a: "gov.uz dagi eco yagona hukumat portali qismi; uznature.uz da bir qism kontent va xizmatlar takrorlanishi yoki toʻldirilishi mumkin. Har bir tartib uchun rasmiy sahifadagi koʻrsatmalarga amal qiling.",
+          q: "Ekologiya yoki ifloslanish boʻyicha murojaatni qayerga topshiraman?",
+          a: "gov.uz dagi «Bogʻlanish» boʻlimidan foydalaning: virtual qabulxona, elektron murojaatlar, call-markaz va ishonch telefonlari. Formalar va tartib portaldagi joriy versiyada beriladi.",
         },
         {
           q: "Portaldagi elektron xizmatlar qaysilar?",

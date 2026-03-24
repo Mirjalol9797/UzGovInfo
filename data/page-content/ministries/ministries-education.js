@@ -86,8 +86,8 @@ export default {
           a: "На государственном портале gov.uz: для русской версии — gov.uz/ru/uzedu. Ссылка также указана на этой странице каталога.",
         },
         {
-          q: "Чем gov.uz/uzedu отличается от uzedu.uz?",
-          a: "Раздел uzedu на gov.uz — часть единого правительственного портала; сайт uzedu.uz может дополнять сервисы ведомства. Для конкретной услуги ориентируйтесь на актуальные указания на официальных страницах.",
+          q: "На каких языках доступен раздел министерства на gov.uz?",
+          a: "Раздел uzedu публикуется на русском, узбекском (латиница) и английском языках. Переключатель языка обычно находится в шапке портала gov.uz.",
         },
         {
           q: "Где найти электронные сервисы и SMS-уведомления?",
@@ -187,8 +187,8 @@ export default {
           a: "On the gov.uz portal at gov.uz/en/uzedu for English. This catalog page links to it as well.",
         },
         {
-          q: "How is gov.uz/uzedu related to uzedu.uz?",
-          a: "The uzedu section on gov.uz is part of the unified government portal; uzedu.uz may complement ministry services. Follow the official pages for each procedure.",
+          q: "In which languages is the ministry section on gov.uz available?",
+          a: "The uzedu section is published in Russian, Uzbek (Latin script) and English. Use the language switcher in the gov.uz header.",
         },
         {
           q: "Where are e-services and SMS notifications?",
@@ -287,8 +287,8 @@ export default {
           a: "Davlat portali gov.uz da — oʻzbekcha uchun gov.uz/oz/uzedu. Havola ushbu katalog sahifasida ham berilgan.",
         },
         {
-          q: "gov.uz/uzedu va uzedu.uz qanday bogʻlangan?",
-          a: "gov.uz dagi uzedu yagona hukumat portali qismi; uzedu.uz vazirlik xizmatlarini toʻldirishi mumkin. Har bir xizmat uchun rasmiy sahifadagi koʻrsatmalarga amal qiling.",
+          q: "Vazirlik boʻlimi gov.uz da qaysi tillarda mavjud?",
+          a: "uzedu boʻlimi rus, oʻzbek (lotin) va ingliz tillarida chop etiladi. Tilni almashtirish odatda gov.uz sarlavhasida joylashgan.",
         },
         {
           q: "Elektron xizmatlar va SMS-xabarnomalar qayerda?",

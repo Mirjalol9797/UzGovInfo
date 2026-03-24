@@ -84,8 +84,8 @@ export default {
           a: "На государственном портале gov.uz: русская версия — gov.uz/ru/bv. Ссылка также указана на этой странице каталога.",
         },
         {
-          q: "Чем раздел gov.uz/bv отличается от сайта mehnat.uz?",
-          a: "Раздел bv на gov.uz — часть единого правительственного портала; mehnat.uz традиционно используется ведомством и может дублировать или дополнять сервисы. Для конкретной услуги ориентируйтесь на актуальные указания на официальных страницах.",
+          q: "Где график приёма граждан и горячая линия?",
+          a: "В разделе министерства на gov.uz публикуются график приёма и контакты, в том числе горячая линия (например, +998 71 200-06-00); актуальные данные сверяйте на портале.",
         },
         {
           q: "Как обратиться в Государственную инспекцию труда?",
@@ -183,8 +183,8 @@ export default {
           a: "On the gov.uz portal at gov.uz/en/bv for English. This catalog page links to it as well.",
         },
         {
-          q: "How is gov.uz/bv related to mehnat.uz?",
-          a: "The bv section on gov.uz is part of the unified government portal; mehnat.uz may mirror or extend ministry services. Follow the instructions on the official pages for each service.",
+          q: "Where is the citizen reception schedule and hotline?",
+          a: "The ministry’s gov.uz page publishes reception schedules and contacts, including the hotline (e.g. +998 71 200-06-00); confirm details on the live portal.",
         },
         {
           q: "How do I contact the State Labor Inspectorate?",
@@ -283,8 +283,8 @@ export default {
           a: "Davlat portali gov.uz da — oʻzbekcha uchun gov.uz/oz/bv. Havola ushbu katalog sahifasida ham berilgan.",
         },
         {
-          q: "gov.uz/bv va mehnat.uz qanday farq qiladi?",
-          a: "gov.uz dagi bv yagona hukumat portali qismi; mehnat.uz vazirlik tomonidan qoʻllaniladi va xizmatlarni takrorlashi yoki toʻldirishi mumkin. Har bir xizmat uchun rasmiy sahifadagi koʻrsatmalarga amal qiling.",
+          q: "Fuqarolarni qabul qilish jadvali va ishonch telefoni qayerda?",
+          a: "gov.uz dagi vazirlik sahifasida qabul jadvali va aloqa maʼlumotlari, shu jumladan ishonch telefoni (+998 71 200-06-00) koʻrsatiladi; dolzarb maʼlumotlarni portaldan tekshiring.",
         },
         {
           q: "Davlat mehnat inspeksiyasiga qanday murojaat qilinadi?",
