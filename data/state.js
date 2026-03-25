@@ -58,13 +58,14 @@ export default function state() {
         description: "State.four.description",
         shortDesc: "State.four.shortDesc",
         tag: "tags.ecology",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/33/2025/06/20/4064b959-7f00-2480-ce97-3a0bf1f02553_authority_33.png",
         link: "State.four.link",
         seo: {
           title: "State.four.seo.title",
           description: "State.four.seo.description",
           keywords: "State.four.seo.keywords",
-          image: "/images/State/www.uznature.uz.png",
+          image:
+            "https://api-portal.gov.uz/uploads/33/2025/06/20/4064b959-7f00-2480-ce97-3a0bf1f02553_authority_33.png",
         },
       },
       {
