@@ -1045,16 +1045,16 @@
     },
     "five": {
       "title": "O‘zbekiston Respublikasi Tog‘-kon sanoati va geologiya vazirligi",
-      "description": "O‘zbekiston Konchilik va geologiya vazirligining veb-saytida mamlakatning tog‘-kon sanoati, geologik tadqiqotlar va resurslarni boshqarish haqida batafsil ma’lumotlar mavjud. Unda geologik qidiruv, tog‘-kon siyosati, investitsiya imkoniyatlari va barqaror rivojlanish tashabbuslari haqidagi yangilanishlar mavjud. Sayt foydali qazilmalarni qazib olishga ruxsat berish, erdan foydalanish va me'yoriy hujjatlarga rioya qilish bilan bog'liq xizmatlarni taklif etadi. Bundan tashqari, u tog'-kon loyihalari, atrof-muhitni muhofaza qilish choralari va tog'-kon va geologiya sohalarini modernizatsiya qilish bo'yicha hukumat harakatlariga oid yangiliklarni o'z ichiga oladi.",
+      "description": "gov.uz portali boʻlimi (mingeo): vazirlik tuzilmasi va geologiya, yer usti boyliklaridan foydalanish boʻyicha faoliyat, davlat xizmatlari reyestri va zaxiralar boʻyicha hisobot, noqonuniy qazib olish haqida xabar, meʼyoriy hujjatlar, ochiq byudjet va ochiq maʼlumotlar, foydali qazilmalar davlat balansi, matbuot, murojaatlar va ishonch telefoni (+998 71 231-05-96 — portaldan tekshiring).",
       "link": "https://gov.uz/oz/mingeo",
       "seo": {
-        "title": "Oʻzbekiston Respublikasi Togʻ-kon sanoati va geologiya vazirligi – gov.uz rasmiy sayti",
-        "description": "Oʻzbekiston Respublikasi Togʻ-kon sanoati va geologiya vazirligining rasmiy sayti – gov.uz. Togʻ-kon sanoati, geologik tadqiqotlar. Kon ruxsatnomalari, investitsiya imkoniyatlari, barqaror rivojlanish.",
-        "keywords": "kon sanoati Oʻzbekiston, Geologiya vazirligi, geologiya Oʻzbekiston, mineral resurslar, togʻ-kon sanoati"
+        "title": "Togʻ-kon sanoati va geologiya vazirligi — gov.uz/mingeo",
+        "description": "Oʻzbekiston Togʻ-kon sanoati va geologiya vazirligi gov.uz da: yer usti boyliklari, qidiruv, davlat xizmatlari, ochiq maʼlumotlar, minerallar balansi.",
+        "keywords": "geologiya vazirligi Oʻzbekiston, gov.uz mingeo, togʻ-kon sanoati, yer usti boyliklari, mineral resurslar"
       },
       "shortDesc": "Geologiya va mineral resurslar"
     },
-    "seven": {
+    "six": {
       "title": "O‘zbekiston Respublikasi Er resurslari, geodeziya, kartografiya va davlat kadastri davlat qo‘mitasi",
       "description": "O‘zbekiston Davlat kadastr agentligining sayti (kadastr.uz) yer tuzish, mulkni ro‘yxatga olish va kadastr bilan bog‘liq muhim xizmatlarni taqdim etadi. U mulkni baholash, mulk huquqini ro'yxatdan o'tkazish va yer nazorati choralari kabi xususiyatlarni o'z ichiga oladi. Portal shuningdek, turli xil onlayn vositalar va resurslarni, jumladan, er egalari uchun interaktiv xizmatlarni, huquqiy ma'lumotni va kadastr ma'lumotlarini taklif etadi. Bundan tashqari, sayt asosiy me'yoriy hujjatlar, hujjatlar va statistik ma'lumotlarga ommaviy kirish imkonini beradi. U O‘zbekistonda yer tuzish va kadastr operatsiyalarida shaffoflikni ta’minlash uchun markaz bo‘lib xizmat qiladi.",
       "link": "https://kadastr.uz/uz",

@@ -75,13 +75,14 @@ export default function state() {
         description: "State.five.description",
         shortDesc: "State.five.shortDesc",
         tag: "tags.mining",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/34/2025/04/17/4ebd20c1-df3c-4f70-1ce9-caf7ee2555ea_authority_34.jpg",
         link: "State.five.link",
         seo: {
           title: "State.five.seo.title",
           description: "State.five.seo.description",
           keywords: "State.five.seo.keywords",
-          image: "/images/State/geology.gov.uz.png",
+          image:
+            "https://api-portal.gov.uz/uploads/34/2025/04/17/4ebd20c1-df3c-4f70-1ce9-caf7ee2555ea_authority_34.jpg",
         },
       },
       {
