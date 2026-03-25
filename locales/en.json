@@ -894,12 +894,12 @@
     },
     "fourteen": {
       "title": "Ministry of Transport of the Republic of Uzbekistan",
-      "description": "The website for Uzbekistan’s Ministry of Transport (mintrans.uz) serves as the official portal for transport-related policies, regulations, news, and resources. It provides information on Uzbekistan’s road, air, and rail networks, including services for permits, safety standards, and logistics. The site features updates on infrastructure projects, development goals, and various transit initiatives aimed at enhancing connectivity within Uzbekistan and with neighboring countries.",
-      "link": "https://www.mintrans.uz/en/",
+      "description": "The ministry’s official section on gov.uz (mintrans) covers structure and activities (e-government, international cooperation, anti-corruption, tenders, FAQ), public services (online service guides, ship register, unassigned taxi register), documents and draft regulations, digital government (open data, feedback, appeal status), press service and contacts (including appeal statistics and pm.gov.uz). Hotline 1167. See also mintrans.uz.",
+      "link": "https://gov.uz/en/mintrans",
       "seo": {
-        "title": "Ministry of Transport of the Republic of Uzbekistan – Official Website mintrans.uz",
-        "description": "Official website of the Ministry of Transport of Uzbekistan – mintrans.uz. The Ministry is responsible for developing and regulating the transport infrastructure in Uzbekistan, including road, rail, air, and water transport. Learn about national transportation policies, modernization projects, public transit improvements, road safety initiatives, and international transportation agreements. Discover programs aimed at enhancing connectivity, promoting eco-friendly transport solutions, and supporting sustainable infrastructure growth to facilitate efficient and safe movement across Uzbekistan.",
-        "keywords": "Ministry of Transport Uzbekistan, mintrans.uz, transportation policies, transport infrastructure Uzbekistan, road transport, rail transport, air transport, water transport, public transit, modernization projects, road safety Uzbekistan, sustainable transport, eco-friendly transportation, Uzbekistan logistics, international agreements, connectivity Uzbekistan, transport safety, infrastructure development"
+        "title": "Ministry of Transport – Official section gov.uz/mintrans",
+        "description": "Official section of the Ministry of Transport of the Republic of Uzbekistan on gov.uz (mintrans): public services, registers, open data, contacts and hotline 1167. See also mintrans.uz.",
+        "keywords": "Ministry of Transport Uzbekistan, gov.uz mintrans, transport policy, ship register, taxi, online services, hotline 1167, mintrans.uz"
       },
       "shortDesc": "Transport and logistics"
     },
