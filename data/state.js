@@ -92,13 +92,14 @@ export default function state() {
         description: "State.six.description",
         shortDesc: "State.six.shortDesc",
         tag: "tags.land",
-        img: "/images/gerb.png",
+        img: "https://kadastr.uz/public/assets/img/kadastr/Sariq_kuk_logo.png",
         link: "State.six.link",
         seo: {
           title: "State.six.seo.title",
           description: "State.six.seo.description",
           keywords: "State.six.seo.keywords",
-          image: "/images/State/kadastr.uz.png",
+          image:
+            "https://kadastr.uz/public/assets/img/kadastr/Sariq_kuk_logo.png",
         },
       },
       {

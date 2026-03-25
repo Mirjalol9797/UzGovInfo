@@ -284,8 +284,8 @@ const stateTableRows = computed(() => {
     },
     {
       orgKey: "State.six.title",
-      type: "Комитет",
-      func: "Земельные ресурсы, геодезия, кадастр",
+      type: "Агентство",
+      func: "Кадастр, земельный учёт, геодезия; при комитете по урбанизации и жилищному рынку",
       linkKey: "State.six.link",
       linkText: "kadastr.uz",
     },
@@ -349,8 +349,8 @@ const stateTableRows = computed(() => {
     },
     {
       orgKey: "State.six.title",
-      type: "Committee",
-      func: "Land resources, geodesy, cadastre",
+      type: "Agency",
+      func: "Cadastre, land, geodesy; under urbanization & housing market committee",
       linkKey: "State.six.link",
       linkText: "kadastr.uz",
     },
@@ -414,8 +414,8 @@ const stateTableRows = computed(() => {
     },
     {
       orgKey: "State.six.title",
-      type: "Qoʻmita",
-      func: "Yer resurslari, geodeziya, kadastr",
+      type: "Agentlik",
+      func: "Kadastr, yer, geodeziya; urbanizatsiya va uy-joy bozori qoʻmitasi huzurida",
       linkKey: "State.six.link",
       linkText: "kadastr.uz",
     },
