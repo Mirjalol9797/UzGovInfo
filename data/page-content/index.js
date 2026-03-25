@@ -104,6 +104,8 @@ const stateMiningGeology = () =>
   import("./state/state-mining-geology.js");
 const stateLandCadastre = () =>
   import("./state/state-land-cadastre.js");
+const stateVeterinaryCommittee = () =>
+  import("./state/state-veterinary-committee.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -172,6 +174,7 @@ export const pageContentMap = {
   "state-ecology-climate": stateEcologyClimate,
   "state-mining-geology": stateMiningGeology,
   "state-land-cadastre": stateLandCadastre,
+  "state-veterinary-committee": stateVeterinaryCommittee,
 };
 
 export async function getPageContent(slug) {

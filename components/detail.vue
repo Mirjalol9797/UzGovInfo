@@ -82,6 +82,7 @@ const otherSites = computed(() => {
     if (s.includes("state-ecology-climate")) return "chart";
     if (s.includes("state-mining-geology")) return "globe";
     if (s.includes("state-land-cadastre")) return "building";
+    if (s.includes("state-veterinary-committee")) return "shield";
     if (s.includes("parliament") || s.includes("senate")) return "law";
     if (s.includes("government") || s.includes("gov")) return "building";
     if (s.includes("court") || s.includes("sud")) return "law";

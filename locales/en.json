@@ -1066,15 +1066,15 @@
       "shortDesc": "Cadastre and land resources"
     },
     "seven": {
-      "title": "State Veterinary Committee of the Republic of Uzbekistan",
-      "description": "The website vetgov.uz is dedicated to the activities of the State Committee for Veterinary and Animal Husbandry Development in Uzbekistan. It offers information on the country's veterinary services, animal health, and livestock management. The site provides access to laws, regulations, and services related to veterinary activities. Additionally, it hosts resources such as tender announcements, interactive services for citizens, and relevant news updates. Users can find information on veterinary licenses, veterinary medicine, and animal husbandry support, as well as contact details for further inquiries.",
-      "link": "https://www.vetgov.uz/uz/",
+      "title": "Committee of Veterinary and Livestock Development under the Ministry of Agriculture of the Republic of Uzbekistan",
+      "description": "Official section of the committee on gov.uz (vetgov): mandate, structure, leadership, central office, subordinate and regional bodies, public services and registries (including for products subject to veterinary control), legal documents, digital government, press service and contacts (hotline commonly +998 71 202-12-00, extension 201 — verify under “All numbers” on the portal). Additional materials and services may be available on vetgov.uz.",
+      "link": "https://gov.uz/en/vetgov",
       "seo": {
-        "title": "State Veterinary Committee of the Republic of Uzbekistan – Official Website vetgov.uz",
-        "description": "Official website of the State Committee for Veterinary and Animal Husbandry Development of the Republic of Uzbekistan – vetgov.uz. Veterinary services, animal health, livestock management. Licenses, regulations, tenders.",
-        "keywords": "veterinary Uzbekistan, vetgov.uz, animal husbandry, veterinary committee, animal health"
+        "title": "Committee of Veterinary and Livestock Development — official section gov.uz/vetgov",
+        "description": "Official section of the Committee of Veterinary and Livestock Development under the Ministry of Agriculture of Uzbekistan on gov.uz (vetgov): veterinary policy, livestock, public services, registries, documents, contacts. See also vetgov.uz.",
+        "keywords": "veterinary Uzbekistan, livestock development committee, gov.uz vetgov, Ministry of Agriculture Uzbekistan, veterinary supervision, vetgov.uz"
       },
-      "shortDesc": "Veterinary control"
+      "shortDesc": "Veterinary and livestock"
     },
     "eight": {
       "title": "State Committee of the Republic of Uzbekistan for Automobile Roads",

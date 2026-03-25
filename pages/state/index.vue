@@ -294,7 +294,7 @@ const stateTableRows = computed(() => {
       type: "Комитет",
       func: "Ветеринария и животноводство",
       linkKey: "State.seven.link",
-      linkText: "vetgov.uz",
+      linkText: "gov.uz/vetgov",
     },
     {
       orgKey: "State.eight.title",
@@ -359,7 +359,7 @@ const stateTableRows = computed(() => {
       type: "Committee",
       func: "Veterinary and livestock",
       linkKey: "State.seven.link",
-      linkText: "vetgov.uz",
+      linkText: "gov.uz/vetgov",
     },
     {
       orgKey: "State.eight.title",
@@ -424,7 +424,7 @@ const stateTableRows = computed(() => {
       type: "Qoʻmita",
       func: "Veterinariya va chorvachilik",
       linkKey: "State.seven.link",
-      linkText: "vetgov.uz",
+      linkText: "gov.uz/vetgov",
     },
     {
       orgKey: "State.eight.title",
