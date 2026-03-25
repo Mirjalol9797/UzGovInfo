@@ -23,58 +23,40 @@ const headquartersCentralBank = () =>
 const headquartersAccountsChamber = () =>
   import("./headquarters/headquarters-accounts-chamber.js");
 
-const agenciesUzarxiv = () =>
-  import("./agencies/agencies-uzarxiv.js");
+const agenciesUzarxiv = () => import("./agencies/agencies-uzarxiv.js");
 const agenciesCinematography = () =>
   import("./agencies/agencies-cinematography.js");
 const agenciesPharmaceutical = () =>
   import("./agencies/agencies-pharmaceutical.js");
-const agenciesStateAssets = () =>
-  import("./agencies/agencies-state-assets.js");
+const agenciesStateAssets = () => import("./agencies/agencies-state-assets.js");
 const agenciesYouthAffairs = () =>
   import("./agencies/agencies-youth-affairs.js");
-const agenciesUzbekcosmos = () =>
-  import("./agencies/agencies-uzbekcosmos.js");
-const agenciesAntidoping = () =>
-  import("./agencies/agencies-antidoping.js");
-const agenciesUzatom = () =>
-  import("./agencies/agencies-uzatom.js");
+const agenciesUzbekcosmos = () => import("./agencies/agencies-uzbekcosmos.js");
+const agenciesAntidoping = () => import("./agencies/agencies-antidoping.js");
+const agenciesUzatom = () => import("./agencies/agencies-uzatom.js");
 const agenciesMadaniymeros = () =>
   import("./agencies/agencies-madaniymeros.js");
-const agenciesEmdra = () =>
-  import("./agencies/agencies-emdra.js");
-const agenciesStandart = () =>
-  import("./agencies/agencies-standart.js");
-const agenciesMigration = () =>
-  import("./agencies/agencies-migration.js");
-const agenciesUrmon = () =>
-  import("./agencies/agencies-urmon.js");
-const agenciesDefindustry = () =>
-  import("./agencies/agencies-defindustry.js");
+const agenciesEmdra = () => import("./agencies/agencies-emdra.js");
+const agenciesStandart = () => import("./agencies/agencies-standart.js");
+const agenciesMigration = () => import("./agencies/agencies-migration.js");
+const agenciesUrmon = () => import("./agencies/agencies-urmon.js");
+const agenciesDefindustry = () => import("./agencies/agencies-defindustry.js");
 const agenciesIma = () => import("./agencies/agencies-ima.js");
-const agenciesKarantin = () =>
-  import("./agencies/agencies-karantin.js");
-const agenciesHydromet = () =>
-  import("./agencies/agencies-hydromet.js");
+const agenciesKarantin = () => import("./agencies/agencies-karantin.js");
+const agenciesHydromet = () => import("./agencies/agencies-hydromet.js");
 const agenciesUzcaa = () => import("./agencies/agencies-uzcaa.js");
-const agenciesInvestmiit = () =>
-  import("./agencies/agencies-investmiit.js");
+const agenciesInvestmiit = () => import("./agencies/agencies-investmiit.js");
 const agenciesUzbmb = () => import("./agencies/agencies-uzbmb.js");
 const agenciesKadastr = () => import("./agencies/agencies-kadastr.js");
-const agenciesAgrosanoat = () =>
-  import("./agencies/agencies-agrosanoat.js");
-const agenciesInnovation = () =>
-  import("./agencies/agencies-innovation.js");
-const agenciesSanitation = () =>
-  import("./agencies/agencies-sanitation.js");
+const agenciesAgrosanoat = () => import("./agencies/agencies-agrosanoat.js");
+const agenciesInnovation = () => import("./agencies/agencies-innovation.js");
+const agenciesSanitation = () => import("./agencies/agencies-sanitation.js");
 const agenciesPersonalization = () =>
   import("./agencies/agencies-personalization.js");
-const agenciesSuvobekt = () =>
-  import("./agencies/agencies-suvobekt.js");
+const agenciesSuvobekt = () => import("./agencies/agencies-suvobekt.js");
 const agenciesEsma = () => import("./agencies/agencies-esma.js");
 const agenciesAdli = () => import("./agencies/agencies-adli.js");
-const agenciesKasbiytalim = () =>
-  import("./agencies/agencies-kasbiytalim.js");
+const agenciesKasbiytalim = () => import("./agencies/agencies-kasbiytalim.js");
 
 const ministriesInvestmentTrade = () =>
   import("./ministries/ministries-investment-trade.js");
@@ -92,18 +74,19 @@ const ministriesEducation = () =>
   import("./ministries/ministries-education.js");
 const ministriesEcologyClimate = () =>
   import("./ministries/ministries-ecology-climate.js");
-const ministriesSports = () =>
-  import("./ministries/ministries-sports.js");
+const ministriesSports = () => import("./ministries/ministries-sports.js");
 const ministriesAgriculture = () =>
   import("./ministries/ministries-agriculture.js");
 const ministriesWaterResources = () =>
   import("./ministries/ministries-water-resources.js");
 const ministriesDigitalTech = () =>
   import("./ministries/ministries-digital-tech.js");
-const ministriesJustice = () =>
-  import("./ministries/ministries-justice.js");
+const ministriesJustice = () => import("./ministries/ministries-justice.js");
 const ministriesTransport = () =>
   import("./ministries/ministries-transport.js");
+const ministriesCulture = () => import("./ministries/ministries-culture.js");
+const ministriesDefense = () => import("./ministries/ministries-defense.js");
+const ministriesEnergy = () => import("./ministries/ministries-energy.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -159,6 +142,9 @@ export const pageContentMap = {
   "ministries-digital-tech": ministriesDigitalTech,
   "ministries-justice": ministriesJustice,
   "ministries-transport": ministriesTransport,
+  "ministries-culture": ministriesCulture,
+  "ministries-defense": ministriesDefense,
+  "ministries-energy": ministriesEnergy,
 };
 
 export async function getPageContent(slug) {

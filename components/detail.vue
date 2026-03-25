@@ -132,6 +132,9 @@ const otherSites = computed(() => {
     if (s.includes("ministries-digital-tech")) return "analytics";
     if (s.includes("ministries-justice")) return "law";
     if (s.includes("ministries-transport")) return "globe";
+    if (s.includes("ministries-culture")) return "program";
+    if (s.includes("ministries-defense")) return "shield";
+    if (s.includes("ministries-energy")) return "chart";
     return "building";
   };
   return {
@@ -328,7 +331,7 @@ useHead(() => ({
                 :href="officialSiteUrl"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="flex-1 h-12 rounded-xl border border-[#dbe3f1] bg-[#f8fafc] px-4 inline-flex items-center gap-2 text-[#315efb] font-semibold hover:bg-white transition min-w-0"
+                class="flex-1 h-12 rounded-xl border border-[#dbe3f1] bg-[#f8fafc] px-4 inline-flex items-center gap-2 text-[#315efb] font-semibold hover:bg-white transition min-w-0 768:py-2"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
