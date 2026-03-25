@@ -25,13 +25,14 @@ export default function state() {
         description: "State.two.description",
         shortDesc: "State.two.shortDesc",
         tag: "tags.tax",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/29/2025/06/20/d16c710c-1c6f-599e-03cb-f7420f58b7da_authority_29.jpg",
         link: "State.two.link",
         seo: {
           title: "State.two.seo.title",
           description: "State.two.seo.description",
           keywords: "State.two.seo.keywords",
-          image: "/images/State/www.soliq.uz.png",
+          image:
+            "https://api-portal.gov.uz/uploads/29/2025/06/20/d16c710c-1c6f-599e-03cb-f7420f58b7da_authority_29.jpg",
         },
       },
       {
@@ -41,13 +42,13 @@ export default function state() {
         description: "State.three.description",
         shortDesc: "State.three.shortDesc",
         tag: "tags.customs",
-        img: "/images/gerb.png",
+        img: "https://www.customs.uz/img/gtk_image.png",
         link: "State.three.link",
         seo: {
           title: "State.three.seo.title",
           description: "State.three.seo.description",
           keywords: "State.three.seo.keywords",
-          image: "/images/State/www.customs.uz.png",
+          image: "https://www.customs.uz/img/gtk_image.png",
         },
       },
       {

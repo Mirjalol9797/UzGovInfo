@@ -95,6 +95,9 @@ const ministriesInternalAffairs = () =>
 const ministriesFvv = () => import("./ministries/ministries-fvv.js");
 const stateStatisticsAgency = () =>
   import("./state/state-statistics-agency.js");
+const stateTaxCommittee = () => import("./state/state-tax-committee.js");
+const stateCustomsCommittee = () =>
+  import("./state/state-customs-committee.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -158,6 +161,8 @@ export const pageContentMap = {
   "ministries-internal-affairs": ministriesInternalAffairs,
   "ministries-fvv": ministriesFvv,
   "state-statistics-agency": stateStatisticsAgency,
+  "state-tax-committee": stateTaxCommittee,
+  "state-customs-committee": stateCustomsCommittee,
 };
 
 export async function getPageContent(slug) {

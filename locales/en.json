@@ -1012,23 +1012,23 @@
     },
     "two": {
       "title": "State Tax Committee of the Republic of Uzbekistan",
-      "description": "The website of Uzbekistan’s State Tax Committee provides comprehensive information on tax regulations, procedures, and services in the country. It offers resources for taxpayers, including tax filing, payments, and updates on changes in tax laws. The site also features online services, support for businesses, and tools to ensure compliance with tax requirements. Additionally, it promotes transparency, facilitates public access to tax-related data, and provides educational materials for understanding the national tax system.",
-      "link": "https://www.soliq.uz/",
+      "description": "Official section of the State Tax Committee on gov.uz (soliq): structure of tax authorities, activities, Tax Code and legal acts, e-tax services and the national e-services portal, official clarifications, digital government and open data, press centre, contacts and trust hotlines. Additional e-services are on soliq.uz.",
+      "link": "https://gov.uz/en/soliq",
       "seo": {
-        "title": "State Tax Committee of the Republic of Uzbekistan – Official Website soliq.uz",
-        "description": "Official website of the State Tax Committee of the Republic of Uzbekistan – soliq.uz. Tax legislation, procedures, services. Tax filing, payments, online services. Business support, tax compliance.",
-        "keywords": "tax committee Uzbekistan, soliq.uz, Uzbekistan taxes, tax filing, tax services, State Tax Committee"
+        "title": "State Tax Committee of Uzbekistan — gov.uz/soliq",
+        "description": "State Tax Committee of the Republic of Uzbekistan on the government portal gov.uz: taxes, taxpayer registration, e-services, Tax Code, contacts. Services also on soliq.uz.",
+        "keywords": "State Tax Committee Uzbekistan, gov.uz soliq, Uzbekistan taxes, e-tax services, Tax Code, soliq.uz"
       },
       "shortDesc": "Tax system and collections"
     },
     "three": {
       "title": "Customs Committee under the Ministry of Economy and Finance of the Republic of Uzbekistan",
-      "description": "The website of Uzbekistan’s State Customs Committee provides key information regarding customs regulations, procedures, and services. It offers guidance for businesses and individuals on import and export procedures, tariffs, and trade regulations. The site includes tools for customs declarations, compliance, and updates on changes in customs law. It also features resources for clearing goods, tracking shipments, and understanding the national and international trade agreements that affect customs operations. The platform aims to streamline trade processes and promote transparency in customs activities.",
+      "description": "Official site customs.uz: customs regulation and control, legislation, tariffs and non-tariff measures, declaration and release of goods, e-services, trade statistics and open data, news, vacancies, appeals and regional customs contacts.",
       "link": "https://www.customs.uz/en",
       "seo": {
-        "title": "",
-        "description": "",
-        "keywords": ""
+        "title": "Customs Committee under Ministry of Economy and Finance — customs.uz",
+        "description": "Customs Committee under the Ministry of Economy and Finance of Uzbekistan on customs.uz. Import, export, customs procedures, declarations, tariffs, e-services.",
+        "keywords": "Uzbekistan customs, customs.uz, Ministry of Economy and Finance customs, import export, customs declaration, foreign trade"
       },
       "shortDesc": "Customs control and regulation"
     },

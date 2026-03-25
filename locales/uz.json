@@ -1011,24 +1011,24 @@
       "shortDesc": "Statistika va maʼlumotlar tahlili"
     },
     "two": {
-      "title": "O‘zbekiston Respublikasi Davlat soliq qo‘mitasi",
-      "description": "O‘zbekiston Davlat soliq qo‘mitasining veb-saytida mamlakatimizda soliqqa tortish qoidalari, tartiblari va xizmatlari haqida to‘liq ma’lumotlar joylashtirilgan. U soliq to'lovchilar uchun resurslarni taklif etadi, jumladan soliq to'lovlari, to'lovlar va soliq qonunchiligidagi o'zgarishlar haqidagi yangilanishlar. Saytda, shuningdek, onlayn xizmatlar, biznesni qo'llab-quvvatlash va soliq talablariga rioya qilishni ta'minlash vositalari mavjud. Bundan tashqari, u shaffoflikni rag'batlantiradi, soliqqa oid ma'lumotlarga jamoatchilik kirishini osonlashtiradi va milliy soliq tizimini tushunish uchun o'quv materiallarini taqdim etadi.",
-      "link": "https://www.soliq.uz/",
+      "title": "Oʻzbekiston Respublikasi Soliq qoʻmitasi",
+      "description": "gov.uz portali boʻlimi (soliq): soliq organlari tuzilmasi va faoliyat, Soliq kodeksi va huquqiy hujjatlar, elektron soliq xizmatlari va Yagona interaktiv davlat xizmatlari portali, rasmiy tushuntirishlar, raqamli davlat va ochiq maʼlumotlar, matbuot markazi, aloqa va ishonch telefonlari. Qo‘shimcha elektron xizmatlar — soliq.uz.",
+      "link": "https://gov.uz/oz/soliq",
       "seo": {
-        "title": "Oʻzbekiston Respublikasi Davlat soliq qoʻmitasi – soliq.uz rasmiy sayti",
-        "description": "Oʻzbekiston Respublikasi Davlat soliq qoʻmitasining rasmiy sayti – soliq.uz. Soliq qonunchiligi, tartiblar, xizmatlar. Soliq deklaratsiyasi, toʻlovlar, onlayn xizmatlar. Biznesni qoʻllab-quvvatlash, soliq talablariga rioya.",
-        "keywords": "soliq qoʻmitasi Oʻzbekiston, soliq.uz, Oʻzbekiston soliqlari, soliq xizmatlari, Davlat soliq qoʻmitasi"
+        "title": "Oʻzbekiston Respublikasi Soliq qoʻmitasi — gov.uz/soliq",
+        "description": "Soliq qoʻmitasi davlat portali gov.uz da: soliqlar, soliq toʻlovchilar hisobi, elektron xizmatlar, Soliq kodeksi, kontaktlar. Xizmatlar shuningdek soliq.uz da.",
+        "keywords": "Soliq qoʻmitasi Oʻzbekiston, gov.uz soliq, Oʻzbekiston soliqlari, elektron soliq xizmatlari, Soliq kodeksi, soliq.uz"
       },
       "shortDesc": "Soliq tizimi va yigʻimlar"
     },
     "three": {
-      "title": "O‘zbekiston Respublikasi Davlat bojxona qo‘mitasi",
-      "description": "O‘zbekiston Davlat bojxona qo‘mitasi veb-saytida bojxona qoidalari, tartiblari va xizmatlariga oid asosiy ma’lumotlar joylashtirilgan. U korxonalar va jismoniy shaxslar uchun import va eksport tartib-qoidalari, tariflar va savdo qoidalari bo'yicha ko'rsatmalar beradi. Saytda bojxona deklaratsiyasi, amal qilish va bojxona qonunchiligidagi o‘zgarishlarga oid yangilanishlar uchun vositalar mavjud. Shuningdek, u tovarlarni rasmiylashtirish, yuklarni kuzatish va bojxona operatsiyalariga ta'sir qiluvchi milliy va xalqaro savdo shartnomalarini tushunish uchun resurslarni o'z ichiga oladi. Platforma savdo jarayonlarini soddalashtirish va bojxona faoliyatida shaffoflikni ta’minlashga qaratilgan.",
+      "title": "O‘zbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi Bojxona qo‘mitasi",
+      "description": "customs.uz rasmiy sayti: Iqtisodiyot va moliya vazirligi huzuridagi Bojxona qoʻmitasi — bojxona tartibga solishi va nazorati, qonunchilik, tarif va notarif choralari, deklaratsiya va tovarlarni chiqarish, elektron xizmatlar, statistika va ochiq maʼlumotlar, yangiliklar, vakansiyalar, murojaatlar va hududiy bojxona aloqalari.",
       "link": "https://www.customs.uz/oz",
       "seo": {
-        "title": "Oʻzbekiston Respublikasi Davlat bojxona qoʻmitasi – customs.uz rasmiy sayti",
-        "description": "Oʻzbekiston Respublikasi Davlat bojxona qoʻmitasining rasmiy sayti – customs.uz. Bojxona qoidalari, import-eksport tartiblari, tariflar. Bojxona deklaratsiyasi, tovarlarni rasmiylashtirish, savdo shartnomalari.",
-        "keywords": "bojxona qoʻmitasi Oʻzbekiston, customs.uz, Oʻzbekiston bojxona, import eksport, bojxona tartiblari"
+        "title": "Iqtisodiyot va moliya vazirligi huzuridagi Bojxona qoʻmitasi — customs.uz",
+        "description": "Oʻzbekiston Iqtisodiyot va moliya vazirligi huzuridagi Bojxona qoʻmitasi customs.uz da. Import va eksport, bojxona tartiblari, deklaratsiya, tariflar, elektron xizmatlar.",
+        "keywords": "Oʻzbekiston bojxona, Iqtisodiyot va moliya vazirligi bojxona, customs.uz, import eksport, bojxona deklaratsiyasi, tashqi savdo"
       },
       "shortDesc": "Bojxona nazorati va tartibga solish"
     },
