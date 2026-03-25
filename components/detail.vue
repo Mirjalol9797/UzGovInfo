@@ -76,6 +76,7 @@ const otherSites = computed(() => {
   const slugToIcon = (slug) => {
     if (!slug) return "building";
     const s = slug.toLowerCase();
+    if (s.includes("state-statistics-agency")) return "chart";
     if (s.includes("parliament") || s.includes("senate")) return "law";
     if (s.includes("government") || s.includes("gov")) return "building";
     if (s.includes("court") || s.includes("sud")) return "law";

@@ -1000,13 +1000,13 @@
       "description": "List of state bodies of the Republic of Uzbekistan: committees, services and agencies. Links to official websites and information on the functions of government bodies."
     },
     "one": {
-      "title": "Statistics agency under the president of the Republic of Uzbekistan",
-      "description": "The website of Uzbekistan’s State Committee on Statistics offers comprehensive data and statistical reports related to the country’s economy, demographics, agriculture, industry, and social welfare. It provides tools for accessing detailed statistical information, including national reports, surveys, and analytical resources. The site also features updates on ongoing data collection projects and publications to support evidence-based decision-making in both government and business sectors. It aims to promote transparency and assist in economic and social planning across various sectors of the nation.",
+      "title": "National Statistics Committee of the Republic of Uzbekistan",
+      "description": "Official stat.uz website of the National Statistics Committee: official statistics, open data, publication calendar, interactive services and e-reporting, methodology, press and appeals.",
       "link": "https://stat.uz/en/",
       "seo": {
-        "title": "Statistics Agency under the President of the Republic of Uzbekistan – Official Website stat.uz",
-        "description": "Official website of the Statistics Agency under the President of the Republic of Uzbekistan – stat.uz. Statistical data on economy, demographics, agriculture, industry. National reports, research, analytics. Data collection projects, decision-making support.",
-        "keywords": "statistics Uzbekistan, Statistics Agency, stat.uz, economic statistics, demographics, statistical reports, Uzbekistan analytics"
+        "title": "National Statistics Committee — official website stat.uz",
+        "description": "Official website of the National Statistics Committee of Uzbekistan — stat.uz. Economy, demographics, open data, e-GDDS, SDGs, interactive services.",
+        "keywords": "Uzbekistan statistics, National Statistics Committee, stat.uz, official statistics, open data"
       },
       "shortDesc": "Statistics and data analysis"
     },
