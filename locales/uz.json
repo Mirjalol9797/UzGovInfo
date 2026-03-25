@@ -1044,17 +1044,6 @@
       "shortDesc": "Ekologiya va iqlim oʻzgarishi"
     },
     "five": {
-      "title": "Ekologiya, atrof-muhitni muhofaza qilish va iqlim o'zgarishi vazirligi huzuridagi O'rmon xo'jaligi agentligining rasmiy veb sayti",
-      "description": "Veb-sayt Oʻzbekiston Ekologiya, atrof-muhitni muhofaza qilish va iqlim oʻzgarishi vazirligi huzuridagi Oʻrmon xoʻjaligi agentligiga bagʻishlangan. Unda mamlakatning o‘rmon xo‘jaligi, jumladan uning faoliyati, tashkiliy tuzilmasi va ekologik turizm tashabbuslari haqida ma’lumotlar berilgan. Saytda aholi uchun turli xizmatlar, masalan, o'rmon yerlarini ijaraga olish va ruxsatnomalar uchun portallar mavjud. Shuningdek, u qonun va me’yoriy hujjatlar, hukumat qarorlari, korrupsiyaga qarshi kurash bilan bog‘liq hujjatlarni o‘z ichiga oladi. Veb-sayt yangiliklar, voqealarni yoritib beradi va fuqarolar uchun turli interaktiv xizmatlardan foydalanish imkonini beradi.",
-      "link": "https://urmon.gov.uz/",
-      "seo": {
-        "title": "Oʻzbekiston Respublikasi Oʻrmon xoʻjaligi agentligi – urmon.gov.uz rasmiy sayti",
-        "description": "Oʻzbekiston Respublikasi Ekologiya vazirligi huzuridagi Oʻrmon xoʻjaligi agentligining rasmiy sayti – urmon.gov.uz. Oʻrmon xoʻjaligi, ekologik turizm. Oʻrmon yerlarini ijaraga olish, ruxsatnomalar, interaktiv xizmatlar.",
-        "keywords": "oʻrmon xoʻjaligi Oʻzbekiston, urmon.gov.uz, Oʻrmon xoʻjaligi agentligi, ekologik turizm, oʻrmon resurslari"
-      },
-      "shortDesc": "Oʻrmon xoʻjaligi va bioresurslar"
-    },
-    "six": {
       "title": "O‘zbekiston Respublikasi Tog‘-kon sanoati va geologiya vazirligi",
       "description": "O‘zbekiston Konchilik va geologiya vazirligining veb-saytida mamlakatning tog‘-kon sanoati, geologik tadqiqotlar va resurslarni boshqarish haqida batafsil ma’lumotlar mavjud. Unda geologik qidiruv, tog‘-kon siyosati, investitsiya imkoniyatlari va barqaror rivojlanish tashabbuslari haqidagi yangilanishlar mavjud. Sayt foydali qazilmalarni qazib olishga ruxsat berish, erdan foydalanish va me'yoriy hujjatlarga rioya qilish bilan bog'liq xizmatlarni taklif etadi. Bundan tashqari, u tog'-kon loyihalari, atrof-muhitni muhofaza qilish choralari va tog'-kon va geologiya sohalarini modernizatsiya qilish bo'yicha hukumat harakatlariga oid yangiliklarni o'z ichiga oladi.",
       "link": "https://gov.uz/oz/mingeo",
@@ -1076,7 +1065,7 @@
       },
       "shortDesc": "Kadastr va yer resurslari"
     },
-    "eight": {
+    "seven": {
       "title": "O‘zbekiston Respublikasi Veterenariya va chorvachilikni rivojlantirish davlat qo‘mitasi.",
       "description": "vetgov.uz sayti O‘zbekistonda veterinariya va chorvachilikni rivojlantirish davlat qo‘mitasi faoliyatiga bag‘ishlangan. Unda mamlakat veterinariya xizmatlari, hayvonlar salomatligi va chorvachilikni boshqarish bo‘yicha ma’lumotlar taqdim etiladi. Sayt veterinariya faoliyati bilan bog'liq qonunlar, qoidalar va xizmatlardan foydalanish imkonini beradi. Bundan tashqari, unda tender e'lonlari, fuqarolar uchun interaktiv xizmatlar va tegishli yangiliklar kabi resurslar mavjud. Foydalanuvchilar veterinariya litsenziyalari, veterinariya tibbiyoti va chorvachilikni qo'llab-quvvatlash bo'yicha ma'lumotlarni, shuningdek, qo'shimcha so'rovlar uchun aloqa ma'lumotlarini topishlari mumkin.",
       "link": "https://www.vetgov.uz/uz/",
@@ -1087,7 +1076,7 @@
       },
       "shortDesc": "Veterinariya nazorati"
     },
-    "nine": {
+    "eight": {
       "title": "O‘zbekiston Respublikasi Avtomobilь yo‘llari davlat qo‘mitasi",
       "description": "Uzavtoyul.uz sayti Oʻzbekiston avtomobil yoʻllari va transport agentligiga bagʻishlangan. Unda O‘zbekistonda yo‘l infratuzilmasi, transport siyosati hamda yo‘l tarmoqlarini rivojlantirish va saqlashga oid loyihalar haqida ma’lumotlar keltirilgan. Saytda hukumat tashabbuslari va davlat xizmatlari, jumladan, yo'l qurilishi, ta'mirlash yangilanishlari va harakat xavfsizligi choralari uchun resurslar mavjud. Shuningdek, u tenderlar to'g'risidagi e'lonlar, qoidalar va transport tizimlari bilan bog'liq yangiliklar, milliy yo'l tarmog'ini modernizatsiya qilish va ulanishni yaxshilashga yordam beradi.",
       "link": "https://uzavtoyul.uz/",
@@ -1098,7 +1087,7 @@
       },
       "shortDesc": "Avtomobil yoʻllari va infratuzilma"
     },
-    "ten": {
+    "nine": {
       "title": "O‘zbekiston Respublikasi Ekologiya, atrof-muhitni muhofaza qilish va iqlim o‘zgarishi vazirligi huzuridagi Turizm qo‘mitasi",
       "description": "O‘zbekiston Milliy turizm agentligi veb-saytida mamlakatning sayyohlik imkoniyatlari, jumladan, madaniy meros, tarixiy obidalar, tabiiy landshaftlar haqida ma’lumotlar taqdim etilgan. U sayyohlar, turoperatorlar va biznes uchun resurslar bilan ta'minlaydi va O'zbekistonni sayyohlik yo'nalishi sifatida targ'ib qiladi. Saytda asosiy sayyohlik joylari, tadbirlar va sayohat xizmatlari, jumladan viza ma'lumotlari, turar joy va transport haqida batafsil ma'lumotlar mavjud. Bundan tashqari, u turizm infratuzilmasini rivojlantirish tashabbuslari va sektorni kengaytirish, tashrif buyuruvchilar tajribasini yaxshilash va mahalliy hamjamiyatlarni qo‘llab-quvvatlashga qaratilgan hamkorlikni namoyish etadi.",
       "link": "https://uzbektourism.uz",

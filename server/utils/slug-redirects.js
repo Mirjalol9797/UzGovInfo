@@ -64,8 +64,6 @@ export default {
       "state-customs-committee",
     "ministry-of-ecology-environmental-protection-and-climate-change-of-the-republic-of-uzbekistan":
       "state-ecology-climate",
-    "official-website-of-the-forestry-agency-under-the-ministry-of-ecology-environmental-protection-and-climate-change":
-      "state-forestry-agency",
     "ministry-of-mining-industry-and-geology-of-the-republic-of-uzbekistan":
       "state-mining-geology",
     "state-committee-of-the-republic-of-uzbekistan-on-land-resources-geodesy-cartography-and-state-cadastre":
