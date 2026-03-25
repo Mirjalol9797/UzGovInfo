@@ -7,7 +7,7 @@ export default {
     pageTitle: "Министерство энергетики Республики Узбекистан",
     intro: [
       "Министерство энергетики Республики Узбекистан реализует государственную политику в сфере топливно-энергетического комплекса, электро- и теплоэнергетики, использования возобновляемых источников энергии, энергоэффективности, нефтегазового сектора и международного энергетического сотрудничества в пределах установленной компетенции.",
-      "Официальный раздел ведомства на портале gov.uz (minenergy) содержит сведения о министерстве и его структуре (организационная структура, руководство, центральный аппарат, подведомственные органы, общественный совет, вакансии), направлениях деятельности (включая перепись 2026, страницу Конституции, тендеры, электронное правительство, международное сотрудничество, противодействие коррупции, молодёжную и гендерную политику, словарь терминов, экологическую вовлечённость персонала), перечень государственных услуг, нормативно-правовую базу (обеспечение открытости, государственные программы, оценка воздействия законодательных актов, акты, зарегистрированные Минюстом, решения правительства и Президента, законы, утратившие силу документы), блок «Цифровое правительство» (портал и реестр открытых данных, часто задаваемые вопросы, обращения по противодействию коррупции, обратная связь, социально значимая информация, статистика обращений), пресс-службу и контакты (каналы связи по коррупционным случаям, опросы, контакты). На странице указана горячая линия +998 71 231-81-18.",
+      "Официальный раздел ведомства на портале gov.uz (minenergy) содержит сведения о министерстве и его структуре (организационная структура, руководство, центральный аппарат, подведомственные органы, общественный совет, вакансии), направлениях деятельности (включая страницу Конституции, тендеры, электронное правительство, международное сотрудничество, противодействие коррупции, молодёжную и гендерную политику, словарь терминов, экологическую вовлечённость персонала), перечень государственных услуг, нормативно-правовую базу (обеспечение открытости, государственные программы, оценка воздействия законодательных актов, акты, зарегистрированные Минюстом, решения правительства и Президента, законы, утратившие силу документы), блок «Цифровое правительство» (портал и реестр открытых данных, часто задаваемые вопросы, обращения по противодействию коррупции, обратная связь, социально значимая информация, статистика обращений), пресс-службу и контакты (каналы связи по коррупционным случаям, опросы, контакты). На странице указана горячая линия +998 71 231-81-18.",
       "Ресурс ориентирован на предприятия ТЭК, инвесторов, граждан при использовании госуслуг в энергетике, аналитиков и СМИ, которым нужны официальные программы, тендеры, открытые данные и каналы обратной связи.",
     ],
     officialSite: {
@@ -29,7 +29,7 @@ export default {
         {
           icon: "chart",
           title: "Сфера деятельности",
-          desc: "Перепись 2026, конституционная страница, тендеры, электронное правительство, международное сотрудничество, антикоррупция, молодёжь и гендер, словарь терминов",
+          desc: "Конституционная страница, тендеры, электронное правительство, международное сотрудничество, антикоррупция, молодёжь и гендер, словарь терминов",
         },
         {
           icon: "globe",
@@ -106,7 +106,7 @@ export default {
     pageTitle: "Ministry of Energy of the Republic of Uzbekistan",
     intro: [
       "The Ministry of Energy of the Republic of Uzbekistan implements public policy on the fuel-and-energy complex, electricity and heat, renewable energy, energy efficiency, oil and gas, and international energy cooperation within its mandate.",
-      "The ministry’s official section on gov.uz (minenergy) provides information on the ministry and its structure (organizational structure, administration, central staff, subordinate bodies, community council, jobs), fields of activity (including Census 2026, constitution page, tenders, e-government, international cooperation, anti-corruption, youth policy, gender equality, dictionary of terms, eco-active employee), public services, legal documents (openness, government programmes, legislative impact assessment, acts registered by the Ministry of Justice, government and presidential acts, laws, repealed documents), digital government (open data portal and register, FAQ, anti-corruption appeals, feedback, socially significant information, appeal statistics), press service and contact (corruption communication channels, surveys, contacts). The page shows hotline +998 71 231-81-18.",
+      "The ministry’s official section on gov.uz (minenergy) provides information on the ministry and its structure (organizational structure, administration, central staff, subordinate bodies, community council, jobs), fields of activity (including constitution page, tenders, e-government, international cooperation, anti-corruption, youth policy, gender equality, dictionary of terms, eco-active employee), public services, legal documents (openness, government programmes, legislative impact assessment, acts registered by the Ministry of Justice, government and presidential acts, laws, repealed documents), digital government (open data portal and register, FAQ, anti-corruption appeals, feedback, socially significant information, appeal statistics), press service and contact (corruption communication channels, surveys, contacts). The page shows hotline +998 71 231-81-18.",
       "The resource is intended for energy companies, investors, citizens using energy-related services, analysts and the media who need official programmes, tenders, open data and feedback channels.",
     ],
     officialSite: {
@@ -127,7 +127,7 @@ export default {
         {
           icon: "chart",
           title: "Field of activity",
-          desc: "Census 2026, constitution page, tenders, e-government, international cooperation, anti-corruption, youth and gender policy, dictionary of terms, eco-active employee",
+          desc: "Constitution page, tenders, e-government, international cooperation, anti-corruption, youth and gender policy, dictionary of terms, eco-active employee",
         },
         {
           icon: "globe",
@@ -204,7 +204,7 @@ export default {
     pageTitle: "Oʻzbekiston Respublikasi Energetika vazirligi",
     intro: [
       "Oʻzbekiston Respublikasi Energetika vazirligi yoqilgʻi-energetika kompleksi, elektr va issiqlik energetikasi, qayta tiklanuvchi energiya manbalari, energiya samaradorligi, neft-gaz sektori va xalqaro energetik hamkorlik boʻyicha davlat siyosatini belgilangan vakolat doirasida amalga oshiradi.",
-      "Vazirlikning gov.uz portali boʻlimida (minenergy) vazirlik va tuzilma (tashkilot tuzilmasi, rahbariyat, markaziy apparat, boʻysunuvchi organlar, jamoat kengashi, boʻsh ish oʻrinlari), faoliyat (shu jumladan 2026-yilgi roʻyxat, Konstitutsiya sahifasi, tenderlar, elektron hukumat, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender siyosati, atamalar lugʻati, ekofaol xodim), davlat xizmatlari, meʼyoriy-huquqiy hujjatlar (ochiqlikni taʼminlash, davlat dasturlari, qonunchilik taʼsirini baholash, Adliya vazirligida roʻyxatdan oʻtgan hujjatlar, hukumat va Prezident qarorlari, qonunlar, kuchini yoʻqotgan hujjatlar), raqamli hukumat (ochiq maʼlumotlar portali va reyestri, tez-tez beriladigan savollar, korrupsiyaga qarshi murojaatlar, qayta aloqa, ijtimoiy ahamiyatga oid axborot, murojaatlar statistikasi), matbuot xizmati va aloqa (korrupsiya holatlari boʻyicha aloqa kanallari, soʻrovnomalar, kontaktlar) haqida maʼlumot beriladi. Ishonch telefoni +998 71 231-81-18.",
+      "Vazirlikning gov.uz portali boʻlimida (minenergy) vazirlik va tuzilma (tashkilot tuzilmasi, rahbariyat, markaziy apparat, boʻysunuvchi organlar, jamoat kengashi, boʻsh ish oʻrinlari), faoliyat (shu jumladan Konstitutsiya sahifasi, tenderlar, elektron hukumat, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender siyosati, atamalar lugʻati, ekofaol xodim), davlat xizmatlari, meʼyoriy-huquqiy hujjatlar (ochiqlikni taʼminlash, davlat dasturlari, qonunchilik taʼsirini baholash, Adliya vazirligida roʻyxatdan oʻtgan hujjatlar, hukumat va Prezident qarorlari, qonunlar, kuchini yoʻqotgan hujjatlar), raqamli hukumat (ochiq maʼlumotlar portali va reyestri, tez-tez beriladigan savollar, korrupsiyaga qarshi murojaatlar, qayta aloqa, ijtimoiy ahamiyatga oid axborot, murojaatlar statistikasi), matbuot xizmati va aloqa (korrupsiya holatlari boʻyicha aloqa kanallari, soʻrovnomalar, kontaktlar) haqida maʼlumot beriladi. Ishonch telefoni +998 71 231-81-18.",
       "Resurs YEK korxonalari, investorlar, energetika boʻyicha davlat xizmatlaridan foydalanuvchi fuqarolar, tahlilchilar va OAV uchun — rasmiy dasturlar, tenderlar, ochiq maʼlumotlar va qayta aloqa kanallari uchun moʻljallangan.",
     ],
     officialSite: {
@@ -225,7 +225,7 @@ export default {
         {
           icon: "chart",
           title: "Faoliyat sohasi",
-          desc: "2026-yilgi roʻyxat, Konstitutsiya sahifasi, tenderlar, elektron hukumat, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender, atamalar lugʻati, ekofaol xodim",
+          desc: "Konstitutsiya sahifasi, tenderlar, elektron hukumat, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender, atamalar lugʻati, ekofaol xodim",
         },
         {
           icon: "globe",

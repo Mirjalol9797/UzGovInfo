@@ -7,7 +7,7 @@ export default {
     pageTitle: "Министерство спорта Республики Узбекистан",
     intro: [
       "Министерство спорта Республики Узбекистан формирует и реализует государственную политику в сфере физической культуры и спорта, развития массового и профессионального спорта, спортивной инфраструктуры, подготовки спортсменов и проведения соревнований, а также сопутствующих направлений (включая молодёжную политику, гендерное равенство, международное сотрудничество и антикоррупционные меры в установленной компетенции).",
-      "Официальный раздел министерства на портале gov.uz (sport) содержит сведения о министерстве и структуре, деятельности (в т.ч. перепись 2026, FAQ, электронное правительство, ГЧП, тендеры и аукционы, статистика), перечне государственных услуг, нормативных документах, цифровом правительстве (обратная связь, открытые данные, бюджетная открытость, обращения), пресс-службе и контактах. Горячая линия: +998 55 520-90-07.",
+      "Официальный раздел министерства на портале gov.uz (sport) содержит сведения о министерстве и структуре, деятельности (в т.ч. FAQ, электронное правительство, ГЧП, тендеры и аукционы, статистика), перечне государственных услуг, нормативных документах, цифровом правительстве (обратная связь, открытые данные, бюджетная открытость, обращения), пресс-службе и контактах. Горячая линия: +998 55 520-90-07.",
       "Ресурс предназначен для спортсменов, тренеров, федераций и клубов, граждан, занимающихся массовым спортом, а также для СМИ и партнёров, которым нужны официальные новости, документы и сервисы в сфере спорта.",
     ],
     officialSite: {
@@ -106,7 +106,7 @@ export default {
     pageTitle: "Ministry of Sports of the Republic of Uzbekistan",
     intro: [
       "The Ministry of Sports of the Republic of Uzbekistan develops and implements public policy on physical culture and sports, mass and professional sports, sports infrastructure, athlete development and competitions, and related areas within its mandate (including youth policy, gender equality, international cooperation and anti-corruption measures).",
-      "The ministry’s official section on gov.uz (sport) provides information on the ministry and its structure, activities (including Census 2026, FAQs, e-government, public–private partnership, tenders and auctions, statistics), the list of public services, legal documents, digital government (feedback, open data, budget transparency, appeals), press service and contacts. Hotline: +998 55 520-90-07.",
+      "The ministry’s official section on gov.uz (sport) provides information on the ministry and its structure, activities (including FAQs, e-government, public–private partnership, tenders and auctions, statistics), the list of public services, legal documents, digital government (feedback, open data, budget transparency, appeals), press service and contacts. Hotline: +998 55 520-90-07.",
       "The resource is intended for athletes, coaches, federations and clubs, citizens engaged in mass sports, and for media and partners who need official news, documents and services in sports.",
     ],
     officialSite: {
@@ -204,7 +204,7 @@ export default {
     pageTitle: "Oʻzbekiston Respublikasi Sport vazirligi",
     intro: [
       "Oʻzbekiston Respublikasi Sport vazirligi jismoniy tarbiya va sport, ommaviy va professional sport, sport infratuzilmasi, sportchilarni tayyorlash va musobaqalar oʻtkazish boʻyicha davlat siyosatini shakllantiradi va amalga oshiradi, shuningdek vakolati doirasida yoshlar siyosati, gender tenglik, xalqaro hamkorlik va korrupsiyaga qarshi choralar kabi yoʻnalishlarni qoʻllab-quvvatlaydi.",
-      "gov.uz portali boʻlimida (sport) vazirlik va tuzilma, faoliyat (shu jumladan 2026-yilgi roʻyxat, tez-tez beriladigan savollar, elektron hukumat, OMM, tanlovlar va auksionlar, statistik maʼlumotlar), davlat xizmatlari roʻyxati, hujjatlar, raqamli hukumat (qayta aloqa, ochiq maʼlumotlar, byudjet boʻyicha ochiq axborot, murojaatlar), matbuot xizmati va aloqa haqida maʼlumot beriladi. Ishonch telefoni: +998 55 520-90-07.",
+      "gov.uz portali boʻlimida (sport) vazirlik va tuzilma, faoliyat (shu jumladan tez-tez beriladigan savollar, elektron hukumat, OMM, tanlovlar va auksionlar, statistik maʼlumotlar), davlat xizmatlari roʻyxati, hujjatlar, raqamli hukumat (qayta aloqa, ochiq maʼlumotlar, byudjet boʻyicha ochiq axborot, murojaatlar), matbuot xizmati va aloqa haqida maʼlumot beriladi. Ishonch telefoni: +998 55 520-90-07.",
       "Resurs sportchilar, murabbiylar, federatsiyalar va klublar, ommaviy sport bilan shugʻullanuvchi fuqarolar hamda OAV va hamkorlar uchun — sport sohasidagi rasmiy yangiliklar, hujjatlar va xizmatlar uchun moʻljallangan.",
     ],
     officialSite: {

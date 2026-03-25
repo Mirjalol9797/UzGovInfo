@@ -7,7 +7,7 @@ export default {
     pageTitle: "Министерство внутренних дел Республики Узбекистан",
     intro: [
       "Министерство внутренних дел обеспечивает охрану общественного порядка, безопасность личности и собственности, профилактику правонарушений и преступлений, пограничную и миграционную политику в части, отнесённой к компетенции ведомства, а также координирует деятельность подведомственных органов внутренних дел.",
-      "Официальный раздел на gov.uz (iiv) содержит сведения о министерстве (история, полномочия органов внутренних дел, руководство, структура, центральный аппарат и подведомственные организации, региональные управления, Конституция, порядок прохождения службы, вакансии, государственные программы, учебные заведения, вопросы для кандидатов и военнослужащих), направлениях деятельности (перепись 2026, тендеры, электронное правительство, международное сотрудничество, исполнительская дисциплина, вопросы и ответы, противодействие коррупции, молодёжная и гендерная политика, розыск пропавших, проекты нормативных актов, сведения об исполнении госпрограмм), перечень и интерактивные госуслуги (реестр услуг, заявления на лицензии и разрешения, информация о порядке получения справок о гражданстве и регистрации), нормативные документы, развёрнутый блок «Цифровое правительство» (открытые данные, открытый бюджет, отчёты, закупки, обращения граждан, антикоррупционные материалы и др.), пресс-службу и контакты. На странице указаны номера колл-центра 102 и 1102 и ссылка на полный перечень номеров.",
+      "Официальный раздел на gov.uz (iiv) содержит сведения о министерстве (история, полномочия органов внутренних дел, руководство, структура, центральный аппарат и подведомственные организации, региональные управления, Конституция, порядок прохождения службы, вакансии, государственные программы, учебные заведения, вопросы для кандидатов и военнослужащих), направлениях деятельности (тендеры, электронное правительство, международное сотрудничество, исполнительская дисциплина, вопросы и ответы, противодействие коррупции, молодёжная и гендерная политика, розыск пропавших, проекты нормативных актов, сведения об исполнении госпрограмм), перечень и интерактивные госуслуги (реестр услуг, заявления на лицензии и разрешения, информация о порядке получения справок о гражданстве и регистрации), нормативные документы, развёрнутый блок «Цифровое правительство» (открытые данные, открытый бюджет, отчёты, закупки, обращения граждан, антикоррупционные материалы и др.), пресс-службу и контакты. На странице указаны номера колл-центра 102 и 1102 и ссылка на полный перечень номеров.",
       "Ресурс ориентирован на граждан при получении госуслуг и обращениях в органы внутренних дел, на сотрудников и кандидатов, бизнес и СМИ, которым нужны официальные нормы, открытые данные и каналы обратной связи.",
     ],
     officialSite: {
@@ -29,7 +29,7 @@ export default {
         {
           icon: "shield",
           title: "Сфера деятельности",
-          desc: "Перепись 2026, тендеры, электронное правительство, международное сотрудничество, дисциплина исполнения, вопросы и ответы, антикоррупция, молодёжь и гендер, розыск, проекты НПА, исполнение госпрограмм",
+          desc: "Тендеры, электронное правительство, международное сотрудничество, дисциплина исполнения, вопросы и ответы, антикоррупция, молодёжь и гендер, розыск, проекты НПА, исполнение госпрограмм",
         },
         {
           icon: "globe",
@@ -106,7 +106,7 @@ export default {
     pageTitle: "Ministry of Internal Affairs of the Republic of Uzbekistan",
     intro: [
       "The Ministry of Internal Affairs safeguards public order and the safety of people and property, prevents offences and crime, and handles migration and border policy within its mandate, coordinating the work of subordinate internal affairs bodies.",
-      "The ministry’s official section on gov.uz (iiv) covers the ministry (history, powers of internal affairs bodies, leadership, structure, central office and subordinate bodies, regional departments, constitution page, service rules, vacancies, state programmes, training institutions, information for applicants and military personnel), activities (Census 2026, tenders, e-government, international cooperation, performance discipline, Q&A, anti-corruption, youth and gender policy, missing persons, draft regulations, state programme implementation), public services (service register, interactive list, licence and permit applications, information on citizenship and residence certificates), legal documents, a full digital-government block (open data, open budget, reports, procurement, citizen appeals, anti-corruption materials and more), press service and contacts. The page shows call-centre numbers 102 and 1102 and a link to the full number list.",
+      "The ministry’s official section on gov.uz (iiv) covers the ministry (history, powers of internal affairs bodies, leadership, structure, central office and subordinate bodies, regional departments, constitution page, service rules, vacancies, state programmes, training institutions, information for applicants and military personnel), activities (tenders, e-government, international cooperation, performance discipline, Q&A, anti-corruption, youth and gender policy, missing persons, draft regulations, state programme implementation), public services (service register, interactive list, licence and permit applications, information on citizenship and residence certificates), legal documents, a full digital-government block (open data, open budget, reports, procurement, citizen appeals, anti-corruption materials and more), press service and contacts. The page shows call-centre numbers 102 and 1102 and a link to the full number list.",
       "The resource helps citizens using e-services and contacting the police, candidates and staff, businesses needing licences, and the media seeking official releases and appeal statistics.",
     ],
     officialSite: {
@@ -127,7 +127,7 @@ export default {
         {
           icon: "shield",
           title: "Field of activity",
-          desc: "Census 2026, tenders, e-government, international cooperation, performance discipline, Q&A, anti-corruption, youth and gender, missing persons, draft laws, programme implementation",
+          desc: "Tenders, e-government, international cooperation, performance discipline, Q&A, anti-corruption, youth and gender, missing persons, draft laws, programme implementation",
         },
         {
           icon: "globe",
@@ -204,7 +204,7 @@ export default {
     pageTitle: "Oʻzbekiston Respublikasi Ichki ishlar vazirligi",
     intro: [
       "Oʻzbekiston Respublikasi Ichki ishlar vazirligi jamoat tartibi va shaxs hamda mulk xavfsizligini taʼminlaydi, huquqbuzarlik va jinoyatchilikning oldini oladi, vakolat doirasida migratsiya va chegara siyosatini muvofiqlashtiradi hamda boʻysunuvchi ichki ishlar organlari faoliyatini muvofiqlashtiradi.",
-      "gov.uz dagi rasmiy boʻlim (iiv) vazirlik haqida (tarix, ichki ishlar organlari vakolati, rahbariyat, tuzilma, markaziy apparat va tizim tashkilotlari, hududiy boshqarmalar, Konstitutsiya sahifasi, xizmat oʻtash tartibi, boʻsh ish oʻrinlari, davlat dasturlari, oʻquv muassasalari, nomzodlar va harbiy tuzilma uchun savollar), faoliyat (2026-yilgi roʻyxat, tenderlar, elektron hukumat, xalqaro hamkorlik, ijro intizomi, savol-javoblar, korrupsiyaga qarshi kurash, yoshlar va gender siyosati, qidiruvdagi va yoʻqolgan shaxslar, loyiha hujjatlari, davlat dasturlari ijrosi), davlat xizmatlari (reestr, interfaol roʻyxat, litsenziya va ruxsatnomalar, fuqarolik va yashash boʻyicha maʼlumotlar), hujjatlar, kengaytirilgan «Raqamli hukumat» bloki (ochiq maʼlumotlar, ochiq byudjet, hisobotlar, davlat xaridlari, murojaatlar va boshqalar), axborot xizmati va aloqa haqida maʼlumot beradi. Call-markaz raqamlari 102 va 1102 hamda «Barcha raqamlar» havolasi koʻrsatiladi.",
+      "gov.uz dagi rasmiy boʻlim (iiv) vazirlik haqida (tarix, ichki ishlar organlari vakolati, rahbariyat, tuzilma, markaziy apparat va tizim tashkilotlari, hududiy boshqarmalar, Konstitutsiya sahifasi, xizmat oʻtash tartibi, boʻsh ish oʻrinlari, davlat dasturlari, oʻquv muassasalari, nomzodlar va harbiy tuzilma uchun savollar), faoliyat (tenderlar, elektron hukumat, xalqaro hamkorlik, ijro intizomi, savol-javoblar, korrupsiyaga qarshi kurash, yoshlar va gender siyosati, qidiruvdagi va yoʻqolgan shaxslar, loyiha hujjatlari, davlat dasturlari ijrosi), davlat xizmatlari (reestr, interfaol roʻyxat, litsenziya va ruxsatnomalar, fuqarolik va yashash boʻyicha maʼlumotlar), hujjatlar, kengaytirilgan «Raqamli hukumat» bloki (ochiq maʼlumotlar, ochiq byudjet, hisobotlar, davlat xaridlari, murojaatlar va boshqalar), axborot xizmati va aloqa haqida maʼlumot beradi. Call-markaz raqamlari 102 va 1102 hamda «Barcha raqamlar» havolasi koʻrsatiladi.",
       "Fuqarolar interaktiv xizmatlar va murojaatlar, nomzodlar va xodimlar, tadbirkorlar va OAV uchun rasmiy meʼyorlar, ochiq maʼlumotlar va murojaatlar statistikasi manbasi sifatida foydalidir.",
     ],
     officialSite: {
@@ -225,7 +225,7 @@ export default {
         {
           icon: "shield",
           title: "Faoliyat",
-          desc: "2026 roʻyxati, tenderlar, elektron hukumat, xalqaro hamkorlik, ijro intizomi, savol-javob, korrupsiyaga qarshi kurash, yoshlar va gender, qidiruv, loyiha hujjatlari",
+          desc: "Tenderlar, elektron hukumat, xalqaro hamkorlik, ijro intizomi, savol-javob, korrupsiyaga qarshi kurash, yoshlar va gender, qidiruv, loyiha hujjatlari",
         },
         {
           icon: "globe",

@@ -138,6 +138,7 @@ const otherSites = computed(() => {
     if (s.includes("ministries-health")) return "people";
     if (s.includes("ministries-foreign-affairs")) return "globe";
     if (s.includes("ministries-internal-affairs")) return "shield";
+    if (s.includes("ministries-fvv")) return "chart";
     return "building";
   };
   return {

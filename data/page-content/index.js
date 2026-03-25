@@ -92,6 +92,7 @@ const ministriesForeignAffairs = () =>
   import("./ministries/ministries-foreign-affairs.js");
 const ministriesInternalAffairs = () =>
   import("./ministries/ministries-internal-affairs.js");
+const ministriesFvv = () => import("./ministries/ministries-fvv.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -153,6 +154,7 @@ export const pageContentMap = {
   "ministries-health": ministriesHealth,
   "ministries-foreign-affairs": ministriesForeignAffairs,
   "ministries-internal-affairs": ministriesInternalAffairs,
+  "ministries-fvv": ministriesFvv,
 };
 
 export async function getPageContent(slug) {

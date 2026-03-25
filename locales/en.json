@@ -927,7 +927,7 @@
     },
     "seventeen": {
       "title": "Ministry of Energy of the Republic of Uzbekistan",
-      "description": "The ministry’s official section on gov.uz (minenergy) covers structure, activities (Census 2026, tenders, e-government, international cooperation, anti-corruption, youth and gender policy), public services, documents (openness, government programmes, laws and regulations), digital government (open data portal and register, appeal statistics), press service and contacts. Hotline +998 71 231-81-18. See also minenergy.uz.",
+      "description": "The ministry’s official section on gov.uz (minenergy) covers structure, activities (tenders, e-government, international cooperation, anti-corruption, youth and gender policy), public services, documents (openness, government programmes, laws and regulations), digital government (open data portal and register, appeal statistics), press service and contacts. Hotline +998 71 231-81-18. See also minenergy.uz.",
       "link": "https://gov.uz/en/minenergy",
       "seo": {
         "title": "Ministry of Energy – Official section gov.uz/minenergy",
@@ -970,13 +970,13 @@
       "shortDesc": "Internal affairs and security"
     },
     "twentyone": {
-      "title": "FVV of the Republic of Uzbekistan",
-      "description": "The website of Uzbekistan’s Ministry of Emergency Situations offers information on disaster preparedness, response strategies, and public safety initiatives. It covers programs aimed at reducing risks from natural disasters, emergency response planning, and training resources for both officials and the public. The site provides real-time updates on emergencies, weather warnings, and safety tips to protect citizens. It also includes sections on international cooperation, public education efforts, and methods for community engagement in emergency preparedness.",
+      "title": "Ministry of Emergency Situations of the Republic of Uzbekistan",
+      "description": "Official MES section on gov.uz (fvv): civil protection and fire safety, high-risk business register, open data and emergency statistics, press office. Hotline 1101.",
       "link": "https://gov.uz/en/fvv",
       "seo": {
-        "title": "Ministry of Emergency Situations of the Republic of Uzbekistan – Official Website gov.uz",
-        "description": "Official website of the Ministry of Emergency Situations of the Republic of Uzbekistan – gov.uz. Information on disaster preparedness, response strategies, public safety. Risk reduction programs, emergency planning, training. Real-time emergency updates, weather warnings, safety tips. International cooperation and public education.",
-        "keywords": "Ministry of Emergency Situations Uzbekistan, FVV Uzbekistan, civil protection, natural disasters, gov.uz, emergency services official website, weather warnings, public safety"
+        "title": "Ministry of Emergency Situations — official gov.uz/fvv section",
+        "description": "Official MES section of Uzbekistan on gov.uz (fvv): emergencies, public services, open data, 1101.",
+        "keywords": "MES Uzbekistan, FVV, gov.uz fvv, civil protection, emergencies, open data, 1101"
       },
       "shortDesc": "Emergency situations"
     }
