@@ -960,12 +960,12 @@
     },
     "twenty": {
       "title": "Ministry of Internal Affairs of the Republic of Uzbekistan",
-      "description": "The page for Uzbekistan’s Ministry of Internal Affairs provides resources on public safety, crime prevention, and law enforcement activities across the country. It covers information on policing efforts, emergency services, and initiatives aimed at improving public order and security. The site includes updates on reforms within law enforcement, details about citizen services, and government programs to combat organized crime, drug trafficking, and cybercrime. Additionally, it offers tools for public interaction, complaint submissions, and access to regulatory information to promote transparency and community safety.",
+      "description": "Official MIA section on gov.uz (iiv): public order and safety, public service register and interactive e-services, legal acts, digital government (open data, open budget, procurement, appeals), press and contacts. Call centre 102 and 1102.",
       "link": "https://gov.uz/en/iiv",
       "seo": {
-        "title": "Ministry of Internal Affairs of the Republic of Uzbekistan – Official Website gov.uz",
-        "description": "Official website of the Ministry of Internal Affairs of the Republic of Uzbekistan – gov.uz. Information on law enforcement, public safety, crime prevention. Resources on policing, emergency services, MIA reforms. Citizen services, programs to combat organized crime, drug trafficking and cybercrime. Complaint submission and access to regulatory information.",
-        "keywords": "Ministry of Internal Affairs Uzbekistan, MIA Uzbekistan, law enforcement Uzbekistan, Uzbekistan police, public safety, crime prevention, gov.uz, MIA official website, citizen services, crime control"
+        "title": "Ministry of Internal Affairs — official gov.uz/iiv section",
+        "description": "Official MIA section of Uzbekistan on gov.uz (iiv): law enforcement, public services, open data, appeals, call centre 102 and 1102.",
+        "keywords": "MIA Uzbekistan, gov.uz iiv, police Uzbekistan, MIA e-services, open data, 102, 1102"
       },
       "shortDesc": "Internal affairs and security"
     },
