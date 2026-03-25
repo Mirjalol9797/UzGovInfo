@@ -130,6 +130,7 @@ const otherSites = computed(() => {
     if (s.includes("ministries-agriculture")) return "program";
     if (s.includes("ministries-water-resources")) return "chart";
     if (s.includes("ministries-digital-tech")) return "analytics";
+    if (s.includes("ministries-justice")) return "law";
     return "building";
   };
   return {

@@ -883,12 +883,12 @@
     },
     "thirteen": {
       "title": "Ministry of Justice of the Republic of Uzbekistan",
-      "description": "The website of Uzbekistan’s Ministry of Justice provides information on legal reforms, regulations, and government services related to law and justice in the country. It offers resources on legal frameworks, public access to legal documents, and updates on judicial reforms. The site also facilitates public engagement through online services, legal consultations, and the promotion of transparency in legal processes. Additionally, it includes resources on anti-corruption measures, gender equality, and various state programs aimed at improving the legal system.",
-      "link": "https://www.adliya.uz/en",
+      "description": "The ministry’s official section on gov.uz (adliya) covers structure and activities (draft law expertise, human rights, international cooperation, NGOs, legal culture), public services (civil registry, public service centres, online booking, video guides, national public services portal), documents, digital government (open data, feedback, open data registry), press service and contacts. Hotline 1008. See also adliya.uz.",
+      "link": "https://gov.uz/en/adliya",
       "seo": {
-        "title": "Ministry of Justice of the Republic of Uzbekistan – Official Website adliya.uz",
-        "description": "Official website of the Ministry of Justice of Uzbekistan – adliya.uz. The Ministry of Justice oversees the legal system, develops legislation, protects human rights, and upholds the rule of law across Uzbekistan. Learn about legal reforms, access to justice, legal education, judicial transparency, and public services. Discover initiatives aimed at improving legal aid, supporting legal professionals, and ensuring fair legal processes in line with Uzbekistan’s commitment to justice and human rights.",
-        "keywords": "Ministry of Justice Uzbekistan, justice system Uzbekistan, adliya.uz, legal reforms Uzbekistan, access to justice, legal education, human rights protection Uzbekistan, rule of law, judicial transparency, public services justice, legal aid Uzbekistan, legal professionals support, law and order Uzbekistan, justice reforms, Uzbekistan human rights, Ministry of Justice initiatives"
+        "title": "Ministry of Justice – Official section gov.uz/adliya",
+        "description": "Official section of the Ministry of Justice of the Republic of Uzbekistan on gov.uz (adliya): public services, civil registry, legal documents, open data, contacts and hotline 1008. See also adliya.uz.",
+        "keywords": "Ministry of Justice Uzbekistan, gov.uz adliya, justice system, civil registry, public services, open data, hotline 1008, adliya.uz"
       },
       "shortDesc": "Legal system and justice"
     },

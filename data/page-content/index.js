@@ -100,6 +100,8 @@ const ministriesWaterResources = () =>
   import("./ministries/ministries-water-resources.js");
 const ministriesDigitalTech = () =>
   import("./ministries/ministries-digital-tech.js");
+const ministriesJustice = () =>
+  import("./ministries/ministries-justice.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -153,6 +155,7 @@ export const pageContentMap = {
   "ministries-agriculture": ministriesAgriculture,
   "ministries-water-resources": ministriesWaterResources,
   "ministries-digital-tech": ministriesDigitalTech,
+  "ministries-justice": ministriesJustice,
 };
 
 export async function getPageContent(slug) {
