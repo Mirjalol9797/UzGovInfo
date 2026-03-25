@@ -136,6 +136,7 @@ const otherSites = computed(() => {
     if (s.includes("ministries-defense")) return "shield";
     if (s.includes("ministries-energy")) return "chart";
     if (s.includes("ministries-health")) return "people";
+    if (s.includes("ministries-foreign-affairs")) return "globe";
     return "building";
   };
   return {
