@@ -141,13 +141,14 @@ export default function state() {
         description: "State.nine.description",
         shortDesc: "State.nine.shortDesc",
         tag: "tags.tourism",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/146/2025/06/20/5755c0a4-79fd-467f-67b5-8c52c0c045ab_authority_146.png",
         link: "State.nine.link",
         seo: {
           title: "State.nine.seo.title",
           description: "State.nine.seo.description",
           keywords: "State.nine.seo.keywords",
-          image: "/images/State/uzbektourism.uz.png",
+          image:
+            "https://api-portal.gov.uz/uploads/146/2025/06/20/5755c0a4-79fd-467f-67b5-8c52c0c045ab_authority_146.png",
         },
       },
     ],

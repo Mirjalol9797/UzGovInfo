@@ -1077,24 +1077,24 @@
       "shortDesc": "Veterinary and livestock"
     },
     "eight": {
-      "title": "State Committee of the Republic of Uzbekistan for Automobile Roads",
-      "description": "The website uzavtoyul.uz is dedicated to the Uzbekistan Automobile Road and Transport Agency. It provides information on road infrastructure, transportation policies, and projects related to the development and maintenance of road networks in Uzbekistan. The site features resources for both government initiatives and public services, including road construction, repair updates, and traffic safety measures. It also includes announcements on tenders, regulations, and news related to transportation systems, promoting the modernization of the national road network and improving connectivity.",
-      "link": "https://uzavtoyul.uz/en",
+      "title": "Committee for Roads under the Ministry of Transport of the Republic of Uzbekistan",
+      "description": "Official section of the committee on gov.uz (uzavtoyul): mandate, structure, leadership, public services (interactive services, “Shaffof yo‘l” platform, intercity distances programme), documents, digital government (open data, road condition map, traffic restrictions, photo radars and cameras), press and contacts (single number +998 71 207-67-68, centre 1393 — verify under “All numbers” on gov.uz). Additional content may appear on uzavtoyul.uz.",
+      "link": "https://gov.uz/en/uzavtoyul",
       "seo": {
-        "title": "State Committee for Automobile Roads of the Republic of Uzbekistan – Official Website uzavtoyul.uz",
-        "description": "Official website of the State Committee for Automobile Roads of the Republic of Uzbekistan – uzavtoyul.uz. Road infrastructure, transport policy. Road construction and repair, traffic safety.",
-        "keywords": "highways Uzbekistan, uzavtoyul.uz, road infrastructure, transport Uzbekistan, road committee"
+        "title": "Committee for Roads under the Ministry of Transport — official section gov.uz/uzavtoyul",
+        "description": "Official section of the Committee for Roads under the Ministry of Transport of the Republic of Uzbekistan on gov.uz (uzavtoyul): roads, public services, open data, road map, tenders, contacts. See also uzavtoyul.uz.",
+        "keywords": "roads Uzbekistan, roads committee, gov.uz uzavtoyul, Ministry of Transport Uzbekistan, road infrastructure, uzavtoyul.uz"
       },
       "shortDesc": "Highways and infrastructure"
     },
     "nine": {
-      "title": "State Committee of the Republic of Uzbekistan for Tourism Development",
-      "description": "The website of Uzbekistan's National Tourism Agency offers information on the country's tourism opportunities, including cultural heritage, historic sites, and natural landscapes. It provides resources for tourists, tour operators, and businesses, promoting Uzbekistan as a travel destination. The site features details on major tourist attractions, events, and travel services, including visa information, accommodations, and transportation. Additionally, it showcases initiatives to develop tourism infrastructure and partnerships aimed at expanding the sector, improving visitor experiences, and supporting local communities.",
-      "link": "https://uzbektourism.uz/en",
+      "title": "Tourism Committee of the Republic of Uzbekistan",
+      "description": "Official section of the committee on gov.uz (uzbektourism): mandate, structure, public services (Virtual Reception, certification, licensing), registers of tour operators and accommodation, documents, digital government, press and contacts (hotline +998 71 200-00-88, short code 1163 — verify under “All numbers” on gov.uz). Additional content may appear on uzbektourism.uz.",
+      "link": "https://gov.uz/en/uzbektourism",
       "seo": {
-        "title": "State Committee for Tourism Development of the Republic of Uzbekistan – Official Website uzbektourism.uz",
-        "description": "Official website of the State Committee for Tourism Development of the Republic of Uzbekistan – uzbektourism.uz. Tourism opportunities, cultural heritage, historic sites. Visas, accommodation, transport. Tourism infrastructure development.",
-        "keywords": "tourism Uzbekistan, uzbektourism.uz, tourism committee, cultural heritage, tourist attractions"
+        "title": "Tourism Committee of Uzbekistan — official section gov.uz/uzbektourism",
+        "description": "Official section of the Tourism Committee of the Republic of Uzbekistan on gov.uz (uzbektourism): tourism policy, licences, registers, documents, contacts. See also uzbektourism.uz.",
+        "keywords": "tourism Uzbekistan, Tourism Committee, gov.uz uzbektourism, tour operators, tourism licensing, uzbektourism.uz"
       },
       "shortDesc": "Tourism and hospitality"
     }

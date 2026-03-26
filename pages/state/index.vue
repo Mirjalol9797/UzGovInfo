@@ -301,14 +301,14 @@ const stateTableRows = computed(() => {
       type: "Комитет",
       func: "Автомобильные дороги и транспорт",
       linkKey: "State.eight.link",
-      linkText: "uzavtoyul.uz",
+      linkText: "gov.uz/uzavtoyul",
     },
     {
       orgKey: "State.nine.title",
       type: "Комитет",
       func: "Развитие туризма",
       linkKey: "State.nine.link",
-      linkText: "uzbektourism.uz",
+      linkText: "gov.uz/uzbektourism",
     },
   ];
   const en = [
@@ -366,14 +366,14 @@ const stateTableRows = computed(() => {
       type: "Committee",
       func: "Roads and transport",
       linkKey: "State.eight.link",
-      linkText: "uzavtoyul.uz",
+      linkText: "gov.uz/uzavtoyul",
     },
     {
       orgKey: "State.nine.title",
       type: "Committee",
       func: "Tourism development",
       linkKey: "State.nine.link",
-      linkText: "uzbektourism.uz",
+      linkText: "gov.uz/uzbektourism",
     },
   ];
   const uz = [
@@ -431,14 +431,14 @@ const stateTableRows = computed(() => {
       type: "Qoʻmita",
       func: "Avtomobil yoʻllari va transport",
       linkKey: "State.eight.link",
-      linkText: "uzavtoyul.uz",
+      linkText: "gov.uz/uzavtoyul",
     },
     {
       orgKey: "State.nine.title",
       type: "Qoʻmita",
       func: "Turizmni rivojlantirish",
       linkKey: "State.nine.link",
-      linkText: "uzbektourism.uz",
+      linkText: "gov.uz/uzbektourism",
     },
   ];
   const rows = { ru, en, uz }[locale.value] || ru;
