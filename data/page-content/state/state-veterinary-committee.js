@@ -88,7 +88,7 @@ export default {
       items: [
         {
           q: "Где официальный раздел комитета?",
-          a: "Основной адрес на портале государства: https://gov.uz/ru/vetgov (также en/vetgov и oz/vetgov). Ссылка в каталоге соответствует языку интерфейса. Сайт vetgov.uz дополняет публикации.",
+          a: "На портале государства: https://gov.uz/ru/vetgov (также https://gov.uz/en/vetgov и https://gov.uz/oz/vetgov). В каталоге сайта ссылка подставляется под язык интерфейса.",
         },
         {
           q: "Какие телефоны доверия указаны на портале?",
@@ -103,8 +103,8 @@ export default {
           a: "В блоке «Цифровое правительство» на разделе vetgov (уточняйте актуальное название в меню).",
         },
         {
-          q: "Чем раздел на gov.uz отличается от vetgov.uz?",
-          a: "Комитет ведёт официальный раздел на gov.uz/vetgov; vetgov.uz может содержать расширенные материалы и сервисы ведомства — проверяйте оба источника.",
+          q: "Кому подчиняется комитет и где смотреть полномочия и структуру?",
+          a: "Комитет действует при Министерстве сельского хозяйства Республики Узбекистан. Обзор полномочий, организационная структура, руководство и подразделения приведены в разделе «О комитете» на https://gov.uz/ru/vetgov.",
         },
       ],
     },
@@ -194,7 +194,7 @@ export default {
       items: [
         {
           q: "Where is the committee’s official section?",
-          a: "https://gov.uz/en/vetgov (Russian: /ru/vetgov, Uzbek: /oz/vetgov). The catalog link follows your UI language. vetgov.uz provides additional content.",
+          a: "On the government portal: https://gov.uz/en/vetgov (also https://gov.uz/ru/vetgov and https://gov.uz/oz/vetgov). The catalog link matches your interface language.",
         },
         {
           q: "What are the hotline numbers?",
@@ -209,8 +209,8 @@ export default {
           a: "In the Digital government block on the vetgov section (check the live menu label).",
         },
         {
-          q: "How does gov.uz relate to vetgov.uz?",
-          a: "gov.uz/vetgov is the official government-portal section; vetgov.uz may host extended materials and services.",
+          q: "Which ministry oversees the committee, and where are its powers and structure described?",
+          a: "The committee operates under the Ministry of Agriculture of the Republic of Uzbekistan. Mandate, structure, leadership and units are published under «About the committee» on https://gov.uz/en/vetgov.",
         },
       ],
     },
@@ -315,8 +315,8 @@ export default {
           a: "«Raqamli davlat» blokida, vetgov boʻlimining joriy menyusidan tekshiring.",
         },
         {
-          q: "gov.uz va vetgov.uz qanday farq qiladi?",
-          a: "gov.uz/vetgov — yagona davlat portali boʻyicha rasmiy boʻlim; vetgov.uz kengaytirilgan materiallar va xizmatlarni berishi mumkin.",
+          q: "Qoʻmita qaysi vazirlik huzurida va uning vakolati, tuzilmasi qayerda?",
+          a: "Qoʻmita Oʻzbekiston Respublikasi Qishloq xoʻjaligi vazirligi huzurida. Vakolat, tuzilma, rahbariyat va boʻlinmalar haqidagi maʼlumotlar gov.uz dagi «Qoʻmita haqida» boʻlimida — https://gov.uz/oz/vetgov.",
         },
       ],
     },
