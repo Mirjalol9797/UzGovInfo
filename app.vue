@@ -3,6 +3,11 @@ useHead({
   script: [
     {
       async: true,
+      src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3990212606361557",
+      crossorigin: "anonymous",
+    },
+    {
+      async: true,
       src: "https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js",
       "custom-element": "amp-auto-ads",
     },
