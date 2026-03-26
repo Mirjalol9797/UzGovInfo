@@ -53,6 +53,23 @@ export default function inspections() {
             "https://api-portal.gov.uz/uploads/94/2026/01/07/14021167-e90a-1f03-b988-0fada692d6ec_authority_94.png",
         },
       },
+      {
+        id: 4,
+        slug: "inspections-kontexnazorat",
+        title: "Inspections.four.title",
+        description: "Inspections.four.description",
+        shortDesc: "Inspections.four.shortDesc",
+        tag: "tags.mining",
+        img: "https://api-portal.gov.uz/uploads/149/2025/06/20/3ea1388f-07b2-6154-8fca-7c9665be2f26_authority_149.jpg",
+        link: "Inspections.four.link",
+        seo: {
+          title: "Inspections.four.seo.title",
+          description: "Inspections.four.seo.description",
+          keywords: "Inspections.four.seo.keywords",
+          image:
+            "https://api-portal.gov.uz/uploads/149/2025/06/20/3ea1388f-07b2-6154-8fca-7c9665be2f26_authority_149.jpg",
+        },
+      },
     ],
   };
 }
