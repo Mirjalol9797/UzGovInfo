@@ -36,6 +36,23 @@ export default function inspections() {
             "https://api-portal.gov.uz/uploads/91/2026/01/13/10bcd3f5-379c-8782-b9cd-a8f222dd60a2_authority_91.png",
         },
       },
+      {
+        id: 3,
+        slug: "inspections-uzenergoinspeksiya",
+        title: "Inspections.three.title",
+        description: "Inspections.three.description",
+        shortDesc: "Inspections.three.shortDesc",
+        tag: "tags.energy",
+        img: "https://api-portal.gov.uz/uploads/94/2026/01/07/14021167-e90a-1f03-b988-0fada692d6ec_authority_94.png",
+        link: "Inspections.three.link",
+        seo: {
+          title: "Inspections.three.seo.title",
+          description: "Inspections.three.seo.description",
+          keywords: "Inspections.three.seo.keywords",
+          image:
+            "https://api-portal.gov.uz/uploads/94/2026/01/07/14021167-e90a-1f03-b988-0fada692d6ec_authority_94.png",
+        },
+      },
     ],
   };
 }

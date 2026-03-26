@@ -87,6 +87,7 @@ const otherSites = computed(() => {
     if (s.includes("state-tourism")) return "program";
     if (s.includes("inspections-drinking-water")) return "chart";
     if (s.includes("inspections-agro-industrial")) return "program";
+    if (s.includes("inspections-uzenergoinspeksiya")) return "chart";
     if (s.includes("parliament") || s.includes("senate")) return "law";
     if (s.includes("government") || s.includes("gov")) return "building";
     if (s.includes("court") || s.includes("sud")) return "law";
