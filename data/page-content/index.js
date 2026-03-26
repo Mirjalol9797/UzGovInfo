@@ -109,6 +109,10 @@ const stateVeterinaryCommittee = () =>
 const stateAutomobileRoads = () =>
   import("./state/state-automobile-roads.js");
 const stateTourism = () => import("./state/state-tourism.js");
+const inspectionsDrinkingWater = () =>
+  import("./inspections/inspections-drinking-water.js");
+const inspectionsAgroIndustrial = () =>
+  import("./inspections/inspections-agro-industrial.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -180,6 +184,8 @@ export const pageContentMap = {
   "state-veterinary-committee": stateVeterinaryCommittee,
   "state-automobile-roads": stateAutomobileRoads,
   "state-tourism": stateTourism,
+  "inspections-drinking-water": inspectionsDrinkingWater,
+  "inspections-agro-industrial": inspectionsAgroIndustrial,
 };
 
 export async function getPageContent(slug) {

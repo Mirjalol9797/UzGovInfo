@@ -710,26 +710,26 @@
       "description": "Oʻzbekiston davlat inspeksiyalari roʻyxati: turli sohalarda nazorat va kuzatuv. Inspeksiyalarning rasmiy saytlariga havolalar."
     },
     "one": {
-      "title": "O‘zbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Ichimlik suvidan foydalanishni nazorat qilish davlat inspeksiyasi",
-      "description": "O‘zbekiston Respublikasi Vazirlar Mahkamasi huzurida Ichimlik suvidan foydalanishni nazorat qilish davlat inspeksiyasi Prezidentning PF-5018-son qarori asosida tashkil etildi. Inspeksiya suv ta’minoti va kanalizatsiya sohasidagi qonun hujjatlariga rioya etilishini nazorat qilish, suv resurslaridan oqilona foydalanish va suv ta’minoti tizimida favqulodda vaziyatlarning oldini olish uchun javobgardir. U suv ta'minoti va kanalizatsiya tizimlariga ulanishning texnik shartlarini nazorat qiladi, shuningdek, ruxsatsiz ulanishlarning oldini oladi. Inspeksiya suv ta’minoti tashkilotlarida texnologik jarayonlarni takomillashtirish va energiyani tejashga qaratilgan texnik tekshiruvlar o‘tkazadi. Uning vazifalariga, shuningdek, suv ta'minoti holatini kuzatish, suv ta'minoti va kanalizatsiya tizimlarining shikastlanishining oldini olish, shuningdek, er osti suv olish inshootlarining ishlashini nazorat qilish kiradi.",
-      "link": "http://atlas.cawater-info.net/base/marker/65",
+      "title": "O'zbekiston Respublikasi Suv xo‘jaligi vazirligi huzuridagi Suv xo‘jaligi obyektlari xavfsizligini va suvdan foydalanishni nazorat qilish inspeksiyasi",
+      "description": "gov.uz «vnadzor» boʻlimida inspeksiya vakolati, tuzilma, davlat xizmatlari (elektron hukumat, savollar-javoblar, ish tartibi), meʼyoriy hujjatlar, raqamli davlat (ochiq maʼlumotlar, byudjet ochiqligi), matbuot va aloqa (ishonch telefoni +998 55 520-71-66 — «Barcha raqamlar» dan tekshiring). Inspeksiya Oʻzbekiston Respublikasi Suv xoʻjaligi vazirligi huzurida faoliyat yuritadi.",
+      "link": "https://gov.uz/oz/vnadzor",
       "seo": {
-        "title": "",
-        "description": "",
-        "keywords": ""
+        "title": "Suv xoʻjaligi obyektlari xavfsizligi inspeksiyasi — rasmiy boʻlim gov.uz/vnadzor",
+        "description": "Suv xoʻjaligi vazirligi huzuridagi Suv xoʻjaligi obyektlari xavfsizligi va suvdan foydalanishni nazorat qilish inspeksiyasining gov.uz dagi rasmiy boʻlimi (vnadzor): nazorat, hujjatlar, davlat xizmatlari, ochiq maʼlumotlar, aloqa.",
+        "keywords": "suv xoʻjaligi inspeksiyasi, vnadzor, gov.uz, Suv xoʻjaligi vazirligi, gidrotexnik inshootlar xavfsizligi, suvdan foydalanish nazorati"
       },
-      "shortDesc": "Ichimlik suvi nazorati"
+      "shortDesc": "Suv obyektlari va suv isteʼmoli nazorati"
     },
     "two": {
-      "title": "",
-      "description": "",
-      "link": "",
+      "title": "O'zbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Agrosanoat majmui ustidan nazorat qilish inspeksiyasi",
+      "description": "gov.uz «agroinspeksiya» boʻlimida inspeksiya vakolati, tuzilma, davlat xizmatlari va sertifikatlash (don, paxta, urugʻ, qishloq xoʻjaligi texnikasi, dillerlar reyestri), meʼyoriy hujjatlar, raqamli davlat (ochiq maʼlumotlar, hisobotlar), matbuot va aloqa (ishonch telefoni +998 71 202-12-48 — «Barcha raqamlar» dan tekshiring). Inspeksiya Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzurida faoliyat yuritadi.",
+      "link": "https://gov.uz/oz/agroinspeksiya",
       "seo": {
-        "title": "",
-        "description": "",
-        "keywords": ""
+        "title": "Agrosanoat majmui ustidan nazorat inspeksiyasi — rasmiy boʻlim gov.uz/agroinspeksiya",
+        "description": "Vazirlar Mahkamasi huzuridagi Agrosanoat majmui ustidan nazorat qilish inspeksiyasining gov.uz dagi rasmiy boʻlimi (agroinspeksiya): AIC nazorati, sertifikatlash, davlat xizmatlari, ochiq maʼlumotlar, aloqa.",
+        "keywords": "agrosanoat inspeksiyasi, agroinspeksiya, gov.uz, Vazirlar Mahkamasi, don paxta sertifikatlash, qishloq xoʻjaligi texnikasi"
       },
-      "shortDesc": "Suv nazorati va resurslar"
+      "shortDesc": "Agrosanoat majmui nazorati"
     }
   },
   "K": "K",

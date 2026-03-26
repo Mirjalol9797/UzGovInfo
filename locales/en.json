@@ -710,26 +710,26 @@
       "description": "List of state inspections of Uzbekistan: control and supervision in various spheres. Links to official inspection websites."
     },
     "one": {
-      "title": "State Inspectorate for Control over Use of Drinking Water under the Cabinet of Ministers of the Republic of Uzbekistan",
-      "description": "The State Inspectorate for Control over Use of Drinking Water under the Cabinet of Ministers of the Republic of Uzbekistan was established on the basis of the Decree of the President No. UP-5018. The Inspectorate is responsible for monitoring compliance with legislation in the field of water supply and sanitation, rational use of water resources and prevention of emergency situations in the water supply system. It monitors the technical conditions for connection to water supply and sanitation systems, as well as the prevention of unauthorized connections. The Inspectorate conducts technical audits of water supply organizations aimed at improving technological processes and energy saving. Its functions also include monitoring the state of water supply, preventing damage to the water supply and sewerage system, as well as supervising the operation of underground water intakes.",
-      "link": "http://atlas.cawater-info.net/base/marker/65",
+      "title": "Inspection for control of safety of water management facilities and water use under the Ministry of Water Resources of the Republic of Uzbekistan",
+      "description": "Official section of the inspection on gov.uz (vnadzor): mandate, structure, public services (e-government, Q&A, work procedures), legal documents, digital government (open data, budget transparency), press and contacts (hotline +998 55 520-71-66 — verify under “All numbers” on gov.uz). The inspection operates under the Ministry of Water Resources of the Republic of Uzbekistan.",
+      "link": "https://gov.uz/en/vnadzor",
       "seo": {
-        "title": "",
-        "description": "",
-        "keywords": ""
+        "title": "Water facilities safety and water use inspection — official section gov.uz/vnadzor",
+        "description": "Official section of the inspection for safety of water management facilities and water use under the Ministry of Water Resources of Uzbekistan on gov.uz (vnadzor): supervision, documents, public services, open data, contacts.",
+        "keywords": "water inspection Uzbekistan, vnadzor, gov.uz, Ministry of Water Resources, water management safety, water use supervision"
       },
-      "shortDesc": "Drinking water control"
+      "shortDesc": "Water facilities and water use oversight"
     },
     "two": {
-      "title": "",
-      "description": "",
-      "link": "",
+      "title": "Inspection for supervision over the agro-industrial complex under the Cabinet of Ministers of the Republic of Uzbekistan",
+      "description": "Official section of the inspection on gov.uz (agroinspeksiya): mandate, structure, public services and certification (grain, cotton, seeds, farm machinery, dealer register), legal documents, digital government (open data, reporting), press and contacts (hotline +998 71 202-12-48 — verify under “All numbers” on gov.uz). The inspection operates under the Cabinet of Ministers of the Republic of Uzbekistan.",
+      "link": "https://gov.uz/en/agroinspeksiya",
       "seo": {
-        "title": "",
-        "description": "",
-        "keywords": ""
+        "title": "Agro-industrial complex inspection — official section gov.uz/agroinspeksiya",
+        "description": "Official section of the Inspection for supervision over the agro-industrial complex under the Cabinet of Ministers of Uzbekistan on gov.uz (agroinspeksiya): AIC oversight, certification, public services, open data, contacts.",
+        "keywords": "agro-industrial inspection Uzbekistan, agroinspeksiya, gov.uz, Cabinet of Ministers, grain cotton certification, agricultural machinery"
       },
-      "shortDesc": "Water control and resources"
+      "shortDesc": "Agro-industrial complex oversight"
     }
   },
   "K": "K",

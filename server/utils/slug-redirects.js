@@ -78,5 +78,6 @@ export default {
   inspections: {
     "state-inspectorate-for-control-over-use-of-drinking-water":
       "inspections-drinking-water",
+    "inspections-water-control": "inspections-agro-industrial",
   },
 };
