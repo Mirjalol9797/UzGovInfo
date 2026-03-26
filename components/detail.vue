@@ -533,32 +533,21 @@ useHead(() => ({
 
       <!-- Simple layout (fallback) -->
       <template v-else>
-        <h1 class="mb-10 text-3xl 768:text-xl 480:!text-lg">
-          {{ oneData?.title ? t(oneData.title) : "" }}
-        </h1>
-        <div class="mb-6">
-          <span class="font-medium">{{ t("link_to_official_website") }}</span
-          >:
-          <a
-            :href="oneData?.link ? t(oneData.link) : '#'"
-            target="_blank"
-            class="!text-[#315efb]"
-            >{{ oneData?.link ? t(oneData.link) : "" }}</a
-          >
-        </div>
-        <div>
-          <div class="mb-2 font-medium">{{ t("brief_description_site") }}</div>
-          <div
-            v-html="oneData?.description ? t(oneData.description) : ''"
-            class="mb-6 text-justify"
-          ></div>
-          <div class="overflow-hidden">
-            <img
-              :src="oneData?.seo?.image"
-              :alt="oneData?.title ? t(oneData.title) : ''"
-              :title="oneData?.title ? t(oneData.title) : ''"
-              class="ml-[-5px]"
-            />
+        <div class="animate-pulse">
+          <div class="mb-8 h-10 w-3/4 rounded-xl bg-slate-200 768:h-8"></div>
+          <div class="mb-6 space-y-3">
+            <div class="h-5 w-1/2 rounded-lg bg-slate-200"></div>
+            <div class="h-5 w-2/3 rounded-lg bg-slate-200"></div>
+          </div>
+          <div class="mb-2 h-5 w-56 rounded-lg bg-slate-200"></div>
+          <div class="mb-6 space-y-2">
+            <div class="h-4 w-full rounded-lg bg-slate-200"></div>
+            <div class="h-4 w-11/12 rounded-lg bg-slate-200"></div>
+            <div class="h-4 w-10/12 rounded-lg bg-slate-200"></div>
+            <div class="h-4 w-9/12 rounded-lg bg-slate-200"></div>
+          </div>
+          <div class="overflow-hidden rounded-xl border border-slate-200 p-2">
+            <div class="h-64 w-full rounded-lg bg-slate-200 768:h-48"></div>
           </div>
         </div>
       </template>
