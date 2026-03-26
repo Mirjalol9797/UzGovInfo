@@ -103,6 +103,22 @@ export default function inspections() {
             "https://api-portal.gov.uz/uploads/162/2025/04/09/369c3791-faf4-f5e1-1a32-a6a7071365e9_authority_162.png",
         },
       },
+      {
+        id: 7,
+        slug: "inspections-nazoratmc",
+        title: "Inspections.seven.title",
+        description: "Inspections.seven.description",
+        shortDesc: "Inspections.seven.shortDesc",
+        tag: "tags.construction",
+        img: "/images/gerb.png",
+        link: "Inspections.seven.link",
+        seo: {
+          title: "Inspections.seven.seo.title",
+          description: "Inspections.seven.seo.description",
+          keywords: "Inspections.seven.seo.keywords",
+          image: "/images/gerb.png",
+        },
+      },
     ],
   };
 }

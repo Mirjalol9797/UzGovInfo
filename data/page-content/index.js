@@ -121,6 +121,8 @@ const inspectionsUzstdepartament = () =>
   import("./inspections/inspections-uzstdepartament.js");
 const inspectionsAsillik = () =>
   import("./inspections/inspections-asillik.js");
+const inspectionsNazoratmc = () =>
+  import("./inspections/inspections-nazoratmc.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -198,6 +200,7 @@ export const pageContentMap = {
   "inspections-kontexnazorat": inspectionsKontexnazorat,
   "inspections-uzstdepartament": inspectionsUzstdepartament,
   "inspections-asillik": inspectionsAsillik,
+  "inspections-nazoratmc": inspectionsNazoratmc,
 };
 
 export async function getPageContent(slug) {
