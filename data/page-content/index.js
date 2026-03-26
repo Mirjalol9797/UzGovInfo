@@ -117,6 +117,8 @@ const inspectionsUzenergoinspeksiya = () =>
   import("./inspections/inspections-uzenergoinspeksiya.js");
 const inspectionsKontexnazorat = () =>
   import("./inspections/inspections-kontexnazorat.js");
+const inspectionsUzstdepartament = () =>
+  import("./inspections/inspections-uzstdepartament.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -192,6 +194,7 @@ export const pageContentMap = {
   "inspections-agro-industrial": inspectionsAgroIndustrial,
   "inspections-uzenergoinspeksiya": inspectionsUzenergoinspeksiya,
   "inspections-kontexnazorat": inspectionsKontexnazorat,
+  "inspections-uzstdepartament": inspectionsUzstdepartament,
 };
 
 export async function getPageContent(slug) {

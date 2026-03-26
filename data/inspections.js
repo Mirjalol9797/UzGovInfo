@@ -70,6 +70,22 @@ export default function inspections() {
             "https://api-portal.gov.uz/uploads/149/2025/06/20/3ea1388f-07b2-6154-8fca-7c9665be2f26_authority_149.jpg",
         },
       },
+      {
+        id: 5,
+        slug: "inspections-uzstdepartament",
+        title: "Inspections.five.title",
+        description: "Inspections.five.description",
+        shortDesc: "Inspections.five.shortDesc",
+        tag: "tags.audit",
+        img: "/images/gerb.png",
+        link: "Inspections.five.link",
+        seo: {
+          title: "Inspections.five.seo.title",
+          description: "Inspections.five.seo.description",
+          keywords: "Inspections.five.seo.keywords",
+          image: "/images/gerb.png",
+        },
+      },
     ],
   };
 }
