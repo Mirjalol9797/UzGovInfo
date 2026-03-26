@@ -117,22 +117,6 @@ export default function ministries() {
       },
       {
         id: 8,
-        slug: "ministries-ecology-climate",
-        title: "Ministries.eight.title",
-        description: "Ministries.eight.description",
-        shortDesc: "Ministries.eight.shortDesc",
-        tag: "tags.ecology",
-        img: "https://api-portal.gov.uz/uploads/33/2025/06/20/4064b959-7f00-2480-ce97-3a0bf1f02553_authority_33.png",
-        link: "Ministries.eight.link",
-        seo: {
-          title: "Ministries.eight.seo.title",
-          description: "Ministries.eight.seo.description",
-          keywords: "Ministries.eight.seo.keywords",
-          image: "/images/Ministries/uznature.uz.png",
-        },
-      },
-      {
-        id: 9,
         slug: "ministries-sports",
         title: "Ministries.nine.title",
         description: "Ministries.nine.description",
@@ -148,7 +132,7 @@ export default function ministries() {
         },
       },
       {
-        id: 10,
+        id: 9,
         slug: "ministries-agriculture",
         title: "Ministries.ten.title",
         description: "Ministries.ten.description",
@@ -165,7 +149,7 @@ export default function ministries() {
         },
       },
       {
-        id: 11,
+        id: 10,
         slug: "ministries-water-resources",
         title: "Ministries.eleven.title",
         description: "Ministries.eleven.description",
@@ -181,7 +165,7 @@ export default function ministries() {
         },
       },
       {
-        id: 12,
+        id: 11,
         slug: "ministries-digital-tech",
         title: "Ministries.twelve.title",
         description: "Ministries.twelve.description",
@@ -197,7 +181,7 @@ export default function ministries() {
         },
       },
       {
-        id: 13,
+        id: 12,
         slug: "ministries-justice",
         title: "Ministries.thirteen.title",
         description: "Ministries.thirteen.description",
@@ -213,7 +197,7 @@ export default function ministries() {
         },
       },
       {
-        id: 14,
+        id: 13,
         slug: "ministries-transport",
         title: "Ministries.fourteen.title",
         description: "Ministries.fourteen.description",
@@ -229,7 +213,7 @@ export default function ministries() {
         },
       },
       {
-        id: 15,
+        id: 14,
         slug: "ministries-culture",
         title: "Ministries.fifteen.title",
         description: "Ministries.fifteen.description",
@@ -245,7 +229,7 @@ export default function ministries() {
         },
       },
       {
-        id: 16,
+        id: 15,
         slug: "ministries-defense",
         title: "Ministries.sixteen.title",
         description: "Ministries.sixteen.description",
@@ -261,7 +245,7 @@ export default function ministries() {
         },
       },
       {
-        id: 17,
+        id: 16,
         slug: "ministries-energy",
         title: "Ministries.seventeen.title",
         description: "Ministries.seventeen.description",
@@ -277,7 +261,7 @@ export default function ministries() {
         },
       },
       {
-        id: 18,
+        id: 17,
         slug: "ministries-health",
         title: "Ministries.eighteen.title",
         description: "Ministries.eighteen.description",
@@ -293,7 +277,7 @@ export default function ministries() {
         },
       },
       {
-        id: 19,
+        id: 18,
         slug: "ministries-foreign-affairs",
         title: "Ministries.nineteen.title",
         description: "Ministries.nineteen.description",
@@ -309,7 +293,7 @@ export default function ministries() {
         },
       },
       {
-        id: 20,
+        id: 19,
         slug: "ministries-internal-affairs",
         title: "Ministries.twenty.title",
         description: "Ministries.twenty.description",
@@ -325,7 +309,7 @@ export default function ministries() {
         },
       },
       {
-        id: 21,
+        id: 20,
         slug: "ministries-fvv",
         title: "Ministries.twentyone.title",
         description: "Ministries.twentyone.description",
