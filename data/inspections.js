@@ -86,6 +86,23 @@ export default function inspections() {
           image: "/images/gerb.png",
         },
       },
+      {
+        id: 6,
+        slug: "inspections-asillik",
+        title: "Inspections.six.title",
+        description: "Inspections.six.description",
+        shortDesc: "Inspections.six.shortDesc",
+        tag: "tags.finance",
+        img: "https://api-portal.gov.uz/uploads/162/2025/04/09/369c3791-faf4-f5e1-1a32-a6a7071365e9_authority_162.png",
+        link: "Inspections.six.link",
+        seo: {
+          title: "Inspections.six.seo.title",
+          description: "Inspections.six.seo.description",
+          keywords: "Inspections.six.seo.keywords",
+          image:
+            "https://api-portal.gov.uz/uploads/162/2025/04/09/369c3791-faf4-f5e1-1a32-a6a7071365e9_authority_162.png",
+        },
+      },
     ],
   };
 }
