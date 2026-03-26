@@ -110,13 +110,14 @@ export default function inspections() {
         description: "Inspections.seven.description",
         shortDesc: "Inspections.seven.shortDesc",
         tag: "tags.construction",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/201/2025/09/19/ed345250-1157-1061-4053-3deacaa836bd_authority_201.png",
         link: "Inspections.seven.link",
         seo: {
           title: "Inspections.seven.seo.title",
           description: "Inspections.seven.seo.description",
           keywords: "Inspections.seven.seo.keywords",
-          image: "/images/gerb.png",
+          image:
+            "https://api-portal.gov.uz/uploads/201/2025/09/19/ed345250-1157-1061-4053-3deacaa836bd_authority_201.png",
         },
       },
     ],

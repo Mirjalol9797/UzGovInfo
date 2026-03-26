@@ -213,7 +213,7 @@ export default {
   },
   uz: {
     pageTitle:
-      "O'zbekiston Respublikasi Suv xo‘jaligi vazirligi huzuridagi Suv xo‘jaligi obyektlari xavfsizligini va suvdan foydalanishni nazorat qilish inspeksiyasi",
+      "Oʻzbekiston Respublikasi Suv xoʻjaligi vazirligi huzuridagi Suv xoʻjaligi obyektlari xavfsizligini va suvdan foydalanishni nazorat qilish inspeksiyasi",
     intro: [
       "Oʻzbekiston Respublikasi Suv xoʻjaligi vazirligi huzuridagi Suv xoʻjaligi obyektlarining xavfsizligi va suvdan foydalanish qoidalariga rioya etilishini davlat nazorati ostida saqlash inspeksiyasi vakolat doirasida faoliyat yuritadi.",
       "gov.uz «vnadzor» boʻlimi (https://gov.uz/oz/vnadzor) da inspeksiya, tuzilma, rahbariyat, markaziy apparat, boʻysunuvchi va hududiy organlar, vakansiyalar haqida maʼlumotlar joylashtiriladi. «Faoliyat»da rivojlanish strategiyasi, yoshlar siyosati, rejalar, korrupsiyaga qarshi kurash, qonunchilik ijrosi, ekspert va jamoatchilik kengashlari, xalqaro hamkorlik, gender tengligi. «Davlat xizmatlari»da elektron hukumat, savollar-javoblar, ish tartibi. «Hujjatlar»da Konstitutsiya, qonunlar, Prezident va Vazirlar Mahkamasi hujjatlari, loyiha NPHlar, inspeksiyaning meʼyoriy va ichki hujjatlari, statistika, eʼlon qilinadigan va eʼlon qilinmaydigan maʼlumotlar roʻyxati. «Raqamli davlat»da normativ hujjatlar boʻyicha maʼlumotlar (jumladan 3299-son Nizom, PF-6247), ochiq byudjet, ijtimoiy ahamiyatli maʼlumotlar, ochiq maʼlumotlar reyestri, ochiqlik boʻyicha shikoyatlar, korrupsiyaga qarshi kurash, yoʻriqnomalar. Matbuot va kontaktlar: yangiliklar, kutubxona, rahbariyat nutqlari, seminarlar, matbuot anjumanlari, soʻrovnomalar, murojaatlar statistikasi. Ishonch telefoni: +998 55 520-71-66 («Barcha raqamlar» dan tekshiring). Qoʻshimcha materiallar suv sektori saytlarida boʻlishi mumkin.",
@@ -231,12 +231,12 @@ export default {
         {
           icon: "building",
           title: "Inspeksiya haqida",
-          desc: "Inspeksiya haqida, tuzilma, rahbariyat, markaziy apparat, hududiy boshqarmalar, vakansiyalar",
+          desc: "Inspeksiya haqida, tashkilot tuzilmasi, rahbariyat, markaziy apparat, tizimdagi tashkilotlar, hududiy boshqarmalar, boʻsh ish oʻrinlari",
         },
         {
           icon: "program",
           title: "Faoliyat",
-          desc: "Strategiya va rejalar, korrupsiyaga qarshi kurash, qonunchilik, kengashlar, xalqaro hamkorlik",
+          desc: "Rivojlanish strategiyasi, yoshlar siyosati, rejalar, monopoliyaga qarshi komplayens, qonunchilik ijrosi, ekspert va jamoatchilik kengashlari, xalqaro hamkorlik, gender tengligi",
         },
         {
           icon: "globe",
@@ -280,7 +280,7 @@ export default {
       description:
         "Suv xoʻjaligi vazirligi huzuridagi Suv xoʻjaligi obyektlari xavfsizligi va suvdan foydalanishni nazorat qilish inspeksiyasining gov.uz portali boʻlimi (vnadzor).",
       orgName:
-        "O'zbekiston Respublikasi Suv xo‘jaligi vazirligi huzuridagi Suv xo‘jaligi obyektlari xavfsizligini va suvdan foydalanishni nazorat qilish inspeksiyasi",
+        "Oʻzbekiston Respublikasi Suv xoʻjaligi vazirligi huzuridagi Suv xoʻjaligi obyektlari xavfsizligini va suvdan foydalanishni nazorat qilish inspeksiyasi",
       sameAs: [
         "https://gov.uz/oz/vnadzor",
         "https://gov.uz/ru/vnadzor",
