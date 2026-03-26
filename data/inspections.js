@@ -120,6 +120,22 @@ export default function inspections() {
             "https://api-portal.gov.uz/uploads/201/2025/09/19/ed345250-1157-1061-4053-3deacaa836bd_authority_201.png",
         },
       },
+      {
+        id: 8,
+        slug: "inspections-uztn",
+        title: "Inspections.eight.title",
+        description: "Inspections.eight.description",
+        shortDesc: "Inspections.eight.shortDesc",
+        tag: "tags.transport",
+        img: "/images/gerb.png",
+        link: "Inspections.eight.link",
+        seo: {
+          title: "Inspections.eight.seo.title",
+          description: "Inspections.eight.seo.description",
+          keywords: "Inspections.eight.seo.keywords",
+          image: "/images/gerb.png",
+        },
+      },
     ],
   };
 }

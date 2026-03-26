@@ -92,6 +92,7 @@ const otherSites = computed(() => {
     if (s.includes("inspections-uzstdepartament")) return "decree";
     if (s.includes("inspections-asillik")) return "finance";
     if (s.includes("inspections-nazoratmc")) return "building";
+    if (s.includes("inspections-uztn")) return "globe";
     if (s.includes("parliament") || s.includes("senate")) return "law";
     if (s.includes("government") || s.includes("gov")) return "building";
     if (s.includes("court") || s.includes("sud")) return "law";
