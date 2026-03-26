@@ -109,6 +109,7 @@ const stateVeterinaryCommittee = () =>
 const stateAutomobileRoads = () =>
   import("./state/state-automobile-roads.js");
 const stateTourism = () => import("./state/state-tourism.js");
+const stateWcu = () => import("./state/state-wcu.js");
 const inspectionsDrinkingWater = () =>
   import("./inspections/inspections-drinking-water.js");
 const inspectionsAgroIndustrial = () =>
@@ -198,6 +199,7 @@ export const pageContentMap = {
   "state-veterinary-committee": stateVeterinaryCommittee,
   "state-automobile-roads": stateAutomobileRoads,
   "state-tourism": stateTourism,
+  "state-wcu": stateWcu,
   "inspections-drinking-water": inspectionsDrinkingWater,
   "inspections-agro-industrial": inspectionsAgroIndustrial,
   "inspections-uzenergoinspeksiya": inspectionsUzenergoinspeksiya,

@@ -70,23 +70,6 @@ export default function state() {
       },
       {
         id: 5,
-        slug: "state-mining-geology",
-        title: "State.five.title",
-        description: "State.five.description",
-        shortDesc: "State.five.shortDesc",
-        tag: "tags.mining",
-        img: "https://api-portal.gov.uz/uploads/34/2025/04/17/4ebd20c1-df3c-4f70-1ce9-caf7ee2555ea_authority_34.jpg",
-        link: "State.five.link",
-        seo: {
-          title: "State.five.seo.title",
-          description: "State.five.seo.description",
-          keywords: "State.five.seo.keywords",
-          image:
-            "https://api-portal.gov.uz/uploads/34/2025/04/17/4ebd20c1-df3c-4f70-1ce9-caf7ee2555ea_authority_34.jpg",
-        },
-      },
-      {
-        id: 6,
         slug: "state-land-cadastre",
         title: "State.six.title",
         description: "State.six.description",
@@ -103,7 +86,7 @@ export default function state() {
         },
       },
       {
-        id: 7,
+        id: 6,
         slug: "state-veterinary-committee",
         title: "State.seven.title",
         description: "State.seven.description",
@@ -119,7 +102,7 @@ export default function state() {
         },
       },
       {
-        id: 8,
+        id: 7,
         slug: "state-automobile-roads",
         title: "State.eight.title",
         description: "State.eight.description",
@@ -135,7 +118,7 @@ export default function state() {
         },
       },
       {
-        id: 9,
+        id: 8,
         slug: "state-tourism",
         title: "State.nine.title",
         description: "State.nine.description",
@@ -149,6 +132,22 @@ export default function state() {
           keywords: "State.nine.seo.keywords",
           image:
             "https://api-portal.gov.uz/uploads/146/2025/06/20/5755c0a4-79fd-467f-67b5-8c52c0c045ab_authority_146.png",
+        },
+      },
+      {
+        id: 9,
+        slug: "state-wcu",
+        title: "State.ten.title",
+        description: "State.ten.description",
+        shortDesc: "State.ten.shortDesc",
+        tag: "tags.family",
+        img: "/images/gerb.png",
+        link: "State.ten.link",
+        seo: {
+          title: "State.ten.seo.title",
+          description: "State.ten.seo.description",
+          keywords: "State.ten.seo.keywords",
+          image: "/images/gerb.png",
         },
       },
     ],

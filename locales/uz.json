@@ -1174,6 +1174,17 @@
         "keywords": "turizm Oʻzbekiston, Turizm qoʻmitasi, gov.uz uzbektourism, tur operatorlari, turizm litsenziyasi, uzbektourism.uz"
       },
       "shortDesc": "Turizm va mehmondoʻstlik"
+    },
+    "ten": {
+      "title": "Oʻzbekiston Respublikasi Oila va xotin-qizlar qoʻmitasi",
+      "description": "gov.uz «wcu» boʻlimida tarix va qoʻmita haqida, boshqaruv, tuzilma, markaziy apparat, boʻysunuvchi va hududiy organlar, boʻsh ish oʻrinlari, nizom; faoliyat (gender tengligi, roʻyxatdan oʻtish, tanlovlar, raqamli davlat, xarajatlar, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar siyosati, atamalar lugʻati); davlat xizmatlari (bezorilik va zoʻravonlik qurbani ayollarga himoya buyrugʻi, ayollar reyestri toʻgʻrisida maʼlumot, himoya buyrugʻi sertifikati); hujjatlar; raqamli davlat (hisobotlar, bajarish intizomi, byudjet va dastur koʻrsatkichlari); matbuot va aloqa (ishonch liniyasi +998 71 202-10-59 — «Barcha raqamlar» dan tekshiring).",
+      "link": "https://gov.uz/oz/wcu",
+      "seo": {
+        "title": "Oila va xotin-qizlar qoʻmitasi — rasmiy boʻlim gov.uz/wcu",
+        "description": "Oʻzbekiston Respublikasi Oila va xotin-qizlar qoʻmitasining gov.uz dagi rasmiy boʻlimi (wcu): oila siyosati, gender tengligi, davlat xizmatlari, himoya buyrugʻi, hujjatlar, aloqa.",
+        "keywords": "Oila va xotin-qizlar qoʻmitasi, gov.uz wcu, gender tengligi Oʻzbekiston, himoya buyrugʻi, ayollar reyestri, oila siyosati"
+      },
+      "shortDesc": "Oila va ayollar huquqlari"
     }
   },
   "T": "T",
@@ -1216,6 +1227,7 @@
     "veterinary": "Veterinariya",
     "roads": "Yoʻl xoʻjaligi",
     "tourism": "Turizm",
+    "family": "Oila va xotin-qizlar",
     "youth": "Yoshlar siyosati",
     "space": "Kosmos",
     "waterSupply": "Suv taʼminoti",

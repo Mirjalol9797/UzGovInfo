@@ -1174,6 +1174,17 @@
         "keywords": "tourism Uzbekistan, Tourism Committee, gov.uz uzbektourism, tour operators, tourism licensing, uzbektourism.uz"
       },
       "shortDesc": "Tourism and hospitality"
+    },
+    "ten": {
+      "title": "Committee of Family and Women of the Republic of Uzbekistan",
+      "description": "Official section of the committee on gov.uz (wcu): history and about the committee, administration, structure, central staff, subordinate and regional bodies, vacancies, charter; activities (gender equality, registration, contests, digital government, expenses, international cooperation, anti-corruption, youth policy, dictionary of terms); state services (protection order for women victims of harassment and violence, women’s register information, protection order certificate); documents; digital government (reports, performance discipline, budget and programme indicators); press service and contacts (hotline +998 71 202-10-59 — verify under “All numbers” on gov.uz).",
+      "link": "https://gov.uz/en/wcu",
+      "seo": {
+        "title": "Committee of Family and Women — official section gov.uz/wcu",
+        "description": "Official section of the Committee of Family and Women of the Republic of Uzbekistan on gov.uz (wcu): family policy, gender equality, public services, protection order, documents, contacts.",
+        "keywords": "Committee of Family and Women, gov.uz wcu, gender equality Uzbekistan, protection order, women register, family policy"
+      },
+      "shortDesc": "Family and women’s rights"
     }
   },
   "T": "T",
@@ -1216,6 +1227,7 @@
     "veterinary": "Veterinary",
     "roads": "Road Infrastructure",
     "tourism": "Tourism",
+    "family": "Family & women",
     "youth": "Youth policy",
     "space": "Space",
     "waterSupply": "Water Supply",
