@@ -136,6 +136,23 @@ export default function inspections() {
           image: "/images/gerb.png",
         },
       },
+      {
+        id: 9,
+        slug: "inspections-uzkomnazorat",
+        title: "Inspections.nine.title",
+        description: "Inspections.nine.description",
+        shortDesc: "Inspections.nine.shortDesc",
+        tag: "tags.digital",
+        img: "https://api-portal.gov.uz/uploads/147/2025/04/10/cb9f964d-b557-a724-a54a-7bdb0b2aee93_authority_147.png",
+        link: "Inspections.nine.link",
+        seo: {
+          title: "Inspections.nine.seo.title",
+          description: "Inspections.nine.seo.description",
+          keywords: "Inspections.nine.seo.keywords",
+          image:
+            "https://api-portal.gov.uz/uploads/147/2025/04/10/cb9f964d-b557-a724-a54a-7bdb0b2aee93_authority_147.png",
+        },
+      },
     ],
   };
 }
