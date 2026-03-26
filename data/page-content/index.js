@@ -112,6 +112,10 @@ const stateTourism = () => import("./state/state-tourism.js");
 const stateWcu = () => import("./state/state-wcu.js");
 const stateReligions = () => import("./state/state-religions.js");
 const stateUdz = () => import("./state/state-udz.js");
+const stateCirns = () => import("./state/state-cirns.js");
+const stateSanepid = () => import("./state/state-sanepid.js");
+const stateIcc = () => import("./state/state-icc.js");
+const stateGazna = () => import("./state/state-gazna.js");
 const inspectionsDrinkingWater = () =>
   import("./inspections/inspections-drinking-water.js");
 const inspectionsAgroIndustrial = () =>
@@ -204,6 +208,10 @@ export const pageContentMap = {
   "state-wcu": stateWcu,
   "state-religions": stateReligions,
   "state-udz": stateUdz,
+  "state-cirns": stateCirns,
+  "state-sanepid": stateSanepid,
+  "state-icc": stateIcc,
+  "state-gazna": stateGazna,
   "inspections-drinking-water": inspectionsDrinkingWater,
   "inspections-agro-industrial": inspectionsAgroIndustrial,
   "inspections-uzenergoinspeksiya": inspectionsUzenergoinspeksiya,

@@ -1207,6 +1207,50 @@
         "keywords": "state reserves Uzbekistan, gov.uz udz, reserves committee, Ministry of Economy and Finance, material reserves"
       },
       "shortDesc": "State material reserves"
+    },
+    "thirteen": {
+      "title": "Committee for Industrial, Radiation and Nuclear Safety under the Cabinet of Ministers of the Republic of Uzbekistan",
+      "description": "Official section of the committee on gov.uz (cirns): about the organization, committee history, structure, leadership, central office, subordinate enterprises, territorial departments; activities (e-government, international cooperation, anti-corruption, reports, vacancies, eco-active staff); public services (questions and answers, questions for candidates); documents (Constitution page); digital government (list of public services, open data, feedback); press service and contacts (trust line +998 71 203-02-39 — verify under “All numbers” on gov.uz). The committee operates under the Cabinet of Ministers of the Republic of Uzbekistan.",
+      "link": "https://gov.uz/en/cirns",
+      "seo": {
+        "title": "Industrial, radiation and nuclear safety committee — gov.uz/cirns",
+        "description": "Official section of the Committee for Industrial, Radiation and Nuclear Safety under the Cabinet of Ministers of Uzbekistan on gov.uz (cirns): industrial safety, radiation, nuclear safety, public services, documents, contacts.",
+        "keywords": "industrial safety, radiation safety, nuclear safety, gov.uz cirns, Cabinet of Ministers Uzbekistan, CIRNS"
+      },
+      "shortDesc": "Industrial and nuclear safety"
+    },
+    "fourteen": {
+      "title": "Committee for Sanitary-Epidemiological Welfare and Public Health under the Ministry of Health of the Republic of Uzbekistan",
+      "description": "Official section of the committee on gov.uz (sanepid): about the committee, structure, leadership, central office, in-system organizations, regional departments; activities (Codex Alimentarius contact point, tenders, FAQ, e-government, international cooperation, anti-corruption); public services (including food export requirements for exporters, public and business feedback, interactive services); documents (rules and standards, e-library, journal, draft regulations); digital government (reports, open budget, procurement, sanitary conclusions, feedback and extensive transparency); press service and contacts (trust line 1354 — verify under “All numbers” on gov.uz). The committee operates under the Ministry of Health of the Republic of Uzbekistan.",
+      "link": "https://gov.uz/en/sanepid",
+      "seo": {
+        "title": "Sanitary-epidemiological committee — official section gov.uz/sanepid",
+        "description": "Official section of the Committee for Sanitary-Epidemiological Welfare and Public Health under the Ministry of Health of Uzbekistan on gov.uz (sanepid): sanitary oversight, public health, public services, documents, open data.",
+        "keywords": "sanepid, sanitary epidemiological oversight, gov.uz sanepid, Ministry of Health Uzbekistan, public health, Codex Alimentarius"
+      },
+      "shortDesc": "Sanitation and public health"
+    },
+    "fifteen": {
+      "title": "Committee on Interethnic Relations and Compatriots abroad of the Republic of Uzbekistan",
+      "description": "Official section of the committee on gov.uz (icc): legal basis, tasks and functions, structure, leadership, central office, vacancies; activities (national cultural centres pavilion, e-government, international cooperation, anti-corruption, youth and gender policy); public services (questions and answers, census, meetings with entrepreneurs); documents (activity reports, legal basis); digital government (open data register, work plan, startup projects); press service and contacts (trust line +998 71 253-57-69 — verify under “All numbers” on gov.uz).",
+      "link": "https://gov.uz/en/icc",
+      "seo": {
+        "title": "Interethnic relations and compatriots committee — gov.uz/icc",
+        "description": "Official section of the Committee on Interethnic Relations and Compatriots abroad of the Republic of Uzbekistan on gov.uz (icc): interethnic harmony, diaspora, public services, open data, contacts.",
+        "keywords": "interethnic relations, compatriots abroad, gov.uz icc, Uzbekistan diaspora, national cultural centres"
+      },
+      "shortDesc": "Interethnic relations and diaspora"
+    },
+    "sixteen": {
+      "title": "Committee of the Treasury service under the Ministry of Economy and Finance of the Republic of Uzbekistan",
+      "description": "Official section of the committee on gov.uz (gazna): about the committee (treasury history, treasury activities order, structure, responsibilities and functions, administration, central staff, regional departments, vacancies); activity (gender equality, international cooperation, anti-corruption, spirituality and enlightenment, FAQ, glossary); public services (unified register of public services, document status check); documents; digital government (requests, statistics, infographics, work plan); press service and contacts. Hotline +998 71 234-03-42 (verify under “All numbers” on gov.uz).",
+      "link": "https://gov.uz/en/gazna",
+      "seo": {
+        "title": "Treasury service committee — official section gov.uz/gazna",
+        "description": "Official section of the Committee of the Treasury service under the Ministry of Economy and Finance of the Republic of Uzbekistan on gov.uz (gazna): treasury, budget, public services, documents, open data, contacts.",
+        "keywords": "treasury, treasury service, gov.uz gazna, Ministry of Economy and Finance Uzbekistan, budget, document status check"
+      },
+      "shortDesc": "Treasury and budget execution"
     }
   },
   "T": "T",
