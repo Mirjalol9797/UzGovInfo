@@ -87,6 +87,7 @@ const otherSites = computed(() => {
     if (s.includes("state-tourism")) return "program";
     if (s.includes("state-wcu")) return "people";
     if (s.includes("state-religions")) return "law";
+    if (s.includes("state-udz")) return "finance";
     if (s.includes("inspections-drinking-water")) return "chart";
     if (s.includes("inspections-agro-industrial")) return "program";
     if (s.includes("inspections-uzenergoinspeksiya")) return "chart";

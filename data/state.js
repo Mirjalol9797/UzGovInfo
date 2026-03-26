@@ -167,6 +167,22 @@ export default function state() {
             "https://api-portal.gov.uz/uploads/76/2025/06/20/b23b5952-b0ec-3c15-7352-37538f4e2665_authority_76.jpg",
         },
       },
+      {
+        id: 11,
+        slug: "state-udz",
+        title: "State.twelve.title",
+        description: "State.twelve.description",
+        shortDesc: "State.twelve.shortDesc",
+        tag: "tags.finance",
+        img: "/images/gerb.png",
+        link: "State.twelve.link",
+        seo: {
+          title: "State.twelve.seo.title",
+          description: "State.twelve.seo.description",
+          keywords: "State.twelve.seo.keywords",
+          image: "/images/gerb.png",
+        },
+      },
     ],
   };
 }
