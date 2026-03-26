@@ -150,6 +150,23 @@ export default function state() {
           image: "/images/gerb.png",
         },
       },
+      {
+        id: 10,
+        slug: "state-religions",
+        title: "State.eleven.title",
+        description: "State.eleven.description",
+        shortDesc: "State.eleven.shortDesc",
+        tag: "tags.religion",
+        img: "https://api-portal.gov.uz/uploads/76/2025/06/20/b23b5952-b0ec-3c15-7352-37538f4e2665_authority_76.jpg",
+        link: "State.eleven.link",
+        seo: {
+          title: "State.eleven.seo.title",
+          description: "State.eleven.seo.description",
+          keywords: "State.eleven.seo.keywords",
+          image:
+            "https://api-portal.gov.uz/uploads/76/2025/06/20/b23b5952-b0ec-3c15-7352-37538f4e2665_authority_76.jpg",
+        },
+      },
     ],
   };
 }

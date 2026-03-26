@@ -1185,6 +1185,17 @@
         "keywords": "Oila va xotin-qizlar qoʻmitasi, gov.uz wcu, gender tengligi Oʻzbekiston, himoya buyrugʻi, ayollar reyestri, oila siyosati"
       },
       "shortDesc": "Oila va ayollar huquqlari"
+    },
+    "eleven": {
+      "title": "Oʻzbekiston Respublikasi Din ishlari boʻyicha qoʻmitasi",
+      "description": "gov.uz «religions» boʻlimida qoʻmita haqida, tuzilma, rahbariyat, markaziy apparat, boʻysunuvchi va hududiy organlar, konfessiyalararo kengash, nizom, boʻsh ish oʻrinlari; faoliyat (tanlovlar va tenderlar, Konstitutsiya sahifasi, «Umra» tadbirlari uchun litsenziyali subyektlar roʻyxati, elektron hukumat, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender siyosati); davlat xizmatlari; hujjatlar; raqamli davlat (qoʻllanma va glosariy, hisobotlar, jamoat kengashi, byudjet, ish rejasi, ochiq maʼlumotlar); matbuot va aloqa (Haj va Umra, murojaatlar, ishonch telefoni +998 71 207-17-58, 1-qoʻshimcha — «Barcha raqamlar» dan tekshiring).",
+      "link": "https://gov.uz/oz/religions",
+      "seo": {
+        "title": "Din ishlari boʻyicha qoʻmita — rasmiy boʻlim gov.uz/religions",
+        "description": "Oʻzbekiston Respublikasi Din ishlari boʻyicha qoʻmitasining gov.uz dagi rasmiy boʻlimi (religions): din erkinligi, davlat xizmatlari, litsenziyalar, Haj va Umra, hujjatlar, aloqa.",
+        "keywords": "Din ishlari qoʻmitasi, gov.uz religions, din Oʻzbekiston, Umra, Haj, eʼtiqod erkinligi"
+      },
+      "shortDesc": "Din va eʼtiqod erkinligi"
     }
   },
   "T": "T",
@@ -1228,6 +1239,7 @@
     "roads": "Yoʻl xoʻjaligi",
     "tourism": "Turizm",
     "family": "Oila va xotin-qizlar",
+    "religion": "Din",
     "youth": "Yoshlar siyosati",
     "space": "Kosmos",
     "waterSupply": "Suv taʼminoti",

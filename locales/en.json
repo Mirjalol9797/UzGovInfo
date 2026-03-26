@@ -1185,6 +1185,17 @@
         "keywords": "Committee of Family and Women, gov.uz wcu, gender equality Uzbekistan, protection order, women register, family policy"
       },
       "shortDesc": "Family and women’s rights"
+    },
+    "eleven": {
+      "title": "Committee on Religious Affairs of the Republic of Uzbekistan",
+      "description": "Official section of the committee on gov.uz (religions): about the committee, structure, leadership, central office, subordinate and territorial bodies, interfaith council, charter, vacancies; activities (competitions and tenders, Constitution page, register of licensees for «Umrah» events, e-government, international cooperation, anti-corruption, youth and gender policy); state services; documents; digital government (instructions and glossary, reports, public council, budget openness, work plan, open data); press and contacts (Hajj and Umrah, appeals, trust line +998 71 207-17-58, extension 1 — verify under “All numbers” on gov.uz).",
+      "link": "https://gov.uz/en/religions",
+      "seo": {
+        "title": "Committee on Religious Affairs — official section gov.uz/religions",
+        "description": "Official section of the Committee on Religious Affairs of the Republic of Uzbekistan on gov.uz (religions): freedom of religion, public services, licences, Hajj and Umrah, documents, contacts.",
+        "keywords": "Committee on Religious Affairs, gov.uz religions, religion Uzbekistan, Umrah, Hajj, freedom of worship"
+      },
+      "shortDesc": "Religion and freedom of worship"
     }
   },
   "T": "T",
@@ -1228,6 +1239,7 @@
     "roads": "Road Infrastructure",
     "tourism": "Tourism",
     "family": "Family & women",
+    "religion": "Religion",
     "youth": "Youth policy",
     "space": "Space",
     "waterSupply": "Water Supply",
