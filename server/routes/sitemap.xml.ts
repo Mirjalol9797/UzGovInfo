@@ -36,6 +36,7 @@ async function collectDynamicRoutes() {
     { file: "state.js", prefix: "/state" },
     { file: "agencies.js", prefix: "/agencies" },
     { file: "inspections.js", prefix: "/inspections" },
+    { file: "hokimiyats.js", prefix: "/hokimiyats" },
   ];
 
   const grouped = await Promise.all(
