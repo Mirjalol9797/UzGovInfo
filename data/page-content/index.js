@@ -146,6 +146,10 @@ const hokimiyatsQashqadaryo = () =>
   import("./hokimiyats/hokimiyats-qashqadaryo.js");
 const hokimiyatsNavoi = () =>
   import("./hokimiyats/hokimiyats-navoi.js");
+const hokimiyatsNamangan = () =>
+  import("./hokimiyats/hokimiyats-namangan.js");
+const hokimiyatsSamarqand = () =>
+  import("./hokimiyats/hokimiyats-samarqand.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -239,6 +243,8 @@ export const pageContentMap = {
   "hokimiyats-jizzakh": hokimiyatsJizzakh,
   "hokimiyats-qashqadaryo": hokimiyatsQashqadaryo,
   "hokimiyats-navoi": hokimiyatsNavoi,
+  "hokimiyats-namangan": hokimiyatsNamangan,
+  "hokimiyats-samarqand": hokimiyatsSamarqand,
 };
 
 export async function getPageContent(slug) {

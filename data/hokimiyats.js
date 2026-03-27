@@ -103,6 +103,38 @@ export default function hokimiyats() {
             "https://api-portal.gov.uz/uploads/45/2025/06/20/26158032-1d49-6114-8399-65381da51faf_authority_45.png",
         },
       },
+      {
+        id: 7,
+        slug: "hokimiyats-namangan",
+        title: "Khokimiyats.seven.title",
+        description: "Khokimiyats.seven.description",
+        shortDesc: "Khokimiyats.seven.shortDesc",
+        tag: "tags.regional",
+        img: "/images/gerb.png",
+        link: "Khokimiyats.seven.link",
+        seo: {
+          title: "Khokimiyats.seven.seo.title",
+          description: "Khokimiyats.seven.seo.description",
+          keywords: "Khokimiyats.seven.seo.keywords",
+          image: "/images/gerb.png",
+        },
+      },
+      {
+        id: 8,
+        slug: "hokimiyats-samarqand",
+        title: "Khokimiyats.eight.title",
+        description: "Khokimiyats.eight.description",
+        shortDesc: "Khokimiyats.eight.shortDesc",
+        tag: "tags.regional",
+        img: "/images/gerb.png",
+        link: "Khokimiyats.eight.link",
+        seo: {
+          title: "Khokimiyats.eight.seo.title",
+          description: "Khokimiyats.eight.seo.description",
+          keywords: "Khokimiyats.eight.seo.keywords",
+          image: "/images/gerb.png",
+        },
+      },
     ],
   };
 }

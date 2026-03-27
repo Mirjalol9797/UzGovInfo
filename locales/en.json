@@ -881,6 +881,28 @@
         "description": "Official section of the Navoiy regional administration on gov.uz (navoi): structure, public services, documents, open budget, contacts.",
         "keywords": "Navoiy, Navoi, regional administration, khokimiyat, gov.uz navoi"
       }
+    },
+    "seven": {
+      "title": "Namangan regional administration",
+      "description": "Official section of the Namangan regional administration on gov.uz (namangan): about the khokimiyat, structure of the organisation, administration, central staff, subordinate organisation, cities and districts; activities (census, fight against corruption, Namangan tourism); public services (unified interactive public services portal, applications from individuals and legal entities); documents (analytical data, regulatory documents, expired documents); digital government (open data portal information, Open Data DP-6247); press service (public event plans, calendar, news, leadership statements, press conferences, press releases); contacts (forum, survey, contacts). Hotline on the portal: 1056; +998 71 200-07-22 — verify under “All numbers” on gov.uz.",
+      "shortDesc": "Namangan region",
+      "link": "https://gov.uz/en/namangan",
+      "seo": {
+        "title": "Namangan regional administration — official section gov.uz/namangan",
+        "description": "Official section of the Namangan regional administration on gov.uz (namangan): structure, public services, documents, open data, contacts.",
+        "keywords": "Namangan, Namangan viloyati, regional administration, khokimiyat, gov.uz namangan"
+      }
+    },
+    "eight": {
+      "title": "Samarkand regional administration",
+      "description": "Official section of the Samarkand regional administration on gov.uz (samarqand): about the khokimiyat, structure, leadership, central staff, subordinate enterprises, cities and districts, local Kengash; activities (census, FAQ, regional development indicators, e-government, international cooperation, anti-corruption, youth policy, gender equality, tenders and auctions); public services (e-government services of the regional khokimiyat); documents (legal acts, repealed acts, governor’s decisions, tasks and functions, state programme); digital government (digital region, feedback, open data portal, UP-6247, UP-154); press centre and contacts (appeal statistics, anti-corruption prevention, surveys, contacts). Trust line on the portal: 1177; 0 (366) 230-47-77 — verify under “All numbers” on gov.uz.",
+      "shortDesc": "Samarkand region",
+      "link": "https://gov.uz/en/samarqand",
+      "seo": {
+        "title": "Samarkand regional administration — official section gov.uz/samarqand",
+        "description": "Official section of the Samarkand regional administration on gov.uz (samarqand): structure, public services, documents, digital region, contacts.",
+        "keywords": "Samarkand, Samarqand, regional administration, khokimiyat, gov.uz samarqand"
+      }
     }
   },
   "K": "K",
