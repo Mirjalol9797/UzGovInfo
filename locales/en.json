@@ -815,6 +815,17 @@
     "seo": {
       "title": "Funds of Uzbekistan — catalogue | Govinfo",
       "description": "Catalogue of funds of the Republic of Uzbekistan with official websites and a short description of their activities."
+    },
+    "one": {
+      "title": "Off-budget Pension Fund under the Ministry of Economy and Finance of the Republic of Uzbekistan",
+      "description": "The Off-budget Pension Fund under the Ministry of Economy and Finance of the Republic of Uzbekistan (official section on gov.uz/pj) administers pension accounting and payments, engages employers and insured persons, and develops services for current and future pensioners. The website publishes structure and leadership, regional departments, regulations, open data and public services in the field of pensions.",
+      "shortDesc": "Pensions and social payments",
+      "link": "https://gov.uz/en/pj",
+      "seo": {
+        "title": "Off-budget Pension Fund under the Ministry of Economy and Finance — official website | Govinfo",
+        "description": "Official section of the Off-budget Pension Fund under the Ministry of Economy and Finance of Uzbekistan on gov.uz: pensions, services, documents and contacts.",
+        "keywords": "Pension Fund Uzbekistan, off-budget pension fund, Ministry of Economy and Finance, pensions, gov.uz pj"
+      }
     }
   },
   "Khokimiyats": {
@@ -1471,7 +1482,8 @@
     "regional": "Regional government",
     "space": "Space",
     "waterSupply": "Water Supply",
-    "archives": "Archives"
+    "archives": "Archives",
+    "pension": "Pensions and social protection"
   },
   "heroSearch": {
     "heading": "Search official websites",

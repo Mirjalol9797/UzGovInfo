@@ -815,6 +815,17 @@
     "seo": {
       "title": "Oʻzbekiston jamgʻarmalari — katalog | Govinfo",
       "description": "Oʻzbekiston Respublikasi jamgʻarmalari: rasmiy saytlar va faoliyat yoʻnalishlarining qisqacha tavsifi."
+    },
+    "one": {
+      "title": "Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi budjetdan tashqari Pensiya jamgʻarmasi",
+      "description": "Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi budjetdan tashqari Pensiya jamgʻarmasi (gov.uz/pj rasmiy boʻlimi) pensiyalar hisobini yuritadi va toʻlovlar amalga oshiradi, ish beruvchilar va sugʻurta qoplangan shaxslar bilan hamkorlik qiladi, pensiya oluvchilar va kelajakdagi pensiya oluvchilar uchun xizmatlarni rivojlantiradi. Saytda tuzilma va rahbariyat, hududiy boshqarmalar, normativ hujjatlar, ochiq maʼlumotlar va pensiya taʼminoti sohasidagi davlat xizmatlari joylashtiriladi.",
+      "shortDesc": "Pensiya taʼminoti va toʻlovlar",
+      "link": "https://gov.uz/oz/pj",
+      "seo": {
+        "title": "Iqtisodiyot va moliya vazirligi huzuridagi budjetdan tashqari Pensiya jamgʻarmasi — rasmiy sayt | Govinfo",
+        "description": "Oʻzbekiston Iqtisodiyot va moliya vazirligi huzuridagi budjetdan tashqari Pensiya jamgʻarmasining gov.uz dagi rasmiy boʻlimi: pensiyalar, xizmatlar, hujjatlar va aloqa.",
+        "keywords": "Pensiya jamgʻarmasi Oʻzbekiston, budjetdan tashqari pensiya jamgʻarmasi, Iqtisodiyot va moliya vazirligi, pensiyalar, gov.uz pj"
+      }
     }
   },
   "Khokimiyats": {
@@ -1471,7 +1482,8 @@
     "regional": "Hududiy boshqaruv",
     "space": "Kosmos",
     "waterSupply": "Suv taʼminoti",
-    "archives": "Arxivlar"
+    "archives": "Arxivlar",
+    "pension": "Pensiyalar va ijtimoiy himoya"
   },
   "heroSearch": {
     "heading": "Rasmiy veb-saytlarni qidirish",
