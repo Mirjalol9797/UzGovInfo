@@ -307,7 +307,9 @@ useHead(() => ({
           class="mb-8 rounded-2xl border border-[#e5e7eb] bg-white overflow-hidden"
         >
           <div class="px-5 py-4 md:px-6 md:py-5">
-            <div class="flex items-start justify-between gap-4">
+            <div
+              class="flex items-start justify-between gap-4 768:flex-col 768:gap-2"
+            >
               <div class="flex items-center gap-3 min-w-0">
                 <div
                   class="w-12 h-12 rounded-xl bg-[#eef4ff] text-[#2563eb] flex items-center justify-center shrink-0"

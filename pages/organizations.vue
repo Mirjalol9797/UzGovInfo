@@ -6,6 +6,7 @@ import useMinistries from "../data/ministries";
 import useState from "../data/state";
 import useAgencies from "../data/agencies";
 import useFunds from "../data/funds";
+import StickyHeroSearch from "@/components/StickyHeroSearch.vue";
 
 const { t, locale } = useI18n();
 const localePath = useLocalePath();
@@ -97,7 +98,9 @@ useHead(() => ({
 </script>
 
 <template>
-  <div class="site-container">
+  <div>
+    <StickyHeroSearch />
+    <div class="site-container">
     <section>
       <div class="border-b border-[#eee] pb-2 mb-4 md:mb-6">
         <h1 class="font-medium text-xl md:text-2xl">
@@ -113,7 +116,9 @@ useHead(() => ({
         </p>
       </div>
 
-      <HeroSearch />
+      <div id="hero-search-region">
+        <HeroSearch />
+      </div>
 
       <div
         class="grid grid-cols-5 gap-3 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
@@ -150,5 +155,6 @@ useHead(() => ({
         </p>
       </div>
     </section>
+    </div>
   </div>
 </template>

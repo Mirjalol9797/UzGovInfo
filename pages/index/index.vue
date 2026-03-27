@@ -11,6 +11,7 @@ import SiteDescription from "@/components/mainPage/SiteDescription.vue";
 import HowUseSite from "@/components/mainPage/HowUseSite.vue";
 import WhySiteCreated from "@/components/mainPage/WhySiteCreated.vue";
 import HeroSearch from "@/components/HeroSearch.vue";
+import StickyHeroSearch from "@/components/StickyHeroSearch.vue";
 import AllCategoriesCards from "@/components/AllCategoriesCards.vue";
 
 const { t } = useI18n();
@@ -25,12 +26,15 @@ const hokimiyats = useHokimiyats();
 
 <template>
   <div class="main-page">
+    <StickyHeroSearch />
     <div class="site-container">
       <!-- Описание сайта -->
       <SiteDescription class="mb-10 768:mb-6" />
 
       <!-- Поиск -->
-      <HeroSearch />
+      <div id="hero-search-region">
+        <HeroSearch />
+      </div>
 
       <!-- Все категории -->
       <AllCategoriesCards />

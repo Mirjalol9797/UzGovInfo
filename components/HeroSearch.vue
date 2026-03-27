@@ -15,6 +15,7 @@ const headquarters = useHeadquarters();
 const ministries = useMinistries();
 const state = useState();
 const agencies = useAgencies();
+const funds = useFunds();
 const inspections = useInspections();
 const hokimiyats = useHokimiyats();
 

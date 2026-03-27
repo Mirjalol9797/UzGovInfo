@@ -32,13 +32,13 @@ const current = computed(() => content[locale.value] || content.ru);
 </script>
 
 <template>
-  <section class="site-description rounded-2xl p-8 768:p-6">
+  <section class="site-description rounded-2xl p-8 768:p-4">
     <h1 class="mb-4 font-bold leading-tight text-3xl 768:text-xl">
       {{ current.title }}
     </h1>
 
     <div
-      class="space-y-3 text-sm leading-7 text-[#2F3A4A] text-base 768:text-sm"
+      class="space-y-3 text-sm leading-7 text-[#2F3A4A] text-base 768:text-sm 768:space-y-1.5"
     >
       <h2 class="font-medium text-[#111827] text-base 768:text-sm">
         {{ current.lead }}
