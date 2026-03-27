@@ -859,6 +859,28 @@
         "description": "Official section of the Jizzakh regional administration on gov.uz (jizzax): structure, documents, public services, open data, contacts.",
         "keywords": "Jizzakh, Jizzax, regional administration, khokimiyat, gov.uz jizzax, Djizak"
       }
+    },
+    "five": {
+      "title": "Kashkadarya regional administration",
+      "description": "Official section of the Kashkadarya regional administration on gov.uz (qashqadaryo): about the khokimiyat, structure of the organisation, administration, central staff, subordinate organisations, regional departments; activity (census, etc.); state services; documents; digital government; press service (news, press releases, press conferences, calendar of events, meetings, statements of the administration); contacts (all numbers, survey, statistics of appeals). Hotline on the portal is commonly +998 75 221-07-60 (verify under “All numbers” on gov.uz).",
+      "shortDesc": "Kashkadarya region",
+      "link": "https://gov.uz/en/qashqadaryo",
+      "seo": {
+        "title": "Kashkadarya regional administration — official section gov.uz/qashqadaryo",
+        "description": "Official section of the Kashkadarya regional administration on gov.uz (qashqadaryo): structure, public services, documents, contacts.",
+        "keywords": "Kashkadarya, Qashqadaryo, regional administration, khokimiyat, gov.uz qashqadaryo"
+      }
+    },
+    "six": {
+      "title": "Navoiy regional administration",
+      "description": "Official section of the Navoiy regional administration on gov.uz (navoi): about the khokimiyat, structure, leadership, central staff, cities and districts, sessions, regional enterprises, vacancies; activities (census, new technologies, tenders, anti-corruption, e-government, economy, statistics, tourism, international cooperation, agriculture, sport, youth policy, women and girls); public services (land use participation plan, unified interactive portal, interactive services of the regional administration); documents (executive discipline, legal acts, governor’s decisions, state programmes, open budget, appeals, legal status); digital government (smart city, Constitution page, public council, PF-6247); press centre and contacts (trust line 79-220-10-20 ext. 1066 / +998 79 220-10-20 — verify under “All numbers” on gov.uz).",
+      "shortDesc": "Navoiy region",
+      "link": "https://gov.uz/en/navoi",
+      "seo": {
+        "title": "Navoiy regional administration — official section gov.uz/navoi",
+        "description": "Official section of the Navoiy regional administration on gov.uz (navoi): structure, public services, documents, open budget, contacts.",
+        "keywords": "Navoiy, Navoi, regional administration, khokimiyat, gov.uz navoi"
+      }
     }
   },
   "K": "K",

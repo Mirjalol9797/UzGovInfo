@@ -859,6 +859,28 @@
         "description": "Jizzax viloyati hokimligining gov.uz dagi rasmiy boʻlimi (jizzax): tuzilma, hujjatlar, davlat xizmatlari, ochiq maʼlumotlar, aloqa.",
         "keywords": "Jizzax, viloyat hokimligi, gov.uz jizzax, Djizak"
       }
+    },
+    "five": {
+      "title": "Qashqadaryo viloyati hokimligi",
+      "description": "Qashqadaryo viloyati hokimligining gov.uz dagi rasmiy boʻlimi (qashqadaryo): hokimiyat haqida, tuzilma, rahbariyat, markaziy apparat, tizimdagi tashkilotlar, hududiy boshqarmalar; faoliyat (roʻyxatdan oʻtish va boshqalar); davlat xizmatlari; hujjatlar; raqamli davlat; matbuot (yangiliklar, press-relizlar, matbuot anjumanlari, tadbirlar taqvimi, majlislar, rahbariyat bayonotlari); aloqa (barcha raqamlar, soʻrovnomalar, murojaatlar statistikasi). Ishonch liniyasi: +998 75 221-07-60 («Barcha raqamlar» dan tekshiring).",
+      "shortDesc": "Qashqadaryo viloyati",
+      "link": "https://gov.uz/oz/qashqadaryo",
+      "seo": {
+        "title": "Qashqadaryo viloyati hokimligi — rasmiy boʻlim gov.uz/qashqadaryo",
+        "description": "Qashqadaryo viloyati hokimligining gov.uz dagi rasmiy boʻlimi (qashqadaryo): tuzilma, davlat xizmatlari, hujjatlar, aloqa.",
+        "keywords": "Qashqadaryo, Kashkadarya, viloyat hokimligi, gov.uz qashqadaryo"
+      }
+    },
+    "six": {
+      "title": "Navoiy viloyati hokimligi",
+      "description": "Navoiy viloyati hokimligining gov.uz dagi rasmiy boʻlimi (navoi): hokimiyat haqida, tuzilma, rahbariyat, markaziy apparat, shahar va tumanlar, majlislar, viloyat korxonalari, vakansiyalar; faoliyat (roʻyxatdan oʻtish, yangi texnologiyalar, tenderlar, korrupsiyaga qarshi kurash, elektron hukumat, iqtisodiyot, turizm, qishloq xoʻjaligi, sport, yoshlar va ayollar-qizlar); davlat xizmatlari (yer dan foydalanish, yagona interaktiv portal, viloyat maʼmuriyatining interaktiv xizmatlari); hujjatlar (ijro intizomi, meʼyoriy hujjatlar, hokim qarorlari, davlat dasturlari, ochiq byudjet); raqamli davlat (Aqlli shahar, Konstitutsiya, jamoatchilik kengashi, PF-6247); matbuot va aloqa (ishonch telefoni 79-220-10-20, 1066 / +998 79 220-10-20 — «Barcha raqamlar» dan tekshiring).",
+      "shortDesc": "Navoiy viloyati",
+      "link": "https://gov.uz/oz/navoi",
+      "seo": {
+        "title": "Navoiy viloyati hokimligi — rasmiy boʻlim gov.uz/navoi",
+        "description": "Navoiy viloyati hokimligining gov.uz dagi rasmiy boʻlimi (navoi): tuzilma, davlat xizmatlari, hujjatlar, ochiq byudjet, aloqa.",
+        "keywords": "Navoiy, Navoi, viloyat hokimligi, gov.uz navoi"
+      }
     }
   },
   "K": "K",

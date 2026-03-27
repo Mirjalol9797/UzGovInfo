@@ -70,6 +70,39 @@ export default function hokimiyats() {
           image: "/images/gerb.png",
         },
       },
+      {
+        id: 5,
+        slug: "hokimiyats-qashqadaryo",
+        title: "Khokimiyats.five.title",
+        description: "Khokimiyats.five.description",
+        shortDesc: "Khokimiyats.five.shortDesc",
+        tag: "tags.regional",
+        img: "/images/gerb.png",
+        link: "Khokimiyats.five.link",
+        seo: {
+          title: "Khokimiyats.five.seo.title",
+          description: "Khokimiyats.five.seo.description",
+          keywords: "Khokimiyats.five.seo.keywords",
+          image: "/images/gerb.png",
+        },
+      },
+      {
+        id: 6,
+        slug: "hokimiyats-navoi",
+        title: "Khokimiyats.six.title",
+        description: "Khokimiyats.six.description",
+        shortDesc: "Khokimiyats.six.shortDesc",
+        tag: "tags.regional",
+        img: "https://api-portal.gov.uz/uploads/45/2025/06/20/26158032-1d49-6114-8399-65381da51faf_authority_45.png",
+        link: "Khokimiyats.six.link",
+        seo: {
+          title: "Khokimiyats.six.seo.title",
+          description: "Khokimiyats.six.seo.description",
+          keywords: "Khokimiyats.six.seo.keywords",
+          image:
+            "https://api-portal.gov.uz/uploads/45/2025/06/20/26158032-1d49-6114-8399-65381da51faf_authority_45.png",
+        },
+      },
     ],
   };
 }
