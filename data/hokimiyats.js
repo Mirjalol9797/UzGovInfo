@@ -167,6 +167,22 @@ export default function hokimiyats() {
           image: "/images/gerb.png",
         },
       },
+      {
+        id: 11,
+        slug: "hokimiyats-toshvil",
+        title: "Khokimiyats.eleven.title",
+        description: "Khokimiyats.eleven.description",
+        shortDesc: "Khokimiyats.eleven.shortDesc",
+        tag: "tags.regional",
+        img: "/images/gerb.png",
+        link: "Khokimiyats.eleven.link",
+        seo: {
+          title: "Khokimiyats.eleven.seo.title",
+          description: "Khokimiyats.eleven.seo.description",
+          keywords: "Khokimiyats.eleven.seo.keywords",
+          image: "/images/gerb.png",
+        },
+      },
     ],
   };
 }

@@ -925,6 +925,17 @@
         "description": "Official section of the Syrdarya regional administration on gov.uz (sirdaryo): structure, public services, documents, open data, contacts.",
         "keywords": "Syrdarya, Sirdaryo, regional administration, khokimiyat, gov.uz sirdaryo"
       }
+    },
+    "eleven": {
+      "title": "Tashkent regional administration",
+      "description": "Official section of the Tashkent regional administration on gov.uz (toshvil): leadership, central staff, structure, charter of the regional khokimiyat, departments and organisations, territorial departments, vacancies; activities (anti-corruption, census, tenders, e-government, international cooperation, youth policy, gender equality); public services; documents (including repealed); digital government (executive discipline, smart city, interactive services of Tashkent region, open data portal, PF-6247, open budget data); press centre (sector themes, news, leadership statements, calendar, meetings, press conferences); contacts (surveys, contacts). Trust line on the portal: +998 71 200-88-11 — verify under “All numbers” on gov.uz. Regional khokimiyat; Tashkent city has a separate section on the portal.",
+      "shortDesc": "Tashkent region",
+      "link": "https://gov.uz/en/toshvil",
+      "seo": {
+        "title": "Tashkent regional administration — official section gov.uz/toshvil",
+        "description": "Official section of the Tashkent regional administration on gov.uz (toshvil): structure, public services, documents, open data, contacts.",
+        "keywords": "Tashkent region, Toshkent viloyati, regional administration, khokimiyat, gov.uz toshvil"
+      }
     }
   },
   "K": "K",
