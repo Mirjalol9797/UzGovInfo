@@ -936,6 +936,28 @@
         "description": "Official section of the Tashkent regional administration on gov.uz (toshvil): structure, public services, documents, open data, contacts.",
         "keywords": "Tashkent region, Toshkent viloyati, regional administration, khokimiyat, gov.uz toshvil"
       }
+    },
+    "twelve": {
+      "title": "Fergana regional administration",
+      "description": "Official section of the Fergana regional administration on gov.uz (ferghana): about the khokimiyat, structure, leadership, central staff, subordinate organisations, regional departments, public council, vacancies, Council of People’s Deputies of Fergana region, coordinating bodies; activities (census, announcements, state programmes, tenders, e-government, international cooperation, anti-corruption, youth and gender policy); public services (unified register, interactive services of the regional administration, unified portal, e-services of the khokimiyat, My.gov.uz); documents (Constitution, legal acts, draft NPA discussion, repealed acts, analytics, land use plan); digital government (open data, PF-6247, Statement 3299, geodata, digital region, appeal tracking); press centre and contacts (appeal to the regional governor, trust line regulations, surveys, FAQ). Hotline on the portal: +998 73 244-05-23 — verify under “All numbers” on gov.uz.",
+      "shortDesc": "Fergana region",
+      "link": "https://gov.uz/en/ferghana",
+      "seo": {
+        "title": "Fergana regional administration — official section gov.uz/ferghana",
+        "description": "Official section of the Fergana regional administration on gov.uz (ferghana): structure, public services, documents, open data, contacts.",
+        "keywords": "Fergana, Farg'ona, regional administration, khokimiyat, gov.uz ferghana"
+      }
+    },
+    "thirteen": {
+      "title": "Khorezm regional administration",
+      "description": "Official section of the Khorezm regional administration on gov.uz (xorazm): about the khokimiyat, structure, leadership, central staff, territorial departments; activities (population census); sections for public services and documents; digital government (feedback); press centre (news, statements of the administration, calendar of events, meetings, press conferences, press releases); contacts (surveys, contacts). Trust line on the portal: +998 62 223-00-54 — verify under “All numbers” on gov.uz.",
+      "shortDesc": "Khorezm region",
+      "link": "https://gov.uz/en/xorazm",
+      "seo": {
+        "title": "Khorezm regional administration — official section gov.uz/xorazm",
+        "description": "Official section of the Khorezm regional administration on gov.uz (xorazm): structure, public services, documents, contacts.",
+        "keywords": "Khorezm, Xorazm, regional administration, khokimiyat, gov.uz xorazm"
+      }
     }
   },
   "K": "K",

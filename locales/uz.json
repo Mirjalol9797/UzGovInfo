@@ -936,6 +936,28 @@
         "description": "Toshkent viloyati hokimligining gov.uz dagi rasmiy boʻlimi (toshvil): tuzilma, davlat xizmatlari, hujjatlar, ochiq maʼlumotlar, aloqa.",
         "keywords": "Toshkent viloyati, Tashkent region, viloyat hokimligi, gov.uz toshvil"
       }
+    },
+    "twelve": {
+      "title": "Farg'ona viloyati hokimligi",
+      "description": "Farg'ona viloyati hokimligining gov.uz dagi rasmiy boʻlimi (ferghana): hokimiyat haqida, tuzilma, rahbariyat, markaziy apparat, boʻysunuvchi tashkilotlar, hududiy boshqarmalar, jamoatchilik kengashi, vakansiyalar, xalq deputatlari Kengashi, muvofiqlashtiruvchi organlar; faoliyat (roʻyxatdan oʻtish, eʼlonlar, davlat dasturlari, tenderlar, elektron hukumat, xalqaro hamkorlik, korrupsiyaga qarshi kurash); davlat xizmatlari (yagona reestr, viloyat maʼmuriyatining interaktiv xizmatlari, yagona portal, elektron xizmatlar, My.gov.uz); hujjatlar (Konstitutsiya, meʼyoriy hujjatlar, yer rejasi); raqamli davlat (ochiq maʼlumotlar, PF-6247, 3299-sonli qoidalar, geodata); matbuot va aloqa (viloyat hokimiga murojaat, ishonch telefoni reglamenti, soʻrovnomalar). Ishonch liniyasi: +998 73 244-05-23 — «Barcha raqamlar» dan tekshiring.",
+      "shortDesc": "Farg'ona viloyati",
+      "link": "https://gov.uz/oz/ferghana",
+      "seo": {
+        "title": "Farg'ona viloyati hokimligi — rasmiy boʻlim gov.uz/ferghana",
+        "description": "Farg'ona viloyati hokimligining gov.uz dagi rasmiy boʻlimi (ferghana): tuzilma, davlat xizmatlari, hujjatlar, ochiq maʼlumotlar, aloqa.",
+        "keywords": "Farg'ona, Fergana, viloyat hokimligi, gov.uz ferghana"
+      }
+    },
+    "thirteen": {
+      "title": "Xorazm viloyati hokimligi",
+      "description": "Xorazm viloyati hokimligining gov.uz dagi rasmiy boʻlimi (xorazm): hokimiyat haqida, tuzilma, rahbariyat, markaziy apparat, hududiy boshqarmalar; faoliyat (roʻyxatdan oʻtish); davlat xizmatlari va hujjatlar; raqamli davlat (qayta aloqa); matbuot (yangiliklar, rahbariyat bayonotlari, tadbirlar taqvimi, majlislar, matbuot anjumanlari, press-relizlar); aloqa (soʻrovnoma, kontaktlar). Ishonch telefoni: +998 62 223-00-54 — «Barcha raqamlar» dan tekshiring.",
+      "shortDesc": "Xorazm viloyati",
+      "link": "https://gov.uz/oz/xorazm",
+      "seo": {
+        "title": "Xorazm viloyati hokimligi — rasmiy boʻlim gov.uz/xorazm",
+        "description": "Xorazm viloyati hokimligining gov.uz dagi rasmiy boʻlimi (xorazm): tuzilma, davlat xizmatlari, hujjatlar, aloqa.",
+        "keywords": "Xorazm, Khorezm, viloyat hokimligi, gov.uz xorazm"
+      }
     }
   },
   "K": "K",
