@@ -3,6 +3,7 @@ import useState from "../../data/state";
 import CategorySeo from "../../components/Seo/CategorySeo.vue";
 import CategoryInfoTabs from "../../components/CategoryInfoTabs.vue";
 import FaqAccordion from "../../components/FaqAccordion.vue";
+import CategoryPopularOutside from "../../components/CategoryPopularOutside.vue";
 
 const { t, locale } = useI18n();
 const localePath = useLocalePath();
@@ -643,6 +644,7 @@ const otherGovBodiesText = computed(() => {
           </table>
         </div>
 
+        <CategoryPopularOutside exclude-category="state" />
         <FaqAccordion :title="faqText.h2" :items="faqText.items" />
       </section>
     </div>

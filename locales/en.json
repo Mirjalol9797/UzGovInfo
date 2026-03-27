@@ -1517,6 +1517,10 @@
     "pension": "Pensions and social protection",
     "poverty": "Poverty reduction"
   },
+  "categoryPopular": {
+    "title": "Popular organizations",
+    "badge": "Other sections"
+  },
   "heroSearch": {
     "heading": "Search official websites",
     "subheading": "Quickly find a ministry, agency or organization.",

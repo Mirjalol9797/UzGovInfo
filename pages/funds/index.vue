@@ -3,6 +3,7 @@ import useFunds from "../../data/funds";
 import CategorySeo from "../../components/Seo/CategorySeo.vue";
 import CategoryInfoTabs from "../../components/CategoryInfoTabs.vue";
 import FaqAccordion from "../../components/FaqAccordion.vue";
+import CategoryPopularOutside from "../../components/CategoryPopularOutside.vue";
 
 const { t, locale } = useI18n();
 const localePath = useLocalePath();
@@ -442,6 +443,7 @@ const fundTableRows = computed(() => {
           </table>
         </div>
 
+        <CategoryPopularOutside exclude-category="funds" />
         <FaqAccordion :title="faqText.h2" :items="faqText.items" />
       </section>
     </div>

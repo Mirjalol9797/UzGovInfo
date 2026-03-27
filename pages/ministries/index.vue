@@ -2,6 +2,7 @@
 import useMinistries from "../../data/ministries";
 import CategoryInfoTabs from "../../components/CategoryInfoTabs.vue";
 import FaqAccordion from "../../components/FaqAccordion.vue";
+import CategoryPopularOutside from "../../components/CategoryPopularOutside.vue";
 
 const { t, locale } = useI18n();
 const localePath = useLocalePath();
@@ -973,6 +974,7 @@ const ministriesTableRows = computed(() => {
         </table>
       </div>
 
+      <CategoryPopularOutside exclude-category="ministries" />
       <FaqAccordion :title="faqText.h2" :items="faqText.items" />
     </div>
   </div>

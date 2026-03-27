@@ -1517,6 +1517,10 @@
     "pension": "Pensiyalar va ijtimoiy himoya",
     "poverty": "Kambagʻallikni qisqartirish"
   },
+  "categoryPopular": {
+    "title": "Mashhur tashkilotlar",
+    "badge": "Boshqa boʻlimlar"
+  },
   "heroSearch": {
     "heading": "Rasmiy veb-saytlarni qidirish",
     "subheading": "Vazirlik, idora yoki tashkilotni tez toping.",
