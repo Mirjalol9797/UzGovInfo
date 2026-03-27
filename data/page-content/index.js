@@ -160,6 +160,8 @@ const hokimiyatsFerghana = () =>
   import("./hokimiyats/hokimiyats-ferghana.js");
 const hokimiyatsXorazm = () =>
   import("./hokimiyats/hokimiyats-xorazm.js");
+const hokimiyatsToshkentCity = () =>
+  import("./hokimiyats/hokimiyats-toshkent-city.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -260,6 +262,7 @@ export const pageContentMap = {
   "hokimiyats-toshvil": hokimiyatsToshvil,
   "hokimiyats-ferghana": hokimiyatsFerghana,
   "hokimiyats-xorazm": hokimiyatsXorazm,
+  "hokimiyats-toshkent-city": hokimiyatsToshkentCity,
 };
 
 export async function getPageContent(slug) {

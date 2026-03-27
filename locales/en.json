@@ -958,6 +958,17 @@
         "description": "Official section of the Khorezm regional administration on gov.uz (xorazm): structure, public services, documents, contacts.",
         "keywords": "Khorezm, Xorazm, regional administration, khokimiyat, gov.uz xorazm"
       }
+    },
+    "fourteen": {
+      "title": "Official website of the Tashkent city khokimiyat",
+      "description": "Official section of the Tashkent city khokimiyat on gov.uz (toshkent): about the khokimiyat, structure, leadership, central staff, subordinate enterprises, territorial departments; activities (census, e-government, international cooperation, anti-corruption, youth policy, gender equality); public services (service provision); documents (rights of access to government information); digital government (open data); press centre (news, statements, calendar, meetings, press conferences, press releases); contacts (feedback, surveys, all numbers). Full interactive city portal: https://tashkent.uz/en. Not to be confused with the Tashkent regional administration (gov.uz/toshvil). The trust line on the section page may be empty — verify under “All numbers” on gov.uz.",
+      "shortDesc": "Tashkent city",
+      "link": "https://gov.uz/en/toshkent",
+      "seo": {
+        "title": "Tashkent city khokimiyat — official section gov.uz/toshkent",
+        "description": "Official gov.uz section (toshkent) and tashkent.uz interactive portal: city khokimiyat, public services, open data, contacts. Capital of Uzbekistan.",
+        "keywords": "Tashkent city, Toshkent shahar, khokimiyat, gov.uz toshkent, tashkent.uz, capital administration"
+      }
     }
   },
   "K": "K",

@@ -216,6 +216,22 @@ export default function hokimiyats() {
           image: "/images/gerb.png",
         },
       },
+      {
+        id: 14,
+        slug: "hokimiyats-toshkent-city",
+        title: "Khokimiyats.fourteen.title",
+        description: "Khokimiyats.fourteen.description",
+        shortDesc: "Khokimiyats.fourteen.shortDesc",
+        tag: "tags.regional",
+        img: "/images/gerb.png",
+        link: "Khokimiyats.fourteen.link",
+        seo: {
+          title: "Khokimiyats.fourteen.seo.title",
+          description: "Khokimiyats.fourteen.seo.description",
+          keywords: "Khokimiyats.fourteen.seo.keywords",
+          image: "/images/gerb.png",
+        },
+      },
     ],
   };
 }

@@ -958,6 +958,17 @@
         "description": "Xorazm viloyati hokimligining gov.uz dagi rasmiy boʻlimi (xorazm): tuzilma, davlat xizmatlari, hujjatlar, aloqa.",
         "keywords": "Xorazm, Khorezm, viloyat hokimligi, gov.uz xorazm"
       }
+    },
+    "fourteen": {
+      "title": "Toshkent shahar hokimiyati rasmiy sayti",
+      "description": "Toshkent shahar hokimiyatining gov.uz dagi rasmiy boʻlimi (toshkent): hokimiyat haqida, tuzilma, rahbariyat, markaziy apparat, boʻysunuvchi korxonalar, hududiy boshqarmalar; faoliyat (roʻyxatdan oʻtish, elektron hukumat, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender); davlat xizmatlari (xizmat koʻrsatish); hujjatlar (davlat axborotiga kirish huquqlari); raqamli davlat (ochiq maʼlumotlar); matbuot va aloqa (qayta aloqa, soʻrovnomalar, barcha raqamlar). Kengaytirilgan rasmiy interaktiv portal: https://tashkent.uz/oz. Toshkent viloyati hokimiyatidan (gov.uz/toshvil) farq qiladi. Ishonch telefoni sahifada boʻsh boʻlishi mumkin — «Barcha raqamlar» dan tekshiring.",
+      "shortDesc": "Toshkent shahri",
+      "link": "https://gov.uz/oz/toshkent",
+      "seo": {
+        "title": "Toshkent shahar hokimiyati — rasmiy boʻlim gov.uz/toshkent",
+        "description": "Toshkent shahar hokimiyatining gov.uz (toshkent) va tashkent.uz interaktiv portali: tuzilma, davlat xizmatlari, ochiq maʼlumotlar, aloqa. Oʻzbekiston poytaxti.",
+        "keywords": "Toshkent shahri, shahar hokimiyati, gov.uz toshkent, tashkent.uz, poytaxt"
+      }
     }
   },
   "K": "K",
