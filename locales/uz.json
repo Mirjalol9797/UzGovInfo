@@ -826,6 +826,17 @@
         "description": "Oʻzbekiston Iqtisodiyot va moliya vazirligi huzuridagi budjetdan tashqari Pensiya jamgʻarmasining gov.uz dagi rasmiy boʻlimi: pensiyalar, xizmatlar, hujjatlar va aloqa.",
         "keywords": "Pensiya jamgʻarmasi Oʻzbekiston, budjetdan tashqari pensiya jamgʻarmasi, Iqtisodiyot va moliya vazirligi, pensiyalar, gov.uz pj"
       }
+    },
+    "two": {
+      "title": "Oʻzbekiston Respublikasi Kambagʻallikni qisqartirish davlat maqsadli jamgʻarmasi",
+      "description": "Oʻzbekiston Respublikasi Kambagʻallikni qisqartirish davlat maqsadli jamgʻarmasi kambagʻallik darajasini pasaytirish, ijtimoiy himoyaga muhtoj aholi guruhlarini qoʻllab-quvvatlash va davlat ijtimoiy siyosatini rivojlantirish boʻyicha choralarni amalga oshiradi. gov.uz portali (/mj) dagi rasmiy boʻlimda jamgʻarma, tashkilot tuzilmasi, markaziy apparat, hududiy boʻlinmalar, hujjatlar, raqamli xizmatlar va aloqa haqida maʼlumotlar joylashtiriladi.",
+      "shortDesc": "Kambagʻallikni qisqartirish va ijtimoiy qoʻllab-quvvatlash",
+      "link": "https://gov.uz/oz/mj",
+      "seo": {
+        "title": "Kambagʻallikni qisqartirish davlat maqsadli jamgʻarmasi — rasmiy sayt | Govinfo",
+        "description": "Oʻzbekiston Kambagʻallikni qisqartirish davlat maqsadli jamgʻarmasining gov.uz dagi rasmiy boʻlimi: faoliyat, hujjatlar, xizmatlar va aloqa.",
+        "keywords": "kambagʻallikni qisqartirish jamgʻarmasi, ijtimoiy qoʻllab-quvvatlash, Oʻzbekiston, gov.uz mj"
+      }
     }
   },
   "Khokimiyats": {
@@ -1483,7 +1494,8 @@
     "space": "Kosmos",
     "waterSupply": "Suv taʼminoti",
     "archives": "Arxivlar",
-    "pension": "Pensiyalar va ijtimoiy himoya"
+    "pension": "Pensiyalar va ijtimoiy himoya",
+    "poverty": "Kambagʻallikni qisqartirish"
   },
   "heroSearch": {
     "heading": "Rasmiy veb-saytlarni qidirish",

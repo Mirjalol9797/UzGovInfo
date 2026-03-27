@@ -19,6 +19,24 @@ export default function funds() {
           image: "/images/gerb.png",
         },
       },
+      {
+        id: 2,
+        slug: "funds-mj",
+        fullContent: true,
+        title: "Funds.two.title",
+        description: "Funds.two.description",
+        shortDesc: "Funds.two.shortDesc",
+        tag: "tags.poverty",
+        img: "https://api-portal.gov.uz/uploads/368/2026/02/09/8074d661-1109-b0a1-f8d3-2aae6f05453a_authority_368.png",
+        link: "Funds.two.link",
+        seo: {
+          title: "Funds.two.seo.title",
+          description: "Funds.two.seo.description",
+          keywords: "Funds.two.seo.keywords",
+          image:
+            "https://api-portal.gov.uz/uploads/368/2026/02/09/8074d661-1109-b0a1-f8d3-2aae6f05453a_authority_368.png",
+        },
+      },
     ],
   };
 }

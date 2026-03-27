@@ -826,6 +826,17 @@
         "description": "Official section of the Off-budget Pension Fund under the Ministry of Economy and Finance of Uzbekistan on gov.uz: pensions, services, documents and contacts.",
         "keywords": "Pension Fund Uzbekistan, off-budget pension fund, Ministry of Economy and Finance, pensions, gov.uz pj"
       }
+    },
+    "two": {
+      "title": "State Targeted Fund for Poverty Reduction of the Republic of Uzbekistan",
+      "description": "The State Targeted Fund for Poverty Reduction of the Republic of Uzbekistan implements measures to reduce poverty, support vulnerable groups and develop social policy. The official section on gov.uz (path /mj) provides information about the fund, organisational structure, central office, regional departments, documents, digital services and contacts.",
+      "shortDesc": "Poverty reduction and social support",
+      "link": "https://gov.uz/en/mj",
+      "seo": {
+        "title": "State Targeted Fund for Poverty Reduction — official website | Govinfo",
+        "description": "Official section of the State Targeted Fund for Poverty Reduction of Uzbekistan on gov.uz: the fund’s work, documents, services and contacts.",
+        "keywords": "poverty reduction fund Uzbekistan, social support, targeted fund, gov.uz mj"
+      }
     }
   },
   "Khokimiyats": {
@@ -1483,7 +1494,8 @@
     "space": "Space",
     "waterSupply": "Water Supply",
     "archives": "Archives",
-    "pension": "Pensions and social protection"
+    "pension": "Pensions and social protection",
+    "poverty": "Poverty reduction"
   },
   "heroSearch": {
     "heading": "Search official websites",
