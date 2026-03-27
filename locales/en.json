@@ -903,6 +903,28 @@
         "description": "Official section of the Samarkand regional administration on gov.uz (samarqand): structure, public services, documents, digital region, contacts.",
         "keywords": "Samarkand, Samarqand, regional administration, khokimiyat, gov.uz samarqand"
       }
+    },
+    "nine": {
+      "title": "Surkhandarya regional administration",
+      "description": "Official section of the Surkhandarya regional administration on gov.uz (surxondaryo): about the khokimiyat, administration, central staff, subordinate organisation; activities (census, anti-corruption); sections for public services, documents and digital government; press service (news, statements of the administration, calendar of events, press releases, meetings, press conferences); contacts (survey, contacts). Hotline on the portal: 1088; 76-228-02-33 (commonly +998 76 228-02-33 — verify under “All numbers” on gov.uz).",
+      "shortDesc": "Surkhandarya region",
+      "link": "https://gov.uz/en/surxondaryo",
+      "seo": {
+        "title": "Surkhandarya regional administration — official section gov.uz/surxondaryo",
+        "description": "Official section of the Surkhandarya regional administration on gov.uz (surxondaryo): structure, public services, documents, contacts.",
+        "keywords": "Surkhandarya, Surxondaryo, regional administration, khokimiyat, gov.uz surxondaryo"
+      }
+    },
+    "ten": {
+      "title": "Syrdarya regional administration",
+      "description": "Official section of the Syrdarya regional administration on gov.uz (sirdaryo): about the khokimiyat, structure, leadership, central staff, subordinate enterprises, districts and cities, contacts; activities (census, Constitution, open communication, mobile reception, investments and foreign trade, social sector, economy, youth policy, agriculture, tenders, vacancies, international cooperation, anti-corruption); public services (e-government services of the regional khokimiyat); documents (laws and decisions related to activities); digital government (FAQ, open data portal, budget transparency — Statement 3299, UP-6247, UP-154, socially significant information); press centre and contacts (Telegram, online appeals, transport, surveys). Trust line on the portal: +998 67 236-80-00 (ext. 1428) — verify under “All numbers” on gov.uz.",
+      "shortDesc": "Syrdarya region",
+      "link": "https://gov.uz/en/sirdaryo",
+      "seo": {
+        "title": "Syrdarya regional administration — official section gov.uz/sirdaryo",
+        "description": "Official section of the Syrdarya regional administration on gov.uz (sirdaryo): structure, public services, documents, open data, contacts.",
+        "keywords": "Syrdarya, Sirdaryo, regional administration, khokimiyat, gov.uz sirdaryo"
+      }
     }
   },
   "K": "K",

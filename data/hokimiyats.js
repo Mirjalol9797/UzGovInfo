@@ -135,6 +135,38 @@ export default function hokimiyats() {
           image: "/images/gerb.png",
         },
       },
+      {
+        id: 9,
+        slug: "hokimiyats-surxondaryo",
+        title: "Khokimiyats.nine.title",
+        description: "Khokimiyats.nine.description",
+        shortDesc: "Khokimiyats.nine.shortDesc",
+        tag: "tags.regional",
+        img: "/images/gerb.png",
+        link: "Khokimiyats.nine.link",
+        seo: {
+          title: "Khokimiyats.nine.seo.title",
+          description: "Khokimiyats.nine.seo.description",
+          keywords: "Khokimiyats.nine.seo.keywords",
+          image: "/images/gerb.png",
+        },
+      },
+      {
+        id: 10,
+        slug: "hokimiyats-sirdaryo",
+        title: "Khokimiyats.ten.title",
+        description: "Khokimiyats.ten.description",
+        shortDesc: "Khokimiyats.ten.shortDesc",
+        tag: "tags.regional",
+        img: "/images/gerb.png",
+        link: "Khokimiyats.ten.link",
+        seo: {
+          title: "Khokimiyats.ten.seo.title",
+          description: "Khokimiyats.ten.seo.description",
+          keywords: "Khokimiyats.ten.seo.keywords",
+          image: "/images/gerb.png",
+        },
+      },
     ],
   };
 }
