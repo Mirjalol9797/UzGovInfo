@@ -839,6 +839,47 @@
       }
     }
   },
+  "Banks": {
+    "headtitle": "Banks of the Republic of Uzbekistan",
+    "indexEmpty": "The catalogue is growing: more banks will be added.",
+    "seo": {
+      "title": "Banks of Uzbekistan — official websites catalogue | Govinfo",
+      "description": "Catalogue of banks in Uzbekistan with official websites and a short description of services."
+    },
+    "one": {
+      "title": "National Bank of Uzbekistan (JSC)",
+      "description": "National Bank of Uzbekistan is a universal bank offering loans, settlement services, cards, deposits and remote banking for individuals and businesses. The official website publishes products, exchange rates, news and contacts.",
+      "shortDesc": "Universal bank",
+      "link": "https://nbu.uz",
+      "seo": {
+        "title": "National Bank of Uzbekistan — official website | Govinfo",
+        "description": "Official website of National Bank of Uzbekistan (JSC): services, exchange rates and contacts.",
+        "keywords": "National Bank of Uzbekistan, NBU, nbu.uz, bank Uzbekistan"
+      }
+    },
+    "two": {
+      "title": "Kapitalbank (JSC)",
+      "description": "Kapitalbank provides banking services for individuals and legal entities: loans, corporate banking, cards, deposits and online banking. Up-to-date information on products and branches is on the official website.",
+      "shortDesc": "Universal bank",
+      "link": "https://kapitalbank.uz",
+      "seo": {
+        "title": "Kapitalbank — official website | Govinfo",
+        "description": "Official Kapitalbank website: banking services, exchange rates and customer support.",
+        "keywords": "Kapitalbank, kapitalbank.uz, bank Uzbekistan"
+      }
+    },
+    "three": {
+      "title": "Ipak Yo'li Bank (JSC)",
+      "description": "Ipak Yo'li Bank offers a full range of banking services including lending, deposits, cards and remote service. The official website describes products and contacts.",
+      "shortDesc": "Universal bank",
+      "link": "https://ipakyulibank.uz",
+      "seo": {
+        "title": "Ipak Yo'li Bank — official website | Govinfo",
+        "description": "Official website of Ipak Yo'li Bank: services, exchange rates and branch network.",
+        "keywords": "Ipak Yoli, ipakyulibank.uz, bank Uzbekistan"
+      }
+    }
+  },
   "Centers": {
     "headtitle": "Centers of the Republic of Uzbekistan",
     "indexEmpty": "The catalogue is growing: more state centers will be added.",
@@ -1035,7 +1076,8 @@
     "funds": "Funds",
     "centers": "Centers",
     "inspections": "State inspections",
-    "hokimiyats": "Khokimiyats"
+    "hokimiyats": "Khokimiyats",
+    "banks": "Banks"
   },
   "M": "M",
   "Ministries": {
@@ -1515,7 +1557,8 @@
     "waterSupply": "Water Supply",
     "archives": "Archives",
     "pension": "Pensions and social protection",
-    "poverty": "Poverty reduction"
+    "poverty": "Poverty reduction",
+    "banking": "Banks"
   },
   "categoryPopular": {
     "title": "Popular organizations",

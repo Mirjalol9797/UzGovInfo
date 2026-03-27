@@ -7,6 +7,7 @@ import useMinistries from "../data/ministries";
 import useState from "../data/state";
 import useAgencies from "../data/agencies";
 import useFunds from "../data/funds";
+import useBanks from "../data/banks";
 import useCenters from "../data/centers";
 import { navigateTo } from "#app";
 
@@ -28,6 +29,7 @@ const ministries = useMinistries();
 const state = useState();
 const agencies = useAgencies();
 const funds = useFunds();
+const banks = useBanks();
 const centers = useCenters();
 const inspections = useInspections();
 const hokimiyats = useHokimiyats();
@@ -38,6 +40,8 @@ type OrganizationCategoryKey =
   | "state"
   | "agencies"
   | "funds"
+  | "banks"
+  | "centers"
   | "inspections"
   | "hokimiyats";
 
@@ -61,6 +65,7 @@ const categories = computed(() => {
     { key: "state", data: state.data },
     { key: "agencies", data: agencies.data },
     { key: "funds", data: funds.data },
+    { key: "banks", data: banks.data },
     { key: "centers", data: centers.data },
     { key: "inspections", data: inspections.data },
     { key: "hokimiyats", data: hokimiyats.data },
@@ -88,6 +93,7 @@ const categoryNav = computed(() => [
   { key: "state" as const, href: "/state" },
   { key: "agencies" as const, href: "/agencies" },
   { key: "funds" as const, href: "/funds" },
+  { key: "banks" as const, href: "/banks" },
   { key: "centers" as const, href: "/centers" },
   { key: "inspections" as const, href: "/inspections" },
   { key: "hokimiyats" as const, href: "/hokimiyats" },

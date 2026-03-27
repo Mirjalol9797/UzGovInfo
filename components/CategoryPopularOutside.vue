@@ -4,6 +4,7 @@ import useMinistries from "../data/ministries";
 import useState from "../data/state";
 import useAgencies from "../data/agencies";
 import useFunds from "../data/funds";
+import useBanks from "../data/banks";
 import useCenters from "../data/centers";
 import useInspections from "../data/inspections";
 import useHokimiyats from "../data/hokimiyats";
@@ -24,6 +25,7 @@ const ministries = useMinistries();
 const state = useState();
 const agencies = useAgencies();
 const funds = useFunds();
+const banks = useBanks();
 const centers = useCenters();
 const inspections = useInspections();
 const hokimiyats = useHokimiyats();
@@ -55,6 +57,7 @@ const pool = computed(() => {
     { key: "state", data: state.data },
     { key: "agencies", data: agencies.data },
     { key: "funds", data: funds.data },
+    { key: "banks", data: banks.data },
     { key: "centers", data: centers.data },
     { key: "inspections", data: inspections.data },
     { key: "hokimiyats", data: hokimiyats.data },

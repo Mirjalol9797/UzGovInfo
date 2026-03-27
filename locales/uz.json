@@ -839,6 +839,47 @@
       }
     }
   },
+  "Banks": {
+    "headtitle": "Oʻzbekiston Respublikasi banklari",
+    "indexEmpty": "Katalog toʻldiriladi: banklar kartalari qoʻshiladi.",
+    "seo": {
+      "title": "Oʻzbekiston banklari — rasmiy saytlar katalogi | Govinfo",
+      "description": "Oʻzbekiston banklari roʻyxati: rasmiy saytlar va xizmatlar haqida qisqacha maʼlumot."
+    },
+    "one": {
+      "title": "Oʻzbekiston Respublikasi Milliy banki (AJ)",
+      "description": "Milliy bank universal bank boʻlib, jismoniy va yuridik shaxslarga kreditlar, hisob-kitob xizmatlari, kartalar, depozitlar va masofaviy xizmatlarni taklif etadi. Rasmiy saytda mahsulotlar, valyuta kurslari, yangiliklar va kontaktlar joylashtiriladi.",
+      "shortDesc": "Universal bank",
+      "link": "https://nbu.uz",
+      "seo": {
+        "title": "Oʻzbekiston Respublikasi Milliy banki — rasmiy sayt | Govinfo",
+        "description": "Milliy bank (AJ) rasmiy sayti: xizmatlar, valyuta kurslari va kontaktlar.",
+        "keywords": "Milliy bank, NBU, nbu.uz, Oʻzbekiston banki"
+      }
+    },
+    "two": {
+      "title": "Kapitalbank (AJ «Kapitalbank»)",
+      "description": "Kapitalbank jismoniy va yuridik shaxslarga bank xizmatlarini koʻrsatadi: kreditlar, RKO, kartalar, depozitlar va onlayn-banking. Dolzarb maʼlumotlar rasmiy saytda.",
+      "shortDesc": "Universal bank",
+      "link": "https://kapitalbank.uz",
+      "seo": {
+        "title": "Kapitalbank — rasmiy sayt | Govinfo",
+        "description": "Kapitalbank rasmiy sayti: bank xizmatlari, valyuta kurslari va mijozlarni qoʻllab-quvvatlash.",
+        "keywords": "Kapitalbank, kapitalbank.uz, Oʻzbekiston banki"
+      }
+    },
+    "three": {
+      "title": "AJ «Ipak Yo'li» banki",
+      "description": "«Ipak Yo'li» banki kreditlash, depozitlar, kartalar va masofaviy xizmatlarni oʻz ichiga olgan toʻliq bank xizmatlarini taklif etadi. Rasmiy saytda mahsulotlar va kontaktlar keltirilgan.",
+      "shortDesc": "Universal bank",
+      "link": "https://ipakyulibank.uz",
+      "seo": {
+        "title": "«Ipak Yo'li» banki — rasmiy sayt | Govinfo",
+        "description": "«Ipak Yo'li» banki rasmiy sayti: xizmatlar, valyuta kurslari va filiallar tarmogʻi.",
+        "keywords": "Ipak Yoli, ipakyulibank.uz, Oʻzbekiston banki"
+      }
+    }
+  },
   "Centers": {
     "headtitle": "Oʻzbekiston Respublikasi markazlari",
     "indexEmpty": "Katalog toʻldiriladi: davlat markazlari kartalari qoʻshiladi.",
@@ -1035,7 +1076,8 @@
     "funds": "Jamgʻarmalar",
     "centers": "Markazlar",
     "inspections": "Davlat inspeksiyalari",
-    "hokimiyats": "Hokimiyatlar"
+    "hokimiyats": "Hokimiyatlar",
+    "banks": "Banklar"
   },
   "M": "M",
   "Ministries": {
@@ -1515,7 +1557,8 @@
     "waterSupply": "Suv taʼminoti",
     "archives": "Arxivlar",
     "pension": "Pensiyalar va ijtimoiy himoya",
-    "poverty": "Kambagʻallikni qisqartirish"
+    "poverty": "Kambagʻallikni qisqartirish",
+    "banking": "Banklar"
   },
   "categoryPopular": {
     "title": "Mashhur tashkilotlar",

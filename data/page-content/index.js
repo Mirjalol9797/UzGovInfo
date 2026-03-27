@@ -165,6 +165,9 @@ const hokimiyatsToshkentCity = () =>
 
 const fundsPj = () => import("./funds/funds-pj.js");
 const fundsMj = () => import("./funds/funds-mj.js");
+const banksNbu = () => import("./banks/banks-nbu.js");
+const banksKapitalbank = () => import("./banks/banks-kapitalbank.js");
+const banksIpakyuli = () => import("./banks/banks-ipakyuli.js");
 const centersEcoekspertiza = () =>
   import("./centers/centers-ecoekspertiza.js");
 
@@ -270,6 +273,9 @@ export const pageContentMap = {
   "hokimiyats-toshkent-city": hokimiyatsToshkentCity,
   "funds-pj": fundsPj,
   "funds-mj": fundsMj,
+  "banks-nbu": banksNbu,
+  "banks-kapitalbank": banksKapitalbank,
+  "banks-ipakyuli": banksIpakyuli,
   "centers-ecoekspertiza": centersEcoekspertiza,
 };
 
