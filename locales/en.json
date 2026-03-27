@@ -826,6 +826,39 @@
         "description": "Official section of the Council of Ministers of the Republic of Karakalpakstan on gov.uz (karakalpakstan): structure, documents, public services, open data, contacts.",
         "keywords": "Karakalpakstan, Council of Ministers, Vazirlar Kengashi, gov.uz karakalpakstan, Nukus, regional government"
       }
+    },
+    "two": {
+      "title": "Andijan regional administration",
+      "description": "Official section of the Andijan regional administration on gov.uz (andijan): about the khokimiyat, structure, leadership, central office, subordinate organisations, regional departments, Andijan regional Council of People’s Deputies, vacancies; activities (state programmes, anti-corruption, e-government, international cooperation, youth and gender policy, tenders); public services (unified register, interactive khokimiyat services, housing privatisation applications, appeals); documents (laws and decisions within competence, discussion of draft NPA); digital government (feedback, FAQ, open data, PF-6247, openness); press service and contacts (trust line +998 74 225-80-00 — verify under “All numbers” on gov.uz).",
+      "shortDesc": "Andijan region",
+      "link": "https://gov.uz/en/andijan",
+      "seo": {
+        "title": "Andijan regional administration — official section gov.uz/andijan",
+        "description": "Official section of the Andijan regional administration on gov.uz (andijan): structure, documents, public services, open data, contacts.",
+        "keywords": "Andijan, regional administration, khokimiyat, gov.uz andijan, Andijon viloyati"
+      }
+    },
+    "three": {
+      "title": "Bukhara regional administration",
+      "description": "Official section of the Bukhara regional administration on gov.uz (buxoro): about the khokimiyat, structure, leadership, central office, subordinate enterprises, territorial departments, provincial vacancies; activities (census, life of territories, tourism, construction and utilities, ecology, economy, state policy, culture, agriculture, international cooperation, anti-corruption, youth and gender policy); public services (appeal statistics, unified interactive services portal); documents (Constitution, draft NPA discussion, laws and resolutions, state programmes); digital government (FAQ, anti-corruption, tenders, vacancies, open budget, PU-6247 reports); press centre and contacts (trust line +998 65 222-22-22 — verify under “All numbers” on gov.uz).",
+      "shortDesc": "Bukhara region",
+      "link": "https://gov.uz/en/buxoro",
+      "seo": {
+        "title": "Bukhara regional administration — official section gov.uz/buxoro",
+        "description": "Official section of the Bukhara regional administration on gov.uz (buxoro): structure, documents, public services, open budget, contacts.",
+        "keywords": "Bukhara, regional administration, khokimiyat, gov.uz buxoro, Buxoro viloyati, tourism"
+      }
+    },
+    "four": {
+      "title": "Jizzakh regional administration",
+      "description": "Official section of the Jizzakh regional administration on gov.uz (jizzax): about the khokimiyat, structure, leadership, central office, subordinate enterprises, city and district administration, coordination bodies, Jizzakh regional Council of People’s Deputies, public council; activities (census, FAQ, analytical and statistical information, tenders, e-government, international cooperation, anti-corruption, youth and gender policy); public services (applications, unified interactive portal, interactive services of the regional administration, register archive); documents (internal and normative documents, draft NPA discussion, Constitution, analytics); digital government (open data, open budget, PF-6247, openness indicators, vacancies, infographics); press centre and contacts (trust line +998 72 226-00-11 — verify under “All numbers” on gov.uz).",
+      "shortDesc": "Jizzakh region",
+      "link": "https://gov.uz/en/jizzax",
+      "seo": {
+        "title": "Jizzakh regional administration — official section gov.uz/jizzax",
+        "description": "Official section of the Jizzakh regional administration on gov.uz (jizzax): structure, documents, public services, open data, contacts.",
+        "keywords": "Jizzakh, Jizzax, regional administration, khokimiyat, gov.uz jizzax, Djizak"
+      }
     }
   },
   "K": "K",

@@ -136,6 +136,12 @@ const inspectionsUzkomnazorat = () =>
   import("./inspections/inspections-uzkomnazorat.js");
 const hokimiyatsKarakalpakstan = () =>
   import("./hokimiyats/hokimiyats-karakalpakstan.js");
+const hokimiyatsAndijan = () =>
+  import("./hokimiyats/hokimiyats-andijan.js");
+const hokimiyatsBukhara = () =>
+  import("./hokimiyats/hokimiyats-bukhara.js");
+const hokimiyatsJizzakh = () =>
+  import("./hokimiyats/hokimiyats-jizzakh.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -224,6 +230,9 @@ export const pageContentMap = {
   "inspections-uztn": inspectionsUztn,
   "inspections-uzkomnazorat": inspectionsUzkomnazorat,
   "hokimiyats-karakalpakstan": hokimiyatsKarakalpakstan,
+  "hokimiyats-andijan": hokimiyatsAndijan,
+  "hokimiyats-bukhara": hokimiyatsBukhara,
+  "hokimiyats-jizzakh": hokimiyatsJizzakh,
 };
 
 export async function getPageContent(slug) {

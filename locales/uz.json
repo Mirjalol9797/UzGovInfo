@@ -826,6 +826,39 @@
         "description": "Qoraqalpogʻiston Respublikasi Vazirlar Kengashining gov.uz dagi rasmiy boʻlimi (karakalpakstan): tuzilma, hujjatlar, davlat xizmatlari, ochiq maʼlumotlar, aloqa.",
         "keywords": "Qoraqalpogʻiston, Vazirlar Kengashi, gov.uz karakalpakstan, Nukus, respublika hukumati"
       }
+    },
+    "two": {
+      "title": "Andijon viloyati hokimligi",
+      "description": "Andijon viloyati hokimligining gov.uz dagi rasmiy boʻlimi (andijan): hokimiyat haqida, tuzilma, rahbariyat, markaziy apparat, tizimdagi tashkilotlar, hududiy boshqarmalar, Andijon viloyati xalq deputatlari Kengashi, boʻsh ish oʻrinlari; faoliyat (davlat dasturlari, korrupsiyaga qarshi kurash, elektron hukumat, xalqaro hamkorlik, yoshlar va gender siyosati, tenderlar); davlat xizmatlari (yagona reyestr, hokimiyatning interaktiv xizmatlari, uy-joy fondini xususiylashtirish, murojaatlar); hujjatlar (vakolatdagi qonun va qarorlar, loyiha muhokamasi); raqamli davlat (qayta aloqa, savollar-javoblar, ochiq maʼlumotlar, PF-6247, OCHIQLIK); matbuot va aloqa (ishonch telefoni +998 74 225-80-00 — «Barcha raqamlar» dan tekshiring).",
+      "shortDesc": "Andijon viloyati",
+      "link": "https://gov.uz/oz/andijan",
+      "seo": {
+        "title": "Andijon viloyati hokimligi — rasmiy boʻlim gov.uz/andijan",
+        "description": "Andijon viloyati hokimligining gov.uz dagi rasmiy boʻlimi (andijan): tuzilma, hujjatlar, davlat xizmatlari, ochiq maʼlumotlar, aloqa.",
+        "keywords": "Andijon, viloyat hokimligi, gov.uz andijan, Andijon viloyati"
+      }
+    },
+    "three": {
+      "title": "Buxoro viloyati hokimligi",
+      "description": "Buxoro viloyati hokimligining gov.uz dagi rasmiy boʻlimi (buxoro): hokimiyat haqida, tuzilma, rahbariyat, markaziy apparat, tizimdagi korxonalar, hududiy boshqarmalar, viloyatdagi vakansiyalar; faoliyat (roʻyxatdan oʻtish, hududlar hayoti, turizm, qurilish va kommunal soha, ekologiya, iqtisodiyot, davlat siyosati, madaniyat, qishloq xoʻjaligi, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender siyosati); davlat xizmatlari (murojaatlar statistikasi, yagona interaktiv portal); hujjatlar (Konstitutsiya, loyiha muhokamasi, qonun va qarorlar, davlat dasturlari); raqamli davlat (savollar-javoblar, korrupsiyaga qarshi, tenderlar, vakansiyalar, ochiq byudjet, PU-6247 hisobotlari); matbuot va aloqa (ishonch telefoni +998 65 222-22-22 — «Barcha raqamlar» dan tekshiring).",
+      "shortDesc": "Buxoro viloyati",
+      "link": "https://gov.uz/oz/buxoro",
+      "seo": {
+        "title": "Buxoro viloyati hokimligi — rasmiy boʻlim gov.uz/buxoro",
+        "description": "Buxoro viloyati hokimligining gov.uz dagi rasmiy boʻlimi (buxoro): tuzilma, hujjatlar, davlat xizmatlari, ochiq byudjet, aloqa.",
+        "keywords": "Buxoro, viloyat hokimligi, gov.uz buxoro, turizm"
+      }
+    },
+    "four": {
+      "title": "Jizzax viloyati hokimligi",
+      "description": "Jizzax viloyati hokimligining gov.uz dagi rasmiy boʻlimi (jizzax): hokimiyat haqida, tuzilma, rahbariyat, markaziy apparat, tizimdagi korxonalar, shahar va tuman maʼmuriyati, muvofiqlashtiruvchi organlar, Jizzax viloyati xalq deputatlari Kengashi, jamoatchilik kengashi; faoliyat (roʻyxatdan oʻtish, savollar-javoblar, tahliliy va statistik maʼlumotlar, tenderlar, elektron hukumat, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender siyosati); davlat xizmatlari (arizalar, yagona interaktiv portal, viloyat maʼmuriyatining interaktiv xizmatlari, reyestr arxivi); hujjatlar (ichki va meʼyoriy hujjatlar, loyiha muhokamasi, Konstitutsiya, tahlil); raqamli davlat (ochiq maʼlumotlar, ochiq byudjet, PF-6247, ochiq boʻlish koʻrsatkichlari, vakansiyalar, infografika); matbuot va aloqa (ishonch telefoni +998 72 226-00-11 — «Barcha raqamlar» dan tekshiring).",
+      "shortDesc": "Jizzax viloyati",
+      "link": "https://gov.uz/oz/jizzax",
+      "seo": {
+        "title": "Jizzax viloyati hokimligi — rasmiy boʻlim gov.uz/jizzax",
+        "description": "Jizzax viloyati hokimligining gov.uz dagi rasmiy boʻlimi (jizzax): tuzilma, hujjatlar, davlat xizmatlari, ochiq maʼlumotlar, aloqa.",
+        "keywords": "Jizzax, viloyat hokimligi, gov.uz jizzax, Djizak"
+      }
     }
   },
   "K": "K",
