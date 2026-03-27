@@ -36,6 +36,7 @@ async function collectDynamicRoutes() {
     { file: "state.js", prefix: "/state" },
     { file: "agencies.js", prefix: "/agencies" },
     { file: "funds.js", prefix: "/funds" },
+    { file: "centers.js", prefix: "/centers" },
     { file: "inspections.js", prefix: "/inspections" },
     { file: "hokimiyats.js", prefix: "/hokimiyats" },
   ];

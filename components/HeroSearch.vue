@@ -6,6 +6,7 @@ import useMinistries from "../data/ministries";
 import useState from "../data/state";
 import useAgencies from "../data/agencies";
 import useFunds from "../data/funds";
+import useCenters from "../data/centers";
 import { navigateTo } from "#app";
 
 const { t } = useI18n();
@@ -16,6 +17,7 @@ const ministries = useMinistries();
 const state = useState();
 const agencies = useAgencies();
 const funds = useFunds();
+const centers = useCenters();
 const inspections = useInspections();
 const hokimiyats = useHokimiyats();
 
@@ -48,6 +50,7 @@ const categories = computed(() => {
     { key: "state", data: state.data },
     { key: "agencies", data: agencies.data },
     { key: "funds", data: funds.data },
+    { key: "centers", data: centers.data },
     { key: "inspections", data: inspections.data },
     { key: "hokimiyats", data: hokimiyats.data },
   ];

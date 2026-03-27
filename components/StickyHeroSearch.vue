@@ -7,6 +7,7 @@ import useMinistries from "../data/ministries";
 import useState from "../data/state";
 import useAgencies from "../data/agencies";
 import useFunds from "../data/funds";
+import useCenters from "../data/centers";
 import { navigateTo } from "#app";
 
 const props = withDefaults(
@@ -27,6 +28,7 @@ const ministries = useMinistries();
 const state = useState();
 const agencies = useAgencies();
 const funds = useFunds();
+const centers = useCenters();
 const inspections = useInspections();
 const hokimiyats = useHokimiyats();
 
@@ -59,6 +61,7 @@ const categories = computed(() => {
     { key: "state", data: state.data },
     { key: "agencies", data: agencies.data },
     { key: "funds", data: funds.data },
+    { key: "centers", data: centers.data },
     { key: "inspections", data: inspections.data },
     { key: "hokimiyats", data: hokimiyats.data },
   ];
@@ -85,6 +88,7 @@ const categoryNav = computed(() => [
   { key: "state" as const, href: "/state" },
   { key: "agencies" as const, href: "/agencies" },
   { key: "funds" as const, href: "/funds" },
+  { key: "centers" as const, href: "/centers" },
   { key: "inspections" as const, href: "/inspections" },
   { key: "hokimiyats" as const, href: "/hokimiyats" },
 ]);

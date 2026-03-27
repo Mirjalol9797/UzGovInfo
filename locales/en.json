@@ -839,6 +839,25 @@
       }
     }
   },
+  "Centers": {
+    "headtitle": "Centers of the Republic of Uzbekistan",
+    "indexEmpty": "The catalogue is growing: more state centers will be added.",
+    "seo": {
+      "title": "Centers of Uzbekistan — catalogue | Govinfo",
+      "description": "Catalogue of state centers of Uzbekistan with official websites and a short description of their activities."
+    },
+    "one": {
+      "title": "Center for State Ecological Expertise",
+      "description": "The Center for State Ecological Expertise conducts state environmental expertise, publishes methodological materials and develops e-services in environmental impact assessment. The official section on gov.uz (ecoekspertiza) provides structure, regional branches, documents and public services including applications for state environmental expertise.",
+      "shortDesc": "State environmental expertise",
+      "link": "https://gov.uz/en/ecoekspertiza",
+      "seo": {
+        "title": "Center for State Ecological Expertise — official website | Govinfo",
+        "description": "Official section of the Center for State Ecological Expertise on gov.uz: environmental expertise, services, documents and contacts.",
+        "keywords": "environmental expertise Uzbekistan, state expertise, ecoekspertiza, gov.uz, ecology"
+      }
+    }
+  },
   "Khokimiyats": {
     "headtitle": "Khokimiyats of the Republic of Uzbekistan — official websites",
     "indexEmpty": "The catalogue is growing: more regional administrations will be added.",
@@ -1014,6 +1033,7 @@
     "state": "State bodies",
     "agencies": "Agencies",
     "funds": "Funds",
+    "centers": "Centers",
     "inspections": "State inspections",
     "hokimiyats": "Khokimiyats"
   },

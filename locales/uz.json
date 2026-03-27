@@ -839,6 +839,25 @@
       }
     }
   },
+  "Centers": {
+    "headtitle": "Oʻzbekiston Respublikasi markazlari",
+    "indexEmpty": "Katalog toʻldiriladi: davlat markazlari kartalari qoʻshiladi.",
+    "seo": {
+      "title": "Oʻzbekiston markazlari — katalog | Govinfo",
+      "description": "Oʻzbekiston davlat markazlari: rasmiy saytlar va faoliyatining qisqacha tavsifi."
+    },
+    "one": {
+      "title": "Davlat ekologik ekspertizasi markazi",
+      "description": "Davlat ekologik ekspertizasi markazi davlat ekologik ekspertizasini oʻtkazadi, metodik materiallarni nashr etadi va atrof-muhitga taʼsirni baholash sohasida elektron xizmatlarni rivojlantiradi. gov.uz dagi rasmiy boʻlimda (ecoekspertiza): tuzilma, hududiy boʻlinmalar, hujjatlar va davlat xizmatlari, shu jumladan davlat ekologik ekspertizasiga ariza berish.",
+      "shortDesc": "Davlat ekologik ekspertizasi",
+      "link": "https://gov.uz/oz/ecoekspertiza",
+      "seo": {
+        "title": "Davlat ekologik ekspertizasi markazi — rasmiy sayt | Govinfo",
+        "description": "Davlat ekologik ekspertizasi markazining gov.uz dagi rasmiy boʻlimi: ekologik ekspertiza, xizmatlar, hujjatlar va aloqa.",
+        "keywords": "ekologik ekspertiza Oʻzbekiston, davlat ekspertizasi, ecoekspertiza, gov.uz, ekologiya"
+      }
+    }
+  },
   "Khokimiyats": {
     "headtitle": "Oʻzbekiston Respublikasi hokimiyatlari — rasmiy saytlar",
     "indexEmpty": "Katalog toʻldirilmoqda: viloyatlar va Toshkent shahri kartochkalari qoʻshiladi.",
@@ -1014,6 +1033,7 @@
     "state": "Davlat organlari",
     "agencies": "Agentliklar",
     "funds": "Jamgʻarmalar",
+    "centers": "Markazlar",
     "inspections": "Davlat inspeksiyalari",
     "hokimiyats": "Hokimiyatlar"
   },

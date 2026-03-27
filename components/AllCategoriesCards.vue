@@ -6,6 +6,7 @@ import useMinistries from "../data/ministries";
 import useState from "../data/state";
 import useAgencies from "../data/agencies";
 import useFunds from "../data/funds";
+import useCenters from "../data/centers";
 
 const props = defineProps({
   title: {
@@ -25,6 +26,7 @@ const ministries = useMinistries();
 const state = useState();
 const agencies = useAgencies();
 const funds = useFunds();
+const centers = useCenters();
 const inspections = useInspections();
 const hokimiyats = useHokimiyats();
 
@@ -34,6 +36,7 @@ const categoryIcons = {
   state: `<svg viewBox="0 0 24 24" fill="none"><path d="M5 6H19V9H5V6Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M5 11H19V14H5V11Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M5 16H13V19H5V16Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>`,
   agencies: `<svg viewBox="0 0 24 24" fill="none"><path d="M5 6H19V9H5V6Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M5 11H19V14H5V11Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M5 16H13V19H5V16Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>`,
   funds: `<svg viewBox="0 0 24 24" fill="none"><path d="M12 3v18M7 6c0-1.657 2.239-3 5-3s5 1.343 5 3-2.239 3-5 3-5-1.343-5-3z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M7 12c0 1.657 2.239 3 5 3s5-1.343 5-3M7 18c0 1.657 2.239 3 5 3s5-1.343 5-3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>`,
+  centers: `<svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.6"/><path d="M12 8V12L14 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6" stroke-dasharray="4 3"/></svg>`,
   inspections: `<svg viewBox="0 0 24 24" fill="none"><path d="M12 3L5 6V11C5 15.52 8.06 19.74 12 21C15.94 19.74 19 15.52 19 11V6L12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 8V12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="15" r="0.9" fill="currentColor"/></svg>`,
   hokimiyats: `<svg viewBox="0 0 24 24" fill="none"><path d="M4 10.5L12 4L20 10.5V20H4V10.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 20V14H15V20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 14V11H16V14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>`,
 };
@@ -78,6 +81,14 @@ const categoryCards = computed(() => [
     count: funds.data.length,
     bg: "#fef9c3",
     color: "#a16207",
+  },
+  {
+    key: "centers",
+    href: "/centers",
+    label: t("otherSites.centers"),
+    count: centers.data.length,
+    bg: "#e0f7fa",
+    color: "#0d9488",
   },
   {
     key: "inspections",

@@ -8,6 +8,7 @@ import useMinistries from "../data/ministries";
 import useState from "../data/state";
 import useAgencies from "../data/agencies";
 import useFunds from "../data/funds";
+import useCenters from "../data/centers";
 
 const route = useRoute();
 const { t, locale } = useI18n();
@@ -45,6 +46,7 @@ const sectionTitleMap = computed(() => ({
   state: t("State.headtitle"),
   agencies: t("Agencies.headtitle"),
   funds: t("Funds.headtitle"),
+  centers: t("Centers.headtitle"),
   inspections: t("Inspections.headtitle"),
   hokimiyats: t("Khokimiyats.headtitle"),
 }));

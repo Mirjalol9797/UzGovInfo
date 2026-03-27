@@ -165,6 +165,8 @@ const hokimiyatsToshkentCity = () =>
 
 const fundsPj = () => import("./funds/funds-pj.js");
 const fundsMj = () => import("./funds/funds-mj.js");
+const centersEcoekspertiza = () =>
+  import("./centers/centers-ecoekspertiza.js");
 
 export const pageContentMap = {
   "headquarters-president": headquartersPresident,
@@ -268,6 +270,7 @@ export const pageContentMap = {
   "hokimiyats-toshkent-city": hokimiyatsToshkentCity,
   "funds-pj": fundsPj,
   "funds-mj": fundsMj,
+  "centers-ecoekspertiza": centersEcoekspertiza,
 };
 
 export async function getPageContent(slug) {

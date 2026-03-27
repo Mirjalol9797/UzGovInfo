@@ -6,6 +6,7 @@ import useMinistries from "../data/ministries";
 import useState from "../data/state";
 import useAgencies from "../data/agencies";
 import useFunds from "../data/funds";
+import useCenters from "../data/centers";
 import StickyHeroSearch from "@/components/StickyHeroSearch.vue";
 
 const { t, locale } = useI18n();
@@ -17,6 +18,7 @@ const categories = [
   { key: "state", data: useState().data },
   { key: "agencies", data: useAgencies().data },
   { key: "funds", data: useFunds().data },
+  { key: "centers", data: useCenters().data },
   { key: "inspections", data: useInspections().data },
   { key: "hokimiyats", data: useHokimiyats().data },
 ];
