@@ -7,6 +7,7 @@ export default {
     { href: "/headquarters", textKey: "otherSites.headquarters" },
     { href: "/ministries", textKey: "otherSites.ministries" },
     { href: "/state", textKey: "otherSites.state" },
+    { href: "/funds", textKey: "otherSites.funds" },
     { href: "/inspections", textKey: "otherSites.inspections" },
     { href: "/hokimiyats", textKey: "otherSites.hokimiyats" },
   ],

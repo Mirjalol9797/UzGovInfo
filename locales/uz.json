@@ -809,6 +809,14 @@
       "shortDesc": "IT va aloqa"
     }
   },
+  "Funds": {
+    "headtitle": "Oʻzbekiston Respublikasi jamgʻarmalari",
+    "indexEmpty": "Katalog toʻldiriladi: davlat va tarmoq jamgʻarmalari kartalari qoʻshiladi.",
+    "seo": {
+      "title": "Oʻzbekiston jamgʻarmalari — katalog | Govinfo",
+      "description": "Oʻzbekiston Respublikasi jamgʻarmalari: rasmiy saytlar va faoliyat yoʻnalishlarining qisqacha tavsifi."
+    }
+  },
   "Khokimiyats": {
     "headtitle": "Oʻzbekiston Respublikasi hokimiyatlari — rasmiy saytlar",
     "indexEmpty": "Katalog toʻldirilmoqda: viloyatlar va Toshkent shahri kartochkalari qoʻshiladi.",
@@ -983,6 +991,7 @@
     "ministries": "Vazirliklar",
     "state": "Davlat organlari",
     "agencies": "Agentliklar",
+    "funds": "Jamgʻarmalar",
     "inspections": "Davlat inspeksiyalari",
     "hokimiyats": "Hokimiyatlar"
   },

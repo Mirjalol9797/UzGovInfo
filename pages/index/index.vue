@@ -3,6 +3,7 @@ import useHeadquarters from "../../data/headquarters";
 import useMinistries from "../../data/ministries";
 import useState from "../../data/state";
 import useAgencies from "../../data/agencies";
+import useFunds from "../../data/funds";
 import useInspections from "../../data/inspections";
 import useHokimiyats from "../../data/hokimiyats";
 import Seo from "../../components/Seo/MainPageSeo.vue";
@@ -17,6 +18,7 @@ const headquarters = useHeadquarters();
 const ministries = useMinistries();
 const state = useState();
 const agencies = useAgencies();
+const funds = useFunds();
 const inspections = useInspections();
 const hokimiyats = useHokimiyats();
 </script>
@@ -290,6 +292,77 @@ const hokimiyats = useHokimiyats();
             :to="localePath(`/agencies/${item.slug}`)"
             class="link-block"
             v-for="(item, index) in agencies.data"
+            :key="index"
+          >
+            <div class="min-w-[64px] h-[64px]">
+              <NuxtImg
+                :src="item.img"
+                :alt="t(item.title)"
+                :title="t(item.title)"
+                class="w-full h-full object-cover rounded-xl"
+                loading="lazy"
+                format="webp"
+              />
+            </div>
+            <h3 class="title">
+              {{ $t(item.title) }}
+            </h3>
+            <p class="short-desc">{{ $t(item.shortDesc) }}</p>
+            <span class="tag-badge">{{ $t(item.tag) }}</span>
+          </nuxt-link>
+        </div>
+      </section>
+
+      <!-- funds -->
+      <section class="mb-10 768:mb-6">
+        <div
+          class="border-b border-[#eee] pb-2 flex-center-between mb-4 md:mb-6"
+        >
+          <h2 class="flex items-center gap-2 font-medium text-base md:text-xl">
+            <span
+              class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-[#fef9c3] text-[#a16207]"
+              aria-hidden="true"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                class="h-4 w-4"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 3v18M7 6c0-1.657 2.239-3 5-3s5 1.343 5 3-2.239 3-5 3-5-1.343-5-3z"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M7 12c0 1.657 2.239 3 5 3s5-1.343 5-3M7 18c0 1.657 2.239 3 5 3s5-1.343 5-3"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+            {{ t("Funds.headtitle") }}
+          </h2>
+          <nuxt-link :to="localePath('/funds')" class="text-xs">{{
+            t("see_all")
+          }}</nuxt-link>
+        </div>
+        <p
+          v-if="!funds.data.length"
+          class="text-[#6B7280] text-sm mb-2"
+        >
+          {{ t("Funds.indexEmpty") }}
+        </p>
+        <div
+          v-else
+          class="grid grid-cols-5 gap-3 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
+        >
+          <nuxt-link
+            :to="localePath(`/funds/${item.slug}`)"
+            class="link-block"
+            v-for="(item, index) in funds.data"
             :key="index"
           >
             <div class="min-w-[64px] h-[64px]">

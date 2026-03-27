@@ -809,6 +809,14 @@
       "shortDesc": "IT and telecommunications"
     }
   },
+  "Funds": {
+    "headtitle": "Funds of the Republic of Uzbekistan",
+    "indexEmpty": "The catalogue is growing: state and sectoral funds will be added.",
+    "seo": {
+      "title": "Funds of Uzbekistan — catalogue | Govinfo",
+      "description": "Catalogue of funds of the Republic of Uzbekistan with official websites and a short description of their activities."
+    }
+  },
   "Khokimiyats": {
     "headtitle": "Khokimiyats of the Republic of Uzbekistan — official websites",
     "indexEmpty": "The catalogue is growing: more regional administrations will be added.",
@@ -983,6 +991,7 @@
     "ministries": "Ministries",
     "state": "State bodies",
     "agencies": "Agencies",
+    "funds": "Funds",
     "inspections": "State inspections",
     "hokimiyats": "Khokimiyats"
   },

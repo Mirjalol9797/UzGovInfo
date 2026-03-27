@@ -5,6 +5,7 @@ import useHokimiyats from "../data/hokimiyats";
 import useMinistries from "../data/ministries";
 import useState from "../data/state";
 import useAgencies from "../data/agencies";
+import useFunds from "../data/funds";
 
 const { t, locale } = useI18n();
 const localePath = useLocalePath();
@@ -14,6 +15,7 @@ const categories = [
   { key: "ministries", data: useMinistries().data },
   { key: "state", data: useState().data },
   { key: "agencies", data: useAgencies().data },
+  { key: "funds", data: useFunds().data },
   { key: "inspections", data: useInspections().data },
   { key: "hokimiyats", data: useHokimiyats().data },
 ];

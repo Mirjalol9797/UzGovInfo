@@ -223,13 +223,14 @@ export default function hokimiyats() {
         description: "Khokimiyats.fourteen.description",
         shortDesc: "Khokimiyats.fourteen.shortDesc",
         tag: "tags.regional",
-        img: "/images/gerb.png",
+        img: "https://api-portal.gov.uz/uploads/53/2025/06/20/47870a99-e752-33d3-2891-d49c5bd5f4e6_authority_53.png",
         link: "Khokimiyats.fourteen.link",
         seo: {
           title: "Khokimiyats.fourteen.seo.title",
           description: "Khokimiyats.fourteen.seo.description",
           keywords: "Khokimiyats.fourteen.seo.keywords",
-          image: "/images/gerb.png",
+          image:
+            "https://api-portal.gov.uz/uploads/53/2025/06/20/47870a99-e752-33d3-2891-d49c5bd5f4e6_authority_53.png",
         },
       },
     ],

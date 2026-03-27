@@ -4,6 +4,7 @@ import useInspections from "../../data/inspections";
 import useHokimiyats from "../../data/hokimiyats";
 import useMinistries from "../../data/ministries";
 import useState from "../../data/state";
+import useFunds from "../../data/funds";
 
 const { t } = useI18n();
 const localePath = useLocalePath();
@@ -19,6 +20,7 @@ type CategoryKey =
   | "headquarters"
   | "ministries"
   | "state"
+  | "funds"
   | "inspections"
   | "hokimiyats";
 
@@ -43,6 +45,7 @@ const allOrganizations = computed<Organization[]>(() => {
     { key: "headquarters", data: headquarters.data },
     { key: "ministries", data: ministries.data },
     { key: "state", data: state.data },
+    { key: "funds", data: funds.data },
     { key: "inspections", data: inspections.data },
     { key: "hokimiyats", data: hokimiyats.data },
   ];

@@ -4,6 +4,7 @@ import useInspections from "./data/inspections";
 import useHokimiyats from "./data/hokimiyats";
 import useMinistries from "./data/ministries";
 import useState from "./data/state";
+import useFunds from "./data/funds";
 
 const props = defineProps({
   error: Object,
@@ -17,6 +18,7 @@ const categories = [
   { key: "headquarters", data: useHeadquarters().data },
   { key: "ministries", data: useMinistries().data },
   { key: "state", data: useState().data },
+  { key: "funds", data: useFunds().data },
   { key: "inspections", data: useInspections().data },
   { key: "hokimiyats", data: useHokimiyats().data },
 ];
@@ -92,6 +94,7 @@ const categoryLinks = computed(() => [
   { path: "/ministries", titleKey: "Ministries.headtitle" },
   { path: "/state", titleKey: "State.headtitle" },
   { path: "/inspections", titleKey: "Inspections.headtitle" },
+  { path: "/funds", titleKey: "Funds.headtitle" },
   { path: "/hokimiyats", titleKey: "Khokimiyats.headtitle" },
 ]);
 </script>

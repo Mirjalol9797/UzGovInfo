@@ -5,6 +5,7 @@ import useHokimiyats from "../data/hokimiyats";
 import useMinistries from "../data/ministries";
 import useState from "../data/state";
 import useAgencies from "../data/agencies";
+import useFunds from "../data/funds";
 import { navigateTo } from "#app";
 
 const { t } = useI18n();
@@ -22,6 +23,7 @@ type OrganizationCategoryKey =
   | "ministries"
   | "state"
   | "agencies"
+  | "funds"
   | "inspections"
   | "hokimiyats";
 
@@ -44,6 +46,7 @@ const categories = computed(() => {
     { key: "ministries", data: ministries.data },
     { key: "state", data: state.data },
     { key: "agencies", data: agencies.data },
+    { key: "funds", data: funds.data },
     { key: "inspections", data: inspections.data },
     { key: "hokimiyats", data: hokimiyats.data },
   ];
