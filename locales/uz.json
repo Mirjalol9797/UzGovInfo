@@ -809,6 +809,25 @@
       "shortDesc": "IT va aloqa"
     }
   },
+  "Khokimiyats": {
+    "headtitle": "Oʻzbekiston Respublikasi hokimiyatlari — rasmiy saytlar",
+    "indexEmpty": "Katalog toʻldirilmoqda: viloyatlar va Toshkent shahri kartochkalari qoʻshiladi.",
+    "seo": {
+      "title": "Oʻzbekiston hokimiyatlari — rasmiy saytlar | Govinfo",
+      "description": "Viloyatlar, Toshkent shahri va Qoraqalpogʻiston Respublikasi Vazirlar Kengashi hokimiyatlari: hududiy ijroiya organlarining rasmiy internet resurslariga havolalar."
+    },
+    "one": {
+      "title": "Qoraqalpogʻiston Respublikasi Vazirlar Kengashi",
+      "description": "Qoraqalpogʻiston Respublikasi Vazirlar Kengashining gov.uz dagi rasmiy boʻlimi (karakalpakstan): Vazirlar Kengashi haqida, tuzilma, rahbariyat, markaziy apparat, tizimdagi tashkilotlar, shahar va tumanlar, boʻsh ish oʻrinlari, jamoatchilik kengashi; faoliyat (tanlovlar, tenderlar, ochiq majlislar, savollar-javoblar, davlat dasturlari, sayyor qabul, korrupsiyaga qarshi kurash); davlat xizmatlari (murojaatlar, yagona reyestr, tadbirkorlarga yer xaritasi, interaktiv portal); hujjatlar (meʼyoriy hujjatlar, loyiha muhokamasi, reglament, Vazirlar Kengashi toʻgʻrisidagi qonun, qarorlar); raqamli davlat (geomaʼlumotlar, ochiq maʼlumotlar, «Aqlli shahar», tashabbus byudjeti, PF-6247, PF-3299); matbuot va aloqa (ishonch telefoni +998 61 222-26-14 — «Barcha raqamlar» dan tekshiring).",
+      "shortDesc": "Qoraqalpogʻiston hukumati",
+      "link": "https://gov.uz/oz/karakalpakstan",
+      "seo": {
+        "title": "Qoraqalpogʻiston Vazirlar Kengashi — rasmiy boʻlim gov.uz/karakalpakstan",
+        "description": "Qoraqalpogʻiston Respublikasi Vazirlar Kengashining gov.uz dagi rasmiy boʻlimi (karakalpakstan): tuzilma, hujjatlar, davlat xizmatlari, ochiq maʼlumotlar, aloqa.",
+        "keywords": "Qoraqalpogʻiston, Vazirlar Kengashi, gov.uz karakalpakstan, Nukus, respublika hukumati"
+      }
+    }
+  },
   "K": "K",
   "L": "L",
   "link_to_official_website": "Rasmiy veb-saytga havola",
@@ -821,7 +840,8 @@
     "ministries": "Vazirliklar",
     "state": "Davlat organlari",
     "agencies": "Agentliklar",
-    "inspections": "Davlat inspeksiyalari"
+    "inspections": "Davlat inspeksiyalari",
+    "hokimiyats": "Hokimiyatlar"
   },
   "M": "M",
   "Ministries": {
@@ -1296,6 +1316,7 @@
     "family": "Oila va xotin-qizlar",
     "religion": "Din",
     "youth": "Yoshlar siyosati",
+    "regional": "Hududiy boshqaruv",
     "space": "Kosmos",
     "waterSupply": "Suv taʼminoti",
     "archives": "Arxivlar"

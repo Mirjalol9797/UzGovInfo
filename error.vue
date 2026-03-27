@@ -1,6 +1,7 @@
 <script setup>
 import useHeadquarters from "./data/headquarters";
 import useInspections from "./data/inspections";
+import useHokimiyats from "./data/hokimiyats";
 import useMinistries from "./data/ministries";
 import useState from "./data/state";
 
@@ -17,6 +18,7 @@ const categories = [
   { key: "ministries", data: useMinistries().data },
   { key: "state", data: useState().data },
   { key: "inspections", data: useInspections().data },
+  { key: "hokimiyats", data: useHokimiyats().data },
 ];
 
 const allOrganizations = computed(() =>
@@ -90,6 +92,7 @@ const categoryLinks = computed(() => [
   { path: "/ministries", titleKey: "Ministries.headtitle" },
   { path: "/state", titleKey: "State.headtitle" },
   { path: "/inspections", titleKey: "Inspections.headtitle" },
+  { path: "/hokimiyats", titleKey: "Khokimiyats.headtitle" },
 ]);
 </script>
 

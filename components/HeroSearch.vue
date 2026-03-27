@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import useHeadquarters from "../data/headquarters";
 import useInspections from "../data/inspections";
+import useHokimiyats from "../data/hokimiyats";
 import useMinistries from "../data/ministries";
 import useState from "../data/state";
 import useAgencies from "../data/agencies";
@@ -14,8 +15,15 @@ const ministries = useMinistries();
 const state = useState();
 const agencies = useAgencies();
 const inspections = useInspections();
+const hokimiyats = useHokimiyats();
 
-type OrganizationCategoryKey = "headquarters" | "ministries" | "state" | "agencies" | "inspections";
+type OrganizationCategoryKey =
+  | "headquarters"
+  | "ministries"
+  | "state"
+  | "agencies"
+  | "inspections"
+  | "hokimiyats";
 
 type Organization = {
   id: number;
@@ -37,6 +45,7 @@ const categories = computed(() => {
     { key: "state", data: state.data },
     { key: "agencies", data: agencies.data },
     { key: "inspections", data: inspections.data },
+    { key: "hokimiyats", data: hokimiyats.data },
   ];
   return cats;
 });

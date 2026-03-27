@@ -92,6 +92,7 @@ const otherSites = computed(() => {
     if (s.includes("state-sanepid")) return "people";
     if (s.includes("state-icc")) return "globe";
     if (s.includes("state-gazna")) return "finance";
+    if (s.includes("hokimiyats-")) return "building";
     if (s.includes("inspections-drinking-water")) return "chart";
     if (s.includes("inspections-agro-industrial")) return "program";
     if (s.includes("inspections-uzenergoinspeksiya")) return "chart";

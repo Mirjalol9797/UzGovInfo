@@ -1,6 +1,7 @@
 <script setup>
 import useHeadquarters from "../data/headquarters";
 import useInspections from "../data/inspections";
+import useHokimiyats from "../data/hokimiyats";
 import useMinistries from "../data/ministries";
 import useState from "../data/state";
 import useAgencies from "../data/agencies";
@@ -14,6 +15,7 @@ const categories = [
   { key: "state", data: useState().data },
   { key: "agencies", data: useAgencies().data },
   { key: "inspections", data: useInspections().data },
+  { key: "hokimiyats", data: useHokimiyats().data },
 ];
 
 const allOrganizations = computed(() => {

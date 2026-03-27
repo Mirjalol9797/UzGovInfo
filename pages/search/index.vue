@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import useHeadquarters from "../../data/headquarters";
 import useInspections from "../../data/inspections";
+import useHokimiyats from "../../data/hokimiyats";
 import useMinistries from "../../data/ministries";
 import useState from "../../data/state";
 
@@ -12,8 +13,14 @@ const headquarters = useHeadquarters();
 const ministries = useMinistries();
 const state = useState();
 const inspections = useInspections();
+const hokimiyats = useHokimiyats();
 
-type CategoryKey = "headquarters" | "ministries" | "state" | "inspections";
+type CategoryKey =
+  | "headquarters"
+  | "ministries"
+  | "state"
+  | "inspections"
+  | "hokimiyats";
 
 type Organization = {
   id: number;
@@ -37,6 +44,7 @@ const allOrganizations = computed<Organization[]>(() => {
     { key: "ministries", data: ministries.data },
     { key: "state", data: state.data },
     { key: "inspections", data: inspections.data },
+    { key: "hokimiyats", data: hokimiyats.data },
   ];
 
   return cats

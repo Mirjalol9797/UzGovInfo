@@ -1,6 +1,7 @@
 <script setup>
 import useHeadquarters from "../data/headquarters";
 import useInspections from "../data/inspections";
+import useHokimiyats from "../data/hokimiyats";
 import useMinistries from "../data/ministries";
 import useState from "../data/state";
 import useAgencies from "../data/agencies";
@@ -23,6 +24,7 @@ const ministries = useMinistries();
 const state = useState();
 const agencies = useAgencies();
 const inspections = useInspections();
+const hokimiyats = useHokimiyats();
 
 const categoryIcons = {
   headquarters: `<svg viewBox="0 0 24 24" fill="none"><path d="M4 10L12 4L20 10V19H4V10Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 19V13H14V19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
@@ -30,6 +32,7 @@ const categoryIcons = {
   state: `<svg viewBox="0 0 24 24" fill="none"><path d="M5 6H19V9H5V6Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M5 11H19V14H5V11Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M5 16H13V19H5V16Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>`,
   agencies: `<svg viewBox="0 0 24 24" fill="none"><path d="M5 6H19V9H5V6Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M5 11H19V14H5V11Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M5 16H13V19H5V16Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>`,
   inspections: `<svg viewBox="0 0 24 24" fill="none"><path d="M12 3L5 6V11C5 15.52 8.06 19.74 12 21C15.94 19.74 19 15.52 19 11V6L12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 8V12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="15" r="0.9" fill="currentColor"/></svg>`,
+  hokimiyats: `<svg viewBox="0 0 24 24" fill="none"><path d="M4 10.5L12 4L20 10.5V20H4V10.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 20V14H15V20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 14V11H16V14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>`,
 };
 
 const categoryCards = computed(() => [
@@ -72,6 +75,14 @@ const categoryCards = computed(() => [
     count: inspections.data.length,
     bg: "#fef3c7",
     color: "#d97706",
+  },
+  {
+    key: "hokimiyats",
+    href: "/hokimiyats",
+    label: t("otherSites.hokimiyats"),
+    count: hokimiyats.data.length,
+    bg: "#e8f5e9",
+    color: "#2e7d32",
   },
 ]);
 </script>

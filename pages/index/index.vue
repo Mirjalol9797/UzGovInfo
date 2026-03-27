@@ -4,6 +4,7 @@ import useMinistries from "../../data/ministries";
 import useState from "../../data/state";
 import useAgencies from "../../data/agencies";
 import useInspections from "../../data/inspections";
+import useHokimiyats from "../../data/hokimiyats";
 import Seo from "../../components/Seo/MainPageSeo.vue";
 import SiteDescription from "@/components/mainPage/SiteDescription.vue";
 import HowUseSite from "@/components/mainPage/HowUseSite.vue";
@@ -17,6 +18,7 @@ const ministries = useMinistries();
 const state = useState();
 const agencies = useAgencies();
 const inspections = useInspections();
+const hokimiyats = useHokimiyats();
 </script>
 
 <template>
@@ -353,6 +355,84 @@ const inspections = useInspections();
             :to="localePath(`/inspections/${item.slug}`)"
             class="link-block"
             v-for="(item, index) in inspections.data"
+            :key="index"
+          >
+            <div class="min-w-[64px] h-[64px]">
+              <NuxtImg
+                :src="item.img"
+                :alt="t(item.title)"
+                :title="t(item.title)"
+                class="w-full h-full object-cover rounded-xl"
+                loading="lazy"
+                format="webp"
+              />
+            </div>
+            <h3 class="title">
+              {{ $t(item.title) }}
+            </h3>
+            <p class="short-desc">{{ $t(item.shortDesc) }}</p>
+            <span class="tag-badge">{{ $t(item.tag) }}</span>
+          </nuxt-link>
+        </div>
+      </section>
+
+      <!-- hokimiyats -->
+      <section class="mb-10 768:mb-6">
+        <div
+          class="border-b border-[#eee] pb-2 flex-center-between mb-4 md:mb-6"
+        >
+          <h2 class="flex items-center gap-2 font-medium text-base md:text-xl">
+            <span
+              class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-[#e8f5e9] text-[#2e7d32]"
+              aria-hidden="true"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                class="h-4 w-4"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 10.5L12 4L20 10.5V20H4V10.5Z"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M9 20V14H15V20"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M8 14V11H16V14"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+            {{ t("Khokimiyats.headtitle") }}
+          </h2>
+          <nuxt-link :to="localePath('/hokimiyats')" class="text-xs">{{
+            t("see_all")
+          }}</nuxt-link>
+        </div>
+        <p
+          v-if="!hokimiyats.data.length"
+          class="text-[#6B7280] text-sm mb-2"
+        >
+          {{ t("Khokimiyats.indexEmpty") }}
+        </p>
+        <div
+          v-else
+          class="grid grid-cols-5 gap-3 768:grid-cols-2 768:gap-2 576:!grid-cols-1"
+        >
+          <nuxt-link
+            :to="localePath(`/hokimiyats/${item.slug}`)"
+            class="link-block"
+            v-for="(item, index) in hokimiyats.data"
             :key="index"
           >
             <div class="min-w-[64px] h-[64px]">

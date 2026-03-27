@@ -3,6 +3,7 @@ import { computed } from "vue";
 import { useRoute } from "vue-router";
 import useHeadquarters from "../data/headquarters";
 import useInspections from "../data/inspections";
+import useHokimiyats from "../data/hokimiyats";
 import useMinistries from "../data/ministries";
 import useState from "../data/state";
 import useAgencies from "../data/agencies";
@@ -21,6 +22,7 @@ const slugTitleMap = computed(() => {
     useState().data,
     useAgencies().data,
     useInspections().data,
+    useHokimiyats().data,
   ];
 
   sources.flat().forEach((item) => {
@@ -41,6 +43,7 @@ const sectionTitleMap = computed(() => ({
   state: t("State.headtitle"),
   agencies: t("Agencies.headtitle"),
   inspections: t("Inspections.headtitle"),
+  hokimiyats: t("Khokimiyats.headtitle"),
 }));
 
 const pathSegments = computed(() => {

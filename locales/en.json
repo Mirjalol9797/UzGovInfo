@@ -809,6 +809,25 @@
       "shortDesc": "IT and telecommunications"
     }
   },
+  "Khokimiyats": {
+    "headtitle": "Khokimiyats of the Republic of Uzbekistan — official websites",
+    "indexEmpty": "The catalogue is growing: more regional administrations will be added.",
+    "seo": {
+      "title": "Khokimiyats of Uzbekistan — official websites | Govinfo",
+      "description": "Catalogue of regional administrations, Tashkent city administration and the Council of Ministers of the Republic of Karakalpakstan: links to official websites of regional executive bodies."
+    },
+    "one": {
+      "title": "Council of Ministers of the Republic of Karakalpakstan",
+      "description": "Official section of the Council of Ministers of the Republic of Karakalpakstan on gov.uz (karakalpakstan): about the Council, structure, leadership, central office, subordinate organisations, cities and districts, vacancies, public council; activities (selections, tenders, open sessions, FAQ, state programmes, field receptions, anti-corruption); public services (appeals, unified register, land map for entrepreneurs, interactive portal); documents (regulations, draft law discussion, council regulations, law on the Council, decisions, etc.); digital government (geodata, open data, smart city, participatory budget reports, PF-6247, PF-3299); press service and contacts (trust line +998 61 222-26-14 — verify under “All numbers” on gov.uz).",
+      "shortDesc": "Government of Karakalpakstan",
+      "link": "https://gov.uz/en/karakalpakstan",
+      "seo": {
+        "title": "Council of Ministers of Karakalpakstan — official section gov.uz/karakalpakstan",
+        "description": "Official section of the Council of Ministers of the Republic of Karakalpakstan on gov.uz (karakalpakstan): structure, documents, public services, open data, contacts.",
+        "keywords": "Karakalpakstan, Council of Ministers, Vazirlar Kengashi, gov.uz karakalpakstan, Nukus, regional government"
+      }
+    }
+  },
   "K": "K",
   "L": "L",
   "link_to_official_website": "Link to official website",
@@ -821,7 +840,8 @@
     "ministries": "Ministries",
     "state": "State bodies",
     "agencies": "Agencies",
-    "inspections": "State inspections"
+    "inspections": "State inspections",
+    "hokimiyats": "Khokimiyats"
   },
   "M": "M",
   "Ministries": {
@@ -1296,6 +1316,7 @@
     "family": "Family & women",
     "religion": "Religion",
     "youth": "Youth policy",
+    "regional": "Regional government",
     "space": "Space",
     "waterSupply": "Water Supply",
     "archives": "Archives"
