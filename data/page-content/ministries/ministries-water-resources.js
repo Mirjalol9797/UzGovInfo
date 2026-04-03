@@ -15,6 +15,68 @@ export default {
       ctaText:
         "Перейти в официальный раздел Министерства водного хозяйства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        {
+          display: "+99871 202-47-48",
+          href: "tel:+998712024748",
+        },
+      ],
+      trustPhone: {
+        display: "+99871 202-47-00, +99871 202-48-00",
+        href: "tel:+998712024700",
+      },
+      email: {
+        display: "mwr@minwater.uz",
+        href: "mailto:mwr@minwater.uz",
+      },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC1La5moh4XmlvcMuqi1GZ8Q?view_as=subscriber",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/TGminwater",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/www.water.gov.uz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/suv_xojaligi_vazirligi/",
+        },
+      ],
+      address:
+        "100187, г. Ташкент, Мирзо-Улугбекский район, массив Карасув-4, дом 11",
+      transport:
+        "Астановка “Карасув-2 мавзеси”\nАвтобусы: 21, 25, 49, 50, 63, 89\nМаршрутка: 31",
+      hours:
+        "Понедельник-пятница, 9:00–18:00 ч.\nОбед: 13:00–14:00 ч.\nВыходные дни: Суббота-воскресение и праздничные дни.",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Министерства водного хозяйства (suvchi).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/suvchi/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -72,7 +134,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Министерства водного хозяйства Республики Узбекистан на портале gov.uz (suvchi).",
+        "Официальный раздел Министерства водного хозяйства Республики Узбекистан на портале gov.uz (suvchi): указаны телефон +99871 202-47-48, телефоны доверия +99871 202-47-00 и +99871 202-48-00, электронная почта mwr[at]minwater.uz, адрес и режим работы, а также ссылки на социальные сети.",
       orgName: "Министерство водного хозяйства Республики Узбекистан",
       sameAs: "https://gov.uz/ru/suvchi",
     },
@@ -112,6 +174,67 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Ministry of Water Resources on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Hotline",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        {
+          display: "+99871 202-47-48",
+          href: "tel:+998712024748",
+        },
+      ],
+      trustPhone: {
+        display: "+99871 202-47-00 and 202-48-00",
+        href: "tel:+998712024700",
+      },
+      email: {
+        display: "mwr@minwater.uz",
+        href: "mailto:mwr@minwater.uz",
+      },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC1La5moh4XmlvcMuqi1GZ8Q?view_as=subscriber",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/TGminwater",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/www.water.gov.uz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/suv_xojaligi_vazirligi/",
+        },
+      ],
+      address: "100187, Tashkent, Mirzo-Ulugbek district, Karasuv-4, house 11",
+      transport:
+        "Stop: “Karasuv-2 mazesı”\nBuses: 21, 25, 49, 50, 63, 89\nMinibus: 31",
+      hours:
+        "Monday–Friday, 9:00–18:00\nLunch: 13:00–14:00\nDays off: Saturday–Sunday and public holidays.",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), Ministry of Water Resources (suvchi) section.",
+        reuseNoticeBefore: "When using materials from this website a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/suvchi/",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -170,7 +293,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Ministry of Water Resources of the Republic of Uzbekistan on gov.uz (suvchi).",
+        "Official section of the Ministry of Water Resources of the Republic of Uzbekistan on gov.uz (suvchi): phone +99871 202-47-48, hotlines +99871 202-47-00 and +99871 202-48-00, email mwr[at]minwater.uz, address and office hours, plus social media links.",
       orgName: "Ministry of Water Resources of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/suvchi",
     },
@@ -206,6 +329,68 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Suv xoʻjaligi vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqalar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        {
+          display: "+99871 202-47-48",
+          href: "tel:+998712024748",
+        },
+      ],
+      trustPhone: {
+        display: "+99871 202-47-00 va 202-48-00",
+        href: "tel:+998712024700",
+      },
+      email: {
+        display: "mwr@minwater.uz",
+        href: "mailto:mwr@minwater.uz",
+      },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC1La5moh4XmlvcMuqi1GZ8Q?view_as=subscriber",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/TGminwater",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/www.water.gov.uz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/suv_xojaligi_vazirligi/",
+        },
+      ],
+      address:
+        "100187, Toshkent sh., Mirzo-Ulugʻbek tumani, Karasuv-4 massiv, 11-uy",
+      transport:
+        "“Karasuv-2 mavzesi” bekati\nAvtobuslar: 21, 25, 49, 50, 63, 89\nMarshrutka: 31",
+      hours:
+        "Dushanba–Juma, 9:00–18:00\nTushlik: 13:00–14:00\nDam olish kunlari: Shanba–yakshanba va bayram kunlari.",
+      sourceAttribution: {
+        dataSource:
+          "Bogʻlanish ma’lumotlari O‘zbekiston Respublikasi rasmiy portali (gov.uz) ma’lumotlari asosida, Suv xoʻjaligi vazirligi (suvchi) bo‘limidan keltirilgan.",
+        reuseNoticeBefore: "Ushbu saytdan materiallardan foydalanganda veb-saytga ",
+        reuseLinkText: "havola",
+        reuseNoticeAfter: " majburiy.",
+        reuseUrl: "https://gov.uz/oz/suvchi/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -264,7 +449,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Suv xoʻjaligi vazirligining gov.uz portali boʻlimi (suvchi).",
+        "Oʻzbekiston Respublikasi Suv xoʻjaligi vazirligining gov.uz portali boʻlimi (suvchi): telefon +99871 202-47-48, ishonch telefonlari +99871 202-47-00 va +99871 202-48-00, elektron pochta mwr[at]minwater.uz, manzil va ish vaqti, shuningdek ijtimoiy tarmoqlar havolalari keltirilgan.",
       orgName: "Suv xoʻjaligi vazirligi",
       sameAs: "https://gov.uz/oz/suvchi",
     },
