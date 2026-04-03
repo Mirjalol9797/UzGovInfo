@@ -15,6 +15,63 @@ export default {
       ctaText:
         "Перейти в официальный раздел Министерства спорта на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        {
+          display: "+99871 239-24-51",
+          href: "tel:+998712392451",
+        },
+      ],
+      trustPhone: {
+        display: "+998 55 520-90-07",
+        href: "tel:+998555209007",
+      },
+      email: {
+        display: "info@sport.uz",
+        href: "mailto:info@sport.uz",
+      },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCzHWPc6S4X2vBUwOE22yd1A",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/MinistrySportUz",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/Minsportuz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://instagram.com/minsport.uz",
+        },
+      ],
+      address: "100202, г.Ташкент, Яшнабадский район, Олимпийский городок",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Министерства спорта (sport).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/sport/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -113,6 +170,63 @@ export default {
       h2: "Official website",
       ctaText: "Go to the Ministry of Sports on gov.uz →",
     },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Hotline",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        {
+          display: "+99871 239-24-51",
+          href: "tel:+998712392451",
+        },
+      ],
+      trustPhone: {
+        display: "+998 55 520-90-07",
+        href: "tel:+998555209007",
+      },
+      email: {
+        display: "info@sport.uz",
+        href: "mailto:info@sport.uz",
+      },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCzHWPc6S4X2vBUwOE22yd1A",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/MinistrySportUz",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/Minsportuz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://instagram.com/minsport.uz",
+        },
+      ],
+      address: "100202, г.Ташкент, Яшнабадский район, Олимпийский городок",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), Ministry of Sports (sport) section.",
+        reuseNoticeBefore: "When using materials from this website a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/ru/sport/",
+      },
+    },
     whatFind: {
       h2: "What you can find on the official website",
       intro:
@@ -210,6 +324,63 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Sport vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqalar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        {
+          display: "+99871 239-24-51",
+          href: "tel:+998712392451",
+        },
+      ],
+      trustPhone: {
+        display: "+998 55 520-90-07",
+        href: "tel:+998555209007",
+      },
+      email: {
+        display: "info@sport.uz",
+        href: "mailto:info@sport.uz",
+      },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCzHWPc6S4X2vBUwOE22yd1A",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/MinistrySportUz",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/Minsportuz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://instagram.com/minsport.uz",
+        },
+      ],
+      address: "100202, г.Ташкент, Яшнабадский район, Олимпийский городок",
+      sourceAttribution: {
+        dataSource:
+          "Bog'lanish ma'lumotlari O'zbekiston Respublikasi rasmiy portali (gov.uz) ma'lumotlari asosida, Sport vazirligi (sport) bo'limidan keltirilgan.",
+        reuseNoticeBefore: "Ushbu saytdan materiallardan foydalanganda veb-saytga ",
+        reuseLinkText: "havola",
+        reuseNoticeAfter: " majburiy.",
+        reuseUrl: "https://gov.uz/ru/sport/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
