@@ -15,6 +15,61 @@ export default {
       ctaText:
         "Перейти в официальный раздел Министерства энергетики на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        {
+          display: "+998 71-231-16-61 (7050) Devonxona",
+          href: "tel:+998712311661",
+        },
+      ],
+      trustPhone: {
+        display: "+99871 231-81-18",
+        href: "tel:+998712318118",
+      },
+      email: {
+        display: "info@minenergy.uz",
+        href: "mailto:info@minenergy.uz",
+      },
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/minenergy.uz/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/minenergy_uz",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/energetikavazirligi",
+        },
+      ],
+      address: "Город Ташкент, Новый центр Ташкента, улица Энергетиков, дом 22.",
+      transport: "Автобусы: № 137, 197",
+      hours:
+        "понедельник - пятница: 9:00 - 18:00\nобеденный перерыв: 13:00 - 14:00\nсуббота, воскресенье: выходной",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Министерства энергетики (minenergy).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/minenergy/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -72,7 +127,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Министерства энергетики Республики Узбекистан на портале gov.uz (minenergy).",
+        "Официальный раздел Министерства энергетики Республики Узбекистан на портале gov.uz (minenergy): телефон +998 71-231-16-61 (7050) Devonxona, телефон доверия +99871 231-81-18, электронная почта info[at]minenergy.uz, адрес Город Ташкент, Новый центр Ташкента, улица Энергетиков, дом 22, транспорт и рабочее время, а также ссылки на социальные сети.",
       orgName: "Министерство энергетики Республики Узбекистан",
       sameAs: "https://gov.uz/ru/minenergy",
     },
@@ -112,6 +167,61 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Ministry of Energy on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Hotline",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        {
+          display: "+998 71-231-16-61 (7050) Devonxona",
+          href: "tel:+998712311661",
+        },
+      ],
+      trustPhone: {
+        display: "+99871 231-81-18",
+        href: "tel:+998712318118",
+      },
+      email: {
+        display: "info@minenergy.uz",
+        href: "mailto:info@minenergy.uz",
+      },
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/minenergy.uz/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/minenergy_uz",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/energetikavazirligi",
+        },
+      ],
+      address: "Tashkent city, New Center of Tashkent, Energetikov street, house 22.",
+      transport: "Buses: No. 137, 197",
+      hours:
+        "Monday - Friday: 9:00 - 18:00\nLunch break: 13:00 - 14:00\nSaturday, Sunday: day off",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), Ministry of Energy (minenergy) section.",
+        reuseNoticeBefore: "When using materials from this website a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/minenergy/",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -170,7 +280,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Ministry of Energy of the Republic of Uzbekistan on gov.uz (minenergy).",
+        "Official section of the Ministry of Energy of the Republic of Uzbekistan on gov.uz (minenergy): phone +998 71-231-16-61 (7050) Devonxona, hotline +99871 231-81-18, email info[at]minenergy.uz, address Tashkent city, New Center of Tashkent, Energetikov street, house 22, transport and office hours, and social media links.",
       orgName: "Ministry of Energy of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/minenergy",
     },
@@ -210,6 +320,61 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Energetika vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqalar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        {
+          display: "+998 71-231-16-61 (7050) Devonxona",
+          href: "tel:+998712311661",
+        },
+      ],
+      trustPhone: {
+        display: "+99871 231-81-18",
+        href: "tel:+998712318118",
+      },
+      email: {
+        display: "info@minenergy.uz",
+        href: "mailto:info@minenergy.uz",
+      },
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/minenergy.uz/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/minenergy_uz",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/energetikavazirligi",
+        },
+      ],
+      address: "Toshkent shahri, Toshkentning Yangi markazi, Energetiklar ko'chasi, 22-uy.",
+      transport: "Avtobuslar: № 137, 197",
+      hours:
+        "Dushanba - juma: 9:00 - 18:00\nTushlik tanaffusi: 13:00 - 14:00\nShanba, yakshanba: dam olish",
+      sourceAttribution: {
+        dataSource:
+          "Bog'lanish ma'lumotlari O'zbekiston Respublikasi rasmiy portali (gov.uz) ma'lumotlari asosida, Energetika vazirligi (minenergy) bo'limidan keltirilgan.",
+        reuseNoticeBefore: "Ushbu saytdan materiallardan foydalanganda veb-saytga ",
+        reuseLinkText: "havola",
+        reuseNoticeAfter: " majburiy.",
+        reuseUrl: "https://gov.uz/oz/minenergy/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -268,7 +433,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Energetika vazirligining gov.uz portali boʻlimi (minenergy).",
+        "Oʻzbekiston Respublikasi Energetika vazirligining gov.uz portali boʻlimi (minenergy): telefon +998 71-231-16-61 (7050) Devonxona, ishonch telefoni +99871 231-81-18, elektron pochta info[at]minenergy.uz, manzil Toshkent shahri, Toshkentning Yangi markazi, Energetiklar ko'chasi, 22-uy, transport va ish vaqti, shuningdek ijtimoiy tarmoqlar havolalari.",
       orgName: "Oʻzbekiston Respublikasi Energetika vazirligi",
       sameAs: "https://gov.uz/oz/minenergy",
     },

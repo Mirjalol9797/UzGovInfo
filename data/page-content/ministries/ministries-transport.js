@@ -15,6 +15,72 @@ export default {
       ctaText:
         "Перейти в официальный раздел Министерства транспорта на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        {
+          display: "+99871 202-05-01",
+          href: "tel:+998712020501",
+        },
+      ],
+      trustPhone: {
+        display: "1167",
+        href: "tel:1167",
+      },
+      email: {
+        display: "info@mintrans.uz",
+        href: "mailto:info@mintrans.uz",
+      },
+      social: [
+        {
+          id: "linkedin",
+          label: "LinkedIn",
+          url: "http://linkedin.com/company/mintransuz",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "http://youtube.com/@mintransuz",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://facebook.com/profile.php?id=100091754801301",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://instagram.com/transport_vazirligi",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/Mintrans_uz",
+        },
+      ],
+      address:
+        "Ташкентская область, Юкоричирчикский район, махалля “Истикбол”, территория строительства города Новый Ташкент, административное здание Министерства транспорта.",
+      transport: "Автобусные остановки «Новый Ташкент» маршрутов №137, 197",
+      hours:
+        "Понедельник - Пятница 09:00 - 18:00\nВремя обеда с 13:00 до 14:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Министерства транспорта (mintrans).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/mintrans/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -72,7 +138,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Министерства транспорта Республики Узбекистан на портале gov.uz (mintrans).",
+        "Официальный раздел Министерства транспорта Республики Узбекистан на портале gov.uz (mintrans): указаны телефон +99871 202-05-01, телефон доверия 1167, электронная почта info[at]mintrans.uz, адрес, транспорт и рабочее время, а также ссылки на социальные сети.",
       orgName: "Министерство транспорта Республики Узбекистан",
       sameAs: "https://gov.uz/ru/mintrans",
     },
@@ -112,6 +178,72 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Ministry of Transport on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Hotline",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        {
+          display: "+99871 202-05-01",
+          href: "tel:+998712020501",
+        },
+      ],
+      trustPhone: {
+        display: "1167",
+        href: "tel:1167",
+      },
+      email: {
+        display: "info@mintrans.uz",
+        href: "mailto:info@mintrans.uz",
+      },
+      social: [
+        {
+          id: "linkedin",
+          label: "LinkedIn",
+          url: "http://linkedin.com/company/mintransuz",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "http://youtube.com/@mintransuz",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://facebook.com/profile.php?id=100091754801301",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://instagram.com/transport_vazirligi",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/Mintrans_uz",
+        },
+      ],
+      address:
+        "Tashkent region, Yoqorichirchiq district, Istikbol mahallya, territory for construction of the New Tashkent city, administrative building of the Ministry of Transport.",
+      transport: "Bus stops «New Tashkent» for routes №137, 197",
+      hours:
+        "Monday - Friday 09:00 - 18:00\nLunch time from 13:00 to 14:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), Ministry of Transport (mintrans) section.",
+        reuseNoticeBefore: "When using materials from this website a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/ru/mintrans/",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -170,7 +302,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Ministry of Transport of the Republic of Uzbekistan on gov.uz (mintrans).",
+        "Official section of the Ministry of Transport of the Republic of Uzbekistan on gov.uz (mintrans): phone +99871 202-05-01, hotline 1167, email info[at]mintrans.uz, address, transport and office hours, plus social media links.",
       orgName: "Ministry of Transport of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/mintrans",
     },
@@ -210,6 +342,72 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Transport vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqalar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        {
+          display: "+99871 202-05-01",
+          href: "tel:+998712020501",
+        },
+      ],
+      trustPhone: {
+        display: "1167",
+        href: "tel:1167",
+      },
+      email: {
+        display: "info@mintrans.uz",
+        href: "mailto:info@mintrans.uz",
+      },
+      social: [
+        {
+          id: "linkedin",
+          label: "LinkedIn",
+          url: "http://linkedin.com/company/mintransuz",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "http://youtube.com/@mintransuz",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://facebook.com/profile.php?id=100091754801301",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://instagram.com/transport_vazirligi",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/Mintrans_uz",
+        },
+      ],
+      address:
+        "Toshkent viloyati, Yuqorichirchiq tumani, Istikbol mahallasi, “Yangi Toshkent” shaharini qurish hududi, Transport vazirligi ma’muriy binosi.",
+      transport: "«Yangi Toshkent» bekatlari, yo‘nalish №137, 197",
+      hours:
+        "Dushanba - Juma 09:00 - 18:00\nTushlik vaqti 13:00 dan 14:00 gacha",
+      sourceAttribution: {
+        dataSource:
+          "Bog‘lanish ma’lumotlari O‘zbekiston Respublikasi rasmiy portali (gov.uz) ma’lumotlari asosida, Transport vazirligi (mintrans) bo‘limidan keltirilgan.",
+        reuseNoticeBefore: "Ushbu saytdan materiallardan foydalanganda veb-saytga ",
+        reuseLinkText: "havola",
+        reuseNoticeAfter: " majburiy.",
+        reuseUrl: "https://gov.uz/ru/mintrans/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -268,7 +466,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Transport vazirligining gov.uz portali boʻlimi (mintrans).",
+        "Oʻzbekiston Respublikasi Transport vazirligining gov.uz portali boʻlimi (mintrans): telefon +99871 202-05-01, ishonch telefoni 1167, elektron pochta info[at]mintrans.uz, manzil, transport va ish vaqti hamda ijtimoiy tarmoqlar havolalari keltirilgan.",
       orgName: "Oʻzbekiston Respublikasi Transport vazirligi",
       sameAs: "https://gov.uz/oz/mintrans",
     },

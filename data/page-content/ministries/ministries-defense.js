@@ -15,6 +15,63 @@ export default {
       ctaText:
         "Перейти в официальный раздел Министерства обороны на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        {
+          display: "Call center: 15-30",
+          href: "tel:15-30",
+        },
+      ],
+      trustPhone: {
+        display: "+99871 269-99-06",
+        href: "tel:+998712699906",
+      },
+      email: {
+        display: "mudofaa@mil.uz",
+        href: "mailto:mudofaa@mil.uz",
+      },
+      social: [
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/mudofaavazirligi",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/mudofaavazirligi",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/mudofaavazirligi/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/c/uzarmiya",
+        },
+      ],
+      address: "100000, Ташкент, ул. Мирзо-Улугбека, 100",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Министерства обороны (mudofaa).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/mudofaa/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -72,7 +129,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Министерства обороны Республики Узбекистан на портале gov.uz (mudofaa).",
+        "Официальный раздел Министерства обороны Республики Узбекистан на портале gov.uz (mudofaa): указан телефон Call center 15-30, телефон доверия +99871 269-99-06, электронная почта mudofaa[at]mil.uz, адрес 100000, Ташкент, ул. Мирзо-Улугбека, 100, а также ссылки на социальные сети.",
       orgName: "Министерство обороны Республики Узбекистан",
       sameAs: "https://gov.uz/ru/mudofaa",
     },
@@ -112,6 +169,63 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Ministry of Defense on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Hotline",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        {
+          display: "Call center: 15-30",
+          href: "tel:15-30",
+        },
+      ],
+      trustPhone: {
+        display: "+99871 269-99-06",
+        href: "tel:+998712699906",
+      },
+      email: {
+        display: "mudofaa@mil.uz",
+        href: "mailto:mudofaa@mil.uz",
+      },
+      social: [
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/mudofaavazirligi",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/mudofaavazirligi",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/mudofaavazirligi/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/c/uzarmiya",
+        },
+      ],
+      address: "100000, Tashkent, Mirzo Ulugbek street, 100",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), Ministry of Defense (mudofaa) section.",
+        reuseNoticeBefore: "When using materials from this website a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/mudofaa/",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -170,7 +284,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Ministry of Defense of the Republic of Uzbekistan on gov.uz (mudofaa).",
+        "Official section of the Ministry of Defense of the Republic of Uzbekistan on gov.uz (mudofaa): phone Call center 15-30, hotline +99871 269-99-06, email mudofaa[at]mil.uz, address 100000, Tashkent, Mirzo Ulugbek street, 100, and social media links.",
       orgName: "Ministry of Defense of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/mudofaa",
     },
@@ -210,6 +324,63 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Mudofaa vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqalar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        {
+          display: "Call center: 15-30",
+          href: "tel:15-30",
+        },
+      ],
+      trustPhone: {
+        display: "+99871 269-99-06",
+        href: "tel:+998712699906",
+      },
+      email: {
+        display: "mudofaa@mil.uz",
+        href: "mailto:mudofaa@mil.uz",
+      },
+      social: [
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/mudofaavazirligi",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/mudofaavazirligi",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/mudofaavazirligi/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/c/uzarmiya",
+        },
+      ],
+      address: "100000, Ташкент, ул. Мирзо-Улугбека, 100",
+      sourceAttribution: {
+        dataSource:
+          "Bog'lanish ma'lumotlari O'zbekiston Respublikasi rasmiy portali (gov.uz) ma'lumotlari asosida, Mudofaa vazirligi (mudofaa) bo'limidan keltirilgan.",
+        reuseNoticeBefore: "Ushbu saytdan materiallardan foydalanganda veb-saytga ",
+        reuseLinkText: "havola",
+        reuseNoticeAfter: " majburiy.",
+        reuseUrl: "https://gov.uz/oz/mudofaa/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -268,7 +439,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Mudofaa vazirligining gov.uz portali boʻlimi (mudofaa).",
+        "Oʻzbekiston Respublikasi Mudofaa vazirligining gov.uz portali boʻlimi (mudofaa): telefon Call center 15-30, ishonch telefoni +99871 269-99-06, elektron pochta mudofaa[at]mil.uz, manzil 100000, Toshkent, Mirzo Ulugbek ko‘chasi, 100 va ijtimoiy tarmoqlar havolalari.",
       orgName: "Oʻzbekiston Respublikasi Mudofaa vazirligi",
       sameAs: "https://gov.uz/oz/mudofaa",
     },

@@ -15,6 +15,56 @@ export default {
       ctaText:
         "Перейти в официальный раздел Министерства здравоохранения на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        {
+          display: "+99871 203-15-19",
+          href: "tel:+998712031519",
+        },
+      ],
+      trustPhone: {
+        display: "1003",
+        href: "tel:1003",
+      },
+      email: {
+        display: "info@ssv.uz",
+        href: "mailto:info@ssv.uz",
+      },
+      social: [
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/ssvuz",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/ssvuz",
+        },
+      ],
+      address: "100011, Ташкент, ул. Навои, 4",
+      transport:
+        "Автобусы: 28, 44, 57, 68, 89, 91, 97, 115, 120, 148\nОриентиры: Урда",
+      hours: "Понедельник - Пятница с 9:00 до 18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Министерства здравоохранения (ssv).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/ssv/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -72,7 +122,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Министерства здравоохранения Республики Узбекистан на портале gov.uz (ssv).",
+        "Официальный раздел Министерства здравоохранения Республики Узбекистан на портале gov.uz (ssv): указан телефон +99871 203-15-19, телефон доверия 1003, электронная почта info[at]ssv.uz, адрес 100011, Ташкент, ул. Навои, 4, транспорт и рабочее время, а также ссылки на социальные сети.",
       orgName: "Министерство здравоохранения Республики Узбекистан",
       sameAs: "https://gov.uz/ru/ssv",
     },
@@ -112,6 +162,56 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Ministry of Health on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Hotline",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        {
+          display: "+99871 203-15-19",
+          href: "tel:+998712031519",
+        },
+      ],
+      trustPhone: {
+        display: "1003",
+        href: "tel:1003",
+      },
+      email: {
+        display: "info@ssv.uz",
+        href: "mailto:info@ssv.uz",
+      },
+      social: [
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/ssvuz",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/ssvuz",
+        },
+      ],
+      address: "100011, Tashkent, Navoiy street, 4",
+      transport:
+        "Buses: 28, 44, 57, 68, 89, 91, 97, 115, 120, 148\nLandmarks: Urda",
+      hours: "Monday - Friday: 9:00 - 18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), Ministry of Health (ssv) section.",
+        reuseNoticeBefore: "When using materials from this website a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/ssv/",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -170,7 +270,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Ministry of Health of the Republic of Uzbekistan on gov.uz (ssv).",
+        "Official section of the Ministry of Health of the Republic of Uzbekistan on gov.uz (ssv): phone +99871 203-15-19, hotline 1003, email info[at]ssv.uz, address 100011, Tashkent, Navoiy street, 4, transport and office hours, and social media links.",
       orgName: "Ministry of Health of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/ssv",
     },
@@ -210,6 +310,56 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Sogʻliqni saqlash vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqalar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        {
+          display: "+99871 203-15-19",
+          href: "tel:+998712031519",
+        },
+      ],
+      trustPhone: {
+        display: "1003",
+        href: "tel:1003",
+      },
+      email: {
+        display: "info@ssv.uz",
+        href: "mailto:info@ssv.uz",
+      },
+      social: [
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/ssvuz",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/ssvuz",
+        },
+      ],
+      address: "100011, Toshkent, Navoiy ko'chasi, 4",
+      transport:
+        "Avtobuslar: 28, 44, 57, 68, 89, 91, 97, 115, 120, 148\nManzilga ishoralar: Urda",
+      hours: "Dushanba - Juma: 9:00 - 18:00",
+      sourceAttribution: {
+        dataSource:
+          "Bog'lanish ma'lumotlari O'zbekiston Respublikasi rasmiy portali (gov.uz) ma'lumotlari asosida, Sog'liqni saqlash vazirligi (ssv) bo'limidan keltirilgan.",
+        reuseNoticeBefore: "Ushbu saytdan materiallardan foydalanganda veb-saytga ",
+        reuseLinkText: "havola",
+        reuseNoticeAfter: " majburiy.",
+        reuseUrl: "https://gov.uz/oz/ssv/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -268,7 +418,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Sogʻliqni saqlash vazirligining gov.uz portali boʻlimi (ssv).",
+        "Oʻzbekiston Respublikasi Sogʻliqni saqlash vazirligining gov.uz portali boʻlimi (ssv): telefon +99871 203-15-19, ishonch telefoni 1003, elektron pochta info[at]ssv.uz, manzil 100011, Toshkent, Navoiy ko'chasi, 4, transport va ish vaqti, shuningdek ijtimoiy tarmoqlar havolalari.",
       orgName: "Oʻzbekiston Respublikasi Sogʻliqni saqlash vazirligi",
       sameAs: "https://gov.uz/oz/ssv",
     },

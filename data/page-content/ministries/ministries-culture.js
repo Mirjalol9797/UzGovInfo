@@ -15,6 +15,70 @@ export default {
       ctaText:
         "Перейти в официальный раздел Министерства культуры на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        {
+          display: "+99855 502-33-77",
+          href: "tel:+998555023377",
+        },
+      ],
+      trustPhone: {
+        display: "+99855 502-33-75",
+        href: "tel:+998555023375",
+      },
+      email: {
+        display: "info@madaniyat.uz",
+        href: "mailto:info@madaniyat.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/madaniyatuz",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://youtube.com/@madaniyatvazirligirasmiy?si=74SawE1KuLPowou_",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/madaniyatvazirligiuz",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/s/madaniyatvazirligi",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/madaniyatvazirligi/",
+        },
+      ],
+      address: "100159, Город Ташкент, Амир Темур 107b",
+      transport: "Автобусы: 19, 24, 51, 67, 91, 93, 95, 140",
+      hours: "Пн. - Пт. 09:00 - 18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Министерства культуры (madaniyat).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/madaniyat/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -72,7 +136,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Министерства культуры Республики Узбекистан на портале gov.uz (madaniyat).",
+        "Официальный раздел Министерства культуры Республики Узбекистан на портале gov.uz (madaniyat): указаны телефон +99855 502-33-77, телефон доверия +99855 502-33-75, электронная почта info[at]madaniyat.uz, адрес, транспорт и рабочее время, а также ссылки на социальные сети.",
       orgName: "Министерство культуры Республики Узбекистан",
       sameAs: "https://gov.uz/ru/madaniyat",
     },
@@ -112,6 +176,71 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Ministry of Culture on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Hotline",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        {
+          display: "+99855 502-33-77",
+          href: "tel:+998555023377",
+        },
+      ],
+      trustPhone: {
+        display: "+99855 502-33-75",
+        href: "tel:+998555023375",
+      },
+      email: {
+        display: "info@madaniyat.uz",
+        href: "mailto:info@madaniyat.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/madaniyatuz",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://youtube.com/@madaniyatvazirligirasmiy?si=74SawE1KuLPowou_",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/madaniyatvazirligiuz",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/s/madaniyatvazirligi",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/madaniyatvazirligi/",
+        },
+      ],
+      address: "100159, Tashkent city, Amir Temur 107b",
+      transport: "Buses: 19, 24, 51, 67, 91, 93, 95, 140",
+      hours: "Mon. - Fri. 09:00 - 18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), Ministry of Culture (madaniyat) section.",
+        reuseNoticeBefore:
+          "When using materials from this website a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/madaniyat/",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -170,7 +299,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Ministry of Culture of the Republic of Uzbekistan on gov.uz (madaniyat).",
+        "Official section of the Ministry of Culture of the Republic of Uzbekistan on gov.uz (madaniyat): phone +99855 502-33-77, hotline +99855 502-33-75, email info[at]madaniyat.uz, address, transport and office hours, plus social media links.",
       orgName: "Ministry of Culture of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/madaniyat",
     },
@@ -210,6 +339,70 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Madaniyat vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqalar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        {
+          display: "+99855 502-33-77",
+          href: "tel:+998555023377",
+        },
+      ],
+      trustPhone: {
+        display: "+99855 502-33-75",
+        href: "tel:+998555023375",
+      },
+      email: {
+        display: "info@madaniyat.uz",
+        href: "mailto:info@madaniyat.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/madaniyatuz",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://youtube.com/@madaniyatvazirligirasmiy?si=74SawE1KuLPowou_",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/madaniyatvazirligiuz",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/s/madaniyatvazirligi",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/madaniyatvazirligi/",
+        },
+      ],
+      address: "100159, Toshkent shahri, Amir Temur 107b",
+      transport: "Avtobuslar: 19, 24, 51, 67, 91, 93, 95, 140",
+      hours: "Dushanba - Juma 09:00 - 18:00",
+      sourceAttribution: {
+        dataSource:
+          "Bog'lanish ma'lumotlari O‘zbekiston Respublikasi rasmiy portali (gov.uz) ma’lumotlari asosida, Madaniyat vazirligi (madaniyat) bo‘limidan keltirilgan.",
+        reuseNoticeBefore: "Ushbu saytdan materiallardan foydalanganda veb-saytga ",
+        reuseLinkText: "havola",
+        reuseNoticeAfter: " majburiy.",
+        reuseUrl: "https://gov.uz/oz/madaniyat/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -268,7 +461,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Madaniyat vazirligining gov.uz portali boʻlimi (madaniyat).",
+        "Oʻzbekiston Respublikasi Madaniyat vazirligining gov.uz portali boʻlimi (madaniyat): telefon +99855 502-33-77, ishonch telefoni +99855 502-33-75, elektron pochta info[at]madaniyat.uz, manzil, transport va ish vaqti hamda ijtimoiy tarmoqlar havolalari keltirilgan.",
       orgName: "Oʻzbekiston Respublikasi Madaniyat vazirligi",
       sameAs: "https://gov.uz/oz/madaniyat",
     },
