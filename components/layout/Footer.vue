@@ -12,7 +12,7 @@ const organizationsLinkText = computed(() => {
 </script>
 
 <template>
-  <footer class="bg-[#F3F4F9] mt-10 py-4">
+  <footer class="bg-[#F3F4F9] mt-10 py-4 768:mt-5">
     <div class="site-container">
       <div
         class="flex justify-between items-center 960:flex-col 960:items-start gap-2"

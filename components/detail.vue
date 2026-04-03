@@ -308,7 +308,7 @@ useHead(() => ({
 
         <div
           v-if="officialSite"
-          class="mb-8 rounded-2xl border border-[#e5e7eb] bg-white overflow-hidden"
+          class="mb-8 rounded-2xl border border-[#e5e7eb] bg-white overflow-hidden 768:mb-4"
         >
           <div class="px-5 py-4 md:px-6 md:py-5">
             <div
@@ -394,7 +394,7 @@ useHead(() => ({
                 :href="officialSiteUrl"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="h-12 px-6 rounded-xl bg-[#2563eb] text-white font-semibold inline-flex items-center justify-center gap-2 transition hover:bg-[#1d4ed8] 768:w-full"
+                class="h-12 px-6 rounded-xl bg-[#2563eb] text-white font-semibold inline-flex items-center justify-center gap-2 transition hover:bg-[#1d4ed8] 768:w-full 768:h-auto 768:py-1"
               >
                 <span>{{ officialSite.ctaText }}</span>
               </a>
@@ -409,11 +409,11 @@ useHead(() => ({
           <p class="text-[#4B5563] leading-7 text-base 768:text-sm mb-5">
             {{ whatFind.intro }}
           </p>
-          <div class="grid grid-cols-3 768:grid-cols-1 gap-3 mb-4">
+          <div class="grid grid-cols-3 768:grid-cols-1 gap-3 mb-4 768:gap-2">
             <div
               v-for="(item, i) in whatFind.items"
               :key="'wf-' + i"
-              class="rounded-xl border border-[#e5e7eb] bg-white p-4 transition hover:shadow-sm"
+              class="rounded-xl border border-[#e5e7eb] bg-white p-4 transition hover:shadow-sm 768:p-2"
             >
               <div
                 class="mb-3 w-10 h-10 rounded-lg flex items-center justify-center"
@@ -441,7 +441,9 @@ useHead(() => ({
           <h2 class="mb-4 font-semibold text-lg md:text-xl">
             {{ otherSites.h2 }}
           </h2>
-          <div class="grid grid-cols-4 768:grid-cols-2 576:!grid-cols-1 gap-4">
+          <div
+            class="grid grid-cols-4 768:grid-cols-2 576:!grid-cols-1 gap-4 768:gap-2"
+          >
             <NuxtLink
               v-for="(item, i) in otherSites.items"
               :key="'other-' + i"
