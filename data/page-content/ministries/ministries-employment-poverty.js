@@ -15,6 +15,74 @@ export default {
       ctaText:
         "Перейти в официальный раздел Министерства занятости и сокращения бедности на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. почта",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        {
+          display: "+998 71 203-01-30",
+          href: "tel:+998712030130",
+        },
+      ],
+      trustPhone: {
+        display: "+998 71 200-06-00",
+        href: "tel:+998712000600",
+      },
+      email: {
+        display: "info@bv.gov.uz",
+        href: "mailto:info@bv.gov.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://x.com/b_vazirligi",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/www.mehnat.uz/",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/bandlik_vazirligi/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/mehnatvazirligi",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC8_6Vj54L9n80X3YcN4GvtA",
+        },
+      ],
+      address:
+        "100100, Республика Узбекистан, г. Ташкент, Мирободский район, улица Нукус, дом 8",
+      transport:
+        "Метро: «Тошкент».\nАвтобусы: № 97, 196.",
+      hours:
+        "Дни работы: понедельник–пятница, 9:00–18:00.\nОбеденный перерыв: 13:00–14:00.\nВыходные дни: суббота, воскресенье.",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Министерства занятости и сокращения бедности (bv).",
+        reuseNoticeBefore:
+          "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/bv/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -72,8 +140,8 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Министерства занятости и сокращения бедности Республики Узбекистан на портале gov.uz (bv).",
-      orgName: "Министерство занятости и сокращения бедности Республики Узбекистан",
+        "Официальный раздел Министерства занятости и сокращения бедности Республики Узбекистан на портале gov.uz (bv): информация о программах и цифровых сервисах, а также проверенные контакты (телефон, горячая линия +998 71 200-06-00, электронная почта, социальные сети, адрес и режим работы).",
+      orgName: "Министерство занятости и сокращения бедности Республики Узбеахстан",
       sameAs: "https://gov.uz/ru/bv",
     },
     faq: {
@@ -113,6 +181,74 @@ export default {
       h2: "Official website",
       ctaText:
         "Go to the Ministry of Employment and Poverty Reduction on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Hotline",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Getting there",
+        hours: "Office hours",
+      },
+      phones: [
+        {
+          display: "+998 71 203-01-30",
+          href: "tel:+998712030130",
+        },
+      ],
+      trustPhone: {
+        display: "+998 71 200-06-00",
+        href: "tel:+998712000600",
+      },
+      email: {
+        display: "info@bv.gov.uz",
+        href: "mailto:info@bv.gov.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://x.com/b_vazirligi",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/www.mehnat.uz/",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/bandlik_vazirligi/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/mehnatvazirligi",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC8_6Vj54L9n80X3YcN4GvtA",
+        },
+      ],
+      address:
+        "100100, Mirabad district, Tashkent, Republic of Uzbekistan, Nukus Street, 8",
+      transport:
+        "Metro: Toshkent.\nBuses: 97, 196.",
+      hours:
+        "Working days: Monday–Friday, 9:00–18:00.\nLunch break: 13:00–14:00.\nDays off: Saturday and Sunday.",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), Ministry of Employment and Poverty Reduction section (bv).",
+        reuseNoticeBefore:
+          "When using materials from this website, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/bv/",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -171,7 +307,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Ministry of Employment and Poverty Reduction of the Republic of Uzbekistan on gov.uz (bv).",
+        "Official section of the Ministry of Employment and Poverty Reduction of the Republic of Uzbekistan on gov.uz (bv), with information on programs, digital services and verified contact details (phone, hotline +998 71 200-06-00, email, social media, address and office hours).",
       orgName: "Ministry of Employment and Poverty Reduction of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/bv",
     },
@@ -213,6 +349,74 @@ export default {
       h2: "Rasmiy sayt",
       ctaText:
         "Kambagʻallikni qisqartirish va bandlik vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        {
+          display: "+998 71 203-01-30",
+          href: "tel:+998712030130",
+        },
+      ],
+      trustPhone: {
+        display: "+998 71 200-06-00",
+        href: "tel:+998712000600",
+      },
+      email: {
+        display: "info@bv.gov.uz",
+        href: "mailto:info@bv.gov.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://x.com/b_vazirligi",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/www.mehnat.uz/",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/bandlik_vazirligi/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/mehnatvazirligi",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC8_6Vj54L9n80X3YcN4GvtA",
+        },
+      ],
+      address:
+        "100100, Toshkent shahri, Mirobod tumani, Nukus koʻchasi, 8-uy",
+      transport:
+        "Metro: «Toshkent».\nAvtobuslar: № 97, 196.",
+      hours:
+        "Ish kunlari: dushanba–juma, 9:00–18:00.\nTushlik: 13:00–14:00.\nDam olish kunlari: shanba, yakshanba.",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy gov.uz portali (Kambagʻallikni qisqartirish va bandlik vazirligi, bv) asosida keltirilgan.",
+        reuseNoticeBefore:
+          "Ushbu saytdan olingan materiallardan foydalanilganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/bv/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -271,7 +475,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Kambagʻallikni qisqartirish va bandlik vazirligining gov.uz portali boʻlimi (bv).",
+        "Oʻzbekiston Respublikasi Kambagʻallikni qisqartirish va bandlik vazirligining gov.uz portali boʻlimi (bv): vazirlik dasturlari, raqamli xizmatlar va tekshirilgan aloqa maʼlumotlari (telefon, ishonch telefoni +998 71 200-06-00, elektron pochta, ijtimoiy tarmoqlar, manzil va ish vaqti) haqida maʼlumot.",
       orgName: "Kambagʻallikni qisqartirish va bandlik vazirligi",
       sameAs: "https://gov.uz/oz/bv",
     },
