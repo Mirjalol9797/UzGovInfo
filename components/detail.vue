@@ -282,7 +282,9 @@ useHead(() => ({
     <div class="site-container">
       <!-- Full content layout -->
       <template v-if="hasFullContent">
-        <div class="mb-6 font-medium text-2xl 768:text-xl 480:!text-lg">
+        <div
+          class="mb-6 font-medium text-2xl 768:text-xl 480:!text-lg 480:mb-3"
+        >
           <template v-if="locale === 'uz'">
             <h1 class="font-medium text-2xl 768:text-xl 480:!text-lg inline">
               {{ pageTitle || (oneData?.title ? t(oneData.title) : "") }}
@@ -299,7 +301,7 @@ useHead(() => ({
 
         <div
           v-if="intro.length"
-          class="text-[#4B5563] base-bg leading-6 text-sm 768:text-xs mb-6 space-y-1.5"
+          class="text-[#4B5563] base-bg leading-6 text-sm 768:text-xs mb-6 space-y-1.5 480:mb-4"
         >
           <p v-for="(para, i) in intro" :key="'intro-' + i">{{ para }}</p>
         </div>

@@ -94,7 +94,7 @@ const crumbs = computed(() => {
 </script>
 
 <template>
-  <nav v-if="!isHome" aria-label="breadcrumb" class="pb-4">
+  <nav v-if="!isHome" aria-label="breadcrumb" class="pb-4 768:pb-2">
     <div class="site-container">
       <ul
         class="flex gap-1 text-sm text-[#6B7280] overflow-x-auto scrollbar-hide"
