@@ -15,6 +15,72 @@ export default {
       ctaText:
         "Перейти в официальный раздел Министерства юстиции на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        {
+          display: "+99871 207-04-43",
+          href: "tel:+998712070443",
+        },
+      ],
+      trustPhone: {
+        display: "1008",
+        href: "tel:1008",
+      },
+      email: {
+        display: "info@adliya.uz",
+        href: "mailto:info@adliya.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter",
+          url: "https://twitter.com/minjustuzb",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/adliyanews/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://youtube.com/c/adliya",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/adliyangiliklari",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/minjustuz/",
+        },
+      ],
+      address: "100047, Ташкент, ул. Сайилгох, 5",
+      transport:
+        "Станция метро — «Амир Темур хиебони»\nОстановка «Куранты» — автобусы № 19, 38, 67, 85",
+      hours:
+        "Рабочие дни: понедельник - пятница (кроме праздничных дней)\nВыходные дни: суббота-воскресенье\nРежим работы: с 09:00 до 18:00\nОбед: с 13:00 до 14:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Министерства юстиции (adliya).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/adliya/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -72,7 +138,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Министерства юстиции Республики Узбекистан на портале gov.uz (adliya).",
+        "Официальный раздел Министерства юстиции Республики Узбекистан на портале gov.uz (adliya): указан телефон +99871 207-04-43, телефон доверия 1008, электронная почта info[at]adliya.uz, адрес и режим работы, а также ссылки на социальные сети.",
       orgName: "Министерство юстиции Республики Узбекистан",
       sameAs: "https://gov.uz/ru/adliya",
     },
@@ -112,6 +178,73 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Ministry of Justice on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Hotline",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        {
+          display: "+99871 207-04-43",
+          href: "tel:+998712070443",
+        },
+      ],
+      trustPhone: {
+        display: "1008",
+        href: "tel:1008",
+      },
+      email: {
+        display: "info@adliya.uz",
+        href: "mailto:info@adliya.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter",
+          url: "https://twitter.com/minjustuzb",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/adliyanews/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://youtube.com/c/adliya",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/adliyangiliklari",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/minjustuz/",
+        },
+      ],
+      address: "100047, Ташкент, ул. Сайилгох, 5",
+      transport:
+        "Станция метро — «Амир Темур хиебони»\nОстановка «Куранты» — автобусы № 19, 38, 67, 85",
+      hours:
+        "Рабочие дни: понедельник - пятница (кроме праздничных дней)\nВыходные дни: суббота-воскресенье\nРежим работы: с 09:00 до 18:00\nОбед: с 13:00 до 14:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), Ministry of Justice (adliya) section.",
+        reuseNoticeBefore:
+          "When using materials from this website a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/adliya/",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -170,7 +303,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Ministry of Justice of the Republic of Uzbekistan on gov.uz (adliya).",
+        "Official section of the Ministry of Justice of the Republic of Uzbekistan on gov.uz (adliya): phone +99871 207-04-43, hotline 1008, email info[at]adliya.uz, address and office hours, plus social media links.",
       orgName: "Ministry of Justice of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/adliya",
     },
@@ -210,6 +343,72 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Adliya vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqalar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        {
+          display: "+99871 207-04-43",
+          href: "tel:+998712070443",
+        },
+      ],
+      trustPhone: {
+        display: "1008",
+        href: "tel:1008",
+      },
+      email: {
+        display: "info@adliya.uz",
+        href: "mailto:info@adliya.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter",
+          url: "https://twitter.com/minjustuzb",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/adliyanews/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://youtube.com/c/adliya",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/adliyangiliklari",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/minjustuz/",
+        },
+      ],
+      address: "100047, Ташкент, ул. Сайилгох, 5",
+      transport:
+        "Станция метро — «Амир Темур хиебони»\nОстановка «Куранты» — автобусы № 19, 38, 67, 85",
+      hours:
+        "Рабочие дни: понедельник - пятница (кроме праздничных дней)\nВыходные дни: суббота-воскресенье\nРежим работы: с 09:00 до 18:00\nОбед: с 13:00 до 14:00",
+      sourceAttribution: {
+        dataSource:
+          "Bog‘lanish ma’lumotlari O‘zbekiston Respublikasi rasmiy portali (gov.uz) ma’lumotlari asosida, Adliya vazirligi (adliya) bo‘limidan keltirilgan.",
+        reuseNoticeBefore: "Ushbu saytdan materiallardan foydalanganda veb-saytga ",
+        reuseLinkText: "havola",
+        reuseNoticeAfter: " majburiy.",
+        reuseUrl: "https://gov.uz/oz/adliya/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -268,7 +467,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Adliya vazirligining gov.uz portali boʻlimi (adliya).",
+        "Oʻzbekiston Respublikasi Adliya vazirligining gov.uz portali boʻlimi (adliya): telefon +99871 207-04-43, ishonch telefoni 1008, elektron pochta info[at]adliya.uz, manzil va ish vaqti, shuningdek ijtimoiy tarmoqlar havolalari keltirilgan.",
       orgName: "Oʻzbekiston Respublikasi Adliya vazirligi",
       sameAs: "https://gov.uz/oz/adliya",
     },

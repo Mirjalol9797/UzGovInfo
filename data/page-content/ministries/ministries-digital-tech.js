@@ -15,6 +15,82 @@ export default {
       ctaText:
         "Перейти в официальный раздел Министерства цифровых технологий на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        {
+          display: "+99871 238-41-07",
+          href: "tel:+998712384107",
+        },
+      ],
+      trustPhone: {
+        display: "11-99",
+        href: "tel:11-99",
+      },
+      email: {
+        display: "info@digital.uz",
+        href: "mailto:info@digital.uz",
+      },
+      social: [
+        {
+          id: "linkedin",
+          label: "LinkedIn",
+          url: "https://www.linkedin.com/company/the-ministry-for-development-of-itc-of-the-republic-of-uzbekistan/mycompany/",
+        },
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://x.com/digital_uz_",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/c/MinistryofICTofUzbekistan",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/digital_uz_/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/mitcuz",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/mininfocom",
+        },
+        {
+          id: "uforum",
+          label: "uForum",
+          url: "https://uforum.uz/forumdisplay.php?f=297",
+        },
+      ],
+      address: "100164, Ташкент, ул. Иброхима Муминова, 4",
+      transport:
+        "Метро: станция Буюк ипак йули\nАвтобусы: № 14, 17, 63, 83, 96, 98, 110, 119, 129",
+      hours:
+        "Понедельник - Пятница: 9:00 - 18:00\nобеденный перерыв: 13:00 - 14:00\nСуббота, Воскресенье: выходной.",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Министерства цифровых технологий (digital).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/digital/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -72,7 +148,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Министерства цифровых технологий Республики Узбекистан на портале gov.uz (digital).",
+        "Официальный раздел Министерства цифровых технологий Республики Узбекистан на портале gov.uz (digital): указаны телефон +99871 238-41-07, телефон доверия 11-99, электронная почта info[at]digital.uz, адрес, режим работы, а также ссылки на социальные сети.",
       orgName: "Министерство цифровых технологий Республики Узбекистан",
       sameAs: "https://gov.uz/ru/digital",
     },
@@ -112,6 +188,82 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Ministry of Digital Technologies on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Hotline",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        {
+          display: "+99871 238-41-07",
+          href: "tel:+998712384107",
+        },
+      ],
+      trustPhone: {
+        display: "11-99",
+        href: "tel:11-99",
+      },
+      email: {
+        display: "info@digital.uz",
+        href: "mailto:info@digital.uz",
+      },
+      social: [
+        {
+          id: "linkedin",
+          label: "LinkedIn",
+          url: "https://www.linkedin.com/company/the-ministry-for-development-of-itc-of-the-republic-of-uzbekistan/mycompany/",
+        },
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://x.com/digital_uz_",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/c/MinistryofICTofUzbekistan",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/digital_uz_/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/mitcuz",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/mininfocom",
+        },
+        {
+          id: "uforum",
+          label: "uForum",
+          url: "https://uforum.uz/forumdisplay.php?f=297",
+        },
+      ],
+      address: "100164, Tashkent, Ibrahim Muminov street, 4",
+      transport:
+        "Metro: Buyuk ipak yuli station\nBuses: No. 14, 17, 63, 83, 96, 98, 110, 119, 129",
+      hours:
+        "Monday - Friday: 9:00 - 18:00\nLunch break: 13:00 - 14:00\nSaturday, Sunday: day off.",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), Ministry of Digital Technologies (digital) section.",
+        reuseNoticeBefore: "When using materials from this website a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/digital/",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -170,7 +322,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Ministry of Digital Technologies of the Republic of Uzbekistan on gov.uz (digital).",
+        "Official section of the Ministry of Digital Technologies of the Republic of Uzbekistan on gov.uz (digital): phone +99871 238-41-07, hotline 11-99, email info[at]digital.uz, address, office hours, and social media links.",
       orgName: "Ministry of Digital Technologies of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/digital",
     },
@@ -211,6 +363,82 @@ export default {
       h2: "Rasmiy sayt",
       ctaText:
         "Raqamli texnologiyalar vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqalar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        {
+          display: "+99871 238-41-07",
+          href: "tel:+998712384107",
+        },
+      ],
+      trustPhone: {
+        display: "11-99",
+        href: "tel:11-99",
+      },
+      email: {
+        display: "info@digital.uz",
+        href: "mailto:info@digital.uz",
+      },
+      social: [
+        {
+          id: "linkedin",
+          label: "LinkedIn",
+          url: "https://www.linkedin.com/company/the-ministry-for-development-of-itc-of-the-republic-of-uzbekistan/mycompany/",
+        },
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://x.com/digital_uz_",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/c/MinistryofICTofUzbekistan",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/digital_uz_/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/mitcuz",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/mininfocom",
+        },
+        {
+          id: "uforum",
+          label: "uForum",
+          url: "https://uforum.uz/forumdisplay.php?f=297",
+        },
+      ],
+      address: "100164, Toshkent, Ibrohim Muminov ko‘chasi, 4",
+      transport:
+        "Metro: Buyuk ipak yo‘li bekati\nAvtobuslar: № 14, 17, 63, 83, 96, 98, 110, 119, 129",
+      hours:
+        "Dushanba - Juma: 9:00 - 18:00\nTushlik tanaffusi: 13:00 - 14:00\nShanba, Yakshanba: dam olish.",
+      sourceAttribution: {
+        dataSource:
+          "Bog‘lanish ma’lumotlari O‘zbekiston Respublikasi rasmiy portali (gov.uz) ma’lumotlari asosida, Raqamli texnologiyalar vazirligi (digital) bo‘limidan keltirilgan.",
+        reuseNoticeBefore: "Ushbu saytdan materiallardan foydalanganda veb-saytga ",
+        reuseLinkText: "havola",
+        reuseNoticeAfter: " majburiy.",
+        reuseUrl: "https://gov.uz/oz/digital/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -269,7 +497,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Raqamli texnologiyalar vazirligining gov.uz portali boʻlimi (digital).",
+        "Oʻzbekiston Respublikasi Raqamli texnologiyalar vazirligining gov.uz portali boʻlimi (digital): telefon +99871 238-41-07, ishonch telefoni 11-99, elektron pochta info[at]digital.uz, manzil, ish vaqti va ijtimoiy tarmoqlar havolalari keltirilgan.",
       orgName: "Raqamli texnologiyalar vazirligi",
       sameAs: "https://gov.uz/oz/digital",
     },
