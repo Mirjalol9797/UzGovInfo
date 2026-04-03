@@ -41,6 +41,8 @@ const hasFullContent = computed(() => !!content.value);
 const intro = computed(() => content.value?.intro || []);
 
 const officialSite = computed(() => content.value?.officialSite || null);
+
+const contacts = computed(() => content.value?.contacts || null);
 const officialSiteUrl = computed(() =>
   props.oneData?.link ? t(props.oneData.link) : "#"
 );
@@ -236,6 +238,20 @@ function getIconBg(name) {
   return color + "14";
 }
 
+/** Иконки соцсетей для блока контактов (узкий набор маркеров для aria-label). */
+const contactSocialMarkup = {
+  twitter: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-[18px] h-[18px]" aria-hidden="true"><path d="M14.095 10.316 22.286 1h-1.94L13.23 9.088 7.551 1H1l8.59 12.231L1 23h1.94l7.51-8.543L16.45 23H23zm-2.658 3.022-.872-1.218L3.64 2.432h2.98l5.59 7.821.869 1.219 7.265 10.166h-2.982z"/></svg>`,
+  linkedin: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-[18px] h-[18px]" aria-hidden="true"><path d="M4.5 3.75A2.25 2.25 0 0 0 2.25 6v12A2.25 2.25 0 0 0 4.5 20.25h15a2.25 2.25 0 0 0 2.25-2.25V6A2.25 2.25 0 0 0 19.5 3.75zm0 2.25h15v12h-15zm2.812 2.25a1.125 1.125 0 1 1 0 2.25 1.125 1.125 0 0 1 0-2.25m.563 3.375h1.5v5.25h-1.5zm3.75 0h1.44v.72c.48-.84 1.23-1.32 2.37-1.32 1.77 0 2.69 1.08 2.69 3.06v2.79h-1.5v-2.58c0-1.17-.42-1.71-1.35-1.71-.96 0-1.56.66-1.56 1.83v2.46h-1.5z"/></svg>`,
+  facebook: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-[18px] h-[18px]" aria-hidden="true"><path d="M13.5 10.5V8.25a1.5 1.5 0 0 1 1.5-1.5h1.5V3.75h-2.25a4.5 4.5 0 0 0-4.5 4.5v2.25H7.5v3h2.25V21h3v-7.5h2.25l.75-3z"/></svg>`,
+  telegram: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5" aria-hidden="true"><path d="M19.2 4.4 2.9 10.7c-1.1.4-1.1 1.1-.2 1.3l4.1 1.3 1.6 4.8c.2.5.1.7.6.7.4 0 .6-.2.8-.4l2-2 4.2 3.1c.8.4 1.3.2 1.5-.7l2.8-13.1c.3-1.1-.4-1.7-1.1-1.3m-2.1 3-7.8 7.1-.3 3.3L7.4 13l9.2-5.8c.4-.3.8-.1.5.2"/></svg>`,
+  instagram: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5" aria-hidden="true"><path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2m0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10m6.5-.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0M12 9.25a2.75 2.75 0 1 0 0 5.5 2.75 2.75 0 0 0 0-5.5"/></svg>`,
+  youtube: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1 31.5 31.5 0 0 0 .5-5.8 31.5 31.5 0 0 0-.5-5.8ZM9.75 15.02V8.98L15.5 12 9.75 15.02Z"/></svg>`,
+};
+
+function contactSocialIconHtml(id) {
+  return contactSocialMarkup[id] || contactSocialMarkup.twitter;
+}
+
 const schemaOrgData = computed(() => {
   if (!hasFullContent.value || !props.oneData) return null;
   const title = props.oneData?.title;
@@ -399,6 +415,190 @@ useHead(() => ({
                 <span>{{ officialSite.ctaText }}</span>
               </a>
             </div>
+          </div>
+        </div>
+
+        <div
+          v-if="contacts"
+          class="mb-8 rounded-2xl border border-[#e5e7eb] bg-white overflow-hidden 768:mb-4"
+        >
+          <div
+            class="px-5 py-4 768:p-3 border-b border-[#edf1f7]"
+          >
+            <h2
+              class="font-semibold text-xl md:text-2xl leading-tight text-[#111827]"
+            >
+              {{ contacts.h2 }}
+            </h2>
+          </div>
+          <div class="overflow-x-auto">
+            <table class="detail-contacts w-full text-left text-sm border-collapse">
+              <tbody>
+                <tr
+                  v-if="contacts.phones?.length"
+                  class="border-b border-[#edf1f7] odd:bg-white even:bg-[#f9fafb] hover:bg-[#f1f5f9]/80 transition-colors"
+                >
+                  <th
+                    scope="row"
+                    class="align-top py-3.5 px-5 768:px-3 768:py-3 font-semibold text-[#374151] w-[min(38%,11rem)] 768:w-[40%]"
+                  >
+                    {{ contacts.labels.phone }}
+                  </th>
+                  <td
+                    class="align-top py-3.5 px-5 768:px-3 768:py-3 text-[#111827]"
+                  >
+                    <div class="flex flex-col gap-1.5">
+                      <a
+                        v-for="(p, i) in contacts.phones"
+                        :key="'ph-' + i"
+                        :href="p.href"
+                        class="text-[#2563eb] font-medium hover:underline decoration-[#2563eb]/30 underline-offset-2"
+                      >
+                        {{ p.display }}
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  v-if="contacts.trustPhone"
+                  class="border-b border-[#edf1f7] odd:bg-white even:bg-[#f9fafb] hover:bg-[#f1f5f9]/80 transition-colors"
+                >
+                  <th
+                    scope="row"
+                    class="align-top py-3.5 px-5 768:px-3 768:py-3 font-semibold text-[#374151] w-[min(38%,11rem)] 768:w-[40%]"
+                  >
+                    {{ contacts.labels.trustPhone }}
+                  </th>
+                  <td
+                    class="align-top py-3.5 px-5 768:px-3 768:py-3 text-[#111827]"
+                  >
+                    <a
+                      :href="contacts.trustPhone.href"
+                      class="text-[#2563eb] font-medium hover:underline decoration-[#2563eb]/30 underline-offset-2"
+                    >
+                      {{ contacts.trustPhone.display }}
+                    </a>
+                  </td>
+                </tr>
+                <tr
+                  v-if="contacts.email"
+                  class="border-b border-[#edf1f7] odd:bg-white even:bg-[#f9fafb] hover:bg-[#f1f5f9]/80 transition-colors"
+                >
+                  <th
+                    scope="row"
+                    class="align-top py-3.5 px-5 768:px-3 768:py-3 font-semibold text-[#374151] w-[min(38%,11rem)] 768:w-[40%]"
+                  >
+                    {{ contacts.labels.email }}
+                  </th>
+                  <td
+                    class="align-top py-3.5 px-5 768:px-3 768:py-3 text-[#111827]"
+                  >
+                    <a
+                      :href="contacts.email.href"
+                      class="text-[#2563eb] font-medium hover:underline break-all"
+                    >
+                      {{ contacts.email.display }}
+                    </a>
+                  </td>
+                </tr>
+                <tr
+                  v-if="contacts.social?.length"
+                  class="border-b border-[#edf1f7] odd:bg-white even:bg-[#f9fafb] hover:bg-[#f1f5f9]/80 transition-colors"
+                >
+                  <th
+                    scope="row"
+                    class="align-top py-3.5 px-5 768:px-3 768:py-3 font-semibold text-[#374151] w-[min(38%,11rem)] 768:w-[40%]"
+                  >
+                    {{ contacts.labels.social }}
+                  </th>
+                  <td
+                    class="align-top py-3.5 px-5 768:px-3 768:py-3 text-[#111827]"
+                  >
+                    <div class="flex flex-wrap items-center gap-2">
+                      <a
+                        v-for="(s, i) in contacts.social"
+                        :key="'soc-' + i"
+                        :href="s.url"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        :aria-label="s.label"
+                        class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#2563eb] text-white shadow-sm hover:bg-[#1d4ed8] transition"
+                        v-html="contactSocialIconHtml(s.id)"
+                      />
+                    </div>
+                  </td>
+                </tr>
+                <tr
+                  v-if="contacts.address"
+                  class="border-b border-[#edf1f7] odd:bg-white even:bg-[#f9fafb] hover:bg-[#f1f5f9]/80 transition-colors"
+                >
+                  <th
+                    scope="row"
+                    class="align-top py-3.5 px-5 768:px-3 768:py-3 font-semibold text-[#374151] w-[min(38%,11rem)] 768:w-[40%]"
+                  >
+                    {{ contacts.labels.address }}
+                  </th>
+                  <td
+                    class="align-top py-3.5 px-5 768:px-3 768:py-3 text-[#111827] leading-relaxed"
+                  >
+                    {{ contacts.address }}
+                  </td>
+                </tr>
+                <tr
+                  v-if="contacts.transport"
+                  class="border-b border-[#edf1f7] odd:bg-white even:bg-[#f9fafb] hover:bg-[#f1f5f9]/80 transition-colors"
+                >
+                  <th
+                    scope="row"
+                    class="align-top py-3.5 px-5 768:px-3 768:py-3 font-semibold text-[#374151] w-[min(38%,11rem)] 768:w-[40%]"
+                  >
+                    {{ contacts.labels.transport }}
+                  </th>
+                  <td
+                    class="align-top py-3.5 px-5 768:px-3 768:py-3 text-[#111827] leading-relaxed whitespace-pre-line"
+                  >
+                    {{ contacts.transport }}
+                  </td>
+                </tr>
+                <tr
+                  v-if="contacts.hours"
+                  class="odd:bg-white even:bg-[#f9fafb] hover:bg-[#f1f5f9]/80 transition-colors"
+                >
+                  <th
+                    scope="row"
+                    class="align-top py-3.5 px-5 768:px-3 768:py-3 font-semibold text-[#374151] w-[min(38%,11rem)] 768:w-[40%]"
+                  >
+                    {{ contacts.labels.hours }}
+                  </th>
+                  <td
+                    class="align-top py-3.5 px-5 768:px-3 768:py-3 text-[#111827] leading-relaxed whitespace-pre-line"
+                  >
+                    {{ contacts.hours }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div
+            v-if="contacts.sourceAttribution"
+            class="px-5 py-4 768:p-3 border-t border-[#edf1f7] bg-[#f8fafc]"
+          >
+            <p
+              v-if="contacts.sourceAttribution.dataSource"
+              class="text-xs text-[#64748b] leading-relaxed mb-2"
+            >
+              {{ contacts.sourceAttribution.dataSource }}
+            </p>
+            <p class="text-xs text-[#64748b] leading-relaxed">
+              {{ contacts.sourceAttribution.reuseNoticeBefore }}
+              <a
+                :href="contacts.sourceAttribution.reuseUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="font-semibold text-[#2563eb] hover:underline underline-offset-2"
+                >{{ contacts.sourceAttribution.reuseLinkText }}</a
+              >{{ contacts.sourceAttribution.reuseNoticeAfter }}
+            </p>
           </div>
         </div>
 

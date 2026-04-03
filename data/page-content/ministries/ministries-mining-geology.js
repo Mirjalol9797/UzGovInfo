@@ -15,6 +15,68 @@ export default {
       ctaText:
         "Перейти в официальный раздел Министерства горной промышленности и геологии на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        hours: "Рабочее время",
+      },
+      phones: [
+        { display: "+998 71 231-05-44", href: "tel:+998712310544" },
+      ],
+      trustPhone: {
+        display: "+998 71 231-05-96",
+        href: "tel:+998712310596",
+      },
+      email: {
+        display: "info@mingeo.uz",
+        href: "mailto:info@mingeo.uz",
+      },
+      social: [
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/uzdavgeolcom",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/uzgeolcom.uz",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@mingeouz/",
+        },
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/uzgeology",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/uzgeology/",
+        },
+      ],
+      address:
+        "100164, Республика Узбекистан, г. Ташкент, Мирзо-Улугбекский район, улица Олимлар, 49",
+      hours:
+        "Понедельник–пятница: 09:00–18:00. Есть пандус для людей с ограниченными возможностями.\nОбеденный перерыв: 13:00–14:00.\nНерабочие дни: суббота, воскресенье и праздничные дни.\nАвтобусы: 14, 17, 63, 83, 96, 110, 129.",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Министерства горной промышленности и геологии (mingeo).",
+        reuseNoticeBefore:
+          "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/mingeo/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -72,7 +134,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Министерства горно-добывающей промышленности и геологии Республики Узбекистан на портале gov.uz (mingeo).",
+        "Официальный раздел Министерства горно-добывающей промышленности и геологии Республики Узбекистан на портале gov.uz (mingeo): информация о деятельности и цифровых сервисах ведомства, а также проверенные контактные данные (телефон, эл. адрес, социальные сети, адрес и режим работы).",
       orgName: "Министерство горно-добывающей промышленности и геологии",
       sameAs: "https://gov.uz/ru/mingeo",
     },
@@ -113,6 +175,68 @@ export default {
       h2: "Official website",
       ctaText:
         "Go to the Ministry of Mining Industry and Geology on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Hotline",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        hours: "Office hours",
+      },
+      phones: [
+        { display: "+998 71 231-05-44", href: "tel:+998712310544" },
+      ],
+      trustPhone: {
+        display: "+998 71 231-05-96",
+        href: "tel:+998712310596",
+      },
+      email: {
+        display: "info@mingeo.uz",
+        href: "mailto:info@mingeo.uz",
+      },
+      social: [
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/uzdavgeolcom",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/uzgeolcom.uz",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@mingeouz/",
+        },
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/uzgeology",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/uzgeology/",
+        },
+      ],
+      address:
+        "100164, Republic of Uzbekistan, Tashkent, Mirzo-Ulugbek district, Olimlar street, 49",
+      hours:
+        "Monday–Friday: 09:00–18:00. Accessible ramp for visitors with disabilities.\nLunch break: 13:00–14:00.\nClosed: Saturday, Sunday and public holidays.\nBuses: 14, 17, 63, 83, 96, 110, 129.",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), Ministry of Mining Industry and Geology section (mingeo).",
+        reuseNoticeBefore:
+          "When using materials from this website, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/mingeo/",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -171,7 +295,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Ministry of Mining Industry and Geology of the Republic of Uzbekistan on gov.uz (mingeo).",
+        "Official section of the Ministry of Mining Industry and Geology of the Republic of Uzbekistan on gov.uz (mingeo), with information on the ministry’s activities, digital services and verified contact details (phone, email, social media, address and office hours).",
       orgName: "Ministry of Mining Industry and Geology of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/mingeo",
     },
@@ -212,6 +336,68 @@ export default {
       h2: "Rasmiy sayt",
       ctaText:
         "Togʻ-kon sanoati va geologiya vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        { display: "+998 71 231-05-44", href: "tel:+998712310544" },
+      ],
+      trustPhone: {
+        display: "+998 71 231-05-96",
+        href: "tel:+998712310596",
+      },
+      email: {
+        display: "info@mingeo.uz",
+        href: "mailto:info@mingeo.uz",
+      },
+      social: [
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/uzdavgeolcom",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/uzgeolcom.uz",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@mingeouz/",
+        },
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/uzgeology",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/uzgeology/",
+        },
+      ],
+      address:
+        "100164, Oʻzbekiston Respublikasi, Toshkent shahri, Mirzo Ulugʻbek tumani, Olimlar koʻchasi, 49",
+      hours:
+        "Dushanba–juma: 09:00–18:00. Nogironligi bo'lgan shaxslar uchun pandus mavjud.\nTushlik: 13:00–14:00.\nIshlamaydigan kunlar: shanba, yakshanba va bayram kunlari.\nAvtobuslar: 14, 17, 63, 83, 96, 110, 129.",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy gov.uz portali (Togʻ-kon sanoati va geologiya vazirligi, mingeo) asosida keltirilgan.",
+        reuseNoticeBefore:
+          "Ushbu saytdan olingan materiallardan foydalanilganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/mingeo/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -270,7 +456,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Togʻ-kon sanoati va geologiya vazirligining gov.uz portali boʻlimi (mingeo).",
+        "Oʻzbekiston Respublikasi Togʻ-kon sanoati va geologiya vazirligining gov.uz portali boʻlimi (mingeo): vazirlik faoliyati, raqamli xizmatlar va tekshirilgan aloqa maʼlumotlari (telefon, elektron pochta, ijtimoiy tarmoqlar, manzil va ish vaqti) haqida maʼlumot.",
       orgName: "Togʻ-kon sanoati va geologiya vazirligi",
       sameAs: "https://gov.uz/oz/mingeo",
     },

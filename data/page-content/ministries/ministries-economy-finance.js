@@ -15,6 +15,71 @@ export default {
       ctaText:
         "Перейти в официальный раздел Министерства экономики и финансов на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      trustPhone: {
+        display: "+998 (71) 203-31-71",
+        href: "tel:+998712033171",
+      },
+      email: {
+        display: "info@imv.uz",
+        href: "mailto:info@imv.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/minecofinuz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/minfinuzb",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/mineconomfin",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@minecofinuzb",
+        },
+        {
+          id: "linkedin",
+          label: "LinkedIn",
+          url: "https://www.linkedin.com/company/minecofinuz",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/minecofinuz",
+        },
+      ],
+      address: "Узбекистан, 100017, г. Ташкент, улица Истиклол, 29",
+      transport:
+        "Станция метро «Мустакиллик майдони»,\nМустакиллик майдони, автобусы №97, №58, №37, №44, №155, №148, №28\nМаршруты: 8, 129",
+      hours:
+        "Понедельник — пятница: 09:00 — 18:00\nОбеденный перерыв: 13:00 — 14:00\nВыходные дни: суббота, воскресенье, праздничные дни",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Министерства экономики и финансов (imv).",
+        reuseNoticeBefore:
+          "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/imv/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -110,6 +175,71 @@ export default {
       ctaText:
         "Go to the Ministry of Economy and Finance on gov.uz →",
     },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        trustPhone: "Hotline",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Getting here",
+        hours: "Office hours",
+      },
+      trustPhone: {
+        display: "+998 (71) 203-31-71",
+        href: "tel:+998712033171",
+      },
+      email: {
+        display: "info@imv.uz",
+        href: "mailto:info@imv.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/minecofinuz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/minfinuzb",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/mineconomfin",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@minecofinuzb",
+        },
+        {
+          id: "linkedin",
+          label: "LinkedIn",
+          url: "https://www.linkedin.com/company/minecofinuz",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/minecofinuz",
+        },
+      ],
+      address: "Uzbekistan, 100017, Tashkent, Istiklol Street, 29",
+      transport:
+        "Mustaqillik Maydoni metro station,\nMustaqillik Maydoni, buses 97, 58, 37, 44, 155, 148, 28\nShuttle routes: 8, 129",
+      hours:
+        "Monday–Friday: 9:00–18:00\nLunch break: 13:00–14:00\nClosed: Saturday, Sunday and public holidays",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), Ministry of Economy and Finance section (imv).",
+        reuseNoticeBefore:
+          "When using materials from this website, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/imv/",
+      },
+    },
     whatFind: {
       h2: "What you can find on the official website",
       intro:
@@ -200,6 +330,71 @@ export default {
       h2: "Rasmiy sayt",
       ctaText:
         "Iqtisodiyot va moliya vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      trustPhone: {
+        display: "+998 (71) 203-31-71",
+        href: "tel:+998712033171",
+      },
+      email: {
+        display: "info@imv.uz",
+        href: "mailto:info@imv.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/minecofinuz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/minfinuzb",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/mineconomfin",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@minecofinuzb",
+        },
+        {
+          id: "linkedin",
+          label: "LinkedIn",
+          url: "https://www.linkedin.com/company/minecofinuz",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/minecofinuz",
+        },
+      ],
+      address: "Oʻzbekiston, 100017, Toshkent sh., Istiklol koʻchasi, 29",
+      transport:
+        "«Mustaqillik maydoni» metro bekati,\nMustaqillik maydoni, avtobuslar №97, №58, №37, №44, №155, №148, №28\nMarshrutlar: 8, 129",
+      hours:
+        "Dushanba–juma: 09:00–18:00\nTushlik tanaffusi: 13:00–14:00\nDam olish kunlari: shanba, yakshanba va bayram kunlari",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy gov.uz portali (Iqtisodiyot va moliya vazirligi, imv) asosida keltirilgan.",
+        reuseNoticeBefore:
+          "Ushbu saytdan olingan materiallardan foydalanilganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/imv/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",

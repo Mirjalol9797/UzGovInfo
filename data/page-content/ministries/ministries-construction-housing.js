@@ -16,6 +16,69 @@ export default {
       ctaText:
         "Перейти в официальный раздел Министерства строительства и ЖКХ на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. почта",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        {
+          display:
+            "Murojaatlar bo'limi / Отдел обращений (+998 71) 210-11-04 (1250, 1302)",
+          href: "tel:+998712101104",
+        },
+      ],
+      trustPhone: {
+        display: "1298",
+        href: "tel:1298",
+      },
+      email: {
+        display: "info@mc.uz",
+        href: "mailto:info@mc.uz",
+      },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@qurilishvazirligi/videos",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/minstroyuz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/qurilishvazirligi/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/minstroyuz",
+        },
+      ],
+      address: "100011, Республика Узбекистан, г. Ташкент, улица Абай, 6",
+      transport:
+        "Метро: «Алишер Навои», «Пахтакор».\nАвтобусы: 17, 28, 35, 43, 46, 65, 89, 91, 100, 115, 123.\nМаршрутные такси: 76м, 110м, 134м.",
+      hours:
+        "Дни работы: понедельник–пятница, 9:00–18:00.\nВыходные дни: суббота, воскресенье.",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Министерства строительства и ЖКХ (mc).",
+        reuseNoticeBefore:
+          "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/mc/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -73,7 +136,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Министерства строительства и жилищно-коммунального хозяйства Республики Узбекистан на портале gov.uz (mc).",
+        "Официальный раздел Министерства строительства и жилищно-коммунального хозяйства Республики Узбекистан на портале gov.uz (mc): информация о направлениях деятельности, цифровых сервисах и проверенные контактные данные (телефон, телефон доверия 1298, электронная почта, социальные сети, адрес и режим работы).",
       orgName:
         "Министерство строительства и жилищно-коммунального хозяйства Республики Узбекистан",
       sameAs: "https://gov.uz/ru/mc",
@@ -116,6 +179,70 @@ export default {
       h2: "Official website",
       ctaText:
         "Go to the Ministry of Construction and Housing and Communal Services on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Hotline",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Getting there",
+        hours: "Office hours",
+      },
+      phones: [
+        {
+          display:
+            "Appeals department (+998 71) 210-11-04 (ext. 1250, 1302)",
+          href: "tel:+998712101104",
+        },
+      ],
+      trustPhone: {
+        display: "1298",
+        href: "tel:1298",
+      },
+      email: {
+        display: "info@mc.uz",
+        href: "mailto:info@mc.uz",
+      },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@qurilishvazirligi/videos",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/minstroyuz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/qurilishvazirligi/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/minstroyuz",
+        },
+      ],
+      address:
+        "100011, Tashkent, Republic of Uzbekistan, Abay Street, 6",
+      transport:
+        "Metro: Alisher Navoi, Paxtakor.\nBuses: 17, 28, 35, 43, 46, 65, 89, 91, 100, 115, 123.\nMinibuses: 76m, 110m, 134m.",
+      hours:
+        "Working days: Monday–Friday, 9:00–18:00.\nDays off: Saturday, Sunday.",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), Ministry of Construction and Housing and Communal Services section (mc).",
+        reuseNoticeBefore:
+          "When using materials from this website, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/mc/",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -174,7 +301,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Ministry of Construction and Housing and Communal Services of the Republic of Uzbekistan on gov.uz (mc).",
+        "Official section of the Ministry of Construction and Housing and Communal Services of the Republic of Uzbekistan on gov.uz (mc), with information on the ministry’s activities, digital services and verified contact details (phone, hotline 1298, email, social media, address and office hours).",
       orgName:
         "Ministry of Construction and Housing and Communal Services of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/mc",
@@ -213,6 +340,70 @@ export default {
       h2: "Rasmiy sayt",
       ctaText:
         "Qurilish va uy-joy kommunal xoʻjaligi vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        {
+          display:
+            "Murojaatlar bo‘limi (+998 71) 210-11-04 (1250, 1302)",
+          href: "tel:+998712101104",
+        },
+      ],
+      trustPhone: {
+        display: "1298",
+        href: "tel:1298",
+      },
+      email: {
+        display: "info@mc.uz",
+        href: "mailto:info@mc.uz",
+      },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@qurilishvazirligi/videos",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/minstroyuz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/qurilishvazirligi/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/minstroyuz",
+        },
+      ],
+      address:
+        "100011, Toshkent shahri, Oʻzbekiston Respublikasi, Abay koʻchasi, 6",
+      transport:
+        "Metro: «Alisher Navoiy», «Paxtakor».\nAvtobuslar: 17, 28, 35, 43, 46, 65, 89, 91, 100, 115, 123.\nMarshrut taksi: 76m, 110m, 134m.",
+      hours:
+        "Ish kunlari: dushanba–juma, 9:00–18:00.\nDam olish kunlari: shanba, yakshanba.",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy gov.uz portali (Qurilish va uy-joy kommunal xoʻjaligi vazirligi, mc) asosida keltirilgan.",
+        reuseNoticeBefore:
+          "Ushbu saytdan olingan materiallardan foydalanilganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/mc/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -271,7 +462,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Qurilish va uy-joy kommunal xoʻjaligi vazirligining gov.uz portali boʻlimi (mc).",
+        "Oʻzbekiston Respublikasi Qurilish va uy-joy kommunal xoʻjaligi vazirligining gov.uz portali boʻlimi (mc): vazirlik faoliyati, raqamli xizmatlar va tekshirilgan aloqa maʼlumotlari (telefon, ishonch telefoni 1298, elektron pochta, ijtimoiy tarmoqlar, manzil va ish vaqti) haqida maʼlumot.",
       orgName: "Qurilish va uy-joy kommunal xoʻjaligi vazirligi",
       sameAs: "https://gov.uz/oz/mc",
     },

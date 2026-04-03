@@ -15,6 +15,72 @@ export default {
       ctaText:
         "Перейти на официальный раздел Министерства инвестиций, промышленности и торговли на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        hours: "Рабочее время",
+      },
+      phones: [
+        { display: "+998 71 238-55-00", href: "tel:+998712385500" },
+        { display: "+998 71 238-51-90 (Девонхона)", href: "tel:+998712385190" },
+        {
+          display: "+998 71 238-51-16 (Матбуот хизмати)",
+          href: "tel:+998712385116",
+        },
+      ],
+      trustPhone: {
+        display: "+998 71 238-50-05",
+        href: "tel:+998712385005",
+      },
+      email: {
+        display: "info@miit.uz",
+        href: "mailto:info@miit.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/MIIT_Uz",
+        },
+        {
+          id: "linkedin",
+          label: "LinkedIn",
+          url: "https://www.linkedin.com/company/ministry-of-investments-industry-and-trade-of-the-republic-of-uzbekistan",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://facebook.com/miit.uz",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/MIIT_UZ",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://instagram.com/miit.uz",
+        },
+      ],
+      address:
+        "100029, Республика Узбекистан, г. Ташкент, ул. Ислама Каримова, 1",
+      hours: "С понедельника по пятницу с 09:00 до 18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел МИИТ.",
+        reuseNoticeBefore:
+          "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/miit/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -110,6 +176,75 @@ export default {
       ctaText:
         "Go to the Ministry of Investment, Industry and Trade on gov.uz →",
     },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Hotline",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        hours: "Office hours",
+      },
+      phones: [
+        { display: "+998 71 238-55-00", href: "tel:+998712385500" },
+        {
+          display: "+998 71 238-51-90 (Front office)",
+          href: "tel:+998712385190",
+        },
+        {
+          display: "+998 71 238-51-16 (Press service)",
+          href: "tel:+998712385116",
+        },
+      ],
+      trustPhone: {
+        display: "+998 71 238-50-05",
+        href: "tel:+998712385005",
+      },
+      email: {
+        display: "info@miit.uz",
+        href: "mailto:info@miit.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/MIIT_Uz",
+        },
+        {
+          id: "linkedin",
+          label: "LinkedIn",
+          url: "https://www.linkedin.com/company/ministry-of-investments-industry-and-trade-of-the-republic-of-uzbekistan",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://facebook.com/miit.uz",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/MIIT_UZ",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://instagram.com/miit.uz",
+        },
+      ],
+      address:
+        "100029, Republic of Uzbekistan, Tashkent, Islam Karimov Street, 1",
+      hours: "Monday to Friday, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), MIIT section.",
+        reuseNoticeBefore:
+          "When using materials from this website, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/miit/",
+      },
+    },
     whatFind: {
       h2: "What you can find on the official website",
       intro:
@@ -204,6 +339,72 @@ export default {
       h2: "Rasmiy sayt",
       ctaText:
         "Investitsiyalar, sanoat va savdo vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        { display: "+998 71 238-55-00", href: "tel:+998712385500" },
+        { display: "+998 71 238-51-90 (Devonxona)", href: "tel:+998712385190" },
+        {
+          display: "+998 71 238-51-16 (Matbuot xizmati)",
+          href: "tel:+998712385116",
+        },
+      ],
+      trustPhone: {
+        display: "+998 71 238-50-05",
+        href: "tel:+998712385005",
+      },
+      email: {
+        display: "info@miit.uz",
+        href: "mailto:info@miit.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/MIIT_Uz",
+        },
+        {
+          id: "linkedin",
+          label: "LinkedIn",
+          url: "https://www.linkedin.com/company/ministry-of-investments-industry-and-trade-of-the-republic-of-uzbekistan",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://facebook.com/miit.uz",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/MIIT_UZ",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://instagram.com/miit.uz",
+        },
+      ],
+      address:
+        "100029, Oʻzbekiston Respublikasi, Toshkent sh., Islom Karimov koʻchasi, 1",
+      hours: "Dushanba–juma, 09:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy gov.uz portali (MIIT boʻlimi) asosida keltirilgan.",
+        reuseNoticeBefore:
+          "Ushbu saytdan olingan materiallardan foydalanilganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/miit/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
