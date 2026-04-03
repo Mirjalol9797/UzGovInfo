@@ -1,11 +1,11 @@
 /**
- * Высшая аттестационная комиссия (ОАК) при Министерстве высшего образования, науки и инноваций
- * Официальный сайт: https://oak.uz/
+ * Министерство высшего образования, науки и инноваций
+ * Раздел gov.uz: https://gov.uz/edu
  */
 export default {
   ru: {
     pageTitle:
-      "Высшая аттестационная комиссия при Министерстве высшего образования, науки и инноваций Республики Узбекистан",
+      "Министерство высшего образования, науки и инноваций Республики Узбекистан",
     intro: [
       "Высшая аттестационная комиссия (ВАК) при Министерстве высшего образования, науки и инноваций Республики Узбекистан обеспечивает единую государственную политику в сфере присвоения учёных степеней и учёных званий, аттестации научных и научно-педагогических кадров, аккредитации диссертационных советов и организаций, ведущих подготовку кадров высшей квалификации.",
       "На официальном сайте oak.uz публикуются правовые основы деятельности ОАК, структура и руководство, сведения о научных советах по направлениям (естественные и точные науки, социально-гуманитарные, медицинские), перечни специальностей, объявления о защитах, нормативные и методические документы, открытые данные, реестр государственных услуг, форум предложений и обсуждений, новости и контакты (в т.ч. телефон доверия +998 95 193-11-43).",
@@ -14,7 +14,69 @@ export default {
     officialSite: {
       h2: "Официальный сайт",
       ctaText:
-        "Перейти на официальный сайт Высшей аттестационной комиссии oak.uz →",
+        "Перейти в официальный раздел Министерства высшего образования, науки и инноваций на gov.uz/edu →",
+    },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        {
+          display: "Devonxona: 55-520-08-08 (195)",
+          href: "tel:+99855200808",
+        },
+        {
+          display: "Отдел работы с обращениями: 55-520-08-08 (201)",
+          href: "tel:+99855200808",
+        },
+      ],
+      trustPhone: {
+        display: "1006",
+        href: "tel:1006",
+      },
+      email: {
+        display: "devonxona@edu.uz",
+        href: "mailto:devonxona@edu.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/eduuz" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/edu.uz/",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/eduuzofficial",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://youtube.com/c/eduuz",
+        },
+      ],
+      address:
+        "100174, г. Ташкент, Алмазарский р-н, ул. Университетская, дом 7",
+      transport:
+        'Автобусы: 11, 28, 31, 78, 88, 116\nМетро: станция "Беруний"',
+      hours:
+        "Понедельник - Пятница: 9:00 - 18:00\nОбеденный перерыв: 13:00 - 14:00\nВыходные дни: Суббота, Воскресенье",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел edu.",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/edu",
+      },
     },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
@@ -73,9 +135,9 @@ export default {
     },
     schema: {
       description:
-        "Официальный сайт Высшей аттестационной комиссии при Министерстве высшего образования, науки и инноваций Республики Узбекистан — oak.uz.",
-      orgName: "Высшая аттестационная комиссия при Министерстве высшего образования, науки и инноваций",
-      sameAs: "https://oak.uz/",
+        "Официальный раздел Министерства высшего образования, науки и инноваций Республики Узбекистан на портале gov.uz (edu) — контакты, телефон доверия 1006, электронная почта devonxona@edu.uz, социальные сети, адрес и режим работы.",
+      orgName: "Министерство высшего образования, науки и инноваций Республики Узбекистан",
+      sameAs: "https://gov.uz/edu",
     },
     faq: {
       h2: "Часто задаваемые вопросы",
@@ -105,7 +167,7 @@ export default {
   },
   en: {
     pageTitle:
-      "Supreme Attestation Commission at the Ministry of Higher Education, Science and Innovations of the Republic of Uzbekistan",
+      "Ministry of Higher Education, Science and Innovations of the Republic of Uzbekistan",
     intro: [
       "The Supreme Attestation Commission (SAC / HAC) under the Ministry of Higher Education, Science and Innovations of the Republic of Uzbekistan implements unified public policy on academic degrees and titles, attestation of research and academic staff, accreditation of dissertation councils, and organizations that train the highest-qualification personnel.",
       "The official oak.uz website publishes the legal framework of the SAC, structure and leadership, information on scientific councils by field (natural and exact sciences, social sciences and humanities, medicine), specialty lists, defense announcements, regulations and methodological materials, open data, the public services register, a proposals and discussion forum, news and contacts (including the trust line +998 95 193-11-43).",
@@ -113,7 +175,70 @@ export default {
     ],
     officialSite: {
       h2: "Official website",
-      ctaText: "Go to the Supreme Attestation Commission website oak.uz →",
+      ctaText: "Go to the official section of the Ministry on gov.uz/edu →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Hotline",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Getting there",
+        hours: "Office hours",
+      },
+      phones: [
+        {
+          display: "Devonxona: 55-520-08-08 (195)",
+          href: "tel:+99855200808",
+        },
+        {
+          display: "Appeals department: 55-520-08-08 (201)",
+          href: "tel:+99855200808",
+        },
+      ],
+      trustPhone: {
+        display: "1006",
+        href: "tel:1006",
+      },
+      email: {
+        display: "devonxona@edu.uz",
+        href: "mailto:devonxona@edu.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/eduuz" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/edu.uz/",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/eduuzofficial",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://youtube.com/c/eduuz",
+        },
+      ],
+      address:
+        "100174, Tashkent, Almazar district, Universitet Street, 7",
+      transport:
+        'Buses: 11, 28, 31, 78, 88, 116\nMetro: "Beruniy" station',
+      hours:
+        "Monday - Friday: 9:00 - 18:00\nLunch break: 13:00 - 14:00\nClosed: Saturday and Sunday",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), edu section.",
+        reuseNoticeBefore:
+          "When using materials from this website, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/edu",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -172,10 +297,9 @@ export default {
     },
     schema: {
       description:
-        "Official website of the Supreme Attestation Commission at the Ministry of Higher Education, Science and Innovations of the Republic of Uzbekistan — oak.uz.",
-      orgName:
-        "Supreme Attestation Commission at the Ministry of Higher Education, Science and Innovations",
-      sameAs: "https://oak.uz/",
+        "Official section of the Ministry of Higher Education, Science and Innovations of the Republic of Uzbekistan on gov.uz (edu) — contact details, hotline 1006, email devonxona@edu.uz, social media, address and office hours.",
+      orgName: "Ministry of Higher Education, Science and Innovations",
+      sameAs: "https://gov.uz/edu",
     },
     faq: {
       h2: "Frequently asked questions",
@@ -205,7 +329,7 @@ export default {
   },
   uz: {
     pageTitle:
-      "Oʻzbekiston Respublikasi Oliy taʼlim, fan va innovatsiyalar vazirligi huzuridagi Oliy attestatsiya komissiyasi",
+      "Oʻzbekiston Respublikasi Oliy taʼlim, fan va innovatsiyalar vazirligi",
     intro: [
       "Oʻzbekiston Respublikasi Oliy taʼlim, fan va innovatsiyalar vazirligi huzuridagi Oliy attestatsiya komissiyasi (OAK) ilmiy darajalar va ilmiy unvonlar berish, ilmiy va ilmiy-pedagog kadrlarni attestatsiyadan oʻtkazish, dissertatsiya kengashlari va oliy malaka kadrlarini tayyorlaydigan tashkilotlarni akkreditatsiya qilish boʻyicha yagona davlat siyosatini amalga oshiradi.",
       "oak.uz rasmiy saytida OAK faoliyatining huquqiy asoslari, tuzilma va rahbariyat, ilmiy kengashlar yoʻnalishlari (aniq va tabiiy fanlar, ijtimoiy-gumanitar, tibbiyot fanlari), ixtisosliklar roʻyxati, himoya eʼlonlari, normativ va uslubiy hujjatlar, ochiq maʼlumotlar, davlat xizmatlari reestri, taklif va muhokamalar forumi, yangiliklar va aloqa (shu jumladan ishonch telefoni +998 95 193-11-43) joylashtiriladi.",
@@ -213,7 +337,72 @@ export default {
     ],
     officialSite: {
       h2: "Rasmiy sayt",
-      ctaText: "Oliy attestatsiya komissiyasining rasmiy sayti oak.uz ga oʻtish →",
+      ctaText:
+        "Oliy taʼlim, fan va innovatsiyalar vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        {
+          display: "Devonxona: 55-520-08-08 (195)",
+          href: "tel:+99855200808",
+        },
+        {
+          display:
+            "Murojaatlar bilan ishlash bo'limi: 55-520-08-08 (201)",
+          href: "tel:+99855200808",
+        },
+      ],
+      trustPhone: {
+        display: "1006",
+        href: "tel:1006",
+      },
+      email: {
+        display: "devonxona@edu.uz",
+        href: "mailto:devonxona@edu.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/eduuz" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/edu.uz/",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/eduuzofficial",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://youtube.com/c/eduuz",
+        },
+      ],
+      address:
+        "100174, Toshkent sh., Olmazor tumani, Universitet ko'chasi, 7-uy",
+      transport:
+        'Avtobuslar: 11, 28, 31, 78, 88, 116\nMetro: «Beruniy» bekati',
+      hours:
+        "Dushanba - Juma: 9:00 - 18:00\nTushlik: 13:00 - 14:00\nDam olish kunlari: Shanba, Yakshanba",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy gov.uz portali (edu) asosida keltirilgan.",
+        reuseNoticeBefore:
+          "Ushbu saytdan olingan materiallardan foydalanilganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/edu",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -272,10 +461,9 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Oliy taʼlim, fan va innovatsiyalar vazirligi huzuridagi Oliy attestatsiya komissiyasining rasmiy sayti — oak.uz.",
-      orgName:
-        "Oliy taʼlim, fan va innovatsiyalar vazirligi huzuridagi Oliy attestatsiya komissiyasi",
-      sameAs: "https://oak.uz/",
+        "Oʻzbekiston Respublikasi Oliy taʼlim, fan va innovatsiyalar vazirligining gov.uz (edu) portalidagi rasmiy boʻlimi — aloqa maʼlumotlari, ishonch telefoni 1006, devonxona@edu.uz elektron pochta, ijtimoiy tarmoqlar, manzil va ish vaqti.",
+      orgName: "Oʻzbekiston Respublikasi Oliy taʼlim, fan va innovatsiyalar vazirligi",
+      sameAs: "https://gov.uz/edu",
     },
     faq: {
       h2: "Tez-tez beriladigan savollar",

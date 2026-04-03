@@ -16,6 +16,56 @@ export default {
       ctaText:
         "Перейти в официальный раздел Министерства дошкольного и школьного образования на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 202-09-09", href: "tel:+998712020909" }],
+      trustPhone: {
+        display: "+99871 202-09-09",
+        href: "tel:+998712020909",
+      },
+      email: {
+        display: "info@uzedu.uz",
+        href: "mailto:info@uzedu.uz",
+      },
+      social: [
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/uzedu1",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCl7z3EkGaM4NA0NcB_phIAg",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/uzedu",
+        },
+      ],
+      address: "100011, г. Ташкент, Шайхонтохурский район, улица Навои, 2а",
+      transport:
+        "Метро: Площадь Мустакиллик — 1.01 км, Абдуллы Кадыри — 1.29 км, Пахтакор — 1.49 км.\nАвтобус: № 28, 44, 46, 68, 78, 89, 91, 97, 115.",
+      hours: "Понедельник-пятница: с 9:00 до 18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Министерства дошкольного и школьного образования (uzedu).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/uzedu/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -117,6 +167,56 @@ export default {
       ctaText:
         "Go to the Ministry of Preschool and School Education on gov.uz →",
     },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Hotline",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99871 202-09-09", href: "tel:+998712020909" }],
+      trustPhone: {
+        display: "+99871 202-09-09",
+        href: "tel:+998712020909",
+      },
+      email: {
+        display: "info@uzedu.uz",
+        href: "mailto:info@uzedu.uz",
+      },
+      social: [
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/uzedu1",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCl7z3EkGaM4NA0NcB_phIAg",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/uzedu",
+        },
+      ],
+      address: "100011, Tashkent, Shaykhontohur district, Navoiy street, 2a",
+      transport:
+        "Metro: Mustaqillik Square — 1.01 km, Abdulla Qodiriy — 1.29 km, Pakhtakor — 1.49 km.\nBus: № 28, 44, 46, 68, 78, 89, 91, 97, 115.",
+      hours: "Monday–Friday: 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), Ministry of Preschool and School Education section (uzedu).",
+        reuseNoticeBefore: "When using materials from this website a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/uzedu/",
+      },
+    },
     whatFind: {
       h2: "What you can find on the official website",
       intro:
@@ -217,6 +317,56 @@ export default {
       h2: "Rasmiy sayt",
       ctaText:
         "Maktabgacha va maktab taʼlimi vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqalar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 202-09-09", href: "tel:+998712020909" }],
+      trustPhone: {
+        display: "+99871 202-09-09",
+        href: "tel:+998712020909",
+      },
+      email: {
+        display: "info@uzedu.uz",
+        href: "mailto:info@uzedu.uz",
+      },
+      social: [
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/uzedu1",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCl7z3EkGaM4NA0NcB_phIAg",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/uzedu",
+        },
+      ],
+      address: "100011, Toshkent sh., Shayxontohur tumani, Navoiy ko'chasi, 2a",
+      transport:
+        "Metro: Mustaqillik maydoni — 1.01 km, Abdulla Qodiriy — 1.29 km, Paxtakor — 1.49 km.\nAvtobus: № 28, 44, 46, 68, 78, 89, 91, 97, 115.",
+      hours: "Dushanba-juma: 9:00 dan 18:00 gacha",
+      sourceAttribution: {
+        dataSource:
+          "Bog'lanish ma'lumotlari O'zbekiston Respublikasi rasmiy portali (gov.uz) ma'lumotlari asosida keltirilgan, Maktabgacha va maktab ta'limi vazirligi (uzedu) bo'limi.",
+        reuseNoticeBefore: "Ushbu saytdan materiallardan foydalanganda veb-saytga ",
+        reuseLinkText: "havola",
+        reuseNoticeAfter: " majburiy.",
+        reuseUrl: "https://gov.uz/oz/uzedu/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
