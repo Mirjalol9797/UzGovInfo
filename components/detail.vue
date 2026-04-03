@@ -310,7 +310,7 @@ useHead(() => ({
           v-if="officialSite"
           class="mb-8 rounded-2xl border border-[#e5e7eb] bg-white overflow-hidden 768:mb-4"
         >
-          <div class="px-5 py-4 md:px-6 md:py-5">
+          <div class="px-5 py-4 768:p-3">
             <div
               class="flex items-start justify-between gap-4 768:flex-col 768:gap-2"
             >
@@ -362,7 +362,7 @@ useHead(() => ({
             </div>
           </div>
 
-          <div class="px-5 py-4 md:px-6 md:py-4 border-t border-[#edf1f7]">
+          <div class="px-5 py-4 768:p-3 border-t border-[#edf1f7]">
             <div class="flex items-center gap-3 768:flex-col 768:items-stretch">
               <a
                 :href="officialSiteUrl"
