@@ -15,6 +15,69 @@ export default {
       ctaText:
         "Перейти в официальный раздел Министерства сельского хозяйства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        {
+          display: "Devonxona: +99871 206-70-30",
+          href: "tel:+998712067030",
+        },
+        { display: "+99871 206-72-30", href: "tel:+998712067230" },
+      ],
+      trustPhone: {
+        display: "1243",
+        href: "tel:1243",
+      },
+      email: {
+        display: "info@agro.uz",
+        href: "mailto:info@agro.uz",
+      },
+      social: [
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/uzagroministry",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/uzagroministry/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCyNJPOK19dl0ekedbTf_pfg",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/agrouzbekistan",
+        },
+      ],
+      address:
+        "Адрес электронной почты \"Е-хат\": agro@exat.uz\n100140, Ташкентская область, Кибрайский район, ул. Университетская 2",
+      transport:
+        "Остановка \"Аграрный университет\" автобусных маршрутов 83, 96, 115, 129",
+      hours:
+        "Время работы: Понедельник-Пятница 9.00-18.00\nВыходные дни: Суббота, Воскресенье",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Министерства сельского хозяйства (agro).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/agro/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -72,7 +135,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Министерства сельского хозяйства Республики Узбекистан на портале gov.uz (agro).",
+        "Официальный раздел Министерства сельского хозяйства Республики Узбекистан на портале gov.uz (agro): указаны телефоны, телефон доверия 1243, электронная почта info[at]agro.uz, адрес и режим работы, а также ссылки на социальные сети.",
       orgName: "Министерство сельского хозяйства Республики Узбекистан",
       sameAs: "https://gov.uz/ru/agro",
     },
@@ -112,6 +175,69 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Ministry of Agriculture on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Hotline",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        {
+          display: "Devonxona: +99871 206-70-30",
+          href: "tel:+998712067030",
+        },
+        { display: "+99871 206-72-30", href: "tel:+998712067230" },
+      ],
+      trustPhone: {
+        display: "1243",
+        href: "tel:1243",
+      },
+      email: {
+        display: "info@agro.uz",
+        href: "mailto:info@agro.uz",
+      },
+      social: [
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/uzagroministry",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/uzagroministry/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCyNJPOK19dl0ekedbTf_pfg",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/agrouzbekistan",
+        },
+      ],
+      address:
+        "E-hat email address: agro@exat.uz\n100140, Tashkent region, Kibray district, Universitetskaya str., 2",
+      transport:
+        "Bus stop “Agrarian University” (routes 83, 96, 115, 129)",
+      hours:
+        "Office hours: Monday–Friday 9:00–18:00\nDays off: Saturday, Sunday",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), Ministry of Agriculture (agro) section.",
+        reuseNoticeBefore: "When using materials from this website a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/agro/",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -170,7 +296,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Ministry of Agriculture of the Republic of Uzbekistan on gov.uz (agro).",
+        "Official section of the Ministry of Agriculture of the Republic of Uzbekistan on gov.uz (agro): phones are listed, hotline 1243, email info[at]agro.uz, address and office hours, plus social media links.",
       orgName: "Ministry of Agriculture of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/agro",
     },
@@ -211,6 +337,69 @@ export default {
       h2: "Rasmiy sayt",
       ctaText:
         "Qishloq xoʻjaligi vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqalar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        {
+          display: "Devonxona: +99871 206-70-30",
+          href: "tel:+998712067030",
+        },
+        { display: "+99871 206-72-30", href: "tel:+998712067230" },
+      ],
+      trustPhone: {
+        display: "1243",
+        href: "tel:1243",
+      },
+      email: {
+        display: "info@agro.uz",
+        href: "mailto:info@agro.uz",
+      },
+      social: [
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/uzagroministry",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/uzagroministry/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCyNJPOK19dl0ekedbTf_pfg",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/agrouzbekistan",
+        },
+      ],
+      address:
+        "“E-xat” elektron pochta manzili: agro@exat.uz\n100140, Toshkent viloyati, Kibray tumani, Universitet ko‘chasi, 2",
+      transport:
+        "“Agrar universitet” bekati (83, 96, 115, 129 avtobus yo‘nalishlari)",
+      hours:
+        "Ish vaqti: Dushanba–Juma 9.00–18.00\nDam olish kunlari: Shanba, Yakshanba",
+      sourceAttribution: {
+        dataSource:
+          "Bog‘lanish ma’lumotlari O‘zbekiston Respublikasi rasmiy portali (gov.uz) ma’lumotlari asosida, Qishloq xo‘jaligi vazirligi (agro) bo‘limidan keltirilgan.",
+        reuseNoticeBefore: "Ushbu saytdan materiallardan foydalanganda veb-saytga ",
+        reuseLinkText: "havola",
+        reuseNoticeAfter: " majburiy.",
+        reuseUrl: "https://gov.uz/oz/agro/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -269,7 +458,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Qishloq xoʻjaligi vazirligining gov.uz portali boʻlimi (agro).",
+        "Oʻzbekiston Respublikasi Qishloq xoʻjaligi vazirligining gov.uz portali boʻlimi (agro): telefonlar, ishonch raqami 1243, elektron pochta info[at]agro.uz, manzil va ish vaqti hamda ijtimoiy tarmoqlar havolalari ko‘rsatilgan.",
       orgName: "Qishloq xoʻjaligi vazirligi",
       sameAs: "https://gov.uz/oz/agro",
     },
