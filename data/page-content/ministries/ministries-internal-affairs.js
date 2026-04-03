@@ -15,6 +15,75 @@ export default {
       ctaText:
         "Перейти в официальный раздел Министерства внутренних дел на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Колл - центр",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        {
+          display: "+99871 231-43-04",
+          href: "tel:+998712314304",
+        },
+        {
+          display: "71-231-33-46",
+          href: "tel:+998712313346",
+        },
+      ],
+      trustPhone: {
+        display: "102, 1102",
+        href: "tel:102",
+      },
+      email: {
+        display: "info@iiv.uz",
+        href: "mailto:info@iiv.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/IIV_uz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/iiv.uz/",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/iiv.uz",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCafRBQQF_y7qIiqx1vfsInA",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/iivuz",
+        },
+      ],
+      address: "100029, Ташкент, ул. Юнус Ражабий, 1",
+      transport:
+        "Автобусы: 2, 12, 80, 81, 27,140, 57,67,190\nМаршрутные такси:\nСтанции метро: станция метро \"Космонавтлар\"\nОриентир: станция метро \"Космонавтлар\", супермаркет \"Корзинка\"",
+      hours: "Понедельник - Суббота 9:00 - 18:00\nВоскресенье - выходной",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Министерства внутренних дел (iiv).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/iiv/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -72,7 +141,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Министерства внутренних дел Республики Узбекистан на портале gov.uz (iiv).",
+        "Официальный раздел Министерства внутренних дел Республики Узбекистан на портале gov.uz (iiv): телефоны +99871 231-43-04 и 71-231-33-46, колл-центр 102 и 1102, электронная почта info[at]iiv.uz, адрес 100029, Ташкент, ул. Юнус Ражабий, 1, транспорт и рабочее время, а также ссылки на социальные сети.",
       orgName: "Министерство внутренних дел Республики Узбекистан",
       sameAs: "https://gov.uz/ru/iiv",
     },
@@ -112,6 +181,75 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Ministry of Internal Affairs on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Call center",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        {
+          display: "+99871 231-43-04",
+          href: "tel:+998712314304",
+        },
+        {
+          display: "71-231-33-46",
+          href: "tel:+998712313346",
+        },
+      ],
+      trustPhone: {
+        display: "102, 1102",
+        href: "tel:102",
+      },
+      email: {
+        display: "info@iiv.uz",
+        href: "mailto:info@iiv.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/IIV_uz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/iiv.uz/",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/iiv.uz",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCafRBQQF_y7qIiqx1vfsInA",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/iivuz",
+        },
+      ],
+      address: "100029, Tashkent, Yunus Rajabiy street, 1",
+      transport:
+        "Buses: 2, 12, 80, 81, 27, 140, 57, 67, 190\nRoute taxis:\nMetro stations: Kosmonavtlar metro station\nLandmark: Kosmonavtlar metro station, Korzinka supermarket",
+      hours: "Monday - Saturday 9:00 - 18:00\nSunday - day off",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on information from the official portal of the Republic of Uzbekistan (gov.uz), Ministry of Internal Affairs (iiv) section.",
+        reuseNoticeBefore: "When using materials from this website a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/iiv/",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -170,7 +308,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Ministry of Internal Affairs of the Republic of Uzbekistan on gov.uz (iiv).",
+        "Official section of the Ministry of Internal Affairs of the Republic of Uzbekistan on gov.uz (iiv): phones +99871 231-43-04 and 71-231-33-46, call center 102 and 1102, email info[at]iiv.uz, address 100029, Tashkent, Yunus Rajabiy street, 1, transport and office hours, and social media links.",
       orgName: "Ministry of Internal Affairs of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/iiv",
     },
@@ -210,6 +348,75 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Ichki ishlar vazirligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqalar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Call-markaz",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        {
+          display: "+99871 231-43-04",
+          href: "tel:+998712314304",
+        },
+        {
+          display: "71-231-33-46",
+          href: "tel:+998712313346",
+        },
+      ],
+      trustPhone: {
+        display: "102, 1102",
+        href: "tel:102",
+      },
+      email: {
+        display: "info@iiv.uz",
+        href: "mailto:info@iiv.uz",
+      },
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/IIV_uz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/iiv.uz/",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/iiv.uz",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCafRBQQF_y7qIiqx1vfsInA",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/iivuz",
+        },
+      ],
+      address: "100029, Toshkent, Yunus Rajabiy ko'chasi, 1",
+      transport:
+        "Avtobuslar: 2, 12, 80, 81, 27, 140, 57, 67, 190\nYo'nalishli taksilar:\nMetro stansiyalari: \"Kosmonavtlar\" metro stansiyasi\nMo'ljal: \"Kosmonavtlar\" metro stansiyasi, \"Korzinka\" supermarketi",
+      hours: "Dushanba - Shanba 9:00 - 18:00\nYakshanba - dam olish kuni",
+      sourceAttribution: {
+        dataSource:
+          "Bog'lanish ma'lumotlari O'zbekiston Respublikasi rasmiy portali (gov.uz) ma'lumotlari asosida, Ichki ishlar vazirligi (iiv) bo'limidan keltirilgan.",
+        reuseNoticeBefore: "Ushbu saytdan materiallardan foydalanganda veb-saytga ",
+        reuseLinkText: "havola",
+        reuseNoticeAfter: " majburiy.",
+        reuseUrl: "https://gov.uz/oz/iiv/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -268,7 +475,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Ichki ishlar vazirligining gov.uz portali boʻlimi (iiv).",
+        "Oʻzbekiston Respublikasi Ichki ishlar vazirligining gov.uz portali boʻlimi (iiv): telefonlar +99871 231-43-04 va 71-231-33-46, call-markaz 102 va 1102, elektron pochta info[at]iiv.uz, manzil 100029, Toshkent, Yunus Rajabiy ko'chasi, 1, transport va ish vaqti, shuningdek ijtimoiy tarmoqlar havolalari.",
       orgName: "Oʻzbekiston Respublikasi Ichki ishlar vazirligi",
       sameAs: "https://gov.uz/oz/iiv",
     },
