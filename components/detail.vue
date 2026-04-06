@@ -503,6 +503,33 @@ useHead(() => ({
                   </td>
                 </tr>
                 <tr
+                  v-if="contacts.territorialOffices?.length"
+                  class="border-b border-[#edf1f7] odd:bg-white even:bg-[#f9fafb] hover:bg-[#f1f5f9]/80 transition-colors"
+                >
+                  <th
+                    scope="row"
+                    class="align-top py-3.5 px-5 768:px-3 768:py-3 font-semibold text-[#374151] w-[min(38%,11rem)] 768:w-[40%]"
+                  >
+                    {{ contacts.labels.territorialOffices }}
+                  </th>
+                  <td
+                    class="align-top py-3.5 px-5 768:px-3 768:py-3 text-[#111827]"
+                  >
+                    <div class="flex flex-col gap-1.5">
+                      <a
+                        v-for="(o, i) in contacts.territorialOffices"
+                        :key="'to-' + i"
+                        :href="o.url"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-[#2563eb] font-medium hover:underline decoration-[#2563eb]/30 underline-offset-2"
+                      >
+                        {{ o.label }}
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+                <tr
                   v-if="contacts.social?.length"
                   class="border-b border-[#edf1f7] odd:bg-white even:bg-[#f9fafb] hover:bg-[#f1f5f9]/80 transition-colors"
                 >

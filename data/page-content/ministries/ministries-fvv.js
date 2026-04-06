@@ -2,6 +2,112 @@
  * Министерство по чрезвычайным ситуациям Республики Узбекистан
  * Официальный раздел на портале gov.uz: /{locale}/fvv
  */
+
+const fvvTerritorialOffices = [
+  {
+    url: "https://gov.uz/fvv-toshkent",
+    ru: "город Ташкент",
+    en: "Tashkent city",
+    uz: "Toshkent shahri",
+  },
+  {
+    url: "https://gov.uz/fvv-sirdaryo",
+    ru: "Сырдарьинская область",
+    en: "Syrdarya region",
+    uz: "Sirdaryo viloyati",
+  },
+  {
+    url: "https://gov.uz/fvv-fargona",
+    ru: "Ферганская область",
+    en: "Fergana region",
+    uz: "Fargʻona viloyati",
+  },
+  {
+    url: "https://gov.uz/fvv-xorazm",
+    ru: "Хорезмская область",
+    en: "Khorezm region",
+    uz: "Xorazm viloyati",
+  },
+  {
+    url: "https://gov.uz/fvv-qr",
+    ru: "Республика Каракалпакстан",
+    en: "Republic of Karakalpakstan",
+    uz: "Qoraqalpogʻiston Respublikasi",
+  },
+  {
+    url: "https://gov.uz/fvv-andijon",
+    ru: "Андижанская область",
+    en: "Andijan region",
+    uz: "Andijon viloyati",
+  },
+  {
+    url: "https://gov.uz/fvv-buxoro",
+    ru: "Бухарская область",
+    en: "Bukhara region",
+    uz: "Buxoro viloyati",
+  },
+  {
+    url: "https://gov.uz/fvv-jizzax",
+    ru: "Джиззакская область",
+    en: "Jizzakh region",
+    uz: "Jizzax viloyati",
+  },
+  {
+    url: "https://gov.uz/fvv-qashqadaryo",
+    ru: "Кашкадарьинская область",
+    en: "Kashkadarya region",
+    uz: "Qashqadaryo viloyati",
+  },
+  {
+    url: "https://gov.uz/fvv-navoiy",
+    ru: "Навоийская область",
+    en: "Navoi region",
+    uz: "Navoiy viloyati",
+  },
+  {
+    url: "https://gov.uz/fvv-namangan",
+    ru: "Наманганская область",
+    en: "Namangan region",
+    uz: "Namangan viloyati",
+  },
+  {
+    url: "https://gov.uz/fvv-samarqand",
+    ru: "Самаркандская область",
+    en: "Samarkand region",
+    uz: "Samarqand viloyati",
+  },
+  {
+    url: "https://gov.uz/fvv-surxondaryo",
+    ru: "Сурхандарьинская область",
+    en: "Surkhandarya region",
+    uz: "Surxondaryo viloyati",
+  },
+  {
+    url: "https://gov.uz/fvv-fmi",
+    ru: "Институт гражданской защиты при Академии МЧС",
+    en: "Institute of Civil Protection at the MES Academy",
+    uz: "FVV Akademiyasi qoshidagi fuqarolik muhofazasi instituti",
+  },
+  {
+    url: "https://gov.uz/fvv-akademiya",
+    ru: "Академия Министерства по чрезвычайным ситуациям",
+    en: "Academy of the Ministry of Emergency Situations",
+    uz: "Favqulodda vaziyatlar vazirligi Akademiyasi",
+  },
+  {
+    url: "https://gov.uz/fvv-qamchiq",
+    ru: "Специальное спасательное управление «Камчик»",
+    en: 'Special rescue department "Kamchik"',
+    uz: "«Kamchiq» maxsus qutqaruv boshqarmasi",
+  },
+  {
+    url: "https://gov.uz/fvv-thl",
+    ru: "Шахрисабзский военно-академический лицей «Темурбеклар мактаби»",
+    en: 'Shakhrisabz military academic lyceum "Temurbeklar maktabi"',
+    uz: "Shahrisabz harbiy akademik litseyi «Temurbeklar maktabi»",
+  },
+];
+
 export default {
   ru: {
     pageTitle: "Министерство по чрезвычайным ситуациям Республики Узбекистан",
@@ -70,9 +176,75 @@ export default {
     otherSites: {
       h2: "Другие официальные сайты государственных органов",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        territorialOffices: "Территориальные управления",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        { display: "1050", href: "tel:1050" },
+        { display: "101", href: "tel:101" },
+      ],
+      trustPhone: { display: "1101", href: "tel:1101" },
+      email: {
+        display: "info@fvv.uz",
+        href: "mailto:info@fvv.uz",
+      },
+      territorialOffices: fvvTerritorialOffices.map(({ url, ru: label }) => ({
+        label,
+        url,
+      })),
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/fvv_uzb",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/fvvmchs/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/MCHSUzbek",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/FVV.Uzbekiston",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCqrWjSMaXQPkBiFV0b6N0-g",
+        },
+      ],
+      address: "100084, Ташкент, ул. Кичик Халка йули, 4",
+      transport:
+        "Автобусы: 85, 88, 95, 93, 72, 115, 19, 67, 24, 51, 60, 142, 10\nМаршрутный транспорт: 100, 62, 12, 61, 20",
+      hours:
+        "Понедельник — суббота: 9:00 — 18:00\nОбеденный перерыв: 13:00 — 14:00\nВыходные дни: воскресенье\nДежурные службы и спасательные подразделения работают круглосуточно",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Министерства по чрезвычайным ситуациям (fvv).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/fvv/",
+      },
+    },
     schema: {
       description:
-        "Официальный раздел Министерства по чрезвычайным ситуациям Республики Узбекистан на портале gov.uz (fvv).",
+        "Официальный раздел Министерства по чрезвычайным ситуациям Республики Узбекистан на портале gov.uz (fvv): телефоны 1050 и 101, телефон доверия 1101, электронная почта info[at]fvv.uz, адрес 100084, Ташкент, ул. Кичик Халка йули, 4, территориальные управления на gov.uz, транспорт и рабочее время, ссылки на социальные сети.",
       orgName: "Министерство по чрезвычайным ситуациям Республики Узбекистан",
       sameAs: "https://gov.uz/ru/fvv",
     },
@@ -168,9 +340,75 @@ export default {
     otherSites: {
       h2: "Other official websites of government bodies",
     },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "E-mail",
+        territorialOffices: "Regional offices",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        { display: "1050", href: "tel:1050" },
+        { display: "101", href: "tel:101" },
+      ],
+      trustPhone: { display: "1101", href: "tel:1101" },
+      email: {
+        display: "info@fvv.uz",
+        href: "mailto:info@fvv.uz",
+      },
+      territorialOffices: fvvTerritorialOffices.map(({ url, en: label }) => ({
+        label,
+        url,
+      })),
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/fvv_uzb",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/fvvmchs/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/MCHSUzbek",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/FVV.Uzbekiston",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCqrWjSMaXQPkBiFV0b6N0-g",
+        },
+      ],
+      address: "100084, Tashkent, Kichik Khalka yuli street, 4",
+      transport:
+        "Buses: 85, 88, 95, 93, 72, 115, 19, 67, 24, 51, 60, 142, 10\nShuttle buses: 100, 62, 12, 61, 20",
+      hours:
+        "Monday–Saturday: 9:00–18:00\nLunch break: 13:00–14:00\nClosed: Sunday\nDuty and rescue units operate 24/7",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Ministry of Emergency Situations section (fvv).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/fvv/",
+      },
+    },
     schema: {
       description:
-        "Official section of the Ministry of Emergency Situations of the Republic of Uzbekistan on gov.uz (fvv).",
+        "Official section of the Ministry of Emergency Situations of the Republic of Uzbekistan on gov.uz (fvv): phones 1050 and 101, trust line 1101, email info[at]fvv.uz, address 100084, Tashkent, Kichik Khalka yuli street, 4, regional offices on gov.uz, transport and office hours, and social media links.",
       orgName: "Ministry of Emergency Situations of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/fvv",
     },
@@ -266,9 +504,75 @@ export default {
     otherSites: {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        territorialOffices: "Hududiy boshqarmalar",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        { display: "1050", href: "tel:1050" },
+        { display: "101", href: "tel:101" },
+      ],
+      trustPhone: { display: "1101", href: "tel:1101" },
+      email: {
+        display: "info@fvv.uz",
+        href: "mailto:info@fvv.uz",
+      },
+      territorialOffices: fvvTerritorialOffices.map(({ url, uz: label }) => ({
+        label,
+        url,
+      })),
+      social: [
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://twitter.com/fvv_uzb",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/fvvmchs/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/MCHSUzbek",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/FVV.Uzbekiston",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCqrWjSMaXQPkBiFV0b6N0-g",
+        },
+      ],
+      address: "100084, Toshkent, Kichik Xalqa yo'li ko'chasi, 4",
+      transport:
+        "Avtobuslar: 85, 88, 95, 93, 72, 115, 19, 67, 24, 51, 60, 142, 10\nMarshrut transporti: 100, 62, 12, 61, 20",
+      hours:
+        "Dushanba — shanba: 9:00 — 18:00\nTushlik tanaffusi: 13:00 — 14:00\nDam olish kunlari: yakshanba\nNavbatchilik va qutqaruv boʻlinmalari sutkasiga ishlaydi",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Favqulodda vaziyatlar vazirligi boʻlimi (fvv) asosida keltirilgan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/fvv/",
+      },
+    },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Favqulodda vaziyatlar vazirligining gov.uz portali boʻlimi (fvv).",
+        "Oʻzbekiston Respublikasi Favqulodda vaziyatlar vazirligining gov.uz portali boʻlimi (fvv): 1050 va 101 telefonlari, ishonch telefoni 1101, elektron pochta info[at]fvv.uz, manzil 100084, Toshkent, Kichik Xalqa yo'li ko'chasi, 4, gov.uz dagi hududiy boshqarmalar, transport va ish vaqti, ijtimoiy tarmoqlar havolalari.",
       orgName: "Oʻzbekiston Respublikasi Favqulodda vaziyatlar vazirligi",
       sameAs: "https://gov.uz/oz/fvv",
     },
