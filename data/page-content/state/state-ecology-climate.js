@@ -16,6 +16,54 @@ export default {
       ctaText:
         "Перейти в раздел Национального комитета по экологии и климату на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        { display: "+99871 207-07-70 (5015#)", href: "tel:+998712070770" },
+        { display: "71 207-11-07", href: "tel:+998712071107" },
+      ],
+      trustPhone: { display: "1157, 71 207-11-07", href: "tel:1157" },
+      email: { display: "info@eco.gov.uz", href: "mailto:info@eco.gov.uz" },
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/ecology_uzb",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/ecogovuz" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/ecogovuz/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram bot",
+          url: "https://t.me/ECOanticor_bot",
+        },
+      ],
+      address:
+        "100043, г. Ташкент, Чиланзарский район, проспект Бунёдкор, дом 7-А",
+      transport: "Станция метро \"Новза\"\nМечеть \"Новза\"",
+      hours: "09:00 - 18:00\nОбед: 13:00 - 14:00\nВыходные: суббота, воскресенье",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Национального комитета по экологии и изменению климата (eco).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/eco/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
       intro:
@@ -73,7 +121,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Национального комитета по экологии и изменению климата Республики Узбекистан на портале gov.uz (eco).",
+        "Официальный раздел Национального комитета по экологии и изменению климата Республики Узбекистан на портале gov.uz (eco): телефоны +99871 207-07-70 (5015#) и 71 207-11-07, телефон доверия 1157 и 71 207-11-07, электронная почта info[at]eco.gov.uz, адрес 100043, г. Ташкент, Чиланзарский район, проспект Бунёдкор, дом 7-А, транспорт, рабочее время и ссылки на социальные сети.",
       orgName:
         "Национальный комитет по экологии и изменению климата Республики Узбекистан",
       sameAs: [
@@ -120,6 +168,55 @@ export default {
       h2: "Official section on gov.uz",
       ctaText:
         "Open the National Committee on Ecology and Climate Change on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "E-mail",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        { display: "+99871 207-07-70 (5015#)", href: "tel:+998712070770" },
+        { display: "71 207-11-07", href: "tel:+998712071107" },
+      ],
+      trustPhone: { display: "1157, 71 207-11-07", href: "tel:1157" },
+      email: { display: "info@eco.gov.uz", href: "mailto:info@eco.gov.uz" },
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/ecology_uzb",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/ecogovuz" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/ecogovuz/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram bot",
+          url: "https://t.me/ECOanticor_bot",
+        },
+      ],
+      address:
+        "100043, Tashkent, Chilanzar district, Bunyodkor avenue, 7-A",
+      transport: "Novza metro station\nNovza mosque",
+      hours:
+        "09:00 - 18:00\nLunch: 13:00 - 14:00\nDays off: Saturday, Sunday",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), National Committee on Ecology and Climate Change section (eco).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/eco/",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -178,7 +275,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the National Committee on Ecology and Climate Change of the Republic of Uzbekistan on gov.uz (eco).",
+        "Official section of the National Committee on Ecology and Climate Change of the Republic of Uzbekistan on gov.uz (eco): phones +99871 207-07-70 (5015#) and 71 207-11-07, trust line 1157 and 71 207-11-07, email info[at]eco.gov.uz, address 100043, Tashkent, Chilanzar district, Bunyodkor avenue, 7-A, transport, office hours and social media links.",
       orgName:
         "National Committee on Ecology and Climate Change of the Republic of Uzbekistan",
       sameAs: [
@@ -225,6 +322,55 @@ export default {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText:
         "gov.uz da Ekologiya va iqlim oʻzgarishi milliy qoʻmitasi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        { display: "+99871 207-07-70 (5015#)", href: "tel:+998712070770" },
+        { display: "71 207-11-07", href: "tel:+998712071107" },
+      ],
+      trustPhone: { display: "1157, 71 207-11-07", href: "tel:1157" },
+      email: { display: "info@eco.gov.uz", href: "mailto:info@eco.gov.uz" },
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/ecology_uzb",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/ecogovuz" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/ecogovuz/",
+        },
+        {
+          id: "telegram",
+          label: "Telegram bot",
+          url: "https://t.me/ECOanticor_bot",
+        },
+      ],
+      address:
+        "100043, Toshkent shahri, Chilonzor tumani, Bunyodkor shoh ko'chasi, 7-A",
+      transport: "\"Novza\" metro bekati\n\"Novza\" masjidi",
+      hours:
+        "09:00 - 18:00\nTushlik: 13:00 - 14:00\nDam olish kunlari: shanba, yakshanba",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Ekologiya va iqlim oʻzgarishi milliy qoʻmitasi boʻlimi (eco) asosida keltirilgan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/eco/",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -283,7 +429,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Ekologiya va iqlim oʻzgarishi milliy qoʻmitasining gov.uz portali boʻlimi (eco).",
+        "Oʻzbekiston Respublikasi Ekologiya va iqlim oʻzgarishi milliy qoʻmitasining gov.uz portali boʻlimi (eco): +99871 207-07-70 (5015#) va 71 207-11-07 telefonlari, 1157 va 71 207-11-07 ishonch telefoni, info[at]eco.gov.uz elektron pochta, 100043, Toshkent shahri, Chilonzor tumani, Bunyodkor shoh ko'chasi, 7-A manzili, transport, ish vaqti va ijtimoiy tarmoqlar havolalari.",
       orgName:
         "O‘zbekiston Respublikasi Ekologiya va iqlim o‘zgarishi milliy qo‘mitasi",
       sameAs: [

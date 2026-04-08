@@ -16,6 +16,59 @@ export default {
       ctaText:
         "Перейти в раздел Комитета по ветеринарии и животноводству на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 202-12-00", href: "tel:+998712021200" }],
+      trustPhone: {
+        display: "71 202-12-00 (201)",
+        href: "tel:+998712021200",
+      },
+      email: { display: "info@vetgov.uz", href: "mailto:info@vetgov.uz" },
+      social: [
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/VeterinariansUzbekistan",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/vetgov.uz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/vetgov.uz/",
+        },
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://x.com/vetgov_uz",
+        },
+      ],
+      address: "100123, г. Ташкент, ул. Кичик халка йули, 21-а",
+      transport:
+        "Метро: станция Чиланзар\nАвтобусы: 135, 134, 131, 114, 99, 94, 20, 8 (остановка «Шухрат»)",
+      hours:
+        "Понедельник-пятница с 9:00 до 18:00\nОбед: с 13:00 до 14:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Комитета по развитию ветеринарии и животноводства (vetgov).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/vetgov/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
       intro:
@@ -73,7 +126,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Комитета по развитию ветеринарии и животноводства при Министерстве сельского хозяйства Республики Узбекистан на портале gov.uz (vetgov).",
+        "Официальный раздел Комитета по развитию ветеринарии и животноводства при Министерстве сельского хозяйства Республики Узбекистан на портале gov.uz (vetgov): телефон +99871 202-12-00, телефон доверия 71 202-12-00 (201), электронная почта info[at]vetgov.uz, адрес 100123, г. Ташкент, ул. Кичик халка йули, 21-а, транспорт, рабочее время и ссылки на социальные сети.",
       orgName:
         "Комитет по развитию ветеринарии и животноводства при Министерстве сельского хозяйства Республики Узбекистан",
       sameAs: [
@@ -121,6 +174,58 @@ export default {
       h2: "Official section on gov.uz",
       ctaText:
         "Open the Committee on Veterinary and Livestock Development on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "E-mail",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99871 202-12-00", href: "tel:+998712021200" }],
+      trustPhone: {
+        display: "71 202-12-00 (201)",
+        href: "tel:+998712021200",
+      },
+      email: { display: "info@vetgov.uz", href: "mailto:info@vetgov.uz" },
+      social: [
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/VeterinariansUzbekistan",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/vetgov.uz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/vetgov.uz/",
+        },
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://x.com/vetgov_uz",
+        },
+      ],
+      address: "100123, Tashkent, Kichik Halqa Yuli street, 21-a",
+      transport:
+        "Metro: Chilanzar station\nBuses: 135, 134, 131, 114, 99, 94, 20, 8 (Shukhrat stop)",
+      hours: "Monday-Friday from 9:00 to 18:00\nLunch: 13:00 to 14:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Veterinary and Livestock Development Committee section (vetgov).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/vetgov/",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -179,7 +284,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Committee of Veterinary and Livestock Development under the Ministry of Agriculture of the Republic of Uzbekistan on gov.uz (vetgov).",
+        "Official section of the Committee of Veterinary and Livestock Development under the Ministry of Agriculture of the Republic of Uzbekistan on gov.uz (vetgov): phone +99871 202-12-00, trust line 71 202-12-00 (201), email info[at]vetgov.uz, address 100123, Tashkent, Kichik Halqa Yuli street, 21-a, transport, office hours and social media links.",
       orgName:
         "Committee of Veterinary and Livestock Development under the Ministry of Agriculture of the Republic of Uzbekistan",
       sameAs: [
@@ -227,6 +332,59 @@ export default {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText:
         "gov.uz da Veterinariya va chorvachilikni rivojlantirish qoʻmitasi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 202-12-00", href: "tel:+998712021200" }],
+      trustPhone: {
+        display: "71 202-12-00 (201)",
+        href: "tel:+998712021200",
+      },
+      email: { display: "info@vetgov.uz", href: "mailto:info@vetgov.uz" },
+      social: [
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/VeterinariansUzbekistan",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/vetgov.uz",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/vetgov.uz/",
+        },
+        {
+          id: "twitter",
+          label: "Twitter / X",
+          url: "https://x.com/vetgov_uz",
+        },
+      ],
+      address: "100123, Toshkent shahri, Kichik halqa yo'li, 21-a",
+      transport:
+        "Metro: Chilonzor bekati\nAvtobuslar: 135, 134, 131, 114, 99, 94, 20, 8 (\"Shuhrat\" bekati)",
+      hours:
+        "Dushanba-juma 9:00 dan 18:00 gacha\nTushlik: 13:00 dan 14:00 gacha",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Veterinariya va chorvachilikni rivojlantirish qoʻmitasi boʻlimi (vetgov) asosida keltirilgan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/vetgov/",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -285,7 +443,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi qishloq xoʻjaligi vazirligi huzuridagi Veterinariya va chorvachilikni rivojlantirish qoʻmitasining gov.uz portali boʻlimi (vetgov).",
+        "Oʻzbekiston Respublikasi qishloq xoʻjaligi vazirligi huzuridagi Veterinariya va chorvachilikni rivojlantirish qoʻmitasining gov.uz portali boʻlimi (vetgov): +99871 202-12-00 telefoni, 71 202-12-00 (201) ishonch telefoni, info[at]vetgov.uz elektron pochta, 100123, Toshkent shahri, Kichik halqa yo'li, 21-a manzili, transport, ish vaqti va ijtimoiy tarmoqlar havolalari.",
       orgName:
         "O'zbekiston Respublikasi qishloq xo'jaligi vazirligi huzuridagi Veterinariya va chorvachilikni rivojlantirish qo'mitasi",
       sameAs: [
