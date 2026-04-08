@@ -14,6 +14,56 @@ export default {
       h2: "Официальный раздел на gov.uz",
       ctaText: "Перейти в раздел «Налоговый комитет» на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        {
+          display: "Devonxona: +99871 244-98-01",
+          href: "tel:+998712449801",
+        },
+        {
+          display: "+99871 244-98-02",
+          href: "tel:+998712449802",
+        },
+      ],
+      trustPhone: {
+        display: "1198; +99871 244-98-98",
+        href: "tel:1198",
+      },
+      email: {
+        display: "org@soliq.uz",
+        href: "mailto:org@soliq.uz",
+      },
+      social: [
+        { id: "twitter", label: "Twitter / X", url: "https://twitter.com/soliqnews" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/c/Davlatsoliqqomitasi" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/Soliqpressa" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/soliqnews" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/soliqpressa" },
+      ],
+      address: "г. Ташкент, 100011, улица Абдулла Кадири, дом 13-а",
+      transport:
+        "Метро: Алишер Навои\nАвтобусы: 9, 17, 29, 35\nОриентир: Республиканский Театр Юного Зрителя",
+      hours:
+        "С 9:00 до 18:00\nОбед с 13:00 до 14:00\nВыходные: суббота, воскресенье",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Налогового комитета (soliq).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/soliq/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
       intro:
@@ -71,7 +121,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Налогового комитета Республики Узбекистан на портале gov.uz (soliq).",
+        "Официальный раздел Налогового комитета Республики Узбекистан на портале gov.uz (soliq): телефоны Devonxona +99871 244-98-01 и +99871 244-98-02, телефон доверия 1198 и +99871 244-98-98, электронная почта org[at]soliq.uz, адрес г. Ташкент, 100011, улица Абдулла Кадири, дом 13-а, транспорт, рабочее время и ссылки на социальные сети.",
       orgName: "Налоговый комитет Республики Узбекистан",
       sameAs: [
         "https://gov.uz/ru/soliq",
@@ -116,6 +166,56 @@ export default {
     officialSite: {
       h2: "Official section on gov.uz",
       ctaText: "Open the State Tax Committee section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "E-mail",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        {
+          display: "Devonxona: +99871 244-98-01",
+          href: "tel:+998712449801",
+        },
+        {
+          display: "+99871 244-98-02",
+          href: "tel:+998712449802",
+        },
+      ],
+      trustPhone: {
+        display: "1198; +99871 244-98-98",
+        href: "tel:1198",
+      },
+      email: {
+        display: "org@soliq.uz",
+        href: "mailto:org@soliq.uz",
+      },
+      social: [
+        { id: "twitter", label: "Twitter / X", url: "https://twitter.com/soliqnews" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/c/Davlatsoliqqomitasi" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/Soliqpressa" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/soliqnews" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/soliqpressa" },
+      ],
+      address: "Tashkent, 100011, Abdulla Qodiriy street, 13-a",
+      transport:
+        "Metro: Alisher Navoi\nBuses: 9, 17, 29, 35\nLandmark: Republican Youth Theatre",
+      hours:
+        "From 9:00 to 18:00\nLunch break: 13:00 to 14:00\nDays off: Saturday, Sunday",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), State Tax Committee section (soliq).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/soliq/",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -174,7 +274,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the State Tax Committee of the Republic of Uzbekistan on gov.uz (soliq).",
+        "Official section of the State Tax Committee of the Republic of Uzbekistan on gov.uz (soliq): phones Devonxona +99871 244-98-01 and +99871 244-98-02, trust line 1198 and +99871 244-98-98, email org[at]soliq.uz, address Tashkent, 100011, Abdulla Qodiriy street, 13-a, transport, office hours and social media links.",
       orgName: "State Tax Committee of the Republic of Uzbekistan",
       sameAs: [
         "https://gov.uz/en/soliq",
@@ -219,6 +319,56 @@ export default {
     officialSite: {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText: "gov.uz dagi «Soliq qoʻmitasi» boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        {
+          display: "Devonxona: +99871 244-98-01",
+          href: "tel:+998712449801",
+        },
+        {
+          display: "+99871 244-98-02",
+          href: "tel:+998712449802",
+        },
+      ],
+      trustPhone: {
+        display: "1198; +99871 244-98-98",
+        href: "tel:1198",
+      },
+      email: {
+        display: "org@soliq.uz",
+        href: "mailto:org@soliq.uz",
+      },
+      social: [
+        { id: "twitter", label: "Twitter / X", url: "https://twitter.com/soliqnews" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/c/Davlatsoliqqomitasi" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/Soliqpressa" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/soliqnews" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/soliqpressa" },
+      ],
+      address: "Toshkent shahri, 100011, Abdulla Qodiriy ko'chasi, 13-a uy",
+      transport:
+        "Metro: Alisher Navoiy\nAvtobuslar: 9, 17, 29, 35\nMoʻljal: Respublika Yosh Tomoshabinlar Teatri",
+      hours:
+        "Soat 9:00 dan 18:00 gacha\nTushlik: 13:00 dan 14:00 gacha\nDam olish kunlari: shanba, yakshanba",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Soliq qoʻmitasi boʻlimi (soliq) asosida keltirilgan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/soliq/",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -277,7 +427,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Soliq qoʻmitasining gov.uz portali boʻlimi (soliq).",
+        "Oʻzbekiston Respublikasi Soliq qoʻmitasining gov.uz portali boʻlimi (soliq): Devonxona +99871 244-98-01 va +99871 244-98-02 telefonlari, 1198 va +99871 244-98-98 ishonch telefoni, org[at]soliq.uz elektron pochta, Toshkent shahri, 100011, Abdulla Qodiriy ko'chasi, 13-a uy manzili, transport, ish vaqti va ijtimoiy tarmoqlar havolalari.",
       orgName: "Oʻzbekiston Respublikasi Soliq qoʻmitasi",
       sameAs: [
         "https://gov.uz/oz/soliq",

@@ -16,6 +16,34 @@ export default {
       ctaText:
         "Перейти в раздел санитарно-эпидемиологического комитета на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        social: "Социальные сети",
+        address: "Адрес",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99878 888-01-01", href: "tel:+998788880101" }],
+      trustPhone: { display: "1354", href: "tel:1354" },
+      social: [
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@Sanepidqomita" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/sanepidcommittee/" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/sanepidxizmat" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/sanepid__uz" },
+      ],
+      address: "Ташкент, Чиланзорский район, улица Бунёдкор, 46",
+      hours: "Понедельник-пятница: с 9:00 до 18:00\nВыходные: суббота, воскресенье",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Санэпидкома (sanepid).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/sanepid/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
       intro:
@@ -73,7 +101,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Комитета санитарно-эпидемиологического благополучия и общественного здоровья при Министерстве здравоохранения Республики Узбекистан на портале gov.uz (sanepid).",
+        "Официальный раздел Комитета санитарно-эпидемиологического благополучия и общественного здоровья при Министерстве здравоохранения Республики Узбекистан на портале gov.uz (sanepid): телефон +99878 888-01-01, телефон доверия 1354, адрес Ташкент, Чиланзорский район, улица Бунёдкор, 46, рабочее время и ссылки на социальные сети.",
       orgName:
         "Комитет санитарно-эпидемиологического благополучия и общественного здоровья при Министерстве здравоохранения Республики Узбекистан",
       sameAs: [
@@ -120,6 +148,34 @@ export default {
       h2: "Official section on gov.uz",
       ctaText:
         "Open the sanitary-epidemiological committee section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        social: "Social media",
+        address: "Address",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99878 888-01-01", href: "tel:+998788880101" }],
+      trustPhone: { display: "1354", href: "tel:1354" },
+      social: [
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@Sanepidqomita" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/sanepidcommittee/" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/sanepidxizmat" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/sanepid__uz" },
+      ],
+      address: "Tashkent, Chilanzar district, Bunyodkor street, 46",
+      hours: "Monday-Friday: 9:00 to 18:00\nDays off: Saturday, Sunday",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), sanepid section.",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/sanepid/",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -177,7 +233,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Committee for Sanitary-Epidemiological Welfare and Public Health under the Ministry of Health of the Republic of Uzbekistan on gov.uz (sanepid).",
+        "Official section of the Committee for Sanitary-Epidemiological Welfare and Public Health under the Ministry of Health of the Republic of Uzbekistan on gov.uz (sanepid): phone +99878 888-01-01, trust line 1354, address Tashkent, Chilanzar district, Bunyodkor street, 46, office hours and social media links.",
       orgName:
         "Committee for Sanitary-Epidemiological Welfare and Public Health under the Ministry of Health of the Republic of Uzbekistan",
       sameAs: [
@@ -224,6 +280,34 @@ export default {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText:
         "gov.uz da sanitariya-epidemiologik qoʻmita boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99878 888-01-01", href: "tel:+998788880101" }],
+      trustPhone: { display: "1354", href: "tel:1354" },
+      social: [
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@Sanepidqomita" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/sanepidcommittee/" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/sanepidxizmat" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/sanepid__uz" },
+      ],
+      address: "Toshkent, Chilonzor tumani, Bunyodkor ko'chasi, 46",
+      hours: "Dushanba-juma: 9:00 dan 18:00 gacha\nDam olish kunlari: shanba, yakshanba",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Sanepid qoʻmitasi boʻlimi (sanepid) asosida keltirilgan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/sanepid/",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -282,7 +366,7 @@ export default {
     },
     schema: {
       description:
-        "Sogʻliqni saqlash vazirligi huzuridagi Sanitariya-epidemiologik osoyishtalik va jamoat salomatligi qoʻmitasining gov.uz portali boʻlimi (sanepid).",
+        "Sogʻliqni saqlash vazirligi huzuridagi Sanitariya-epidemiologik osoyishtalik va jamoat salomatligi qoʻmitasining gov.uz portali boʻlimi (sanepid): +99878 888-01-01 telefoni, 1354 ishonch telefoni, Toshkent, Chilonzor tumani, Bunyodkor ko'chasi, 46 manzili, ish vaqti hamda ijtimoiy tarmoqlar havolalari.",
       orgName:
         "Oʻzbekiston Respublikasi Sogʻliqni saqlash vazirligi huzuridagi Sanitariya-epidemiologik osoyishtalik va jamoat salomatligi qoʻmitasi",
       sameAs: [

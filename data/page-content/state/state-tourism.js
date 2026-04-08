@@ -14,6 +14,42 @@ export default {
       h2: "Официальный раздел на gov.uz",
       ctaText: "Перейти в раздел Комитета по туризму на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 205-06-00", href: "tel:+998712050600" }],
+      trustPhone: { display: "+99871 200-00-88; 1163", href: "tel:+998712000088" },
+      email: { display: "info@motach.uz", href: "mailto:info@motach.uz" },
+      social: [
+        { id: "twitter", label: "Twitter / X", url: "https://x.com/Uzbek_Tourism" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@uzbektourismpress-service6610" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/753914251424619/" },
+        { id: "instagram", label: "Instagram", url: "https://instagram.com/uzbektourism_official?igshid=smgt8ropvf7l" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzbektourismofficial" },
+        { id: "linkedin", label: "LinkedIn", url: "https://www.linkedin.com/company/uzbekistan-tourism-committee/" },
+      ],
+      address: "100084, город Ташкент, проспект Амира Темура, дом 107B",
+      transport:
+        "Ориентир: гостиница \"Azimut Grand\"\nТранспорт: метро, станция \"Бодомзор\"\nАвтобусы: № 67, 71, 85",
+      hours:
+        "Понедельник-пятница: с 09:00 до 18:00\nОбеденное время: с 13:00 до 14:00\nВыходные дни: суббота, воскресенье",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Комитета по туризму (uzbektourism).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/uzbektourism/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
       intro:
@@ -71,7 +107,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Комитета по туризму Республики Узбекистан на портале gov.uz (uzbektourism).",
+        "Официальный раздел Комитета по туризму Республики Узбекистан на портале gov.uz (uzbektourism): телефон +99871 205-06-00, телефон доверия +99871 200-00-88 и 1163, электронная почта info[at]motach.uz, адрес 100084, город Ташкент, проспект Амира Темура, дом 107B, транспорт, рабочее время и ссылки на социальные сети.",
       orgName: "Комитет по туризму Республики Узбекистан",
       sameAs: [
         "https://gov.uz/ru/uzbektourism",
@@ -116,6 +152,42 @@ export default {
     officialSite: {
       h2: "Official section on gov.uz",
       ctaText: "Open the Tourism Committee on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "E-mail",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99871 205-06-00", href: "tel:+998712050600" }],
+      trustPhone: { display: "+99871 200-00-88; 1163", href: "tel:+998712000088" },
+      email: { display: "info@motach.uz", href: "mailto:info@motach.uz" },
+      social: [
+        { id: "twitter", label: "Twitter / X", url: "https://x.com/Uzbek_Tourism" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@uzbektourismpress-service6610" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/753914251424619/" },
+        { id: "instagram", label: "Instagram", url: "https://instagram.com/uzbektourism_official?igshid=smgt8ropvf7l" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzbektourismofficial" },
+        { id: "linkedin", label: "LinkedIn", url: "https://www.linkedin.com/company/uzbekistan-tourism-committee/" },
+      ],
+      address: "100084, Tashkent, Amir Temur avenue, 107B",
+      transport:
+        "Landmark: Azimut Grand hotel\nTransport: metro, Bodomzor station\nBuses: No. 67, 71, 85",
+      hours:
+        "Monday-Friday: 09:00 to 18:00\nLunch time: 13:00 to 14:00\nDays off: Saturday, Sunday",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Tourism Committee section (uzbektourism).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/uzbektourism/",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -174,7 +246,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Tourism Committee of the Republic of Uzbekistan on gov.uz (uzbektourism).",
+        "Official section of the Tourism Committee of the Republic of Uzbekistan on gov.uz (uzbektourism): phone +99871 205-06-00, trust line +99871 200-00-88 and 1163, email info[at]motach.uz, address 100084, Tashkent, Amir Temur avenue, 107B, transport, office hours and social media links.",
       orgName: "Tourism Committee of the Republic of Uzbekistan",
       sameAs: [
         "https://gov.uz/en/uzbektourism",
@@ -219,6 +291,42 @@ export default {
     officialSite: {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText: "gov.uz da Turizm qoʻmitasi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 205-06-00", href: "tel:+998712050600" }],
+      trustPhone: { display: "+99871 200-00-88; 1163", href: "tel:+998712000088" },
+      email: { display: "info@motach.uz", href: "mailto:info@motach.uz" },
+      social: [
+        { id: "twitter", label: "Twitter / X", url: "https://x.com/Uzbek_Tourism" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@uzbektourismpress-service6610" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/753914251424619/" },
+        { id: "instagram", label: "Instagram", url: "https://instagram.com/uzbektourism_official?igshid=smgt8ropvf7l" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzbektourismofficial" },
+        { id: "linkedin", label: "LinkedIn", url: "https://www.linkedin.com/company/uzbekistan-tourism-committee/" },
+      ],
+      address: "100084, Toshkent shahri, Amir Temur shoh ko'chasi, 107B",
+      transport:
+        "Moʻljal: \"Azimut Grand\" mehmonxonasi\nTransport: metro, \"Bodomzor\" bekati\nAvtobuslar: 67, 71, 85",
+      hours:
+        "Dushanba-juma: 09:00 dan 18:00 gacha\nTushlik vaqti: 13:00 dan 14:00 gacha\nDam olish kunlari: shanba, yakshanba",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Turizm qoʻmitasi boʻlimi (uzbektourism) asosida keltirilgan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/uzbektourism/",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -276,7 +384,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Turizm qoʻmitasining gov.uz portali boʻlimi (uzbektourism).",
+        "Oʻzbekiston Respublikasi Turizm qoʻmitasining gov.uz portali boʻlimi (uzbektourism): +99871 205-06-00 telefoni, +99871 200-00-88 va 1163 ishonch telefoni, info[at]motach.uz elektron pochta, 100084, Toshkent shahri, Amir Temur shoh ko'chasi, 107B manzili, transport, ish vaqti hamda ijtimoiy tarmoqlar havolalari.",
       orgName: "O'zbekiston Respublikasi Turizm qo‘mitasi",
       sameAs: [
         "https://gov.uz/oz/uzbektourism",

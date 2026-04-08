@@ -14,6 +14,39 @@ export default {
       h2: "Официальный раздел на gov.uz",
       ctaText: "Перейти в раздел Комитета семьи и женщин на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 202-10-79", href: "tel:+998712021079" }],
+      trustPhone: { display: "+99871 202-10-59", href: "tel:+998712021059" },
+      email: {
+        display: "wcudevonxona@exat.uz",
+        href: "mailto:wcudevonxona@exat.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/davlatqomita" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/wcuuzofficial" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@wcuuzofficial" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/wcuuzofficial" },
+      ],
+      address: "г. Ташкент, Мирза Улугбекский район, улица Мирзакалон Исмаили, дом 1-Г",
+      hours: "Понедельник-пятница: с 9:00 до 18:00\nОбед: с 13:00 до 14:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Комитета семьи и женщин (wcu).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/wcu/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
       intro:
@@ -71,7 +104,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Комитета семьи и женщин Республики Узбекистан на портале gov.uz (wcu).",
+        "Официальный раздел Комитета семьи и женщин Республики Узбекистан на портале gov.uz (wcu): телефон +99871 202-10-79, телефон доверия +99871 202-10-59, электронная почта wcudevonxona[at]exat.uz, адрес г. Ташкент, Мирза Улугбекский район, улица Мирзакалон Исмаили, дом 1-Г, рабочее время и ссылки на социальные сети.",
       orgName: "Комитет семьи и женщин Республики Узбекистан",
       sameAs: [
         "https://gov.uz/ru/wcu",
@@ -116,6 +149,40 @@ export default {
     officialSite: {
       h2: "Official section on gov.uz",
       ctaText: "Open the Committee of Family and Women section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "E-mail",
+        social: "Social media",
+        address: "Address",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99871 202-10-79", href: "tel:+998712021079" }],
+      trustPhone: { display: "+99871 202-10-59", href: "tel:+998712021059" },
+      email: {
+        display: "wcudevonxona@exat.uz",
+        href: "mailto:wcudevonxona@exat.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/davlatqomita" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/wcuuzofficial" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@wcuuzofficial" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/wcuuzofficial" },
+      ],
+      address:
+        "Tashkent, Mirzo Ulugbek district, Mirzakalon Ismaili street, building 1-G",
+      hours: "Monday-Friday: 9:00 to 18:00\nLunch: 13:00 to 14:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Committee of Family and Women section (wcu).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/wcu/",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -173,7 +240,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Committee of Family and Women of the Republic of Uzbekistan on gov.uz (wcu).",
+        "Official section of the Committee of Family and Women of the Republic of Uzbekistan on gov.uz (wcu): phone +99871 202-10-79, trust line +99871 202-10-59, email wcudevonxona[at]exat.uz, address Tashkent, Mirzo Ulugbek district, Mirzakalon Ismaili street, building 1-G, office hours and social media links.",
       orgName: "Committee of Family and Women of the Republic of Uzbekistan",
       sameAs: [
         "https://gov.uz/en/wcu",
@@ -219,6 +286,40 @@ export default {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText:
         "gov.uz da Oila va xotin-qizlar qoʻmitasi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 202-10-79", href: "tel:+998712021079" }],
+      trustPhone: { display: "+99871 202-10-59", href: "tel:+998712021059" },
+      email: {
+        display: "wcudevonxona@exat.uz",
+        href: "mailto:wcudevonxona@exat.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/davlatqomita" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/wcuuzofficial" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@wcuuzofficial" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/wcuuzofficial" },
+      ],
+      address:
+        "Toshkent shahri, Mirzo Ulugʻbek tumani, Mirzakalon Ismoiliy ko'chasi, 1-G uy",
+      hours: "Dushanba-juma: 9:00 dan 18:00 gacha\nTushlik: 13:00 dan 14:00 gacha",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Oila va xotin-qizlar qoʻmitasi boʻlimi (wcu) asosida keltirilgan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/wcu/",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -277,7 +378,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Oila va xotin-qizlar qoʻmitasining gov.uz portali boʻlimi (wcu).",
+        "Oʻzbekiston Respublikasi Oila va xotin-qizlar qoʻmitasining gov.uz portali boʻlimi (wcu): +99871 202-10-79 telefoni, +99871 202-10-59 ishonch telefoni, wcudevonxona[at]exat.uz elektron pochta, Toshkent shahri, Mirzo Ulugʻbek tumani, Mirzakalon Ismoiliy ko'chasi, 1-G uy manzili, ish vaqti hamda ijtimoiy tarmoqlar havolalari.",
       orgName: "Oʻzbekiston Respublikasi Oila va xotin-qizlar qoʻmitasi",
       sameAs: [
         "https://gov.uz/oz/wcu",

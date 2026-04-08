@@ -16,6 +16,27 @@ export default {
       ctaText:
         "Перейти в раздел Комитета промышленной, радиационной и ядерной безопасности на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        address: "Адрес",
+      },
+      phones: [{ display: "+998712030239", href: "tel:+998712030239" }],
+      trustPhone: { display: "+998712030239", href: "tel:+998712030239" },
+      email: { display: "info@cirns.uz", href: "mailto:info@cirns.uz" },
+      address: "100011, г. Ташкент, М-14, дом 27",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Комитета промышленной, радиационной и ядерной безопасности (cirns).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/cirns/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
       intro:
@@ -73,7 +94,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Комитета промышленной, радиационной и ядерной безопасности при Кабинете Министров Республики Узбекистан на портале gov.uz (cirns).",
+        "Официальный раздел Комитета промышленной, радиационной и ядерной безопасности при Кабинете Министров Республики Узбекистан на портале gov.uz (cirns): телефон +998712030239, телефон доверия +998712030239, электронная почта info[at]cirns.uz, адрес 100011, г. Ташкент, М-14, дом 27.",
       orgName:
         "Комитет промышленной, радиационной и ядерной безопасности при Кабинете Министров Республики Узбекистан",
       sameAs: [
@@ -120,6 +141,27 @@ export default {
       h2: "Official section on gov.uz",
       ctaText:
         "Open the industrial, radiation and nuclear safety committee section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "E-mail",
+        address: "Address",
+      },
+      phones: [{ display: "+998712030239", href: "tel:+998712030239" }],
+      trustPhone: { display: "+998712030239", href: "tel:+998712030239" },
+      email: { display: "info@cirns.uz", href: "mailto:info@cirns.uz" },
+      address: "100011, Tashkent, M-14, building 27",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), committee section (cirns).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/cirns/",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -177,7 +219,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Committee for Industrial, Radiation and Nuclear Safety under the Cabinet of Ministers of the Republic of Uzbekistan on gov.uz (cirns).",
+        "Official section of the Committee for Industrial, Radiation and Nuclear Safety under the Cabinet of Ministers of the Republic of Uzbekistan on gov.uz (cirns): phone +998712030239, trust line +998712030239, email info[at]cirns.uz, address 100011, Tashkent, M-14, building 27.",
       orgName:
         "Committee for Industrial, Radiation and Nuclear Safety under the Cabinet of Ministers of the Republic of Uzbekistan",
       sameAs: [
@@ -224,6 +266,27 @@ export default {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText:
         "gov.uz da Sanoat, radiatsiya va yadro xavfsizligi qoʻmitasi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        address: "Manzil",
+      },
+      phones: [{ display: "+998712030239", href: "tel:+998712030239" }],
+      trustPhone: { display: "+998712030239", href: "tel:+998712030239" },
+      email: { display: "info@cirns.uz", href: "mailto:info@cirns.uz" },
+      address: "100011, Toshkent shahri, M-14, 27-uy",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Sanoat, radiatsiya va yadro xavfsizligi qoʻmitasi boʻlimi (cirns) asosida keltirilgan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/cirns/",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -282,7 +345,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Sanoat, radiatsiya va yadro xavfsizligi qoʻmitasining gov.uz portali boʻlimi (cirns).",
+        "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Sanoat, radiatsiya va yadro xavfsizligi qoʻmitasining gov.uz portali boʻlimi (cirns): +998712030239 telefoni, +998712030239 ishonch telefoni, info[at]cirns.uz elektron pochta, 100011, Toshkent shahri, M-14, 27-uy manzili.",
       orgName:
         "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Sanoat, radiatsiya va yadro xavfsizligi qoʻmitasi",
       sameAs: [

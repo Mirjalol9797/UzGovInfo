@@ -15,6 +15,42 @@ export default {
       ctaText:
         "Перейти в раздел Комитета по делам религий на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 207-17-58", href: "tel:+998712071758" }],
+      trustPhone: {
+        display: "+99871 207-17-58 (внутренний номер 1)",
+        href: "tel:+998712071758",
+      },
+      email: { display: "info@religions.uz", href: "mailto:info@religions.uz" },
+      social: [
+        { id: "twitter", label: "Twitter / X", url: "https://twitter.com/Dinqumita_uz" },
+        { id: "facebook", label: "Facebook", url: "https://facebook.com/DinQumita/" },
+        { id: "instagram", label: "Instagram", url: "https://instagram.com/dinqumita/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/DinQumita" },
+      ],
+      address: "г. Ташкент, Шайхантахурский район, улица Навои, дом 12",
+      transport:
+        "Ориентир: Университет Webster\nОбщественный транспорт: 91, 28, 44, 115, 46, 68, 89, 76м, 110м, 12и, 88м",
+      hours: "Понедельник-пятница: 09:00 - 18:00\nВремя обеда: 13:00 - 14:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Комитета по делам религий (religions).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/religions/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
       intro:
@@ -72,7 +108,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Комитета по делам религий Республики Узбекистан на портале gov.uz (religions).",
+        "Официальный раздел Комитета по делам религий Республики Узбекистан на портале gov.uz (religions): телефон +99871 207-17-58, телефон доверия +99871 207-17-58 (внутренний номер 1), электронная почта info[at]religions.uz, адрес г. Ташкент, Шайхантахурский район, улица Навои, дом 12, транспорт, рабочее время и ссылки на социальные сети.",
       orgName: "Комитет по делам религий Республики Узбекистан",
       sameAs: [
         "https://gov.uz/ru/religions",
@@ -118,6 +154,42 @@ export default {
       h2: "Official section on gov.uz",
       ctaText:
         "Open the Committee on Religious Affairs section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "E-mail",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99871 207-17-58", href: "tel:+998712071758" }],
+      trustPhone: {
+        display: "+99871 207-17-58 (extension 1)",
+        href: "tel:+998712071758",
+      },
+      email: { display: "info@religions.uz", href: "mailto:info@religions.uz" },
+      social: [
+        { id: "twitter", label: "Twitter / X", url: "https://twitter.com/Dinqumita_uz" },
+        { id: "facebook", label: "Facebook", url: "https://facebook.com/DinQumita/" },
+        { id: "instagram", label: "Instagram", url: "https://instagram.com/dinqumita/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/DinQumita" },
+      ],
+      address: "Tashkent, Shaykhantakhur district, Navoiy street, 12",
+      transport:
+        "Landmark: Webster University\nPublic transport: 91, 28, 44, 115, 46, 68, 89, 76m, 110m, 12i, 88m",
+      hours: "Monday-Friday: 09:00 - 18:00\nLunch: 13:00 - 14:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Committee on Religious Affairs section (religions).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/religions/",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -176,7 +248,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Committee on Religious Affairs of the Republic of Uzbekistan on gov.uz (religions).",
+        "Official section of the Committee on Religious Affairs of the Republic of Uzbekistan on gov.uz (religions): phone +99871 207-17-58, trust line +99871 207-17-58 (extension 1), email info[at]religions.uz, address Tashkent, Shaykhantakhur district, Navoiy street, 12, transport, office hours and social media links.",
       orgName: "Committee on Religious Affairs of the Republic of Uzbekistan",
       sameAs: [
         "https://gov.uz/en/religions",
@@ -221,6 +293,42 @@ export default {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText:
         "gov.uz da Din ishlari boʻyicha qoʻmitasi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 207-17-58", href: "tel:+998712071758" }],
+      trustPhone: {
+        display: "+99871 207-17-58 (ichki raqam 1)",
+        href: "tel:+998712071758",
+      },
+      email: { display: "info@religions.uz", href: "mailto:info@religions.uz" },
+      social: [
+        { id: "twitter", label: "Twitter / X", url: "https://twitter.com/Dinqumita_uz" },
+        { id: "facebook", label: "Facebook", url: "https://facebook.com/DinQumita/" },
+        { id: "instagram", label: "Instagram", url: "https://instagram.com/dinqumita/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/DinQumita" },
+      ],
+      address: "Toshkent shahri, Shayxontohur tumani, Navoiy ko'chasi, 12-uy",
+      transport:
+        "Moʻljal: Webster universiteti\nJamoat transporti: 91, 28, 44, 115, 46, 68, 89, 76m, 110m, 12i, 88m",
+      hours: "Dushanba-juma: 09:00 - 18:00\nTushlik vaqti: 13:00 - 14:00",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Din ishlari boʻyicha qoʻmita boʻlimi (religions) asosida keltirilgan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/religions/",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -279,7 +387,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Din ishlari boʻyicha qoʻmitasining gov.uz portali boʻlimi (religions).",
+        "Oʻzbekiston Respublikasi Din ishlari boʻyicha qoʻmitasining gov.uz portali boʻlimi (religions): +99871 207-17-58 telefoni, +99871 207-17-58 (ichki raqam 1) ishonch telefoni, info[at]religions.uz elektron pochta, Toshkent shahri, Shayxontohur tumani, Navoiy ko'chasi, 12-uy manzili, transport, ish vaqti hamda ijtimoiy tarmoqlar havolalari.",
       orgName: "Oʻzbekiston Respublikasi Din ishlari boʻyicha qoʻmitasi",
       sameAs: [
         "https://gov.uz/oz/religions",

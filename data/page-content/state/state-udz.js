@@ -16,6 +16,28 @@ export default {
       ctaText:
         "Перейти в раздел Комитета по управлению государственными резервами на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        address: "Адрес",
+      },
+      phones: [{ display: "+99871 238-75-51", href: "tel:+998712387551" }],
+      trustPhone: { display: "+99871 238-75-05", href: "tel:+998712387505" },
+      email: { display: "info@udz.uz", href: "mailto:info@udz.uz" },
+      address:
+        "100084, город Ташкент, улица Халкабад, 17а\nДоп. email: uzreserve@exat.uz",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Комитета по управлению государственными резервами (udz).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/udz/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
       intro:
@@ -73,7 +95,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Комитета по управлению государственными резервами при Министерстве экономики и финансов Республики Узбекистан на портале gov.uz (udz).",
+        "Официальный раздел Комитета по управлению государственными резервами при Министерстве экономики и финансов Республики Узбекистан на портале gov.uz (udz): телефон +99871 238-75-51, телефон доверия +99871 238-75-05, электронная почта info[at]udz.uz, адрес 100084, город Ташкент, улица Халкабад, 17а, дополнительный email uzreserve[at]exat.uz.",
       orgName:
         "Комитет по управлению государственными резервами при Министерстве экономики и финансов Республики Узбекистан",
       sameAs: [
@@ -120,6 +142,28 @@ export default {
       h2: "Official section on gov.uz",
       ctaText:
         "Open the state reserves management committee section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "E-mail",
+        address: "Address",
+      },
+      phones: [{ display: "+99871 238-75-51", href: "tel:+998712387551" }],
+      trustPhone: { display: "+99871 238-75-05", href: "tel:+998712387505" },
+      email: { display: "info@udz.uz", href: "mailto:info@udz.uz" },
+      address:
+        "100084, Tashkent, Xalkabad street, 17a\nAdditional email: uzreserve@exat.uz",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), state reserves committee section (udz).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/udz/",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -177,7 +221,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Committee for Management of State Reserves under the Ministry of Economy and Finance of the Republic of Uzbekistan on gov.uz (udz).",
+        "Official section of the Committee for Management of State Reserves under the Ministry of Economy and Finance of the Republic of Uzbekistan on gov.uz (udz): phone +99871 238-75-51, trust line +99871 238-75-05, email info[at]udz.uz, address 100084, Tashkent, Xalkabad street, 17a, additional email uzreserve[at]exat.uz.",
       orgName:
         "Committee for Management of State Reserves under the Ministry of Economy and Finance of the Republic of Uzbekistan",
       sameAs: [
@@ -224,6 +268,28 @@ export default {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText:
         "gov.uz da Davlat zaxiralarini boshqarish qoʻmitasi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        address: "Manzil",
+      },
+      phones: [{ display: "+99871 238-75-51", href: "tel:+998712387551" }],
+      trustPhone: { display: "+99871 238-75-05", href: "tel:+998712387505" },
+      email: { display: "info@udz.uz", href: "mailto:info@udz.uz" },
+      address:
+        "100084, Toshkent shahri, Xalqobod ko'chasi, 17a\nQoʻshimcha email: uzreserve@exat.uz",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Davlat zaxiralarini boshqarish qoʻmitasi boʻlimi (udz) asosida keltirilgan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/udz/",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -281,7 +347,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi Davlat zaxiralarini boshqarish qoʻmitasining gov.uz portali boʻlimi (udz).",
+        "Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi Davlat zaxiralarini boshqarish qoʻmitasining gov.uz portali boʻlimi (udz): +99871 238-75-51 telefoni, +99871 238-75-05 ishonch telefoni, info[at]udz.uz elektron pochta, 100084, Toshkent shahri, Xalqobod ko'chasi, 17a manzili, qoʻshimcha email uzreserve[at]exat.uz.",
       orgName:
         "Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi Davlat zaxiralarini boshqarish qoʻmitasi",
       sameAs: [
