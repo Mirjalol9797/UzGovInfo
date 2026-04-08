@@ -16,6 +16,33 @@ export default {
       ctaText:
         "Перейти в раздел Комитета казначейской службы на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+998 (71) 234-03-42", href: "tel:+998712340342" }],
+      trustPhone: { display: "+998 (71) 234-03-42", href: "tel:+998712340342" },
+      email: { display: "gazna@imv.uz", href: "mailto:gazna@imv.uz" },
+      address:
+        "100035, г. Ташкент, Юнусабадский район, ул. Ниезбек-йўли, 1",
+      transport:
+        "Ориентир: метро \"Минор\"\nОбщественный транспорт: автобусы № 2, 38, 88, 89, 95, 136",
+      hours: "Понедельник-пятница с 9:00 до 18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Комитета казначейской службы (gazna).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/gazna/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
       intro:
@@ -73,7 +100,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Комитета казначейской службы при Министерстве экономики и финансов Республики Узбекистан на портале gov.uz (gazna).",
+        "Официальный раздел Комитета казначейской службы при Министерстве экономики и финансов Республики Узбекистан на портале gov.uz (gazna): телефон +998 (71) 234-03-42, телефон доверия +998 (71) 234-03-42, электронная почта gazna[at]imv.uz, адрес 100035, г. Ташкент, Юнусабадский район, ул. Ниезбек-йўли, 1, транспорт и рабочее время.",
       orgName:
         "Комитет казначейской службы при Министерстве экономики и финансов Республики Узбекистан",
       sameAs: [
@@ -119,6 +146,32 @@ export default {
     officialSite: {
       h2: "Official section on gov.uz",
       ctaText: "Open the Treasury service committee section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "E-mail",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+998 (71) 234-03-42", href: "tel:+998712340342" }],
+      trustPhone: { display: "+998 (71) 234-03-42", href: "tel:+998712340342" },
+      email: { display: "gazna@imv.uz", href: "mailto:gazna@imv.uz" },
+      address: "100035, Tashkent, Yunusabad district, Niyozbek Yuli street, 1",
+      transport:
+        "Landmark: Minor metro station\nPublic transport: buses No. 2, 38, 88, 89, 95, 136",
+      hours: "Monday-Friday from 9:00 to 18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Treasury Service Committee section (gazna).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/gazna/",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -176,7 +229,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Committee of the Treasury service under the Ministry of Economy and Finance of the Republic of Uzbekistan on gov.uz (gazna).",
+        "Official section of the Committee of the Treasury service under the Ministry of Economy and Finance of the Republic of Uzbekistan on gov.uz (gazna): phone +998 (71) 234-03-42, trust line +998 (71) 234-03-42, email gazna[at]imv.uz, address 100035, Tashkent, Yunusabad district, Niyozbek Yuli street, 1, transport and office hours.",
       orgName:
         "Committee of the Treasury service under the Ministry of Economy and Finance of the Republic of Uzbekistan",
       sameAs: [
@@ -223,6 +276,33 @@ export default {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText:
         "gov.uz da Gʻaznachilik xizmati qoʻmitasi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+998 (71) 234-03-42", href: "tel:+998712340342" }],
+      trustPhone: { display: "+998 (71) 234-03-42", href: "tel:+998712340342" },
+      email: { display: "gazna@imv.uz", href: "mailto:gazna@imv.uz" },
+      address:
+        "100035, Toshkent shahri, Yunusobod tumani, Niyozbek yo'li ko'chasi, 1",
+      transport:
+        "Moʻljal: \"Minor\" metro bekati\nJamoat transporti: 2, 38, 88, 89, 95, 136-sonli avtobuslar",
+      hours: "Dushanba-juma 9:00 dan 18:00 gacha",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Gʻaznachilik xizmati qoʻmitasi boʻlimi (gazna) asosida keltirilgan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/gazna/",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -281,7 +361,7 @@ export default {
     },
     schema: {
       description:
-        "Iqtisodiyot va moliya vazirligi huzuridagi Gʻaznachilik xizmati qoʻmitasining gov.uz portali boʻlimi (gazna).",
+        "Iqtisodiyot va moliya vazirligi huzuridagi Gʻaznachilik xizmati qoʻmitasining gov.uz portali boʻlimi (gazna): +998 (71) 234-03-42 telefoni, +998 (71) 234-03-42 ishonch telefoni, gazna[at]imv.uz elektron pochta, 100035, Toshkent shahri, Yunusobod tumani, Niyozbek yo'li ko'chasi, 1 manzili, transport va ish vaqti.",
       orgName:
         "Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi Gʻaznachilik xizmati qoʻmitasi",
       sameAs: [

@@ -16,6 +16,59 @@ export default {
       ctaText:
         "Перейти в раздел Комитета по автомобильным дорогам на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Единый номер",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 200-02-04", href: "tel:+998712000204" }],
+      trustPhone: {
+        display: "+99871 207-67-68; Call-markaz 1393",
+        href: "tel:+998712076768",
+      },
+      email: { display: "info@uzavtoyul.uz", href: "mailto:info@uzavtoyul.uz" },
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/the_committiee_for_roads/",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/profile.php?id=100095166775974",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC8Mw1r9XxWMAh53bPomndIw",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/avtoyulqumita",
+        },
+      ],
+      address:
+        "100000, г. Ташкент, Мирзо-Улугбекский район, проспект Мустакиллик, дом 68",
+      transport:
+        "Метро: остановка Хамида Алимджана, выезд в здание Комитета по автомобильным дорогам\nАвтобус: 24, 58, 17 (проспект Мустакиллик), остановки \"Поликлиника\" и \"Дархон\"\nМаршрутные такси: 133, 168, 76",
+      hours: "Понедельник-пятница 9:00-13:00, 14:00-18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Комитета по автомобильным дорогам (uzavtoyul).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/uzavtoyul/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
       intro:
@@ -73,7 +126,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Комитета по автомобильным дорогам при Министерстве транспорта Республики Узбекистан на портале gov.uz (uzavtoyul).",
+        "Официальный раздел Комитета по автомобильным дорогам при Министерстве транспорта Республики Узбекистан на портале gov.uz (uzavtoyul): телефон +99871 200-02-04, единый номер +99871 207-67-68 и Call-markaz 1393, электронная почта info[at]uzavtoyul.uz, адрес 100000, г. Ташкент, Мирзо-Улугбекский район, проспект Мустакиллик, дом 68, транспорт, рабочее время и ссылки на социальные сети.",
       orgName:
         "Комитет по автомобильным дорогам при Министерстве транспорта Республики Узбекистан",
       sameAs: [
@@ -121,6 +174,59 @@ export default {
       h2: "Official section on gov.uz",
       ctaText:
         "Open the Committee for Roads on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Single number",
+        email: "E-mail",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99871 200-02-04", href: "tel:+998712000204" }],
+      trustPhone: {
+        display: "+99871 207-67-68; Call center 1393",
+        href: "tel:+998712076768",
+      },
+      email: { display: "info@uzavtoyul.uz", href: "mailto:info@uzavtoyul.uz" },
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/the_committiee_for_roads/",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/profile.php?id=100095166775974",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC8Mw1r9XxWMAh53bPomndIw",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/avtoyulqumita",
+        },
+      ],
+      address:
+        "100000, Tashkent, Mirzo-Ulugbek district, Mustaqillik avenue, 68",
+      transport:
+        "Metro: Hamid Alimjan stop, exit to the Roads Committee building\nBus: 24, 58, 17 (Mustaqillik avenue), stops \"Poliklinika\" and \"Darkhon\"\nRoute taxis: 133, 168, 76",
+      hours: "Monday-Friday 9:00-13:00, 14:00-18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Committee for Roads section (uzavtoyul).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/uzavtoyul/",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -179,7 +285,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Committee for Roads under the Ministry of Transport of the Republic of Uzbekistan on gov.uz (uzavtoyul).",
+        "Official section of the Committee for Roads under the Ministry of Transport of the Republic of Uzbekistan on gov.uz (uzavtoyul): phone +99871 200-02-04, single number +99871 207-67-68 and call center 1393, email info[at]uzavtoyul.uz, address 100000, Tashkent, Mirzo-Ulugbek district, Mustaqillik avenue, 68, transport, office hours and social media links.",
       orgName:
         "Committee for Roads under the Ministry of Transport of the Republic of Uzbekistan",
       sameAs: [
@@ -227,6 +333,59 @@ export default {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText:
         "gov.uz da Avtomobil yoʻllari qoʻmitasi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Yagona raqam",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 200-02-04", href: "tel:+998712000204" }],
+      trustPhone: {
+        display: "+99871 207-67-68; Call-markaz 1393",
+        href: "tel:+998712076768",
+      },
+      email: { display: "info@uzavtoyul.uz", href: "mailto:info@uzavtoyul.uz" },
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/the_committiee_for_roads/",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/profile.php?id=100095166775974",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC8Mw1r9XxWMAh53bPomndIw",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/avtoyulqumita",
+        },
+      ],
+      address:
+        "100000, Toshkent shahri, Mirzo-Ulugʻbek tumani, Mustaqillik shoh ko'chasi, 68-uy",
+      transport:
+        "Metro: Hamid Alimjon bekati, Avtomobil yoʻllari qoʻmitasi binosiga chiqish\nAvtobus: 24, 58, 17 (Mustaqillik shoh ko'chasi), \"Poliklinika\" va \"Darxon\" bekatlari\nMarshrut taksilari: 133, 168, 76",
+      hours: "Dushanba-juma 9:00-13:00, 14:00-18:00",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Avtomobil yoʻllari qoʻmitasi boʻlimi (uzavtoyul) asosida keltirilgan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/uzavtoyul/",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -285,7 +444,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Transport vazirligi huzuridagi Avtomobil yoʻllari qoʻmitasining gov.uz portali boʻlimi (uzavtoyul).",
+        "Oʻzbekiston Respublikasi Transport vazirligi huzuridagi Avtomobil yoʻllari qoʻmitasining gov.uz portali boʻlimi (uzavtoyul): +99871 200-02-04 telefoni, +99871 207-67-68 va Call-markaz 1393 yagona raqami, info[at]uzavtoyul.uz elektron pochta, 100000, Toshkent shahri, Mirzo-Ulugʻbek tumani, Mustaqillik shoh ko'chasi, 68-uy manzili, transport, ish vaqti va ijtimoiy tarmoqlar havolalari.",
       orgName:
         "O'zbekiston Respublikasi Transport vazirligi huzuridagi Avtomobil yo‘llari qo‘mitasi",
       sameAs: [

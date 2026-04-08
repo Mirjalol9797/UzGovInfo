@@ -16,6 +16,34 @@ export default {
       ctaText:
         "Перейти в раздел Комитета по межнациональным отношениям на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+      },
+      phones: [{ display: "+99871 253-57-69", href: "tel:+998712535769" }],
+      trustPhone: { display: "+99871 253-57-69", href: "tel:+998712535769" },
+      email: { display: "kmods@exat.uz", href: "mailto:kmods@exat.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/millatlararoqumita" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/iccgovuz/" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/profile.php?id=61576445678118" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@iccgovuz" },
+      ],
+      address: "100100, г. Ташкент, Яккасарайский район, улица Бобура, 45",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Комитета по вопросам межнациональных отношений и соотечественников за рубежом (icc).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/icc/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
       intro:
@@ -73,7 +101,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Комитета по вопросам межнациональных отношений и соотечественников за рубежом Республики Узбекистан на портале gov.uz (icc).",
+        "Официальный раздел Комитета по вопросам межнациональных отношений и соотечественников за рубежом Республики Узбекистан на портале gov.uz (icc): телефон +99871 253-57-69, телефон доверия +99871 253-57-69, электронная почта kmods[at]exat.uz, адрес 100100, г. Ташкент, Яккасарайский район, улица Бобура, 45 и ссылки на социальные сети.",
       orgName:
         "Комитет по вопросам межнациональных отношений и соотечественников за рубежом Республики Узбекистан",
       sameAs: [
@@ -120,6 +148,34 @@ export default {
       h2: "Official section on gov.uz",
       ctaText:
         "Open the interethnic relations and compatriots committee section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "E-mail",
+        social: "Social media",
+        address: "Address",
+      },
+      phones: [{ display: "+99871 253-57-69", href: "tel:+998712535769" }],
+      trustPhone: { display: "+99871 253-57-69", href: "tel:+998712535769" },
+      email: { display: "kmods@exat.uz", href: "mailto:kmods@exat.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/millatlararoqumita" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/iccgovuz/" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/profile.php?id=61576445678118" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@iccgovuz" },
+      ],
+      address: "100100, Tashkent, Yakkasaray district, Bobur street, 45",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), committee section (icc).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/icc/",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -177,7 +233,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Committee on Interethnic Relations and Compatriots abroad of the Republic of Uzbekistan on gov.uz (icc).",
+        "Official section of the Committee on Interethnic Relations and Compatriots abroad of the Republic of Uzbekistan on gov.uz (icc): phone +99871 253-57-69, trust line +99871 253-57-69, email kmods[at]exat.uz, address 100100, Tashkent, Yakkasaray district, Bobur street, 45 and social media links.",
       orgName:
         "Committee on Interethnic Relations and Compatriots abroad of the Republic of Uzbekistan",
       sameAs: [
@@ -224,6 +280,34 @@ export default {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText:
         "gov.uz da millatlararo munosabatlar va vatandoshlar qoʻmitasi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+      },
+      phones: [{ display: "+99871 253-57-69", href: "tel:+998712535769" }],
+      trustPhone: { display: "+99871 253-57-69", href: "tel:+998712535769" },
+      email: { display: "kmods@exat.uz", href: "mailto:kmods@exat.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/millatlararoqumita" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/iccgovuz/" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/profile.php?id=61576445678118" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@iccgovuz" },
+      ],
+      address: "100100, Toshkent shahri, Yakkasaroy tumani, Bobur ko'chasi, 45",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Millatlararo munosabatlar va xorijdagi vatandoshlar qoʻmitasi boʻlimi (icc) asosida keltirilgan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/icc/",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -281,7 +365,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Millatlararo munosabatlar va xorijdagi vatandoshlar masalalari boʻyicha qoʻmitasining gov.uz portali boʻlimi (icc).",
+        "Oʻzbekiston Respublikasi Millatlararo munosabatlar va xorijdagi vatandoshlar masalalari boʻyicha qoʻmitasining gov.uz portali boʻlimi (icc): +99871 253-57-69 telefoni, +99871 253-57-69 ishonch telefoni, kmods[at]exat.uz elektron pochta, 100100, Toshkent shahri, Yakkasaroy tumani, Bobur ko'chasi, 45 manzili va ijtimoiy tarmoqlar havolalari.",
       orgName:
         "Oʻzbekiston Respublikasi Millatlararo munosabatlar va xorijdagi vatandoshlar masalalari boʻyicha qoʻmitasi",
       sameAs: [
