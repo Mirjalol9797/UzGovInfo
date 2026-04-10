@@ -13,6 +13,41 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти на официальный сайт UzNADA →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99895 199-55-01", href: "tel:+998951995501" }],
+      trustPhone: { display: "+99895 199-55-01", href: "tel:+998951995501" },
+      email: { display: "info@uznada.uz", href: "mailto:info@uznada.uz" },
+      social: [
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/www.uznada.uz/" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCqv2IyZyFx98SWgA-YXhc2Q",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/antidopinguz" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uznada_/" },
+      ],
+      address: "100202, город Ташкент, Яшнабадский район, Олимпийский городок",
+      hours:
+        "Понедельник–пятница: 9:00–18:00\nОбед: 13:00–14:00\nСуббота, воскресенье: выходной",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Национального антидопингового агентства (uznada).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/uznada",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "На официальном сайте Агентства представлена информация об антидопинговых правилах и контроле в спорте Узбекистана.",
@@ -42,7 +77,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный раздел Национального антидопингового агентства Республики Узбекистан (UzNADA) на портале gov.uz.",
+      description:
+        "Официальный раздел Национального антидопингового агентства Республики Узбекистан (UzNADA) на портале gov.uz: телефон +99895 199-55-01, телефон доверия +99895 199-55-01, электронная почта info[at]uznada.uz, адрес 100202, Ташкент, Яшнабадский район, Олимпийский городок, рабочее время и ссылки на социальные сети.",
       orgName: "Национальное антидопинговое агентство Республики Узбекистан",
       sameAs: "https://gov.uz/ru/uznada",
     },
@@ -83,6 +119,41 @@ export default {
       h2: "Official website",
       ctaText: "Go to the official UzNADA website →",
     },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        hours: "Working hours",
+      },
+      phones: [{ display: "+99895 199-55-01", href: "tel:+998951995501" }],
+      trustPhone: { display: "+99895 199-55-01", href: "tel:+998951995501" },
+      email: { display: "info@uznada.uz", href: "mailto:info@uznada.uz" },
+      social: [
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/www.uznada.uz/" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCqv2IyZyFx98SWgA-YXhc2Q",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/antidopinguz" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uznada_/" },
+      ],
+      address: "100202, Tashkent, Yashnabad district, Olympic Village",
+      hours:
+        "Monday–Friday: 9:00–18:00\nLunch: 13:00–14:00\nSaturday and Sunday: closed",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), National Anti-Doping Agency section (uznada).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/uznada",
+      },
+    },
     whatFind: {
       h2: "What you can find on the official website",
       intro: "The Agency's official website presents information on anti-doping rules and control in Uzbekistan sport.",
@@ -112,7 +183,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official section of the National Anti-Doping Agency of the Republic of Uzbekistan (UzNADA) on the gov.uz portal.",
+      description:
+        "Official section of the National Anti-Doping Agency of the Republic of Uzbekistan (UzNADA) on the gov.uz portal: phone +99895 199-55-01, trust line +99895 199-55-01, email info[at]uznada.uz, address 100202, Tashkent, Yashnabad district, Olympic Village, working hours and social media links.",
       orgName: "The National antidoping agency of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/uznada",
     },
@@ -153,6 +225,41 @@ export default {
       h2: "Rasmiy sayt",
       ctaText: "UzNADA rasmiy saytiga oʻtish →",
     },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99895 199-55-01", href: "tel:+998951995501" }],
+      trustPhone: { display: "+99895 199-55-01", href: "tel:+998951995501" },
+      email: { display: "info@uznada.uz", href: "mailto:info@uznada.uz" },
+      social: [
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/www.uznada.uz/" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCqv2IyZyFx98SWgA-YXhc2Q",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/antidopinguz" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uznada_/" },
+      ],
+      address: "100202, Toshkent shahri, Yashnobod tumani, Olimpiya shaharchasi",
+      hours:
+        "Dushanba–juma: 9:00–18:00\nTushlik: 13:00–14:00\nShanba, yakshanba: dam olish kuni",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Milliy antidoping agentligi boʻlimi (uznada) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/uznada",
+      },
+    },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
       intro: "Agentlikning rasmiy saytida Oʻzbekistonda sportdagi antidoping qoidalari va nazorat haqida maʼlumotlar berilgan.",
@@ -182,7 +289,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Respublikasi Milliy antidoping agentligining (UzNADA) gov.uz portali boʻyicha rasmiy boʻlimi.",
+      description:
+        "Oʻzbekiston Respublikasi Milliy antidoping agentligining (UzNADA) gov.uz portali boʻyicha rasmiy boʻlimi: telefon +99895 199-55-01, ishonch telefoni +99895 199-55-01, elektron pochta info[at]uznada.uz, manzil 100202, Toshkent, Yashnobod tumani, Olimpiya shaharchasi, ish vaqti va ijtimoiy tarmoq havolalari.",
       orgName: "Oʻzbekiston Respublikasi Milliy antidoping agentligi",
       sameAs: "https://gov.uz/oz/uznada",
     },

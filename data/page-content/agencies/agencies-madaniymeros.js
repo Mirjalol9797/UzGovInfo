@@ -13,6 +13,42 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 200-01-18", href: "tel:+998712000118" }],
+      trustPhone: { display: "+99871 200-01-18", href: "tel:+998712000118" },
+      email: { display: "info@madaniymeros.uz", href: "mailto:info@madaniymeros.uz" },
+      social: [
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/madaniymerosuz/" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/Madaniy-meros-agentligi-113137754469938/",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/madaniy_meros_uz" },
+      ],
+      address: "г. Ташкент, улица Тараса Шевченко, д. 1",
+      transport: "Автобус: 51, 67, 89, 21\nОриентир: здание Центрального банка.",
+      hours:
+        "Понедельник–пятница: 9:00–18:00\nОбед: 13:00–14:00\nВыходные дни: суббота, воскресенье",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства культурного наследия (madaniymeros).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/madaniymeros",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "В официальном разделе Агентства на портале gov.uz представлена информация о культурном наследии и деятельности Агентства в Узбекистане.",
@@ -42,7 +78,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный раздел Агентства культурного наследия Республики Узбекистан на портале gov.uz.",
+      description:
+        "Официальный раздел Агентства культурного наследия Республики Узбекистан на портале gov.uz: телефон +99871 200-01-18, телефон доверия +99871 200-01-18, электронная почта info[at]madaniymeros.uz, адрес г. Ташкент, ул. Тараса Шевченко, д. 1, проезд, рабочее время и ссылки на социальные сети.",
       orgName: "Агентство культурного наследия Республики Узбекистан",
       sameAs: "https://gov.uz/ru/madaniymeros",
     },
@@ -83,6 +120,42 @@ export default {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
     },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Working hours",
+      },
+      phones: [{ display: "+99871 200-01-18", href: "tel:+998712000118" }],
+      trustPhone: { display: "+99871 200-01-18", href: "tel:+998712000118" },
+      email: { display: "info@madaniymeros.uz", href: "mailto:info@madaniymeros.uz" },
+      social: [
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/madaniymerosuz/" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/Madaniy-meros-agentligi-113137754469938/",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/madaniy_meros_uz" },
+      ],
+      address: "Tashkent, Taras Shevchenko Street, 1",
+      transport: "Buses: 51, 67, 89, 21\nLandmark: Central Bank building.",
+      hours:
+        "Monday–Friday: 9:00–18:00\nLunch: 13:00–14:00\nClosed: Saturday and Sunday",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Cultural Heritage Agency section (madaniymeros).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/madaniymeros",
+      },
+    },
     whatFind: {
       h2: "What you can find on the official website",
       intro: "The Agency’s official section on gov.uz presents information on cultural heritage and the Agency’s work in Uzbekistan.",
@@ -112,7 +185,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official section of the Cultural Heritage Agency of the Republic of Uzbekistan on the gov.uz portal.",
+      description:
+        "Official section of the Cultural Heritage Agency of the Republic of Uzbekistan on the gov.uz portal: phone +99871 200-01-18, trust line +99871 200-01-18, email info[at]madaniymeros.uz, address Tashkent, Taras Shevchenko Street, 1, transport, working hours and social media links.",
       orgName: "Cultural Heritage Agency of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/madaniymeros",
     },
@@ -153,6 +227,42 @@ export default {
       h2: "Rasmiy sayt",
       ctaText: "gov.uz dagi Agentlikning rasmiy boʻlimiga oʻtish →",
     },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 200-01-18", href: "tel:+998712000118" }],
+      trustPhone: { display: "+99871 200-01-18", href: "tel:+998712000118" },
+      email: { display: "info@madaniymeros.uz", href: "mailto:info@madaniymeros.uz" },
+      social: [
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/madaniymerosuz/" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/Madaniy-meros-agentligi-113137754469938/",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/madaniy_meros_uz" },
+      ],
+      address: "Toshkent shahri, Taras Shevchenko koʻchasi, 1-uy",
+      transport: "Avtobuslar: № 51, 67, 89, 21\nOrientir: Markaziy bank binosi.",
+      hours:
+        "Dushanba–juma: 9:00–18:00\nTushlik: 13:00–14:00\nDam olish kunlari: shanba, yakshanba",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Madaniy meros agentligi boʻlimi (madaniymeros) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/madaniymeros",
+      },
+    },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
       intro: "gov.uz portali boʻyicha Agentlikning rasmiy boʻlimida Oʻzbekistonda madaniy meros va Agentlik faoliyati haqida maʼlumotlar taqdim etilgan.",
@@ -182,7 +292,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Respublikasi Madaniy meros agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+      description:
+        "Oʻzbekiston Respublikasi Madaniy meros agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefon +99871 200-01-18, ishonch telefoni +99871 200-01-18, elektron pochta info[at]madaniymeros.uz, manzil Toshkent, Taras Shevchenko koʻchasi, 1, transport, ish vaqti va ijtimoiy tarmoq havolalari.",
       orgName: "Oʻzbekiston Respublikasi Madaniy meros agentligi",
       sameAs: "https://gov.uz/oz/madaniymeros",
     },

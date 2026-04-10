@@ -13,6 +13,38 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+      },
+      phones: [
+        { display: "+99855 510-10-99 (девонхона)", href: "tel:+998555101099" },
+        {
+          display: "+99855 520-10-99, доб. 4021 (лицензирование)",
+          href: "tel:+998555201099",
+        },
+      ],
+      trustPhone: { display: "+99855 520-10-99, доб. 4008", href: "tel:+998555201099" },
+      email: { display: "info@emdra.uz", href: "mailto:info@emdra.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/emdra_uz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/share/1BbsmdBs2m/" },
+      ],
+      address: "100015, г. Ташкент, ул. Ойбека, 26",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства по развитию и регулированию рынка энергетики (emdra).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/emdra",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "В официальном разделе Агентства на портале gov.uz представлена информация о регулировании рынка энергетики Узбекистана.",
@@ -42,7 +74,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный раздел Агентства по развитию и регулированию рынка энергетики Республики Узбекистан на портале gov.uz.",
+      description:
+        "Официальный раздел Агентства по развитию и регулированию рынка энергетики Республики Узбекистан на портале gov.uz: телефоны +99855 510-10-99 (девонхона), +99855 520-10-99 (доб. 4021 — лицензирование), телефон доверия +99855 520-10-99 (доб. 4008), электронная почта info[at]emdra.uz, адрес 100015, Ташкент, ул. Ойбека, 26, ссылки на социальные сети.",
       orgName: "Агентство по развитию и регулированию рынка энергетики Республики Узбекистан",
       sameAs: "https://gov.uz/ru/emdra",
     },
@@ -83,6 +116,38 @@ export default {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
     },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+      },
+      phones: [
+        { display: "+99855 510-10-99 (office)", href: "tel:+998555101099" },
+        {
+          display: "+99855 520-10-99, ext. 4021 (licensing)",
+          href: "tel:+998555201099",
+        },
+      ],
+      trustPhone: { display: "+99855 520-10-99, ext. 4008", href: "tel:+998555201099" },
+      email: { display: "info@emdra.uz", href: "mailto:info@emdra.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/emdra_uz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/share/1BbsmdBs2m/" },
+      ],
+      address: "100015, Tashkent, Oybek Street, 26",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Energy market development and regulatory agency section (emdra).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/emdra",
+      },
+    },
     whatFind: {
       h2: "What you can find on the official website",
       intro: "The Agency’s official section on gov.uz presents information on regulation of Uzbekistan’s energy market.",
@@ -112,7 +177,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official section of the Energy market development and regulatory agency of the Republic of Uzbekistan on the gov.uz portal.",
+      description:
+        "Official section of the Energy market development and regulatory agency of the Republic of Uzbekistan on the gov.uz portal: phones +99855 510-10-99 (office), +99855 520-10-99 ext. 4021 (licensing), trust line +99855 520-10-99 ext. 4008, email info[at]emdra.uz, address 100015, Tashkent, Oybek Street, 26, social media links.",
       orgName: "Energy market development and regulatory agency of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/emdra",
     },
@@ -153,6 +219,41 @@ export default {
       h2: "Rasmiy sayt",
       ctaText: "gov.uz dagi Agentlikning rasmiy boʻlimiga oʻtish →",
     },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+      },
+      phones: [
+        { display: "+99855 510-10-99 (devonxona)", href: "tel:+998555101099" },
+        {
+          display: "+99855 520-10-99, 4021 qo'shimcha raqam (litsenziyalash)",
+          href: "tel:+998555201099",
+        },
+      ],
+      trustPhone: {
+        display: "+99855 520-10-99, 4008 qo'shimcha raqam",
+        href: "tel:+998555201099",
+      },
+      email: { display: "info@emdra.uz", href: "mailto:info@emdra.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/emdra_uz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/share/1BbsmdBs2m/" },
+      ],
+      address: "100015, Toshkent shahri, Oydek koʻchasi, 26",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Energetika bozorini rivojlantirish va tartibga solish agentligi boʻlimi (emdra) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/emdra",
+      },
+    },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
       intro: "gov.uz portali boʻyicha Agentlikning rasmiy boʻlimida Oʻzbekiston energetika bozorini tartibga solish haqida maʼlumotlar berilgan.",
@@ -182,7 +283,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Respublikasi Energetika bozorini rivojlantirish va tartibga solish agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+      description:
+        "Oʻzbekiston Respublikasi Energetika bozorini rivojlantirish va tartibga solish agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefonlar +99855 510-10-99 (devonxona), +99855 520-10-99 (4021 qo'shimcha raqam — litsenziyalash), ishonch telefoni +99855 520-10-99 (4008 qo'shimcha raqam), elektron pochta info[at]emdra.uz, manzil 100015, Toshkent, Oydek koʻchasi, 26, ijtimoiy tarmoq havolalari.",
       orgName: "Oʻzbekiston Respublikasi Energetika bozorini rivojlantirish va tartibga solish agentligi",
       sameAs: "https://gov.uz/oz/emdra",
     },

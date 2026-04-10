@@ -13,6 +13,39 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+      },
+      phones: [{ display: "+99871 202-09-20", href: "tel:+998712020920" }],
+      trustPhone: { display: "+99871 202-09-11", href: "tel:+998712020911" },
+      email: { display: "info@uzatom.uz", href: "mailto:info@uzatom.uz" },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCjN-A6SJYSaEpEOONekIgmQ",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzatom" },
+        { id: "twitter", label: "Twitter / X", url: "https://twitter.com/uzatom_info" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzatom_info" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzatominfo/" },
+      ],
+      address: "100015, Республика Узбекистан, г. Ташкент, Мирабадский район, ул. Ойбек, 26/1",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства по атомной энергии (uzatom).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/uzatom",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "В официальном разделе Агентства на портале gov.uz представлена информация об атомной энергетике и связанной деятельности в Узбекистане.",
@@ -42,7 +75,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный раздел Агентства по атомной энергии при Кабинете Министров Республики Узбекистан на портале gov.uz.",
+      description:
+        "Официальный раздел Агентства по атомной энергии при Кабинете Министров Республики Узбекистан на портале gov.uz: телефон +99871 202-09-20, телефон доверия +99871 202-09-11, электронная почта info[at]uzatom.uz, адрес 100015, Ташкент, Мирабадский район, ул. Ойбек, 26/1, ссылки на социальные сети.",
       orgName: "Агентство по атомной энергии при Кабинете Министров Республики Узбекистан",
       sameAs: "https://gov.uz/ru/uzatom",
     },
@@ -83,6 +117,39 @@ export default {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
     },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+      },
+      phones: [{ display: "+99871 202-09-20", href: "tel:+998712020920" }],
+      trustPhone: { display: "+99871 202-09-11", href: "tel:+998712020911" },
+      email: { display: "info@uzatom.uz", href: "mailto:info@uzatom.uz" },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCjN-A6SJYSaEpEOONekIgmQ",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzatom" },
+        { id: "twitter", label: "Twitter / X", url: "https://twitter.com/uzatom_info" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzatom_info" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzatominfo/" },
+      ],
+      address: "100015, Republic of Uzbekistan, Tashkent, Mirabad district, Oybek Street 26/1",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Agency for Atomic Energy section (uzatom).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/uzatom",
+      },
+    },
     whatFind: {
       h2: "What you can find on the official website",
       intro: "The Agency’s official section on gov.uz presents information on nuclear energy and related activities in Uzbekistan.",
@@ -112,7 +179,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official section of the Agency for Atomic Energy under the Cabinet of Ministers of the Republic of Uzbekistan on the gov.uz portal.",
+      description:
+        "Official section of the Agency for Atomic Energy under the Cabinet of Ministers of the Republic of Uzbekistan on the gov.uz portal: phone +99871 202-09-20, trust line +99871 202-09-11, email info[at]uzatom.uz, address 100015, Tashkent, Mirabad district, Oybek Street 26/1, social media links.",
       orgName: "Agency for Atomic Energy under the Cabinet of Ministers of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/uzatom",
     },
@@ -153,6 +221,39 @@ export default {
       h2: "Rasmiy sayt",
       ctaText: "gov.uz dagi Agentlikning rasmiy boʻlimiga oʻtish →",
     },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+      },
+      phones: [{ display: "+99871 202-09-20", href: "tel:+998712020920" }],
+      trustPhone: { display: "+99871 202-09-11", href: "tel:+998712020911" },
+      email: { display: "info@uzatom.uz", href: "mailto:info@uzatom.uz" },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCjN-A6SJYSaEpEOONekIgmQ",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzatom" },
+        { id: "twitter", label: "Twitter / X", url: "https://twitter.com/uzatom_info" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzatom_info" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzatominfo/" },
+      ],
+      address: "100015, Oʻzbekiston Respublikasi, Toshkent shahri, Mirobod tumani, Oydek koʻchasi, 26/1",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Atom energiyasi agentligi boʻlimi (uzatom) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/uzatom",
+      },
+    },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
       intro: "gov.uz portali boʻyicha Agentlikning rasmiy boʻlimida Oʻzbekistonda atom energetikasi va tegishli faoliyat haqida maʼlumotlar berilgan.",
@@ -182,7 +283,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Atom energiyasi agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+      description:
+        "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Atom energiyasi agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefon +99871 202-09-20, ishonch telefoni +99871 202-09-11, elektron pochta info[at]uzatom.uz, manzil 100015, Toshkent, Mirobod tumani, Oydek koʻchasi, 26/1, ijtimoiy tarmoq havolalari.",
       orgName: "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Atom energiyasi agentligi",
       sameAs: "https://gov.uz/oz/uzatom",
     },

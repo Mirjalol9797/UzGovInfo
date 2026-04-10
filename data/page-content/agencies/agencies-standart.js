@@ -13,6 +13,40 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        { display: "+99871 202-00-11", href: "tel:+998712020011" },
+        { display: "1880 (колл-центр)", href: "tel:1880" },
+      ],
+      email: { display: "uzst@standart.uz", href: "mailto:uzst@standart.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/UzstandardChannel" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzstandard" },
+        { id: "twitter", label: "Twitter / X", url: "https://twitter.com/Uzstandard" },
+      ],
+      address: "100174, г. Ташкент, ул. Фараби, 333 «А»",
+      transport:
+        "Метро: станция «Беруни»\nАвтобусы: № 88, 124, 131, 188\nОстановка: «Standart»",
+      hours:
+        "Понедельник–пятница: 9:00–18:00\nОбед: 13:00–14:00\nСуббота, воскресенье: выходной",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Узбекского агентства по техническому регулированию (standart).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/standart",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "В официальном разделе Агентства на портале gov.uz представлена информация о техническом регулировании, стандартах и метрологии в Узбекистане.",
@@ -42,7 +76,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный раздел Узбекского агентства по техническому регулированию при Кабинете Министров Республики Узбекистан на портале gov.uz.",
+      description:
+        "Официальный раздел Узбекского агентства по техническому регулированию при Кабинете Министров Республики Узбекистан на портале gov.uz: телефон +99871 202-00-11, колл-центр 1880, электронная почта uzst[at]standart.uz, адрес 100174, Ташкент, ул. Фараби, 333 «А», проезд, рабочее время и ссылки на социальные сети.",
       orgName: "Узбекское агентство по техническому регулированию при Кабинете Министров",
       sameAs: "https://gov.uz/ru/standart",
     },
@@ -83,6 +118,40 @@ export default {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
     },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Working hours",
+      },
+      phones: [
+        { display: "+99871 202-00-11", href: "tel:+998712020011" },
+        { display: "1880 (call centre)", href: "tel:1880" },
+      ],
+      email: { display: "uzst@standart.uz", href: "mailto:uzst@standart.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/UzstandardChannel" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzstandard" },
+        { id: "twitter", label: "Twitter / X", url: "https://twitter.com/Uzstandard" },
+      ],
+      address: "100174, Tashkent, Farobi Street, 333A",
+      transport:
+        "Metro: Beruni station\nBuses: 88, 124, 131, 188\nStop: Standart",
+      hours:
+        "Monday–Friday: 9:00–18:00\nLunch: 13:00–14:00\nSaturday and Sunday: closed",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Uzbek Agency for Technical Regulation section (standart).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/standart",
+      },
+    },
     whatFind: {
       h2: "What you can find on the official website",
       intro: "The Agency’s official section on gov.uz presents information on technical regulation, standards and metrology in Uzbekistan.",
@@ -112,7 +181,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official section of the Uzbek Agency for Technical Regulation under the Cabinet of Ministers on the gov.uz portal.",
+      description:
+        "Official section of the Uzbek Agency for Technical Regulation under the Cabinet of Ministers on the gov.uz portal: phone +99871 202-00-11, call centre 1880, email uzst[at]standart.uz, address 100174, Tashkent, Farobi Street, 333A, transport, working hours and social media links.",
       orgName: "Uzbek Agency for Technical Regulation under the Cabinet of Ministers",
       sameAs: "https://gov.uz/en/standart",
     },
@@ -153,6 +223,40 @@ export default {
       h2: "Rasmiy sayt",
       ctaText: "gov.uz dagi Agentlikning rasmiy boʻlimiga oʻtish →",
     },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        { display: "+99871 202-00-11", href: "tel:+998712020011" },
+        { display: "1880 (koll-markaz)", href: "tel:1880" },
+      ],
+      email: { display: "uzst@standart.uz", href: "mailto:uzst@standart.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/UzstandardChannel" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzstandard" },
+        { id: "twitter", label: "Twitter / X", url: "https://twitter.com/Uzstandard" },
+      ],
+      address: "100174, Toshkent shahri, Farobiy koʻchasi, 333 «A»",
+      transport:
+        "Metro: «Beruniy» bekati\nAvtobuslar: № 88, 124, 131, 188\nToʻxtash: «Standart»",
+      hours:
+        "Dushanba–juma: 9:00–18:00\nTushlik: 13:00–14:00\nShanba, yakshanba: dam olish kuni",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Texnik tartibga solish agentligi boʻlimi (standart) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/standart",
+      },
+    },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
       intro: "gov.uz portali boʻyicha Agentlikning rasmiy boʻlimida Oʻzbekistonda texnik tartibga solish, standartlar va metrologiya haqida maʼlumotlar berilgan.",
@@ -182,7 +286,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Vazirlar Mahkamasi huzuridagi Oʻzbekiston texnik jihatdan tartibga solish agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+      description:
+        "Vazirlar Mahkamasi huzuridagi Oʻzbekiston texnik jihatdan tartibga solish agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefon +99871 202-00-11, koll-markaz 1880, elektron pochta uzst[at]standart.uz, manzil 100174, Toshkent, Farobiy koʻchasi, 333 «A», transport, ish vaqti va ijtimoiy tarmoq havolalari.",
       orgName: "Vazirlar Mahkamasi huzuridagi Oʻzbekiston texnik jihatdan tartibga solish agentligi",
       sameAs: "https://gov.uz/oz/standart",
     },

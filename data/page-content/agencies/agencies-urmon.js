@@ -13,6 +13,46 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 207-88-77, доб. 1009", href: "tel:+998712078877" }],
+      trustPhone: { display: "+99871 207-88-77, доб. 1010", href: "tel:+998712078877" },
+      email: { display: "info@urmon.uz", href: "mailto:info@urmon.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/urmon_gov_uz" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/people/Urmongovuz/100024269502899/",
+        },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/urmon_gov_uz/" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC7yS8G537YtD0hLUfMuYYOA",
+        },
+      ],
+      address: "100043, г. Ташкент, Чиланзарский район, проспект Бунёдкор, 7а",
+      transport: "Номера общественного транспорта: 118, 56, 150",
+      hours: "Понедельник–пятница: 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства по увеличению лесов и зеленых зон и борьбе с опустыниванием (urmon).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/urmon",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "В официальном разделе Агентства на портале gov.uz представлена информация о лесах, зелёных зонах, мерах против опустынивания и цифровых сервисах.",
@@ -42,7 +82,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный раздел Агентства по увеличению лесов и зеленых зон и борьбе с опустыниванием на портале gov.uz.",
+      description:
+        "Официальный раздел Агентства по увеличению лесов и зеленых зон и борьбе с опустыниванием на портале gov.uz: телефон +99871 207-88-77 (доб. 1009), телефон доверия +99871 207-88-77 (доб. 1010), электронная почта info[at]urmon.uz, адрес 100043, Ташкент, Чиланзарский район, пр. Бунёдкор, 7а, проезд, рабочее время и ссылки на социальные сети.",
       orgName: "Агентство по увеличению лесов и зеленых зон и борьбе с опустыниванием",
       sameAs: "https://gov.uz/ru/urmon",
     },
@@ -59,7 +100,7 @@ export default {
         },
         {
           q: "Как связаться с Агентством или горячей линией?",
-          a: "В официальном разделе на gov.uz указаны контакты, в том числе горячая линия +99871 207-88-77 (добавочный 1010) и другие номера.",
+          a: "В официальном разделе на gov.uz указаны контакты: телефон +99871 207-88-77 (доб. 1009), телефон доверия с тем же номером (доб. 1010) и другие сведения.",
         },
         {
           q: "Где найти законы и документы по лесам и опустыниванию?",
@@ -82,6 +123,46 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Working hours",
+      },
+      phones: [{ display: "+99871 207-88-77, ext. 1009", href: "tel:+998712078877" }],
+      trustPhone: { display: "+99871 207-88-77, ext. 1010", href: "tel:+998712078877" },
+      email: { display: "info@urmon.uz", href: "mailto:info@urmon.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/urmon_gov_uz" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/people/Urmongovuz/100024269502899/",
+        },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/urmon_gov_uz/" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC7yS8G537YtD0hLUfMuYYOA",
+        },
+      ],
+      address: "100043, Tashkent, Chilanzar district, Bunyodkor Avenue, 7a",
+      transport: "Public transport routes: 118, 56, 150",
+      hours: "Monday–Friday: 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Agency for forests and combating desertification section (urmon).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/urmon",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -112,7 +193,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official section of the Agency for Increasing Forests and Green Areas and Combating Desertification on the gov.uz portal.",
+      description:
+        "Official section of the Agency for Increasing Forests and Green Areas and Combating Desertification on the gov.uz portal: phone +99871 207-88-77 (ext. 1009), trust line +99871 207-88-77 (ext. 1010), email info[at]urmon.uz, address 100043, Tashkent, Chilanzar district, Bunyodkor Ave. 7a, transport, working hours and social media links.",
       orgName: "Agency for Increasing Forests and Green Areas and Combating Desertification",
       sameAs: "https://gov.uz/en/urmon",
     },
@@ -129,7 +211,7 @@ export default {
         },
         {
           q: "How can I contact the Agency or the hotline?",
-          a: "The official section on gov.uz lists contacts, including the hotline +99871 207-88-77 (extension 1010) and other numbers.",
+          a: "The official section on gov.uz lists contacts: +99871 207-88-77 (ext. 1009), trust line on the same number (ext. 1010) and other details.",
         },
         {
           q: "Where can I find laws and documents on forests and desertification?",
@@ -152,6 +234,49 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Agentlikning gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 207-88-77, 1009 qoʻshimcha raqam", href: "tel:+998712078877" }],
+      trustPhone: {
+        display: "+99871 207-88-77, 1010 qoʻshimcha raqam",
+        href: "tel:+998712078877",
+      },
+      email: { display: "info@urmon.uz", href: "mailto:info@urmon.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/urmon_gov_uz" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/people/Urmongovuz/100024269502899/",
+        },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/urmon_gov_uz/" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC7yS8G537YtD0hLUfMuYYOA",
+        },
+      ],
+      address: "100043, Toshkent shahri, Chilonzor tumani, Bunyodkor shoh koʻchasi, 7a",
+      transport: "Jamoat transporti raqamlari: 118, 56, 150",
+      hours: "Dushanba–juma: 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Oʻrmon va yashil hududlarni koʻpaytirish, choʻllanishga qarshi kurashish agentligi boʻlimi (urmon) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/urmon",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -182,7 +307,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Respublikasining Oʻrmon va yashil hududlarni koʻpaytirish, choʻllanishga qarshi kurashish agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+      description:
+        "Oʻzbekiston Respublikasining Oʻrmon va yashil hududlarni koʻpaytirish, choʻllanishga qarshi kurashish agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefon +99871 207-88-77 (1009 qoʻshimcha raqam), ishonch telefoni +99871 207-88-77 (1010 qoʻshimcha raqam), elektron pochta info[at]urmon.uz, manzil 100043, Toshkent, Chilonzor tumani, Bunyodkor shoh koʻchasi, 7a, transport, ish vaqti va ijtimoiy tarmoq havolalari.",
       orgName: "Oʻrmon va yashil hududlarni koʻpaytirish, choʻllanishga qarshi kurashish agentligi",
       sameAs: "https://gov.uz/oz/urmon",
     },
@@ -199,7 +325,7 @@ export default {
         },
         {
           q: "Agentlik yoki ishonch telefoni bilan qanday bogʻlanish mumkin?",
-          a: "gov.uz dagi rasmiy boʻlimda kontaktlar, shu jumladan ishonch telefoni +99871 207-88-77 (1010 qoʻshimcha raqami) va boshqa raqamlar keltirilgan.",
+          a: "gov.uz dagi rasmiy boʻlimda kontaktlar keltirilgan: telefon +99871 207-88-77 (1009 qoʻshimcha raqam), shu raqam boʻyicha ishonch telefoni (1010 qoʻshimcha raqam) va boshqa maʼlumotlar.",
         },
         {
           q: "Oʻrmon va choʻllanish boʻyicha qonun va hujjatlarni qayerdan topish mumkin?",

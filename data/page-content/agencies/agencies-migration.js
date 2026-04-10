@@ -13,6 +13,50 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства Миграции на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 202-33-55", href: "tel:+998712023355" }],
+      trustPhone: { display: "1282", href: "tel:1282" },
+      email: { display: "info@migration.uz", href: "mailto:info@migration.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/migratsiyaagentligi" },
+        { id: "telegram", label: "Telegram (@uzmigration)", url: "https://t.me/uzmigration" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/migratsiya_agentligi/" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@agentligimigratsiya",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/migratsiyaagentligi" },
+        {
+          id: "telegram",
+          label: "Telegram (бот приёмной)",
+          url: "https://t.me/migratsiya_qabulxona_uzbot",
+        },
+      ],
+      address: "100179, г. Ташкент, ул. Камарнисо, 1",
+      transport:
+        "Метро: станция «Беруни»\nАвтобусы: № 28, 34, 82\nОстановка: «Геологоразведочный колледж»\nОриентир: специализированная школа имени Абу Али ибн Сины",
+      hours:
+        "Рабочие дни: понедельник–пятница\nРабочее время: 9:00–13:00, 14:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства Миграции (migration).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/migration",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "В официальном разделе Агентства на портале gov.uz представлена информация о миграции, паспортах и трудоустройстве граждан Узбекистана за рубежом.",
@@ -42,7 +86,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный раздел Агентства Миграции при Кабинете Министров Республики Узбекистан на портале gov.uz.",
+      description:
+        "Официальный раздел Агентства Миграции при Кабинете Министров Республики Узбекистан на портале gov.uz: телефон +99871 202-33-55, телефон доверия 1282, электронная почта info[at]migration.uz, адрес 100179, Ташкент, ул. Камарнисо, 1, проезд, рабочее время и ссылки на социальные сети.",
       orgName: "Агентство Миграции при Кабинете Министров Республики Узбекистан",
       sameAs: "https://gov.uz/ru/migration",
     },
@@ -83,6 +128,50 @@ export default {
       h2: "Official website",
       ctaText: "Go to the Migration Agency’s official section on gov.uz →",
     },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Working hours",
+      },
+      phones: [{ display: "+99871 202-33-55", href: "tel:+998712023355" }],
+      trustPhone: { display: "1282", href: "tel:1282" },
+      email: { display: "info@migration.uz", href: "mailto:info@migration.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/migratsiyaagentligi" },
+        { id: "telegram", label: "Telegram (@uzmigration)", url: "https://t.me/uzmigration" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/migratsiya_agentligi/" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@agentligimigratsiya",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/migratsiyaagentligi" },
+        {
+          id: "telegram",
+          label: "Telegram (reception bot)",
+          url: "https://t.me/migratsiya_qabulxona_uzbot",
+        },
+      ],
+      address: "100179, Tashkent, Kamarniso Street, 1",
+      transport:
+        "Metro: Beruni station\nBuses: 28, 34, 82\nStop: Geological exploration college\nLandmark: Abu Ali ibn Sina specialised school",
+      hours:
+        "Working days: Monday–Friday\nWorking hours: 9:00–13:00, 14:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Migration Agency section (migration).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/migration",
+      },
+    },
     whatFind: {
       h2: "What you can find on the official website",
       intro: "The Agency’s official section on gov.uz presents information on migration, passports and Uzbek citizens’ employment abroad.",
@@ -112,7 +201,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official section of the Migration Agency under the Cabinet of Ministers of the Republic of Uzbekistan on the gov.uz portal.",
+      description:
+        "Official section of the Migration Agency under the Cabinet of Ministers of the Republic of Uzbekistan on the gov.uz portal: phone +99871 202-33-55, trust line 1282, email info[at]migration.uz, address 100179, Tashkent, Kamarniso Street, 1, transport, working hours and social media links.",
       orgName: "Migration Agency under the Cabinet of Ministers of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/migration",
     },
@@ -153,6 +243,50 @@ export default {
       h2: "Rasmiy sayt",
       ctaText: "Migratsiya agentligining gov.uz dagi rasmiy boʻlimiga oʻtish →",
     },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 202-33-55", href: "tel:+998712023355" }],
+      trustPhone: { display: "1282", href: "tel:1282" },
+      email: { display: "info@migration.uz", href: "mailto:info@migration.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/migratsiyaagentligi" },
+        { id: "telegram", label: "Telegram (@uzmigration)", url: "https://t.me/uzmigration" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/migratsiya_agentligi/" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@agentligimigratsiya",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/migratsiyaagentligi" },
+        {
+          id: "telegram",
+          label: "Telegram (qabulxona boti)",
+          url: "https://t.me/migratsiya_qabulxona_uzbot",
+        },
+      ],
+      address: "100179, Toshkent shahri, Kamarniso koʻchasi, 1",
+      transport:
+        "Metro: «Beruniy» bekati\nAvtobuslar: № 28, 34, 82\nToʻxtash: «Geologik qidiruv kolleji»\nOrientir: Abu Ali ibn Sino nomidagi ixtisoslashtirilgan maktab",
+      hours:
+        "Ish kunlari: dushanba–juma\nIsh vaqti: 9:00–13:00, 14:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Migratsiya agentligi boʻlimi (migration) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/migration",
+      },
+    },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
       intro: "gov.uz portali boʻyicha agentlikning rasmiy boʻlimida Oʻzbekiston fuqarolarining migratsiyasi, pasportlari va xorijda ishi haqida maʼlumotlar berilgan.",
@@ -182,7 +316,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Migratsiya agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+      description:
+        "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Migratsiya agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefon +99871 202-33-55, ishonch telefoni 1282, elektron pochta info[at]migration.uz, manzil 100179, Toshkent, Kamarniso koʻchasi, 1, transport, ish vaqti va ijtimoiy tarmoq havolalari.",
       orgName: "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Migratsiya agentligi",
       sameAs: "https://gov.uz/oz/migration",
     },

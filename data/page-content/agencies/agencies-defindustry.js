@@ -13,6 +13,26 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        email: "Эл. адрес",
+      },
+      phones: [
+        { display: "+99871 212-71-57", href: "tel:+998712127157" },
+        { display: "+99871 212-71-58", href: "tel:+998712127158" },
+      ],
+      email: { display: "info@defindustry.uz", href: "mailto:info@defindustry.uz" },
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства оборонной промышленности (defindustry).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/defindustry",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "В официальном разделе Агентства на портале gov.uz представлена информация об оборонной промышленности, предприятиях и нормативной базе.",
@@ -42,7 +62,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный раздел Агентства оборонной промышленности при Министерстве обороны Республики Узбекистан на портале gov.uz.",
+      description:
+        "Официальный раздел Агентства оборонной промышленности при Министерстве обороны Республики Узбекистан на портале gov.uz: телефоны +99871 212-71-57, +99871 212-71-58, электронная почта info[at]defindustry.uz.",
       orgName: "Агентство оборонной промышленности при Министерстве обороны Республики Узбекистан",
       sameAs: "https://gov.uz/ru/defindustry",
     },
@@ -67,7 +88,7 @@ export default {
         },
         {
           q: "Как связаться с Агентством или оставить обращение?",
-          a: "Контакты, обратная связь, опросы и раздел обращений по противодействию коррупции указаны в официальном разделе Агентства на gov.uz.",
+          a: "Телефоны +99871 212-71-57 и +99871 212-71-58, электронная почта info@defindustry.uz; обратная связь, опросы и раздел обращений по противодействию коррупции — в официальном разделе Агентства на gov.uz.",
         },
       ],
     },
@@ -82,6 +103,26 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        email: "Email",
+      },
+      phones: [
+        { display: "+99871 212-71-57", href: "tel:+998712127157" },
+        { display: "+99871 212-71-58", href: "tel:+998712127158" },
+      ],
+      email: { display: "info@defindustry.uz", href: "mailto:info@defindustry.uz" },
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Defense Industry Agency section (defindustry).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/defindustry",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -112,7 +153,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official section of the Defense Industry Agency under the Ministry of Defense of the Republic of Uzbekistan on the gov.uz portal.",
+      description:
+        "Official section of the Defense Industry Agency under the Ministry of Defense of the Republic of Uzbekistan on the gov.uz portal: phones +99871 212-71-57, +99871 212-71-58, email info[at]defindustry.uz.",
       orgName: "Defense Industry Agency under the Ministry of Defense of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/defindustry",
     },
@@ -137,7 +179,7 @@ export default {
         },
         {
           q: "How can I contact the Agency or submit feedback?",
-          a: "Contacts, feedback, surveys and anti-corruption reporting are listed in the Agency’s official section on gov.uz.",
+          a: "Phone +99871 212-71-57 and +99871 212-71-58, email info@defindustry.uz; feedback, surveys and anti-corruption reporting are also in the Agency’s official section on gov.uz.",
         },
       ],
     },
@@ -152,6 +194,26 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Agentlikning gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        email: "Elektron pochta",
+      },
+      phones: [
+        { display: "+99871 212-71-57", href: "tel:+998712127157" },
+        { display: "+99871 212-71-58", href: "tel:+998712127158" },
+      ],
+      email: { display: "info@defindustry.uz", href: "mailto:info@defindustry.uz" },
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Mudofaa sanoati agentligi boʻlimi (defindustry) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/defindustry",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -182,7 +244,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Respublikasi Mudofaa Vazirligi huzuridagi Mudofaa sanoati agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+      description:
+        "Oʻzbekiston Respublikasi Mudofaa Vazirligi huzuridagi Mudofaa sanoati agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefonlar +99871 212-71-57, +99871 212-71-58, elektron pochta info[at]defindustry.uz.",
       orgName: "Oʻzbekiston Respublikasi Mudofaa Vazirligi huzuridagi Mudofaa sanoati agentligi",
       sameAs: "https://gov.uz/oz/defindustry",
     },
@@ -207,7 +270,7 @@ export default {
         },
         {
           q: "Agentlik bilan qanday bogʻlanish yoki murojaat qilish mumkin?",
-          a: "Kontaktlar, murojaat, soʻrovnomalar va korrupsiyaning oldini olish boʻyicha murojaatlar agentlikning gov.uz dagi rasmiy boʻlimida keltirilgan.",
+          a: "Telefonlar +99871 212-71-57 va +99871 212-71-58, elektron pochta info@defindustry.uz; murojaat, soʻrovnomalar va korrupsiyaning oldini olish boʻyicha murojaatlar agentlikning gov.uz dagi rasmiy boʻlimida ham mavjud.",
         },
       ],
     },

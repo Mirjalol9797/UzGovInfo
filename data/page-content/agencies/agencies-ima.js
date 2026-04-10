@@ -13,6 +13,43 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 207-20-17", href: "tel:+998712072017" }],
+      trustPhone: { display: "+99871 207-40-48", href: "tel:+998712074048" },
+      email: { display: "info@piima.uz", href: "mailto:info@piima.uz" },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/c/PIIMArasmiysahifasi",
+        },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/piima.uz/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/piimauz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/piima.uz" },
+      ],
+      address: "г. Ташкент, Яшнабадский район, ул. Махтумкули, 114А",
+      transport:
+        "Автобусы: № 18, 44, 50\nНаправление от станции метро «Буюк Ипак йули»",
+      hours: "9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства специализированных образовательных учреждений (ima).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/ima",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "В официальном разделе Агентства на портале gov.uz представлена информация о специализированных учебных заведениях, приёме и нормативной базе.",
@@ -42,7 +79,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный раздел Агентства специализированных образовательных учреждений при Министерстве дошкольного и школьного образования Республики Узбекистан на портале gov.uz.",
+      description:
+        "Официальный раздел Агентства специализированных образовательных учреждений при Министерстве дошкольного и школьного образования Республики Узбекистан на портале gov.uz: телефон +99871 207-20-17, телефон доверия +99871 207-40-48, электронная почта info[at]piima.uz, адрес Ташкент, Яшнабадский район, ул. Махтумкули, 114А, проезд, режим работы и ссылки на социальные сети.",
       orgName: "Агентство специализированных образовательных учреждений при Министерстве дошкольного и школьного образования Республики Узбекистан",
       sameAs: "https://gov.uz/ru/ima",
     },
@@ -67,7 +105,7 @@ export default {
         },
         {
           q: "Как связаться с Агентством или позвонить на горячую линию?",
-          a: "В официальном разделе на gov.uz указаны контакты и телефон горячей линии +998 71 207 4048, а также обратная связь, опросы и онлайн-чат в структуре раздела.",
+          a: "Телефон +99871 207-20-17, телефон доверия +99871 207-40-48, электронная почта info@piima.uz; обратная связь, опросы и онлайн-чат — в официальном разделе Агентства на gov.uz.",
         },
       ],
     },
@@ -82,6 +120,43 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Working hours",
+      },
+      phones: [{ display: "+99871 207-20-17", href: "tel:+998712072017" }],
+      trustPhone: { display: "+99871 207-40-48", href: "tel:+998712074048" },
+      email: { display: "info@piima.uz", href: "mailto:info@piima.uz" },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/c/PIIMArasmiysahifasi",
+        },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/piima.uz/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/piimauz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/piima.uz" },
+      ],
+      address: "Tashkent, Yashnabad district, Makhtumquli Street, 114A",
+      transport:
+        "Buses: 18, 44, 50\nFrom Buyuk Ipak Yuli metro station",
+      hours: "9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Agency of Specialized Educational Institutions section (ima).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/ima",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -112,7 +187,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official section of the Agency of Specialized Educational Institutions under the Ministry of Preschool and School Education of the Republic of Uzbekistan on the gov.uz portal.",
+      description:
+        "Official section of the Agency of Specialized Educational Institutions under the Ministry of Preschool and School Education of the Republic of Uzbekistan on the gov.uz portal: phone +99871 207-20-17, trust line +99871 207-40-48, email info[at]piima.uz, address Tashkent, Yashnabad district, Makhtumquli St. 114A, transport, opening hours and social media links.",
       orgName: "Agency of Specialized Educational Institutions under the Ministry of Preschool and School Education of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/ima",
     },
@@ -137,7 +213,7 @@ export default {
         },
         {
           q: "How can I contact the Agency or call the hotline?",
-          a: "The official section on gov.uz lists contacts and the hotline +998 71 207 4048, plus feedback, surveys and online chat in the site structure.",
+          a: "Phone +99871 207-20-17, trust line +99871 207-40-48, email info@piima.uz; feedback, surveys and online chat are also in the Agency’s official section on gov.uz.",
         },
       ],
     },
@@ -152,6 +228,43 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Agentlikning gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 207-20-17", href: "tel:+998712072017" }],
+      trustPhone: { display: "+99871 207-40-48", href: "tel:+998712074048" },
+      email: { display: "info@piima.uz", href: "mailto:info@piima.uz" },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/c/PIIMArasmiysahifasi",
+        },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/piima.uz/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/piimauz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/piima.uz" },
+      ],
+      address: "Toshkent shahri, Yashnobod tumani, Maxtumquliy koʻchasi, 114A",
+      transport:
+        "Avtobuslar: № 18, 44, 50\n«Buyuk ipak yoʻli» metro bekati yoʻnalishi",
+      hours: "9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Ixtisoslashtirilgan taʼlim muassasalari agentligi boʻlimi (ima) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/ima",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -182,7 +295,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Respublikasi Maktabgacha va maktab taʼlimi vazirligi huzuridagi Ixtisoslashtirilgan taʼlim muassasalari agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+      description:
+        "Oʻzbekiston Respublikasi Maktabgacha va maktab taʼlimi vazirligi huzuridagi Ixtisoslashtirilgan taʼlim muassasalari agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefon +99871 207-20-17, ishonch telefoni +99871 207-40-48, elektron pochta info[at]piima.uz, manzil Toshkent, Yashnobod tumani, Maxtumquliy koʻchasi, 114A, transport, ish vaqti va ijtimoiy tarmoq havolalari.",
       orgName: "Oʻzbekiston Respublikasi Maktabgacha va maktab taʼlimi vazirligi huzuridagi Ixtisoslashtirilgan taʼlim muassasalari agentligi",
       sameAs: "https://gov.uz/oz/ima",
     },
@@ -207,7 +321,7 @@ export default {
         },
         {
           q: "Agentlik bilan qanday bogʻlanish yoki ishonch telefoniga qoʻngʻiroq qilish mumkin?",
-          a: "gov.uz dagi rasmiy boʻlimda kontaktlar va +998 71 207 4048 ishonch telefoni, shuningdek murojaat, soʻrovnomalar va onlayn chat koʻrsatilgan.",
+          a: "Telefon +99871 207-20-17, ishonch telefoni +99871 207-40-48, elektron pochta info@piima.uz; murojaat, soʻrovnomalar va onlayn chat agentlikning gov.uz dagi rasmiy boʻlimida ham mavjud.",
         },
       ],
     },

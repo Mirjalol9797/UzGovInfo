@@ -13,6 +13,48 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 202-10-00", href: "tel:+998712021000" }],
+      trustPhone: {
+        display: "+99871 202-84-84; колл-центр 1288",
+        href: "tel:+998712028484",
+      },
+      email: { display: "info@karantin.uz", href: "mailto:info@karantin.uz" },
+      social: [
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzdavkarantin/" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UClfTTLpd7lJcINoxMKd1Psw/featured",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzdavkarantin.rasmiy/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzdavkarantinuz" },
+        { id: "twitter", label: "X (Twitter)", url: "https://twitter.com/uzdavkarantin" },
+      ],
+      address: "100100, г. Ташкент, ул. Бабура, 1-й проезд, д. 17",
+      transport:
+        "Ориентир: ТРЦ «NEXT»\nАвтобусы: № 47, 11, 76, 32, 126, 3, 92, 81",
+      hours:
+        "Понедельник–пятница, 9:00–18:00\nОбед: 13:00–14:00\nВыходные: суббота и воскресенье",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства по карантину и защите растений (karantin).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/karantin",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "В официальном разделе Агентства на портале gov.uz представлена информация о карантине растений, фитосанитарии и государственных услугах в этой сфере.",
@@ -42,7 +84,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный раздел Агентства по карантину и защите растений при Министерстве сельского хозяйства Республики Узбекистан на портале gov.uz.",
+      description:
+        "Официальный раздел Агентства по карантину и защите растений при Министерстве сельского хозяйства Республики Узбекистан на портале gov.uz: телефон +99871 202-10-00, телефон доверия +99871 202-84-84 и колл-центр 1288, электронная почта info[at]karantin.uz, адрес 100100, Ташкент, ул. Бабура, проезд и дом, транспорт, режим работы и ссылки на социальные сети.",
       orgName: "Агентство по карантину и защите растений при Министерстве сельского хозяйства Республики Узбекистан",
       sameAs: "https://gov.uz/ru/karantin",
     },
@@ -59,7 +102,7 @@ export default {
         },
         {
           q: "Как связаться с Агентством или колл-центром?",
-          a: "На официальном разделе на gov.uz указаны контакты, горячая линия +99871 2028484 и колл-центр с коротким номером 1288.",
+          a: "Телефон +99871 202-10-00, телефон доверия +99871 202-84-84, колл-центр 1288, электронная почта info@karantin.uz; полный перечень — в официальном разделе Агентства на gov.uz.",
         },
         {
           q: "Где найти перечень государственных услуг и личный кабинет?",
@@ -82,6 +125,47 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Working hours",
+      },
+      phones: [{ display: "+99871 202-10-00", href: "tel:+998712021000" }],
+      trustPhone: {
+        display: "+99871 202-84-84; call centre 1288",
+        href: "tel:+998712028484",
+      },
+      email: { display: "info@karantin.uz", href: "mailto:info@karantin.uz" },
+      social: [
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzdavkarantin/" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UClfTTLpd7lJcINoxMKd1Psw/featured",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzdavkarantin.rasmiy/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzdavkarantinuz" },
+        { id: "twitter", label: "X (Twitter)", url: "https://twitter.com/uzdavkarantin" },
+      ],
+      address: "100100, Tashkent, Babur Street, driveway 1, building 17",
+      transport: 'Landmark: NEXT mall\nBuses: 47, 11, 76, 32, 126, 3, 92, 81',
+      hours:
+        "Monday–Friday, 9:00–18:00\nLunch break: 13:00–14:00\nWeekends: Saturday and Sunday",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Agency for Plant Quarantine and Protection section (karantin).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/karantin",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -112,7 +196,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official section of the Agency for Plant Quarantine and Protection under the Ministry of Agriculture of the Republic of Uzbekistan on the gov.uz portal.",
+      description:
+        "Official section of the Agency for Plant Quarantine and Protection under the Ministry of Agriculture of the Republic of Uzbekistan on the gov.uz portal: phone +99871 202-10-00, trust line +99871 202-84-84 and call centre 1288, email info[at]karantin.uz, address 100100 Tashkent Babur St., driveway and building, transport, opening hours and social media links.",
       orgName: "Agency for Plant Quarantine and Protection under the Ministry of Agriculture of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/karantin",
     },
@@ -129,7 +214,7 @@ export default {
         },
         {
           q: "How can I contact the Agency or the call centre?",
-          a: "The official section on gov.uz lists contacts, hotline +99871 2028484 and the call centre short number 1288.",
+          a: "Phone +99871 202-10-00, trust line +99871 202-84-84, call centre 1288, email info@karantin.uz; see the Agency’s official section on gov.uz for the full list.",
         },
         {
           q: "Where can I find the list of public services and the personal account?",
@@ -152,6 +237,48 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Agentlikning gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 202-10-00", href: "tel:+998712021000" }],
+      trustPhone: {
+        display: "+99871 202-84-84; call-markaz 1288",
+        href: "tel:+998712028484",
+      },
+      email: { display: "info@karantin.uz", href: "mailto:info@karantin.uz" },
+      social: [
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzdavkarantin/" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UClfTTLpd7lJcINoxMKd1Psw/featured",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzdavkarantin.rasmiy/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzdavkarantinuz" },
+        { id: "twitter", label: "X (Twitter)", url: "https://twitter.com/uzdavkarantin" },
+      ],
+      address: "100100, Toshkent shahri, Bobur koʻchasi, 1-oʻtin yoʻl, 17-uy",
+      transport:
+        "Orientir: «NEXT» savdo markazi\nAvtobuslar: № 47, 11, 76, 32, 126, 3, 92, 81",
+      hours:
+        "Dushanba–juma, 9:00–18:00\nTushlik: 13:00–14:00\nDam olish kunlari: shanba va yakshanba",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Oʻsimliklar karantini va himoyasi agentligi boʻlimi (karantin) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/karantin",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -182,7 +309,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Respublikasi qishloq xoʻjaligi vazirligi huzuridagi oʻsimliklar karantini va himoyasi agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+      description:
+        "Oʻzbekiston Respublikasi qishloq xoʻjaligi vazirligi huzuridagi oʻsimliklar karantini va himoyasi agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefon +99871 202-10-00, ishonch telefoni +99871 202-84-84 va call-markaz 1288, elektron pochta info[at]karantin.uz, manzil 100100, Toshkent, Bobur koʻchasi, yoʻl va uy, transport, ish vaqti va ijtimoiy tarmoq havolalari.",
       orgName: "Oʻzbekiston Respublikasi qishloq xoʻjaligi vazirligi huzuridagi oʻsimliklar karantini va himoyasi agentligi",
       sameAs: "https://gov.uz/oz/karantin",
     },
@@ -199,7 +327,7 @@ export default {
         },
         {
           q: "Agentlik yoki call-markaz bilan qanday bogʻlanish mumkin?",
-          a: "gov.uz dagi rasmiy boʻlimda kontaktlar, +99871 2028484 ishonch telefoni va 1288 qisqa raqamli call-markaz koʻrsatilgan.",
+          a: "Telefon +99871 202-10-00, ishonch telefoni +99871 202-84-84, call-markaz 1288, elektron pochta info@karantin.uz; toʻliq roʻyxat agentlikning gov.uz dagi rasmiy boʻlimida.",
         },
         {
           q: "Davlat xizmatlari roʻyxati va shaxsiy kabinetni qayerdan topish mumkin?",
