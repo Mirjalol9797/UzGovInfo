@@ -13,6 +13,39 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 203-32-23, доб. 700", href: "tel:+998712033223" }],
+      trustPhone: { display: "+99871 203-32-31", href: "tel:+998712033231" },
+      email: { display: "info@ilmiy.uz", href: "mailto:info@ilmiy.uz" },
+      social: [
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@innovation.gov-uz" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/innovatsion_rivojlanish" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/innovation.gov.uz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/innovation.gov.uz" },
+      ],
+      address: "100174, г. Ташкент, Алмазарский район, ул. Университетская, 7",
+      transport:
+        "Станция метро «Беруний»\nОстановка «Беруний» — автобусы № 11, 28, 31, 78, 88, 116",
+      hours: "Понедельник–пятница, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства инновационного развития (innovation).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/innovation",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "В официальном разделе Агентства на портале gov.uz представлена информация об инновационном развитии, науке и электронных услугах.",
@@ -42,7 +75,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный раздел Агентства инновационного развития при Министерстве высшего образования, науки и инноваций Республики Узбекистан на портале gov.uz.",
+      description:
+        "Официальный раздел Агентства инновационного развития при Министерстве высшего образования, науки и инноваций Республики Узбекистан на портале gov.uz: телефон +99871 203-32-23 (доб. 700), телефон доверия +99871 203-32-31, электронная почта info[at]ilmiy.uz, адрес 100174, Ташкент, ул. Университетская, 7, транспорт, режим работы и ссылки на социальные сети.",
       orgName: "Агентство инновационного развития при Министерстве высшего образования, науки и инноваций Республики Узбекистан",
       sameAs: "https://gov.uz/ru/innovation",
     },
@@ -59,7 +93,7 @@ export default {
         },
         {
           q: "Как связаться с Агентством?",
-          a: "На официальном разделе на gov.uz указана горячая линия +99871 203-32-31, контакты, опросы, статистика обращений и формы обратной связи.",
+          a: "Телефон +99871 203-32-23 (доб. 700), телефон доверия +99871 203-32-31, электронная почта info@ilmiy.uz; опросы, статистика обращений и формы обратной связи — в официальном разделе на gov.uz.",
         },
         {
           q: "Где найти реестр электронных государственных услуг?",
@@ -82,6 +116,39 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Working hours",
+      },
+      phones: [{ display: "+99871 203-32-23, ext. 700", href: "tel:+998712033223" }],
+      trustPhone: { display: "+99871 203-32-31", href: "tel:+998712033231" },
+      email: { display: "info@ilmiy.uz", href: "mailto:info@ilmiy.uz" },
+      social: [
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@innovation.gov-uz" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/innovatsion_rivojlanish" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/innovation.gov.uz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/innovation.gov.uz" },
+      ],
+      address: "100174, Tashkent, Almazar district, Universitetskaya Street, 7",
+      transport:
+        "Beruniy metro station\nBeruniy stop — buses 11, 28, 31, 78, 88, 116",
+      hours: "Monday–Friday, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Agency for Innovative Development section (innovation).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/innovation",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -112,7 +179,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official section of the Agency for Innovative Development under the Ministry of Higher Education, Science and Innovation of the Republic of Uzbekistan on the gov.uz portal.",
+      description:
+        "Official section of the Agency for Innovative Development under the Ministry of Higher Education, Science and Innovation of the Republic of Uzbekistan on the gov.uz portal: phone +99871 203-32-23 ext. 700, trust line +99871 203-32-31, email info[at]ilmiy.uz, address 100174 Tashkent Universitetskaya St. 7, transport, office hours and social media links.",
       orgName: "Agency for Innovative Development under the Ministry of Higher Education, Science and Innovation of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/innovation",
     },
@@ -129,7 +197,7 @@ export default {
         },
         {
           q: "How can I contact the Agency?",
-          a: "The official section on gov.uz lists hotline +99871 203-32-31, contacts, surveys, appeal statistics and feedback forms.",
+          a: "Phone +99871 203-32-23 ext. 700, trust line +99871 203-32-31, email info@ilmiy.uz; surveys, appeal statistics and feedback forms are in the official section on gov.uz.",
         },
         {
           q: "Where can I find the register of electronic public services?",
@@ -152,6 +220,39 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Agentlikning gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 203-32-23 (700)", href: "tel:+998712033223" }],
+      trustPhone: { display: "+99871 203-32-31", href: "tel:+998712033231" },
+      email: { display: "info@ilmiy.uz", href: "mailto:info@ilmiy.uz" },
+      social: [
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@innovation.gov-uz" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/innovatsion_rivojlanish" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/innovation.gov.uz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/innovation.gov.uz" },
+      ],
+      address: "100174, Toshkent shahri, Almazor tumani, Universitet koʻchasi, 7",
+      transport:
+        "«Beruniy» metro bekati\n«Beruniy» bekati — avtobuslar № 11, 28, 31, 78, 88, 116",
+      hours: "Dushanba–juma, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Innovatsion rivojlanish agentligi boʻlimi (innovation) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/innovation",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -182,7 +283,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Respublikasi Oliy taʼlim, fan va innovatsiyalar vazirligi huzuridagi Innovatsion rivojlanish agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+      description:
+        "Oʻzbekiston Respublikasi Oliy taʼlim, fan va innovatsiyalar vazirligi huzuridagi Innovatsion rivojlanish agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefon +99871 203-32-23 (700), ishonch telefoni +99871 203-32-31, elektron pochta info[at]ilmiy.uz, manzil 100174, Toshkent, Universitet koʻchasi, 7, transport, ish vaqti va ijtimoiy tarmoq havolalari.",
       orgName: "Oʻzbekiston Respublikasi Oliy taʼlim, fan va innovatsiyalar vazirligi huzuridagi Innovatsion rivojlanish agentligi",
       sameAs: "https://gov.uz/oz/innovation",
     },
@@ -199,7 +301,7 @@ export default {
         },
         {
           q: "Agentlik bilan qanday bogʻlanish mumkin?",
-          a: "gov.uz dagi rasmiy boʻlimda +99871 203-32-31 ishonch telefoni, kontaktlar, soʻrovnomalar, murojaatlar statistikasi va murojaat shakllari koʻrsatilgan.",
+          a: "Telefon +99871 203-32-23 (700), ishonch telefoni +99871 203-32-31, elektron pochta info@ilmiy.uz; soʻrovnomalar, murojaatlar statistikasi va shakllar gov.uz dagi rasmiy boʻlimda.",
         },
         {
           q: "Elektron davlat xizmatlari reestrini qayerdan topish mumkin?",

@@ -13,6 +13,38 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 235-19-14", href: "tel:+998712351914" }],
+      trustPhone: { display: "1195", href: "tel:1195" },
+      email: { display: "info@uzbmb.uz", href: "mailto:info@uzbmb.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/BaholashUz" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/dtmuzb" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/dtmuzb" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/dtmuzb" },
+      ],
+      address: "100084, г. Ташкент, ул. Богишамол, 12",
+      transport: "Автобусы: № 19, 50, 63, 115\nСтанция метро «Бадамзар»",
+      hours: "Понедельник–пятница, 9:00–18:00\nОбед: 13:00–14:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства по оценке знаний и квалификаций (uzbmb).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/uzbmb",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "В официальном разделе Агентства на портале gov.uz представлена информация об оценке знаний и квалификаций, приёме и государственных услугах.",
@@ -42,7 +74,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный раздел Агентства по оценке знаний и квалификаций при Министерстве высшего образования, науки и инноваций Республики Узбекистан на портале gov.uz.",
+      description:
+        "Официальный раздел Агентства по оценке знаний и квалификаций при Министерстве высшего образования, науки и инноваций Республики Узбекистан на портале gov.uz: телефон +99871 235-19-14, телефон доверия 1195, электронная почта info[at]uzbmb.uz, адрес 100084, Ташкент, ул. Богишамол, 12, транспорт, режим работы и ссылки на социальные сети.",
       orgName: "Агентство по оценке знаний и квалификаций при Министерстве высшего образования, науки и инноваций Республики Узбекистан",
       sameAs: "https://gov.uz/ru/uzbmb",
     },
@@ -59,7 +92,7 @@ export default {
         },
         {
           q: "Как связаться с Агентством или позвонить на телефон доверия?",
-          a: "На официальном разделе на gov.uz указан телефон доверия 1195, контакты, опросы, статистика обращений и форма по противодействию коррупции.",
+          a: "Телефон +99871 235-19-14, телефон доверия 1195, электронная почта info@uzbmb.uz; опросы, статистика обращений и форма по противодействию коррупции — в официальном разделе на gov.uz.",
         },
         {
           q: "Где найти реестр государственных услуг и информацию о приёме?",
@@ -82,6 +115,38 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Working hours",
+      },
+      phones: [{ display: "+99871 235-19-14", href: "tel:+998712351914" }],
+      trustPhone: { display: "1195", href: "tel:1195" },
+      email: { display: "info@uzbmb.uz", href: "mailto:info@uzbmb.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/BaholashUz" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/dtmuzb" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/dtmuzb" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/dtmuzb" },
+      ],
+      address: "100084, Tashkent, Bogishamol Street, 12",
+      transport: "Buses: 19, 50, 63, 115\nBadamzar metro station",
+      hours: "Monday–Friday, 9:00–18:00\nLunch break: 13:00–14:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Agency for Assessment of Knowledge and Qualifications section (uzbmb).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/uzbmb",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -112,7 +177,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official section of the Agency for Assessment of Knowledge and Qualifications under the Ministry of Higher Education, Science and Innovations of the Republic of Uzbekistan on the gov.uz portal.",
+      description:
+        "Official section of the Agency for Assessment of Knowledge and Qualifications under the Ministry of Higher Education, Science and Innovations of the Republic of Uzbekistan on the gov.uz portal: phone +99871 235-19-14, trust line 1195, email info[at]uzbmb.uz, address 100084 Tashkent Bogishamol St. 12, transport, office hours and social media links.",
       orgName: "Agency for Assessment of Knowledge and Qualifications under the Ministry of Higher Education, Science and Innovations of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/uzbmb",
     },
@@ -129,7 +195,7 @@ export default {
         },
         {
           q: "How can I contact the Agency or call the trust line?",
-          a: "The official section on gov.uz lists trust line 1195, contacts, surveys, enquiry statistics and anti-corruption reporting.",
+          a: "Phone +99871 235-19-14, trust line 1195, email info@uzbmb.uz; surveys, enquiry statistics and anti-corruption reporting are in the official section on gov.uz.",
         },
         {
           q: "Where can I find the public services register and admission information?",
@@ -152,6 +218,38 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Agentlikning gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 235-19-14", href: "tel:+998712351914" }],
+      trustPhone: { display: "1195", href: "tel:1195" },
+      email: { display: "info@uzbmb.uz", href: "mailto:info@uzbmb.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/BaholashUz" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/dtmuzb" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/dtmuzb" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/dtmuzb" },
+      ],
+      address: "100084, Toshkent shahri, Bogʻishamol koʻchasi, 12",
+      transport: "Avtobuslar: № 19, 50, 63, 115\n«Badamzar» metro bekati",
+      hours: "Dushanba–juma, 9:00–18:00\nTushlik: 13:00–14:00",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Bilim va malakalarni baholash agentligi boʻlimi (uzbmb) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/uzbmb",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -182,7 +280,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Respublikasi Oliy taʼlim, fan va innovatsiyalar vazirligi huzuridagi Bilim va malakalarni baholash agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+      description:
+        "Oʻzbekiston Respublikasi Oliy taʼlim, fan va innovatsiyalar vazirligi huzuridagi Bilim va malakalarni baholash agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefon +99871 235-19-14, ishonch telefoni 1195, elektron pochta info[at]uzbmb.uz, manzil 100084, Toshkent, Bogʻishamol koʻchasi, 12, transport, ish vaqti va ijtimoiy tarmoq havolalari.",
       orgName: "Oʻzbekiston Respublikasi Oliy taʼlim, fan va innovatsiyalar vazirligi huzuridagi Bilim va malakalarni baholash agentligi",
       sameAs: "https://gov.uz/oz/uzbmb",
     },
@@ -199,7 +298,7 @@ export default {
         },
         {
           q: "Agentlik bilan qanday bogʻlanish yoki ishonch telefoniga qoʻngʻiroq qilish mumkin?",
-          a: "gov.uz dagi rasmiy boʻlimda 1195 ishonch telefoni, kontaktlar, soʻrovnomalar, murojaatlar statistikasi va korrupsiyaning oldini olish boʻyicha murojaat shakli koʻrsatilgan.",
+          a: "Telefon +99871 235-19-14, ishonch telefoni 1195, elektron pochta info@uzbmb.uz; soʻrovnomalar, murojaatlar statistikasi va korrupsiyaning oldini olish shakli gov.uz dagi rasmiy boʻlimda.",
         },
         {
           q: "Davlat xizmatlari reestri va qabul haqidagi maʼlumotni qayerdan topish mumkin?",

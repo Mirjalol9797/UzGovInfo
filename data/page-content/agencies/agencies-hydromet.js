@@ -13,6 +13,42 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99855 503-21-20", href: "tel:+998555032120" }],
+      trustPhone: { display: "+99855 503-21-20", href: "tel:+998555032120" },
+      email: { display: "info@meteo.uz", href: "mailto:info@meteo.uz" },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCuvcBWoWvTxIE6MTQUlT_uA",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/share/1B9kthe8xS/" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/hydromet.uz" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzgydromet" },
+      ],
+      address: "100052, Узбекистан, г. Ташкент, 1-й проезд Бодомзор йўли, 72",
+      transport:
+        "Автобусы: № 2, 95, 136, 89, 38, 88\nМаршрутные такси: 91",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства гидрометеорологической службы (hydromet).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/hydromet",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "В официальном разделе Агентства на портале gov.uz представлена информация о погоде, гидрометеорологии и услугах ведомства.",
@@ -42,7 +78,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный раздел Агентства гидрометеорологической службы при Национальном комитете по экологии и изменению климата Республики Узбекистан на портале gov.uz.",
+      description:
+        "Официальный раздел Агентства гидрометеорологической службы при Национальном комитете по экологии и изменению климата Республики Узбекистан на портале gov.uz: телефон и телефон доверия +99855 503-21-20, электронная почта info[at]meteo.uz, адрес 100052, Ташкент, проезд Бодомзор йўли, транспорт и ссылки на социальные сети.",
       orgName: "Агентство гидрометеорологической службы при Национальном комитете по экологии и изменению климата Республики Узбекистан",
       sameAs: "https://gov.uz/ru/hydromet",
     },
@@ -63,7 +100,7 @@ export default {
         },
         {
           q: "Как связаться с Агентством?",
-          a: "На сайте указаны контакты, горячая линия +99855 503-21-20, виртуальная приёмная и формы обратной связи.",
+          a: "Телефон и телефон доверия +99855 503-21-20, электронная почта info@meteo.uz; виртуальная приёмная и формы обратной связи — в официальном разделе на gov.uz.",
         },
         {
           q: "Можно ли получить государственные услуги онлайн?",
@@ -82,6 +119,41 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Working hours",
+      },
+      phones: [{ display: "+99855 503-21-20", href: "tel:+998555032120" }],
+      trustPhone: { display: "+99855 503-21-20", href: "tel:+998555032120" },
+      email: { display: "info@meteo.uz", href: "mailto:info@meteo.uz" },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCuvcBWoWvTxIE6MTQUlT_uA",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/share/1B9kthe8xS/" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/hydromet.uz" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzgydromet" },
+      ],
+      address: "100052, Uzbekistan, Tashkent, 1st driveway off Bodomzor yo‘li street, 72",
+      transport: "Buses: 2, 95, 136, 89, 38, 88\nRoute taxis: 91",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Agency for Hydrometeorological Service section (hydromet).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/hydromet",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -112,7 +184,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official section of the Agency for Hydrometeorological Service under the National Committee on Ecology and Climate Change of the Republic of Uzbekistan on the gov.uz portal.",
+      description:
+        "Official section of the Agency for Hydrometeorological Service under the National Committee on Ecology and Climate Change of the Republic of Uzbekistan on the gov.uz portal: phone and trust line +99855 503-21-20, email info[at]meteo.uz, address 100052 Tashkent Bodomzor yo‘li driveway, transport and social media links.",
       orgName: "Agency for Hydrometeorological Service under the National Committee on Ecology and Climate Change of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/hydromet",
     },
@@ -133,7 +206,7 @@ export default {
         },
         {
           q: "How can I contact the Agency?",
-          a: "The site lists contacts, hotline +99855 503-21-20, the virtual reception and feedback forms.",
+          a: "Phone and trust line +99855 503-21-20, email info@meteo.uz; the virtual reception and feedback forms are in the official section on gov.uz.",
         },
         {
           q: "Can I use public services online?",
@@ -152,6 +225,42 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Agentlikning gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99855 503-21-20", href: "tel:+998555032120" }],
+      trustPhone: { display: "+99855 503-21-20", href: "tel:+998555032120" },
+      email: { display: "info@meteo.uz", href: "mailto:info@meteo.uz" },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCuvcBWoWvTxIE6MTQUlT_uA",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/share/1B9kthe8xS/" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/hydromet.uz" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzgydromet" },
+      ],
+      address: "100052, Oʻzbekiston, Toshkent shahri, Bodomzor yoʻli, 1-oʻtin yoʻl, 72",
+      transport:
+        "Avtobuslar: № 2, 95, 136, 89, 38, 88\nMarshrut taksilar: 91",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Gidrometeorologiya xizmati agentligi boʻlimi (hydromet) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/hydromet",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -182,7 +291,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Respublikasi Ekologiya va iqlim oʻzgarishi milliy qoʻmitasi huzuridagi Gidrometeorologiya xizmati agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+      description:
+        "Oʻzbekiston Respublikasi Ekologiya va iqlim oʻzgarishi milliy qoʻmitasi huzuridagi Gidrometeorologiya xizmati agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefon va ishonch telefoni +99855 503-21-20, elektron pochta info[at]meteo.uz, manzil 100052, Toshkent, Bodomzor yoʻli, 1-oʻtin yoʻl, transport va ijtimoiy tarmoq havolalari.",
       orgName: "Oʻzbekiston Respublikasi Ekologiya va iqlim oʻzgarishi milliy qoʻmitasi huzuridagi Gidrometeorologiya xizmati agentligi",
       sameAs: "https://gov.uz/oz/hydromet",
     },
@@ -203,7 +313,7 @@ export default {
         },
         {
           q: "Agentlik bilan qanday bogʻlanish mumkin?",
-          a: "Saytda kontaktlar, +99855 503-21-20 ishonch telefoni, virtual qabulxona va murojaat shakllari koʻrsatilgan.",
+          a: "Telefon va ishonch telefoni +99855 503-21-20, elektron pochta info@meteo.uz; virtual qabulxona va murojaat shakllari gov.uz dagi rasmiy boʻlimda.",
         },
         {
           q: "Davlat xizmatlaridan onlayn foydalanish mumkinmi?",

@@ -14,6 +14,46 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 202-48-00", href: "tel:+998712024800" }],
+      email: {
+        display: "ekspluatatsiya@minwater.uz",
+        href: "mailto:ekspluatatsiya@minwater.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/suvchiuz" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/ekspluatatsiyaagentligi/",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/suvchiuz" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@suvchiuz" },
+      ],
+      address: "г. Ташкент, Мирзо-Улугбекский район, массив Карасу, 4-й квартал, 11",
+      transport:
+        "Остановка «Массив Карасу-2»\nАвтобусы: 21, 25, 49, 50, 63, 89. Маршрутное такси: 31",
+      hours:
+        "Понедельник–пятница, 9:00–18:00\nОбед: 13:00–14:00\nВыходные: суббота, воскресенье и праздничные дни",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница Агентства по эксплуатации объектов водного хозяйства.",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/suvobekt",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -71,7 +111,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Агентства по эксплуатации объектов водного хозяйства при Министерстве водного хозяйства Республики Узбекистан на портале gov.uz.",
+        "Официальный раздел Агентства по эксплуатации объектов водного хозяйства при Министерстве водного хозяйства Республики Узбекистан на портале gov.uz: телефон +99871 202-48-00 (на Govinfo также указан как телефон доверия), электронная почта ekspluatatsiya[at]minwater.uz, адрес Ташкент, Мирзо-Улугбекский район, массив Карасу, 4-й квартал, 11, транспорт, режим работы и ссылки на социальные сети.",
       orgName:
         "Агентство по эксплуатации объектов водного хозяйства при Министерстве водного хозяйства Республики Узбекистан",
       sameAs: "https://gov.uz/ru/suvobekt",
@@ -89,7 +129,7 @@ export default {
         },
         {
           q: "Как связаться с Агентством?",
-          a: "На официальном разделе на gov.uz указан телефон доверия +99871 202-48-00, контакты, опросы, обратная связь и форма по противодействию коррупции.",
+          a: "Телефон +99871 202-48-00 (на портале Govinfo тот же номер указан и как телефон доверия), электронная почта ekspluatatsiya@minwater.uz; опросы, обратная связь и форма по противодействию коррупции — в официальном разделе на gov.uz.",
         },
         {
           q: "Какие электронные сервисы перечислены в разделе госуслуг?",
@@ -113,6 +153,46 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99871 202-48-00", href: "tel:+998712024800" }],
+      email: {
+        display: "ekspluatatsiya@minwater.uz",
+        href: "mailto:ekspluatatsiya@minwater.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/suvchiuz" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/ekspluatatsiyaagentligi/",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/suvchiuz" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@suvchiuz" },
+      ],
+      address: "Tashkent, Mirzo Ulugbek district, Karasu residential area, 4th quarter, 11",
+      transport:
+        "Stop “Karasu massif-2”\nBuses: 21, 25, 49, 50, 63, 89. Minibus route: 31",
+      hours:
+        "Monday–Friday, 9:00–18:00\nLunch: 13:00–14:00\nClosed: Saturday, Sunday and public holidays",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the UzGovInfo portal (govinfo.uz), page of the Agency for operation of water management facilities.",
+        reuseNoticeBefore: "When reusing materials from this site, attribution to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/suvobekt",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -171,7 +251,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Agency for operation of water management facilities under the Ministry of Water Resources of the Republic of Uzbekistan on the gov.uz portal.",
+        "Official section of the Agency for operation of water management facilities under the Ministry of Water Resources of the Republic of Uzbekistan on the gov.uz portal: phone +99871 202-48-00 (also listed as trust line on Govinfo), email ekspluatatsiya[at]minwater.uz, address Tashkent, Mirzo Ulugbek district, Karasu massif, 4th quarter, 11, transport, office hours and social media links.",
       orgName:
         "Agency for operation of water management facilities under the Ministry of Water Resources of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/suvobekt",
@@ -189,7 +269,7 @@ export default {
         },
         {
           q: "How can I contact the Agency?",
-          a: "The official section lists trust line +99871 202-48-00, contacts, surveys, feedback and anti-corruption reporting.",
+          a: "Phone +99871 202-48-00 (on Govinfo the same number is also listed as trust line), email ekspluatatsiya@minwater.uz; surveys, feedback and anti-corruption reporting are on the official section on gov.uz.",
         },
         {
           q: "Which e-services are listed under public services?",
@@ -213,6 +293,46 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Agentlikning gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 202-48-00", href: "tel:+998712024800" }],
+      email: {
+        display: "ekspluatatsiya@minwater.uz",
+        href: "mailto:ekspluatatsiya@minwater.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/suvchiuz" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/ekspluatatsiyaagentligi/",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/suvchiuz" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@suvchiuz" },
+      ],
+      address: "Toshkent, Mirzo Ulugʻbek tumani, Karasu massivi, 4-kvartal, 11",
+      transport:
+        "«Karasu massivi-2» bekati\nAvtobuslar: 21, 25, 49, 50, 63, 89. Marshrut taksi: 31",
+      hours:
+        "Dushanba–juma, 9:00–18:00\nTushlik: 13:00–14:00\nDam olish kunlari: shanba, yakshanba va bayram kunlari",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz) boʻyicha Suv xoʻjaligi obyektlarini ekspluatatsiya qilish agentligi sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/suvobekt",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -271,7 +391,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Suv xoʻjaligi vazirligi huzuridagi Suv xoʻjaligi obyektlarini ekspluatatsiya qilish agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+        "Oʻzbekiston Respublikasi Suv xoʻjaligi vazirligi huzuridagi Suv xoʻjaligi obyektlarini ekspluatatsiya qilish agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefon +99871 202-48-00 (Govinfo da ishonch telefoni sifatida ham koʻrsatilgan), elektron pochta ekspluatatsiya[at]minwater.uz, manzil Toshkent, Mirzo Ulugʻbek tumani, Karasu massivi, 4-kvartal, 11, transport, ish vaqti va ijtimoiy tarmoqlar havolalari.",
       orgName:
         "Oʻzbekiston Respublikasi Suv xoʻjaligi vazirligi huzuridagi Suv xoʻjaligi obyektlarini ekspluatatsiya qilish agentligi",
       sameAs: "https://gov.uz/oz/suvobekt",
@@ -289,7 +409,7 @@ export default {
         },
         {
           q: "Agentlik bilan qanday bogʻlanish mumkin?",
-          a: "gov.uz dagi rasmiy boʻlimda +99871 202-48-00 ishonch telefoni, kontaktlar, soʻrovnomalar, fikr-mulohaza va korrupsiyaning oldini olish boʻyicha murojaat shakli koʻrsatilgan.",
+          a: "Telefon +99871 202-48-00 (Govinfo portali boʻyicha shu raqam ishonch telefoni sifatida ham berilgan), elektron pochta ekspluatatsiya@minwater.uz; soʻrovnomalar, fikr-mulohaza va korrupsiyaga qarshi murojaat — gov.uz dagi rasmiy boʻlimda.",
         },
         {
           q: "Davlat xizmatlari boʻlimida qanday elektron servislar sanab oʻtilgan?",

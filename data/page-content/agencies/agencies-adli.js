@@ -14,6 +14,35 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 203-77-72", href: "tel:+998712037772" }],
+      email: { display: "info@adli.uz", href: "mailto:info@adli.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/ADLI_Uz" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/adli_uz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/adli.uz" },
+      ],
+      address: "100192, г. Ташкент, проспект Мустакиллик, 109",
+      hours: "Понедельник–пятница, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница Агентства по развитию лёгкой промышленности.",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/adli",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -71,7 +100,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Агентства по развитию лёгкой промышленности при Кабинете Министров Республики Узбекистан на портале gov.uz.",
+        "Официальный раздел Агентства по развитию лёгкой промышленности при Кабинете Министров Республики Узбекистан на портале gov.uz: телефон +99871 203-77-72, электронная почта info[at]adli.uz, адрес 100192, Ташкент, проспект Мустакиллик, 109, режим работы пн–пт 9:00–18:00 и ссылки на социальные сети.",
       orgName:
         "Агентство по развитию лёгкой промышленности при Кабинете Министров Республики Узбекистан",
       sameAs: "https://gov.uz/ru/adli",
@@ -89,7 +118,7 @@ export default {
         },
         {
           q: "Как связаться с Агентством?",
-          a: "В официальном разделе на gov.uz доступны контакты, раздел «Все номера», опросы, обратная связь и обращение по противодействию коррупции; актуальные телефоны указаны на портале.",
+          a: "Телефон +99871 203-77-72, электронная почта info@adli.uz; опросы, обратная связь и обращение по противодействию коррупции — в официальном разделе на gov.uz.",
         },
         {
           q: "Где найти сервисы для предприятий лёгкой промышленности?",
@@ -113,6 +142,35 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99871 203-77-72", href: "tel:+998712037772" }],
+      email: { display: "info@adli.uz", href: "mailto:info@adli.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/ADLI_Uz" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/adli_uz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/adli.uz" },
+      ],
+      address: "100192, Tashkent, Mustaqillik Avenue, 109",
+      hours: "Monday–Friday, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the UzGovInfo portal (govinfo.uz), page of the Agency for the Development of Light Industry.",
+        reuseNoticeBefore: "When reusing materials from this site, attribution to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/adli",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -171,7 +229,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Agency for the Development of Light Industry under the Cabinet of Ministers of the Republic of Uzbekistan on the gov.uz portal.",
+        "Official section of the Agency for the Development of Light Industry under the Cabinet of Ministers of the Republic of Uzbekistan on the gov.uz portal: phone +99871 203-77-72, email info[at]adli.uz, address 100192, Tashkent, Mustaqillik Avenue 109, office hours Mon–Fri 9:00–18:00 and social media links.",
       orgName:
         "Agency for the Development of Light Industry under the Cabinet of Ministers of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/adli",
@@ -189,7 +247,7 @@ export default {
         },
         {
           q: "How can I contact the Agency?",
-          a: "The official section provides contacts, an “all numbers” listing, surveys, feedback and anti-corruption reporting; use the live phone numbers on gov.uz.",
+          a: "Phone +99871 203-77-72, email info@adli.uz; surveys, feedback and anti-corruption reporting are on the official section on gov.uz.",
         },
         {
           q: "Where are services for light industry enterprises?",
@@ -213,6 +271,35 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Agentlikning gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 203-77-72", href: "tel:+998712037772" }],
+      email: { display: "info@adli.uz", href: "mailto:info@adli.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/ADLI_Uz" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/adli_uz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/adli.uz" },
+      ],
+      address: "100192, Toshkent, Mustaqillik prospekti, 109",
+      hours: "Dushanba–juma, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz) boʻyicha Yengil sanoatni rivojlantirish agentligi sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/adli",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -271,7 +358,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Yengil sanoatni rivojlantirish agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+        "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Yengil sanoatni rivojlantirish agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefon +99871 203-77-72, elektron pochta info[at]adli.uz, manzil 100192, Toshkent, Mustaqillik prospekti, 109, ish vaqti dush–juma 9:00–18:00 va ijtimoiy tarmoqlar havolalari.",
       orgName:
         "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Yengil sanoatni rivojlantirish agentligi",
       sameAs: "https://gov.uz/oz/adli",
@@ -289,7 +376,7 @@ export default {
         },
         {
           q: "Agentlik bilan qanday bogʻlanish mumkin?",
-          a: "gov.uz dagi rasmiy boʻlimda kontaktlar, «Barcha raqamlar» boʻlimi, soʻrovnomalar, qayta aloqa va korrupsiyaning oldini olish boʻyicha murojaat mavjud; joriy telefon raqamlari portaldan olinadi.",
+          a: "Telefon +99871 203-77-72, elektron pochta info@adli.uz; soʻrovnomalar, qayta aloqa va korrupsiyaga qarshi murojaat — gov.uz dagi rasmiy boʻlimda.",
         },
         {
           q: "Yengil sanoat korxonalari uchun xizmatlar qayerda?",

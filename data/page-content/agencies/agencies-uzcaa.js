@@ -13,6 +13,38 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Колл-центр",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99878 120-00-60", href: "tel:+998781200060" }],
+      trustPhone: { display: "+99871 200-07-65", href: "tel:+998712000765" },
+      email: { display: "caa@uzcaa.uz", href: "mailto:caa@uzcaa.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzcaa" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/CivilAviationAgency" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/caaofuzbekistan" },
+      ],
+      address: "100015, г. Ташкент, Миробадский район, ул. Нукус, 73Б",
+      transport:
+        "Автобусы: № 2, 12, 80, 81, 97 (остановка «Миробадский рынок»)\nМаршрутные такси: 62, 95, 136, 152, 169",
+      hours: "Понедельник–пятница, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства гражданской авиации (uzcaa).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/uzcaa",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "В официальном разделе Агентства на портале gov.uz представлена информация о гражданской авиации, сертификатах и государственных услугах.",
@@ -42,7 +74,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный раздел Агентства гражданской авиации при Министерстве транспорта Республики Узбекистан на портале gov.uz.",
+      description:
+        "Официальный раздел Агентства гражданской авиации при Министерстве транспорта Республики Узбекистан на портале gov.uz: телефон +99878 120-00-60, колл-центр +99871 200-07-65, электронная почта caa[at]uzcaa.uz, адрес 100015, Ташкент, ул. Нукус, 73Б, транспорт, режим работы и ссылки на социальные сети.",
       orgName: "Агентство гражданской авиации при Министерстве транспорта Республики Узбекистан",
       sameAs: "https://gov.uz/ru/uzcaa",
     },
@@ -63,7 +96,7 @@ export default {
         },
         {
           q: "Как связаться с колл-центром?",
-          a: "На официальном разделе указан телефон колл-центра +99871 200-07-65 и другие контакты.",
+          a: "Телефон +99878 120-00-60, колл-центр +99871 200-07-65, электронная почта caa@uzcaa.uz; остальные контакты — в официальном разделе на gov.uz.",
         },
         {
           q: "Где найти нормативные документы и бланки?",
@@ -82,6 +115,38 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Call centre",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Working hours",
+      },
+      phones: [{ display: "+99878 120-00-60", href: "tel:+998781200060" }],
+      trustPhone: { display: "+99871 200-07-65", href: "tel:+998712000765" },
+      email: { display: "caa@uzcaa.uz", href: "mailto:caa@uzcaa.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzcaa" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/CivilAviationAgency" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/caaofuzbekistan" },
+      ],
+      address: "100015, Tashkent, Mirobod district, Nukus Street, 73B",
+      transport:
+        "Buses: 2, 12, 80, 81, 97 (Mirobod market stop)\nRoute taxis: 62, 95, 136, 152, 169",
+      hours: "Monday–Friday, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Civil Aviation Agency section (uzcaa).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/uzcaa",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -112,7 +177,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official section of the Civil Aviation Agency under the Ministry of Transport of the Republic of Uzbekistan on the gov.uz portal.",
+      description:
+        "Official section of the Civil Aviation Agency under the Ministry of Transport of the Republic of Uzbekistan on the gov.uz portal: phone +99878 120-00-60, call centre +99871 200-07-65, email caa[at]uzcaa.uz, address 100015 Tashkent Nukus St. 73B, transport, office hours and social media links.",
       orgName: "Civil Aviation Agency under the Ministry of Transport of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/uzcaa",
     },
@@ -133,7 +199,7 @@ export default {
         },
         {
           q: "How can I contact the call centre?",
-          a: "The official section lists the call centre at +99871 200-07-65 and other contacts.",
+          a: "Phone +99878 120-00-60, call centre +99871 200-07-65, email caa@uzcaa.uz; see the official section on gov.uz for the full list.",
         },
         {
           q: "Where can I find regulations and application forms?",
@@ -152,6 +218,38 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Agentlikning gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Call-markaz",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99878 120-00-60", href: "tel:+998781200060" }],
+      trustPhone: { display: "+99871 200-07-65", href: "tel:+998712000765" },
+      email: { display: "caa@uzcaa.uz", href: "mailto:caa@uzcaa.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzcaa" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/CivilAviationAgency" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/caaofuzbekistan" },
+      ],
+      address: "100015, Toshkent shahri, Mirobod tumani, Nukus koʻchasi, 73B",
+      transport:
+        "Avtobuslar: № 2, 12, 80, 81, 97 («Mirobod bozori» bekat)\nMarshrut taksilar: 62, 95, 136, 152, 169",
+      hours: "Dushanba–juma, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Fuqaro aviatsiyasi agentligi boʻlimi (uzcaa) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/uzcaa",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -182,7 +280,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Respublikasi Transport vazirligi huzuridagi fuqaro aviatsiyasi agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+      description:
+        "Oʻzbekiston Respublikasi Transport vazirligi huzuridagi fuqaro aviatsiyasi agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefon +99878 120-00-60, call-markaz +99871 200-07-65, elektron pochta caa[at]uzcaa.uz, manzil 100015, Toshkent, Nukus koʻchasi, 73B, transport, ish vaqti va ijtimoiy tarmoq havolalari.",
       orgName: "Oʻzbekiston Respublikasi Transport vazirligi huzuridagi fuqaro aviatsiyasi agentligi",
       sameAs: "https://gov.uz/oz/uzcaa",
     },
@@ -203,7 +302,7 @@ export default {
         },
         {
           q: "Call-markaz bilan qanday bogʻlanish mumkin?",
-          a: "Rasmiy boʻlimda +99871 200-07-65 call-markaz telefoni va boshqa kontaktlar keltirilgan.",
+          a: "Telefon +99878 120-00-60, call-markaz +99871 200-07-65, elektron pochta caa@uzcaa.uz; toʻliq roʻyxat gov.uz dagi rasmiy boʻlimda.",
         },
         {
           q: "Normativ hujjatlar va blankalarni qayerdan topish mumkin?",

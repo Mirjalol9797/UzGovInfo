@@ -14,6 +14,51 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+998 55 514 40 00", href: "tel:+998555144000" }],
+      email: {
+        display: "uzenergyefficiency@gmail.com",
+        href: "mailto:uzenergyefficiency@gmail.com",
+      },
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/esma_energiyasamaradorligi",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/profile.php?id=61576954887507",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@Energiyasamaradorligimilliyage",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/esma_news" },
+      ],
+      address: "100000, г. Ташкент, ул. Ниёзбек йули, 1",
+      hours: "9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница Национального агентства энергоэффективности.",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/esma",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -71,7 +116,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Национального агентства энергоэффективности при Кабинете Министров Республики Узбекистан на портале gov.uz.",
+        "Официальный раздел Национального агентства энергоэффективности при Кабинете Министров Республики Узбекистан на портале gov.uz: телефон +998 55 514 40 00 (на Govinfo также указан как телефон доверия), электронная почта uzenergyefficiency[at]gmail.com, адрес 100000, Ташкент, ул. Ниёзбек йули, 1, режим работы 9:00–18:00 и ссылки на социальные сети.",
       orgName:
         "Национальное агентство энергоэффективности при Кабинете Министров Республики Узбекистан",
       sameAs: "https://gov.uz/ru/esma",
@@ -89,7 +134,7 @@ export default {
         },
         {
           q: "Как связаться с Агентством?",
-          a: "На официальном разделе на gov.uz указана горячая линия +998 55 514 40 00, кол-центр, контакты, опросы, обратная связь и обращение по противодействию коррупции.",
+          a: "Телефон +998 55 514 40 00 (на портале Govinfo тот же номер указан и как телефон доверия), электронная почта uzenergyefficiency@gmail.com; кол-центр, опросы, обратная связь и обращение по противодействию коррупции — в официальном разделе на gov.uz.",
         },
         {
           q: "Какие государственные услуги указаны на портале?",
@@ -113,6 +158,51 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+998 55 514 40 00", href: "tel:+998555144000" }],
+      email: {
+        display: "uzenergyefficiency@gmail.com",
+        href: "mailto:uzenergyefficiency@gmail.com",
+      },
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/esma_energiyasamaradorligi",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/profile.php?id=61576954887507",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@Energiyasamaradorligimilliyage",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/esma_news" },
+      ],
+      address: "100000, Tashkent, Niyozbek yuli street, 1",
+      hours: "9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the UzGovInfo portal (govinfo.uz), page of the National Agency for Energy Efficiency.",
+        reuseNoticeBefore: "When reusing materials from this site, attribution to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/esma",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -171,7 +261,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the National Agency for Energy Efficiency under the Cabinet of Ministers of the Republic of Uzbekistan on the gov.uz portal.",
+        "Official section of the National Agency for Energy Efficiency under the Cabinet of Ministers of the Republic of Uzbekistan on the gov.uz portal: phone +998 55 514 40 00 (also listed as trust line on Govinfo), email uzenergyefficiency[at]gmail.com, address 100000, Tashkent, Niyozbek yuli street 1, office hours 9:00–18:00 and social media links.",
       orgName:
         "National Agency for Energy Efficiency under the Cabinet of Ministers of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/esma",
@@ -189,7 +279,7 @@ export default {
         },
         {
           q: "How can I contact the Agency?",
-          a: "The official section lists hotline +998 55 514 40 00, call centre, contacts, surveys, feedback and anti-corruption reporting.",
+          a: "Phone +998 55 514 40 00 (on Govinfo the same number is also listed as trust line), email uzenergyefficiency@gmail.com; call centre, surveys, feedback and anti-corruption reporting are on the official section on gov.uz.",
         },
         {
           q: "Which public services are listed on the portal?",
@@ -213,6 +303,51 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Agentlikning gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+998 55 514 40 00", href: "tel:+998555144000" }],
+      email: {
+        display: "uzenergyefficiency@gmail.com",
+        href: "mailto:uzenergyefficiency@gmail.com",
+      },
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/esma_energiyasamaradorligi",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/profile.php?id=61576954887507",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@Energiyasamaradorligimilliyage",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/esma_news" },
+      ],
+      address: "100000, Toshkent, Niyozbek yoʻli koʻchasi, 1",
+      hours: "9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz) boʻyicha Energiya samaradorligi milliy agentligi sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/esma",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -271,7 +406,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Energiya samaradorligi milliy agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+        "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Energiya samaradorligi milliy agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefon +998 55 514 40 00 (Govinfo da ishonch telefoni sifatida ham koʻrsatilgan), elektron pochta uzenergyefficiency[at]gmail.com, manzil 100000, Toshkent, Niyozbek yoʻli koʻchasi, 1, ish vaqti 9:00–18:00 va ijtimoiy tarmoqlar havolalari.",
       orgName:
         "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Energiya samaradorligi milliy agentligi",
       sameAs: "https://gov.uz/oz/esma",
@@ -289,7 +424,7 @@ export default {
         },
         {
           q: "Agentlik bilan qanday bogʻlanish mumkin?",
-          a: "gov.uz dagi rasmiy boʻlimda +998 55 514 40 00 ishonch telefoni, qoʻngʻiroq markazi, kontaktlar, soʻrovnomalar, fikr-mulohaza va korrupsiyaning oldini olish boʻyicha murojaat shakli mavjud.",
+          a: "Telefon +998 55 514 40 00 (Govinfo portali boʻyicha shu raqam ishonch telefoni sifatida ham berilgan), elektron pochta uzenergyefficiency@gmail.com; qoʻngʻiroq markazi, soʻrovnomalar, fikr-mulohaza va korrupsiyaga qarshi murojaat — gov.uz dagi rasmiy boʻlimda.",
         },
         {
           q: "Portaldagi davlat xizmatlari qaysilar?",

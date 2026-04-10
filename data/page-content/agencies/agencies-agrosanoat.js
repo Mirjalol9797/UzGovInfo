@@ -13,6 +13,38 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99895 450-59-50", href: "tel:+998954505950" }],
+      trustPhone: { display: "+99895 450-59-50", href: "tel:+998954505950" },
+      email: { display: "garden@agro.uz", href: "mailto:garden@agro.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/agrosanoat_uz" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/agrosanoat_uz" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@Agrosanoat_uz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uz.agrosanoat/" },
+        { id: "uforum", label: "gov.uz", url: "https://gov.uz/ru/agrosanoat" },
+      ],
+      address: "г. Ташкент, Мирзо-Улугбекский район, ул. Содика Азимова, 42",
+      hours: "Понедельник–пятница, 8:30–17:30",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства по развитию агропромышленности (agrosanoat).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/agrosanoat",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "В официальном разделе Агентства на портале gov.uz представлена информация об агропромышленности, цифровых сервисах и госуслугах.",
@@ -42,7 +74,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный раздел Агентства по развитию агропромышленности при Министерстве сельского хозяйства Республики Узбекистан на портале gov.uz.",
+      description:
+        "Официальный раздел Агентства по развитию агропромышленности при Министерстве сельского хозяйства Республики Узбекистан на портале gov.uz: телефон и телефон доверия +99895 450-59-50, электронная почта garden[at]agro.uz, адрес Ташкент, Мирзо-Улугбекский район, ул. Содика Азимова, 42, режим работы и ссылки на социальные сети.",
       orgName: "Агентство по развитию агропромышленности при Министерстве сельского хозяйства",
       sameAs: "https://gov.uz/ru/agrosanoat",
     },
@@ -63,7 +96,7 @@ export default {
         },
         {
           q: "Как связаться с Агентством?",
-          a: "На официальном разделе на gov.uz указан телефон доверия +99895 450-59-50, контакты, опросы и формы обратной связи.",
+          a: "Телефон и телефон доверия +99895 450-59-50, электронная почта garden@agro.uz; опросы и формы обратной связи — в официальном разделе на gov.uz.",
         },
         {
           q: "Где найти нормативные документы и материалы по противодействию коррупции?",
@@ -82,6 +115,38 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Working hours",
+      },
+      phones: [{ display: "+99895 450-59-50", href: "tel:+998954505950" }],
+      trustPhone: { display: "+99895 450-59-50", href: "tel:+998954505950" },
+      email: { display: "garden@agro.uz", href: "mailto:garden@agro.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/agrosanoat_uz" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/agrosanoat_uz" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@Agrosanoat_uz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uz.agrosanoat/" },
+        { id: "uforum", label: "gov.uz", url: "https://gov.uz/en/agrosanoat" },
+      ],
+      address: "Tashkent, Mirzo Ulugbek district, Sodik Azimov Street, 42",
+      hours: "Monday–Friday, 8:30–17:30",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Agency for the Development of the Agro-Industrial Complex section (agrosanoat).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/agrosanoat",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -112,7 +177,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official section of the Agency for the Development of the Agro-Industrial Complex under the Ministry of Agriculture of the Republic of Uzbekistan on the gov.uz portal.",
+      description:
+        "Official section of the Agency for the Development of the Agro-Industrial Complex under the Ministry of Agriculture of the Republic of Uzbekistan on the gov.uz portal: phone and trust line +99895 450-59-50, email garden[at]agro.uz, address Tashkent Mirzo Ulugbek district Sodik Azimov St. 42, office hours and social media links.",
       orgName: "Agency for the Development of the Agro-Industrial Complex under the Ministry of Agriculture",
       sameAs: "https://gov.uz/en/agrosanoat",
     },
@@ -133,7 +199,7 @@ export default {
         },
         {
           q: "How can I contact the Agency?",
-          a: "The official section on gov.uz lists the trust line +99895 450-59-50, contacts, surveys and feedback forms.",
+          a: "Phone and trust line +99895 450-59-50, email garden@agro.uz; surveys and feedback forms are in the official section on gov.uz.",
         },
         {
           q: "Where can I find regulations and anti-corruption materials?",
@@ -152,6 +218,38 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Agentlikning gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99895 450-59-50", href: "tel:+998954505950" }],
+      trustPhone: { display: "+99895 450-59-50", href: "tel:+998954505950" },
+      email: { display: "garden@agro.uz", href: "mailto:garden@agro.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/agrosanoat_uz" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/agrosanoat_uz" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@Agrosanoat_uz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uz.agrosanoat/" },
+        { id: "uforum", label: "gov.uz", url: "https://gov.uz/oz/agrosanoat" },
+      ],
+      address: "Toshkent shahri, Mirzo Ulugʻbek tumani, Sodiq Azimov koʻchasi, 42",
+      hours: "Dushanba–juma, 8:30–17:30",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Agrosanoatni rivojlantirish agentligi boʻlimi (agrosanoat) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/agrosanoat",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -182,7 +280,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Qishloq xoʻjaligi vazirligi huzuridagi Agrosanoatni rivojlantirish agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+      description:
+        "Qishloq xoʻjaligi vazirligi huzuridagi Agrosanoatni rivojlantirish agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefon va ishonch telefoni +99895 450-59-50, elektron pochta garden[at]agro.uz, manzil Toshkent, Mirzo Ulugʻbek tumani, Sodiq Azimov koʻchasi, 42, ish vaqti va ijtimoiy tarmoq havolalari.",
       orgName: "Qishloq xoʻjaligi vazirligi huzuridagi Agrosanoatni rivojlantirish agentligi",
       sameAs: "https://gov.uz/oz/agrosanoat",
     },
@@ -203,7 +302,7 @@ export default {
         },
         {
           q: "Agentlik bilan qanday bogʻlanish mumkin?",
-          a: "gov.uz dagi rasmiy boʻlimda +99895 450-59-50 ishonch telefoni, kontaktlar, soʻrovnomalar va murojaat shakllari koʻrsatilgan.",
+          a: "Telefon va ishonch telefoni +99895 450-59-50, elektron pochta garden@agro.uz; soʻrovnomalar va murojaat shakllari gov.uz dagi rasmiy boʻlimda.",
         },
         {
           q: "Normativ hujjatlar va korrupsiyaga qarshi materiallarni qayerdan topish mumkin?",

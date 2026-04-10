@@ -14,6 +14,42 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Колл-центр",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "1205", href: "tel:1205" }],
+      email: {
+        display: "wastemanagement@exat.uz",
+        href: "mailto:wastemanagement@exat.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/sanitationuz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/sanitationuzb" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/sanitationuz" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@sanitationuz" },
+      ],
+      address:
+        "100000, г. Ташкент, Мирзо-Улугбекский район, МФЙ «Мустакиллик», ул. Гафура Гуляма, 2",
+      transport:
+        "Остановка общественного транспорта — ул. Хива; автобусы № 118, 56, 150\nКарта: https://yandex.com/navi/org/30785742160?si=44ytu1rr3g866y73pt5uj5nyug",
+      hours: "Понедельник–пятница, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница Агентства по управлению отходами и развитию циркулярной экономики.",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/sanitation",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -71,7 +107,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Агентства по управлению отходами и развитию циркулярной экономики на портале gov.uz.",
+        "Официальный раздел Агентства по управлению отходами и развитию циркулярной экономики на портале gov.uz: короткий номер и колл-центр 1205, электронная почта wastemanagement[at]exat.uz и info[at]sanitation.uz (в материалах портала), адрес 100000, Ташкент, Мирзо-Улугбекский район, ул. Гафура Гуляма, 2, транспорт (ул. Хива; автобусы 118, 56, 150), режим работы пн–пт 9:00–18:00 и ссылки на социальные сети.",
       orgName:
         "Агентство по управлению отходами и развитию циркулярной экономики",
       sameAs: "https://gov.uz/ru/sanitation",
@@ -89,7 +125,7 @@ export default {
         },
         {
           q: "Как связаться с Агентством?",
-          a: "На официальном разделе на gov.uz указан кол-центр 1205, контакты, опросы, обратная связь и статистика обращений на горячую линию.",
+          a: "Телефон и колл-центр 1205, электронная почта wastemanagement@exat.uz; на портале также указан электронный адрес info@sanitation.uz. Опросы, обратная связь и статистика обращений — в официальном разделе на gov.uz.",
         },
         {
           q: "Где оплатить услуги по вывозу твёрдых бытовых отходов?",
@@ -112,6 +148,42 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Call centre",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "1205", href: "tel:1205" }],
+      email: {
+        display: "wastemanagement@exat.uz",
+        href: "mailto:wastemanagement@exat.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/sanitationuz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/sanitationuzb" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/sanitationuz" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@sanitationuz" },
+      ],
+      address:
+        "100000, Tashkent, Mirzo Ulugbek district, MFI Mustaqillik, Gafur Gulyam street 2",
+      transport:
+        "Public transport stop — Khiva street; buses 118, 56, 150\nMap: https://yandex.com/navi/org/30785742160?si=44ytu1rr3g866y73pt5uj5nyug",
+      hours: "Monday–Friday, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the UzGovInfo portal (govinfo.uz), page of the Waste management and circular economy development agency.",
+        reuseNoticeBefore: "When reusing materials from this site, attribution to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/sanitation",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -170,7 +242,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Waste management and circular economy development agency on the gov.uz portal.",
+        "Official section of the Waste management and circular economy development agency on the gov.uz portal: short number and call centre 1205, email wastemanagement[at]exat.uz and info[at]sanitation.uz (as listed on the portal), address 100000, Tashkent, Mirzo Ulugbek district, Gafur Gulyam street 2, transport (Khiva street stop; buses 118, 56, 150), office hours Mon–Fri 9:00–18:00 and social media links.",
       orgName: "Waste management and circular economy development agency",
       sameAs: "https://gov.uz/en/sanitation",
     },
@@ -187,7 +259,7 @@ export default {
         },
         {
           q: "How can I contact the Agency?",
-          a: "The official section on gov.uz lists call centre 1205, contacts, surveys, feedback and hotline statistics.",
+          a: "Phone and call centre 1205, email wastemanagement@exat.uz; the portal also lists info@sanitation.uz. Surveys, feedback and hotline statistics are on the official section on gov.uz.",
         },
         {
           q: "Where can I pay for solid waste collection services?",
@@ -211,6 +283,42 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Agentlikning gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Call-markaz",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "1205", href: "tel:1205" }],
+      email: {
+        display: "wastemanagement@exat.uz",
+        href: "mailto:wastemanagement@exat.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/sanitationuz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/sanitationuzb" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/sanitationuz" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@sanitationuz" },
+      ],
+      address:
+        "100000, Toshkent, Mirzo Ulugʻbek tumani, MFI «Mustaqillik», Gʻafur Gʻulom koʻchasi, 2-uy",
+      transport:
+        "Jamoat transporti bekat — Xiva koʻchasi; avtobuslar № 118, 56, 150\nXarita: https://yandex.com/navi/org/30785742160?si=44ytu1rr3g866y73pt5uj5nyug",
+      hours: "Dushanba–juma, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz) boʻyicha Chiqindilarni boshqarish va sirkulyar iqtisodiyotni rivojlantirish agentligi sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/sanitation",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -269,7 +377,7 @@ export default {
     },
     schema: {
       description:
-        "Chiqindilarni boshqarish va sirkulyar iqtisodiyotni rivojlantirish agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+        "Chiqindilarni boshqarish va sirkulyar iqtisodiyotni rivojlantirish agentligining gov.uz portali boʻyicha rasmiy boʻlimi: qisqa raqam va qoʻngʻiroq markazi 1205, elektron pochta wastemanagement[at]exat.uz va info[at]sanitation.uz (portalda koʻrsatilganidek), manzil 100000, Toshkent, Mirzo Ulugʻbek tumani, Gʻafur Gʻulom koʻchasi, 2, transport (Xiva koʻchasi; 118, 56, 150-avtobuslar), ish vaqti dush–juma 9:00–18:00 va ijtimoiy tarmoqlar havolalari.",
       orgName:
         "Chiqindilarni boshqarish va sirkulyar iqtisodiyotni rivojlantirish agentligi",
       sameAs: "https://gov.uz/oz/sanitation",
@@ -287,7 +395,7 @@ export default {
         },
         {
           q: "Agentlik bilan qanday bogʻlanish mumkin?",
-          a: "gov.uz dagi rasmiy boʻlimda 1205 qoʻngʻiroq markazi, kontaktlar, soʻrovnomalar, fikr-mulohaza va ishonch telefoni boʻyicha murojaatlar statistikasi koʻrsatilgan.",
+          a: "Telefon va qoʻngʻiroq markazi 1205, elektron pochta wastemanagement@exat.uz; portaldagi maʼlumotlarda info@sanitation.uz ham koʻrsatilgan. Soʻrovnomalar, fikr-mulohaza va murojaatlar statistikasi — gov.uz dagi rasmiy boʻlimda.",
         },
         {
           q: "Qattiq uy chiqindilarini yigʻish xizmatlari uchun toʻlov qayerdan amalga oshiriladi?",

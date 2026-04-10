@@ -13,6 +13,43 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Колл-центр",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 202-55-70", href: "tel:+998712025570" }],
+      trustPhone: { display: "1097", href: "tel:1097" },
+      email: { display: "info@kadastr.uz", href: "mailto:info@kadastr.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/uz_kadastr" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uz_kadastr" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/kadastr.uz" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC_FQsn1YYyrIrf4i7nbk12Q",
+        },
+      ],
+      address: "100097, г. Ташкент, ул. Чупонота, массив «М», дом 6В",
+      transport:
+        "Автобусы: № 2, 33, 75, 94, 98, 150 (остановка «Театр оперетты»)\nСтанция метро «Мирзо Улугбек»",
+      hours: "Понедельник–пятница, 9:00–18:00\nОбед: 13:00–14:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства по кадастру (kadastr).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/kadastr",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "В официальном разделе Агентства на портале gov.uz представлена информация о кадастре, земле, недвижимости и госуслугах.",
@@ -42,7 +79,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный раздел Агентства по кадастру Республики Узбекистан на портале gov.uz.",
+      description:
+        "Официальный раздел Агентства по кадастру Республики Узбекистан на портале gov.uz: телефон +99871 202-55-70, колл-центр 1097, электронная почта info[at]kadastr.uz, адрес 100097, Ташкент, ул. Чупонота, массив М, дом 6В, транспорт, режим работы и ссылки на социальные сети.",
       orgName: "Агентство по кадастру",
       sameAs: "https://gov.uz/ru/kadastr",
     },
@@ -59,7 +97,7 @@ export default {
         },
         {
           q: "Как связаться с колл-центром?",
-          a: "На официальном разделе на gov.uz указан колл-центр с коротким номером 1097 и другие контакты.",
+          a: "Телефон +99871 202-55-70, колл-центр 1097, электронная почта info@kadastr.uz; остальные контакты — в официальном разделе на gov.uz.",
         },
         {
           q: "Где найти интерактивные государственные услуги?",
@@ -82,6 +120,43 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Call centre",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Working hours",
+      },
+      phones: [{ display: "+99871 202-55-70", href: "tel:+998712025570" }],
+      trustPhone: { display: "1097", href: "tel:1097" },
+      email: { display: "info@kadastr.uz", href: "mailto:info@kadastr.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/uz_kadastr" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uz_kadastr" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/kadastr.uz" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC_FQsn1YYyrIrf4i7nbk12Q",
+        },
+      ],
+      address: "100097, Tashkent, Chuponota Street, microdistrict M, building 6V",
+      transport:
+        "Buses: 2, 33, 75, 94, 98, 150 (Operetta Theatre stop)\nMirzo Ulugbek metro station",
+      hours: "Monday–Friday, 9:00–18:00\nLunch break: 13:00–14:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Cadastre Agency section (kadastr).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/kadastr",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -112,7 +187,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official section of the Cadastre Agency of the Republic of Uzbekistan on the gov.uz portal.",
+      description:
+        "Official section of the Cadastre Agency of the Republic of Uzbekistan on the gov.uz portal: phone +99871 202-55-70, call centre 1097, email info[at]kadastr.uz, address 100097 Tashkent Chuponota St. microdistrict M building 6V, transport, office hours and social media links.",
       orgName: "Cadastre Agency",
       sameAs: "https://gov.uz/en/kadastr",
     },
@@ -129,7 +205,7 @@ export default {
         },
         {
           q: "How can I contact the call centre?",
-          a: "The official section on gov.uz lists the call centre short number 1097 and other contacts.",
+          a: "Phone +99871 202-55-70, call centre 1097, email info@kadastr.uz; see the official section on gov.uz for the full list.",
         },
         {
           q: "Where can I find interactive public services?",
@@ -152,6 +228,43 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Agentlikning gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Call-markaz",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 202-55-70", href: "tel:+998712025570" }],
+      trustPhone: { display: "1097", href: "tel:1097" },
+      email: { display: "info@kadastr.uz", href: "mailto:info@kadastr.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/uz_kadastr" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uz_kadastr" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/kadastr.uz" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC_FQsn1YYyrIrf4i7nbk12Q",
+        },
+      ],
+      address: "100097, Toshkent shahri, Chuponota koʻchasi, «M» massivi, 6V uy",
+      transport:
+        "Avtobuslar: № 2, 33, 75, 94, 98, 150 («Operetta teatri» bekat)\n«Mirzo Ulugʻbek» metro bekati",
+      hours: "Dushanba–juma, 9:00–18:00\nTushlik: 13:00–14:00",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Kadastr agentligi boʻlimi (kadastr) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/kadastr",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -182,7 +295,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Respublikasi Kadastr agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+      description:
+        "Oʻzbekiston Respublikasi Kadastr agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefon +99871 202-55-70, call-markaz 1097, elektron pochta info[at]kadastr.uz, manzil 100097, Toshkent, Chuponota koʻchasi, M massivi, 6V uy, transport, ish vaqti va ijtimoiy tarmoq havolalari.",
       orgName: "Kadastr agentligi",
       sameAs: "https://gov.uz/oz/kadastr",
     },
@@ -199,7 +313,7 @@ export default {
         },
         {
           q: "Call-markaz bilan qanday bogʻlanish mumkin?",
-          a: "gov.uz dagi rasmiy boʻlimda 1097 qisqa raqamli call-markaz va boshqa kontaktlar keltirilgan.",
+          a: "Telefon +99871 202-55-70, call-markaz 1097, elektron pochta info@kadastr.uz; boshqa kontaktlar gov.uz dagi rasmiy boʻlimda.",
         },
         {
           q: "Interaktiv davlat xizmatlarini qayerdan topish mumkin?",

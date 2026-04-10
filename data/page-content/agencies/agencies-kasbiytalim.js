@@ -13,6 +13,28 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Агентства на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99855 520-08-08", href: "tel:+998555200808" }],
+      address: "100174, г. Ташкент, Алмазарский район, ул. Университетская, 7",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница Агентства профессионального образования.",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/kasbiytalim",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -70,7 +92,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Агентства профессионального образования на портале gov.uz.",
+        "Официальный раздел Агентства профессионального образования на портале gov.uz: телефон +99855 520-08-08, адрес 100174, Ташкент, Алмазарский район, ул. Университетская, 7.",
       orgName: "Агентство профессионального образования",
       sameAs: "https://gov.uz/ru/kasbiytalim",
     },
@@ -87,7 +109,7 @@ export default {
         },
         {
           q: "Как связаться с Агентством?",
-          a: "В официальном разделе на gov.uz доступны контакты, раздел со всеми телефонными номерами, опросы, обратная связь и обращение по противодействию коррупции.",
+          a: "Телефон +99855 520-08-08; опросы, обратная связь и обращение по противодействию коррупции — в официальном разделе на gov.uz.",
         },
         {
           q: "Где найти ответы на частые вопросы?",
@@ -110,6 +132,28 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the Agency’s official section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99855 520-08-08", href: "tel:+998555200808" }],
+      address: "100174, Tashkent, Almazar district, Universitetskaya street, 7",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the UzGovInfo portal (govinfo.uz), page of the Vocational Education Agency.",
+        reuseNoticeBefore: "When reusing materials from this site, attribution to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/kasbiytalim",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -168,7 +212,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Vocational Education Agency on the gov.uz portal.",
+        "Official section of the Vocational Education Agency on the gov.uz portal: phone +99855 520-08-08, address 100174, Tashkent, Almazar district, Universitetskaya street, 7.",
       orgName: "Vocational Education Agency",
       sameAs: "https://gov.uz/en/kasbiytalim",
     },
@@ -185,7 +229,7 @@ export default {
         },
         {
           q: "How can I contact the Agency?",
-          a: "The official section provides contacts, an all-numbers listing, surveys, feedback and anti-corruption reporting.",
+          a: "Phone +99855 520-08-08; surveys, feedback and anti-corruption reporting are on the official section on gov.uz.",
         },
         {
           q: "Where is the FAQ?",
@@ -208,6 +252,28 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "Agentlikning gov.uz dagi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99855 520-08-08", href: "tel:+998555200808" }],
+      address: "100174, Toshkent, Olmazor tumani, Universitet koʻchasi, 7",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz) boʻyicha Kasbiy taʼlim agentligi sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/kasbiytalim",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -266,7 +332,7 @@ export default {
     },
     schema: {
       description:
-        "Kasbiy taʼlim agentligining gov.uz portali boʻyicha rasmiy boʻlimi.",
+        "Kasbiy taʼlim agentligining gov.uz portali boʻyicha rasmiy boʻlimi: telefon +99855 520-08-08, manzil 100174, Toshkent, Olmazor tumani, Universitet koʻchasi, 7.",
       orgName: "Kasbiy taʼlim agentligi",
       sameAs: "https://gov.uz/oz/kasbiytalim",
     },
@@ -283,7 +349,7 @@ export default {
         },
         {
           q: "Agentlik bilan qanday bogʻlanish mumkin?",
-          a: "gov.uz dagi rasmiy boʻlimda kontaktlar, barcha telefon raqamlari boʻlimi, soʻrovnomalar, qayta aloqa va korrupsiyaning oldini olish boʻyicha murojaat mavjud.",
+          a: "Telefon +99855 520-08-08; soʻrovnomalar, qayta aloqa va korrupsiyaga qarshi murojaat — gov.uz dagi rasmiy boʻlimda.",
         },
         {
           q: "Tez-tez beriladigan savollar qayerda?",

@@ -14,6 +14,29 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти на официальный сайт dpm.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 207-70-94", href: "tel:+998712077094" }],
+      email: { display: "info@dpm.uz", href: "mailto:info@dpm.uz" },
+      address: "г. Ташкент, Юнусабадский район, ул. Богишамол, 160А",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница Агентства персонализации при Министерстве юстиции.",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://dpm.uz/",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro:
@@ -70,7 +93,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный сайт Агентства персонализации при Министерстве юстиции Республики Узбекистан.",
+        "Официальный сайт Агентства персонализации при Министерстве юстиции Республики Узбекистан: телефон +99871 207-70-94, электронная почта info[at]dpm.uz, адрес г. Ташкент, Юнусабадский район, ул. Богишамол, 160А.",
       orgName:
         "Агентство персонализации при Министерстве юстиции Республики Узбекистан",
       sameAs: "https://dpm.uz/",
@@ -96,7 +119,7 @@ export default {
         },
         {
           q: "Как связаться с Агентством?",
-          a: "Контактные данные и формы обратной связи, если они размещены, следует использовать только с официального сайта dpm.uz.",
+          a: "Телефон +99871 207-70-94, электронная почта info@dpm.uz; адрес: г. Ташкент, Юнусабадский район, ул. Богишамол, 160А. Актуальные формы обратной связи — на официальном сайте dpm.uz.",
         },
       ],
     },
@@ -112,6 +135,29 @@ export default {
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the official dpm.uz website →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99871 207-70-94", href: "tel:+998712077094" }],
+      email: { display: "info@dpm.uz", href: "mailto:info@dpm.uz" },
+      address: "Tashkent, Yunusabad district, Bogishamol street, 160A",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the UzGovInfo portal (govinfo.uz), page of the Personalization agency under the Ministry of Justice.",
+        reuseNoticeBefore: "When reusing materials from this site, attribution to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://dpm.uz/",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -169,7 +215,7 @@ export default {
     },
     schema: {
       description:
-        "Official website of the Personalization agency under the Ministry of Justice of the Republic of Uzbekistan.",
+        "Official website of the Personalization agency under the Ministry of Justice of the Republic of Uzbekistan: phone +99871 207-70-94, email info[at]dpm.uz, address Tashkent, Yunusabad district, Bogishamol street, 160A.",
       orgName:
         "Personalization agency under the Ministry of Justice of the Republic of Uzbekistan",
       sameAs: "https://dpm.uz/",
@@ -195,7 +241,7 @@ export default {
         },
         {
           q: "How can I contact the agency?",
-          a: "Use only contact details and forms published on the official dpm.uz website.",
+          a: "Phone +99871 207-70-94, email info@dpm.uz; address: Tashkent, Yunusabad district, Bogishamol street, 160A. For up-to-date feedback forms, use the official dpm.uz website.",
         },
       ],
     },
@@ -211,6 +257,29 @@ export default {
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "dpm.uz rasmiy saytiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 207-70-94", href: "tel:+998712077094" }],
+      email: { display: "info@dpm.uz", href: "mailto:info@dpm.uz" },
+      address: "Toshkent, Yunusobod tumani, Bogʻishamol koʻchasi, 160A",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz) boʻyicha Adliya vazirligi huzuridagi Personallashtirish agentligi sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://dpm.uz/",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -268,7 +337,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Adliya vazirligi huzuridagi Personallashtirish agentligining rasmiy sayti.",
+        "Oʻzbekiston Respublikasi Adliya vazirligi huzuridagi Personallashtirish agentligining rasmiy sayti: telefon +99871 207-70-94, elektron pochta info[at]dpm.uz, manzil Toshkent, Yunusobod tumani, Bogʻishamol koʻchasi, 160A.",
       orgName:
         "Oʻzbekiston Respublikasi Adliya vazirligi huzuridagi Personallashtirish agentligi",
       sameAs: "https://dpm.uz/",
@@ -294,7 +363,7 @@ export default {
         },
         {
           q: "Agentlik bilan qanday bogʻlanish mumkin?",
-          a: "Faqat dpm.uz rasmiy saytida eʼlon qilingan kontaktlar va murojaat shakllaridan foydalaning.",
+          a: "Telefon +99871 207-70-94, elektron pochta info@dpm.uz; manzil: Toshkent, Yunusobod tumani, Bogʻishamol koʻchasi, 160A. Dolzarb murojaat shakllari — dpm.uz rasmiy saytida.",
         },
       ],
     },
