@@ -14,6 +14,40 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти на официальный сайт Агентства по госактивам →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Колл-центр",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 259-21-37", href: "tel:+998712592137" }],
+      trustPhone: { display: "1082", href: "tel:1082" },
+      email: { display: "info@davaktiv.uz", href: "mailto:info@davaktiv.uz" },
+      social: [
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/davaktiv.uz/" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/davaktiv.uz/" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/c/davaktivuz" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/DAVAKTIVUZ" },
+      ],
+      address: "100000, г. Ташкент, проспект Амира Темура, 6",
+      transport:
+        "Автобусы: 1, 21, 51\nОриентиры: станция метро «Амир Темур», главный офис «Билайн».",
+      hours:
+        "Понедельник–пятница: 9:00–18:00\nОбеденный перерыв: 13:00–14:00\nСуббота, воскресенье: выходной",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства по управлению государственными активами (davaktiv).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/davaktiv",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "На официальном сайте Агентства представлена информация об управлении государственным имуществом и приватизации в Узбекистане.",
@@ -43,7 +77,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный сайт Агентства по управлению государственными активами Республики Узбекистан.",
+      description:
+        "Официальный сайт Агентства по управлению государственными активами Республики Узбекистан: телефон +99871 259-21-37, колл-центр 1082, электронная почта info[at]davaktiv.uz, адрес 100000, г. Ташкент, проспект Амира Темура, 6, транспорт, рабочее время и ссылки на социальные сети.",
       orgName: "Агентство по управлению государственными активами",
       sameAs: "https://davaktiv.uz",
     },
@@ -84,6 +119,40 @@ export default {
       h2: "Official website",
       ctaText: "Go to the official State Assets Management Agency website →",
     },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Call center",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Working hours",
+      },
+      phones: [{ display: "+99871 259-21-37", href: "tel:+998712592137" }],
+      trustPhone: { display: "1082", href: "tel:1082" },
+      email: { display: "info@davaktiv.uz", href: "mailto:info@davaktiv.uz" },
+      social: [
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/davaktiv.uz/" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/davaktiv.uz/" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/c/davaktivuz" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/DAVAKTIVUZ" },
+      ],
+      address: "100000, Tashkent, Amir Temur Avenue, 6",
+      transport:
+        "Buses: 1, 21, 51\nLandmarks: Amir Temur metro station, Beeline main office.",
+      hours:
+        "Monday–Friday: 9:00–18:00\nLunch break: 13:00–14:00\nSaturday and Sunday: closed",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), State Assets Management Agency section (davaktiv).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/davaktiv",
+      },
+    },
     whatFind: {
       h2: "What you can find on the official website",
       intro: "The official website of the Agency presents information on state property management and privatization in Uzbekistan.",
@@ -113,7 +182,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official website of the State Assets Management Agency of the Republic of Uzbekistan.",
+      description:
+        "Official website of the State Assets Management Agency of the Republic of Uzbekistan: phone +99871 259-21-37, call center 1082, email info[at]davaktiv.uz, address 100000, Tashkent, Amir Temur Avenue, 6, transport, working hours and social media links.",
       orgName: "State Assets Management Agency of Uzbekistan",
       sameAs: "https://davaktiv.uz",
     },
@@ -154,6 +224,40 @@ export default {
       h2: "Rasmiy sayt",
       ctaText: "Davlat aktivlarini boshqarish agentligi rasmiy saytiga oʻtish →",
     },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Call-markaz",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 259-21-37", href: "tel:+998712592137" }],
+      trustPhone: { display: "1082", href: "tel:1082" },
+      email: { display: "info@davaktiv.uz", href: "mailto:info@davaktiv.uz" },
+      social: [
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/davaktiv.uz/" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/davaktiv.uz/" },
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/c/davaktivuz" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/DAVAKTIVUZ" },
+      ],
+      address: "100000, Toshkent sh., Amir Temur shoh koʻchasi, 6",
+      transport:
+        "Avtobuslar: 1, 21, 51\nOrientirlar: «Amir Temur» metro bekati, Beeline bosh ofisi.",
+      hours:
+        "Dushanba–juma: 9:00–18:00\nTushlik tanaffusi: 13:00–14:00\nShanba, yakshanba: dam olish kuni",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Davlat aktivlarini boshqarish agentligi boʻlimi (davaktiv) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/davaktiv",
+      },
+    },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
       intro: "Agentlikning rasmiy saytida Oʻzbekistonda davlat mulkini boshqarish va xususiyalashtirish haqida maʼlumotlar taqdim etilgan.",
@@ -183,7 +287,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Respublikasi Davlat aktivlarini boshqarish agentligining rasmiy sayti.",
+      description:
+        "Oʻzbekiston Respublikasi Davlat aktivlarini boshqarish agentligining rasmiy sayti: telefon +99871 259-21-37, call-markaz 1082, elektron pochta info[at]davaktiv.uz, manzil 100000, Toshkent sh., Amir Temur shoh koʻchasi, 6, transport, ish vaqti va ijtimoiy tarmoq havolalari.",
       orgName: "Davlat aktivlarini boshqarish agentligi",
       sameAs: "https://davaktiv.uz",
     },

@@ -14,6 +14,36 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти на официальный сайт Агентства по развитию фармацевтики →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+      },
+      phones: [{ display: "+99855 902-22-22", href: "tel:+998559022222" }],
+      email: { display: "info@uzpharmagency.uz", href: "mailto:info@uzpharmagency.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzpharm_agency" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzpharmagency" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzpharm_agency/" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC1rJ69k0aD_EEs9PbWLyNYQ",
+        },
+      ],
+      address: "111809, Ташкентская область, Богзор, дом",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства по развитию фармацевтической отрасли (uzpharmagency).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/uz/uzpharmagency",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "На официальном сайте Агентства представлена информация о развитии фармацевтической отрасли и деятельности агентства.",
@@ -43,7 +73,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный сайт Агентства по развитию фармацевтической отрасли при Минздраве Узбекистана.",
+      description:
+        "Официальный сайт Агентства по развитию фармацевтической отрасли при Минздраве Узбекистана: телефон +99855 902-22-22, электронная почта info[at]uzpharmagency.uz, адрес 111809, Ташкентская область, Богзор, дом, ссылки на социальные сети.",
       orgName: "Агентство по развитию фармацевтической отрасли",
       sameAs: "https://gov.uz/uz/uzpharmagency",
     },
@@ -84,6 +115,36 @@ export default {
       h2: "Official website",
       ctaText: "Go to the official Pharmaceutical Industry Development Agency website →",
     },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+      },
+      phones: [{ display: "+99855 902-22-22", href: "tel:+998559022222" }],
+      email: { display: "info@uzpharmagency.uz", href: "mailto:info@uzpharmagency.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzpharm_agency" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzpharmagency" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzpharm_agency/" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC1rJ69k0aD_EEs9PbWLyNYQ",
+        },
+      ],
+      address: "111809, Tashkent Region, Bogzor",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Pharmaceutical Industry Development Agency section (uzpharmagency).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/uzpharmagency",
+      },
+    },
     whatFind: {
       h2: "What you can find on the official website",
       intro: "The official website of the Agency presents information on the development of the pharmaceutical industry and the agency's activities.",
@@ -113,7 +174,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official website of the Agency for the Development of the Pharmaceutical Industry under the Ministry of Health of Uzbekistan.",
+      description:
+        "Official website of the Agency for the Development of the Pharmaceutical Industry under the Ministry of Health of Uzbekistan: phone +99855 902-22-22, email info[at]uzpharmagency.uz, address 111809, Tashkent Region, Bogzor, social media links.",
       orgName: "Agency for the Development of the Pharmaceutical Industry",
       sameAs: "https://gov.uz/en/uzpharmagency",
     },
@@ -154,6 +216,36 @@ export default {
       h2: "Rasmiy sayt",
       ctaText: "Farmatsevtika tarmogʻini rivojlantirish agentligi rasmiy saytiga oʻtish →",
     },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+      },
+      phones: [{ display: "+99855 902-22-22", href: "tel:+998559022222" }],
+      email: { display: "info@uzpharmagency.uz", href: "mailto:info@uzpharmagency.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzpharm_agency" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzpharmagency" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzpharm_agency/" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC1rJ69k0aD_EEs9PbWLyNYQ",
+        },
+      ],
+      address: "111809, Toshkent viloyati, Bogʻzor, uy",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Farmatsevtika tarmogʻini rivojlantirish agentligi boʻlimi (uzpharmagency) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/uz/uzpharmagency",
+      },
+    },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
       intro: "Agentlikning rasmiy saytida farmatsevtika tarmogʻini rivojlantirish va agentlik faoliyati haqida maʼlumotlar taqdim etilgan.",
@@ -183,7 +275,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Sogʻliqni saqlash vazirligi huzuridagi Farmatsevtika tarmogʻini rivojlantirish agentligining rasmiy sayti.",
+      description:
+        "Oʻzbekiston Sogʻliqni saqlash vazirligi huzuridagi Farmatsevtika tarmogʻini rivojlantirish agentligining rasmiy sayti: telefon +99855 902-22-22, elektron pochta info[at]uzpharmagency.uz, manzil 111809, Toshkent viloyati, Bogʻzor, uy, ijtimoiy tarmoq havolalari.",
       orgName: "Farmatsevtika tarmogʻini rivojlantirish agentligi",
       sameAs: "https://gov.uz/uz/uzpharmagency",
     },

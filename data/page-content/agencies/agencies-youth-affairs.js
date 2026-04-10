@@ -14,6 +14,43 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти на официальный раздел Агентства по делам молодежи →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      trustPhone: { display: "1093", href: "tel:1093" },
+      email: { display: "info@yoshlar.gov.uz", href: "mailto:info@yoshlar.gov.uz" },
+      social: [
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/yoshlaragentligi/" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/yoshlaragentligirasmiy/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/yoshlaragentligi" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCxE5i6ogttXt5-AKUpJn_jA/featured",
+        },
+        { id: "twitter", label: "Twitter / X", url: "https://x.com/yoshlaruz" },
+      ],
+      address: "100011, Ташкент, ул. Навои, 11",
+      transport:
+        "Автобусы: № 115, 98, 28, 89, 44, 141, 53, 144, 46, 91\nМаршрутные такси: № 76\nАвтобусная остановка: Дворец искусств\nБлизлежащая станция метро: «Алишера Навои»",
+      hours:
+        "Рабочий день: понедельник-пятница\nРабочие часы: 9:00-18:00 (13:00-14:00 обед)",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства по делам молодежи (yoshlar).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/yoshlar",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "На официальном сайте Агентства представлена информация о молодёжной политике и поддержке молодых людей в Узбекистане.",
@@ -43,7 +80,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальная страница Агентства по делам молодежи Республики Узбекистан на портале gov.uz.",
+      description:
+        "Официальная страница Агентства по делам молодежи Республики Узбекистан на портале gov.uz: телефон доверия 1093, электронная почта info[at]yoshlar.gov.uz, адрес 100011, Ташкент, ул. Навои, 11, транспорт, рабочее время и ссылки на социальные сети.",
       orgName: "Агентство по делам молодежи Республики Узбекистан",
       sameAs: "https://gov.uz/ru/yoshlar",
     },
@@ -84,6 +122,42 @@ export default {
       h2: "Official website",
       ctaText: "Go to the official Youth Affairs Agency section →",
     },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Working hours",
+      },
+      trustPhone: { display: "1093", href: "tel:1093" },
+      email: { display: "info@yoshlar.gov.uz", href: "mailto:info@yoshlar.gov.uz" },
+      social: [
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/yoshlaragentligi/" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/yoshlaragentligirasmiy/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/yoshlaragentligi" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCxE5i6ogttXt5-AKUpJn_jA/featured",
+        },
+        { id: "twitter", label: "Twitter / X", url: "https://x.com/yoshlaruz" },
+      ],
+      address: "100011, Tashkent, Navoi Street, 11",
+      transport:
+        "Buses: 115, 98, 28, 89, 44, 141, 53, 144, 46, 91\nRoute taxi: 76\nBus stop: Palace of Arts\nNearest metro station: Alisher Navoi",
+      hours: "Working day: Monday-Friday\nWorking hours: 9:00-18:00 (13:00-14:00 lunch)",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Youth Affairs Agency section (yoshlar).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/yoshlar",
+      },
+    },
     whatFind: {
       h2: "What you can find on the official website",
       intro: "The official website of the Agency presents information on youth policy and support for young people in Uzbekistan.",
@@ -113,7 +187,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official page of the Youth Affairs Agency of the Republic of Uzbekistan on the gov.uz portal.",
+      description:
+        "Official page of the Youth Affairs Agency of the Republic of Uzbekistan on the gov.uz portal: trust line 1093, email info[at]yoshlar.gov.uz, address 100011, Tashkent, Navoi Street, 11, transport, working hours and social media links.",
       orgName: "Youth Affairs Agency of the Republic of Uzbekistan",
       sameAs: "https://gov.uz/en/yoshlar",
     },
@@ -154,6 +229,42 @@ export default {
       h2: "Rasmiy sayt",
       ctaText: "Yoshlar ishlari agentligi rasmiy boʻlimiga oʻtish →",
     },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      trustPhone: { display: "1093", href: "tel:1093" },
+      email: { display: "info@yoshlar.gov.uz", href: "mailto:info@yoshlar.gov.uz" },
+      social: [
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/yoshlaragentligi/" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/yoshlaragentligirasmiy/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/yoshlaragentligi" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCxE5i6ogttXt5-AKUpJn_jA/featured",
+        },
+        { id: "twitter", label: "Twitter / X", url: "https://x.com/yoshlaruz" },
+      ],
+      address: "100011, Toshkent, Navoiy ko'chasi, 11",
+      transport:
+        "Avtobuslar: № 115, 98, 28, 89, 44, 141, 53, 144, 46, 91\nMarshrut taksilar: № 76\nAvtobus bekati: San'at saroyi bekati\nYaqin metro bekati: Alisher Navoiy metro bekati",
+      hours: "Ish kuni: dushanba-juma\nIsh soatlari: 9:00-18:00 (13:00-14:00 tushlik)",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt ma'lumotlari O'zbekiston Respublikasining rasmiy portali (gov.uz), Yoshlar ishlari agentligi bo'limi (yoshlar) ma'lumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/yoshlar",
+      },
+    },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
       intro: "Agentlikning rasmiy saytida Oʻzbekistonda yoshlar siyosati va yoshlarni qoʻllab-quvvatlash haqida maʼlumotlar taqdim etilgan.",
@@ -183,7 +294,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "gov.uz portalidagi Oʻzbekiston Respublikasi Yoshlar ishlari agentligining rasmiy sahifasi.",
+      description:
+        "gov.uz portalidagi Oʻzbekiston Respublikasi Yoshlar ishlari agentligining rasmiy sahifasi: ishonch telefoni 1093, elektron pochta info[at]yoshlar.gov.uz, manzil 100011, Toshkent, Navoiy ko'chasi, 11, transport, ish vaqti va ijtimoiy tarmoq havolalari.",
       orgName: "Oʻzbekiston Respublikasi Yoshlar ishlari agentligi",
       sameAs: "https://gov.uz/uz/yoshlar",
     },

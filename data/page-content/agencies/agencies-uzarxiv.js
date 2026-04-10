@@ -14,6 +14,52 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти на официальный сайт Узархив →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99855 503-01-50", href: "tel:+998555030150" }],
+      trustPhone: {
+        display: "+99855 503-01-50 (118)",
+        href: "tel:+998555030150",
+      },
+      email: { display: "uzarchive@archive.uz", href: "mailto:uzarchive@archive.uz" },
+      social: [
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzarxiv/" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzarxiv/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzarxivs" },
+        {
+          id: "telegram",
+          label: "Telegram (бот-советник)",
+          url: "https://t.me/arxiv_maslaxatchisibot",
+        },
+        {
+          id: "telegram",
+          label: "Telegram (обращение директору)",
+          url: "https://t.me/direktorga_murojaat",
+        },
+      ],
+      address: "г. Ташкент, ул. Чиланзарская, дом 2",
+      transport:
+        "Автобусы: № 84, 103\nМаршрутное такси: 81m\nАвтобусная остановка: киностудия «Узбекфильм»\nБлижайшая станция метро: «Новза»",
+      hours:
+        "Рабочие дни: с понедельника по пятницу\nРабочее время: 9:00–13:00, 14:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел «Узархив».",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/uz/archive",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "На официальном сайте агентства «Узархив» представлена информация об архивных фондах, услугах и порядке доступа к документам.",
@@ -43,7 +89,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный сайт агентства Узархив при Министерстве юстиции Узбекистана.",
+      description:
+        "Официальный сайт агентства «Узархив» при Министерстве юстиции Узбекистана: телефон +99855 503-01-50, телефон доверия +99855 503-01-50 (доб. 118), электронная почта uzarchive[at]archive.uz, адрес г. Ташкент, ул. Чиланзарская, дом 2, проезд, рабочее время и ссылки на социальные сети.",
       orgName: "Агентство «Узархив»",
       sameAs: "https://uzarxiv.uz",
     },
@@ -84,6 +131,51 @@ export default {
       h2: "Official website",
       ctaText: "Go to the official Uzarxiv website →",
     },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Working hours",
+      },
+      phones: [{ display: "+99855 503-01-50", href: "tel:+998555030150" }],
+      trustPhone: {
+        display: "+99855 503-01-50 (118)",
+        href: "tel:+998555030150",
+      },
+      email: { display: "uzarchive@archive.uz", href: "mailto:uzarchive@archive.uz" },
+      social: [
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzarxiv/" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzarxiv/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzarxivs" },
+        {
+          id: "telegram",
+          label: "Telegram (advisory bot)",
+          url: "https://t.me/arxiv_maslaxatchisibot",
+        },
+        {
+          id: "telegram",
+          label: "Telegram (message to the director)",
+          url: "https://t.me/direktorga_murojaat",
+        },
+      ],
+      address: "Tashkent, Chilanzar Street, building 2",
+      transport:
+        "Buses: 84, 103\nRoute taxi: 81m\nBus stop: Uzbekfilm film studio\nNearest metro: Novza",
+      hours: "Working days: Monday to Friday\nHours: 9:00–13:00, 14:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Uzarxiv section.",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/uz/archive",
+      },
+    },
     whatFind: {
       h2: "What you can find on the official website",
       intro: "The official website of the «Uzarxiv» Agency presents information on archival funds, services and the procedure for access to documents.",
@@ -113,7 +205,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official website of the Uzarxiv Agency under the Ministry of Justice of Uzbekistan.",
+      description:
+        "Official website of the Uzarxiv Agency under the Ministry of Justice of Uzbekistan: phone +99855 503-01-50, trust line +99855 503-01-50 (ext. 118), email uzarchive[at]archive.uz, address Tashkent, Chilanzar Street, building 2, transport, working hours and social media links.",
       orgName: "«Uzarxiv» Agency",
       sameAs: "https://uzarxiv.uz",
     },
@@ -154,6 +247,52 @@ export default {
       h2: "Rasmiy sayt",
       ctaText: "Oʻzarxiv rasmiy saytiga oʻtish →",
     },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99855 503-01-50", href: "tel:+998555030150" }],
+      trustPhone: {
+        display: "+99855 503-01-50 (118)",
+        href: "tel:+998555030150",
+      },
+      email: { display: "uzarchive@archive.uz", href: "mailto:uzarchive@archive.uz" },
+      social: [
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzarxiv/" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzarxiv/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzarxivs" },
+        {
+          id: "telegram",
+          label: "Telegram (maslahatchi-bot)",
+          url: "https://t.me/arxiv_maslaxatchisibot",
+        },
+        {
+          id: "telegram",
+          label: "Telegram (direktorga murojaat)",
+          url: "https://t.me/direktorga_murojaat",
+        },
+      ],
+      address: "Toshkent sh., Chilonzor koʻchasi, 2-uy",
+      transport:
+        "Avtobuslar: № 84, 103\nMarshrut taksi: 81m\nAvtobus bekati: «Oʻzbekfilm» kinostudiyasi\nEng yaqin metro: «Novza»",
+      hours:
+        "Ish kunlari: dushanbadan jumagacha\nIsh vaqti: 9:00–13:00, 14:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), «Oʻzarxiv» boʻlimi maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/uz/archive",
+      },
+    },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
       intro: "«Oʻzarxiv» agentligining rasmiy saytida arxiv fondlari, xizmatlar va hujjatlarga kirish tartibi haqida maʼlumotlar taqdim etilgan.",
@@ -183,7 +322,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Adliya vazirligi huzuridagi Oʻzarxiv agentligining rasmiy sayti.",
+      description:
+        "Oʻzbekiston Adliya vazirligi huzuridagi «Oʻzarxiv» agentligining rasmiy sayti: telefon +99855 503-01-50, ishonch telefoni +99855 503-01-50 (118), elektron pochta uzarchive[at]archive.uz, manzil Toshkent sh., Chilonzor koʻchasi, 2-uy, transport, ish vaqti va ijtimoiy tarmoq havolalari.",
       orgName: "«Oʻzarxiv» agentligi",
       sameAs: "https://uzarxiv.uz",
     },

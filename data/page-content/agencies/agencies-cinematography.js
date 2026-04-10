@@ -14,6 +14,42 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти на официальный сайт Агентства кинематографии →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+      },
+      phones: [{ display: "+99871 277-81-44", href: "tel:+998712778144" }],
+      trustPhone: { display: "+99871 277-81-07", href: "tel:+998712778107" },
+      email: { display: "info@uzbekkino.uz", href: "mailto:info@uzbekkino.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzbekkinopress" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzbekkino.uz/" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/uzkinematografiya_official",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@Kinematografiyaagentligi",
+        },
+      ],
+      address: "г. Ташкент, ул. Чиланзар, 1А, 100027",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел Агентства кинематографии (uzbekkino).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/uzbekkino",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "На официальном сайте Агентства кинематографии представлена информация о развитии киноискусства в Узбекистане и деятельности агентства.",
@@ -43,7 +79,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный сайт Агентства кинематографии при Министерстве культуры Узбекистана.",
+      description:
+        "Официальный сайт Агентства кинематографии при Министерстве культуры Узбекистана: телефон +99871 277-81-44, телефон доверия +99871 277-81-07, электронная почта info[at]uzbekkino.uz, адрес г. Ташкент, ул. Чиланзар, 1А, 100027, ссылки на социальные сети.",
       orgName: "Агентство кинематографии Республики Узбекистан",
       sameAs: "https://uzbkino.uz",
     },
@@ -84,6 +121,42 @@ export default {
       h2: "Official website",
       ctaText: "Go to the official Cinematography Agency website →",
     },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+      },
+      phones: [{ display: "+99871 277-81-44", href: "tel:+998712778144" }],
+      trustPhone: { display: "+99871 277-81-07", href: "tel:+998712778107" },
+      email: { display: "info@uzbekkino.uz", href: "mailto:info@uzbekkino.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzbekkinopress" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzbekkino.uz/" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/uzkinematografiya_official",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@Kinematografiyaagentligi",
+        },
+      ],
+      address: "Tashkent, Chilanzar Street, 1A, 100027",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Cinematography Agency section (uzbekkino).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/uzbekkino",
+      },
+    },
     whatFind: {
       h2: "What you can find on the official website",
       intro: "The official website of the Cinematography Agency presents information on the development of film art in Uzbekistan and the agency's activities.",
@@ -113,7 +186,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official website of the Cinematography Agency under the Ministry of Culture of Uzbekistan.",
+      description:
+        "Official website of the Cinematography Agency under the Ministry of Culture of Uzbekistan: phone +99871 277-81-44, trust line +99871 277-81-07, email info[at]uzbekkino.uz, address Tashkent, Chilanzar St., 1A, 100027, social media links.",
       orgName: "Cinematography Agency of the Republic of Uzbekistan",
       sameAs: "https://uzbkino.uz",
     },
@@ -154,6 +228,42 @@ export default {
       h2: "Rasmiy sayt",
       ctaText: "Kinematografiya agentligi rasmiy saytiga oʻtish →",
     },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+      },
+      phones: [{ display: "+99871 277-81-44", href: "tel:+998712778144" }],
+      trustPhone: { display: "+99871 277-81-07", href: "tel:+998712778107" },
+      email: { display: "info@uzbekkino.uz", href: "mailto:info@uzbekkino.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzbekkinopress" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzbekkino.uz/" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/uzkinematografiya_official",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@Kinematografiyaagentligi",
+        },
+      ],
+      address: "Toshkent sh., Chilonzor koʻchasi, 1A, 100027",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari Oʻzbekiston Respublikasining rasmiy portali (gov.uz), Kinematografiya agentligi boʻlimi (uzbekkino) maʼlumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/uzbekkino",
+      },
+    },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
       intro: "Kinematografiya agentligining rasmiy saytida Oʻzbekistonda kino sanʼatini rivojlantirish va agentlik faoliyati haqida maʼlumotlar taqdim etilgan.",
@@ -183,7 +293,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Madaniyat vazirligi huzuridagi Kinematografiya agentligining rasmiy sayti.",
+      description:
+        "Oʻzbekiston Madaniyat vazirligi huzuridagi Kinematografiya agentligining rasmiy sayti: telefon +99871 277-81-44, ishonch telefoni +99871 277-81-07, elektron pochta info[at]uzbekkino.uz, manzil Toshkent sh., Chilonzor koʻchasi, 1A, 100027, ijtimoiy tarmoq havolalari.",
       orgName: "Oʻzbekiston Respublikasi Kinematografiya agentligi",
       sameAs: "https://uzbkino.uz",
     },

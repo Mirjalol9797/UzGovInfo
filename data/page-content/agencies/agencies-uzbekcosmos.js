@@ -14,6 +14,39 @@ export default {
       h2: "Официальный сайт",
       ctaText: "Перейти на официальный сайт «Узбеккосмос» →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99855 502-50-22", href: "tel:+998555025022" }],
+      trustPhone: { display: "+99855 502-50-22", href: "tel:+998555025022" },
+      email: { display: "info@uzspace.uz", href: "mailto:info@uzspace.uz" },
+      social: [
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzcosmos.uz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzcosmos.uz/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzcosmos_official" },
+        { id: "youtube", label: "YouTube", url: "https://youtube.com/@uzcosmosmedia" },
+        { id: "linkedin", label: "LinkedIn", url: "https://www.linkedin.com/company/uzcosmos/" },
+      ],
+      address: "г. Ташкент, Мирзо-Улугбекский район, ул. Ибрахима Муминова, 4",
+      transport: "Метро: станция Буюк ипак йули\nАвтобусы: № 14, 17, 63, 83, 96, 98, 110, 119, 129",
+      hours: "Понедельник - Пятница с 9.00 до 18.00\n(обед с 13.00 до 14.00)",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям официального портала Республики Узбекистан (gov.uz), раздел «Узбеккосмос» (uzspace).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/uzspace",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
       intro: "На официальном сайте Агентства представлена информация о космической деятельности и спутниковых технологиях в Узбекистане.",
@@ -43,7 +76,8 @@ export default {
       h2: "Другие официальные сайты государственных органов",
     },
     schema: {
-      description: "Официальный сайт Агентства «Узбеккосмос» Республики Узбекистан.",
+      description:
+        "Официальный сайт Агентства «Узбеккосмос» Республики Узбекистан: телефон +99855 502-50-22, телефон доверия +99855 502-50-22, электронная почта info[at]uzspace.uz, адрес г. Ташкент, Мирзо-Улугбекский район, ул. Ибрахима Муминова, 4, транспорт, рабочее время и ссылки на социальные сети.",
       orgName: "Агентство «Узбеккосмос»",
       sameAs: "https://uzbekcosmos.uz",
     },
@@ -84,6 +118,39 @@ export default {
       h2: "Official website",
       ctaText: "Go to the official Uzbekcosmos website →",
     },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Working hours",
+      },
+      phones: [{ display: "+99855 502-50-22", href: "tel:+998555025022" }],
+      trustPhone: { display: "+99855 502-50-22", href: "tel:+998555025022" },
+      email: { display: "info@uzspace.uz", href: "mailto:info@uzspace.uz" },
+      social: [
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzcosmos.uz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzcosmos.uz/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzcosmos_official" },
+        { id: "youtube", label: "YouTube", url: "https://youtube.com/@uzcosmosmedia" },
+        { id: "linkedin", label: "LinkedIn", url: "https://www.linkedin.com/company/uzcosmos/" },
+      ],
+      address: "Tashkent, Mirzo-Ulugbek district, Ibrohim Muminov Street, 4",
+      transport: "Metro: Buyuk Ipak Yuli station\nBuses: 14, 17, 63, 83, 96, 98, 110, 119, 129",
+      hours: "Monday - Friday from 9:00 to 18:00\n(lunch from 13:00 to 14:00)",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the official portal of the Republic of Uzbekistan (gov.uz), Uzbekcosmos section (uzspace).",
+        reuseNoticeBefore: "When reusing materials from this site, a link to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/uzspace",
+      },
+    },
     whatFind: {
       h2: "What you can find on the official website",
       intro: "The official website of the Agency presents information on space activities and satellite technology in Uzbekistan.",
@@ -113,7 +180,8 @@ export default {
       h2: "Other official websites of government bodies",
     },
     schema: {
-      description: "Official website of the Uzbekcosmos Agency of the Republic of Uzbekistan.",
+      description:
+        "Official website of the Uzbekcosmos Agency of the Republic of Uzbekistan: phone +99855 502-50-22, trust line +99855 502-50-22, email info[at]uzspace.uz, address Tashkent, Mirzo-Ulugbek district, Ibrohim Muminov Street, 4, transport, working hours and social media links.",
       orgName: "Uzbekcosmos Agency",
       sameAs: "https://uzbekcosmos.uz",
     },
@@ -154,6 +222,39 @@ export default {
       h2: "Rasmiy sayt",
       ctaText: "«Oʻzbekkosmos» rasmiy saytiga oʻtish →",
     },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99855 502-50-22", href: "tel:+998555025022" }],
+      trustPhone: { display: "+99855 502-50-22", href: "tel:+998555025022" },
+      email: { display: "info@uzspace.uz", href: "mailto:info@uzspace.uz" },
+      social: [
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzcosmos.uz" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzcosmos.uz/" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzcosmos_official" },
+        { id: "youtube", label: "YouTube", url: "https://youtube.com/@uzcosmosmedia" },
+        { id: "linkedin", label: "LinkedIn", url: "https://www.linkedin.com/company/uzcosmos/" },
+      ],
+      address: "Toshkent shahri, Mirzo-Ulug'bek tumani, Ibrohim Mo'minov ko'chasi, 4",
+      transport: "Metro: Buyuk ipak yo'li bekati\nAvtobuslar: № 14, 17, 63, 83, 96, 98, 110, 119, 129",
+      hours: "Dushanba - Juma 9:00 dan 18:00 gacha\n(tushlik 13:00 dan 14:00 gacha)",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt ma'lumotlari O'zbekiston Respublikasining rasmiy portali (gov.uz), «Oʻzbekkosmos» bo'limi (uzspace) ma'lumotlariga asoslangan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola berish majburiy.",
+        reuseUrl: "https://gov.uz/oz/uzspace",
+      },
+    },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
       intro: "Agentlikning rasmiy saytida Oʻzbekistonda kosmos faoliyati va sunʼiy yoʻldosh texnologiyalari haqida maʼlumotlar taqdim etilgan.",
@@ -183,7 +284,8 @@ export default {
       h2: "Boshqa davlat organlarining rasmiy saytlari",
     },
     schema: {
-      description: "Oʻzbekiston Respublikasi «Oʻzbekkosmos» agentligining rasmiy sayti.",
+      description:
+        "Oʻzbekiston Respublikasi «Oʻzbekkosmos» agentligining rasmiy sayti: telefon +99855 502-50-22, ishonch telefoni +99855 502-50-22, elektron pochta info[at]uzspace.uz, manzil Toshkent shahri, Mirzo-Ulug'bek tumani, Ibrohim Mo'minov ko'chasi, 4, transport, ish vaqti va ijtimoiy tarmoq havolalari.",
       orgName: "«Oʻzbekkosmos» agentligi",
       sameAs: "https://uzbekcosmos.uz",
     },
