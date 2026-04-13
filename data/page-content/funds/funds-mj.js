@@ -9,11 +9,50 @@ export default {
     intro: [
       "Государственный целевой фонд сокращения бедности Республики Узбекистан реализует государственную политику в части снижения масштабов бедности, поддержки социально уязвимых слоёв населения и развития программ социальной защиты. Официальный раздел на портале государственных органов gov.uz (путь /mj) содержит сведения о фонде, структуре организации, центральном аппарате и региональных подразделениях.",
       "На сайте публикуются новости и материалы пресс-службы, календарь собраний и мероприятий, нормативные документы, сведения об электронном правительстве и противодействии коррупции, а также контакты, опросы и формы обратной связи.",
-      "Для достоверной информации о полномочиях фонда, программах и порядке обращений используйте только официальный раздел на gov.uz.",
+      "По сведениям UzGovInfo (govinfo.uz): телефон +99871 238-69-00 (доб. 3359), электронная почта poverty@reduction.uz, адрес 100027, г. Ташкент, ул. Караташ, дом 1, Instagram — в блоке контактов; уточняйте актуальные номера в «Все номера» на gov.uz.",
     ],
     officialSite: {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел фонда на gov.uz →",
+    },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        territorialOffices: "Регионы",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        {
+          display: "+99871 238-69-00 (доб. 3359)",
+          href: "tel:+998712386900",
+        },
+      ],
+      email: {
+        display: "poverty@reduction.uz",
+        href: "mailto:poverty@reduction.uz",
+      },
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/maqsadli_jamgarma/",
+        },
+      ],
+      address: "100027, г. Ташкент, ул. Караташ, дом 1",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), карточка Государственного целевого фонда сокращения бедности.",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/mj",
+      },
     },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
@@ -72,9 +111,12 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Государственного целевого фонда сокращения бедности Республики Узбекистан на gov.uz.",
+        "Официальный раздел Государственного целевого фонда сокращения бедности Республики Узбекистан на gov.uz (mj): телефон +99871 238-69-00 (доб. 3359), электронная почта poverty[at]reduction.uz, адрес 100027, г. Ташкент, ул. Караташ, 1, Instagram.",
       orgName: "Государственный целевой фонд сокращения бедности",
-      sameAs: "https://gov.uz/ru/mj",
+      sameAs: [
+        "https://gov.uz/ru/mj",
+        "https://www.instagram.com/maqsadli_jamgarma/",
+      ],
     },
     faq: {
       h2: "Часто задаваемые вопросы",
@@ -93,7 +135,7 @@ export default {
         },
         {
           q: "Как связаться с фондом?",
-          a: "Контакты, формы обратной связи и опросы размещены в соответствующих разделах официального сайта; номера телефонов уточняйте в блоке «Все номера» на gov.uz.",
+          a: "Телефон +99871 238-69-00 (доб. 3359), электронная почта poverty@reduction.uz, адрес 100027, г. Ташкент, ул. Караташ, дом 1, Instagram — в блоке контактов на этой странице (по govinfo.uz); формы обратной связи и опросы — на gov.uz; полный перечень номеров — «Все номера» на gov.uz.",
         },
         {
           q: "Где опубликованы документы фонда?",
@@ -108,11 +150,50 @@ export default {
     intro: [
       "The State Targeted Fund for Poverty Reduction of the Republic of Uzbekistan implements state policy on reducing poverty, supporting vulnerable groups and developing social protection programmes. The official section on the government portal gov.uz (path /mj) provides information about the fund, organisational structure, central office and regional departments.",
       "The site publishes news and press materials, calendars of meetings and events, regulations, information on e-government and anti-corruption efforts, as well as contacts, surveys and feedback forms.",
-      "Use only the official gov.uz section for reliable information on the fund’s mandate, programmes and how to apply.",
+      "Per UzGovInfo (govinfo.uz): phone +99871 238-69-00 (ext. 3359), email poverty@reduction.uz, address 100027, Tashkent, Karatash street 1, Instagram — in the contacts block; verify current numbers under “All numbers” on gov.uz.",
     ],
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the official fund section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        territorialOffices: "Regions",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        {
+          display: "+99871 238-69-00 (ext. 3359)",
+          href: "tel:+998712386900",
+        },
+      ],
+      email: {
+        display: "poverty@reduction.uz",
+        href: "mailto:poverty@reduction.uz",
+      },
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/maqsadli_jamgarma/",
+        },
+      ],
+      address: "100027, Tashkent, Karatash street, 1",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are taken from the UzGovInfo portal (govinfo.uz), State Targeted Fund for Poverty Reduction card.",
+        reuseNoticeBefore: "When using materials from this site, a link to the ",
+        reuseLinkText: "site",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/mj",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -171,9 +252,12 @@ export default {
     },
     schema: {
       description:
-        "Official section of the State Targeted Fund for Poverty Reduction of the Republic of Uzbekistan on gov.uz.",
+        "Official section of the State Targeted Fund for Poverty Reduction of the Republic of Uzbekistan on gov.uz (mj): phone +99871 238-69-00 (ext. 3359), email poverty[at]reduction.uz, address 100027, Tashkent, Karatash street 1, Instagram.",
       orgName: "State Targeted Fund for Poverty Reduction",
-      sameAs: "https://gov.uz/en/mj",
+      sameAs: [
+        "https://gov.uz/en/mj",
+        "https://www.instagram.com/maqsadli_jamgarma/",
+      ],
     },
     faq: {
       h2: "Frequently asked questions",
@@ -192,7 +276,7 @@ export default {
         },
         {
           q: "How to contact the fund?",
-          a: "Contacts, feedback forms and surveys are in the relevant sections of the official site; verify phone numbers under “All numbers” on gov.uz.",
+          a: "Phone +99871 238-69-00 (ext. 3359), email poverty@reduction.uz, address 100027, Tashkent, Karatash street 1, Instagram — in the contacts block on this page (per govinfo.uz); feedback forms and surveys on gov.uz; see “All numbers” on gov.uz for the full list.",
         },
         {
           q: "Where are the fund’s documents published?",
@@ -207,11 +291,50 @@ export default {
     intro: [
       "Oʻzbekiston Respublikasi Kambagʻallikni qisqartirish davlat maqsadli jamgʻarmasi kambagʻallikni kamaytirish, ijtimoiy himoyaga muhtoj aholi qatlamlarini qoʻllab-quvvatlash va ijtimoiy himoya dasturlarini rivojlantirish boʻyicha davlat siyosatini amalga oshiradi. Davlat organlari portali gov.uz dagi rasmiy boʻlimda (/mj) jamgʻarma, tashkilot tuzilmasi, markaziy apparat va hududiy boʻlinmalar haqida maʼlumotlar beriladi.",
       "Saytda yangiliklar va matbuot materiallari, uchrashuvlar va tadbirlar taqvimi, meʼyoriy hujjatlar, elektron hukumat va korrupsiyaga qarshi kurash boʻyicha maʼlumotlar, shuningdek aloqa, soʻrovnomalar va fikr-mulohaza shakllari joylashtiriladi.",
-      "Jamgʻarma vakolati, dasturlar va murojaat tartibi haqida ishonchli maʼlumotni faqat gov.uz rasmiy boʻlimidan oling.",
+      "UzGovInfo (govinfo.uz) boʻyicha: telefon +99871 238-69-00 (3359 qoʻshimcha raqam), elektron pochta poverty@reduction.uz, manzil 100027, Toshkent sh., Karatash koʻchasi, 1-uy, Instagram — kontaktlar blokida; dolzarb raqamlarni gov.uz dagi «Barcha raqamlar» dan tekshiring.",
     ],
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "gov.uz da jamgʻarmanining rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        territorialOffices: "Hududlar",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        {
+          display: "+99871 238-69-00 (3359)",
+          href: "tel:+998712386900",
+        },
+      ],
+      email: {
+        display: "poverty@reduction.uz",
+        href: "mailto:poverty@reduction.uz",
+      },
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/maqsadli_jamgarma/",
+        },
+      ],
+      address: "100027, Toshkent sh., Karatash koʻchasi, 1-uy",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz), Kambagʻallikni qisqartirish davlat maqsadli jamgʻarmasi kartasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/mj",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -270,9 +393,12 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Kambagʻallikni qisqartirish davlat maqsadli jamgʻarmasining gov.uz dagi rasmiy boʻlimi.",
+        "Oʻzbekiston Respublikasi Kambagʻallikni qisqartirish davlat maqsadli jamgʻarmasining gov.uz dagi rasmiy boʻlimi (mj): telefon +99871 238-69-00 (3359), elektron pochta poverty[at]reduction.uz, manzil 100027, Toshkent, Karatash koʻchasi, 1, Instagram.",
       orgName: "Kambagʻallikni qisqartirish davlat maqsadli jamgʻarmasi",
-      sameAs: "https://gov.uz/oz/mj",
+      sameAs: [
+        "https://gov.uz/oz/mj",
+        "https://www.instagram.com/maqsadli_jamgarma/",
+      ],
     },
     faq: {
       h2: "Tez-tez beriladigan savollar",
@@ -291,7 +417,7 @@ export default {
         },
         {
           q: "Jamgʻarma bilan qanday bogʻlanish mumkin?",
-          a: "Kontaktlar, fikr-mulohaza va soʻrovnomalar rasmiy saytdagi tegishli boʻlimlarda; raqamlarni gov.uz dagi «Barcha raqamlar» dan tekshiring.",
+          a: "Telefon +99871 238-69-00 (3359), elektron pochta poverty@reduction.uz, manzil 100027, Toshkent sh., Karatash koʻchasi, 1-uy, Instagram — sahifadagi kontaktlar blokida (govinfo.uz); fikr-mulohaza va soʻrovnomalar gov.uz da; toʻliq raqamlar — «Barcha raqamlar».",
         },
         {
           q: "Jamgʻarma hujjatlari qayerda eʼlon qilinadi?",

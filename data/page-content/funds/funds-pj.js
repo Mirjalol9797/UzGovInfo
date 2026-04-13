@@ -9,11 +9,60 @@ export default {
     intro: [
       "Внебюджетный Пенсионный фонд при Министерстве экономики и финансов Республики Узбекистан обеспечивает учёт страховых взносов, назначение и выплату пенсий, взаимодействие с работодателями и застрахованными, развитие электронных сервисов для граждан. Официальный раздел на портале государственных органов gov.uz (путь /pj) содержит сведения о структуре, региональных подразделениях, нормативных актах и государственных услугах в сфере пенсионного обеспечения.",
       "На сайте публикуются новости, пресс-релизы, графики приёма, открытые данные и интерактивные услуги: подача заявления на назначение пенсии, справки о размере выплат, сведения об учёте в системе пенсионного страхования, приостановка выплаты, сервис «SMS-Пенсия» и другие сервисы в соответствии с законодательством о пенсионном обеспечении.",
-      "Используйте только официальный ресурс gov.uz для получения достоверной информации о порядке назначения пенсий, обращений и контактов фонда (в том числе телефона доверия, указанного на сайте).",
+      "По сведениям UzGovInfo (govinfo.uz): телефон +99871 202-12-71, телефон доверия 12-71 (короткий номер в таблице каталога), электронная почта pension_uz@imv.uz, соцсети — в блоке контактов; уточняйте актуальные номера в «Все номера» на gov.uz.",
     ],
     officialSite: {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел Пенсионного фонда на gov.uz →",
+    },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        territorialOffices: "Регионы",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 202-12-71", href: "tel:+998712021271" }],
+      trustPhone: {
+        display: "12-71",
+        href: "tel:1271",
+      },
+      email: {
+        display: "pension_uz@imv.uz",
+        href: "mailto:pension_uz@imv.uz",
+      },
+      social: [
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/pensiyauzb",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/pensiyauzb/",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/PensionFundRUz" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@pensiyauzb",
+        },
+        { id: "twitter", label: "X (Twitter)", url: "https://x.com/PensionUz" },
+      ],
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), карточка Внебюджетного Пенсионного фонда.",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/pj",
+      },
     },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
@@ -72,9 +121,16 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Внебюджетного Пенсионного фонда при Министерстве экономики и финансов Узбекистана на gov.uz.",
+        "Официальный раздел Внебюджетного Пенсионного фонда при Министерстве экономики и финансов Узбекистана на gov.uz (pj): телефон +99871 202-12-71, телефон доверия 12-71, электронная почта pension_uz[at]imv.uz, соцсети (Facebook, Instagram, Telegram, YouTube, X).",
       orgName: "Внебюджетный Пенсионный фонд при Министерстве экономики и финансов",
-      sameAs: "https://gov.uz/ru/pj",
+      sameAs: [
+        "https://gov.uz/ru/pj",
+        "https://www.facebook.com/pensiyauzb",
+        "https://www.instagram.com/pensiyauzb/",
+        "https://t.me/PensionFundRUz",
+        "https://www.youtube.com/@pensiyauzb",
+        "https://x.com/PensionUz",
+      ],
     },
     faq: {
       h2: "Часто задаваемые вопросы",
@@ -93,7 +149,7 @@ export default {
         },
         {
           q: "Как связаться с фондом?",
-          a: "Контакты, телефон доверия и формы обращений размещены в разделе «Связь» и «Контакты» на официальном сайте; уточняйте актуальные номера в блоке «Все номера» на gov.uz.",
+          a: "Телефон +99871 202-12-71, телефон доверия 12-71, электронная почта pension_uz@imv.uz, соцсети — в блоке контактов на этой странице (по govinfo.uz); уточняйте актуальные номера в «Все номера» на gov.uz.",
         },
         {
           q: "Есть ли региональные отделения?",
@@ -108,11 +164,60 @@ export default {
     intro: [
       "The Off-budget Pension Fund under the Ministry of Economy and Finance of the Republic of Uzbekistan maintains contribution accounting, pension assignment and payments, engagement with employers and insured persons, and e-services for citizens. The official section on the government portal gov.uz (path /pj) provides information on structure, regional offices, regulations and public services in pension provision.",
       "The site publishes news, press releases, reception schedules, open data and interactive services such as pension applications, certificates on paid amounts, account statements, suspension of payments, the «SMS-Pension» service and other tools in line with pension legislation.",
-      "Use only the official gov.uz section for reliable information on pension rules, appeals and fund contacts (including the trust line published on the site).",
+      "Per UzGovInfo (govinfo.uz): phone +99871 202-12-71, trust line 12-71 (short number as listed in the catalogue), email pension_uz@imv.uz, social media in the contacts block; verify current numbers under “All numbers” on gov.uz.",
     ],
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the official Pension Fund section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        territorialOffices: "Regions",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99871 202-12-71", href: "tel:+998712021271" }],
+      trustPhone: {
+        display: "12-71",
+        href: "tel:1271",
+      },
+      email: {
+        display: "pension_uz@imv.uz",
+        href: "mailto:pension_uz@imv.uz",
+      },
+      social: [
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/pensiyauzb",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/pensiyauzb/",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/PensionFundRUz" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@pensiyauzb",
+        },
+        { id: "twitter", label: "X (Twitter)", url: "https://x.com/PensionUz" },
+      ],
+      sourceAttribution: {
+        dataSource:
+          "Contact details are taken from the UzGovInfo portal (govinfo.uz), Off-budget Pension Fund card.",
+        reuseNoticeBefore: "When using materials from this site, a link to the ",
+        reuseLinkText: "site",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/pj",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -171,9 +276,16 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Off-budget Pension Fund under the Ministry of Economy and Finance of Uzbekistan on gov.uz.",
+        "Official section of the Off-budget Pension Fund under the Ministry of Economy and Finance of Uzbekistan on gov.uz (pj): phone +99871 202-12-71, trust line 12-71, email pension_uz[at]imv.uz, social media (Facebook, Instagram, Telegram, YouTube, X).",
       orgName: "Off-budget Pension Fund under the Ministry of Economy and Finance",
-      sameAs: "https://gov.uz/en/pj",
+      sameAs: [
+        "https://gov.uz/en/pj",
+        "https://www.facebook.com/pensiyauzb",
+        "https://www.instagram.com/pensiyauzb/",
+        "https://t.me/PensionFundRUz",
+        "https://www.youtube.com/@pensiyauzb",
+        "https://x.com/PensionUz",
+      ],
     },
     faq: {
       h2: "Frequently asked questions",
@@ -192,7 +304,7 @@ export default {
         },
         {
           q: "How to contact the fund?",
-          a: "Contacts, trust line and appeal forms are in the «Contacts» and «Connection» sections on the official site; verify numbers under «All numbers» on gov.uz.",
+          a: "Phone +99871 202-12-71, trust line 12-71, email pension_uz@imv.uz, social media — in the contacts block on this page (per govinfo.uz); verify numbers under “All numbers” on gov.uz.",
         },
         {
           q: "Are there regional offices?",
@@ -207,11 +319,60 @@ export default {
     intro: [
       "Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi budjetdan tashqari Pensiya jamgʻarmasi sugʻurta badallarini hisobga olish, pensiyalar tayinlash va toʻlash, ish beruvchilar va sugʻurta qoplangan shaxslar bilan hamkorlik, fuqarolar uchun elektron xizmatlarni rivojlantirishni taʼminlaydi. Davlat organlari portali gov.uz dagi rasmiy boʻlimda (/pj) tuzilma, hududiy boʻlinmalar, normativ hujjatlar va pensiya taʼminoti sohasidagi davlat xizmatlari haqida maʼlumotlar joylashtiriladi.",
       "Saytda yangiliklar, press-relizlar, qabul grafigi, ochiq maʼlumotlar va interaktiv xizmatlar — pensiya tayinlash uchun ariza, toʻlangan pensiyalar toʻgʻrisidagi maʼlumotnoma, hisobda turish toʻgʻrisidagi maʼlumotnoma, toʻlovni toʻxtatib turish, «SMS-Pensiya» xizmati va pensiya qonunchiligiga muvofiq boshqa xizmatlar nashr etiladi.",
-      "Pensiya tartibi, murojaatlar va jamgʻarma bilan aloqa (shu jumladan saytda koʻrsatilgan ishonch telefoni) haqida ishonchli maʼlumotni faqat gov.uz rasmiy boʻlimidan oling.",
+      "UzGovInfo (govinfo.uz) boʻyicha: telefon +99871 202-12-71, ishonch telefoni 12-71 (katalog jadvalidagi qisqa raqam), elektron pochta pension_uz@imv.uz, ijtimoiy tarmoqlar — kontaktlar blokida; dolzarb raqamlarni gov.uz dagi «Barcha raqamlar» dan tekshiring.",
     ],
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "gov.uz da Pensiya jamgʻarmasi rasmiy boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        territorialOffices: "Hududlar",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 202-12-71", href: "tel:+998712021271" }],
+      trustPhone: {
+        display: "12-71",
+        href: "tel:1271",
+      },
+      email: {
+        display: "pension_uz@imv.uz",
+        href: "mailto:pension_uz@imv.uz",
+      },
+      social: [
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/pensiyauzb",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/pensiyauzb/",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/PensionFundRUz" },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@pensiyauzb",
+        },
+        { id: "twitter", label: "X (Twitter)", url: "https://x.com/PensionUz" },
+      ],
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz), budjetdan tashqari Pensiya jamgʻarmasi kartasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/pj",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -270,10 +431,17 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi budjetdan tashqari Pensiya jamgʻarmasining gov.uz dagi rasmiy boʻlimi.",
+        "Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi budjetdan tashqari Pensiya jamgʻarmasining gov.uz dagi rasmiy boʻlimi (pj): telefon +99871 202-12-71, ishonch telefoni 12-71, elektron pochta pension_uz[at]imv.uz, ijtimoiy tarmoqlar (Facebook, Instagram, Telegram, YouTube, X).",
       orgName:
         "Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi budjetdan tashqari Pensiya jamgʻarmasi",
-      sameAs: "https://gov.uz/oz/pj",
+      sameAs: [
+        "https://gov.uz/oz/pj",
+        "https://www.facebook.com/pensiyauzb",
+        "https://www.instagram.com/pensiyauzb/",
+        "https://t.me/PensionFundRUz",
+        "https://www.youtube.com/@pensiyauzb",
+        "https://x.com/PensionUz",
+      ],
     },
     faq: {
       h2: "Tez-tez beriladigan savollar",
@@ -292,7 +460,7 @@ export default {
         },
         {
           q: "Jamgʻarma bilan qanday bogʻlanish mumkin?",
-          a: "Aloqa, ishonch telefoni va murojaat shakllari rasmiy saytdagi «Bogʻlanish» va «Kontaktlar» boʻlimlarida; raqamlarni gov.uz dagi «Barcha raqamlar» dan tekshiring.",
+          a: "Telefon +99871 202-12-71, ishonch telefoni 12-71, elektron pochta pension_uz@imv.uz, ijtimoiy tarmoqlar — sahifadagi kontaktlar blokida (govinfo.uz); raqamlarni gov.uz dagi «Barcha raqamlar» dan tekshiring.",
         },
         {
           q: "Hududiy boʻlinmalar bormi?",
