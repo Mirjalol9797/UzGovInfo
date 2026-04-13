@@ -1,6 +1,7 @@
 /**
  * Центр государственной экологической экспертизы
  * Официальный раздел: https://gov.uz/ru/ecoekspertiza
+ * Карточка UzGovInfo: https://govinfo.uz/centers/centers-ecoekspertiza
  */
 export default {
   ru: {
@@ -8,11 +9,65 @@ export default {
     intro: [
       "Центр государственной экологической экспертизы осуществляет государственную экологическую экспертизу проектов и иной документации, развивает методологию оценки воздействия на окружающую среду и взаимодействует с заинтересованными сторонами в рамках экологического законодательства. Официальный раздел на портале государственных органов gov.uz (путь /ecoekspertiza) содержит сведения о центре, структуре, региональных подразделениях, государственных услугах и документах.",
       "На сайте публикуются новости, материалы пресс-службы, календарь мероприятий, нормативные документы, разделы об оценке воздействия на окружающую среду, общественных слушаниях, электронном правительстве и международном сотрудничестве; доступна подача заявления на государственную экологическую экспертизу и обратная связь.",
-      "Горячая линия и актуальные номера телефонов уточняйте в официальном разделе на gov.uz в блоке «Все номера».",
+      "По сведениям UzGovInfo (govinfo.uz): телефон +99871 203-00-22, телефон доверия 1392, почта info@ecoekspertiza.uz, адрес, транспорт, часы работы и соцсети — в блоке контактов; актуальные номера уточняйте в «Все номера» на gov.uz.",
     ],
     officialSite: {
       h2: "Официальный сайт",
       ctaText: "Перейти в официальный раздел на gov.uz →",
+    },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 203-00-22", href: "tel:+998712030022" }],
+      trustPhone: { display: "1392", href: "tel:1392" },
+      email: {
+        display: "info@ecoekspertiza.uz",
+        href: "mailto:info@ecoekspertiza.uz",
+      },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@ecoekspertiza",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/ecoekspertiza",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/ecoekspertiza",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/ecoekspertiza_uz/",
+        },
+      ],
+      address:
+        "100170, г. Ташкент, Мирзо-Улугбекский район, 5-й проезд Сайрам, дом 15",
+      transport:
+        "Автобусы: № 14, 17, 24, 60, 83, 199\nМаршрутные такси: № 76M, 137M\nСтанция метро: Буюк Ипак Йули",
+      hours:
+        "Рабочий день: понедельник–пятница\nРабочие часы: 9:00–18:00 (обед 13:00–14:00)",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), карточка Центра государственной экологической экспертизы.",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/ecoekspertiza",
+      },
     },
     whatFind: {
       h2: "Что можно найти на официальном сайте",
@@ -71,9 +126,15 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Центра государственной экологической экспертизы на портале gov.uz.",
+        "Официальный раздел Центра государственной экологической экспертизы на gov.uz: телефон +99871 203-00-22, телефон доверия 1392, электронная почта info[at]ecoekspertiza.uz, адрес 100170, г. Ташкент, Мирзо-Улугбекский район, 5-й проезд Сайрам, 15, режим работы и ссылки на соцсети.",
       orgName: "Центр государственной экологической экспертизы",
-      sameAs: "https://gov.uz/ru/ecoekspertiza",
+      sameAs: [
+        "https://gov.uz/ru/ecoekspertiza",
+        "https://www.youtube.com/@ecoekspertiza",
+        "https://t.me/ecoekspertiza",
+        "https://www.facebook.com/ecoekspertiza",
+        "https://www.instagram.com/ecoekspertiza_uz/",
+      ],
     },
     faq: {
       h2: "Часто задаваемые вопросы",
@@ -92,7 +153,7 @@ export default {
         },
         {
           q: "Как связаться с центром?",
-          a: "Используйте форму обратной связи и контакты в официальном разделе; номера уточняйте в блоке «Все номера» на gov.uz.",
+          a: "Телефон +99871 203-00-22, телефон доверия 1392, электронная почта info@ecoekspertiza.uz; адрес, транспорт, часы работы и соцсети — в блоке контактов и на govinfo.uz. Полный перечень номеров — в «Все номера» на gov.uz.",
         },
       ],
     },
@@ -102,11 +163,64 @@ export default {
     intro: [
       "The Center for State Ecological Expertise conducts state environmental expertise of projects and other documentation, develops methodology for environmental impact assessment and engages stakeholders under environmental legislation. The official section on the government portal gov.uz (path /ecoekspertiza) provides information about the center, structure, regional branches, public services and documents.",
       "The site publishes news, press materials, calendars, regulations, sections on environmental impact assessment, strategic environmental assessment, public hearings, e-government and international cooperation; it offers submission of an application for state environmental expertise and feedback.",
-      "Verify the hotline and current phone numbers in the official gov.uz section under “All numbers”.",
+      "Per UzGovInfo (govinfo.uz): phone +99871 203-00-22, trust line 1392, email info@ecoekspertiza.uz, address, transport, opening hours and social links are in the contacts block; verify current numbers under “All numbers” on gov.uz.",
     ],
     officialSite: {
       h2: "Official website",
       ctaText: "Go to the official section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Opening hours",
+      },
+      phones: [{ display: "+99871 203-00-22", href: "tel:+998712030022" }],
+      trustPhone: { display: "1392", href: "tel:1392" },
+      email: {
+        display: "info@ecoekspertiza.uz",
+        href: "mailto:info@ecoekspertiza.uz",
+      },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@ecoekspertiza",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/ecoekspertiza",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/ecoekspertiza",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/ecoekspertiza_uz/",
+        },
+      ],
+      address:
+        "100170, Tashkent, Mirzo Ulugbek district, 5th Sayram passage, building 15",
+      transport:
+        "Buses: 14, 17, 24, 60, 83, 199\nRoute taxis: 76M, 137M\nMetro: Buyuk Ipak Yuli",
+      hours: "Monday–Friday\nHours: 9:00–18:00 (lunch 13:00–14:00)",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on UzGovInfo (govinfo.uz), the Center for State Ecological Expertise profile.",
+        reuseNoticeBefore: "When reusing materials from that site, attribution to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/ecoekspertiza",
+      },
     },
     whatFind: {
       h2: "What you can find on the official website",
@@ -165,9 +279,15 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Center for State Ecological Expertise on gov.uz.",
+        "Official section of the Center for State Ecological Expertise on gov.uz: phone +99871 203-00-22, trust line 1392, email info[at]ecoekspertiza.uz, address 100170, Tashkent, Mirzo Ulugbek district, 5th Sayram passage, 15, opening hours and social links.",
       orgName: "Center for State Ecological Expertise",
-      sameAs: "https://gov.uz/en/ecoekspertiza",
+      sameAs: [
+        "https://gov.uz/en/ecoekspertiza",
+        "https://www.youtube.com/@ecoekspertiza",
+        "https://t.me/ecoekspertiza",
+        "https://www.facebook.com/ecoekspertiza",
+        "https://www.instagram.com/ecoekspertiza_uz/",
+      ],
     },
     faq: {
       h2: "Frequently asked questions",
@@ -186,7 +306,7 @@ export default {
         },
         {
           q: "How to contact the center?",
-          a: "Use the feedback form and contacts in the official section; verify numbers under “All numbers” on gov.uz.",
+          a: "Phone +99871 203-00-22, trust line 1392, email info@ecoekspertiza.uz; address, transport, hours and social media are in the contacts block and on govinfo.uz. Full number list: “All numbers” on gov.uz.",
         },
       ],
     },
@@ -196,11 +316,65 @@ export default {
     intro: [
       "Davlat ekologik ekspertizasi markazi loyihalar va boshqa hujjatlar boʻyicha davlat ekologik ekspertizasini oʻtkazadi, atrof-muhitga taʼsirni baholash metodikasini rivojlantiradi va ekologik qonunchilik doirasida manfaatdor tomonlar bilan hamkorlik qiladi. Davlat organlari portali gov.uz dagi rasmiy boʻlimda (/ecoekspertiza) markaz, tuzilma, hududiy filiallar, davlat xizmatlari va hujjatlar haqida maʼlumotlar joylashtiriladi.",
       "Saytda yangiliklar, matbuot materiallari, tadbirlar taqvimi, meʼyoriy hujjatlar, atrof-muhitga taʼsirni baholash, strategik ekologik baholash, jamoatchilik eshituvlari, elektron hukumat va xalqaro hamkorlik boʻlimlari nashr etiladi; davlat ekologik ekspertizasiga ariza berish va fikr-mulohaza uchun imkoniyatlar mavjud.",
-      "Ishonch telefoni va dolzarb telefon raqamlarini gov.uz dagi «Barcha raqamlar» blokida tekshiring.",
+      "UzGovInfo (govinfo.uz) boʻyicha: telefon +99871 203-00-22, ishonch telefoni 1392, pochta info@ecoekspertiza.uz, manzil, transport, ish vaqti va ijtimoiy tarmoqlar — aloqa blokida; dolzarb raqamlarni gov.uz dagi «Barcha raqamlar»dan tekshiring.",
     ],
     officialSite: {
       h2: "Rasmiy sayt",
       ctaText: "gov.uz dagi rasmiy boʻlimga oʻtish →",
+    },
+    contacts: {
+      h2: "Aloqa",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 203-00-22", href: "tel:+998712030022" }],
+      trustPhone: { display: "1392", href: "tel:1392" },
+      email: {
+        display: "info@ecoekspertiza.uz",
+        href: "mailto:info@ecoekspertiza.uz",
+      },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@ecoekspertiza",
+        },
+        {
+          id: "telegram",
+          label: "Telegram",
+          url: "https://t.me/ecoekspertiza",
+        },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/ecoekspertiza",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/ecoekspertiza_uz/",
+        },
+      ],
+      address:
+        "100170, Toshkent sh., Mirzo Ulugʻbek tumani, Sayram 5-yoʻlagi, 15-uy",
+      transport:
+        "Avtobuslar: 14, 17, 24, 60, 83, 199\nMarshrut taksi: 76M, 137M\nMetro: Buyuk Ipak Yuli",
+      hours:
+        "Ish kuni: dushanba–juma\nIsh vaqti: 9:00–18:00 (tushlik 13:00–14:00)",
+      sourceAttribution: {
+        dataSource:
+          "Aloqa maʼlumotlari UzGovInfo (govinfo.uz) portali boʻyicha, Davlat ekologik ekspertizasi markazi kartochkasi asosida keltirilgan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/ecoekspertiza",
+      },
     },
     whatFind: {
       h2: "Rasmiy saytda nimalarni topish mumkin",
@@ -259,9 +433,15 @@ export default {
     },
     schema: {
       description:
-        "Davlat ekologik ekspertizasi markazining gov.uz dagi rasmiy boʻlimi.",
+        "Davlat ekologik ekspertizasi markazining gov.uz dagi rasmiy boʻlimi: telefon +99871 203-00-22, ishonch telefoni 1392, elektron pochta info[at]ecoekspertiza.uz, manzil 100170, Toshkent, Mirzo Ulugʻbek tumani, Sayram 5-yoʻlagi, 15, ish tartibi va ijtimoiy tarmoq havolalari.",
       orgName: "Davlat ekologik ekspertizasi markazi",
-      sameAs: "https://gov.uz/oz/ecoekspertiza",
+      sameAs: [
+        "https://gov.uz/oz/ecoekspertiza",
+        "https://www.youtube.com/@ecoekspertiza",
+        "https://t.me/ecoekspertiza",
+        "https://www.facebook.com/ecoekspertiza",
+        "https://www.instagram.com/ecoekspertiza_uz/",
+      ],
     },
     faq: {
       h2: "Tez-tez beriladigan savollar",
@@ -280,7 +460,7 @@ export default {
         },
         {
           q: "Markaz bilan qanday bogʻlanish mumkin?",
-          a: "Rasmiy boʻlimdagi fikr-mulohaza va kontaktlardan foydalaning; raqamlarni gov.uz dagi «Barcha raqamlar» dan tekshiring.",
+          a: "Telefon +99871 203-00-22, ishonch telefoni 1392, elektron pochta info@ecoekspertiza.uz; manzil, transport, ish vaqti va ijtimoiy tarmoqlar — aloqa blokida va govinfo.uz da. Toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
         },
       ],
     },
