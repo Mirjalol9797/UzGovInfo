@@ -31,7 +31,10 @@ useHead({
     { property: "og:site_name", content: "govinfo" },
     { property: "og:image", content: "https://govinfo.uz/images/gerb.png" },
     { property: "twitter:card", content: "summary_large_image" },
-    { property: "twitter:image", content: "https://govinfo.uz/images/gerb.png" },
+    {
+      property: "twitter:image",
+      content: "https://govinfo.uz/images/gerb.png",
+    },
     { name: "copyright", content: "copyright © 2024, govinfo.uz" },
     {
       name: "google-adsense-account",

@@ -2,18 +2,94 @@
  * Хокимият Сырдарьинской области
  * Официальный раздел: https://gov.uz/ru/sirdaryo
  */
+const sirdaryoTerritoryLinks = [
+  { url: "https://gov.uz/shirin/", ru: "город Ширин", en: "Shirin city", uz: "Shirin shahri" },
+  { url: "https://gov.uz/sirdarya/", ru: "Сырдарьинский район", en: "Syrdarya district", uz: "Sirdaryo tumani" },
+  { url: "https://gov.uz/xovostuman/", ru: "Хавастский район", en: "Havast district", uz: "Xovos tumani" },
+  { url: "https://gov.uz/boyovut/", ru: "Баяутский район", en: "Boyovut district", uz: "Boyovut tumani" },
+  { url: "https://gov.uz/sardoba/", ru: "Сардобинский район", en: "Sardoba district", uz: "Sardoba tumani" },
+  { url: "https://gov.uz/sayxunobod/", ru: "Сайхунабадский район", en: "Sayxunabad district", uz: "Sayxunobod tumani" },
+  { url: "https://gov.uz/mirzaobod/", ru: "Мирзаабадский район", en: "Mirzaobod district", uz: "Mirzaobod tumani" },
+  { url: "https://gov.uz/yangiyer/", ru: "город Янгиер", en: "Yangiyer city", uz: "Yangiyer shahri" },
+  { url: "https://gov.uz/guliston/", ru: "город Гулистан", en: "Gulistan city", uz: "Guliston shahri" },
+  { url: "https://gov.uz/oqoltin/", ru: "Акалтынский район", en: "Oqoltin district", uz: "Oqoltin tumani" },
+  { url: "https://gov.uz/gulistontumani/", ru: "Гулистанский район", en: "Gulistan district", uz: "Guliston tumani" },
+];
+
 export default {
   ru: {
     pageTitle: "Хокимият Сырдарьинской области",
     intro: [
       "Хокимият Сырдарьинской области — орган исполнительной власти на территории области; обеспечивает реализацию законодательства, решений Президента и Кабинета Министров и социально-экономическое развитие региона.",
-      "На портале gov.uz раздел sirdaryo (https://gov.uz/ru/sirdaryo) содержит сведения о хокимияте: о хокимияте, структуре организации, руководстве, центральном аппарате, подведомственных предприятиях, районах (туманах) и городах, контактах. В «Деятельности» — перепись, Конституция, открытое общение, мобильная приёмная, инвестиции и внешняя торговля, социальная сфера, экономика, молодёжная политика, сельское хозяйство, объявления и тендеры, вакансии, международное сотрудничество, противодействие коррупции. В «Государственных услугах» — электронные госуслуги, предоставляемые хокимиятом области. В «Документах» — законы и решения, связанные с деятельностью. В «Цифровом правительстве» — FAQ, портал открытых данных, прозрачность бюджетного процесса (положение 3299), открытые данные о деятельности (УП-6247), индекс открытости (УП-154), информация социального значения. Пресс-центр: о пресс-службе, новости, заявления руководства, календарь, заседания, пресс-конференции, пресс-релизы. Контакты: обращение через Telegram, онлайн-обращение, транспорт, опросы, контакты. Телефон доверия на портале: +998 67 236-80-00 (добавочный 1428) — уточняйте в «Все номера» на gov.uz.",
+      "На портале gov.uz раздел sirdaryo (https://gov.uz/ru/sirdaryo) содержит сведения о хокимияте: о хокимияте, структуре организации, руководстве, центральном аппарате, подведомственных предприятиях, районах (туманах) и городах, контактах. В «Деятельности» — перепись, Конституция, открытое общение, мобильная приёмная, инвестиции и внешняя торговля, социальная сфера, экономика, молодёжная политика, сельское хозяйство, объявления и тендеры, вакансии, международное сотрудничество, противодействие коррупции. В «Государственных услугах» — электронные госуслуги, предоставляемые хокимиятом области. В «Документах» — законы и решения, связанные с деятельностью. В «Цифровом правительстве» — FAQ, портал открытых данных, прозрачность бюджетного процесса (положение 3299), открытые данные о деятельности (УП-6247), индекс открытости (УП-154), информация социального значения. Пресс-центр: о пресс-службе, новости, заявления руководства, календарь, заседания, пресс-конференции, пресс-релизы. Контакты: обращение через Telegram, онлайн-обращение, транспорт, опросы, контакты. По сведениям UzGovInfo (govinfo.uz) и раздела на gov.uz: телефон +99867 225-29-82, телефон доверия +99867 236-80-00 (доб. 1428), электронная почта info@sirdaryo.uz, адрес 120100, Гулистан, ул. Ислама Каримова, 60; транспорт, города и районы, соцсети — в блоке контактов; полный список номеров — в «Все номера» на gov.uz.",
       "Полезен жителям и бизнесу Сырдарьинской области, инвесторам и СМИ при работе с региональными программами и официальными обращениями.",
     ],
     officialSite: {
       h2: "Официальный раздел на gov.uz",
       ctaText:
         "Перейти в раздел хокимията Сырдарьинской области на gov.uz →",
+    },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        territorialOffices: "Города и районы",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99867 225-29-82", href: "tel:+998672252982" }],
+      trustPhone: {
+        display: "+99867 236-80-00 (доб. 1428)",
+        href: "tel:+998672368000",
+      },
+      email: { display: "info@sirdaryo.uz", href: "mailto:info@sirdaryo.uz" },
+      territorialOffices: sirdaryoTerritoryLinks.map(({ url, ru: label }) => ({ url, label })),
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram (хокимият)",
+          url: "https://www.instagram.com/sirdaryohokimligi/",
+        },
+        {
+          id: "facebook",
+          label: "Facebook (хокимият)",
+          url: "https://www.facebook.com/Sirdaryohokimligi/",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/eo_turdimov" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/turdimov",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@PRESSSERVICEMZ",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/e_turdimov/",
+        },
+        { id: "twitter", label: "X (Twitter)", url: "https://x.com/e_turdimov" },
+        { id: "telegram", label: "Telegram (регион)", url: "https://t.me/SirdaryoUz" },
+      ],
+      address: "120100, Гулистан, ул. Ислама Каримова, 60",
+      transport:
+        "Автобусы 2, 2, 12, маршрутки по направлению «Железнодорожный вокзал – Университет» — остановка «Площадь Юрта Байроги»",
+      hours: "Понедельник–пятница",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница хокимията Сырдарьинской области.",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/sirdaryo",
+      },
     },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
@@ -72,7 +148,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел хокимията Сырдарьинской области на портале gov.uz (sirdaryo).",
+        "Официальный раздел хокимията Сырдарьинской области на портале gov.uz (sirdaryo): телефон +99867 225-29-82, телефон доверия +99867 236-80-00 (доб. 1428), электронная почта info[at]sirdaryo.uz, адрес 120100, Гулистан, ул. Ислама Каримова, 60, автобусы и маршрутки до остановки «Площадь Юрта Байроги», ссылки на города и районы на gov.uz, соцсети (Instagram, Facebook, Telegram, YouTube, X), приём по будням.",
       orgName: "Хокимият Сырдарьинской области",
       sameAs: [
         "https://gov.uz/ru/sirdaryo",
@@ -88,8 +164,8 @@ export default {
           a: "На портале государства: https://gov.uz/ru/sirdaryo (также https://gov.uz/en/sirdaryo и https://gov.uz/oz/sirdaryo). В каталоге ссылка подставляется под язык интерфейса.",
         },
         {
-          q: "Какой телефон доверия указан на портале?",
-          a: "На портале приводится +998 67 236-80-00 (добавочный 1428) — уточняйте в «Все номера» на gov.uz.",
+          q: "Какие телефоны, почта, адрес и транспорт указаны для связи?",
+          a: "Телефон +99867 225-29-82, телефон доверия +99867 236-80-00 (доб. 1428), электронная почта info@sirdaryo.uz, адрес 120100, Гулистан, ул. Ислама Каримова, 60; города, районы, соцсети и маршруты — в блоке контактов (по govinfo.uz); полный перечень номеров — в «Все номера» на gov.uz.",
         },
         {
           q: "Где электронные госуслуги хокимията?",
@@ -106,13 +182,75 @@ export default {
     pageTitle: "Syrdarya regional administration",
     intro: [
       "The Syrdarya regional administration is the executive body of Syrdarya region; it implements legislation and decisions of the President and Cabinet of Ministers and guides the region’s socio-economic development.",
-      "The gov.uz sirdaryo section (https://gov.uz/en/sirdaryo) publishes information about the khokimiyat: about the administration, structure, leadership, central staff, subordinate enterprises, districts and cities, contacts. Activities include census, Constitution, open communication, mobile reception, investments and foreign trade, social sector, economy, youth policy, agriculture, announcements and tenders, vacancies, international cooperation, anti-corruption. Public services include e-government services provided by the regional khokimiyat. Documents include laws and decisions related to the body’s activities. Digital government includes FAQ, open data portal, budget transparency (Statement 3299), open data on activities (UP-6247), openness index (UP-154), socially significant information. Press centre: about the press service, news, leadership statements, calendar, meetings, press conferences, press releases. Contacts: Telegram appeals, online appeals, transport, surveys, contacts. Trust line on the portal: +998 67 236-80-00 (ext. 1428) — verify under “All numbers” on gov.uz.",
+      "The gov.uz sirdaryo section (https://gov.uz/en/sirdaryo) publishes information about the khokimiyat: about the administration, structure, leadership, central staff, subordinate enterprises, districts and cities, contacts. Activities include census, Constitution, open communication, mobile reception, investments and foreign trade, social sector, economy, youth policy, agriculture, announcements and tenders, vacancies, international cooperation, anti-corruption. Public services include e-government services provided by the regional khokimiyat. Documents include laws and decisions related to the body’s activities. Digital government includes FAQ, open data portal, budget transparency (Statement 3299), open data on activities (UP-6247), openness index (UP-154), socially significant information. Press centre: about the press service, news, leadership statements, calendar, meetings, press conferences, press releases. Contacts: Telegram appeals, online appeals, transport, surveys, contacts. Per UzGovInfo (govinfo.uz) and the gov.uz section: phone +99867 225-29-82, trust line +99867 236-80-00 (ext. 1428), email info@sirdaryo.uz, address 120100, Gulistan, Islam Karimov street 60; transport, cities, districts and social media are in the contacts block; for the full number list see “All numbers” on gov.uz.",
       "Useful for residents and businesses in Syrdarya region, investors and media seeking regional programmes and official contacts.",
     ],
     officialSite: {
       h2: "Official section on gov.uz",
       ctaText:
         "Open the Syrdarya regional administration section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        territorialOffices: "Cities and districts",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99867 225-29-82", href: "tel:+998672252982" }],
+      trustPhone: {
+        display: "+99867 236-80-00 (ext. 1428)",
+        href: "tel:+998672368000",
+      },
+      email: { display: "info@sirdaryo.uz", href: "mailto:info@sirdaryo.uz" },
+      territorialOffices: sirdaryoTerritoryLinks.map(({ url, en: label }) => ({ url, label })),
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram (khokimiyat)",
+          url: "https://www.instagram.com/sirdaryohokimligi/",
+        },
+        {
+          id: "facebook",
+          label: "Facebook (khokimiyat)",
+          url: "https://www.facebook.com/Sirdaryohokimligi/",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/eo_turdimov" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/turdimov",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@PRESSSERVICEMZ",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/e_turdimov/",
+        },
+        { id: "twitter", label: "X (Twitter)", url: "https://x.com/e_turdimov" },
+        { id: "telegram", label: "Telegram (region)", url: "https://t.me/SirdaryoUz" },
+      ],
+      address: "120100, Gulistan, Islam Karimov street, 60",
+      transport:
+        "Buses 2, 2, 12 and route taxis on the “Railway station – University” route — “Yurt Bayrogi square” stop",
+      hours: "Monday–Friday",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are taken from the UzGovInfo portal (govinfo.uz), page of the Syrdarya regional administration.",
+        reuseNoticeBefore: "When using materials from this site, a link to the ",
+        reuseLinkText: "site",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/sirdaryo",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -170,7 +308,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Syrdarya regional administration on gov.uz (sirdaryo).",
+        "Official section of the Syrdarya regional administration on gov.uz (sirdaryo): phone +99867 225-29-82, trust line +99867 236-80-00 (ext. 1428), email info[at]sirdaryo.uz, address 120100, Gulistan, Islam Karimov street 60, buses and route taxis to Yurt Bayrogi square stop, links to cities and districts on gov.uz, social media (Instagram, Facebook, Telegram, YouTube, X), weekday reception.",
       orgName: "Syrdarya regional administration",
       sameAs: [
         "https://gov.uz/en/sirdaryo",
@@ -186,8 +324,8 @@ export default {
           a: "On the government portal: https://gov.uz/en/sirdaryo (also https://gov.uz/ru/sirdaryo and https://gov.uz/oz/sirdaryo). The catalog link matches your interface language.",
         },
         {
-          q: "What is the trust line on the portal?",
-          a: "The portal lists +998 67 236-80-00 (ext. 1428) — see “All numbers” on gov.uz.",
+          q: "What phones, email, address and transport are listed for contact?",
+          a: "Phone +99867 225-29-82, trust line +99867 236-80-00 (ext. 1428), email info@sirdaryo.uz, address 120100, Gulistan, Islam Karimov street 60; cities, districts, social media and routes — in the contacts block on this page (per govinfo.uz); see “All numbers” on gov.uz for the full list.",
         },
         {
           q: "Where are e-government services of the khokimiyat?",
@@ -204,12 +342,74 @@ export default {
     pageTitle: "Sirdaryo viloyati hokimligi",
     intro: [
       "Sirdaryo viloyati hokimligi — viloyat hududidagi ijroiya hokimiyati organi; qonunchilik, Prezident va Vazirlar Kengashi qarorlarini amalga oshiradi va viloyat ijtimoiy-iqtisodiy rivojlanishini taʼminlaydi.",
-      "gov.uz «sirdaryo» boʻlimi (https://gov.uz/oz/sirdaryo) da hokimiyat haqida: tuzilma, rahbariyat, markaziy apparat, boʻysunuvchi korxonalar, tumanlar va shaharlar, aloqa. «Faoliyat»da roʻyxatdan oʻtish, Konstitutsiya, ochiq muloqot, mobil qabulxona, investitsiyalar va tashqi savdo, ijtimoiy soha, iqtisodiyot, yoshlar siyosati, qishloq xoʻjaligi, eʼlonlar va tenderlar, vakansiyalar, xalqaro hamkorlik, korrupsiyaga qarshi kurash. «Davlat xizmatlari»da viloyat hokimligi tomonidan koʻrsatiladigan elektron davlat xizmatlari. «Hujjatlar»da faoliyat bilan bogʻliq qonunlar va qarorlar. «Raqamli davlat»da savollar-javoblar, ochiq maʼlumotlar portali, byudjet jarayonining shaffofligi (3299-sonli qoidalar), faoliyat boʻyicha ochiq maʼlumotlar (UP-6247), ochiqlik indeksi (UP-154), ijtimoiy ahamiyat maʼlumotlari. Matbuot va aloqa. Ishonch telefoni: +998 67 236-80-00 (1428) — «Barcha raqamlar» dan tekshiring.",
+      "gov.uz «sirdaryo» boʻlimi (https://gov.uz/oz/sirdaryo) da hokimiyat haqida: tuzilma, rahbariyat, markaziy apparat, boʻysunuvchi korxonalar, tumanlar va shaharlar, aloqa. «Faoliyat»da roʻyxatdan oʻtish, Konstitutsiya, ochiq muloqot, mobil qabulxona, investitsiyalar va tashqi savdo, ijtimoiy soha, iqtisodiyot, yoshlar siyosati, qishloq xoʻjaligi, eʼlonlar va tenderlar, vakansiyalar, xalqaro hamkorlik, korrupsiyaga qarshi kurash. «Davlat xizmatlari»da viloyat hokimligi tomonidan koʻrsatiladigan elektron davlat xizmatlari. «Hujjatlar»da faoliyat bilan bogʻliq qonunlar va qarorlar. «Raqamli davlat»da savollar-javoblar, ochiq maʼlumotlar portali, byudjet jarayonining shaffofligi (3299-sonli qoidalar), faoliyat boʻyicha ochiq maʼlumotlar (UP-6247), ochiqlik indeksi (UP-154), ijtimoiy ahamiyat maʼlumotlari. Matbuot va aloqa. UzGovInfo (govinfo.uz) va gov.uz boʻlimi boʻyicha: telefon +99867 225-29-82, ishonch telefoni +99867 236-80-00 (1428), elektron pochta info@sirdaryo.uz, manzil 120100, Guliston, Islom Karimov koʻchasi, 60; transport, shahar va tumanlar hamda ijtimoiy tarmoqlar — kontaktlar blokida; toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
       "Sirdaryo viloyati fuqarolari va tadbirkorlari uchun rasmiy manba.",
     ],
     officialSite: {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText: "Sirdaryo viloyati hokimligi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        territorialOffices: "Shahar va tumanlar",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99867 225-29-82", href: "tel:+998672252982" }],
+      trustPhone: {
+        display: "+99867 236-80-00 (1428)",
+        href: "tel:+998672368000",
+      },
+      email: { display: "info@sirdaryo.uz", href: "mailto:info@sirdaryo.uz" },
+      territorialOffices: sirdaryoTerritoryLinks.map(({ url, uz: label }) => ({ url, label })),
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram (hokimiyat)",
+          url: "https://www.instagram.com/sirdaryohokimligi/",
+        },
+        {
+          id: "facebook",
+          label: "Facebook (hokimiyat)",
+          url: "https://www.facebook.com/Sirdaryohokimligi/",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/eo_turdimov" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/turdimov",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@PRESSSERVICEMZ",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/e_turdimov/",
+        },
+        { id: "twitter", label: "X (Twitter)", url: "https://x.com/e_turdimov" },
+        { id: "telegram", label: "Telegram (viloyat)", url: "https://t.me/SirdaryoUz" },
+      ],
+      address: "120100, Guliston, Islom Karimov koʻchasi, 60",
+      transport:
+        "Avtobuslar 2, 2, 12, «Temir yoʻl vokzali – Universitet» yoʻnalishidagi marshrutkalar — «Yurt bayrogʻi maydoni» bekati",
+      hours: "Dushanba–juma",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz), Sirdaryo viloyati hokimligi sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/sirdaryo",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -266,7 +466,7 @@ export default {
     },
     schema: {
       description:
-        "Sirdaryo viloyati hokimligining gov.uz portali boʻlimi (sirdaryo).",
+        "Sirdaryo viloyati hokimligining gov.uz portali boʻlimi (sirdaryo): telefon +99867 225-29-82, ishonch telefoni +99867 236-80-00 (1428), elektron pochta info[at]sirdaryo.uz, manzil 120100, Guliston, Islom Karimov koʻchasi, 60, «Yurt bayrogʻi maydoni» bekati, gov.uz dagi shahar va tumanlar havolalari, ijtimoiy tarmoqlar (Instagram, Facebook, Telegram, YouTube, X), ish kunlari.",
       orgName: "Sirdaryo viloyati hokimligi",
       sameAs: [
         "https://gov.uz/oz/sirdaryo",
@@ -282,8 +482,8 @@ export default {
           a: "https://gov.uz/oz/sirdaryo (ru va en ham mavjud).",
         },
         {
-          q: "Ishonch telefoni qanday?",
-          a: "+998 67 236-80-00 (1428) — «Barcha raqamlar» dan aniqlang.",
+          q: "Aloqa uchun qanday telefon, pochta, manzil va transport koʻrsatilgan?",
+          a: "Telefon +99867 225-29-82, ishonch telefoni +99867 236-80-00 (1428), elektron pochta info@sirdaryo.uz, manzil 120100, Guliston, Islom Karimov koʻchasi, 60; shahar va tumanlar, ijtimoiy tarmoqlar va marshrutlar — sahifadagi kontaktlar blokida (govinfo.uz boʻyicha); toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
         },
         {
           q: "Elektron davlat xizmatlari qayerda?",

@@ -2,18 +2,84 @@
  * Хокимият Андижанской области
  * Официальный раздел: https://gov.uz/ru/andijan
  */
+const andijanTerritoryLinks = [
+  { url: "https://gov.uz/kurgontepa/", ru: "Кургантепинский район", en: "Kurgan tepa district", uz: "Kurgʻtepa tumani" },
+  { url: "https://gov.uz/ulugnor/", ru: "Улугнорский район", en: "Ulugnor district", uz: "Ulugʻnor tumani" },
+  { url: "https://gov.uz/buloqboshi/", ru: "Булакбашинский район", en: "Bulokbashi district", uz: "Buloqboshi tumani" },
+  { url: "https://gov.uz/buston/", ru: "Бостанский район", en: "Boston district", uz: "Buston tumani" },
+  { url: "https://gov.uz/shahrixon/", ru: "Шахриханский район", en: "Shahrixon district", uz: "Shahrixon tumani" },
+  { url: "https://gov.uz/oltinkul/", ru: "Алтынкульский район", en: "Oltinkul district", uz: "Oltinkoʻl tumani" },
+  { url: "https://gov.uz/xonobod/", ru: "город Ханабад", en: "Khanabad city", uz: "Xonobod shahri" },
+  { url: "https://gov.uz/baliqchi/", ru: "Балыкчинский район", en: "Baliqchi district", uz: "Baliqchi tumani" },
+  { url: "https://gov.uz/marhamat/", ru: "Мархаматский район", en: "Marhamat district", uz: "Marhamat tumani" },
+  { url: "https://gov.uz/jalaquduq/", ru: "Джалакудукский район", en: "Jalaquduq district", uz: "Jalaquduq tumani" },
+  { url: "https://gov.uz/paxtaobod/", ru: "Пахтаабадский район", en: "Pakhtaabad district", uz: "Paxtaobod tumani" },
+  { url: "https://gov.uz/andijonshahar/", ru: "город Андижан", en: "Andijan city", uz: "Andijon shahri" },
+  { url: "https://gov.uz/asaka/", ru: "Асакинский район", en: "Asaka district", uz: "Asaka tumani" },
+  { url: "https://gov.uz/andijontuman/", ru: "Андижанский район", en: "Andijan district", uz: "Andijon tumani" },
+  { url: "https://gov.uz/izboskan/", ru: "Избасканский район", en: "Izboskan district", uz: "Izboskan tumani" },
+  { url: "https://gov.uz/xojaobod/", ru: "Ходжаабадский район", en: "Khojaabad district", uz: "Xoʻjaobod tumani" },
+];
+
 export default {
   ru: {
     pageTitle: "Хокимият Андижанской области",
     intro: [
       "Хокимият Андижанской области — орган исполнительной власти на территории области; обеспечивает реализацию законодательства, решений Президента и Кабинета Министров, социально-экономическое развитие региона, координацию деятельности подведомственных органов и взаимодействие с населением и бизнесом.",
-      "На портале gov.uz раздел andijan (https://gov.uz/ru/andijan) содержит сведения о хокимияте: о хокимияте, структуре организации, руководстве, центральном аппарате, организациях системы, региональных управлениях, Кенгше народных депутатов Андижанской области, вакансиях. В «Деятельности» — регистрация и отборы, государственные программы, противодействие коррупции, электронное правительство, международное сотрудничество, молодёжная и гендерная политика, тендеры. В «Государственных услугах» — услуги из единого реестра, интерактивные услуги хокимията, архив реестра, заявки на приватизацию объектов жилищного фонда, обращения граждан и организаций. В «Документах» — законы и решения по компетенции, обсуждение проектов НПА. В «Цифровом правительстве» — обратная связь, часто задаваемые вопросы, открытые данные, PF-6247, раздел «Открытость». Пресс-служба: новости, заявления руководства, календарь событий, Конституция, соцсети. Контакты: опросы, контакты. Телефон доверия на портале: +998 74 225-80-00 (полный список — «Все номера» на gov.uz).",
+      "На портале gov.uz раздел andijan (https://gov.uz/ru/andijan) содержит сведения о хокимияте: о хокимияте, структуре организации, руководстве, центральном аппарате, организациях системы, региональных управлениях, Кенгше народных депутатов Андижанской области, вакансиях. В «Деятельности» — регистрация и отборы, государственные программы, противодействие коррупции, электронное правительство, международное сотрудничество, молодёжная и гендерная политика, тендеры. В «Государственных услугах» — услуги из единого реестра, интерактивные услуги хокимията, архив реестра, заявки на приватизацию объектов жилищного фонда, обращения граждан и организаций. В «Документах» — законы и решения по компетенции, обсуждение проектов НПА. В «Цифровом правительстве» — обратная связь, часто задаваемые вопросы, открытые данные, PF-6247, раздел «Открытость». Пресс-служба: новости, заявления руководства, календарь событий, Конституция, соцсети. Контакты: опросы, контакты. По сведениям UzGovInfo (govinfo.uz) и раздела на gov.uz: телефон +99874 223-30-31, телефон доверия +99874 225-80-00, электронная почта qabulhona@andijan.uz, адрес 170131, Андижан, ул. Абдурауф Фитрата, 239; ссылки на города и районы — в блоке контактов; полный список номеров — в «Все номера» на gov.uz.",
       "Полезен жителям и организациям Андижанской области при работе с региональными программами, госуслугами и официальными обращениями.",
     ],
     officialSite: {
       h2: "Официальный раздел на gov.uz",
       ctaText:
         "Перейти в раздел хокимията Андижанской области на gov.uz →",
+    },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        territorialOffices: "Города и районы",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99874 223-30-31", href: "tel:+998742233031" }],
+      trustPhone: { display: "+99874 225-80-00", href: "tel:+998742258000" },
+      email: { display: "qabulhona@andijan.uz", href: "mailto:qabulhona@andijan.uz" },
+      territorialOffices: andijanTerritoryLinks.map(({ url, ru: label }) => ({ url, label })),
+      social: [
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/share/17wz2NmfjY/?mibextid=wwXIfr",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/andpress" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/andijonpress/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCU1FXhhr-kNZuqF5NldJnMw",
+        },
+        { id: "twitter", label: "X (Twitter)", url: "https://x.com/andpressa1" },
+      ],
+      address: "170131, Андижан, ул. Абдурауф Фитрата, 239",
+      transport: "Автобусы: 1, 7, 8, 24",
+      hours: "Понедельник–пятница, 09:00–18:00; обед 13:00–14:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница хокимията Андижанской области.",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/andijan",
+      },
     },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
@@ -72,7 +138,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел хокимията Андижанской области на портале gov.uz (andijan).",
+        "Официальный раздел хокимията Андижанской области на портале gov.uz (andijan): телефон +99874 223-30-31, телефон доверия +99874 225-80-00, электронная почта qabulhona[at]andijan.uz, адрес 170131, Андижан, ул. Абдурауф Фитрата, 239, ссылки на разделы городов и районов на gov.uz, социальные сети, автобусы 1, 7, 8, 24, понедельник–пятница 09:00–18:00, обед 13:00–14:00.",
       orgName: "Хокимият Андижанской области",
       sameAs: [
         "https://gov.uz/ru/andijan",
@@ -88,8 +154,8 @@ export default {
           a: "На портале государства: https://gov.uz/ru/andijan (также https://gov.uz/en/andijan и https://gov.uz/oz/andijan). В каталоге ссылка подставляется под язык интерфейса.",
         },
         {
-          q: "Какой телефон доверия указан на портале?",
-          a: "Обычно указывается +998 74 225-80-00; полный перечень — в «Все номера» на gov.uz.",
+          q: "Какие телефоны, почта, адрес и режим работы указаны для связи?",
+          a: "Телефон +99874 223-30-31, телефон доверия +99874 225-80-00, электронная почта qabulhona@andijan.uz, адрес 170131, Андижан, ул. Абдурауф Фитрата, 239; города и районы, транспорт и часы — в блоке контактов на странице (по govinfo.uz); полный перечень номеров — в «Все номера» на gov.uz.",
         },
         {
           q: "Где подать обращение?",
@@ -106,12 +172,59 @@ export default {
     pageTitle: "Andijan regional administration",
     intro: [
       "The Andijan regional administration is the executive organ of the Andijan region; it implements legislation and decisions of the President and Cabinet of Ministers, guides the region’s socio-economic development and coordinates subordinate bodies and engagement with citizens and businesses.",
-      "The gov.uz andijan section (https://gov.uz/en/andijan) publishes information about the khokimiyat: about the administration, structure, leadership, central office, subordinate organisations, regional departments, Andijan regional Council of People’s Deputies, vacancies. Activities include registration and selections, state programmes, anti-corruption, e-government, international cooperation, youth and gender policy, tenders. Public services include the unified register, the khokimiyat’s interactive services, register archive, applications for privatisation of housing fund assets, appeals from individuals and legal entities. Documents cover laws and decisions within competence, discussion of draft NPA. Digital government includes feedback, FAQ, open data, PF-6247, openness. Press service: news, leadership statements, calendar, Constitution, social media. Contacts: surveys, contacts. Trust line on the portal is commonly +998 74 225-80-00 (see “All numbers” on gov.uz).",
+      "The gov.uz andijan section (https://gov.uz/en/andijan) publishes information about the khokimiyat: about the administration, structure, leadership, central office, subordinate organisations, regional departments, Andijan regional Council of People’s Deputies, vacancies. Activities include registration and selections, state programmes, anti-corruption, e-government, international cooperation, youth and gender policy, tenders. Public services include the unified register, the khokimiyat’s interactive services, register archive, applications for privatisation of housing fund assets, appeals from individuals and legal entities. Documents cover laws and decisions within competence, discussion of draft NPA. Digital government includes feedback, FAQ, open data, PF-6247, openness. Press service: news, leadership statements, calendar, Constitution, social media. Contacts: surveys, contacts. Per UzGovInfo (govinfo.uz) and the gov.uz section: phone +99874 223-30-31, trust line +99874 225-80-00, email qabulhona@andijan.uz, address 170131, Andijan, Abdurauf Fitrat street 239; links to cities and districts are in the contacts block; for the full number list see “All numbers” on gov.uz.",
       "Useful for residents and organisations in Andijan region seeking regional programmes, public services and official contacts.",
     ],
     officialSite: {
       h2: "Official section on gov.uz",
       ctaText: "Open the Andijan regional administration section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        territorialOffices: "Cities and districts",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99874 223-30-31", href: "tel:+998742233031" }],
+      trustPhone: { display: "+99874 225-80-00", href: "tel:+998742258000" },
+      email: { display: "qabulhona@andijan.uz", href: "mailto:qabulhona@andijan.uz" },
+      territorialOffices: andijanTerritoryLinks.map(({ url, en: label }) => ({ url, label })),
+      social: [
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/share/17wz2NmfjY/?mibextid=wwXIfr",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/andpress" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/andijonpress/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCU1FXhhr-kNZuqF5NldJnMw",
+        },
+        { id: "twitter", label: "X (Twitter)", url: "https://x.com/andpressa1" },
+      ],
+      address: "170131, Andijan, Abdurauf Fitrat street, 239",
+      transport: "Buses: 1, 7, 8, 24",
+      hours: "Monday–Friday, 09:00–18:00; lunch break 13:00–14:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are taken from the UzGovInfo portal (govinfo.uz), page of the Andijan regional administration.",
+        reuseNoticeBefore: "When using materials from this site, a link to the ",
+        reuseLinkText: "site",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/andijan",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -169,7 +282,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Andijan regional administration on gov.uz (andijan).",
+        "Official section of the Andijan regional administration on gov.uz (andijan): phone +99874 223-30-31, trust line +99874 225-80-00, email qabulhona[at]andijan.uz, address 170131, Andijan, Abdurauf Fitrat street 239, links to city and district sections on gov.uz, social media, buses 1, 7, 8, 24, Monday–Friday 09:00–18:00, lunch 13:00–14:00.",
       orgName: "Andijan regional administration",
       sameAs: [
         "https://gov.uz/en/andijan",
@@ -185,8 +298,8 @@ export default {
           a: "On the government portal: https://gov.uz/en/andijan (also https://gov.uz/ru/andijan and https://gov.uz/oz/andijan). The catalog link matches your interface language.",
         },
         {
-          q: "What is the trust line on the portal?",
-          a: "The portal commonly lists +998 74 225-80-00; see “All numbers” on gov.uz for the full list.",
+          q: "What phones, email, address, and office hours are listed for contact?",
+          a: "Phone +99874 223-30-31, trust line +99874 225-80-00, email qabulhona@andijan.uz, address 170131, Andijan, Abdurauf Fitrat street 239; cities and districts, transport and hours — in the contacts block on this page (per govinfo.uz); see “All numbers” on gov.uz for the full list.",
         },
         {
           q: "Where can I submit an appeal?",
@@ -203,12 +316,59 @@ export default {
     pageTitle: "Andijon viloyati hokimligi",
     intro: [
       "Andijon viloyati hokimligi — viloyat hududidagi ijroiya hokimiyati organi; qonunchilik, Prezident va Vazirlar Kengashi qarorlarini amalga oshiradi, hududning ijtimoiy-iqtisodiy rivojlanishini taʼminlaydi, boʻysunuvchi organlar va boshqa subyektlar bilan hamkorlik qiladi.",
-      "gov.uz «andijan» boʻlimi (https://gov.uz/oz/andijan) da hokimiyat haqida: tuzilma, rahbariyat, markaziy apparat, hududiy boshqarmalar, Andijon viloyati xalq deputatlari Kengashi, boʻsh ish oʻrinlari. «Faoliyat»da davlat dasturlari, korrupsiyaga qarshi kurash, elektron hukumat, xalqaro hamkorlik, yoshlar va gender siyosati, tenderlar. «Davlat xizmatlari»da yagona reyestr, hokimiyatning interaktiv xizmatlari, arxiv, uy-joy fondini xususiylashtirish arizalari, murojaatlar. «Hujjatlar»da vakolatdagi qonun va qarorlar, loyiha muhokamasi. «Raqamli davlat»da qayta aloqa, savollar-javoblar, ochiq maʼlumotlar, PF-6247, OCHIQLIK. Matbuot va bogʻlanish. Ishonch telefoni: +998 74 225-80-00 («Barcha raqamlar» dan tekshiring).",
+      "gov.uz «andijan» boʻlimi (https://gov.uz/oz/andijan) da hokimiyat haqida: tuzilma, rahbariyat, markaziy apparat, hududiy boshqarmalar, Andijon viloyati xalq deputatlari Kengashi, boʻsh ish oʻrinlari. «Faoliyat»da davlat dasturlari, korrupsiyaga qarshi kurash, elektron hukumat, xalqaro hamkorlik, yoshlar va gender siyosati, tenderlar. «Davlat xizmatlari»da yagona reyestr, hokimiyatning interaktiv xizmatlari, arxiv, uy-joy fondini xususiylashtirish arizalari, murojaatlar. «Hujjatlar»da vakolatdagi qonun va qarorlar, loyiha muhokamasi. «Raqamli davlat»da qayta aloqa, savollar-javoblar, ochiq maʼlumotlar, PF-6247, OCHIQLIK. Matbuot va bogʻlanish. UzGovInfo (govinfo.uz) va gov.uz boʻlimi boʻyicha: telefon +99874 223-30-31, ishonch liniyasi +99874 225-80-00, elektron pochta qabulhona@andijan.uz, manzil 170131, Andijon, Abdurauf Fitrat koʻchasi, 239; shahar va tumanlar havolalari — kontaktlar blokida; toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
       "Viloyat aholisi va tashkilotlari uchun rasmiy manba.",
     ],
     officialSite: {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText: "Andijon viloyati hokimligi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        territorialOffices: "Shahar va tumanlar",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99874 223-30-31", href: "tel:+998742233031" }],
+      trustPhone: { display: "+99874 225-80-00", href: "tel:+998742258000" },
+      email: { display: "qabulhona@andijan.uz", href: "mailto:qabulhona@andijan.uz" },
+      territorialOffices: andijanTerritoryLinks.map(({ url, uz: label }) => ({ url, label })),
+      social: [
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/share/17wz2NmfjY/?mibextid=wwXIfr",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/andpress" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/andijonpress/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCU1FXhhr-kNZuqF5NldJnMw",
+        },
+        { id: "twitter", label: "X (Twitter)", url: "https://x.com/andpressa1" },
+      ],
+      address: "170131, Andijon, Abdurauf Fitrat koʻchasi, 239",
+      transport: "Avtobuslar: 1, 7, 8, 24",
+      hours: "Dushanba–juma, 09:00–18:00; tushlik 13:00–14:00",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz) boʻyicha Andijon viloyati hokimligi sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/andijan",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -264,7 +424,7 @@ export default {
     },
     schema: {
       description:
-        "Andijon viloyati hokimligining gov.uz portali boʻlimi (andijan).",
+        "Andijon viloyati hokimligining gov.uz portali boʻlimi (andijan): telefon +99874 223-30-31, ishonch liniyasi +99874 225-80-00, elektron pochta qabulhona[at]andijan.uz, manzil 170131, Andijon, Abdurauf Fitrat koʻchasi, 239, gov.uz dagi shahar va tumanlar havolalari, ijtimoiy tarmoqlar, avtobuslar 1, 7, 8, 24, dushanba–juma 09:00–18:00, tushlik 13:00–14:00.",
       orgName: "Andijon viloyati hokimligi",
       sameAs: [
         "https://gov.uz/oz/andijan",
@@ -280,8 +440,8 @@ export default {
           a: "https://gov.uz/oz/andijan (ru va en variantlari ham mavjud).",
         },
         {
-          q: "Ishonch telefoni qanday?",
-          a: "Odatda +998 74 225-80-00; toʻliq roʻyxat — «Barcha raqamlar».",
+          q: "Aloqa uchun qanday telefonlar, pochta, manzil va ish vaqti koʻrsatilgan?",
+          a: "Telefon +99874 223-30-31, ishonch liniyasi +99874 225-80-00, elektron pochta qabulhona@andijan.uz, manzil 170131, Andijon, Abdurauf Fitrat koʻchasi, 239; shahar va tumanlar, transport va vaqt — sahifadagi kontaktlar blokida (govinfo.uz boʻyicha); toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
         },
         {
           q: "Murojaat qayerda?",

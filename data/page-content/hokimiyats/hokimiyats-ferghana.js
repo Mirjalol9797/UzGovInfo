@@ -2,18 +2,89 @@
  * Хокимият Ферганской области
  * Официальный раздел: https://gov.uz/ru/ferghana
  */
+const ferghanaTerritoryLinks = [
+  { url: "https://gov.uz/qoqon/", ru: "Город Коканд", en: "Kokand city", uz: "Qo'qon shahri" },
+  { url: "https://gov.uz/quva", ru: "Кувинский район", en: "Quva district", uz: "Quva tumani" },
+  { url: "https://gov.uz/qoshtepa", ru: "Куштепинский район", en: "Qoshtepa district", uz: "Qoshtepa tumani" },
+  { url: "https://gov.uz/bogdod", ru: "Багдадский район", en: "Bogdod district", uz: "Bogʻdod tumani" },
+  { url: "https://gov.uz/dangara", ru: "Дангаринский район", en: "Dangara district", uz: "Dangʻara tumani" },
+  { url: "https://gov.uz/oltiariq", ru: "Алтыарыкский район", en: "Oltiariq district", uz: "Oltiariq tumani" },
+  { url: "https://gov.uz/margilan", ru: "Город Маргилан", en: "Margilan city", uz: "Marg'ilon shahri" },
+  { url: "https://gov.uz/quvasoy", ru: "Город Кувасай", en: "Quvasoy city", uz: "Quvasoy shahri" },
+  { url: "https://gov.uz/buvayda/", ru: "Бувайдинский район", en: "Buvayda district", uz: "Buvayda tumani" },
+  { url: "https://gov.uz/soh", ru: "Сохский район", en: "Sokh district", uz: "Soʻh tumani" },
+  { url: "https://gov.uz/yaypan/", ru: "Узбекистанский район", en: "Uzbekistan district", uz: "Oʻzbekiston tumani" },
+  { url: "https://gov.uz/uchkoprik", ru: "Учкуприкский район", en: "Uchkuprik district", uz: "Uchkoʻprik tumani" },
+  { url: "https://gov.uz/oz/beshariq", ru: "Бешарыкский район", en: "Beshariq district", uz: "Beshariq tumani" },
+  { url: "https://gov.uz/yozyovon", ru: "Язъяванский район", en: "Yozyovon district", uz: "Yozyovon tumani" },
+  { url: "https://gov.uz/fargona", ru: "Город Фергана", en: "Fergana city", uz: "Farg'ona shahri" },
+  { url: "https://gov.uz/toshloq", ru: "Ташлакский район", en: "Toshloq district", uz: "Toshloq tumani" },
+  { url: "https://gov.uz/fargonatuman", ru: "Ферганский район", en: "Fergana district", uz: "Farg'ona tumani" },
+  { url: "https://gov.uz/furqattuman", ru: "Фуркатский район", en: "Furqat district", uz: "Furqat tumani" },
+  { url: "https://gov.uz/rishton", ru: "Риштанский район", en: "Rishton district", uz: "Rishton tumani" },
+];
+
 export default {
   ru: {
     pageTitle: "Хокимият Ферганской области",
     intro: [
       "Хокимият Ферганской области — орган исполнительной власти на территории области; обеспечивает реализацию законодательства, решений Президента и Кабинета Министров и социально-экономическое развитие региона.",
-      "На портале gov.uz раздел ferghana (https://gov.uz/ru/ferghana) содержит сведения о хокимияте: о хокимияте, структуре организации, руководстве, центральном аппарате, подведомственных организациях, региональных управлениях, общественном совете, вакансиях, Ферганском областном Кенеше народных депутатов, координационных и совещательных органах. В «Деятельности» — перепись, объявления, государственные программы и их реализация, конкурсы (тендеры), электронное правительство, международное сотрудничество, противодействие коррупции, молодёжная политика, гендерное равенство. В «Государственных услугах» — единый реестр госуслуг, интерактивные услуги администрации Ферганской области, единый интерактивный портал, обращения граждан и организаций, электронные госуслуги хокимията, руководство по My.gov.uz. В «Документах» — Конституция, нормативные документы, обсуждение проектов НПА, утратившие силу акты, аналитика, план участия в землепользовании. В «Цифровом правительстве» — данные на портале открытых данных, обратная связь, правовые акты о прозрачности, открытые данные по ПФ-6247, приложения к положению 3299 о размещении информации на сайтах, отслеживание обращений, геоданные, «умный город» / «цифровой регион», новые технологии. Пресс-служба: методические материалы и термины, о пресс-службе, новости, заявления руководства, календарь, заседания, пресс-конференции, пресс-релизы, статистика и исследования, общественные мероприятия, социальная сфера, погода и ЧС. Контакты: обращение к хокиму области, регламент телефона доверия, предотвращение коррупции, опросы, FAQ, онлайн-опросы, сообщения о происшествиях, обратная связь. Горячая линия на портале: +998 73 244-05-23 — уточняйте в «Все номера» на gov.uz.",
+      "На портале gov.uz раздел ferghana (https://gov.uz/ru/ferghana) содержит сведения о хокимияте: о хокимияте, структуре организации, руководстве, центральном аппарате, подведомственных организациях, региональных управлениях, общественном совете, вакансиях, Ферганском областном Кенеше народных депутатов, координационных и совещательных органах. В «Деятельности» — перепись, объявления, государственные программы и их реализация, конкурсы (тендеры), электронное правительство, международное сотрудничество, противодействие коррупции, молодёжная политика, гендерное равенство. В «Государственных услугах» — единый реестр госуслуг, интерактивные услуги администрации Ферганской области, единый интерактивный портал, обращения граждан и организаций, электронные госуслуги хокимията, руководство по My.gov.uz. В «Документах» — Конституция, нормативные документы, обсуждение проектов НПА, утратившие силу акты, аналитика, план участия в землепользовании. В «Цифровом правительстве» — данные на портале открытых данных, обратная связь, правовые акты о прозрачности, открытые данные по ПФ-6247, приложения к положению 3299 о размещении информации на сайтах, отслеживание обращений, геоданные, «умный город» / «цифровой регион», новые технологии. Пресс-служба: методические материалы и термины, о пресс-службе, новости, заявления руководства, календарь, заседания, пресс-конференции, пресс-релизы, статистика и исследования, общественные мероприятия, социальная сфера, погода и ЧС. Контакты: обращение к хокиму области, регламент телефона доверия, предотвращение коррупции, опросы, FAQ, онлайн-опросы, сообщения о происшествиях, обратная связь. По сведениям UzGovInfo (govinfo.uz): телефон и телефон доверия +99873 244-05-23, электронная почта info@fergana.uz, адрес 150100, г. Фергана, ул. Навои, 15; автобусы по маршрутам 1, 2, 6, 6А и 8; приём по понедельникам–субботам, 09:00–18:00; города и районы области, соцсети — в блоке контактов; полный список номеров — в «Все номера» на gov.uz.",
       "Полезен жителям и бизнесу Ферганской области, инвесторам и СМИ при работе с региональными программами и официальными обращениями.",
     ],
     officialSite: {
       h2: "Официальный раздел на gov.uz",
       ctaText:
         "Перейти в раздел хокимията Ферганской области на gov.uz →",
+    },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        territorialOffices: "Города и районы",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99873 244-05-23", href: "tel:+998732440523" }],
+      trustPhone: {
+        display: "+99873 244-05-23",
+        href: "tel:+998732440523",
+      },
+      email: { display: "info@fergana.uz", href: "mailto:info@fergana.uz" },
+      territorialOffices: ferghanaTerritoryLinks.map(({ url, ru: label }) => ({ url, label })),
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/fviloyatihokimligi",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/fvhokimligi" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/fvhokimligi",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@fvhokimligi",
+        },
+      ],
+      address: "150100, г. Фергана, ул. Навои, 15",
+      transport: "Автобусы по маршрутам 1, 2, 6, 6А и 8",
+      hours: "Понедельник–суббота, 09:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница хокимията Ферганской области.",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/ferghana",
+      },
     },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
@@ -72,7 +143,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел хокимията Ферганской области на портале gov.uz (ferghana).",
+        "Официальный раздел хокимията Ферганской области на портале gov.uz (ferghana): телефон и телефон доверия +99873 244-05-23, электронная почта info[at]fergana.uz, адрес 150100, г. Фергана, ул. Навои, 15, автобусы по маршрутам 1, 2, 6, 6А и 8, приём по понедельникам–субботам 09:00–18:00, ссылки на города и районы на gov.uz, соцсети (Instagram, Telegram, Facebook, YouTube).",
       orgName: "Хокимият Ферганской области",
       sameAs: [
         "https://gov.uz/ru/ferghana",
@@ -88,8 +159,8 @@ export default {
           a: "На портале государства: https://gov.uz/ru/ferghana (также https://gov.uz/en/ferghana и https://gov.uz/oz/ferghana). В каталоге ссылка подставляется под язык интерфейса.",
         },
         {
-          q: "Какой телефон горячей линии указан на портале?",
-          a: "На портале приводится +998 73 244-05-23 — уточняйте в «Все номера» на gov.uz.",
+          q: "Какие телефоны, почта, адрес, транспорт и режим приёма указаны для связи?",
+          a: "Телефон и телефон доверия +99873 244-05-23, электронная почта info@fergana.uz, адрес 150100, г. Фергана, ул. Навои, 15; автобусы по маршрутам 1, 2, 6, 6А и 8; понедельник–суббота, 09:00–18:00; города, районы и соцсети — в блоке контактов (по govinfo.uz); полный перечень номеров — в «Все номера» на gov.uz.",
         },
         {
           q: "Где интерактивные услуги администрации Ферганской области?",
@@ -106,13 +177,62 @@ export default {
     pageTitle: "Fergana regional administration",
     intro: [
       "The Fergana regional administration is the executive body of Fergana region; it implements legislation and decisions of the President and Cabinet of Ministers and guides the region’s socio-economic development.",
-      "The gov.uz ferghana section (https://gov.uz/en/ferghana) publishes information about the khokimiyat: about the administration, structure, leadership, central staff, subordinate organisations, regional departments, public council, vacancies, Council of People’s Deputies of Fergana region, coordinating and advisory bodies. Activities include census, announcements, state programmes and their implementation, competitions (tenders), e-government, international cooperation, anti-corruption, youth policy, gender equality. Public services include the unified register of public services, interactive services of the Fergana regional administration, unified interactive public services, appeals, e-government services of the regional khokimiyat, My.gov.uz user guide. Documents include the Constitution, normative documents, discussion of draft legal acts, repealed documents, analytical information, participatory land use plan. Digital government includes open data portal content, feedback, transparency legal acts, open data on PF-6247, Statement 3299 appendices on publishing information on official websites, appeal tracking, geospatial data, Smart City / Digital Region, new technologies. Press service: guidelines, about the press service, news, leadership statements, calendar, meetings, press conferences, press releases, statistics and research, public events, social sectors, weather and emergencies. Contacts: appeal to the regional governor, trust line regulations, anti-corruption prevention, surveys, FAQ, online surveys, incident reports, feedback. Hotline on the portal: +998 73 244-05-23 — verify under “All numbers” on gov.uz.",
+      "The gov.uz ferghana section (https://gov.uz/en/ferghana) publishes information about the khokimiyat: about the administration, structure, leadership, central staff, subordinate organisations, regional departments, public council, vacancies, Council of People’s Deputies of Fergana region, coordinating and advisory bodies. Activities include census, announcements, state programmes and their implementation, competitions (tenders), e-government, international cooperation, anti-corruption, youth policy, gender equality. Public services include the unified register of public services, interactive services of the Fergana regional administration, unified interactive public services, appeals, e-government services of the regional khokimiyat, My.gov.uz user guide. Documents include the Constitution, normative documents, discussion of draft legal acts, repealed documents, analytical information, participatory land use plan. Digital government includes open data portal content, feedback, transparency legal acts, open data on PF-6247, Statement 3299 appendices on publishing information on official websites, appeal tracking, geospatial data, Smart City / Digital Region, new technologies. Press service: guidelines, about the press service, news, leadership statements, calendar, meetings, press conferences, press releases, statistics and research, public events, social sectors, weather and emergencies. Contacts: appeal to the regional governor, trust line regulations, anti-corruption prevention, surveys, FAQ, online surveys, incident reports, feedback. Per UzGovInfo (govinfo.uz): phone and trust line +99873 244-05-23, email info@fergana.uz, address 150100, Fergana city, Navoi street 15; buses on routes 1, 2, 6, 6A and 8; reception Monday–Saturday, 09:00–18:00; cities and districts of the region and social media are in the contacts block; for the full number list see “All numbers” on gov.uz.",
       "Useful for residents and businesses in Fergana region, investors and media seeking regional programmes and official contacts.",
     ],
     officialSite: {
       h2: "Official section on gov.uz",
       ctaText:
         "Open the Fergana regional administration section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        territorialOffices: "Cities and districts",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99873 244-05-23", href: "tel:+998732440523" }],
+      trustPhone: {
+        display: "+99873 244-05-23",
+        href: "tel:+998732440523",
+      },
+      email: { display: "info@fergana.uz", href: "mailto:info@fergana.uz" },
+      territorialOffices: ferghanaTerritoryLinks.map(({ url, en: label }) => ({ url, label })),
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/fviloyatihokimligi",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/fvhokimligi" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/fvhokimligi",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@fvhokimligi",
+        },
+      ],
+      address: "150100, Fergana city, Navoi street, 15",
+      transport: "Buses on routes 1, 2, 6, 6A and 8",
+      hours: "Monday–Saturday, 09:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are taken from the UzGovInfo portal (govinfo.uz), page of the Fergana regional administration.",
+        reuseNoticeBefore: "When using materials from this site, a link to the ",
+        reuseLinkText: "site",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/ferghana",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -170,7 +290,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Fergana regional administration on gov.uz (ferghana).",
+        "Official section of the Fergana regional administration on gov.uz (ferghana): phone and trust line +99873 244-05-23, email info[at]fergana.uz, address 150100, Fergana city, Navoi street 15, buses on routes 1, 2, 6, 6A and 8, reception Monday–Saturday 09:00–18:00, links to cities and districts on gov.uz, social media (Instagram, Telegram, Facebook, YouTube).",
       orgName: "Fergana regional administration",
       sameAs: [
         "https://gov.uz/en/ferghana",
@@ -186,8 +306,8 @@ export default {
           a: "On the government portal: https://gov.uz/en/ferghana (also https://gov.uz/ru/ferghana and https://gov.uz/oz/ferghana). The catalog link matches your interface language.",
         },
         {
-          q: "What is the hotline on the portal?",
-          a: "The portal lists +998 73 244-05-23 — see “All numbers” on gov.uz.",
+          q: "What phones, email, address, transport and office hours are listed?",
+          a: "Phone and trust line +99873 244-05-23, email info@fergana.uz, address 150100, Fergana city, Navoi street 15; buses on routes 1, 2, 6, 6A and 8; Monday–Saturday, 09:00–18:00; cities, districts and social media — in the contacts block on this page (per govinfo.uz); see “All numbers” on gov.uz for the full list.",
         },
         {
           q: "Where are interactive services of the Fergana regional administration?",
@@ -204,12 +324,61 @@ export default {
     pageTitle: "Farg'ona viloyati hokimligi",
     intro: [
       "Farg'ona viloyati hokimligi — viloyat hududidagi ijroiya hokimiyati organi; qonunchilik, Prezident va Vazirlar Kengashi qarorlarini amalga oshiradi va viloyat ijtimoiy-iqtisodiy rivojlanishini taʼminlaydi.",
-      "gov.uz «ferghana» boʻlimi (https://gov.uz/oz/ferghana) da hokimiyat haqida: tuzilma, rahbariyat, markaziy apparat, boʻysunuvchi tashkilotlar, hududiy boshqarmalar, jamoatchilik kengashi, vakansiyalar, Farg'ona viloyati xalq deputatlari Kengashi, muvofiqlashtiruvchi va maslahat organlari. «Faoliyat»da roʻyxatdan oʻtish, eʼlonlar, davlat dasturlari va ularni amalga oshirish, tenderlar, elektron hukumat, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender. «Davlat xizmatlari»da yagona reestr, Farg'ona viloyati maʼmuriyatining interaktiv xizmatlari, yagona interaktiv portal, murojaatlar, viloyat hokimligining elektron xizmatlari, My.gov.uz qoʻllanmasi. «Hujjatlar»da Konstitutsiya, meʼyoriy hujjatlar, loyiha NPK muhokamasi, kuchini yoʻqotganlar, tahlil, yer dan foydalanish rejasi. «Raqamli davlat»da ochiq maʼlumotlar portali, qayta aloqa, shaffoflik toʻgʻrisidagi huquqiy hujjatlar, PF-6247, 3299-sonli qoidalar ilovalari, murojaatlarni kuzatish, geomaʼlumotlar, «Aqlli shahar» / raqamli viloyat. Matbuot va aloqa. Ishonch liniyasi: +998 73 244-05-23 — «Barcha raqamlar» dan tekshiring.",
+      "gov.uz «ferghana» boʻlimi (https://gov.uz/oz/ferghana) da hokimiyat haqida: tuzilma, rahbariyat, markaziy apparat, boʻysunuvchi tashkilotlar, hududiy boshqarmalar, jamoatchilik kengashi, vakansiyalar, xalq deputatlari Kengashi, muvofiqlashtiruvchi va maslahat organlari. «Faoliyat»da roʻyxatdan oʻtish, eʼlonlar, davlat dasturlari va ularni amalga oshirish, tenderlar, elektron hukumat, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender. «Davlat xizmatlari»da yagona reestr, Farg'ona viloyati maʼmuriyatining interaktiv xizmatlari, yagona interaktiv portal, murojaatlar, viloyat hokimligining elektron xizmatlari, My.gov.uz qoʻllanmasi. «Hujjatlar»da Konstitutsiya, meʼyoriy hujjatlar, loyiha NPK muhokamasi, kuchini yoʻqotganlar, tahlil, yer dan foydalanish rejasi. «Raqamli davlat»da ochiq maʼlumotlar portali, qayta aloqa, shaffoflik toʻgʻrisidagi huquqiy hujjatlar, PF-6247, 3299-sonli qoidalar ilovalari, murojaatlarni kuzatish, geomaʼlumotlar, «Aqlli shahar» / raqamli viloyat. Matbuot va aloqa. UzGovInfo (govinfo.uz) boʻyicha: telefon va ishonch telefoni +99873 244-05-23, elektron pochta info@fergana.uz, manzil 150100, Farg'ona shahri, Navoiy koʻchasi, 15; 1, 2, 6, 6A va 8-yoʻnalishdagi avtobuslar; dushanba–shanba, 09:00–18:00; viloyat shaharlari va tumanlari hamda ijtimoiy tarmoqlar — kontaktlar blokida; toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
       "Farg'ona viloyati fuqarolari va tadbirkorlari uchun rasmiy manba.",
     ],
     officialSite: {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText: "Farg'ona viloyati hokimligi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        territorialOffices: "Shahar va tumanlar",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99873 244-05-23", href: "tel:+998732440523" }],
+      trustPhone: {
+        display: "+99873 244-05-23",
+        href: "tel:+998732440523",
+      },
+      email: { display: "info@fergana.uz", href: "mailto:info@fergana.uz" },
+      territorialOffices: ferghanaTerritoryLinks.map(({ url, uz: label }) => ({ url, label })),
+      social: [
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/fviloyatihokimligi",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/fvhokimligi" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/fvhokimligi",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@fvhokimligi",
+        },
+      ],
+      address: "150100, Farg'ona shahri, Navoiy koʻchasi, 15",
+      transport: "1, 2, 6, 6A va 8-yoʻnalishdagi avtobuslar",
+      hours: "Dushanba–shanba, 09:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz), Farg'ona viloyati hokimligi sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/ferghana",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -266,7 +435,7 @@ export default {
     },
     schema: {
       description:
-        "Farg'ona viloyati hokimligining gov.uz portali boʻlimi (ferghana).",
+        "Farg'ona viloyati hokimligining gov.uz portali boʻlimi (ferghana): telefon va ishonch telefoni +99873 244-05-23, elektron pochta info[at]fergana.uz, manzil 150100, Farg'ona shahri, Navoiy koʻchasi, 15, 1/2/6/6A/8-yoʻnalish avtobuslari, dushanba–shanba 09:00–18:00, gov.uz dagi shahar va tumanlar havolalari, ijtimoiy tarmoqlar (Instagram, Telegram, Facebook, YouTube).",
       orgName: "Farg'ona viloyati hokimligi",
       sameAs: [
         "https://gov.uz/oz/ferghana",
@@ -282,8 +451,8 @@ export default {
           a: "https://gov.uz/oz/ferghana (ru va en ham mavjud).",
         },
         {
-          q: "Ishonch telefoni qanday?",
-          a: "+998 73 244-05-23 — «Barcha raqamlar» dan aniqlang.",
+          q: "Aloqa uchun qanday telefon, pochta, manzil, transport va ish vaqti koʻrsatilgan?",
+          a: "Telefon va ishonch telefoni +99873 244-05-23, elektron pochta info@fergana.uz, manzil 150100, Farg'ona shahri, Navoiy koʻchasi, 15; 1, 2, 6, 6A va 8-yoʻnalishdagi avtobuslar; dushanba–shanba, 09:00–18:00; shahar va tumanlar hamda ijtimoiy tarmoqlar — sahifadagi kontaktlar blokida (govinfo.uz); toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
         },
         {
           q: "Viloyatning interaktiv xizmatlari qayerda?",

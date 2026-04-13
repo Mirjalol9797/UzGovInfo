@@ -2,17 +2,94 @@
  * Хокимият города Ташкента
  * Официальный раздел: https://gov.uz/ru/toshkent
  */
+const toshkentCityTerritoryLinks = [
+  { url: "https://gov.uz/sergeli", ru: "Сергелийский район", en: "Sergeli district", uz: "Sergeli tumani" },
+  { url: "https://gov.uz/yunusobodtumani", ru: "Юнусабадский район", en: "Yunusabad district", uz: "Yunusobod tumani" },
+  {
+    url: "https://gov.uz/mirzoulugbek",
+    ru: "Мирзо-Улугбекский район",
+    en: "Mirzo Ulugbek district",
+    uz: "Mirzo Ulugʻbek tumani",
+  },
+  { url: "https://gov.uz/oz/bektemir", ru: "Бектемирский район", en: "Bektemir district", uz: "Bektemir tumani" },
+  { url: "https://gov.uz/uchtepa", ru: "Учтепинский район", en: "Uchtepa district", uz: "Uchtepa tumani" },
+  {
+    url: "https://gov.uz/oz/yangihayot",
+    ru: "Янгихаётский район",
+    en: "Yangihayot district",
+    uz: "Yangihayot tumani",
+  },
+  { url: "https://gov.uz/chilonzor", ru: "Чиланзарский район", en: "Chilanzar district", uz: "Chilonzor tumani" },
+  {
+    url: "https://gov.uz/shayxontohur",
+    ru: "Шайхантахурский район",
+    en: "Shaykhontohur district",
+    uz: "Shayxontohur tumani",
+  },
+  { url: "https://gov.uz/yashnobod", ru: "Яшнабадский район", en: "Yashnobod district", uz: "Yashnobod tumani" },
+  { url: "https://gov.uz/mirobod/", ru: "Мирабадский район", en: "Mirobod district", uz: "Mirobod tumani" },
+];
+
 export default {
   ru: {
     pageTitle: "Хокимият города Ташкента",
     intro: [
       "Хокимият города Ташкента — исполнительный орган на территории столицы; обеспечивает реализацию законодательства, решений Президента и Кабинета Министров и развитие города (не путать с хокимиятом Ташкентской области — раздел на gov.uz: toshvil).",
-      "На портале государства раздел toshkent (https://gov.uz/ru/toshkent) содержит сведения о хокимияте: о хокимияте, структуре организации, руководстве, центральном аппарате, подведомственных предприятиях, территориальных управлениях. В «Деятельности» — перепись населения, электронное правительство, международное сотрудничество, противодействие коррупции, молодёжная политика, гендерное равенство. В «Государственных услугах» — предоставление услуг. В «Документах» — права на доступ к правительственной информации. В «Цифровом правительстве» — открытые данные. Пресс-центр: новости, заявления и выступления руководства, календарь событий, заседания, пресс-конференции, пресс-релизы. Контакты: контакты, обратная связь, опросы, все номера. Телефон доверия на странице раздела может не отображаться — уточняйте в «Все номера» на gov.uz.",
+      "На портале государства раздел toshkent (https://gov.uz/ru/toshkent) содержит сведения о хокимияте: о хокимияте, структуре организации, руководстве, центральном аппарате, подведомственных предприятиях, территориальных управлениях. В «Деятельности» — перепись населения, электронное правительство, международное сотрудничество, противодействие коррупции, молодёжная политика, гендерное равенство. В «Государственных услугах» — предоставление услуг. В «Документах» — права на доступ к правительственной информации. В «Цифровом правительстве» — открытые данные. Пресс-центр: новости, заявления и выступления руководства, календарь событий, заседания, пресс-конференции, пресс-релизы. Контакты: контакты, обратная связь, опросы, все номера. По сведениям UzGovInfo (govinfo.uz): телефоны +99871 210-03-36 и +99871 210-03-34, электронная почта info@tashkent.uz, адрес 100066, г. Ташкент, ул. Ислама Каримова, 51; метро «Дружба народов» и «Узбекистан», автобус № 51, маршрутное такси № 171; районы города и соцсети — в блоке контактов; полный список номеров — в «Все номера» на gov.uz.",
       "Расширенный официальный интерактивный портал с каталогом услуг, проектами и открытыми данными города: https://tashkent.uz/ru (также en и узбекские версии). Полезен жителям и бизнесу столицы, инвесторам и СМИ.",
     ],
     officialSite: {
       h2: "Официальный раздел на gov.uz",
       ctaText: "Перейти в раздел хокимията города Ташкента на gov.uz →",
+    },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        territorialOffices: "Города и районы",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        { display: "+99871 210-03-36", href: "tel:+998712100336" },
+        { display: "+99871 210-03-34", href: "tel:+998712100334" },
+      ],
+      email: { display: "info@tashkent.uz", href: "mailto:info@tashkent.uz" },
+      territorialOffices: toshkentCityTerritoryLinks.map(({ url, ru: label }) => ({ url, label })),
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/poytaxt_uz" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/Toshkenthokimligi",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/toshshaharhokimlik/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@Toshkentshaharhokimligi",
+        },
+      ],
+      address: "100066, г. Ташкент, ул. Ислама Каримова, 51",
+      transport:
+        "Метро: станции «Дружба народов», «Узбекистан»; автобус № 51; маршрутное такси № 171",
+      hours: "Понедельник–пятница",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница хокимията города Ташкента.",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/toshkent",
+      },
     },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
@@ -71,7 +148,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел хокимията города Ташкента на портале gov.uz (toshkent).",
+        "Официальный раздел хокимията города Ташкента на портале gov.uz (toshkent): телефоны +99871 210-03-36 и +99871 210-03-34, электронная почта info[at]tashkent.uz, адрес 100066, ул. Ислама Каримова, 51, метро «Дружба народов» и «Узбекистан», автобус 51, маршрутное такси 171, приём по будням, ссылки на районы на gov.uz, соцсети (Telegram, Facebook, Instagram, YouTube); интерактивный портал tashkent.uz.",
       orgName: "Хокимият города Ташкента",
       sameAs: [
         "https://gov.uz/ru/toshkent",
@@ -90,16 +167,16 @@ export default {
           a: "https://gov.uz/ru/toshkent (также https://gov.uz/en/toshkent и https://gov.uz/oz/toshkent). В каталоге ссылка подставляется под язык интерфейса.",
         },
         {
+          q: "Какие телефоны, почта, адрес и транспорт указаны для связи?",
+          a: "Телефоны +99871 210-03-36 и +99871 210-03-34, электронная почта info@tashkent.uz, адрес 100066, г. Ташкент, ул. Ислама Каримова, 51; метро, автобус 51, маршрутное такси 171, районы и соцсети — в блоке контактов (по govinfo.uz); полный перечень номеров — в «Все номера» на gov.uz и на tashkent.uz.",
+        },
+        {
           q: "Где интерактивный портал с услугами и проектами?",
           a: "Официальный интерактивный портал хокимията города: https://tashkent.uz/ru и зеркала на других языках.",
         },
         {
           q: "Чем отличается от хокимията Ташкентской области?",
           a: "Город Ташкент и Ташкентская область — разные административные единицы. Областной хокимият — раздел gov.uz/toshvil; столичный — gov.uz/toshkent и tashkent.uz.",
-        },
-        {
-          q: "Где телефоны доверия и контакты?",
-          a: "В разделе «Контакты» на gov.uz — «Все номера»; на tashkent.uz указаны телефоны приёма и пресс-службы.",
         },
       ],
     },
@@ -108,12 +185,61 @@ export default {
     pageTitle: "Tashkent city khokimiyat",
     intro: [
       "The Tashkent city khokimiyat is the executive body of the capital; it implements legislation and decisions of the President and Cabinet of Ministers and guides the city’s development (not to be confused with the Tashkent regional administration — gov.uz section toshvil).",
-      "The gov.uz toshkent section (https://gov.uz/en/toshkent) publishes information about the khokimiyat: about the administration, structure, leadership, central staff, subordinate enterprises, territorial departments. Activities include census, e-government, international cooperation, anti-corruption, youth policy, gender equality. Public services cover service provision. Documents include rights of access to government information. Digital government includes open data. Press centre: news, statements of the administration, calendar of events, meetings, press conferences, press releases. Contacts: contacts, feedback, surveys, all numbers. The trust line on the section page may be empty — verify under “All numbers” on gov.uz.",
+      "The gov.uz toshkent section (https://gov.uz/en/toshkent) publishes information about the khokimiyat: about the administration, structure, leadership, central staff, subordinate enterprises, territorial departments. Activities include census, e-government, international cooperation, anti-corruption, youth policy, gender equality. Public services cover service provision. Documents include rights of access to government information. Digital government includes open data. Press centre: news, statements of the administration, calendar of events, meetings, press conferences, press releases. Contacts: contacts, feedback, surveys, all numbers. Per UzGovInfo (govinfo.uz): phones +99871 210-03-36 and +99871 210-03-34, email info@tashkent.uz, address 100066, Tashkent, Islam Karimov street 51; metro stations Do′stlik (Friendship of Peoples) and Oʻzbekiston, bus 51, route taxi 171; city districts and social media are in the contacts block; for the full number list see “All numbers” on gov.uz.",
       "The full official interactive portal with services, city projects and open data: https://tashkent.uz/en. Useful for residents, businesses, investors and media.",
     ],
     officialSite: {
       h2: "Official section on gov.uz",
       ctaText: "Open the Tashkent city khokimiyat section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        territorialOffices: "City districts",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        { display: "+99871 210-03-36", href: "tel:+998712100336" },
+        { display: "+99871 210-03-34", href: "tel:+998712100334" },
+      ],
+      email: { display: "info@tashkent.uz", href: "mailto:info@tashkent.uz" },
+      territorialOffices: toshkentCityTerritoryLinks.map(({ url, en: label }) => ({ url, label })),
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/poytaxt_uz" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/Toshkenthokimligi",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/toshshaharhokimlik/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@Toshkentshaharhokimligi",
+        },
+      ],
+      address: "100066, Tashkent, Islam Karimov street, 51",
+      transport:
+        "Metro: Do′stlik (Friendship of Peoples) and Oʻzbekiston stations; bus 51; route taxi 171",
+      hours: "Monday–Friday",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are taken from the UzGovInfo portal (govinfo.uz), page of the Tashkent city khokimiyat.",
+        reuseNoticeBefore: "When using materials from this site, a link to the ",
+        reuseLinkText: "site",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/toshkent",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -171,7 +297,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Tashkent city khokimiyat on gov.uz (toshkent).",
+        "Official section of the Tashkent city khokimiyat on gov.uz (toshkent): phones +99871 210-03-36 and +99871 210-03-34, email info[at]tashkent.uz, address 100066, Islam Karimov street 51, metro Do′stlik and Oʻzbekiston, bus 51, route taxi 171, weekday reception, links to city districts on gov.uz, social media (Telegram, Facebook, Instagram, YouTube); tashkent.uz portal.",
       orgName: "Tashkent city khokimiyat",
       sameAs: [
         "https://gov.uz/en/toshkent",
@@ -190,16 +316,16 @@ export default {
           a: "https://gov.uz/en/toshkent (also https://gov.uz/ru/toshkent and https://gov.uz/oz/toshkent). The catalog link matches your interface language.",
         },
         {
+          q: "What phones, email, address and transport are listed?",
+          a: "Phones +99871 210-03-36 and +99871 210-03-34, email info@tashkent.uz, address 100066, Tashkent, Islam Karimov street 51; metro, bus 51, route taxi 171, districts and social media — in the contacts block on this page (per govinfo.uz); see “All numbers” on gov.uz and tashkent.uz for the full list.",
+        },
+        {
           q: "Where is the interactive portal with services?",
           a: "Official interactive portal of the city khokimiyat: https://tashkent.uz/en and other language versions.",
         },
         {
           q: "How is it different from the Tashkent regional administration?",
           a: "Tashkent city and Tashkent region are different. Regional khokimiyat: gov.uz/toshvil; city khokimiyat: gov.uz/toshkent and tashkent.uz.",
-        },
-        {
-          q: "Where are trust line and contacts?",
-          a: "Under Contacts on gov.uz — “All numbers”; tashkent.uz lists reception and press office numbers.",
         },
       ],
     },
@@ -208,12 +334,61 @@ export default {
     pageTitle: "Toshkent shahar hokimiyati",
     intro: [
       "Toshkent shahar hokimiyasi — poytaxt hududidagi ijroiya organi; qonunchilik, Prezident va Vazirlar Kengashi qarorlarini amalga oshiradi va shaharni rivojlantiradi (Toshkent viloyati hokimiyatidan farq qiladi — gov.uz: toshvil).",
-      "Davlat portali «toshkent» boʻlimi (https://gov.uz/oz/toshkent) da hokimiyat haqida: tuzilma, rahbariyat, markaziy apparat, boʻysunuvchi korxonalar, hududiy boshqarmalar. «Faoliyat»da roʻyxatdan oʻtish, elektron hukumat, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender. «Davlat xizmatlari»da xizmat koʻrsatish. «Hujjatlar»da davlat axborotiga kirish huquqlari. «Raqamli davlat»da ochiq maʼlumotlar. Matbuot va aloqa. Ishonch telefoni sahifada boʻsh boʻlishi mumkin — «Barcha raqamlar» dan tekshiring.",
+      "Davlat portali «toshkent» boʻlimi (https://gov.uz/oz/toshkent) da hokimiyat haqida: tuzilma, rahbariyat, markaziy apparat, boʻysunuvchi korxonalar, hududiy boshqarmalar. «Faoliyat»da roʻyxatdan oʻtish, elektron hukumat, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender. «Davlat xizmatlari»da xizmat koʻrsatish. «Hujjatlar»da davlat axborotiga kirish huquqlari. «Raqamli davlat»da ochiq maʼlumotlar. Matbuot va aloqa. UzGovInfo (govinfo.uz) boʻyicha: telefonlar +99871 210-03-36 va +99871 210-03-34, elektron pochta info@tashkent.uz, manzil 100066, Toshkent, Islom Karimov koʻchasi, 51; metro «Doʻstlik» va «Oʻzbekiston», 51-yoʻnalish avtobusi, 171 marshrutkasi; tumanlar va ijtimoiy tarmoqlar — kontaktlar blokida; toʻliq raqamlar — gov.uz va tashkent.uz.",
       "Rasmiy interaktiv portal — xizmatlar, loyihalar, ochiq maʼlumotlar: https://tashkent.uz/oz.",
     ],
     officialSite: {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText: "Toshkent shahar hokimiyati boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        territorialOffices: "Shahar tumanlari",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        { display: "+99871 210-03-36", href: "tel:+998712100336" },
+        { display: "+99871 210-03-34", href: "tel:+998712100334" },
+      ],
+      email: { display: "info@tashkent.uz", href: "mailto:info@tashkent.uz" },
+      territorialOffices: toshkentCityTerritoryLinks.map(({ url, uz: label }) => ({ url, label })),
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/poytaxt_uz" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/Toshkenthokimligi",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/toshshaharhokimlik/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@Toshkentshaharhokimligi",
+        },
+      ],
+      address: "100066, Toshkent, Islom Karimov koʻchasi, 51",
+      transport:
+        "Metro: «Doʻstlik» va «Oʻzbekiston» bekatlari; 51-yoʻnalish avtobusi; 171 marshrutkasi",
+      hours: "Dushanba–juma",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz), Toshkent shahar hokimiyati sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/toshkent",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -270,7 +445,7 @@ export default {
     },
     schema: {
       description:
-        "Toshkent shahar hokimiyatining gov.uz portali boʻlimi (toshkent).",
+        "Toshkent shahar hokimiyatining gov.uz portali boʻlimi (toshkent): +99871 210-03-36 va +99871 210-03-34, elektron pochta info[at]tashkent.uz, manzil 100066, Islom Karimov koʻchasi, 51, metro, 51 avtobus, 171 marshrutka, ish kunlari, tumanlar havolalari, ijtimoiy tarmoqlar (Telegram, Facebook, Instagram, YouTube); tashkent.uz.",
       orgName: "Toshkent shahar hokimiyati",
       sameAs: [
         "https://gov.uz/oz/toshkent",
@@ -289,16 +464,16 @@ export default {
           a: "https://gov.uz/oz/toshkent (ru va en ham mavjud).",
         },
         {
+          q: "Aloqa uchun qanday telefon, pochta, manzil va transport koʻrsatilgan?",
+          a: "Telefonlar +99871 210-03-36 va +99871 210-03-34, elektron pochta info@tashkent.uz, manzil 100066, Toshkent, Islom Karimov koʻchasi, 51; metro, 51 avtobus, 171 marshrutka, tumanlar va ijtimoiy tarmoqlar — sahifadagi kontaktlar blokida (govinfo.uz); toʻliq raqamlar — gov.uz va tashkent.uz.",
+        },
+        {
           q: "Interaktiv portal qayerda?",
           a: "https://tashkent.uz/oz — rasmiy interaktiv portal.",
         },
         {
           q: "Toshkent viloyati bilan farqi?",
           a: "Shahar — gov.uz/toshkent va tashkent.uz; viloyat — gov.uz/toshvil.",
-        },
-        {
-          q: "Aloqa raqamlari?",
-          a: "gov.uz — «Barcha raqamlar»; tashkent.uz — qabul va matbuot.",
         },
       ],
     },
