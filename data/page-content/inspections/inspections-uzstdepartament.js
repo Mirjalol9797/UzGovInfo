@@ -8,13 +8,53 @@ export default {
       "Инспекция по контролю в области технического регулирования Узбекского агентства по техническому регулированию",
     intro: [
       "Инспекция по контролю в области технического регулирования Узбекского агентства по техническому регулированию осуществляет государственный контроль (надзор) в сфере технического регулирования в пределах компетенции.",
-      "На портале gov.uz в разделе uzstdepartament (https://gov.uz/ru/uzstdepartament) публикуются сведения об организации, структуре, руководстве, центральном аппарате, территориальных управлениях и вакансиях. В «Деятельности» — конкурсы и тендеры, предстоящие и проводимые массовые мероприятия, электронное правительство, международное сотрудничество, противодействие коррупции, молодёжная и гендерная политика. В «Государственных услугах» — вопросы и ответы. В «Документах» — иные нормативно-правовые документы, постановления и распоряжения Кабинета Министров, указы и постановления Президента, законы Республики Узбекистан, Конституция. В «Цифровом правительстве» — термины и определения, обратная связь. Пресс-центр и контакты: ведение сайта, новости, заявления руководства, календарь событий, заседания, пресс-конференции, пресс-релизы; контакты, опросы, обратная связь, обращение по вопросам предотвращения коррупции. Телефон доверия на портале: 1880 (актуальные номера — в «Все номера» на gov.uz).",
+      "На портале gov.uz в разделе uzstdepartament (https://gov.uz/ru/uzstdepartament) публикуются сведения об организации, структуре, руководстве, центральном аппарате, территориальных управлениях и вакансиях. В «Деятельности» — конкурсы и тендеры, предстоящие и проводимые массовые мероприятия, электронное правительство, международное сотрудничество, противодействие коррупции, молодёжная и гендерная политика. В «Государственных услугах» — вопросы и ответы. В «Документах» — иные нормативно-правовые документы, постановления и распоряжения Кабинета Министров, указы и постановления Президента, законы Республики Узбекистан, Конституция. В «Цифровом правительстве» — термины и определения, обратная связь. Пресс-центр и контакты: ведение сайта, новости, заявления руководства, календарь событий, заседания, пресс-конференции, пресс-релизы; контакты, опросы, обратная связь, обращение по вопросам предотвращения коррупции. Телефон +99871 202-00-11 (доб. 1814), телефон доверия 1880 и почта tech_inspection@umail.uz приведены по данным govinfo.uz; полный перечень номеров — в «Все номера» на gov.uz.",
       "Полезна производителям, испытательным лабораториям, сертификационным органам и гражданам при обращениях и поиске нормативных требований в сфере стандартизации и технического регулирования.",
     ],
     officialSite: {
       h2: "Официальный раздел на gov.uz",
       ctaText:
         "Перейти в раздел инспекции по техническому регулированию на gov.uz →",
+    },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 202-00-11 (1814)", href: "tel:+998712020011" }],
+      trustPhone: { display: "1880", href: "tel:1880" },
+      email: {
+        display: "tech_inspection@umail.uz",
+        href: "mailto:tech_inspection@umail.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/departamentrasmiy" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/profile.php?id=61575200286769",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/departamentrasmiy/",
+        },
+      ],
+      address: "100174, г. Ташкент, ул. Фаробий, 333 «A»",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница Инспекции по контролю в области технического регулирования (uzstdepartament).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/uzstdepartament",
+      },
     },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
@@ -73,7 +113,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Инспекции по контролю в области технического регулирования Узбекского агентства по техническому регулированию на портале gov.uz (uzstdepartament).",
+        "Официальный раздел Инспекции по контролю в области технического регулирования Узбекского агентства по техническому регулированию на портале gov.uz (uzstdepartament): телефон +99871 202-00-11 (доб. 1814), телефон доверия 1880, электронная почта tech_inspection[at]umail.uz, адрес 100174, Ташкент, ул. Фаробий, 333 «A», ссылки на социальные сети.",
       orgName:
         "Инспекция по контролю в области технического регулирования Узбекского агентства по техническому регулированию",
       sameAs: [
@@ -90,8 +130,8 @@ export default {
           a: "На портале государства: https://gov.uz/ru/uzstdepartament (также https://gov.uz/en/uzstdepartament и https://gov.uz/oz/uzstdepartament). В каталоге сайта ссылка подставляется под язык интерфейса.",
         },
         {
-          q: "Какой телефон доверия указан на портале?",
-          a: "Обычно приводится 1880; полный перечень — в «Все номера» на gov.uz.",
+          q: "Какие телефоны и почта указаны для связи?",
+          a: "Телефон +99871 202-00-11 (доб. 1814), телефон доверия 1880, электронная почта tech_inspection@umail.uz; полный перечень номеров — в «Все номера» на gov.uz.",
         },
         {
           q: "Кому подчиняется инспекция и где описана структура?",
@@ -113,13 +153,53 @@ export default {
       "Inspection for control in the field of technical regulation of the Uzbek Agency for Technical Regulation",
     intro: [
       "The inspection exercises state control (supervision) in the field of technical regulation within its mandate under the Uzbek Agency for Technical Regulation.",
-      "The gov.uz uzstdepartament section (https://gov.uz/en/uzstdepartament) publishes information on the organization, structure, leadership, central office, territorial departments and vacancies. Activities cover competitions and tenders, mass events, e-government, international cooperation, anti-corruption, youth and gender policy. Public services include FAQs. Documents cover other regulatory legal acts, Cabinet of Ministers resolutions and orders, presidential decrees and resolutions, laws of Uzbekistan, and the Constitution. Digital government includes terms and definitions and feedback. The press center and contacts cover site maintenance, news, leadership statements, calendar of events, meetings, press conferences and press releases; contacts, surveys, feedback and appeals on corruption prevention. The trust line on the portal is commonly 1880 (verify under “All numbers” on gov.uz).",
+      "The gov.uz uzstdepartament section (https://gov.uz/en/uzstdepartament) publishes information on the organization, structure, leadership, central office, territorial departments and vacancies. Activities cover competitions and tenders, mass events, e-government, international cooperation, anti-corruption, youth and gender policy. Public services include FAQs. Documents cover other regulatory legal acts, Cabinet of Ministers resolutions and orders, presidential decrees and resolutions, laws of Uzbekistan, and the Constitution. Digital government includes terms and definitions and feedback. The press center and contacts cover site maintenance, news, leadership statements, calendar of events, meetings, press conferences and press releases; contacts, surveys, feedback and appeals on corruption prevention. Phone +99871 202-00-11 (ext. 1814), trust line 1880 and email tech_inspection@umail.uz are listed on Govinfo; verify all numbers under “All numbers” on gov.uz.",
       "Useful for manufacturers, testing laboratories, certification bodies and citizens filing appeals or seeking regulatory information on standardization and technical regulation.",
     ],
     officialSite: {
       h2: "Official section on gov.uz",
       ctaText:
         "Open the technical regulation inspection section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99871 202-00-11 (1814)", href: "tel:+998712020011" }],
+      trustPhone: { display: "1880", href: "tel:1880" },
+      email: {
+        display: "tech_inspection@umail.uz",
+        href: "mailto:tech_inspection@umail.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/departamentrasmiy" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/profile.php?id=61575200286769",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/departamentrasmiy/",
+        },
+      ],
+      address: "100174, Tashkent, Farobiy street, 333 «A»",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the UzGovInfo portal (govinfo.uz), page of the technical regulation inspection (uzstdepartament).",
+        reuseNoticeBefore: "When reusing materials from this site, attribution to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/uzstdepartament",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -177,7 +257,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Inspection for control in the field of technical regulation of the Uzbek Agency for Technical Regulation on gov.uz (uzstdepartament).",
+        "Official section of the Inspection for control in the field of technical regulation of the Uzbek Agency for Technical Regulation on gov.uz (uzstdepartament): phone +99871 202-00-11 (ext. 1814), trust line 1880, email tech_inspection[at]umail.uz, address 100174, Tashkent, Farobiy street 333 block A, social media links.",
       orgName:
         "Inspection for control in the field of technical regulation of the Uzbek Agency for Technical Regulation",
       sameAs: [
@@ -194,8 +274,8 @@ export default {
           a: "On the government portal: https://gov.uz/en/uzstdepartament (also https://gov.uz/ru/uzstdepartament and https://gov.uz/oz/uzstdepartament). The catalog link matches your interface language.",
         },
         {
-          q: "What is the trust line on the portal?",
-          a: "The portal usually lists 1880; see “All numbers” on gov.uz for the full list.",
+          q: "What phone numbers and email are listed for contact?",
+          a: "Phone +99871 202-00-11 (ext. 1814), trust line 1880, email tech_inspection@umail.uz; see “All numbers” on gov.uz for the full list.",
         },
         {
           q: "Which body oversees the inspection, and where is the structure?",
@@ -217,13 +297,53 @@ export default {
       "O'zbekiston Texnik jihatdan tartibga solish agentligining texnik jihatdan tartibga solish sohasida nazorat inspeksiyasi",
     intro: [
       "Oʻzbekiston Texnik jihatdan tartibga solish agentligining texnik jihatdan tartibga solish sohasida nazorat inspeksiyasi texnik jihatdan tartibga solish sohasida davlat nazoratini (kuzatuvini) vakolat doirasida amalga oshiradi.",
-      "gov.uz «uzstdepartament» boʻlimi (https://gov.uz/oz/uzstdepartament) da tashkilot, tuzilma, rahbariyat, markaziy apparat, hududiy boshqarmalar va boʻsh ish oʻrinlari haqida maʼlumotlar joylashtiriladi. «Faoliyat»da tanlovlar va tenderlar, ommaviy tadbirlar, elektron hukumat, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender siyosati. «Davlat xizmatlari»da savollar-javoblar. «Hujjatlar»da boshqa meʼyoriy-huquqiy hujjatlar, Vazirlar Mahkamasi qarorlar va farmoyishlari, Prezident farmon va qarorlari, Oʻzbekiston Respublikasi qonunlari, Konstitutsiya. «Raqamli davlat»da atamalar va taʼriflar, qayta aloqa. Matbuot markazi va aloqa: sayt boshqaruvi, yangiliklar, rahbariyat bayonotlari, tadbirlar kalendari, uchrashuvlar, matbuot anjumanlari, press-relizlar; kontaktlar, soʻrovnomalar, qayta aloqa, korrupsiyaning oldini olish boʻyicha murojaat. Ishonch telefoni: 1880 («Barcha raqamlar» dan tekshiring).",
+      "gov.uz «uzstdepartament» boʻlimi (https://gov.uz/oz/uzstdepartament) da tashkilot, tuzilma, rahbariyat, markaziy apparat, hududiy boshqarmalar va boʻsh ish oʻrinlari haqida maʼlumotlar joylashtiriladi. «Faoliyat»da tanlovlar va tenderlar, ommaviy tadbirlar, elektron hukumat, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender siyosati. «Davlat xizmatlari»da savollar-javoblar. «Hujjatlar»da boshqa meʼyoriy-huquqiy hujjatlar, Vazirlar Mahkamasi qarorlar va farmoyishlari, Prezident farmon va qarorlari, Oʻzbekiston Respublikasi qonunlari, Konstitutsiya. «Raqamli davlat»da atamalar va taʼriflar, qayta aloqa. Matbuot markazi va aloqa: sayt boshqaruvi, yangiliklar, rahbariyat bayonotlari, tadbirlar kalendari, uchrashuvlar, matbuot anjumanlari, press-relizlar; kontaktlar, soʻrovnomalar, qayta aloqa, korrupsiyaning oldini olish boʻyicha murojaat. Telefon +99871 202-00-11 (1814), ishonch telefoni 1880 va tech_inspection@umail.uz govinfo.uz boʻyicha; toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
       "ishlab chiqaruvchilar, sinov laboratoriyalari, sertifikatlash organlari va meʼyoriy talablarni qidiruvchi fuqarolar uchun foydali.",
     ],
     officialSite: {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText:
         "gov.uz da texnik tartibga solish boʻyicha inspeksiya boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 202-00-11 (1814)", href: "tel:+998712020011" }],
+      trustPhone: { display: "1880", href: "tel:1880" },
+      email: {
+        display: "tech_inspection@umail.uz",
+        href: "mailto:tech_inspection@umail.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/departamentrasmiy" },
+        {
+          id: "facebook",
+          label: "Facebook",
+          url: "https://www.facebook.com/profile.php?id=61575200286769",
+        },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/departamentrasmiy/",
+        },
+      ],
+      address: "100174, Toshkent, Farobiy koʻchasi, 333 «A»",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz) boʻyicha texnik tartibga solish sohasida nazorat inspeksiyasi (uzstdepartament) sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/uzstdepartament",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -282,7 +402,7 @@ export default {
     },
     schema: {
       description:
-        "Oʻzbekiston Texnik jihatdan tartibga solish agentligining texnik jihatdan tartibga solish sohasida nazorat inspeksiyasining gov.uz portali boʻlimi (uzstdepartament).",
+        "Oʻzbekiston Texnik jihatdan tartibga solish agentligining texnik jihatdan tartibga solish sohasida nazorat inspeksiyasining gov.uz portali boʻlimi (uzstdepartament): telefon +99871 202-00-11 (1814), ishonch telefoni 1880, elektron pochta tech_inspection[at]umail.uz, manzil 100174, Toshkent, Farobiy koʻchasi, 333 «A», ijtimoiy tarmoqlar havolalari.",
       orgName:
         "O'zbekiston Texnik jihatdan tartibga solish agentligining texnik jihatdan tartibga solish sohasida nazorat inspeksiyasi",
       sameAs: [
@@ -299,8 +419,8 @@ export default {
           a: "Davlat portali: https://gov.uz/oz/uzstdepartament (shuningdek https://gov.uz/ru/uzstdepartament va https://gov.uz/en/uzstdepartament). Katalogdagi havola interfeys tiliga mos keladi.",
         },
         {
-          q: "Ishonch telefoni qanday?",
-          a: "Odatda 1880; toʻliq roʻyxat — gov.uz dagi «Barcha raqamlar».",
+          q: "Aloqa uchun telefon va pochta qanday?",
+          a: "Telefon +99871 202-00-11 (1814), ishonch telefoni 1880, elektron pochta tech_inspection@umail.uz; toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
         },
         {
           q: "Inspeksiya qayerda tuzilgan va tuzilma qayerda?",

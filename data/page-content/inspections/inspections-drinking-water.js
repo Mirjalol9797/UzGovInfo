@@ -8,13 +8,54 @@ export default {
       "Инспекция по контролю за безопасностью объектов водного хозяйства и водопользованием при Министерстве водного хозяйства Республики Узбекистан",
     intro: [
       "Инспекция по контролю за безопасностью объектов водного хозяйства и водопользованием при Министерстве водного хозяйства Республики Узбекистан осуществляет государственный надзор за безопасностью объектов водного хозяйства и соблюдением правил водопользования в пределах компетенции.",
-      "На портале gov.uz в разделе vnadzor (https://gov.uz/ru/vnadzor) публикуются сведения об инспекции, структуре организации, руководстве, центральном аппарате, подведомственных предприятиях, территориальных управлениях, вакансиях. В «Деятельности» — материалы о стратегии развития Нового Узбекистана на 2022–2026 годы, молодёжной политике, действиях против коррупции, выполнении программ, соблюдении антимонопольного законодательства и правовой защите, исполнении нормативных актов, советах экспертов, общественном совете, совете по духовности и просвещению, международном сотрудничестве, гендерном равенстве. В «Государственных услугах» на русской версии раздела — вопросы и ответы и график работы (состав подразделов может отличаться на других языках интерфейса). В «Документах» — страница Конституции, законы, акты Президента и Кабинета Министров, проекты документов, предпринимательство, нормативные и внутренние документы инспекции, обсуждение проектов НПА, изменения и утратившие силу акты, статистика, гендерная тематика, условия использования данных сайта, перечни размещаемой и не подлежащей разглашению информации. В «Цифровом правительстве» — сведения согласно Указу УК-6247, финансовые отчёты, сведения общественного интереса, реестр открытых данных, рассмотрение жалоб в сфере открытости, борьба с коррупцией. «Пресс-центр» и «Контакты»: новости, библиотека, руководитель пресс-службы, выступления руководства, заседания, пресс-конференции, объявления, пресс-релизы, календарь; контакты, обращение граждан, обратная связь, статистика обращений. Телефон доверия: +998 55 520-71-66 (актуальные номера — «Все номера» на gov.uz).",
+      "На портале gov.uz в разделе vnadzor (https://gov.uz/ru/vnadzor) публикуются сведения об инспекции, структуре организации, руководстве, центральном аппарате, подведомственных предприятиях, территориальных управлениях, вакансиях. В «Деятельности» — материалы о стратегии развития Нового Узбекистана на 2022–2026 годы, молодёжной политике, действиях против коррупции, выполнении программ, соблюдении антимонопольного законодательства и правовой защите, исполнении нормативных актов, советах экспертов, общественном совете, совете по духовности и просвещению, международном сотрудничестве, гендерном равенстве. В «Государственных услугах» на русской версии раздела — вопросы и ответы и график работы (состав подразделов может отличаться на других языках интерфейса). В «Документах» — страница Конституции, законы, акты Президента и Кабинета Министров, проекты документов, предпринимательство, нормативные и внутренние документы инспекции, обсуждение проектов НПА, изменения и утратившие силу акты, статистика, гендерная тематика, условия использования данных сайта, перечни размещаемой и не подлежащей разглашению информации. В «Цифровом правительстве» — сведения согласно Указу УК-6247, финансовые отчёты, сведения общественного интереса, реестр открытых данных, рассмотрение жалоб в сфере открытости, борьба с коррупцией. «Пресс-центр» и «Контакты»: новости, библиотека, руководитель пресс-службы, выступления руководства, заседания, пресс-конференции, объявления, пресс-релизы, календарь; контакты, обращение граждан, обратная связь, статистика обращений. По сведениям UzGovInfo (govinfo.uz) и раздела на gov.uz: телефоны +99855 500-69-99 и +99855 520-71-66, телефон доверия +99855 520-71-66, электронная почта v-nadzor@minwater.uz; полный перечень номеров — в «Все номера» на gov.uz.",
       "Полезен эксплуатирующим организациям водохозяйственных объектов, водопользователям, проектным и строительным организациям, а также гражданам при обращениях и поиске нормативных требований.",
     ],
     officialSite: {
       h2: "Официальный раздел на gov.uz",
       ctaText:
         "Перейти в раздел инспекции на gov.uz →",
+    },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        { display: "+99855 500-69-99", href: "tel:+998555006999" },
+        { display: "+99855 520-71-66", href: "tel:+998555207166" },
+      ],
+      trustPhone: { display: "+99855 520-71-66", href: "tel:+998555207166" },
+      email: { display: "v-nadzor@minwater.uz", href: "mailto:v-nadzor@minwater.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/vnadzor" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/suvxojaliknazorat/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@suvxojaliknazorat",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/share/1Dh48Q4PGo/" },
+      ],
+      address: "г. Ташкент, Шайхантахурский район, ул. Турккурганская, 26",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница Инспекции по контролю за безопасностью объектов водного хозяйства и водопользованием (vnadzor).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/vnadzor",
+      },
     },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
@@ -73,7 +114,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел инспекции по контролю за безопасностью объектов водного хозяйства и водопользованием при Министерстве водного хозяйства Республики Узбекистан на портале gov.uz (vnadzor).",
+        "Официальный раздел инспекции по контролю за безопасностью объектов водного хозяйства и водопользованием при Министерстве водного хозяйства Республики Узбекистан на портале gov.uz (vnadzor): телефоны +99855 500-69-99 и +99855 520-71-66, телефон доверия +99855 520-71-66, электронная почта v-nadzor[at]minwater.uz, адрес Ташкент, Шайхантахурский район, ул. Турккурганская, 26, ссылки на социальные сети.",
       orgName:
         "Инспекция по контролю за безопасностью объектов водного хозяйства и водопользованием при Министерстве водного хозяйства Республики Узбекистан",
       sameAs: [
@@ -90,8 +131,8 @@ export default {
           a: "На портале государства: https://gov.uz/ru/vnadzor (также https://gov.uz/en/vnadzor и https://gov.uz/oz/vnadzor). В каталоге сайта ссылка подставляется под язык интерфейса.",
         },
         {
-          q: "Какой телефон доверия указан на портале?",
-          a: "В блоке контактов обычно приводится +998 55 520-71-66; полный перечень — в «Все номера» на gov.uz.",
+          q: "Какие телефоны и почта указаны для связи?",
+          a: "Телефоны +99855 500-69-99 и +99855 520-71-66, телефон доверия +99855 520-71-66, электронная почта v-nadzor@minwater.uz; полный перечень номеров — в «Все номера» на gov.uz.",
         },
         {
           q: "Где график работы и ответы на частые вопросы?",
@@ -113,12 +154,53 @@ export default {
       "Inspection for control of safety of water management facilities and water use under the Ministry of Water Resources of the Republic of Uzbekistan",
     intro: [
       "The inspection body under the Ministry of Water Resources exercises state supervision over the safety of water management facilities and compliance with water use rules within its mandate.",
-      "The gov.uz vnadzor section (https://gov.uz/en/vnadzor) publishes information on the inspection, structure, leadership, central office, subordinate and regional bodies, and vacancies. Activities cover development strategy, youth policy, plans, anti-corruption, legal compliance, expert and public councils, international cooperation and gender equality. Public services include e-government, Q&A and work procedures. Documents cover the Constitution, laws, presidential and government acts, draft regulations, the inspection’s normative and internal documents, statistics, and lists of published and restricted information. Digital government includes disclosures under relevant regulations (e.g. No. 3299, PF-6247), open budget data, socially significant information, open data registry, review of openness-related complaints, anti-corruption materials and guidelines. Press and contacts include news, a library, leadership statements, seminars, press events, surveys, feedback and appeal statistics. The portal hotline is commonly +998 55 520-71-66 (verify under “All numbers” on gov.uz). Additional materials may appear on sector websites.",
+      "The gov.uz vnadzor section (https://gov.uz/en/vnadzor) publishes information on the inspection, structure, leadership, central office, subordinate and regional bodies, and vacancies. Activities cover development strategy, youth policy, plans, anti-corruption, legal compliance, expert and public councils, international cooperation and gender equality. Public services include e-government, Q&A and work procedures. Documents cover the Constitution, laws, presidential and government acts, draft regulations, the inspection’s normative and internal documents, statistics, and lists of published and restricted information. Digital government includes disclosures under relevant regulations (e.g. No. 3299, PF-6247), open budget data, socially significant information, open data registry, review of openness-related complaints, anti-corruption materials and guidelines. Press and contacts include news, a library, leadership statements, seminars, press events, surveys, feedback and appeal statistics. Per UzGovInfo (govinfo.uz) and the gov.uz section: phones +99855 500-69-99 and +99855 520-71-66, trust line +99855 520-71-66, email v-nadzor@minwater.uz; for the full list see “All numbers” on gov.uz. Additional materials may appear on sector websites.",
       "Useful for operators of water facilities, water users, design and construction organisations, and citizens filing appeals or seeking regulatory requirements.",
     ],
     officialSite: {
       h2: "Official section on gov.uz",
       ctaText: "Open the inspection section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        { display: "+99855 500-69-99", href: "tel:+998555006999" },
+        { display: "+99855 520-71-66", href: "tel:+998555207166" },
+      ],
+      trustPhone: { display: "+99855 520-71-66", href: "tel:+998555207166" },
+      email: { display: "v-nadzor@minwater.uz", href: "mailto:v-nadzor@minwater.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/vnadzor" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/suvxojaliknazorat/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@suvxojaliknazorat",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/share/1Dh48Q4PGo/" },
+      ],
+      address: "Tashkent, Shaykhantakhur district, Turkkurgan street, 26",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the UzGovInfo portal (govinfo.uz), page of the inspection for safety of water management facilities and water use (vnadzor).",
+        reuseNoticeBefore: "When reusing materials from this site, attribution to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/vnadzor",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -176,7 +258,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the inspection for safety of water management facilities and water use under the Ministry of Water Resources of Uzbekistan on gov.uz (vnadzor).",
+        "Official section of the inspection for safety of water management facilities and water use under the Ministry of Water Resources of Uzbekistan on gov.uz (vnadzor): phones +99855 500-69-99 and +99855 520-71-66, trust line +99855 520-71-66, email v-nadzor[at]minwater.uz, address Tashkent, Shaykhantakhur district, Turkkurgan street 26, social media links.",
       orgName:
         "Inspection for control of safety of water management facilities and water use under the Ministry of Water Resources of the Republic of Uzbekistan",
       sameAs: [
@@ -193,8 +275,8 @@ export default {
           a: "On the government portal: https://gov.uz/en/vnadzor (also https://gov.uz/ru/vnadzor and https://gov.uz/oz/vnadzor). The catalog link matches your interface language.",
         },
         {
-          q: "What is the hotline on the portal?",
-          a: "The portal usually lists +998 55 520-71-66; see “All numbers” on gov.uz for the full list.",
+          q: "What phone numbers and email are listed for contact?",
+          a: "Phones +99855 500-69-99 and +99855 520-71-66, trust line +99855 520-71-66, email v-nadzor@minwater.uz; see “All numbers” on gov.uz for the full list.",
         },
         {
           q: "Where are work procedures and FAQs?",
@@ -216,12 +298,53 @@ export default {
       "Oʻzbekiston Respublikasi Suv xoʻjaligi vazirligi huzuridagi Suv xoʻjaligi obyektlari xavfsizligini va suvdan foydalanishni nazorat qilish inspeksiyasi",
     intro: [
       "Oʻzbekiston Respublikasi Suv xoʻjaligi vazirligi huzuridagi Suv xoʻjaligi obyektlarining xavfsizligi va suvdan foydalanish qoidalariga rioya etilishini davlat nazorati ostida saqlash inspeksiyasi vakolat doirasida faoliyat yuritadi.",
-      "gov.uz «vnadzor» boʻlimi (https://gov.uz/oz/vnadzor) da inspeksiya, tuzilma, rahbariyat, markaziy apparat, boʻysunuvchi va hududiy organlar, vakansiyalar haqida maʼlumotlar joylashtiriladi. «Faoliyat»da rivojlanish strategiyasi, yoshlar siyosati, rejalar, korrupsiyaga qarshi kurash, qonunchilik ijrosi, ekspert va jamoatchilik kengashlari, xalqaro hamkorlik, gender tengligi. «Davlat xizmatlari»da elektron hukumat, savollar-javoblar, ish tartibi. «Hujjatlar»da Konstitutsiya, qonunlar, Prezident va Vazirlar Mahkamasi hujjatlari, loyiha NPHlar, inspeksiyaning meʼyoriy va ichki hujjatlari, statistika, eʼlon qilinadigan va eʼlon qilinmaydigan maʼlumotlar roʻyxati. «Raqamli davlat»da normativ hujjatlar boʻyicha maʼlumotlar (jumladan 3299-son Nizom, PF-6247), ochiq byudjet, ijtimoiy ahamiyatli maʼlumotlar, ochiq maʼlumotlar reyestri, ochiqlik boʻyicha shikoyatlar, korrupsiyaga qarshi kurash, yoʻriqnomalar. Matbuot va kontaktlar: yangiliklar, kutubxona, rahbariyat nutqlari, seminarlar, matbuot anjumanlari, soʻrovnomalar, murojaatlar statistikasi. Ishonch telefoni: +998 55 520-71-66 («Barcha raqamlar» dan tekshiring). Qoʻshimcha materiallar suv sektori saytlarida boʻlishi mumkin.",
+      "gov.uz «vnadzor» boʻlimi (https://gov.uz/oz/vnadzor) da inspeksiya, tuzilma, rahbariyat, markaziy apparat, boʻysunuvchi va hududiy organlar, vakansiyalar haqida maʼlumotlar joylashtiriladi. «Faoliyat»da rivojlanish strategiyasi, yoshlar siyosati, rejalar, korrupsiyaga qarshi kurash, qonunchilik ijrosi, ekspert va jamoatchilik kengashlari, xalqaro hamkorlik, gender tengligi. «Davlat xizmatlari»da elektron hukumat, savollar-javoblar, ish tartibi. «Hujjatlar»da Konstitutsiya, qonunlar, Prezident va Vazirlar Mahkamasi hujjatlari, loyiha NPHlar, inspeksiyaning meʼyoriy va ichki hujjatlari, statistika, eʼlon qilinadigan va eʼlon qilinmaydigan maʼlumotlar roʻyxati. «Raqamli davlat»da normativ hujjatlar boʻyicha maʼlumotlar (jumladan 3299-son Nizom, PF-6247), ochiq byudjet, ijtimoiy ahamiyatli maʼlumotlar, ochiq maʼlumotlar reyestri, ochiqlik boʻyicha shikoyatlar, korrupsiyaga qarshi kurash, yoʻriqnomalar. Matbuot va kontaktlar: yangiliklar, kutubxona, rahbariyat nutqlari, seminarlar, matbuot anjumanlari, soʻrovnomalar, murojaatlar statistikasi. UzGovInfo (govinfo.uz) va gov.uz boʻlimi boʻyicha: telefonlar +99855 500-69-99 va +99855 520-71-66, ishonch telefoni +99855 520-71-66, elektron pochta v-nadzor@minwater.uz; toʻliq roʻyxatni gov.uz dagi «Barcha raqamlar» dan tekshiring. Qoʻshimcha materiallar suv sektori saytlarida boʻlishi mumkin.",
       "Suv obyektlarini ekspluatatsiya qiluvchi tashkilotlar, suv isteʼmolchilari, loyiha-qurilish tashkilotlari va murojaat qiluvchi fuqarolar uchun foydali.",
     ],
     officialSite: {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText: "gov.uz da inspeksiya boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        { display: "+99855 500-69-99", href: "tel:+998555006999" },
+        { display: "+99855 520-71-66", href: "tel:+998555207166" },
+      ],
+      trustPhone: { display: "+99855 520-71-66", href: "tel:+998555207166" },
+      email: { display: "v-nadzor@minwater.uz", href: "mailto:v-nadzor@minwater.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/vnadzor" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/suvxojaliknazorat/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@suvxojaliknazorat",
+        },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/share/1Dh48Q4PGo/" },
+      ],
+      address: "Toshkent, Shayxontohur tumani, Turkkurgan koʻchasi, 26",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz) boʻyicha suv xoʻjaligi obyektlari xavfsizligi va suvdan foydalanishni nazorat qilish inspeksiyasi (vnadzor) sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/vnadzor",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -278,7 +401,7 @@ export default {
     },
     schema: {
       description:
-        "Suv xoʻjaligi vazirligi huzuridagi Suv xoʻjaligi obyektlari xavfsizligi va suvdan foydalanishni nazorat qilish inspeksiyasining gov.uz portali boʻlimi (vnadzor).",
+        "Suv xoʻjaligi vazirligi huzuridagi Suv xoʻjaligi obyektlari xavfsizligi va suvdan foydalanishni nazorat qilish inspeksiyasining gov.uz portali boʻlimi (vnadzor): telefonlar +99855 500-69-99 va +99855 520-71-66, ishonch telefoni +99855 520-71-66, elektron pochta v-nadzor[at]minwater.uz, manzil Toshkent, Shayxontohur tumani, Turkkurgan koʻchasi, 26, ijtimoiy tarmoqlar havolalari.",
       orgName:
         "Oʻzbekiston Respublikasi Suv xoʻjaligi vazirligi huzuridagi Suv xoʻjaligi obyektlari xavfsizligini va suvdan foydalanishni nazorat qilish inspeksiyasi",
       sameAs: [
@@ -295,8 +418,8 @@ export default {
           a: "Davlat portali: https://gov.uz/oz/vnadzor (shuningdek https://gov.uz/ru/vnadzor va https://gov.uz/en/vnadzor). Katalogdagi havola interfeys tiliga mos keladi.",
         },
         {
-          q: "Ishonch telefoni qanday?",
-          a: "Odatda +998 55 520-71-66 koʻrsatiladi; toʻliq roʻyxat — gov.uz dagi «Barcha raqamlar».",
+          q: "Aloqa uchun telefon va pochta qanday?",
+          a: "Telefonlar +99855 500-69-99 va +99855 520-71-66, ishonch telefoni +99855 520-71-66, elektron pochta v-nadzor@minwater.uz; toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
         },
         {
           q: "Ish tartibi va tez-tez so‘raladigan savollar qayerda?",

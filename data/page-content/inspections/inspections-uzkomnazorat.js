@@ -8,13 +8,51 @@ export default {
       "Инспекция по контролю в сфере информатизации и телекоммуникаций при Министерстве цифровых технологий «Узкомназорат»",
     intro: [
       "Инспекция по контролю в сфере информатизации и телекоммуникаций при Министерстве цифровых технологий «Узкомназорат» осуществляет государственный контроль (надзор) в сфере информатизации и телекоммуникаций в пределах компетенции.",
-      "На портале gov.uz в разделе uzkomnazorat (https://gov.uz/ru/uzkomnazorat) публикуются сведения об организации: об инспекции, структуре организации, руководстве, центральном аппарате, подведомственных предприятиях, территориальных управлениях, вакансиях. В «Деятельности» — в том числе о стратегии развития Нового Узбекистана на 2022–2026 годы, отчёты, молодёжная политика, планы, противодействие коррупции, ход исполнения программ, антимонопольное законодательство и юридическая пропаганда, исполнение нормативно-правовых актов, общественный совет, совет по духовности и просвещению, международное сотрудничество. В «Государственных услугах» — вопросы и ответы, раздел для субъектов предпринимательства. В «Документах» — законы, указы и постановления Президента, постановления Кабинета Министров, стандарты, правила, положения, внутренние нормативные документы, обсуждение проектов НПА, утратившие силу акты, решения Олий Мажлиса. В «Цифровом правительстве» — реестр открытых данных, открытая информация о финансовом бюджете инспекции, сведения о работе по противодействию коррупции, предложения в области открытости. Пресс-центр и контакты: новости, материалы семинаров, фото- и видеогалерея, официальные заявления, объявления, календарь событий; контакты, обратная связь, статистика обращений. Телефон доверия на портале: 1144 (полный перечень номеров — в «Все номера» на gov.uz).",
+      "На портале gov.uz в разделе uzkomnazorat (https://gov.uz/ru/uzkomnazorat) публикуются сведения об организации: об инспекции, структуре организации, руководстве, центральном аппарате, подведомственных предприятиях, территориальных управлениях, вакансиях. В «Деятельности» — в том числе о стратегии развития Нового Узбекистана на 2022–2026 годы, отчёты, молодёжная политика, планы, противодействие коррупции, ход исполнения программ, антимонопольное законодательство и юридическая пропаганда, исполнение нормативно-правовых актов, общественный совет, совет по духовности и просвещению, международное сотрудничество. В «Государственных услугах» — вопросы и ответы, раздел для субъектов предпринимательства. В «Документах» — законы, указы и постановления Президента, постановления Кабинета Министров, стандарты, правила, положения, внутренние нормативные документы, обсуждение проектов НПА, утратившие силу акты, решения Олий Мажлиса. В «Цифровом правительстве» — реестр открытых данных, открытая информация о финансовом бюджете инспекции, сведения о работе по противодействию коррупции, предложения в области открытости. Пресс-центр и контакты: новости, материалы семинаров, фото- и видеогалерея, официальные заявления, объявления, календарь событий; контакты, обратная связь, статистика обращений. Телефон +99871 202-69-65, телефон доверия 1144, почта info@uzkomnazorat.uz и адрес в Ташкенте приведены по данным govinfo.uz; полный перечень номеров — в «Все номера» на gov.uz.",
       "Полезна операторам связи, провайдерам, ИТ-организациям, субъектам предпринимательства и гражданам при обращениях и поиске нормативных требований.",
     ],
     officialSite: {
       h2: "Официальный раздел на gov.uz",
       ctaText:
         "Перейти в раздел инспекции «Узкомназорат» на gov.uz →",
+    },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 202-69-65", href: "tel:+998712026965" }],
+      trustPhone: { display: "1144", href: "tel:1144" },
+      email: { display: "info@uzkomnazorat.uz", href: "mailto:info@uzkomnazorat.uz" },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC3ajfdl_uoWLGR1B-eCELWA/featured",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzkomnazoratuz/" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzkomnazorat" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzkomnazorat" },
+        { id: "linkedin", label: "LinkedIn", url: "https://www.linkedin.com/company/uzkomnazorat" },
+      ],
+      address: "100128, г. Ташкент, Шайхантахурский район, ул. Лабзак, 136",
+      transport:
+        "Ориентир: Рабочий городок, торговый центр «Малика»\nАвтобусы: 29, 35, 97, 78, 148",
+      hours: "Понедельник–пятница, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница Инспекции по контролю в сфере информатизации и телекоммуникаций «Узкомназорат».",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/uzkomnazorat",
+      },
     },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
@@ -73,7 +111,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Инспекции по контролю в сфере информатизации и телекоммуникаций при Министерстве цифровых технологий «Узкомназорат» на портале gov.uz.",
+        "Официальный раздел Инспекции по контролю в сфере информатизации и телекоммуникаций при Министерстве цифровых технологий «Узкомназорат» на портале gov.uz: телефон +99871 202-69-65, телефон доверия 1144, электронная почта info[at]uzkomnazorat.uz, адрес 100128, Ташкент, Шайхантахурский район, ул. Лабзак, 136, ссылки на социальные сети, приём по будням 9:00–18:00.",
       orgName:
         "Инспекция по контролю в сфере информатизации и телекоммуникаций при Министерстве цифровых технологий «Узкомназорат»",
       sameAs: [
@@ -90,8 +128,8 @@ export default {
           a: "На портале государства: https://gov.uz/ru/uzkomnazorat (также https://gov.uz/en/uzkomnazorat и https://gov.uz/oz/uzkomnazorat). В каталоге сайта ссылка подставляется под язык интерфейса.",
         },
         {
-          q: "Какой телефон доверия указан на портале?",
-          a: "Обычно приводится короткий номер 1144; полный перечень — в «Все номера» на gov.uz.",
+          q: "Какие телефоны и почта указаны для связи?",
+          a: "Телефон +99871 202-69-65, телефон доверия 1144, электронная почта info@uzkomnazorat.uz; полный перечень номеров — в «Все номера» на gov.uz.",
         },
         {
           q: "Кому подчиняется инспекция и где описана структура?",
@@ -113,12 +151,50 @@ export default {
       "Inspection for Control in the Sphere of Informatization and Telecommunications under the Ministry of Digital Technologies «Uzkomnazorat»",
     intro: [
       "The Inspection for Control in the Sphere of Informatization and Telecommunications under the Ministry of Digital Technologies «Uzkomnazorat» exercises state supervision in informatization and telecommunications within its mandate.",
-      "The gov.uz uzkomnazorat section (https://gov.uz/en/uzkomnazorat) publishes about the organization: about the inspection, structure, leadership, central office, subordinate enterprises, territorial departments, vacancies. Activities include the New Uzbekistan development strategy 2022–2026, reports, youth policy, plans, anti-corruption, e-government, international cooperation, antimonopoly legislation and legal outreach, implementation of regulations, public council, council on spirituality and enlightenment, and more. Public services include FAQ and a section for business entities. Documents cover laws, presidential and Cabinet acts, standards, rules, internal regulations, draft regulations, repealed acts, and parliamentary decisions. Digital government includes the open data register, open budget information of the inspection, anti-corruption work, and openness proposals. Press and contacts cover news, seminar materials, photo and video galleries, official statements, announcements, calendar; contacts, feedback, and appeal statistics. The trust line on the portal is commonly 1144 (verify under “All numbers” on gov.uz).",
+      "The gov.uz uzkomnazorat section (https://gov.uz/en/uzkomnazorat) publishes about the organization: about the inspection, structure, leadership, central office, subordinate enterprises, territorial departments, vacancies. Activities include the New Uzbekistan development strategy 2022–2026, reports, youth policy, plans, anti-corruption, e-government, international cooperation, antimonopoly legislation and legal outreach, implementation of regulations, public council, council on spirituality and enlightenment, and more. Public services include FAQ and a section for business entities. Documents cover laws, presidential and Cabinet acts, standards, rules, internal regulations, draft regulations, repealed acts, and parliamentary decisions. Digital government includes the open data register, open budget information of the inspection, anti-corruption work, and openness proposals. Press and contacts cover news, seminar materials, photo and video galleries, official statements, announcements, calendar; contacts, feedback, and appeal statistics. Phone +99871 202-69-65, trust line 1144 and email info@uzkomnazorat.uz are listed on Govinfo; verify all numbers under “All numbers” on gov.uz.",
       "Useful for telecom operators, providers, IT organizations, businesses, and citizens seeking regulations or contacts.",
     ],
     officialSite: {
       h2: "Official section on gov.uz",
       ctaText: "Open the Uzkomnazorat inspection section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99871 202-69-65", href: "tel:+998712026965" }],
+      trustPhone: { display: "1144", href: "tel:1144" },
+      email: { display: "info@uzkomnazorat.uz", href: "mailto:info@uzkomnazorat.uz" },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC3ajfdl_uoWLGR1B-eCELWA/featured",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzkomnazoratuz/" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzkomnazorat" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzkomnazorat" },
+        { id: "linkedin", label: "LinkedIn", url: "https://www.linkedin.com/company/uzkomnazorat" },
+      ],
+      address: "100128, Tashkent, Shaykhantakhur district, Labzak street, 136",
+      transport:
+        "Landmark: Workers’ settlement, Malika shopping center\nBuses: 29, 35, 97, 78, 148",
+      hours: "Monday–Friday, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the UzGovInfo portal (govinfo.uz), page of the Uzkomnazorat inspection for informatization and telecommunications.",
+        reuseNoticeBefore: "When reusing materials from this site, attribution to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/uzkomnazorat",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -177,7 +253,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Inspection for Control in the Sphere of Informatization and Telecommunications under the Ministry of Digital Technologies «Uzkomnazorat» on gov.uz.",
+        "Official section of the Inspection for Control in the Sphere of Informatization and Telecommunications under the Ministry of Digital Technologies «Uzkomnazorat» on gov.uz: phone +99871 202-69-65, trust line 1144, email info[at]uzkomnazorat.uz, address 100128, Tashkent, Shaykhantakhur district, Labzak street 136, social media links, reception weekdays 9:00–18:00.",
       orgName:
         "Inspection for Control in the Sphere of Informatization and Telecommunications under the Ministry of Digital Technologies «Uzkomnazorat»",
       sameAs: [
@@ -194,8 +270,8 @@ export default {
           a: "On the government portal: https://gov.uz/en/uzkomnazorat (also https://gov.uz/ru/uzkomnazorat and https://gov.uz/oz/uzkomnazorat). The catalog link matches your interface language.",
         },
         {
-          q: "What is the trust line on the portal?",
-          a: "The portal usually lists short code 1144; see “All numbers” on gov.uz for the full list.",
+          q: "What phone numbers and email are listed for contact?",
+          a: "Phone +99871 202-69-65, trust line 1144, email info@uzkomnazorat.uz; see “All numbers” on gov.uz for the full list.",
         },
         {
           q: "Which body oversees the inspection, and where is the structure?",
@@ -217,12 +293,50 @@ export default {
       "Raqamli texnologiyalar vazirligi huzuridagi Axborotlashtirish va telekommunikatsiyalar sohasida nazorat inspeksiyasi «Oʻzkomnazorat»",
     intro: [
       "Raqamli texnologiyalar vazirligi huzuridagi Axborotlashtirish va telekommunikatsiyalar sohasida nazorat inspeksiyasi «Oʻzkomnazorat» axborotlashtirish va telekommunikatsiyalar sohasida davlat nazoratini (kuzatuvini) vakolat doirasida amalga oshiradi.",
-      "gov.uz «uzkomnazorat» boʻlimi (https://gov.uz/oz/uzkomnazorat) da tashkilot haqida: inspeksiya haqida, tuzilma, rahbariyat, markaziy apparat, boʻysunuvchi korxonalar, hududiy boshqarmalar, boʻsh ish oʻrinlari. «Faoliyat»da Yangi Oʻzbekiston 2022–2026 rivojlanish strategiyasi, hisobotlar, yoshlar siyosati, rejalar, korrupsiyaga qarshi kurash, elektron hukumat, xalqaro hamkorlik, antimonopol qonunchilik va huquqiy targʻibot, meʼyoriy-huquqiy hujjatlarni bajarish, jamoat kengashi, maʼnaviyat va maʼrifat boʻyicha maslahat kengashi va boshqalar. «Davlat xizmatlari»da savollar-javoblar, tadbirkorlik subyektlariga boʻlim. «Hujjatlar»da qonunlar, Prezident va Vazirlar Mahkamasi hujjatlari, standartlar, qoidalar, ichki meʼyoriy hujjatlar, loyiha NPHlar, kuchini yoʻqotgan hujjatlar, Oliy Majlis qarorlari. «Raqamli davlat»da ochiq maʼlumotlar reyestri, inspeksiya byudjeti boʻyicha ochiq maʼlumotlar, korrupsiyaga qarshi kurash, ochiqlik boʻyicha takliflar. Matbuot va aloqa: yangiliklar, seminar materiallari, foto- va videogalereyalar, rasmiy bayonotlar, eʼlonlar, tadbirlar; kontaktlar, qayta aloqa, murojaatlar statistikasi. Ishonch telefoni: 1144 («Barcha raqamlar» dan tekshiring).",
+      "gov.uz «uzkomnazorat» boʻlimi (https://gov.uz/oz/uzkomnazorat) da tashkilot haqida: inspeksiya haqida, tuzilma, rahbariyat, markaziy apparat, boʻysunuvchi korxonalar, hududiy boshqarmalar, boʻsh ish oʻrinlari. «Faoliyat»da Yangi Oʻzbekiston 2022–2026 rivojlanish strategiyasi, hisobotlar, yoshlar siyosati, rejalar, korrupsiyaga qarshi kurash, elektron hukumat, xalqaro hamkorlik, antimonopol qonunchilik va huquqiy targʻibot, meʼyoriy-huquqiy hujjatlarni bajarish, jamoat kengashi, maʼnaviyat va maʼrifat boʻyicha maslahat kengashi va boshqalar. «Davlat xizmatlari»da savollar-javoblar, tadbirkorlik subyektlariga boʻlim. «Hujjatlar»da qonunlar, Prezident va Vazirlar Mahkamasi hujjatlari, standartlar, qoidalar, ichki meʼyoriy hujjatlar, loyiha NPHlar, kuchini yoʻqotgan hujjatlar, Oliy Majlis qarorlari. «Raqamli davlat»da ochiq maʼlumotlar reyestri, inspeksiya byudjeti boʻyicha ochiq maʼlumotlar, korrupsiyaga qarshi kurash, ochiqlik boʻyicha takliflar. Matbuot va aloqa: yangiliklar, seminar materiallari, foto- va videogalereyalar, rasmiy bayonotlar, eʼlonlar, tadbirlar; kontaktlar, qayta aloqa, murojaatlar statistikasi. Telefon +99871 202-69-65, ishonch telefoni 1144, info@uzkomnazorat.uz va Toshkentdagi manzil govinfo.uz boʻyicha; toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
       "aloqa operatorlari, provayderlar, IT-tashkilotlari va murojaat qiluvchi fuqarolar uchun foydali.",
     ],
     officialSite: {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText: "gov.uz da «Oʻzkomnazorat» inspeksiyasi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 202-69-65", href: "tel:+998712026965" }],
+      trustPhone: { display: "1144", href: "tel:1144" },
+      email: { display: "info@uzkomnazorat.uz", href: "mailto:info@uzkomnazorat.uz" },
+      social: [
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UC3ajfdl_uoWLGR1B-eCELWA/featured",
+        },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzkomnazoratuz/" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzkomnazorat" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzkomnazorat" },
+        { id: "linkedin", label: "LinkedIn", url: "https://www.linkedin.com/company/uzkomnazorat" },
+      ],
+      address: "100128, Toshkent, Shayxontohur tumani, Labzak koʻchasi, 136",
+      transport:
+        "Orientir: Ishchilar shaharchasi, «Malika» savdo markazi\nAvtobuslar: 29, 35, 97, 78, 148",
+      hours: "Dushanba–juma, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz) boʻyicha axborotlashtirish va telekommunikatsiyalar sohasida nazorat inspeksiyasi «Oʻzkomnazorat» sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/uzkomnazorat",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -281,7 +395,7 @@ export default {
     },
     schema: {
       description:
-        "Raqamli texnologiyalar vazirligi huzuridagi Axborotlashtirish va telekommunikatsiyalar sohasida nazorat inspeksiyasi «Oʻzkomnazorat» ning gov.uz portali boʻlimi.",
+        "Raqamli texnologiyalar vazirligi huzuridagi Axborotlashtirish va telekommunikatsiyalar sohasida nazorat inspeksiyasi «Oʻzkomnazorat» ning gov.uz portali boʻlimi: telefon +99871 202-69-65, ishonch telefoni 1144, elektron pochta info[at]uzkomnazorat.uz, manzil 100128, Toshkent, Shayxontohur tumani, Labzak koʻchasi, 136, ijtimoiy tarmoqlar havolalari, ish kunlari 9:00–18:00.",
       orgName:
         "Raqamli texnologiyalar vazirligi huzuridagi Axborotlashtirish va telekommunikatsiyalar sohasida nazorat inspeksiyasi «Oʻzkomnazorat»",
       sameAs: [
@@ -298,8 +412,8 @@ export default {
           a: "Davlat portali: https://gov.uz/oz/uzkomnazorat (shuningdek https://gov.uz/ru/uzkomnazorat va https://gov.uz/en/uzkomnazorat). Katalogdagi havola interfeys tiliga mos keladi.",
         },
         {
-          q: "Ishonch telefoni qanday?",
-          a: "Odatda 1144 qisqa raqami; toʻliq roʻyxat — gov.uz dagi «Barcha raqamlar».",
+          q: "Aloqa uchun telefon va pochta qanday?",
+          a: "Telefon +99871 202-69-65, ishonch telefoni 1144, elektron pochta info@uzkomnazorat.uz; toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
         },
         {
           q: "Inspeksiya qayerda tuzilgan va tuzilma qayerda?",

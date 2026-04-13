@@ -16,6 +16,40 @@ export default {
       ctaText:
         "Перейти в раздел инспекции АПК на gov.uz →",
     },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 202-12-47", href: "tel:+998712021247" }],
+      trustPhone: { display: "+99871 202-12-48", href: "tel:+998712021248" },
+      email: { display: "info@agroin.uz", href: "mailto:info@agroin.uz" },
+      social: [
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@Uzagroinspeksiya" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzagroinspeksiyanews" },
+        { id: "twitter", label: "X (Twitter)", url: "https://x.com/Agroinspeksiya" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzagroinspeksiya" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzagroinspeksiya/" },
+      ],
+      address: "100020, г. Ташкент, Шайхонтохурский район, ул. Обиназир, 109",
+      transport:
+        "Автобусы: 8T, 20, 23, 27, 35, 46, 53, 73, 91, 146",
+      hours: "Понедельник–пятница, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница Инспекции по контролю за агропромышленным комплексом.",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/agroinspeksiya",
+      },
+    },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
       intro:
@@ -73,7 +107,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Инспекции по контролю за агропромышленным комплексом при Кабинете Министров Республики Узбекистан на портале gov.uz (agroinspeksiya).",
+        "Официальный раздел Инспекции по контролю за агропромышленным комплексом при Кабинете Министров Республики Узбекистан на портале gov.uz (agroinspeksiya): телефон +99871 202-12-47, телефон доверия +99871 202-12-48, электронная почта info[at]agroin.uz, адрес 100020, Ташкент, Шайхонтохурский район, ул. Обиназир, 109, транспорт, режим работы пн–пт 9:00–18:00 и ссылки на социальные сети.",
       orgName:
         "Инспекция по контролю за агропромышленным комплексом при Кабинете Министров Республики Узбекистан",
       sameAs: [
@@ -91,7 +125,7 @@ export default {
         },
         {
           q: "Какой телефон доверия указан на портале?",
-          a: "В блоке контактов обычно приводится +998 71 202-12-48; полный перечень — в «Все номера» на gov.uz.",
+          a: "Телефон +99871 202-12-47, телефон доверия +99871 202-12-48, электронная почта info@agroin.uz; полный перечень номеров — в «Все номера» на gov.uz.",
         },
         {
           q: "Где сведения о сертификации зерна, хлопка и семян?",
@@ -119,6 +153,39 @@ export default {
     officialSite: {
       h2: "Official section on gov.uz",
       ctaText: "Open the agro-industrial inspection section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99871 202-12-47", href: "tel:+998712021247" }],
+      trustPhone: { display: "+99871 202-12-48", href: "tel:+998712021248" },
+      email: { display: "info@agroin.uz", href: "mailto:info@agroin.uz" },
+      social: [
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@Uzagroinspeksiya" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzagroinspeksiyanews" },
+        { id: "twitter", label: "X (Twitter)", url: "https://x.com/Agroinspeksiya" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzagroinspeksiya" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzagroinspeksiya/" },
+      ],
+      address: "100020, Tashkent, Shaykhontokhur district, Obinazar street, 109",
+      transport: "Buses: 8T, 20, 23, 27, 35, 46, 53, 73, 91, 146",
+      hours: "Monday–Friday, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the UzGovInfo portal (govinfo.uz), page of the Inspection for supervision over the agro-industrial complex.",
+        reuseNoticeBefore: "When reusing materials from this site, attribution to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/agroinspeksiya",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -176,7 +243,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Inspection for supervision over the agro-industrial complex under the Cabinet of Ministers of the Republic of Uzbekistan on gov.uz (agroinspeksiya).",
+        "Official section of the Inspection for supervision over the agro-industrial complex under the Cabinet of Ministers of the Republic of Uzbekistan on gov.uz (agroinspeksiya): phone +99871 202-12-47, trust line +99871 202-12-48, email info[at]agroin.uz, address 100020, Tashkent, Shaykhontokhur district, Obinazar street 109, transport, office hours Mon–Fri 9:00–18:00 and social media links.",
       orgName:
         "Inspection for supervision over the agro-industrial complex under the Cabinet of Ministers of the Republic of Uzbekistan",
       sameAs: [
@@ -194,7 +261,7 @@ export default {
         },
         {
           q: "What is the hotline on the portal?",
-          a: "The portal usually lists +998 71 202-12-48; see “All numbers” on gov.uz for the full list.",
+          a: "Phone +99871 202-12-47, trust line +99871 202-12-48, email info@agroin.uz; see “All numbers” on gov.uz for the full list.",
         },
         {
           q: "Where is information on grain, cotton and seed certification?",
@@ -222,6 +289,39 @@ export default {
     officialSite: {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText: "gov.uz da agrosanoat inspeksiyasi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 202-12-47", href: "tel:+998712021247" }],
+      trustPhone: { display: "+99871 202-12-48", href: "tel:+998712021248" },
+      email: { display: "info@agroin.uz", href: "mailto:info@agroin.uz" },
+      social: [
+        { id: "youtube", label: "YouTube", url: "https://www.youtube.com/@Uzagroinspeksiya" },
+        { id: "telegram", label: "Telegram", url: "https://t.me/uzagroinspeksiyanews" },
+        { id: "twitter", label: "X (Twitter)", url: "https://x.com/Agroinspeksiya" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/uzagroinspeksiya" },
+        { id: "instagram", label: "Instagram", url: "https://www.instagram.com/uzagroinspeksiya/" },
+      ],
+      address: "100020, Toshkent, Shayxontohur tumani, Obinazor koʻchasi, 109",
+      transport: "Avtobuslar: 8T, 20, 23, 27, 35, 46, 53, 73, 91, 146",
+      hours: "Dushanba–juma, 9:00–18:00",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz) boʻyicha Agrosanoat majmui ustidan nazorat inspeksiyasi sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/agroinspeksiya",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -280,7 +380,7 @@ export default {
     },
     schema: {
       description:
-        "Vazirlar Mahkamasi huzuridagi Agrosanoat majmui ustidan nazorat qilish inspeksiyasining gov.uz portali boʻlimi (agroinspeksiya).",
+        "Vazirlar Mahkamasi huzuridagi Agrosanoat majmui ustidan nazorat qilish inspeksiyasining gov.uz portali boʻlimi (agroinspeksiya): telefon +99871 202-12-47, ishonch telefoni +99871 202-12-48, elektron pochta info[at]agroin.uz, manzil 100020, Toshkent, Shayxontohur tumani, Obinazor koʻchasi, 109, transport, ish vaqti dush–juma 9:00–18:00 va ijtimoiy tarmoqlar havolalari.",
       orgName:
         "O'zbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Agrosanoat majmui ustidan nazorat qilish inspeksiyasi",
       sameAs: [
@@ -298,7 +398,7 @@ export default {
         },
         {
           q: "Ishonch telefoni qanday?",
-          a: "Odatda +998 71 202-12-48; toʻliq roʻyxat — gov.uz dagi «Barcha raqamlar».",
+          a: "Telefon +99871 202-12-47, ishonch telefoni +99871 202-12-48, elektron pochta info@agroin.uz; toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
         },
         {
           q: "Don, paxta va urugʻ sertifikatlash haqida maʼlumot qayerda?",

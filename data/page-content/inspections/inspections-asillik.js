@@ -8,13 +8,38 @@ export default {
       "Инспекция государственного контроля за пробой драгоценных металлов при Министерстве экономики и финансов Республики Узбекистан",
     intro: [
       "Инспекция государственного контроля за пробой драгоценных металлов при Министерстве экономики и финансов Республики Узбекистан осуществляет государственный контроль в сфере учёта и клеймения изделий из драгоценных металлов и драгоценных камней, а также связанные с этим функции в пределах компетенции.",
-      "На портале gov.uz в разделе asillik (https://gov.uz/ru/asillik) публикуются сведения об инспекции и руководстве. В «Деятельности» — работа в области государственного языка и духовно-просветительская деятельность, конкурсы и тендеры, международное сотрудничество, противодействие коррупции, молодёжная и гендерная политика, вакансии. В «Государственных услугах» — вопросы и ответы, материалы для субъектов предпринимательства, ссылка на единый реестр государственных услуг. В «Документах» — утратившие силу нормативные акты, акты Президента, законы, проекты нормативных документов на обсуждении, внутриведомственные документы, акты Кабинета Министров. В «Цифровом правительстве» — реестр открытых данных, открытая информация о бюджете инспекции, аналитический отчёт, годовой отчёт по противодействию коррупции. Пресс-служба и контакты: пресс-релизы, заседания, календарь событий, новости; контакты, опросы, обратная связь, обращения по противодействию коррупции. Телефон доверия на портале: +998 71 230-78-14 (актуальные номера — в «Все номера» на gov.uz).",
+      "На портале gov.uz в разделе asillik (https://gov.uz/ru/asillik) публикуются сведения об инспекции и руководстве. В «Деятельности» — работа в области государственного языка и духовно-просветительская деятельность, конкурсы и тендеры, международное сотрудничество, противодействие коррупции, молодёжная и гендерная политика, вакансии. В «Государственных услугах» — вопросы и ответы, материалы для субъектов предпринимательства, ссылка на единый реестр государственных услуг. В «Документах» — утратившие силу нормативные акты, акты Президента, законы, проекты нормативных документов на обсуждении, внутриведомственные документы, акты Кабинета Министров. В «Цифровом правительстве» — реестр открытых данных, открытая информация о бюджете инспекции, аналитический отчёт, годовой отчёт по противодействию коррупции. Пресс-служба и контакты: пресс-релизы, заседания, календарь событий, новости; контакты, опросы, обратная связь, обращения по противодействию коррупции. Телефон +99871 233-02-33, телефон доверия +99871 230-78-14, почта devonxona@dadni.uz и адрес в Ташкенте приведены по данным govinfo.uz; полный перечень номеров — в «Все номера» на gov.uz.",
       "Полезна ювелирам, производителям, предпринимателям и гражданам при обращениях и поиске нормативных требований в сфере пробы и клеймения.",
     ],
     officialSite: {
       h2: "Официальный раздел на gov.uz",
       ctaText:
         "Перейти в раздел инспекции контроля пробы драгоценных металлов на gov.uz →",
+    },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 233-02-33", href: "tel:+998712330233" }],
+      trustPhone: { display: "+99871 230-78-14", href: "tel:+998712307814" },
+      email: { display: "devonxona@dadni.uz", href: "mailto:devonxona@dadni.uz" },
+      social: [{ id: "telegram", label: "Telegram", url: "https://t.me/dadni_info" }],
+      address: "100000, г. Ташкент, ул. Зарафшан, 4",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница Инспекции государственного контроля за пробой драгоценных металлов (asillik).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/asillik",
+      },
     },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
@@ -73,7 +98,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Инспекции государственного контроля за пробой драгоценных металлов при Министерстве экономики и финансов Республики Узбекистан на портале gov.uz (asillik).",
+        "Официальный раздел Инспекции государственного контроля за пробой драгоценных металлов при Министерстве экономики и финансов Республики Узбекистан на портале gov.uz (asillik): телефон +99871 233-02-33, телефон доверия +99871 230-78-14, электронная почта devonxona[at]dadni.uz, адрес 100000, Ташкент, ул. Зарафшан, 4, Telegram t.me/dadni_info.",
       orgName:
         "Инспекция государственного контроля за пробой драгоценных металлов при Министерстве экономики и финансов Республики Узбекистан",
       sameAs: [
@@ -90,8 +115,8 @@ export default {
           a: "На портале государства: https://gov.uz/ru/asillik (также https://gov.uz/en/asillik и https://gov.uz/oz/asillik). В каталоге сайта ссылка подставляется под язык интерфейса.",
         },
         {
-          q: "Какой телефон доверия указан на портале?",
-          a: "Обычно приводится +998 71 230-78-14; полный перечень — в «Все номера» на gov.uz.",
+          q: "Какие телефоны и почта указаны для связи?",
+          a: "Телефон +99871 233-02-33, телефон доверия +99871 230-78-14, электронная почта devonxona@dadni.uz; полный перечень номеров — в «Все номера» на gov.uz.",
         },
         {
           q: "Кому подчиняется инспекция?",
@@ -113,13 +138,38 @@ export default {
       "Inspection for state control of fineness of precious metals under the Ministry of Economy and Finance of the Republic of Uzbekistan",
     intro: [
       "The inspection exercises state control over hallmarking and related accounting of precious metals and gemstones within its mandate under the Ministry of Economy and Finance of the Republic of Uzbekistan.",
-      "The gov.uz asillik section (https://gov.uz/en/asillik) publishes information on the inspection and leadership. Activities cover state language and outreach, competitions and tenders, international cooperation, anti-corruption, youth and gender policy, and vacancies. Public services include FAQs, materials for business entities, and a link to the unified public services registry. Documents cover repealed regulations, presidential acts, laws, draft regulations under discussion, internal documents, and Cabinet of Ministers acts. Digital government includes the open data registry, open budget information of the inspection, analytical report, and annual anti-corruption report. Press and contacts cover press releases, meetings, calendar of events, and news; contacts, surveys, feedback and corruption prevention appeals. The hotline on the portal is commonly +998 71 230-78-14 (verify under “All numbers” on gov.uz).",
+      "The gov.uz asillik section (https://gov.uz/en/asillik) publishes information on the inspection and leadership. Activities cover state language and outreach, competitions and tenders, international cooperation, anti-corruption, youth and gender policy, and vacancies. Public services include FAQs, materials for business entities, and a link to the unified public services registry. Documents cover repealed regulations, presidential acts, laws, draft regulations under discussion, internal documents, and Cabinet of Ministers acts. Digital government includes the open data registry, open budget information of the inspection, analytical report, and annual anti-corruption report. Press and contacts cover press releases, meetings, calendar of events, and news; contacts, surveys, feedback and corruption prevention appeals. Phone +99871 233-02-33, trust line +99871 230-78-14 and email devonxona@dadni.uz are listed on Govinfo; verify all numbers under “All numbers” on gov.uz.",
       "Useful for jewellers, manufacturers, entrepreneurs and citizens filing appeals or seeking regulatory information on fineness and hallmarking.",
     ],
     officialSite: {
       h2: "Official section on gov.uz",
       ctaText:
         "Open the precious metals fineness inspection section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99871 233-02-33", href: "tel:+998712330233" }],
+      trustPhone: { display: "+99871 230-78-14", href: "tel:+998712307814" },
+      email: { display: "devonxona@dadni.uz", href: "mailto:devonxona@dadni.uz" },
+      social: [{ id: "telegram", label: "Telegram", url: "https://t.me/dadni_info" }],
+      address: "100000, Tashkent, Zarafshan street, 4",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the UzGovInfo portal (govinfo.uz), page of the inspection for state control of fineness of precious metals (asillik).",
+        reuseNoticeBefore: "When reusing materials from this site, attribution to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/asillik",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -177,7 +227,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Inspection for state control of fineness of precious metals under the Ministry of Economy and Finance of the Republic of Uzbekistan on gov.uz (asillik).",
+        "Official section of the Inspection for state control of fineness of precious metals under the Ministry of Economy and Finance of the Republic of Uzbekistan on gov.uz (asillik): phone +99871 233-02-33, trust line +99871 230-78-14, email devonxona[at]dadni.uz, address 100000, Tashkent, Zarafshan street 4, Telegram t.me/dadni_info.",
       orgName:
         "Inspection for state control of fineness of precious metals under the Ministry of Economy and Finance of the Republic of Uzbekistan",
       sameAs: [
@@ -194,8 +244,8 @@ export default {
           a: "On the government portal: https://gov.uz/en/asillik (also https://gov.uz/ru/asillik and https://gov.uz/oz/asillik). The catalog link matches your interface language.",
         },
         {
-          q: "What is the hotline on the portal?",
-          a: "The portal usually lists +998 71 230-78-14; see “All numbers” on gov.uz for the full list.",
+          q: "What phone numbers and email are listed for contact?",
+          a: "Phone +99871 233-02-33, trust line +99871 230-78-14, email devonxona@dadni.uz; see “All numbers” on gov.uz for the full list.",
         },
         {
           q: "Which body oversees the inspection?",
@@ -217,13 +267,38 @@ export default {
       "Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi Davlat asillik darajasi nazorati inspeksiyasi",
     intro: [
       "Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi Davlat asillik darajasi nazorati inspeksiyasi qimmatbaho metallar va qimmatbaho toshlar buyumlarining hisobi va tamg‘alashi boʻyicha davlat nazoratini va tegishli vazifalarni vakolat doirasida bajaradi.",
-      "gov.uz «asillik» boʻlimi (https://gov.uz/oz/asillik) da inspeksiya va rahbariyat haqida maʼlumotlar joylashtiriladi. «Faoliyat»da davlat tili va maʼnaviy ishlar, tanlovlar va tenderlar, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender siyosati, boʻsh ish oʻrinlari. «Davlat xizmatlari»da savollar-javoblar, tadbirkorlik subyektlariga, davlat xizmatlari yagona reyestriga havola. «Hujjatlar»da oʻz kuchini yoʻqotgan meʼyoriy-huquqiy hujjatlar, Prezident qaror va farmonlari, qonunlar, loyihalar muhokamasi, ichki idoraviy hujjatlar, Vazirlar Mahkamasi qaror va farmoyishlari. «Raqamli hukumat»da ochiq maʼlumotlar reyestri, inspeksiya byudjeti boʻyicha ochiq maʼlumotlar, tahliliy hisobot, korrupsiyaga qarshi kurashning yillik hisoboti. «Axborot xizmati» va aloqa: press-relizlar, majlislar, voqealar taqvimi, yangiliklar; kontaktlar, soʻrovnomalar, qayta aloqa, korrupsiyani oldini olish boʻyicha murojaat. Ishonch telefoni: +998 71 230-78-14 («Barcha raqamlar» dan tekshiring).",
+      "gov.uz «asillik» boʻlimi (https://gov.uz/oz/asillik) da inspeksiya va rahbariyat haqida maʼlumotlar joylashtiriladi. «Faoliyat»da davlat tili va maʼnaviy ishlar, tanlovlar va tenderlar, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender siyosati, boʻsh ish oʻrinlari. «Davlat xizmatlari»da savollar-javoblar, tadbirkorlik subyektlariga, davlat xizmatlari yagona reyestriga havola. «Hujjatlar»da oʻz kuchini yoʻqotgan meʼyoriy-huquqiy hujjatlar, Prezident qaror va farmonlari, qonunlar, loyihalar muhokamasi, ichki idoraviy hujjatlar, Vazirlar Mahkamasi qaror va farmoyishlari. «Raqamli hukumat»da ochiq maʼlumotlar reyestri, inspeksiya byudjeti boʻyicha ochiq maʼlumotlar, tahliliy hisobot, korrupsiyaga qarshi kurashning yillik hisoboti. «Axborot xizmati» va aloqa: press-relizlar, majlislar, voqealar taqvimi, yangiliklar; kontaktlar, soʻrovnomalar, qayta aloqa, korrupsiyani oldini olish boʻyicha murojaat. Telefon +99871 233-02-33, ishonch telefoni +99871 230-78-14, devonxona@dadni.uz va Toshkentdagi manzil govinfo.uz boʻyicha; toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
       "zargarlik korxonalari, ishlab chiqaruvchilar, tadbirkorlar va murojaat qiluvchi fuqarolar uchun foydali.",
     ],
     officialSite: {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText:
         "gov.uz da davlat asillik darajasi nazorati inspeksiyasi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 233-02-33", href: "tel:+998712330233" }],
+      trustPhone: { display: "+99871 230-78-14", href: "tel:+998712307814" },
+      email: { display: "devonxona@dadni.uz", href: "mailto:devonxona@dadni.uz" },
+      social: [{ id: "telegram", label: "Telegram", url: "https://t.me/dadni_info" }],
+      address: "100000, Toshkent, Zarafshon koʻchasi, 4",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz) boʻyicha davlat asillik darajasi nazorati inspeksiyasi (asillik) sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/asillik",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -282,7 +357,7 @@ export default {
     },
     schema: {
       description:
-        "Iqtisodiyot va moliya vazirligi huzuridagi Davlat asillik darajasi nazorati inspeksiyasining gov.uz portali boʻlimi (asillik).",
+        "Iqtisodiyot va moliya vazirligi huzuridagi Davlat asillik darajasi nazorati inspeksiyasining gov.uz portali boʻlimi (asillik): telefon +99871 233-02-33, ishonch telefoni +99871 230-78-14, elektron pochta devonxona[at]dadni.uz, manzil 100000, Toshkent, Zarafshon koʻchasi, 4, Telegram t.me/dadni_info.",
       orgName:
         "Oʻzbekiston Respublikasi Iqtisodiyot va moliya vazirligi huzuridagi Davlat asillik darajasi nazorati inspeksiyasi",
       sameAs: [
@@ -299,8 +374,8 @@ export default {
           a: "Davlat portali: https://gov.uz/oz/asillik (shuningdek https://gov.uz/ru/asillik va https://gov.uz/en/asillik). Katalogdagi havola interfeys tiliga mos keladi.",
         },
         {
-          q: "Ishonch telefoni qanday?",
-          a: "Odatda +998 71 230-78-14; toʻliq roʻyxat — gov.uz dagi «Barcha raqamlar».",
+          q: "Aloqa uchun telefon va pochta qanday?",
+          a: "Telefon +99871 233-02-33, ishonch telefoni +99871 230-78-14, elektron pochta devonxona@dadni.uz; toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
         },
         {
           q: "Inspeksiya qayerda tuzilgan?",

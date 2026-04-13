@@ -8,13 +8,54 @@ export default {
       "Инспекция по контролю за использованием электрической энергии, нефтепродуктов и газа при Кабинете Министров Республики Узбекистан",
     intro: [
       "Инспекция по контролю за использованием электрической энергии, нефтепродуктов и газа при Кабинете Министров Республики Узбекистан осуществляет государственный контроль в сфере электроэнергетики, оборота нефтепродуктов и использования газа в пределах компетенции.",
-      "На портале gov.uz в разделе uzenergoinspeksiya (https://gov.uz/ru/uzenergoinspeksiya) публикуются сведения об инспекции, структуре, руководстве, центральном аппарате, региональных подразделениях. В «Деятельности» — обязательный энергоаудит, электронное правительство, международное сотрудничество, антикоррупционная работа, молодёжная и гендерная политика. В «Государственных услугах» — раздел вопросов и ответов. В «Документах» — законодательство, указы и постановления Президента, постановления и распоряжения правительства, зарегистрированные в Минюсте нормативные акты, Конституция. Предусмотрены блоки цифрового правительства и пресс-службы: новости, заявления руководства, объявления, пресс-релизы, пресс-конференции, опросы, обратная связь. Горячая линия на портале: +998 71 208-10-15 (актуальные номера — в «Все номера» на gov.uz).",
+      "На портале gov.uz в разделе uzenergoinspeksiya (https://gov.uz/ru/uzenergoinspeksiya) публикуются сведения об инспекции, структуре, руководстве, центральном аппарате, региональных подразделениях. В «Деятельности» — обязательный энергоаудит, электронное правительство, международное сотрудничество, антикоррупционная работа, молодёжная и гендерная политика. В «Государственных услугах» — раздел вопросов и ответов. В «Документах» — законодательство, указы и постановления Президента, постановления и распоряжения правительства, зарегистрированные в Минюсте нормативные акты, Конституция. Предусмотрены блоки цифрового правительства и пресс-службы: новости, заявления руководства, объявления, пресс-релизы, пресс-конференции, опросы, обратная связь. Телефон +99871 208-10-19, телефон доверия +99871 208-10-15 и почта evuzenergoinspeksiya@umail.uz приведены по данным govinfo.uz; полный перечень номеров — в «Все номера» на gov.uz.",
       "Полезен энергосбытовым и сетевым организациям, предприятиям ТЭК, проектным организациям и гражданам при обращениях и поиске нормативных требований.",
     ],
     officialSite: {
       h2: "Официальный раздел на gov.uz",
       ctaText:
         "Перейти в раздел энергетической инспекции на gov.uz →",
+    },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 208-10-19", href: "tel:+998712081019" }],
+      trustPhone: { display: "+99871 208-10-15", href: "tel:+998712081015" },
+      email: {
+        display: "evuzenergoinspeksiya@umail.uz",
+        href: "mailto:evuzenergoinspeksiya@umail.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/Uzenergoinspeksiya" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/energoinspeksiya" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/uzenergo_inspeksiya/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCzn89YOpXWPntvbroGweF6w",
+        },
+      ],
+      address: "100047, г. Ташкент, ул. Истикбол, 21",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница Инспекции по контролю за использованием электрической энергии, нефтепродуктов и газа.",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/uzenergoinspeksiya",
+      },
     },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
@@ -73,7 +114,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Инспекции по контролю за использованием электрической энергии, нефтепродуктов и газа при Кабинете Министров Республики Узбекистан на портале gov.uz (uzenergoinspeksiya).",
+        "Официальный раздел Инспекции по контролю за использованием электрической энергии, нефтепродуктов и газа при Кабинете Министров Республики Узбекистан на портале gov.uz (uzenergoinspeksiya): телефон +99871 208-10-19, телефон доверия +99871 208-10-15, электронная почта evuzenergoinspeksiya[at]umail.uz, адрес 100047, Ташкент, ул. Истикбол, 21 и ссылки на социальные сети.",
       orgName:
         "Инспекция по контролю за использованием электрической энергии, нефтепродуктов и газа при Кабинете Министров Республики Узбекистан",
       sameAs: [
@@ -90,8 +131,8 @@ export default {
           a: "На портале государства: https://gov.uz/ru/uzenergoinspeksiya (также https://gov.uz/en/uzenergoinspeksiya и https://gov.uz/oz/uzenergoinspeksiya). В каталоге сайта ссылка подставляется под язык интерфейса.",
         },
         {
-          q: "Какой телефон горячей линии указан на портале?",
-          a: "Обычно приводится +998 71 208-10-15; полный перечень — в «Все номера» на gov.uz.",
+          q: "Какие телефоны и почта указаны для связи?",
+          a: "Телефон +99871 208-10-19, телефон доверия +99871 208-10-15, электронная почта evuzenergoinspeksiya@umail.uz; полный перечень номеров — в «Все номера» на gov.uz.",
         },
         {
           q: "Где сведения об обязательном энергоаудите?",
@@ -113,12 +154,53 @@ export default {
       "Inspection for Control in electric power industry, oil products, and gas usage at the Cabinet of Ministers of the Republic of Uzbekistan",
     intro: [
       "The inspection body under the Cabinet of Ministers exercises state control over the use of electricity, oil products and gas within its mandate.",
-      "The gov.uz uzenergoinspeksiya section (https://gov.uz/en/uzenergoinspeksiya) publishes information on the inspection, structure, leadership, central office and regional departments. Activities cover mandatory energy audit, e-government, international cooperation, anti-corruption, youth and gender policy. Public services include FAQs. Documents cover legislation, presidential and government acts, regulations registered with the Ministry of Justice, and the Constitution. Digital government and press blocks include news, leadership statements, announcements, press releases, press conferences, surveys and feedback. The portal hotline is commonly +998 71 208-10-15 (verify under “All numbers” on gov.uz).",
+      "The gov.uz uzenergoinspeksiya section (https://gov.uz/en/uzenergoinspeksiya) publishes information on the inspection, structure, leadership, central office and regional departments. Activities cover mandatory energy audit, e-government, international cooperation, anti-corruption, youth and gender policy. Public services include FAQs. Documents cover legislation, presidential and government acts, regulations registered with the Ministry of Justice, and the Constitution. Digital government and press blocks include news, leadership statements, announcements, press releases, press conferences, surveys and feedback. Phone +99871 208-10-19, trust line +99871 208-10-15 and email evuzenergoinspeksiya@umail.uz are listed on Govinfo; verify all numbers under “All numbers” on gov.uz.",
       "Useful for power utilities and fuel sector enterprises, designers and citizens filing appeals or seeking regulatory information.",
     ],
     officialSite: {
       h2: "Official section on gov.uz",
       ctaText: "Open the energy inspection section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99871 208-10-19", href: "tel:+998712081019" }],
+      trustPhone: { display: "+99871 208-10-15", href: "tel:+998712081015" },
+      email: {
+        display: "evuzenergoinspeksiya@umail.uz",
+        href: "mailto:evuzenergoinspeksiya@umail.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/Uzenergoinspeksiya" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/energoinspeksiya" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/uzenergo_inspeksiya/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCzn89YOpXWPntvbroGweF6w",
+        },
+      ],
+      address: "100047, Tashkent, Istikbol street, 21",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the UzGovInfo portal (govinfo.uz), page of the Inspection for control in electric power, oil products and gas usage.",
+        reuseNoticeBefore: "When reusing materials from this site, attribution to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/uzenergoinspeksiya",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -176,7 +258,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Inspection for control in electric power industry, oil products, and gas usage at the Cabinet of Ministers of the Republic of Uzbekistan on gov.uz (uzenergoinspeksiya).",
+        "Official section of the Inspection for control in electric power industry, oil products, and gas usage at the Cabinet of Ministers of the Republic of Uzbekistan on gov.uz (uzenergoinspeksiya): phone +99871 208-10-19, trust line +99871 208-10-15, email evuzenergoinspeksiya[at]umail.uz, address 100047, Tashkent, Istikbol street 21 and social media links.",
       orgName:
         "Inspection for Control in electric power industry, oil products, and gas usage at the Cabinet of Ministers of the Republic of Uzbekistan",
       sameAs: [
@@ -193,8 +275,8 @@ export default {
           a: "On the government portal: https://gov.uz/en/uzenergoinspeksiya (also https://gov.uz/ru/uzenergoinspeksiya and https://gov.uz/oz/uzenergoinspeksiya). The catalog link matches your interface language.",
         },
         {
-          q: "What is the hotline on the portal?",
-          a: "The portal usually lists +998 71 208-10-15; see “All numbers” on gov.uz for the full list.",
+          q: "What phone numbers and email are listed for contact?",
+          a: "Phone +99871 208-10-19, trust line +99871 208-10-15, email evuzenergoinspeksiya@umail.uz; see “All numbers” on gov.uz for the full list.",
         },
         {
           q: "Where is information on mandatory energy audit?",
@@ -216,12 +298,53 @@ export default {
       "O'zbekiston Respublikasi Vazirlar Mahkamasi huzuridagi elektr energiyasi, neft mahsulotlari va gazdan foydalanishni nazorat qilish inspeksiyasi",
     intro: [
       "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi elektr energiyasi, neft mahsulotlari va gazdan foydalanishni nazorat qilish inspeksiyasi elektr energiya, neft mahsulotlari va gazdan foydalanish sohasida davlat nazoratini vakolat doirasida amalga oshiradi.",
-      "gov.uz «uzenergoinspeksiya» boʻlimi (https://gov.uz/oz/uzenergoinspeksiya) da inspeksiya, tuzilma, rahbariyat, markaziy apparat, hududiy boshqarmalar haqida maʼlumotlar joylashtiriladi. «Faoliyat»da majburiy energoaudit, elektron hukumat, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender siyosati. «Davlat xizmatlari»da savollar-javoblar. «Hujjatlar»da qonunchilik, Prezident va hukumat qarorlari, Adliya vazirligi roʻyxatidan oʻtgan normativ hujjatlar, Konstitutsiya. «Raqamli davlat» va matbuot: yangiliklar, rahbariyat bayonotlari, eʼlonlar, press-relizlar, matbuot anjumanlari, soʻrovnomalar, qayta aloqa. Ishonch liniyasi: +998 71 208-10-15 («Barcha raqamlar» dan tekshiring).",
+      "gov.uz «uzenergoinspeksiya» boʻlimi (https://gov.uz/oz/uzenergoinspeksiya) da inspeksiya, tuzilma, rahbariyat, markaziy apparat, hududiy boshqarmalar haqida maʼlumotlar joylashtiriladi. «Faoliyat»da majburiy energoaudit, elektron hukumat, xalqaro hamkorlik, korrupsiyaga qarshi kurash, yoshlar va gender siyosati. «Davlat xizmatlari»da savollar-javoblar. «Hujjatlar»da qonunchilik, Prezident va hukumat qarorlari, Adliya vazirligi roʻyxatidan oʻtgan normativ hujjatlar, Konstitutsiya. «Raqamli davlat» va matbuot: yangiliklar, rahbariyat bayonotlari, eʼlonlar, press-relizlar, matbuot anjumanlari, soʻrovnomalar, qayta aloqa. Telefon +99871 208-10-19, ishonch telefoni +99871 208-10-15 va evuzenergoinspeksiya@umail.uz govinfo.uz boʻyicha; toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
       "energetika va yoqilgʻi sektori, loyiha va fuqarolar uchun foydali.",
     ],
     officialSite: {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText: "gov.uz da energiya inspeksiyasi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 208-10-19", href: "tel:+998712081019" }],
+      trustPhone: { display: "+99871 208-10-15", href: "tel:+998712081015" },
+      email: {
+        display: "evuzenergoinspeksiya@umail.uz",
+        href: "mailto:evuzenergoinspeksiya@umail.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/Uzenergoinspeksiya" },
+        { id: "facebook", label: "Facebook", url: "https://www.facebook.com/energoinspeksiya" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/uzenergo_inspeksiya/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/channel/UCzn89YOpXWPntvbroGweF6w",
+        },
+      ],
+      address: "100047, Toshkent, Istiqbol koʻchasi, 21",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz) boʻyicha elektr energiyasi, neft mahsulotlari va gazdan foydalanishni nazorat qilish inspeksiyasi sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/uzenergoinspeksiya",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -280,7 +403,7 @@ export default {
     },
     schema: {
       description:
-        "Vazirlar Mahkamasi huzuridagi elektr energiyasi, neft mahsulotlari va gazdan foydalanishni nazorat qilish inspeksiyasining gov.uz portali boʻlimi (uzenergoinspeksiya).",
+        "Vazirlar Mahkamasi huzuridagi elektr energiyasi, neft mahsulotlari va gazdan foydalanishni nazorat qilish inspeksiyasining gov.uz portali boʻlimi (uzenergoinspeksiya): telefon +99871 208-10-19, ishonch telefoni +99871 208-10-15, elektron pochta evuzenergoinspeksiya[at]umail.uz, manzil 100047, Toshkent, Istiqbol koʻchasi, 21 va ijtimoiy tarmoqlar havolalari.",
       orgName:
         "O'zbekiston Respublikasi Vazirlar Mahkamasi huzuridagi elektr energiyasi, neft mahsulotlari va gazdan foydalanishni nazorat qilish inspeksiyasi",
       sameAs: [
@@ -297,8 +420,8 @@ export default {
           a: "Davlat portali: https://gov.uz/oz/uzenergoinspeksiya (shuningdek https://gov.uz/ru/uzenergoinspeksiya va https://gov.uz/en/uzenergoinspeksiya). Katalogdagi havola interfeys tiliga mos keladi.",
         },
         {
-          q: "Ishonch telefoni qanday?",
-          a: "Odatda +998 71 208-10-15; toʻliq roʻyxat — gov.uz dagi «Barcha raqamlar».",
+          q: "Aloqa uchun telefon va pochta qanday?",
+          a: "Telefon +99871 208-10-19, ishonch telefoni +99871 208-10-15, elektron pochta evuzenergoinspeksiya@umail.uz; toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
         },
         {
           q: "Majburiy energoaudit haqida maʼlumot qayerda?",

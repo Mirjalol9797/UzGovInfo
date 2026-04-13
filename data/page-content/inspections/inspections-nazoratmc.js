@@ -8,13 +8,53 @@ export default {
       "Инспекция по контролю в сфере строительства и жилищно-коммунального хозяйства при Кабинете Министров Республики Узбекистан",
     intro: [
       "Инспекция по контролю в сфере строительства и жилищно-коммунального хозяйства при Кабинете Министров Республики Узбекистан осуществляет государственный контроль (надзор) в сфере строительства и жилищно-коммунального хозяйства в пределах компетенции.",
-      "На портале gov.uz в разделе nazoratmc (https://gov.uz/ru/nazoratmc) публикуются сведения об инспекции, структуре, руководстве, центральном аппарате, подведомственных предприятиях, территориальных управлениях, работе в инспекции и общественном совете. В «Деятельности» — отчёты, перечень предприятий, производящих и поставляющих опасные строительные материалы, противодействие коррупции, инициативы вроде «экоактивный сотрудник», цифровизация в строительной и коммунальной сферах, жилищно-коммунальное хозяйство, контроль в сфере строительства, электронное правительство, международное сотрудничество, молодёжная и гендерная политика. В «Государственных услугах» — вопросы и ответы, единый портал интерактивных государственных услуг (ЕПИГУ). В «Документах» размещаются ключевые акты, в том числе Указ Президента Республики Узбекистан № УП-66 «О мерах по эффективной организации государственного контроля в сфере строительства и жилищно-коммунального хозяйства». В «Цифровом правительстве» — общие сведения о программах и отдельные указы (в том числе об открытости деятельности органов и общественном контроле, УП-6247). Пресс-центр и контакты: использование данных, управление веб-сайтом, новости, выступления руководства, календарь, заседания, пресс-конференции, пресс-релизы; контакты, опросы, обратная связь, обращения по противодействию коррупции. Телефон доверия на портале: +998 71 200-69-02 (актуальные номера — в «Все номера» на gov.uz).",
+      "На портале gov.uz в разделе nazoratmc (https://gov.uz/ru/nazoratmc) публикуются сведения об инспекции, структуре, руководстве, центральном аппарате, подведомственных предприятиях, территориальных управлениях, работе в инспекции и общественном совете. В «Деятельности» — отчёты, перечень предприятий, производящих и поставляющих опасные строительные материалы, противодействие коррупции, инициативы вроде «экоактивный сотрудник», цифровизация в строительной и коммунальной сферах, жилищно-коммунальное хозяйство, контроль в сфере строительства, электронное правительство, международное сотрудничество, молодёжная и гендерная политика. В «Государственных услугах» — вопросы и ответы, единый портал интерактивных государственных услуг (ЕПИГУ). В «Документах» размещаются ключевые акты, в том числе Указ Президента Республики Узбекистан № УП-66 «О мерах по эффективной организации государственного контроля в сфере строительства и жилищно-коммунального хозяйства». В «Цифровом правительстве» — общие сведения о программах и отдельные указы (в том числе об открытости деятельности органов и общественном контроле, УП-6247). Пресс-центр и контакты: использование данных, управление веб-сайтом, новости, выступления руководства, календарь, заседания, пресс-конференции, пресс-релизы; контакты, опросы, обратная связь, обращения по противодействию коррупции. Телефон +99871 200-69-02, телефон доверия 71-200-69-02 (тот же номер), почта devonxona@infoccnis.uz и адрес в Ташкенте приведены по данным govinfo.uz; полный перечень номеров — в «Все номера» на gov.uz.",
       "Полезна застройщикам, подрядчикам, управляющим организациям ЖКХ, проектным организациям и гражданам при обращениях и поиске нормативных требований.",
     ],
     officialSite: {
       h2: "Официальный раздел на gov.uz",
       ctaText:
         "Перейти в раздел инспекции по строительству и ЖКХ на gov.uz →",
+    },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [{ display: "+99871 200-69-02", href: "tel:+998712006902" }],
+      trustPhone: { display: "71-200-69-02", href: "tel:+998712006902" },
+      email: {
+        display: "devonxona@infoccnis.uz",
+        href: "mailto:devonxona@infoccnis.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/OZR_QSN" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/qurilish_kommunal_inspeksiyasi/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@Qurilishkommunalinspeksiyasi",
+        },
+      ],
+      address: "Узбекистан, г. Ташкент, ул. Алишера Навои, 40",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница Инспекции по контролю в сфере строительства и ЖКХ (nazoratmc).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/nazoratmc",
+      },
     },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
@@ -73,7 +113,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Инспекции по контролю в сфере строительства и жилищно-коммунального хозяйства при Кабинете Министров Республики Узбекистан на портале gov.uz (nazoratmc).",
+        "Официальный раздел Инспекции по контролю в сфере строительства и жилищно-коммунального хозяйства при Кабинете Министров Республики Узбекистан на портале gov.uz (nazoratmc): телефон +99871 200-69-02, телефон доверия 71-200-69-02, электронная почта devonxona[at]infoccnis.uz, адрес Ташкент, ул. Алишера Навои, 40, ссылки на Telegram, Instagram и YouTube.",
       orgName:
         "Инспекция по контролю в сфере строительства и жилищно-коммунального хозяйства при Кабинете Министров Республики Узбекистан",
       sameAs: [
@@ -90,8 +130,8 @@ export default {
           a: "На портале государства: https://gov.uz/ru/nazoratmc (также https://gov.uz/en/nazoratmc и https://gov.uz/oz/nazoratmc). В каталоге сайта ссылка подставляется под язык интерфейса.",
         },
         {
-          q: "Какой телефон доверия указан на портале?",
-          a: "Обычно приводится +998 71 200-69-02; полный перечень — в «Все номера» на gov.uz.",
+          q: "Какие телефоны и почта указаны для связи?",
+          a: "Телефон +99871 200-69-02, телефон доверия 71-200-69-02 (тот же номер), электронная почта devonxona@infoccnis.uz; полный перечень номеров — в «Все номера» на gov.uz.",
         },
         {
           q: "Кому подчиняется инспекция и где описана структура?",
@@ -113,13 +153,53 @@ export default {
       "Inspection for Control in the Sphere of Construction and Housing and Communal Services under the Cabinet of Ministers of the Republic of Uzbekistan",
     intro: [
       "The inspection exercises state control (supervision) in construction and housing and communal services within its mandate under the Cabinet of Ministers of the Republic of Uzbekistan.",
-      "The gov.uz nazoratmc section (https://gov.uz/en/nazoratmc) publishes information on the inspection, structure, leadership, central office, subordinate enterprises, territorial departments, careers and public council. Activities include reports, a register of enterprises producing hazardous construction materials, anti-corruption, eco-active employee, digitalization in construction and communal services, housing and communal services, construction oversight, e-government, international cooperation, youth and gender policy. Public services include FAQs and the unified interactive public services portal (EPIGU). Documents include Presidential Decree UP-66 on effective organization of state control in construction and housing and communal services. Digital government covers program summaries and decrees on openness and public participation (including UP-6247). The press center and contacts cover data use, website management, news, leadership statements, calendar, meetings, press conferences and releases; contacts, surveys, feedback and corruption prevention appeals. The hotline on the portal is commonly +998 71 200-69-02 (verify under “All numbers” on gov.uz).",
+      "The gov.uz nazoratmc section (https://gov.uz/en/nazoratmc) publishes information on the inspection, structure, leadership, central office, subordinate enterprises, territorial departments, careers and public council. Activities include reports, a register of enterprises producing hazardous construction materials, anti-corruption, eco-active employee, digitalization in construction and communal services, housing and communal services, construction oversight, e-government, international cooperation, youth and gender policy. Public services include FAQs and the unified interactive public services portal (EPIGU). Documents include Presidential Decree UP-66 on effective organization of state control in construction and housing and communal services. Digital government covers program summaries and decrees on openness and public participation (including UP-6247). The press center and contacts cover data use, website management, news, leadership statements, calendar, meetings, press conferences and releases; contacts, surveys, feedback and corruption prevention appeals. Phone +99871 200-69-02, trust line 71-200-69-02 (same number in local format) and email devonxona@infoccnis.uz are listed on Govinfo; verify all numbers under “All numbers” on gov.uz.",
       "Useful for developers, contractors, housing and utilities management, designers and citizens filing appeals or seeking regulatory information.",
     ],
     officialSite: {
       h2: "Official section on gov.uz",
       ctaText:
         "Open the construction and housing & communal services inspection section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [{ display: "+99871 200-69-02", href: "tel:+998712006902" }],
+      trustPhone: { display: "71-200-69-02", href: "tel:+998712006902" },
+      email: {
+        display: "devonxona@infoccnis.uz",
+        href: "mailto:devonxona@infoccnis.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/OZR_QSN" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/qurilish_kommunal_inspeksiyasi/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@Qurilishkommunalinspeksiyasi",
+        },
+      ],
+      address: "Uzbekistan, Tashkent, Alisher Navoi street, 40",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are based on the UzGovInfo portal (govinfo.uz), page of the construction and housing and communal services inspection (nazoratmc).",
+        reuseNoticeBefore: "When reusing materials from this site, attribution to the ",
+        reuseLinkText: "website",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/nazoratmc",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -177,7 +257,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Inspection for control in the sphere of construction and housing and communal services under the Cabinet of Ministers of the Republic of Uzbekistan on gov.uz (nazoratmc).",
+        "Official section of the Inspection for control in the sphere of construction and housing and communal services under the Cabinet of Ministers of the Republic of Uzbekistan on gov.uz (nazoratmc): phone +99871 200-69-02, trust line 71-200-69-02, email devonxona[at]infoccnis.uz, address Tashkent, Alisher Navoi street 40, Telegram, Instagram and YouTube links.",
       orgName:
         "Inspection for Control in the Sphere of Construction and Housing and Communal Services under the Cabinet of Ministers of the Republic of Uzbekistan",
       sameAs: [
@@ -194,8 +274,8 @@ export default {
           a: "On the government portal: https://gov.uz/en/nazoratmc (also https://gov.uz/ru/nazoratmc and https://gov.uz/oz/nazoratmc). The catalog link matches your interface language.",
         },
         {
-          q: "What is the hotline on the portal?",
-          a: "The portal usually lists +998 71 200-69-02; see “All numbers” on gov.uz for the full list.",
+          q: "What phone numbers and email are listed for contact?",
+          a: "Phone +99871 200-69-02, trust line 71-200-69-02 (same number), email devonxona@infoccnis.uz; see “All numbers” on gov.uz for the full list.",
         },
         {
           q: "Which body oversees the inspection, and where is the structure?",
@@ -217,13 +297,53 @@ export default {
       "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Qurilish va uy-joy kommunal xoʻjaligi sohasida nazorat qilish inspeksiyasi",
     intro: [
       "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Qurilish va uy-joy kommunal xoʻjaligi sohasida nazorat qilish inspeksiyasi qurilish va uy-joy kommunal xoʻjaligi sohasida davlat nazoratini (kuzatuvini) vakolat doirasida amalga oshiradi.",
-      "gov.uz «nazoratmc» boʻlimi (https://gov.uz/oz/nazoratmc) da inspeksiya, tuzilma, rahbariyat, markaziy apparat, boʻysunuvchi korxonalar, hududiy boshqarmalar, inspeksiyada ish, jamoat kengashi haqida maʼlumotlar joylashtiriladi. «Faoliyat»da hisobotlar, xavfli qurilish materiallarini ishlab chiqaruvchi va etkazib beruvchi korxonalar roʻyxati, korrupsiyaga qarshi kurash, qurilish va kommunal sohada raqamlashtirish, MJKX, qurilish sohasida nazorat, elektron hukumat, xalqaro hamkorlik, yoshlar va gender siyosati. «Davlat xizmatlari»da savollar-javoblar, interaktiv davlat xizmatlari yagona portali (EPIGU). «Hujjatlar»da asosiy hujjatlar, jumladan Prezidentning «Qurilish va uy-joy kommunal xoʻjaligi sohasida davlat nazoratini samarali tashkil etish chora-tadbirlari toʻgʻrisida» УП-66-sonli Farmoni. «Raqamli davlat»da dasturlar va ochiq boʻyicha yirik farmonlar (УП-6247 va boshqalar). Matbuot va aloqa: maʼlumotlardan foydalanish, sayt boshqaruvi, yangiliklar, rahbariyat nutqlari, tadbirlar, uchrashuvlar, matbuot anjumanlari; kontaktlar, soʻrovnomalar, qayta aloqa, korrupsiyaga qarshi murojaat. Ishonch telefoni: +998 71 200-69-02 («Barcha raqamlar» dan tekshiring).",
+      "gov.uz «nazoratmc» boʻlimi (https://gov.uz/oz/nazoratmc) da inspeksiya, tuzilma, rahbariyat, markaziy apparat, boʻysunuvchi korxonalar, hududiy boshqarmalar, inspeksiyada ish, jamoat kengashi haqida maʼlumotlar joylashtiriladi. «Faoliyat»da hisobotlar, xavfli qurilish materiallarini ishlab chiqaruvchi va etkazib beruvchi korxonalar roʻyxati, korrupsiyaga qarshi kurash, qurilish va kommunal sohada raqamlashtirish, MJKX, qurilish sohasida nazorat, elektron hukumat, xalqaro hamkorlik, yoshlar va gender siyosati. «Davlat xizmatlari»da savollar-javoblar, interaktiv davlat xizmatlari yagona portali (EPIGU). «Hujjatlar»da asosiy hujjatlar, jumladan Prezidentning «Qurilish va uy-joy kommunal xoʻjaligi sohasida davlat nazoratini samarali tashkil etish chora-tadbirlari toʻgʻrisida» УП-66-sonli Farmoni. «Raqamli davlat»da dasturlar va ochiq boʻyicha yirik farmonlar (УП-6247 va boshqalar). Matbuot va aloqa: maʼlumotlardan foydalanish, sayt boshqaruvi, yangiliklar, rahbariyat nutqlari, tadbirlar, uchrashuvlar, matbuot anjumanlari; kontaktlar, soʻrovnomalar, qayta aloqa, korrupsiyaga qarshi murojaat. Telefon +99871 200-69-02, ishonch 71-200-69-02 (bir xil raqam), devonxona@infoccnis.uz va Toshkent manzili govinfo.uz boʻyicha; toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
       "loyihachilar, pudratchilar, MJKX boshqaruvchilar va murojaat qiluvchi fuqarolar uchun foydali.",
     ],
     officialSite: {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText:
         "gov.uz da qurilish va MJKX boʻyicha inspeksiya boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [{ display: "+99871 200-69-02", href: "tel:+998712006902" }],
+      trustPhone: { display: "71-200-69-02", href: "tel:+998712006902" },
+      email: {
+        display: "devonxona@infoccnis.uz",
+        href: "mailto:devonxona@infoccnis.uz",
+      },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/OZR_QSN" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/qurilish_kommunal_inspeksiyasi/",
+        },
+        {
+          id: "youtube",
+          label: "YouTube",
+          url: "https://www.youtube.com/@Qurilishkommunalinspeksiyasi",
+        },
+      ],
+      address: "Oʻzbekiston, Toshkent, Alisher Navoiy koʻchasi, 40",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz) boʻyicha qurilish va uy-joy kommunal xoʻjaligi sohasida nazorat inspeksiyasi (nazoratmc) sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/nazoratmc",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -282,7 +402,7 @@ export default {
     },
     schema: {
       description:
-        "Vazirlar Mahkamasi huzuridagi Qurilish va uy-joy kommunal xoʻjaligi sohasida nazorat qilish inspeksiyasining gov.uz portali boʻlimi (nazoratmc).",
+        "Vazirlar Mahkamasi huzuridagi Qurilish va uy-joy kommunal xoʻjaligi sohasida nazorat qilish inspeksiyasining gov.uz portali boʻlimi (nazoratmc): telefon +99871 200-69-02, ishonch telefoni 71-200-69-02, elektron pochta devonxona[at]infoccnis.uz, manzil Toshkent, Alisher Navoiy koʻchasi, 40, Telegram, Instagram va YouTube havolalari.",
       orgName:
         "Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Qurilish va uy-joy kommunal xoʻjaligi sohasida nazorat qilish inspeksiyasi",
       sameAs: [
@@ -299,8 +419,8 @@ export default {
           a: "Davlat portali: https://gov.uz/oz/nazoratmc (shuningdek https://gov.uz/ru/nazoratmc va https://gov.uz/en/nazoratmc). Katalogdagi havola interfeys tiliga mos keladi.",
         },
         {
-          q: "Ishonch telefoni qanday?",
-          a: "Odatda +998 71 200-69-02; toʻliq roʻyxat — gov.uz dagi «Barcha raqamlar».",
+          q: "Aloqa uchun telefon va pochta qanday?",
+          a: "Telefon +99871 200-69-02, ishonch telefoni 71-200-69-02 (bir xil raqam), elektron pochta devonxona@infoccnis.uz; toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
         },
         {
           q: "Inspeksiya qayerda tuzilgan va tuzilma qayerda?",

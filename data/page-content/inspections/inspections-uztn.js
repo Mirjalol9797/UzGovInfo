@@ -8,13 +8,50 @@ export default {
       "Инспекция по транспортному контролю при Министерстве транспорта Республики Узбекистан",
     intro: [
       "Инспекция по транспортному контролю при Министерстве транспорта Республики Узбекистан осуществляет государственный контроль (надзор) в сфере транспорта в пределах компетенции.",
-      "На портале gov.uz в разделе uztn (https://gov.uz/ru/uztn) публикуются сведения о положении об инспекции, организации, руководстве, центральном аппарате, подведомственных организациях, региональных управлениях, вакансиях, приёмных днях для физических и юридических лиц, годовом плане проверок. В «Деятельности» — статистика, часто задаваемые вопросы, конкурсы и тендеры, сведения о противодействии коррупции, электронное правительство, международное сотрудничество, антикоррупционная работа, молодёжная и гендерная политика. В «Государственных услугах» — вопросы и ответы, обучающие материалы по использованию онлайн-сервисов, статистика интерактивных услуг. В «Документах» — утерянные документы, руководящие документы, проекты нормативных актов, технические документы, нормативные акты ведомства, акты Кабинета Министров и Президента, законы. В «Цифровом правительстве» — интерактивные сервисы, обратная связь, проверка статуса обращения, открытые данные, общественный совет при инспекции, статистика рассмотрения заявлений, финансовая отчётность (в т.ч. по постановлению 3299), отчёт о деятельности, сведения об учреждениях в структуре инспекции, банковские реквизиты, публикации по коллегиальным заседаниям. Пресс-служба и контакты: объявления, ведение сайта, новости, пресс-конференции, пресс-релизы, календарь, заседания, выступления руководства; контакты, опросы, обращения по противодействию коррупции, статистика обращений. Горячая линия на портале: +998 71 202-03-02 (актуальные номера — в «Все номера» на gov.uz).",
+      "На портале gov.uz в разделе uztn (https://gov.uz/ru/uztn) публикуются сведения о положении об инспекции, организации, руководстве, центральном аппарате, подведомственных организациях, региональных управлениях, вакансиях, приёмных днях для физических и юридических лиц, годовом плане проверок. В «Деятельности» — статистика, часто задаваемые вопросы, конкурсы и тендеры, сведения о противодействии коррупции, электронное правительство, международное сотрудничество, антикоррупционная работа, молодёжная и гендерная политика. В «Государственных услугах» — вопросы и ответы, обучающие материалы по использованию онлайн-сервисов, статистика интерактивных услуг. В «Документах» — утерянные документы, руководящие документы, проекты нормативных актов, технические документы, нормативные акты ведомства, акты Кабинета Министров и Президента, законы. В «Цифровом правительстве» — интерактивные сервисы, обратная связь, проверка статуса обращения, открытые данные, общественный совет при инспекции, статистика рассмотрения заявлений, финансовая отчётность (в т.ч. по постановлению 3299), отчёт о деятельности, сведения об учреждениях в структуре инспекции, банковские реквизиты, публикации по коллегиальным заседаниям. Пресс-служба и контакты: объявления, ведение сайта, новости, пресс-конференции, пресс-релизы, календарь, заседания, выступления руководства; контакты, опросы, обращения по противодействию коррупции, статистика обращений. По сведениям UzGovInfo (govinfo.uz) и раздела на gov.uz: телефон и телефон доверия +99871 202-03-02 (доб. 442), электронная почта devon@uztn.uz; автобусы 58, 83, 88, 89, 95, 136, 199; полный перечень номеров — в «Все номера» на gov.uz.",
       "Полезна перевозчикам, владельцам транспортных средств, проектным и эксплуатационным организациям и гражданам при обращениях и поиске нормативных требований.",
     ],
     officialSite: {
       h2: "Официальный раздел на gov.uz",
       ctaText:
         "Перейти в раздел инспекции транспортного контроля на gov.uz →",
+    },
+    contacts: {
+      h2: "Контакты",
+      labels: {
+        phone: "Телефон",
+        trustPhone: "Телефон доверия",
+        email: "Эл. адрес",
+        social: "Социальные сети",
+        address: "Адрес",
+        transport: "Транспорт",
+        hours: "Рабочее время",
+      },
+      phones: [
+        { display: "+99871 202-03-02 (442)", href: "tel:+998712020302;ext=442" },
+      ],
+      trustPhone: { display: "+99871 202-03-02 (442)", href: "tel:+998712020302;ext=442" },
+      email: { display: "devon@uztn.uz", href: "mailto:devon@uztn.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/uztransnazorat" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/transport_inspeksiyasi/",
+        },
+      ],
+      address:
+        "100000, г. Ташкент, Мирзо-Улугбекский район, 2-й проезд Катта Дархон, дом 5 (41.330679, 69.310762)",
+      transport: "Автобусы: 58, 83, 88, 89, 95, 136, 199",
+      hours: "Понедельник–пятница, 9:00–18:00; обед 13:00–14:00",
+      sourceAttribution: {
+        dataSource:
+          "Контактные данные приведены по сведениям портала UzGovInfo (govinfo.uz), страница Инспекции по транспортному контролю при Министерстве транспорта (uztn).",
+        reuseNoticeBefore: "При использовании материалов с данного сайта ссылка на ",
+        reuseLinkText: "сайт",
+        reuseNoticeAfter: " обязательна.",
+        reuseUrl: "https://gov.uz/ru/uztn",
+      },
     },
     whatFind: {
       h2: "Что можно найти на официальном ресурсе",
@@ -73,7 +110,7 @@ export default {
     },
     schema: {
       description:
-        "Официальный раздел Инспекции по транспортному контролю при Министерстве транспорта Республики Узбекистан на портале gov.uz (uztn).",
+        "Официальный раздел Инспекции по транспортному контролю при Министерстве транспорта Республики Узбекистан на портале gov.uz (uztn): телефон и телефон доверия +99871 202-03-02 (доб. 442), электронная почта devon[at]uztn.uz, адрес 100000, Ташкент, Мирзо-Улугбекский район, 2-й проезд Катта Дархон, дом 5, автобусы 58, 83, 88, 89, 95, 136, 199, понедельник–пятница 9:00–18:00, обед 13:00–14:00, ссылки на социальные сети.",
       orgName:
         "Инспекция по транспортному контролю при Министерстве транспорта Республики Узбекистан",
       sameAs: [
@@ -90,8 +127,8 @@ export default {
           a: "На портале государства: https://gov.uz/ru/uztn (также https://gov.uz/en/uztn и https://gov.uz/oz/uztn). В каталоге сайта ссылка подставляется под язык интерфейса.",
         },
         {
-          q: "Какой телефон горячей линии указан на портале?",
-          a: "Обычно приводится +998 71 202-03-02; полный перечень — в «Все номера» на gov.uz.",
+          q: "Какие телефон, почта, адрес и режим работы указаны для связи?",
+          a: "Телефон и телефон доверия +99871 202-03-02 (доб. 442), электронная почта devon@uztn.uz, адрес и проезд на автобусах — в блоке контактов на странице (по govinfo.uz); полный перечень номеров — в «Все номера» на gov.uz.",
         },
         {
           q: "Кому подчиняется инспекция и где описана структура?",
@@ -113,13 +150,50 @@ export default {
       "Inspection for Transport Supervision under the Ministry of Transport of the Republic of Uzbekistan",
     intro: [
       "The inspection exercises state supervision in the transport sector within its mandate under the Ministry of Transport of the Republic of Uzbekistan.",
-      "The gov.uz uztn section (https://gov.uz/en/uztn) publishes inspection regulations, about the inspection, structure, administration, central staff, subordinate and regional bodies, vacancies, reception days for individuals and legal entities, and the annual inspection plan. Activities include statistical data, FAQ, competitions and tenders, anti-corruption information, e-government, international cooperation, anti-corruption, youth and gender policy. Public services include FAQ, tutorials on online services, and interactive services statistics. Documents cover lost documents, guiding documents, draft regulations, technical documents, departmental regulations, Cabinet and presidential acts, and laws. Digital government includes interactive services, feedback, feedback status, open data, public council oversight, application review statistics, financial reporting (including under Statement 3299), activity reports, institutions in the inspectorate’s structure, bank details, and reporting meeting publications. Press and contacts cover advertisements, website maintenance, news, press conferences, press releases, calendar, meetings, leadership statements; contacts, surveys, corruption prevention appeals, and request statistics. The hotline on the portal is commonly +998 71 202-03-02 (verify under “All numbers” on gov.uz).",
+      "The gov.uz uztn section (https://gov.uz/en/uztn) publishes inspection regulations, about the inspection, structure, administration, central staff, subordinate and regional bodies, vacancies, reception days for individuals and legal entities, and the annual inspection plan. Activities include statistical data, FAQ, competitions and tenders, anti-corruption information, e-government, international cooperation, anti-corruption, youth and gender policy. Public services include FAQ, tutorials on online services, and interactive services statistics. Documents cover lost documents, guiding documents, draft regulations, technical documents, departmental regulations, Cabinet and presidential acts, and laws. Digital government includes interactive services, feedback, feedback status, open data, public council oversight, application review statistics, financial reporting (including under Statement 3299), activity reports, institutions in the inspectorate’s structure, bank details, and reporting meeting publications. Press and contacts cover advertisements, website maintenance, news, press conferences, press releases, calendar, meetings, leadership statements; contacts, surveys, corruption prevention appeals, and request statistics. Per UzGovInfo (govinfo.uz) and the gov.uz section: phone and trust line +99871 202-03-02 (ext. 442), email devon@uztn.uz; buses 58, 83, 88, 89, 95, 136, 199; for the full list see “All numbers” on gov.uz.",
       "Useful for carriers, vehicle owners, design and operations teams, and citizens filing appeals or seeking regulatory information.",
     ],
     officialSite: {
       h2: "Official section on gov.uz",
       ctaText:
         "Open the transport supervision inspection section on gov.uz →",
+    },
+    contacts: {
+      h2: "Contacts",
+      labels: {
+        phone: "Phone",
+        trustPhone: "Trust line",
+        email: "Email",
+        social: "Social media",
+        address: "Address",
+        transport: "Transport",
+        hours: "Office hours",
+      },
+      phones: [
+        { display: "+99871 202-03-02 (442)", href: "tel:+998712020302;ext=442" },
+      ],
+      trustPhone: { display: "+99871 202-03-02 (442)", href: "tel:+998712020302;ext=442" },
+      email: { display: "devon@uztn.uz", href: "mailto:devon@uztn.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/uztransnazorat" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/transport_inspeksiyasi/",
+        },
+      ],
+      address:
+        "100000, Tashkent, Mirzo Ulugbek district, 2nd passage Katta Darkhon, building 5 (41.330679, 69.310762)",
+      transport: "Buses: 58, 83, 88, 89, 95, 136, 199",
+      hours: "Monday–Friday, 9:00–18:00; lunch break 13:00–14:00",
+      sourceAttribution: {
+        dataSource:
+          "Contact details are taken from the UzGovInfo portal (govinfo.uz), page of the Inspection for Transport Supervision under the Ministry of Transport (uztn).",
+        reuseNoticeBefore: "When using materials from this site, a link to the ",
+        reuseLinkText: "site",
+        reuseNoticeAfter: " is required.",
+        reuseUrl: "https://gov.uz/en/uztn",
+      },
     },
     whatFind: {
       h2: "What you can find there",
@@ -177,7 +251,7 @@ export default {
     },
     schema: {
       description:
-        "Official section of the Inspection for Transport Supervision under the Ministry of Transport of the Republic of Uzbekistan on gov.uz (uztn).",
+        "Official section of the Inspection for Transport Supervision under the Ministry of Transport of the Republic of Uzbekistan on gov.uz (uztn): phone and trust line +99871 202-03-02 (ext. 442), email devon[at]uztn.uz, address 100000, Tashkent, Mirzo Ulugbek district, 2nd passage Katta Darkhon, building 5, buses 58, 83, 88, 89, 95, 136, 199, Monday–Friday 9:00–18:00, lunch 13:00–14:00, social media links.",
       orgName:
         "Inspection for Transport Supervision under the Ministry of Transport of the Republic of Uzbekistan",
       sameAs: [
@@ -194,8 +268,8 @@ export default {
           a: "On the government portal: https://gov.uz/en/uztn (also https://gov.uz/ru/uztn and https://gov.uz/oz/uztn). The catalog link matches your interface language.",
         },
         {
-          q: "What is the hotline on the portal?",
-          a: "The portal usually lists +998 71 202-03-02; see “All numbers” on gov.uz for the full list.",
+          q: "What phone, email, address, and office hours are listed for contact?",
+          a: "Phone and trust line +99871 202-03-02 (ext. 442), email devon@uztn.uz, address and buses — in the contacts block on this page (per govinfo.uz); see “All numbers” on gov.uz for the full list.",
         },
         {
           q: "Which body oversees the inspection, and where is the structure?",
@@ -217,13 +291,50 @@ export default {
       "Oʻzbekiston Respublikasi Transport vazirligi huzuridagi Transport nazorati inspeksiyasi",
     intro: [
       "Oʻzbekiston Respublikasi Transport vazirligi huzuridagi Transport nazorati inspeksiyasi transport sohasida davlat nazoratini (kuzatuvini) vakolat doirasida amalga oshiradi.",
-      "gov.uz «uztn» boʻlimi (https://gov.uz/oz/uztn) da inspeksiya toʻgʻrisida nizom, tashkilot, rahbariyat, markaziy apparat, boʻysunuvchi va hududiy organlar, boʻsh ish oʻrinlari, qabul kunlari, yillik tekshiruv rejasi haqida maʼlumotlar joylashtiriladi. «Faoliyat»da statistika, tez-tez beriladigan savollar, tenderlar, korrupsiyaga qarshi kurash, elektron hukumat, xalqaro hamkorlik, yoshlar va gender siyosati. «Davlat xizmatlari»da savollar-javoblar, onlayn xizmatlar boʻyicha qoʻllanmalar, interaktiv xizmatlar statistikasi. «Hujjatlar»da yoʻqolgan hujjatlar, yoʻriqnoma hujjatlari, loyiha NPHlar, texnik hujjatlar, vazirlik hujjatlari, Vazirlar Mahkamasi va Prezident hujjatlari, qonunlar. «Raqamli davlat»da interaktiv xizmatlar, qayta aloqa, murojaat holati, ochiq maʼlumotlar, jamoat kengashi, arizalarni koʻrib chiqish statistikasi, moliyaviy hisobotlar (jumladan 3299-sonli qaror), faoliyat hisoboti, inspeksiya tarkibidagi muassasalar, bank rekvizitlari. Matbuot va aloqa: eʼlonlar, sayt boshqaruvi, yangiliklar, matbuot anjumanlari, press-relizlar, tadbirlar; kontaktlar, soʻrovnomalar, korrupsiyaga qarshi murojaat, murojaatlar statistikasi. Ishonch liniyasi: +998 71 202-03-02 («Barcha raqamlar» dan tekshiring).",
+      "gov.uz «uztn» boʻlimi (https://gov.uz/oz/uztn) da inspeksiya toʻgʻrisida nizom, tashkilot, rahbariyat, markaziy apparat, boʻysunuvchi va hududiy organlar, boʻsh ish oʻrinlari, qabul kunlari, yillik tekshiruv rejasi haqida maʼlumotlar joylashtiriladi. «Faoliyat»da statistika, tez-tez beriladigan savollar, tenderlar, korrupsiyaga qarshi kurash, elektron hukumat, xalqaro hamkorlik, yoshlar va gender siyosati. «Davlat xizmatlari»da savollar-javoblar, onlayn xizmatlar boʻyicha qoʻllanmalar, interaktiv xizmatlar statistikasi. «Hujjatlar»da yoʻqolgan hujjatlar, yoʻriqnoma hujjatlari, loyiha NPHlar, texnik hujjatlar, vazirlik hujjatlari, Vazirlar Mahkamasi va Prezident hujjatlari, qonunlar. «Raqamli davlat»da interaktiv xizmatlar, qayta aloqa, murojaat holati, ochiq maʼlumotlar, jamoat kengashi, arizalarni koʻrib chiqish statistikasi, moliyaviy hisobotlar (jumladan 3299-sonli qaror), faoliyat hisoboti, inspeksiya tarkibidagi muassasalar, bank rekvizitlari. Matbuot va aloqa: eʼlonlar, sayt boshqaruvi, yangiliklar, matbuot anjumanlari, press-relizlar, tadbirlar; kontaktlar, soʻrovnomalar, korrupsiyaga qarshi murojaat, murojaatlar statistikasi. UzGovInfo (govinfo.uz) va gov.uz boʻlimi boʻyicha: telefon va ishonch liniyasi +99871 202-03-02 (442), elektron pochta devon@uztn.uz; avtobuslar 58, 83, 88, 89, 95, 136, 199; toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
       "tashuvchilar, transport egalari va murojaat qiluvchi fuqarolar uchun foydali.",
     ],
     officialSite: {
       h2: "gov.uz dagi rasmiy boʻlim",
       ctaText:
         "gov.uz da transport nazorati inspeksiyasi boʻlimiga oʻtish →",
+    },
+    contacts: {
+      h2: "Kontaktlar",
+      labels: {
+        phone: "Telefon",
+        trustPhone: "Ishonch telefoni",
+        email: "Elektron pochta",
+        social: "Ijtimoiy tarmoqlar",
+        address: "Manzil",
+        transport: "Transport",
+        hours: "Ish vaqti",
+      },
+      phones: [
+        { display: "+99871 202-03-02 (442)", href: "tel:+998712020302;ext=442" },
+      ],
+      trustPhone: { display: "+99871 202-03-02 (442)", href: "tel:+998712020302;ext=442" },
+      email: { display: "devon@uztn.uz", href: "mailto:devon@uztn.uz" },
+      social: [
+        { id: "telegram", label: "Telegram", url: "https://t.me/uztransnazorat" },
+        {
+          id: "instagram",
+          label: "Instagram",
+          url: "https://www.instagram.com/transport_inspeksiyasi/",
+        },
+      ],
+      address:
+        "100000, Toshkent, M.Ulugʻbek tumani, Katta Darxon 2-oʻtkazmasi, 5-uy (41.330679, 69.310762)",
+      transport: "Avtobuslar: 58, 83, 88, 89, 95, 136, 199",
+      hours: "Dushanba–juma, 9:00–18:00; tushlik 13:00–14:00",
+      sourceAttribution: {
+        dataSource:
+          "Kontakt maʼlumotlari UzGovInfo portali (govinfo.uz) boʻyicha Transport vazirligi huzuridagi Transport nazorati inspeksiyasi (uztn) sahifasidan olingan.",
+        reuseNoticeBefore: "Ushbu sayt materiallaridan foydalanganda ",
+        reuseLinkText: "saytga",
+        reuseNoticeAfter: " havola qoʻyish majburiy.",
+        reuseUrl: "https://gov.uz/oz/uztn",
+      },
     },
     whatFind: {
       h2: "Rasmiy resursda nimalar bor",
@@ -282,7 +393,7 @@ export default {
     },
     schema: {
       description:
-        "Transport vazirligi huzuridagi Transport nazorati inspeksiyasining gov.uz portali boʻlimi (uztn).",
+        "Transport vazirligi huzuridagi Transport nazorati inspeksiyasining gov.uz portali boʻlimi (uztn): telefon va ishonch liniyasi +99871 202-03-02 (442), elektron pochta devon[at]uztn.uz, manzil 100000, Toshkent, M.Ulugʻbek tumani, Katta Darxon 2-oʻtkazmasi, 5-uy, avtobuslar 58, 83, 88, 89, 95, 136, 199, dushanba–juma 9:00–18:00, tushlik 13:00–14:00, ijtimoiy tarmoqlar havolalari.",
       orgName:
         "Oʻzbekiston Respublikasi Transport vazirligi huzuridagi Transport nazorati inspeksiyasi",
       sameAs: [
@@ -299,8 +410,8 @@ export default {
           a: "Davlat portali: https://gov.uz/oz/uztn (shuningdek https://gov.uz/ru/uztn va https://gov.uz/en/uztn). Katalogdagi havola interfeys tiliga mos keladi.",
         },
         {
-          q: "Ishonch liniyasi qanday?",
-          a: "Odatda +998 71 202-03-02; toʻliq roʻyxat — gov.uz dagi «Barcha raqamlar».",
+          q: "Aloqa uchun qanday telefon, pochta, manzil va ish vaqti koʻrsatilgan?",
+          a: "Telefon va ishonch liniyasi +99871 202-03-02 (442), elektron pochta devon@uztn.uz, manzil va avtobuslar — sahifadagi kontaktlar blokida (govinfo.uz boʻyicha); toʻliq raqamlar — gov.uz dagi «Barcha raqamlar».",
         },
         {
           q: "Inspeksiya qayerda tuzilgan va tuzilma qayerda?",
